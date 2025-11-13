@@ -1,0 +1,87 @@
+#pragma kernel Convert
+/*
+// Input: The 3D TSDF texture from EnvironmentMapper
+Texture3D<half> TSDFVolume;
+
+// Input: The dimensions of the texture
+uint3 Dims;
+
+// Output: A flat buffer of float values for the Marching Cubes system
+RWStructuredBuffer<float> VoxelBuffer;
+
+// This function converts a 3D coordinate (x,y,z) into a 1D index
+uint flatten_index(uint3 id)
+{
+    return id.x + Dims.x * (id.y + Dims.y * id.z);
+}
+
+[numthreads(8, 8, 8)]
+void Convert(uint3 id : SV_DispatchThreadID)
+{
+    // Boundary check
+    if (any(id >= Dims))
+        return;
+
+    // Read the TSDF value from the 3D texture at this coordinate
+    half tsdf_value = TSDFVolume[id];
+
+    // Calculate the corresponding index in the flat 1D buffer
+    uint index = flatten_index(id);
+    
+    // Write the value to the buffer
+    VoxelBuffer[index] = tsdf_value;
+}
+*/
+
+#pragma kernel Convert
+
+Texture3D<half> TSDFVolume;
+uint3 Dims;
+RWStructuredBuffer<float> VoxelBuffer;
+
+uint flatten_index(uint3 id)
+{
+    return id.x + Dims.x * (id.y + Dims.y * id.z);
+}
+
+[numthreads(8, 8, 8)]
+void Convert(uint3 id : SV_DispatchThreadID)
+{
+    if (any(id >= Dims))
+        return;
+    VoxelBuffer[flatten_index(id)] = TSDFVolume[id];
+}
+
+// ==========================================================
+
+#pragma kernel ConvertChunk
+
+// INPUTS (same names as above, this is fine)
+// Texture3D<half> TSDFVolume; // Already declared
+uint3 GlobalDims;
+uint3 LocalDims;
+uint3 VoxelOffset;
+
+// OUTPUT (same name as above, also fine)
+// RWStructuredBuffer<float> VoxelBuffer; // Already declared
+
+uint flatten_local_index(uint3 local_id)
+{
+    return local_id.x + LocalDims.x * (local_id.y + LocalDims.y * local_id.z);
+}
+
+[numthreads(8, 8, 8)]
+void ConvertChunk(uint3 id : SV_DispatchThreadID)
+{
+    if (any(id >= LocalDims))
+        return;
+
+    uint3 global_coord = id + VoxelOffset;
+    
+    if (any(global_coord >= GlobalDims))
+        return; // This check is important!
+            
+    half tsdf_value = TSDFVolume[global_coord];
+    uint index = flatten_local_index(id);
+    VoxelBuffer[index] = tsdf_value;
+}

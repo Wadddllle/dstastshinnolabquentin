@@ -1,0 +1,42 @@
+#pragma kernel ConvertChunk
+
+// The big source texture
+Texture3D<half> TSDFVolume;
+
+// The dimensions of the big texture (e.g., 1024, 128, 1024)
+uint3 GlobalDims;
+// The dimensions of the small chunk we're copying (e.g., 32, 128, 32)
+uint3 LocalDims;
+// The starting corner of our chunk in the big texture (e.g., 502, 0, 502)
+uint3 VoxelOffset;
+    
+// The small destination buffer, just for our chunk's data
+RWStructuredBuffer<float> VoxelBuffer;
+
+// Converts a 3D local ID into a 1D index for our local buffer
+uint flatten_local_index(uint3 local_id)
+{
+    return local_id.x + LocalDims.x * (local_id.y + LocalDims.y * local_id.z);
+}
+
+[numthreads(8, 8, 8)]
+void ConvertChunk(uint3 id : SV_DispatchThreadID) // id is the LOCAL coordinate within our chunk
+{
+    // If this thread is outside the bounds of our chunk, do nothing.
+    if (any(id >= LocalDims))
+        return;
+
+    // Calculate the coordinate to read from the BIG global texture
+    uint3 global_coord = id + VoxelOffset;
+    
+    // Safety check: if that global coordinate is outside the source texture, do nothing.
+    if (any(global_coord >= GlobalDims))
+    {
+        // Maybe write a default value? Let's write 1 for "empty".
+        VoxelBuffer[flatten_local_index(id)] = 1.0;
+        return;
+    }
+            
+    // Read the TSDF value (as a half) and write it (as a float)
+    VoxelBuffer[flatten_local_index(id)] = TSDFVolume[global_coord];
+}

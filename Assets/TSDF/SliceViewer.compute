@@ -1,0 +1,31 @@
+#pragma kernel SliceKernel
+
+// Input
+Texture3D<half> _TSDFVolume;
+uint _SliceIndex;
+uint _Axis; // 0=X, 1=Y, 2=Z
+
+// Output
+RWTexture2D<half> _SliceTexture;
+
+[numthreads(8, 8, 1)]
+void SliceKernel(uint2 id : SV_DispatchThreadID)
+{
+    uint3 read_coord;
+    if (_Axis == 0) // X axis slice
+    {
+        read_coord = uint3(_SliceIndex, id.y, id.x);
+    }
+    else if (_Axis == 1) // Y axis slice
+    {
+        read_coord = uint3(id.x, _SliceIndex, id.y);
+    }
+    else // Z axis slice
+    {
+        read_coord = uint3(id.x, id.y, _SliceIndex);
+    }
+    
+    // Sample the 3D volume at the calculated coordinate
+    // We add 0.5 to convert from a [-1, 1] TSDF value to a [0, 1] color value.
+    _SliceTexture[id] = _TSDFVolume[read_coord] * 0.5 + 0.5;
+}

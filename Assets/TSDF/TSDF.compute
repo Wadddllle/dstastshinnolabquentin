@@ -1,0 +1,110 @@
+#pragma kernel Integrate
+#pragma kernel DebugWriteSolid
+
+// --- Uniforms Sent from TSDFManager.cs ---
+RWTexture3D<half> _TSDFVolume;
+Texture2DArray<float> _EnvironmentDepthTexture; // The SDK provides a linear depth texture
+
+uniform float3 _VolumeSize;
+uniform float _MetersPerVoxel;
+uniform int _DebugMode;
+
+uniform float4x4 _CameraView;
+uniform float4x4 _CameraProjection;
+uniform float3 _VolumeCenter;
+
+#define TRUNCATION_DISTANCE 0.2 // Truncate the signed distance at 20cm
+
+SamplerState samplerpoint_clamp
+{
+    Filter = MIN_MAG_MIP_POINT;
+    AddressU = Clamp;
+    AddressV = Clamp;
+};
+
+// --- Kernels ---
+
+[numthreads(8, 8, 8)]
+void Integrate(uint3 id : SV_DispatchThreadID)
+{
+    if (_DebugMode == 1)
+    {
+        int pattern = (((int) id.x / 16) + ((int) id.y / 16) + ((int) id.z / 16)) & 1;
+        _TSDFVolume[id] = (pattern == 0) ? -1.0 : 1.0;
+        return;
+    }
+
+    if (any(id >= _VolumeSize))
+        return;
+
+    // 1. Calculate the voxel's position in world space
+    float3 voxelOffset = ((float3) id - _VolumeSize * 0.5) * _MetersPerVoxel;
+    float3 worldPos = _VolumeCenter + voxelOffset;
+
+    // 2. Transform world position to the camera's view space
+    float4 viewPos = mul(_CameraView, float4(worldPos, 1.0));
+    float viewDepth = -viewPos.z; // Depth is the positive distance in front of the camera plane
+
+    // 3. Project to the screen
+    float4 clipPos = mul(_CameraProjection, viewPos);
+    if (clipPos.w <= 0)
+        return; // Behind camera
+    float3 ndc = clipPos.xyz / clipPos.w;
+    float2 uv = ndc.xy * 0.5 + 0.5;
+    if (uv.x < 0 || uv.x > 1 || uv.y < 0 || uv.y > 1)
+        return; // Off screen
+
+    // 4. Sample the real depth from the SDK's depth texture (using slice 0 for the left eye)
+    float sampledDepth = _EnvironmentDepthTexture.SampleLevel(samplerpoint_clamp, float3(uv, 0), 0);
+    
+    // The Environment Depth Texture is already in meters, so no conversion is needed.
+    if (sampledDepth <= 0)
+        return; // Invalid depth sample
+
+    // 5. Calculate the Signed Distance and truncate it    
+    float sdf = sampledDepth - viewDepth;
+
+    if (abs(sdf) < TRUNCATION_DISTANCE)
+    {
+        float tsdf_value = sdf / TRUNCATION_DISTANCE; // Normalize to a value between -1 and 1
+
+    // --- THIS IS THE NEW "MEMORY" LOGIC ---
+    // Read the old value that's already in the volume
+        float old_tsdf = _TSDFVolume[id];
+
+    // If the old value was empty space (close to 1.0), just write the new value directly.
+    // Otherwise, average the old and new values to make the scan more stable.
+        if (old_tsdf > 0.99)
+        {
+            _TSDFVolume[id] = tsdf_value;
+        }
+        else
+        {
+        // A simple running average. This is the key to stability!
+        // A weight of 0.1 means 10% new data, 90% old data.
+            const float weight = 0.1;
+            _TSDFVolume[id] = (old_tsdf * (1.0 - weight)) + (tsdf_value * weight);
+        }
+    }
+}
+
+// You can keep this simple debug kernel
+[numthreads(8, 8, 8)]
+void DebugWriteSolid(uint3 id : SV_DispatchThreadID)
+{
+    if (any(id >= _VolumeSize))
+        return;
+    _TSDFVolume[id] = -1.0;
+}
+
+#pragma kernel ClearVolume
+
+//... (keep your other kernels and uniforms)
+
+[numthreads(8, 8, 8)]
+void ClearVolume(uint3 id : SV_DispatchThreadID)
+{
+    if (any(id >= _VolumeSize))
+        return;
+    _TSDFVolume[id] = 1.0; // Set to empty
+}

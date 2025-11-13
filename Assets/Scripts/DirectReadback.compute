@@ -1,0 +1,18 @@
+#pragma kernel CSMain
+
+// The big texture we want to read from
+Texture3D<half> Source; // Was <float>, now is <half>
+
+// The tiny buffer we will write the single result to
+RWStructuredBuffer<float> Result;
+
+// The specific (x,y,z) coordinate we want to sample
+int3 ReadCoord;
+
+[numthreads(1, 1, 1)]
+void CSMain(uint3 id : SV_DispatchThreadID)
+{
+    // Copy the value from the Source texture at the given coordinate
+    // into the first (and only) slot of the Result buffer.
+    Result[0] = Source[ReadCoord];
+}
