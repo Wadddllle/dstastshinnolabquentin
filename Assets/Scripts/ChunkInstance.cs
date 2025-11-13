@@ -5,6 +5,7 @@ using Unity.Collections;
 using System;
 using System.Linq;
 using Anaglyph.XRTemplate;
+
 public class ChunkInstance : MonoBehaviour
 {
     // --- State & Dependencies ---
@@ -14,14 +15,16 @@ public class ChunkInstance : MonoBehaviour
     private Material _meshMaterial;
     private EnvironmentMapper _environmentMapper;
     private OVRCameraRig _cameraRig;
-
-    private bool _isUpdating = false; // Prevents spamming update requests
+    private bool _isUpdating = false;
+    private bool _isRendererVisible = true; // Tracks the desired state of the renderer
 
     // --- Components ---
     private MeshFilter _meshFilter;
     private MeshCollider _meshCollider;
+    private MeshRenderer _meshRenderer; // Reference to the renderer component
 
-    public void Initialize(Vector3Int coordinate, Action<Vector3Int> onBuildFailed, VoxelProvider provider, Material material, EnvironmentMapper mapper, OVRCameraRig cameraRig)
+    // MODIFIED: Added 'isVisible' parameter
+    public void Initialize(Vector3Int coordinate, Action<Vector3Int> onBuildFailed, VoxelProvider provider, Material material, EnvironmentMapper mapper, OVRCameraRig cameraRig, bool isVisible)
     {
         _coordinate = coordinate;
         _onBuildFailed = onBuildFailed;
@@ -29,17 +32,27 @@ public class ChunkInstance : MonoBehaviour
         _meshMaterial = material;
         _environmentMapper = mapper;
         _cameraRig = cameraRig;
+        _isRendererVisible = isVisible; // Store the initial visibility state
 
         gameObject.name = $"Chunk_{_coordinate.x}_{_coordinate.y}_{_coordinate.z}";
-
-        // Start the very first mesh build process
         InitialBuild();
     }
 
-    // --- Public method for the manager to call ---
+    /// <summary>
+    /// Public method to control the visibility of the chunk's mesh renderer.
+    /// </summary>
+    public void SetRendererVisibility(bool isVisible)
+    {
+        _isRendererVisible = isVisible;
+        if (_meshRenderer != null)
+        {
+            _meshRenderer.enabled = _isRendererVisible;
+        }
+    }
+
     public void TriggerUpdate()
     {
-        if (_isUpdating) return; // Don't start a new update if one is already running
+        if (_isUpdating) return;
         UpdateMesh();
     }
 
@@ -50,9 +63,10 @@ public class ChunkInstance : MonoBehaviour
             Mesh newMesh = await BuildMeshTask();
             if (newMesh != null)
             {
-                // On the first build, we ADD the components
                 _meshFilter = gameObject.AddComponent<MeshFilter>();
-                gameObject.AddComponent<MeshRenderer>().material = _meshMaterial;
+                _meshRenderer = gameObject.AddComponent<MeshRenderer>(); // Store the reference
+                _meshRenderer.material = _meshMaterial;
+                _meshRenderer.enabled = _isRendererVisible; // Set initial state
                 _meshCollider = gameObject.AddComponent<MeshCollider>();
 
                 _meshFilter.mesh = newMesh;
@@ -76,15 +90,9 @@ public class ChunkInstance : MonoBehaviour
             Mesh newMesh = await BuildMeshTask();
             if (newMesh != null)
             {
-                // --- THE SEAMLESS SWAP ---
-                // 1. Get the old mesh to destroy it later
                 Mesh oldMesh = _meshFilter.mesh;
-
-                // 2. Assign the new mesh to the existing components
                 _meshFilter.mesh = newMesh;
                 _meshCollider.sharedMesh = newMesh;
-
-                // 3. Clean up the old mesh data to prevent memory leaks
                 if (oldMesh != null)
                 {
                     Destroy(oldMesh);
@@ -102,45 +110,31 @@ public class ChunkInstance : MonoBehaviour
         }
     }
 
-    // This is the core, reusable task that builds and returns a mesh.
     private async Task<Mesh> BuildMeshTask()
     {
         var mesher = new Mesher();
         Chunk chunkData = null;
         Mesh finalMesh = null;
-
         try
         {
             var voxelOrigin = ChunkCoordToVoxelOrigin(_coordinate);
             chunkData = await _voxelProvider.GetVoxelDataForChunk(voxelOrigin, new Vector3Int(Chunk.ChunkSizeX, Chunk.ChunkSizeY, Chunk.ChunkSizeZ));
-
             if (chunkData == null)
             {
                 _onBuildFailed?.Invoke(_coordinate);
                 Destroy(gameObject);
                 return null;
             }
-
             mesher.StartMeshJob(chunkData, Mesher.Mode.Naive);
             mesher.WaitForMeshJob();
-
             if (mesher.Vertices.Length > 2)
             {
-                // Set transform properties on the GameObject itself
                 Vector3 unrotatedPosition = ChunkVoxelOriginToLocalPos(voxelOrigin);
                 transform.position = _cameraRig.trackingSpace.TransformPoint(unrotatedPosition);
                 transform.rotation = _cameraRig.trackingSpace.rotation * Quaternion.Euler(0, -90, 0);
                 float scale = _environmentMapper.metersPerVoxel;
-
-                // --- THIS IS THE FIX ---
-                // Calculate the precise scale needed to close the 1-voxel gap.
-                float gapCorrectionScale = (float)Chunk.ChunkSizeX / (Chunk.ChunkSizeX - 1.0f); // This is 32.0f / 31.0f
-
-                // Apply the base scale and the gap correction scale.
+                float gapCorrectionScale = (float)Chunk.ChunkSizeX / (Chunk.ChunkSizeX - 1.0f);
                 transform.localScale = new Vector3(scale, scale, -scale) * gapCorrectionScale;
-                // --- END FIX ---
-
-
                 finalMesh = new Mesh();
                 finalMesh.SetMesh(mesher);
                 finalMesh.triangles = finalMesh.triangles.Reverse().ToArray();
@@ -149,7 +143,6 @@ public class ChunkInstance : MonoBehaviour
             }
             else
             {
-                // If the updated mesh is empty, the chunk should be removed.
                 _onBuildFailed?.Invoke(_coordinate);
                 Destroy(gameObject);
                 return null;
@@ -163,7 +156,6 @@ public class ChunkInstance : MonoBehaviour
         return finalMesh;
     }
 
-    // --- Coordinate Functions ---
     private Vector3Int ChunkCoordToVoxelOrigin(Vector3Int chunkCoord)
     {
         var dims = new Vector3Int(Chunk.ChunkSizeX, Chunk.ChunkSizeY, Chunk.ChunkSizeZ);

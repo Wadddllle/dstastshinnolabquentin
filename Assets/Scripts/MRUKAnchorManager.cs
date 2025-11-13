@@ -22,6 +22,8 @@ public class MRUKAnchorManager : MonoBehaviour
 
     public static Transform AnchorParent { get; private set; }
 
+    private MeshRenderer _floorRenderer;
+
     void Start()
     {
         if (_worldContent == null)
@@ -94,20 +96,29 @@ public class MRUKAnchorManager : MonoBehaviour
         plane.transform.SetParent(floorObject.transform, false);
         plane.transform.localScale = Vector3.one * (_floorSize / 10.0f);
 
-        var renderer = plane.GetComponent<MeshRenderer>();
+        _floorRenderer = plane.GetComponent<MeshRenderer>();
+
         if (_floorVisualMaterial != null)
         {
-            renderer.material = _floorVisualMaterial;
+            _floorRenderer.material = _floorVisualMaterial;
         }
         else
         {
-            Destroy(renderer);
+            // If no material, disable the renderer but don't destroy it.
+            _floorRenderer.enabled = false;
         }
 
         var collider = plane.GetComponent<Collider>();
         if (_floorPhysicMaterial != null)
         {
             collider.material = _floorPhysicMaterial;
+        }
+    }
+    public void ToggleFloorVisibility()
+    {
+        if (_floorRenderer != null)
+        {
+            _floorRenderer.enabled = !_floorRenderer.enabled;
         }
     }
 }

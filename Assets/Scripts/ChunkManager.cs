@@ -16,16 +16,16 @@ public class ChunkManager : MonoBehaviour
 
     [Header("Generation Settings")]
     [SerializeField] private int _chunkGenerationRadius = 2;
-    [SerializeField] private float _updateInterval = 1.0f; // 1 Hz
-    [SerializeField] private float _chunkRemeshInterval = 5.0f; // Chunks refresh every 5 seconds
+    [SerializeField] private float _updateInterval = 1.0f;
+    [SerializeField] private float _chunkRemeshInterval = 5.0f;
 
-    // --- CHANGE 1: The dictionary now tracks the instance and its creation/update time ---
     private readonly Dictionary<Vector3Int, (ChunkInstance instance, float lastUpdateTime)> _activeChunks = new();
     private readonly Vector3Int _chunkDimensions = new(MarchingCubes.Chunk.ChunkSizeX, MarchingCubes.Chunk.ChunkSizeY, MarchingCubes.Chunk.ChunkSizeZ);
 
+    private bool _areChunksVisible = true;
+
     void Start()
     {
-        // ... (Start method is the same) ...
         if (_environmentMapper == null || _voxelProvider == null || _cameraRig == null || _playerHeadTransform == null)
         {
             Debug.LogError("FATAL: A dependency has not been assigned in the Inspector!", this);
@@ -33,6 +33,23 @@ public class ChunkManager : MonoBehaviour
             return;
         }
         StartCoroutine(UpdateChunksCoroutine());
+    }
+
+    /// <summary>
+    /// Toggles the visibility of all active chunk renderers.
+    /// </summary>
+    public void ToggleChunkVisibility()
+    {
+        _areChunksVisible = !_areChunksVisible;
+        foreach (var chunkData in _activeChunks.Values)
+        {
+            if (chunkData.instance != null)
+            {
+                // MODIFIED: Call the new method on the instance
+                chunkData.instance.SetRendererVisibility(_areChunksVisible);
+            }
+        }
+        Debug.Log($"Chunk renderers toggled to: {(_areChunksVisible ? "Visible" : "Hidden")}");
     }
 
     private IEnumerator UpdateChunksCoroutine()
@@ -75,23 +92,20 @@ public class ChunkManager : MonoBehaviour
             {
                 if (!_activeChunks.ContainsKey(coord))
                 {
-                    // --- This is for loading NEW chunks ---
                     GameObject newChunkObject = new GameObject();
                     ChunkInstance newInstance = newChunkObject.AddComponent<ChunkInstance>();
 
-                    newInstance.Initialize(coord, OnChunkBuildFailed, _voxelProvider, _meshMaterial, _environmentMapper, _cameraRig);
+                    // MODIFIED: Pass the current visibility state to the new chunk
+                    newInstance.Initialize(coord, OnChunkBuildFailed, _voxelProvider, _meshMaterial, _environmentMapper, _cameraRig, _areChunksVisible);
 
                     _activeChunks.Add(coord, (newInstance, Time.time));
                 }
                 else
                 {
-                    // --- CHANGE 2: This is for UPDATING EXISTING chunks ---
                     var chunkData = _activeChunks[coord];
                     if (Time.time - chunkData.lastUpdateTime > _chunkRemeshInterval)
                     {
-                        // It's time to refresh!
                         chunkData.instance.TriggerUpdate();
-                        // Update the timestamp so we don't try to update it again next frame
                         _activeChunks[coord] = (chunkData.instance, Time.time);
                     }
                 }

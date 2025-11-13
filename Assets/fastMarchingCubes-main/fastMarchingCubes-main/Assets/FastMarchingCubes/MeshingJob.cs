@@ -7,6 +7,10 @@ using Unity.Collections;
 using Unity.Collections.LowLevel.Unsafe;
 using static Unity.Burst.Intrinsics.X86.Ssse3;
 using static Unity.Burst.Intrinsics.X86.Sse4_1;
+using static Unity.Burst.Intrinsics.Arm.Neon;
+
+
+
 
 namespace MarchingCubes
 {
@@ -44,24 +48,110 @@ namespace MarchingCubes
             bounds.Dispose();
         }
 
+    //    private static int NeonMoveMask_epi8(v128 input)
+    //    {
+    //        // 1. Shift out all bits except the most significant bit (the sign bit).
+    //        // input:  [b7 b6 b5 b4 b3 b2 b1 b0, ...]
+    //        // result: [00 00 00 00 00 00 00 b7, ...]
+    //        // We then cast to u16 so each lane now holds two of these 8-bit results.
+    //        v128 high_bits = vreinterpretq_u16_u8(vshrq_n_u8(input, 7));
+
+    //        // 2. Pairwise add and shift bits into place.
+    //        // vsraq_n_u16(a, b, n) means a + (b >> n). We use the same vector for a and b.
+    //        // This takes the high bits from adjacent pairs and packs them together.
+    //        // After this, each 32-bit lane contains 4 of the original sign bits.
+    //        v128 paired16 = vreinterpretq_u32_u16(vsraq_n_u16(high_bits, high_bits, 7));
+        
+    //        // 3. Repeat for 32-bit lanes. Each 64-bit lane now contains 8 sign bits.
+    //        v128 paired32 = vreinterpretq_u64_u32(vsraq_n_u32(paired16, paired16, 14));
+        
+    //        // 4. Repeat for 64-bit lanes. The final 8 bits for each half are in the low byte
+    //        // of each 64-bit lane.
+    //        v128 paired64 = vreinterpretq_u8_u64(vsraq_n_u64(paired32, paired32, 28));
+
+    //        // 5. Extract the two resulting bytes and combine them into a single 16-bit integer mask.
+    //        return vgetq_lane_u8(paired64, 0) | ((int)vgetq_lane_u8(paired64, 8) << 8);
+    //    }
+
+    //    // --- Add the NEON version of this method inside the MeshingJob struct ---
+
+    //private static unsafe (int, int) NeonExtractBitsAndSamples(sbyte* samples23, void* volumePtr, int x, int y = -1)
+    //{
+    //    var ptr2 = (sbyte*)volumePtr + (x + 0) * Chunk.ChunkSizeY * Chunk.ChunkSizeZ + (y + 1) * Chunk.ChunkSizeZ;
+    //    var ptr3 = (sbyte*)volumePtr + (x + 1) * Chunk.ChunkSizeY * Chunk.ChunkSizeZ + (y + 1) * Chunk.ChunkSizeZ;
+        
+    //    // Load 16 bytes (128 bits) from each memory location
+    //    v128 lo2 = vld1q_s8(ptr2 + 0);
+    //    v128 hi2 = vld1q_s8(ptr2 + 16);
+    //    v128 lo3 = vld1q_s8(ptr3 + 0);
+    //    v128 hi3 = vld1q_s8(ptr3 + 16);
+        
+    //    // Interleave the data just like the SSE version does with unpack
+    //    // vzip1 interleaves the low halves, vzip2 interleaves the high halves
+    //    v128 final_lo_a = vzip1q_s8(lo2, lo3);
+    //    v128 final_lo_b = vzip2q_s8(lo2, lo3);
+    //    v128 final_hi_a = vzip1q_s8(hi2, hi3);
+    //    v128 final_hi_b = vzip2q_s8(hi2, hi3);
+        
+    //    // Store the interleaved result into the stack-allocated 'samples23' buffer
+    //    vst1q_s8(samples23 + 0, final_lo_a);
+    //    vst1q_s8(samples23 + 16, final_lo_b);
+    //    vst1q_s8(samples23 + 32, final_hi_a);
+    //    vst1q_s8(samples23 + 48, final_hi_b);
+        
+    //    // Now, get the sign bits from the original, non-interleaved data
+    //    // using our new helper function. Note: Burst requires explicit v128 casts.
+    //    var signBits2 = NeonMoveMask_epi8(vcombine_s8(vget_low_s8(lo2), vget_high_s8(lo2))) |
+    //                    (NeonMoveMask_epi8(vcombine_s8(vget_low_s8(hi2), vget_high_s8(hi2))) << 16);
+
+    //    var signBits3 = NeonMoveMask_epi8(vcombine_s8(vget_low_s8(lo3), vget_high_s8(lo3))) |
+    //                    (NeonMoveMask_epi8(vcombine_s8(vget_low_s8(hi3), vget_high_s8(hi3))) << 16);
+
+    //    return (signBits2, signBits3);
+    //}
 
         public void Execute()
         {
-            switch (mode)
+                // Runtime check for the best available SIMD instruction set
+            if (IsNeonSupported)
             {
-                case Mesher.Mode.Naive:
-                    DefaultImplementation();
-                    break;
-                case Mesher.Mode.Simd32:
-                    SIMDChunkSizeZ32(0, Chunk.ChunkSizeX - 1);
-                    break;
-                case Mesher.Mode.Simd32Multithreaded:
-                    SIMDChunkSizeZ32(xStart, xStop);
-                    break;
-                default:
-                    break;
+                switch (mode)
+                {
+                    case Mesher.Mode.Simd32:
+                        //NEON_SIMDChunkSizeZ32(0, Chunk.ChunkSizeX - 1);
+                        break;
+                    case Mesher.Mode.Simd32Multithreaded:
+                        //NEON_SIMDChunkSizeZ32(xStart, xStop);
+                        break;
+                    default:
+                        DefaultImplementation();
+                        break;
+                }
+                return; // Exit after running NEON path
             }
+
+                // Fallback to SSE if NEON is not supported (e.g., running in the Editor on a PC)
+            if (IsSse41Supported)
+            {
+                switch (mode)
+                {
+                    case Mesher.Mode.Simd32:
+                        SIMDChunkSizeZ32(0, Chunk.ChunkSizeX - 1);
+                        break;
+                    case Mesher.Mode.Simd32Multithreaded:
+                        SIMDChunkSizeZ32(xStart, xStop);
+                        break;
+                    default:
+                        DefaultImplementation();
+                        break;
+                }
+                return; // Exit after running SSE path
+            }
+
+            // Final fallback to the naive implementation if no SIMD is available
+            DefaultImplementation();
         }
+    
 
 
         private unsafe void DefaultImplementation()
@@ -225,7 +315,109 @@ namespace MarchingCubes
             }
         }
 
+//        private unsafe void NEON_SIMDChunkSizeZ32(int xStart, int xStop)
+//        {
+//            // This check tells the Burst compiler to only compile this code block
+//            // if the target CPU supports the required SSE4.1 instruction set.
+//            // For ARM CPUs, this condition will be false, and the code inside will be stripped out.
+////#if UNITY_BURST_EXPERIMENTAL_NEON_INTRINSICS
 
+//            if (IsNeonSupported)
+//            {
+//                if (Chunk.ChunkSizeZ != 32)
+//                    throw new System.Exception("ChunkSize Z must be equal to 32 to use this function");
+
+//                xStart = math.clamp(xStart, 0, Chunk.ChunkSizeX - 1);
+//                xStop = math.clamp(xStop, 0, Chunk.ChunkSizeX - 1);
+//                if (xStart >= xStop)
+//                    return;
+
+//                sbyte* samplesBase = stackalloc sbyte[Chunk.ChunkSizeZ * 4];
+//                sbyte* samples01 = samplesBase + Chunk.ChunkSizeZ * 0;
+//                sbyte* samples23 = samplesBase + Chunk.ChunkSizeZ * 2;
+
+//                int signBits0, signBits1, signBits2, signBits3;
+
+//                float4* samples = stackalloc float4[8];
+
+//                for (int x = xStart; x < xStop; x++)
+//                {
+//                    (signBits2, signBits3) = SimdExtractBitsAndSamples(samples23, volume.GetUnsafeReadOnlyPtr(), x);
+
+//                    for (int y = 0; y < Chunk.ChunkSizeY - 1; y++)
+//                    {
+//                        // reuse previous step
+//                        var temp = samples01;
+//                        samples01 = samples23;
+//                        samples23 = temp;
+//                        signBits0 = signBits2;
+//                        signBits1 = signBits3;
+
+
+//                        (signBits2, signBits3) = SimdExtractBitsAndSamples(samples23, volume.GetUnsafeReadOnlyPtr(), x, y);
+
+
+//                        v128 signBits = new v128(signBits0, signBits1, signBits2, signBits3);
+
+
+//                        if (SameSigns(signBits))
+//                            continue;
+
+
+//                        // make sure there is enought capacity for vertices,
+//                        // otherwise, allocate bit more
+//                        if (vertices.Capacity < vertices.Length + 32 * 5)
+//                            vertices.Capacity = vertices.Length + 128 * 5;
+//                        var verticesPtr = (float3*)vertices.GetUnsafePtr();
+
+
+//                        int cornerMask = X86.Sse.movemask_ps(signBits) << 4;
+
+//                        for (int z = 0; z < Chunk.ChunkSizeZ - 1; z++)
+//                        {
+//                            cornerMask = cornerMask >> 4;
+//                            signBits = X86.Sse2.slli_epi32(signBits, 1);
+//                            cornerMask |= X86.Sse.movemask_ps(signBits) << 4;
+
+//                            if (cornerMask == 0 || cornerMask == 255)
+//                                continue;
+
+
+//                            var zz = z + z;
+//                            samples[0] = new float4(x + 0, y + 0, z + 0, samples01[zz + 0]);
+//                            samples[1] = new float4(x + 1, y + 0, z + 0, samples01[zz + 1]);
+//                            samples[2] = new float4(x + 1, y + 0, z + 1, samples01[zz + 3]);
+//                            samples[3] = new float4(x + 0, y + 0, z + 1, samples01[zz + 2]);
+//                            samples[4] = new float4(x + 0, y + 1, z + 0, samples23[zz + 0]);
+//                            samples[5] = new float4(x + 1, y + 1, z + 0, samples23[zz + 1]);
+//                            samples[6] = new float4(x + 1, y + 1, z + 1, samples23[zz + 3]);
+//                            samples[7] = new float4(x + 0, y + 1, z + 1, samples23[zz + 2]);
+
+//                            var triangulationTableIndex = cornerMask * Mesher.TriangulationSubTableLenght;
+
+//                            bounds.item.Encapsulate(new Vector3(x, y, z));
+//                            bounds.item.Encapsulate(new Vector3(x + 1, y + 1, z + 1));
+
+//                            for (; triangulationTable[triangulationTableIndex] != 99; triangulationTableIndex += 3)
+//                            {
+//                                vertices.Length = vertices.Length + 3; // make room for 3 vertices
+//                                int a0 = cornerIndexA[triangulationTable[triangulationTableIndex]];
+//                                int b0 = cornerIndexB[triangulationTable[triangulationTableIndex]];
+//                                int a1 = cornerIndexA[triangulationTable[triangulationTableIndex + 1]];
+//                                int b1 = cornerIndexB[triangulationTable[triangulationTableIndex + 1]];
+//                                int a2 = cornerIndexA[triangulationTable[triangulationTableIndex + 2]];
+//                                int b2 = cornerIndexB[triangulationTable[triangulationTableIndex + 2]];
+//                                verticesPtr[vertices.Length - 1] = InterpolateVerts(samples[a0], samples[b0]);
+//                                verticesPtr[vertices.Length - 2] = InterpolateVerts(samples[a1], samples[b1]);
+//                                verticesPtr[vertices.Length - 3] = InterpolateVerts(samples[a2], samples[b2]);
+//                            }
+//                        }
+//                    }
+//                }
+//            }
+////#endif
+
+//        }
         private static unsafe (int, int) SimdExtractBitsAndSamples(sbyte* samples23, void* volumePtr, int x, int y = -1 /* first step */)
         {
             // This method uses instructions up to SSSE3.
