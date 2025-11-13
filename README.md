@@ -1,6 +1,4 @@
-\# My epic dsta project
-
-\# Heading level 1
+# My epic dsta project
 
 intern 
 
