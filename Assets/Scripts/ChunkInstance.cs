@@ -125,7 +125,7 @@ public class ChunkInstance : MonoBehaviour
                 Destroy(gameObject);
                 return null;
             }
-            mesher.StartMeshJob(chunkData, Mesher.Mode.Naive);
+            mesher.StartMeshJob(chunkData, Mesher.Mode.Simd32Multithreaded);
             mesher.WaitForMeshJob();
             if (mesher.Vertices.Length > 2)
             {
