@@ -69,7 +69,7 @@ public class ChunkInstance : MonoBehaviour
                 _meshRenderer.enabled = _isRendererVisible; // Set initial state
                 _meshCollider = gameObject.AddComponent<MeshCollider>();
 
-                _meshFilter.mesh = newMesh;
+                _meshFilter.sharedMesh = newMesh;
                 _meshCollider.sharedMesh = newMesh;
             }
         }
@@ -90,9 +90,15 @@ public class ChunkInstance : MonoBehaviour
             Mesh newMesh = await BuildMeshTask();
             if (newMesh != null)
             {
-                Mesh oldMesh = _meshFilter.mesh;
-                _meshFilter.mesh = newMesh;
+                // --- THE FIX ---
+                // Get the DIRECT reference to the mesh currently in use. No copy is made.
+                Mesh oldMesh = _meshFilter.sharedMesh;
+
+                // Assign the new mesh directly.
+                _meshFilter.sharedMesh = newMesh;
                 _meshCollider.sharedMesh = newMesh;
+
+                // Now, this destroys the ACTUAL old mesh, preventing the leak.
                 if (oldMesh != null)
                 {
                     Destroy(oldMesh);

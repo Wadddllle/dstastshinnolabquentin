@@ -1,7 +1,9 @@
+
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using Anaglyph.XRTemplate;
+
 
 public class ChunkManager : MonoBehaviour
 {
@@ -16,14 +18,14 @@ public class ChunkManager : MonoBehaviour
 
     [Header("Generation Settings")]
     [SerializeField] private int _chunkGenerationRadius = 2;
-    [SerializeField] private float _updateInterval = 1.0f;
-    [SerializeField] private float _chunkRemeshInterval = 5.0f;
+    [SerializeField] private float _chunkDiscoveryInterval = 1.0f; // Formerly _updateInterval
+    [SerializeField] private float _chunkRemeshInterval = 2.0f;
+    [SerializeField] private float _remeshCheckInterval = 0.25f; // How often we check if we NEED to remesh
 
     private readonly Dictionary<Vector3Int, (ChunkInstance instance, float lastUpdateTime)> _activeChunks = new();
     private readonly Vector3Int _chunkDimensions = new(MarchingCubes.Chunk.ChunkSizeX, MarchingCubes.Chunk.ChunkSizeY, MarchingCubes.Chunk.ChunkSizeZ);
 
     private bool _areChunksVisible = true;
-
     void Start()
     {
         if (_environmentMapper == null || _voxelProvider == null || _cameraRig == null || _playerHeadTransform == null)
@@ -32,12 +34,10 @@ public class ChunkManager : MonoBehaviour
             enabled = false;
             return;
         }
-        StartCoroutine(UpdateChunksCoroutine());
+        // Start BOTH coroutines
+        StartCoroutine(UpdateChunkGenerationCoroutine());
+        StartCoroutine(UpdateChunkRemeshingCoroutine());
     }
-
-    /// <summary>
-    /// Toggles the visibility of all active chunk renderers.
-    /// </summary>
     public void ToggleChunkVisibility()
     {
         _areChunksVisible = !_areChunksVisible;
@@ -51,8 +51,13 @@ public class ChunkManager : MonoBehaviour
         }
         Debug.Log($"Chunk renderers toggled to: {(_areChunksVisible ? "Visible" : "Hidden")}");
     }
+    // ... (ToggleChunkVisibility remains the same) ...
 
-    private IEnumerator UpdateChunksCoroutine()
+    /// <summary>
+    /// This coroutine ONLY handles creating new chunks and unloading old ones.
+    /// It can run slower because player position doesn't need to be checked constantly.
+    /// </summary>
+    private IEnumerator UpdateChunkGenerationCoroutine()
     {
         while (true)
         {
@@ -94,26 +99,52 @@ public class ChunkManager : MonoBehaviour
                 {
                     GameObject newChunkObject = new GameObject();
                     ChunkInstance newInstance = newChunkObject.AddComponent<ChunkInstance>();
-
-                    // MODIFIED: Pass the current visibility state to the new chunk
                     newInstance.Initialize(coord, OnChunkBuildFailed, _voxelProvider, _meshMaterial, _environmentMapper, _cameraRig, _areChunksVisible);
-
                     _activeChunks.Add(coord, (newInstance, Time.time));
-                }
-                else
-                {
-                    var chunkData = _activeChunks[coord];
-                    if (Time.time - chunkData.lastUpdateTime > _chunkRemeshInterval)
-                    {
-                        chunkData.instance.TriggerUpdate();
-                        _activeChunks[coord] = (chunkData.instance, Time.time);
-                    }
                 }
             }
 
-            yield return new WaitForSeconds(_updateInterval);
+            yield return new WaitForSeconds(_chunkDiscoveryInterval);
         }
     }
+
+    /// <summary>
+    /// This coroutine ONLY handles remeshing existing chunks.
+    /// It runs much faster to ensure the remesh interval is respected.
+    /// </summary>
+    private IEnumerator UpdateChunkRemeshingCoroutine()
+    {
+        while (true)
+        {
+            // Create a temporary list to avoid modifying the dictionary while iterating
+            var chunksToUpdate = new List<Vector3Int>();
+            foreach (var chunk in _activeChunks)
+            {
+                var coord = chunk.Key;
+                var chunkData = chunk.Value;
+
+                if (Time.time - chunkData.lastUpdateTime > _chunkRemeshInterval)
+                {
+                    chunksToUpdate.Add(coord);
+                }
+            }
+
+            foreach (var coord in chunksToUpdate)
+            {
+                // We still need to check if the chunk exists, as it might have been
+                // unloaded by the other coroutine between the loops.
+                if (_activeChunks.TryGetValue(coord, out var chunkData))
+                {
+                    chunkData.instance.TriggerUpdate();
+                    _activeChunks[coord] = (chunkData.instance, Time.time);
+                }
+            }
+
+            // This loop runs frequently to check the time condition accurately.
+            yield return new WaitForSeconds(_remeshCheckInterval);
+        }
+    }
+
 
     private void OnChunkBuildFailed(Vector3Int coordinate)
     {
@@ -122,6 +153,7 @@ public class ChunkManager : MonoBehaviour
 
     private Vector3Int WorldPosToChunkCoord(Vector3 worldPos)
     {
+        // ... (this function remains the same) ...
         Vector3 localPos = _cameraRig.trackingSpace.InverseTransformPoint(worldPos);
         var globalVolumeDims = new Vector3(_environmentMapper.volume.width, _environmentMapper.volume.height, _environmentMapper.volume.volumeDepth);
         Vector3 voxelPos = (localPos / _environmentMapper.metersPerVoxel) + (globalVolumeDims / 2.0f);

@@ -107,32 +107,36 @@ namespace MarchingCubes
 
         private static unsafe (int, int) NeonExtractBitsAndSamples(sbyte* samples23, void* volumePtr, int x, int y = -1)
         {
-            var ptr2 = (sbyte*)volumePtr + (x + 0) * Chunk.ChunkSizeY * Chunk.ChunkSizeZ + (y + 1) * Chunk.ChunkSizeZ;
-            var ptr3 = (sbyte*)volumePtr + (x + 1) * Chunk.ChunkSizeY * Chunk.ChunkSizeZ + (y + 1) * Chunk.ChunkSizeZ;
+            if (IsNeonSupported)
+            {
+                var ptr2 = (sbyte*)volumePtr + (x + 0) * Chunk.ChunkSizeY * Chunk.ChunkSizeZ + (y + 1) * Chunk.ChunkSizeZ;
+                var ptr3 = (sbyte*)volumePtr + (x + 1) * Chunk.ChunkSizeY * Chunk.ChunkSizeZ + (y + 1) * Chunk.ChunkSizeZ;
 
-            // Load 128-bit vectors
-            v128 lo2 = vld1q_s8(ptr2 + 0);
-            v128 hi2 = vld1q_s8(ptr2 + 16);
-            v128 lo3 = vld1q_s8(ptr3 + 0);
-            v128 hi3 = vld1q_s8(ptr3 + 16);
+                // Load 128-bit vectors
+                v128 lo2 = vld1q_s8(ptr2 + 0);
+                v128 hi2 = vld1q_s8(ptr2 + 16);
+                v128 lo3 = vld1q_s8(ptr3 + 0);
+                v128 hi3 = vld1q_s8(ptr3 + 16);
 
-            // Interleave data for the next iteration's reuse
-            vst1q_s8(samples23 + 0, vzip1q_s8(lo2, lo3));
-            vst1q_s8(samples23 + 16, vzip2q_s8(lo2, lo3));
-            vst1q_s8(samples23 + 32, vzip1q_s8(hi2, hi3));
-            vst1q_s8(samples23 + 48, vzip2q_s8(hi2, hi3));
+                // Interleave data for the next iteration's reuse
+                vst1q_s8(samples23 + 0, vzip1q_s8(lo2, lo3));
+                vst1q_s8(samples23 + 16, vzip2q_s8(lo2, lo3));
+                vst1q_s8(samples23 + 32, vzip1q_s8(hi2, hi3));
+                vst1q_s8(samples23 + 48, vzip2q_s8(hi2, hi3));
 
-            // 1. Extract masks in natural order (z=0 is at LSB)
-            int rawMask2 = NeonMoveMask_epi8(lo2) | (NeonMoveMask_epi8(hi2) << 16);
-            int rawMask3 = NeonMoveMask_epi8(lo3) | (NeonMoveMask_epi8(hi3) << 16);
+                // 1. Extract masks in natural order (z=0 is at LSB)
+                int rawMask2 = NeonMoveMask_epi8(lo2) | (NeonMoveMask_epi8(hi2) << 16);
+                int rawMask3 = NeonMoveMask_epi8(lo3) | (NeonMoveMask_epi8(hi3) << 16);
 
-            // 2. CRITICAL FIX: Reverse the bits.
-            // The main loop expects z=0 to be at the MSB (Bit 31).
-            // Currently it is at Bit 0. math.reversebits fixes this.
-            var signBits2 = math.reversebits(rawMask2);
-            var signBits3 = math.reversebits(rawMask3);
+                // 2. CRITICAL FIX: Reverse the bits.
+                // The main loop expects z=0 to be at the MSB (Bit 31).
+                // Currently it is at Bit 0. math.reversebits fixes this.
+                var signBits2 = math.reversebits(rawMask2);
+                var signBits3 = math.reversebits(rawMask3);
 
-            return (signBits2, signBits3);
+                return (signBits2, signBits3);
+            }
+            return (0, 0);
         }
 
         public void Execute()
