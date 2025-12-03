@@ -137,10 +137,10 @@ public class ChunkInstance : MonoBehaviour
             {
                 Vector3 unrotatedPosition = ChunkVoxelOriginToLocalPos(voxelOrigin);
                 transform.position = _cameraRig.trackingSpace.TransformPoint(unrotatedPosition);
-                transform.rotation = _cameraRig.trackingSpace.rotation * Quaternion.Euler(0, -90, 0);
+                //transform.rotation = _cameraRig.trackingSpace.rotation * Quaternion.Euler(0, -90, 0);
                 float scale = _environmentMapper.metersPerVoxel;
                 float gapCorrectionScale = (float)Chunk.ChunkSizeX / (Chunk.ChunkSizeX - 1.0f);
-                transform.localScale = new Vector3(scale, scale, -scale) * gapCorrectionScale;
+                transform.localScale = new Vector3(scale, scale, scale) * gapCorrectionScale;
                 finalMesh = new Mesh();
                 finalMesh.SetMesh(mesher);
                 finalMesh.triangles = finalMesh.triangles.Reverse().ToArray();

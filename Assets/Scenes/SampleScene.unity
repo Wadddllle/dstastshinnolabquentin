@@ -5144,6 +5144,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 289630388}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &290005578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 290005579}
+  m_Layer: 0
+  m_Name: VisionScanner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &290005579
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290005578}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 684351346}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &295069259
 GameObject:
   m_ObjectHideFlags: 0
@@ -12055,7 +12086,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 290005579}
   m_Father: {fileID: 1977397986}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &684351347
@@ -12617,7 +12649,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 706151897}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de27d7f2f20024e18898941292d6c164, type: 3}
   m_Name: 
@@ -12634,7 +12666,7 @@ MonoBehaviour:
   <RoomRemovedEvent>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  EnableWorldLock: 1
+  EnableWorldLock: 0
   TrackingSpaceOffset:
     e00: 1
     e01: 0
@@ -12726,9 +12758,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   _worldContent: {fileID: 643645138}
-  _createIdealizedFloor: 1
+  _createIdealizedFloor: 0
   _floorSize: 100
-  _floorVisualMaterial: {fileID: 15303, guid: 0000000000000000f000000000000000, type: 0}
+  _floorVisualMaterial: {fileID: 2100000, guid: 01fc586eca2a17f4185fafe0826d17a7, type: 2}
   _floorPhysicMaterial: {fileID: 0}
 --- !u!1 &710825028
 GameObject:
@@ -32547,6 +32579,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1880404226}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1975005764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1975005765}
+  m_Layer: 0
+  m_Name: TacticalGrid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1975005765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975005764}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.25284, y: 0, z: 2.20391}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1975344164
 GameObject:
   m_ObjectHideFlags: 0
@@ -35704,6 +35767,7 @@ SceneRoots:
   - {fileID: 1112622326}
   - {fileID: 621399654}
   - {fileID: 643645138}
+  - {fileID: 1975005765}
   - {fileID: 1885406904}
   - {fileID: 970014133}
   - {fileID: 365981387}

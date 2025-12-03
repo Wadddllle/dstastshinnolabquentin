@@ -11,17 +11,21 @@ uint3 LocalDims;
 uint3 VoxelOffset;
     
 // The small destination buffer, just for our chunk's data
-RWStructuredBuffer<float> VoxelBuffer;
+//RWStructuredBuffer<float> VoxelBuffer;
+RWStructuredBuffer<uint> VoxelBuffer;
+
 
 // Converts a 3D local ID into a 1D index for our local buffer
 uint flatten_local_index(uint3 local_id)
 {
-    return local_id.x + LocalDims.x * (local_id.y + LocalDims.y * local_id.z);
+    //return local_id.x + LocalDims.x * (local_id.y + LocalDims.y * local_id.z);
+    return local_id.z + LocalDims.z * (local_id.y + LocalDims.y * local_id.x);
 }
 
 [numthreads(8, 8, 8)]
 void ConvertChunk(uint3 id : SV_DispatchThreadID) // id is the LOCAL coordinate within our chunk
 {
+    /*
     // If this thread is outside the bounds of our chunk, do nothing.
     if (any(id >= LocalDims))
         return;
@@ -39,4 +43,72 @@ void ConvertChunk(uint3 id : SV_DispatchThreadID) // id is the LOCAL coordinate 
             
     // Read the TSDF value (as a half) and write it (as a float)
     VoxelBuffer[flatten_local_index(id)] = TSDFVolume[global_coord];
+    */
+    /*
+    if (any(id >= LocalDims))
+        return;
+
+    uint3 global_coord = id + VoxelOffset;
+    
+    // Default to "empty" (127) if out of bounds of the big texture
+    int quantized = 127;
+    
+    if (all(global_coord < GlobalDims))
+    {
+        // Sample TSDF (-1 to 1)
+        float val = TSDFVolume[global_coord];
+        // Quantize to Sbyte range (-127 to 127)
+        quantized = clamp(val * 127.0, -127, 127);
+    }
+    
+    // Mask to lower 8 bits (0-255)
+    uint byteVal = (uint) (quantized & 0xFF);
+
+    // Calculate Index
+    uint flatIndex = flatten_local_index(id);
+    uint arrayIndex = flatIndex / 4; // 4 bytes per uint
+    uint byteShift = (flatIndex % 4) * 8; // 0, 8, 16, or 24 bits shift
+    
+    // Atomic write to pack the byte.
+    // (Safe here because each thread owns a unique byte slot)
+    InterlockedOr(VoxelBuffer[arrayIndex], byteVal << byteShift);
+*/
+    // 1. Calculate the base Z coordinate for this thread
+    uint baseZ = id.z * 4;
+    
+    if (id.x >= LocalDims.x || id.y >= LocalDims.y || baseZ >= LocalDims.z) 
+        return;
+
+    uint packedValue = 0;
+
+    // 2. Loop 4 times to fetch the Z-neighbors explicitly
+    // This ENSURES the order is correct for the CPU Mesher
+    [unroll]
+    for (int i = 0; i < 4; i++)
+    {
+        uint currentZ = baseZ + i;
+        
+        // Z is the inner-most (fastest) axis
+        uint3 globalPos = uint3(id.x, id.y, currentZ) + VoxelOffset;
+        
+        int quantized = 127; // Default "Empty"
+
+        if (all(globalPos < GlobalDims))
+        {
+            float val = TSDFVolume[globalPos];
+            quantized = clamp(val * 127.0, -127, 127);
+        }
+
+        uint byteVal = (uint) (quantized & 0xFF);
+        
+        // Pack: Byte 0 is Z, Byte 1 is Z+1...
+        packedValue |= (byteVal << (i * 8));
+    }
+
+    // 3. Calculate Index (Compression factor of 4)
+    uint zDimCompressed = LocalDims.z / 4;
+    uint flatIndex = id.z + zDimCompressed * (id.y + LocalDims.y * id.x);
+
+    // 4. CLEAN WRITE (Fixes the "dots/garbage" issue)
+    VoxelBuffer[flatIndex] = packedValue;
 }
