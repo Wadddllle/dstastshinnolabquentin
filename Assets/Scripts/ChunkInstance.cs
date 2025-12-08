@@ -5,6 +5,7 @@ using Unity.Collections;
 using System;
 using System.Linq;
 using Anaglyph.XRTemplate;
+using Unity.Jobs;
 
 public class ChunkInstance : MonoBehaviour
 {
@@ -93,15 +94,22 @@ public class ChunkInstance : MonoBehaviour
                 // --- THE FIX ---
                 // Get the DIRECT reference to the mesh currently in use. No copy is made.
                 Mesh oldMesh = _meshFilter.sharedMesh;
+                if (_meshCollider != null)
+                {
+                    _meshCollider.sharedMesh = null; // Important! Unlink logic
+                }
 
                 // Assign the new mesh directly.
                 _meshFilter.sharedMesh = newMesh;
-                _meshCollider.sharedMesh = newMesh;
+                if (_meshCollider != null)
+                {
+                    _meshCollider.sharedMesh = newMesh;
+                }
 
                 // Now, this destroys the ACTUAL old mesh, preventing the leak.
                 if (oldMesh != null)
                 {
-                    Destroy(oldMesh);
+                    Destroy(oldMesh,0.1f);
                 }
             }
         }
@@ -121,6 +129,8 @@ public class ChunkInstance : MonoBehaviour
         var mesher = new Mesher();
         Chunk chunkData = null;
         Mesh finalMesh = null;
+        JobHandle? jobHandle = null; // Track the handle
+
         try
         {
             var voxelOrigin = ChunkCoordToVoxelOrigin(_coordinate);
@@ -131,7 +141,7 @@ public class ChunkInstance : MonoBehaviour
                 Destroy(gameObject);
                 return null;
             }
-            mesher.StartMeshJob(chunkData, Mesher.Mode.Simd32Multithreaded);
+            jobHandle = mesher.StartMeshJob(chunkData, Mesher.Mode.Simd32Multithreaded);
             mesher.WaitForMeshJob();
             if (mesher.Vertices.Length > 2)
             {
@@ -153,6 +163,14 @@ public class ChunkInstance : MonoBehaviour
                 Destroy(gameObject);
                 return null;
             }
+        }
+        catch (Exception e)
+        {
+            // If we crash here, we MUST ensure the job is dead before we dispose chunkData
+            if (jobHandle.HasValue) jobHandle.Value.Complete();
+
+            Debug.LogError($"Error in chunk {_coordinate}: {e.Message}");
+            // ... handling ...
         }
         finally
         {

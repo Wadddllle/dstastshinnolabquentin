@@ -23,10 +23,11 @@ namespace MarchingCubes
 		private static NativeArray<byte> cornerIndexMix;
 		// with static native arrays we need that:
 		private static int referenceCounter;
+        private static readonly object _sharedResourcesLock = new object();
 
 
 
-		public enum Mode { Naive, Simd32, Simd32Multithreaded }
+        public enum Mode { Naive, Simd32, Simd32Multithreaded }
 
 		MeshingJob meshingJob;
 		JobHandle meshingJobHandle;
@@ -35,9 +36,20 @@ namespace MarchingCubes
 
 		public Mesher()
 		{
-			System.Threading.Interlocked.Increment(ref referenceCounter);
-			AllocateLookupArrays();
-			Allocate();
+            //System.Threading.Interlocked.Increment(ref referenceCounter);
+            //AllocateLookupArrays();
+            //Allocate();
+            // 2. Lock the entire reference counting and allocation block
+            lock (_sharedResourcesLock)
+            {
+                referenceCounter++; // No need for Interlocked inside a lock
+                if (referenceCounter == 1)
+                {
+                    AllocateLookupArrays();
+                }
+            }
+
+            Allocate(); // Instance allocation (local) is fine outside the lock
 		}
 		private void Allocate()
 		{
@@ -51,10 +63,23 @@ namespace MarchingCubes
 		}
 		public void Dispose()
 		{
-			System.Threading.Interlocked.Decrement(ref referenceCounter);
-			meshingJob.Dispose();
-			DisposeStaticLookupArrays();
-		}
+            //System.Threading.Interlocked.Decrement(ref referenceCounter);
+            //meshingJob.Dispose();
+            //DisposeStaticLookupArrays();
+            // Instance dispose is fine to do first
+            meshingJob.Dispose();
+
+            // 3. Lock the static disposal block
+            lock (_sharedResourcesLock)
+            {
+                referenceCounter--; // No need for Interlocked inside a lock
+
+                if (referenceCounter == 0)
+                {
+                    DisposeStaticLookupArrays();
+                }
+            }
+        }
 		private static void DisposeStaticLookupArrays()
 		{
 			if (referenceCounter == 0)

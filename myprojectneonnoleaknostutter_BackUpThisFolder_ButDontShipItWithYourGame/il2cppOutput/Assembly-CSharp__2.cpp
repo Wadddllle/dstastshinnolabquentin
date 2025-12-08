@@ -219,6 +219,7 @@ IL2CPP_EXTERN_C RuntimeClass* MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCA
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PrecalculatedData_t6D792BC735EC0DCB338FEAD8E548F46FAEB63022_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RuntimeObject_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SpinLock_t0826FB2BDD25012485F35D6D33A1FE1E1752E816_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TaskCompletionSource_1_t5FB8F3029E4E041A3363DEDEF2ADDC6A88A80EAC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var;
@@ -3456,6 +3457,7 @@ struct Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields
 	NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___cornerIndexB;
 	NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___cornerIndexMix;
 	int32_t ___referenceCounter;
+	RuntimeObject* ____sharedResourcesLock;
 };
 struct DepthKitDriver_tE1236E652AC25969E697F678A645875ADEB55069_StaticFields
 {
@@ -4526,11 +4528,11 @@ inline NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF NativeArray_1_Get
 {
 	return ((  NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF (*) (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF*, int32_t, int32_t, const RuntimeMethod*))NativeArray_1_GetSubArray_mDC383D59C7576118D603C2C49F75BD9D02E60B19_gshared)(__this, ___0_start, ___1_length, method);
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Interlocked_Increment_m3C240C32E8D9544EC050B74D4F28EEB58F1F9309 (int32_t* ___0_location, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149 (RuntimeObject* ___0_obj, bool* ___1_lockTaken, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesher_AllocateLookupArrays_m51CB569F09223EDD8177289F4B98C5AAA94DE773 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesher_Allocate_m6A308D9F48127EFAA7019343221DD00EA0DCE7C7 (Mesher_t643035261793BA2DBEAF768F108C12645E673820* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void MeshingJob_Allocate_m1A95407AC28F45C03C109C527167598946918ADE (MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Interlocked_Decrement_m6AFAD2E874CBDA373B1EF7572F11D6E91813E75D (int32_t* ___0_location, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void MeshingJob_Dispose_mC9CC94BAE80CBFB12717D218191CB4998C8AA925 (MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesher_DisposeStaticLookupArrays_m1DA198A14CD8B0982C3E5AF03046A92D7A9E9282 (const RuntimeMethod* method) ;
 inline void NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* __this, const RuntimeMethod* method)
@@ -10796,6 +10798,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesher_AllocateLookupArrays_m51CB569F092
 	bool V_17 = false;
 	{
 		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.Arrays.cs:19>
+		il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = NativeArray_1_get_IsCreated_mD74FCA194584E6EA7916853B62401EB78240A081_inline((&((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->___triangulationTable), NativeArray_1_get_IsCreated_mD74FCA194584E6EA7916853B62401EB78240A081_RuntimeMethod_var);
 		V_4 = L_0;
@@ -11354,6 +11357,7 @@ IL_001b:
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_11;
 		memset((&L_11), 0, sizeof(L_11));
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&L_11), ((int32_t)1000000), 4, 1, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
 		((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->___indicesPrecalc32bit = L_11;
 		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.Arrays.cs:567>
 		V_6 = 0;
@@ -11363,6 +11367,7 @@ IL_001b:
 IL_0070:
 	{
 		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.Arrays.cs:568>
+		il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
 		int32_t L_12 = V_6;
 		int32_t L_13 = V_6;
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, ((&((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->___indicesPrecalc32bit))->___m_Buffer, L_12, (L_13));
@@ -11389,6 +11394,7 @@ IL_0089:
 		NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934 L_18;
 		memset((&L_18), 0, sizeof(L_18));
 		NativeArray_1__ctor_m2617672C9529B57F07A18828D26F410F5207483B((&L_18), ((int32_t)65536), 4, 1, NativeArray_1__ctor_m2617672C9529B57F07A18828D26F410F5207483B_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
 		((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->___indicesPrecalc16bit = L_18;
 		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.Arrays.cs:573>
 		V_9 = 0;
@@ -11398,6 +11404,7 @@ IL_0089:
 IL_00ae:
 	{
 		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.Arrays.cs:574>
+		il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
 		int32_t L_19 = V_9;
 		int32_t L_20 = V_9;
 		IL2CPP_NATIVEARRAY_SET_ITEM(uint16_t, ((&((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->___indicesPrecalc16bit))->___m_Buffer, L_19, ((uint16_t)((int32_t)(uint16_t)L_20)));
@@ -11438,6 +11445,7 @@ IL_00df:
 		NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF L_27;
 		memset((&L_27), 0, sizeof(L_27));
 		NativeArray_1__ctor_m981CC7E27B6C9946024877F2696920951443B04F((&L_27), ((int32_t)(((RuntimeArray*)L_26)->max_length)), 4, 1, NativeArray_1__ctor_m981CC7E27B6C9946024877F2696920951443B04F_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
 		((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->___triangulationTable = L_27;
 		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.Arrays.cs:590>
 		V_13 = 0;
@@ -11448,6 +11456,7 @@ IL_00f8:
 	{
 		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.Arrays.cs:592>
 		int32_t L_28 = V_13;
+		il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
 		int32_t L_29;
 		L_29 = Mesher_ShuffleTriangulationIndexBits_m028D416E56237288BD17DDC381DAF3264442DFA4(L_28, NULL);
 		V_14 = L_29;
@@ -11459,6 +11468,7 @@ IL_00f8:
 IL_0107:
 	{
 		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.Arrays.cs:595>
+		il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
 		int32_t L_30 = V_14;
 		int32_t L_31 = V_15;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_32 = V_3;
@@ -11511,6 +11521,7 @@ IL_0147:
 		NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF L_46;
 		memset((&L_46), 0, sizeof(L_46));
 		NativeArray_1__ctor_m647D47A76DC6BCB65EDACF5DE440431F6E2FE262((&L_46), L_45, 4, NativeArray_1__ctor_m647D47A76DC6BCB65EDACF5DE440431F6E2FE262_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
 		((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->___cornerIndexMix = L_46;
 		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.Arrays.cs:600>
 		NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF L_47;
@@ -11702,17 +11713,82 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesher__ctor_m7378CE3FDE0237DAFD2FFD7E3E
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	RuntimeObject* V_0 = NULL;
+	bool V_1 = false;
+	bool V_2 = false;
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:36>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:37>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:38>
-		int32_t L_0;
-		L_0 = Interlocked_Increment_m3C240C32E8D9544EC050B74D4F28EEB58F1F9309((&((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->___referenceCounter), NULL);
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:39>
-		Mesher_AllocateLookupArrays_m51CB569F09223EDD8177289F4B98C5AAA94DE773(NULL);
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:40>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:43>
+		il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
+		RuntimeObject* L_0 = ((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->____sharedResourcesLock;
+		V_0 = L_0;
+		V_1 = (bool)0;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_003d:
+			{
+				{
+					bool L_1 = V_1;
+					if (!L_1)
+					{
+						goto IL_0047;
+					}
+				}
+				{
+					RuntimeObject* L_2 = V_0;
+					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_2, NULL);
+				}
+
+IL_0047:
+				{
+					return;
+				}
+			}
+		});
+		try
+		{
+			{
+				RuntimeObject* L_3 = V_0;
+				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_3, (&V_1), NULL);
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:45>
+				il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
+				int32_t L_4 = ((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->___referenceCounter;
+				((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->___referenceCounter = ((int32_t)il2cpp_codegen_add(L_4, 1));
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:46>
+				int32_t L_5 = ((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->___referenceCounter;
+				V_2 = (bool)((((int32_t)L_5) == ((int32_t)1))? 1 : 0);
+				bool L_6 = V_2;
+				if (!L_6)
+				{
+					goto IL_003a_1;
+				}
+			}
+			{
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:48>
+				il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
+				Mesher_AllocateLookupArrays_m51CB569F09223EDD8177289F4B98C5AAA94DE773(NULL);
+			}
+
+IL_003a_1:
+			{
+				goto IL_0048;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0048:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:52>
 		Mesher_Allocate_m6A308D9F48127EFAA7019343221DD00EA0DCE7C7(__this, NULL);
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:41>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:53>
 		return;
 	}
 }
@@ -11729,13 +11805,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesher_Allocate_m6A308D9F48127EFAA701934
 	MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:44>
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:45>
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:46>
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:47>
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:48>
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:49>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:56>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:57>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:58>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:59>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:60>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:61>
 		il2cpp_codegen_initobj((&V_0), sizeof(MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3));
+		il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
 		NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF L_0 = ((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->___triangulationTable;
 		(&V_0)->___triangulationTable = L_0;
 		NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF L_1 = ((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->___cornerIndexA;
@@ -11744,11 +11821,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesher_Allocate_m6A308D9F48127EFAA701934
 		(&V_0)->___cornerIndexB = L_2;
 		MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3 L_3 = V_0;
 		__this->___meshingJob = L_3;
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:50>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:62>
 		MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3* L_4 = (MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3*)(&__this->___meshingJob);
 		il2cpp_codegen_runtime_class_init_inline(MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3_il2cpp_TypeInfo_var);
 		MeshingJob_Allocate_m1A95407AC28F45C03C109C527167598946918ADE(L_4, NULL);
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:51>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:63>
 		return;
 	}
 }
@@ -11762,17 +11839,82 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesher_Dispose_mBA20A568DEFC46AA70F78DBF
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	RuntimeObject* V_0 = NULL;
+	bool V_1 = false;
+	bool V_2 = false;
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:54>
-		int32_t L_0;
-		L_0 = Interlocked_Decrement_m6AFAD2E874CBDA373B1EF7572F11D6E91813E75D((&((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->___referenceCounter), NULL);
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:55>
-		MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3* L_1 = (MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3*)(&__this->___meshingJob);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:70>
+		MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3* L_0 = (MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3*)(&__this->___meshingJob);
 		il2cpp_codegen_runtime_class_init_inline(MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3_il2cpp_TypeInfo_var);
-		MeshingJob_Dispose_mC9CC94BAE80CBFB12717D218191CB4998C8AA925(L_1, NULL);
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:56>
-		Mesher_DisposeStaticLookupArrays_m1DA198A14CD8B0982C3E5AF03046A92D7A9E9282(NULL);
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:57>
+		MeshingJob_Dispose_mC9CC94BAE80CBFB12717D218191CB4998C8AA925(L_0, NULL);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:73>
+		il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
+		RuntimeObject* L_1 = ((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->____sharedResourcesLock;
+		V_0 = L_1;
+		V_1 = (bool)0;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0042:
+			{
+				{
+					bool L_2 = V_1;
+					if (!L_2)
+					{
+						goto IL_004c;
+					}
+				}
+				{
+					RuntimeObject* L_3 = V_0;
+					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_3, NULL);
+				}
+
+IL_004c:
+				{
+					return;
+				}
+			}
+		});
+		try
+		{
+			{
+				RuntimeObject* L_4 = V_0;
+				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_4, (&V_1), NULL);
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:75>
+				il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
+				int32_t L_5 = ((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->___referenceCounter;
+				((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->___referenceCounter = ((int32_t)il2cpp_codegen_subtract(L_5, 1));
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:77>
+				int32_t L_6 = ((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->___referenceCounter;
+				V_2 = (bool)((((int32_t)L_6) == ((int32_t)0))? 1 : 0);
+				bool L_7 = V_2;
+				if (!L_7)
+				{
+					goto IL_003f_1;
+				}
+			}
+			{
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:79>
+				il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
+				Mesher_DisposeStaticLookupArrays_m1DA198A14CD8B0982C3E5AF03046A92D7A9E9282(NULL);
+			}
+
+IL_003f_1:
+			{
+				goto IL_004d;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_004d:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:82>
 		return;
 	}
 }
@@ -11790,7 +11932,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesher_DisposeStaticLookupArrays_m1DA198
 	}
 	bool V_0 = false;
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:60>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:85>
+		il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
 		int32_t L_0 = ((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->___referenceCounter;
 		V_0 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 		bool L_1 = V_0;
@@ -11800,19 +11943,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesher_DisposeStaticLookupArrays_m1DA198
 		}
 	}
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:62>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:87>
+		il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E((&((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->___indicesPrecalc32bit), NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:63>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:88>
 		NativeArray_1_Dispose_m1B103C4931EFC035BF435240AD0CBAEA1AE916E8((&((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->___indicesPrecalc16bit), NativeArray_1_Dispose_m1B103C4931EFC035BF435240AD0CBAEA1AE916E8_RuntimeMethod_var);
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:64>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:89>
 		NativeArray_1_Dispose_m8B0F342847ECB90EB814E1F6AA5BF7DC2F271AEA((&((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->___triangulationTable), NativeArray_1_Dispose_m8B0F342847ECB90EB814E1F6AA5BF7DC2F271AEA_RuntimeMethod_var);
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:65>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:90>
 		NativeArray_1_Dispose_m8B0F342847ECB90EB814E1F6AA5BF7DC2F271AEA((&((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->___cornerIndexMix), NativeArray_1_Dispose_m8B0F342847ECB90EB814E1F6AA5BF7DC2F271AEA_RuntimeMethod_var);
 	}
 
 IL_003b:
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:67>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:92>
 		return;
 	}
 }
@@ -11835,21 +11979,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE0
 	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:73>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:98>
 		MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3* L_0 = (MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3*)(&__this->___meshingJob);
 		NativeList_1_t860DA76DDC244DB8C326F8207C115999B60CDBAC* L_1 = (NativeList_1_t860DA76DDC244DB8C326F8207C115999B60CDBAC*)(&L_0->___vertices);
 		NativeList_1_Clear_m5E5736E48A58E650C04A4EB4B224CA75209C0DAB(L_1, NativeList_1_Clear_m5E5736E48A58E650C04A4EB4B224CA75209C0DAB_RuntimeMethod_var);
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:74>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:99>
 		MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3* L_2 = (MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3*)(&__this->___meshingJob);
 		Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39* L_3 = ___0_chunk;
 		NullCheck(L_3);
 		NativeArray_1_tC3AFDC9012293850DE671F2A1E55484968716190 L_4 = L_3->___data;
 		L_2->___volume = L_4;
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:75>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:100>
 		MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3* L_5 = (MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3*)(&__this->___meshingJob);
 		int32_t L_6 = ___1_mode;
 		L_5->___mode = L_6;
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:77>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:102>
 		int32_t L_7 = ___1_mode;
 		V_0 = (bool)((((int32_t)L_7) == ((int32_t)2))? 1 : 0);
 		bool L_8 = V_0;
@@ -11859,22 +12003,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE0
 		}
 	}
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:79>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:104>
 		MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3* L_9 = (MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3*)(&__this->___meshingJob);
 		int32_t L_10 = ___2_xStart;
 		L_9->___xStart = L_10;
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:80>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:105>
 		MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3* L_11 = (MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3*)(&__this->___meshingJob);
 		int32_t L_12 = ___3_xStop;
 		L_11->___xStop = L_12;
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:81>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:106>
 		MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3 L_13 = __this->___meshingJob;
 		il2cpp_codegen_initobj((&V_1), sizeof(JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08));
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_14 = V_1;
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_15;
 		L_15 = IJobExtensions_Schedule_TisMeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3_m90823EDC02B2C2E0445B4E1C6532721B30411762(L_13, L_14, IJobExtensions_Schedule_TisMeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3_m90823EDC02B2C2E0445B4E1C6532721B30411762_RuntimeMethod_var);
 		__this->___meshingJobHandle = L_15;
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:82>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:107>
 		int32_t L_16 = ___2_xStart;
 		V_2 = (bool)((((int32_t)((((int32_t)L_16) < ((int32_t)((int32_t)31)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		bool L_17 = V_2;
@@ -11884,7 +12028,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE0
 		}
 	}
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:83>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:108>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral038BF9AAEC197C70ABA3F8F3A458F46A6F0546E7, NULL);
 	}
@@ -11896,7 +12040,7 @@ IL_0082:
 
 IL_0085:
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:87>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:112>
 		MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3 L_18 = __this->___meshingJob;
 		il2cpp_codegen_initobj((&V_1), sizeof(JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08));
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_19 = V_1;
@@ -11907,7 +12051,7 @@ IL_0085:
 
 IL_00a1:
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:90>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:115>
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_21 = __this->___meshingJobHandle;
 		V_3 = L_21;
 		goto IL_00aa;
@@ -11915,7 +12059,7 @@ IL_00a1:
 
 IL_00aa:
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:91>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:116>
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_22 = V_3;
 		return L_22;
 	}
@@ -11924,7 +12068,7 @@ IL_00aa:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Mesher_IsFinished_m3CFB8829299581DEBBA5A5219A530EF01496248D (Mesher_t643035261793BA2DBEAF768F108C12645E673820* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:92>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:117>
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08* L_0 = (JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08*)(&__this->___meshingJobHandle);
 		bool L_1;
 		L_1 = JobHandle_get_IsCompleted_m834D40CA77C5F2EC575592BD5DEB60B66ACCF941(L_0, NULL);
@@ -11935,7 +12079,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Mesher_IsFinished_m3CFB8829299581DEBBA5A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesher_WaitForMeshJob_m7C9F058969BE23BB68163C9B68E11D2CBAFF9401 (Mesher_t643035261793BA2DBEAF768F108C12645E673820* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:93>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:118>
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08* L_0 = (JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08*)(&__this->___meshingJobHandle);
 		JobHandle_Complete_mDCED35A125AAB37EDDAB2E31C805B4904B614A4A(L_0, NULL);
 		return;
@@ -11967,9 +12111,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesher_CombineMeshers_m0E0A96E6A7B1A2F24
 	Mesher_t643035261793BA2DBEAF768F108C12645E673820* V_5 = NULL;
 	bool V_6 = false;
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:101>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:126>
 		V_0 = 0;
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:102>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:127>
 		List_1_t14755702F8B817C616E02EC1DE2506997C2928A8* L_0 = ___0_meshers;
 		NullCheck(L_0);
 		Enumerator_t26153D6CEB7B4E5E22972FF4B3F72D1B4294D105 L_1;
@@ -11994,11 +12138,11 @@ FINALLY_0033:
 
 IL_000d_1:
 			{
-				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:102>
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:127>
 				Mesher_t643035261793BA2DBEAF768F108C12645E673820* L_2;
 				L_2 = Enumerator_get_Current_mE6E8023EF0DBC64D77C451F4A6AAE668226D3876_inline((&V_1), Enumerator_get_Current_mE6E8023EF0DBC64D77C451F4A6AAE668226D3876_RuntimeMethod_var);
 				V_2 = L_2;
-				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:104>
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:129>
 				int32_t L_3 = V_0;
 				Mesher_t643035261793BA2DBEAF768F108C12645E673820* L_4 = V_2;
 				NullCheck(L_4);
@@ -12012,7 +12156,7 @@ IL_000d_1:
 
 IL_0028_1:
 			{
-				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:102>
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:127>
 				bool L_7;
 				L_7 = Enumerator_MoveNext_m527C81CE3045E5E849A73BCDBC723339AC398DD9((&V_1), Enumerator_MoveNext_m527C81CE3045E5E849A73BCDBC723339AC398DD9_RuntimeMethod_var);
 				if (L_7)
@@ -12032,12 +12176,12 @@ IL_0028_1:
 
 IL_0042:
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:107>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:132>
 		MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3* L_8 = (MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3*)(&__this->___meshingJob);
 		NativeList_1_t860DA76DDC244DB8C326F8207C115999B60CDBAC* L_9 = (NativeList_1_t860DA76DDC244DB8C326F8207C115999B60CDBAC*)(&L_8->___vertices);
 		int32_t L_10 = V_0;
 		NativeList_1_set_Capacity_mC50152774BABA9F04C2D9FCF3313F465A41D8B41(L_9, ((int32_t)il2cpp_codegen_add(L_10, ((int32_t)9))), NativeList_1_set_Capacity_mC50152774BABA9F04C2D9FCF3313F465A41D8B41_RuntimeMethod_var);
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:109>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:134>
 		List_1_t14755702F8B817C616E02EC1DE2506997C2928A8* L_11 = ___0_meshers;
 		NullCheck(L_11);
 		Enumerator_t26153D6CEB7B4E5E22972FF4B3F72D1B4294D105 L_12;
@@ -12062,11 +12206,11 @@ FINALLY_00aa:
 
 IL_0062_1:
 			{
-				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:109>
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:134>
 				Mesher_t643035261793BA2DBEAF768F108C12645E673820* L_13;
 				L_13 = Enumerator_get_Current_mE6E8023EF0DBC64D77C451F4A6AAE668226D3876_inline((&V_4), Enumerator_get_Current_mE6E8023EF0DBC64D77C451F4A6AAE668226D3876_RuntimeMethod_var);
 				V_5 = L_13;
-				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:111>
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:136>
 				Mesher_t643035261793BA2DBEAF768F108C12645E673820* L_14 = V_5;
 				V_6 = (bool)((((int32_t)((((RuntimeObject*)(Mesher_t643035261793BA2DBEAF768F108C12645E673820*)L_14) == ((RuntimeObject*)(Mesher_t643035261793BA2DBEAF768F108C12645E673820*)__this))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 				bool L_15 = V_6;
@@ -12076,7 +12220,7 @@ IL_0062_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:113>
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:138>
 				MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3* L_16 = (MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3*)(&__this->___meshingJob);
 				NativeList_1_t860DA76DDC244DB8C326F8207C115999B60CDBAC* L_17 = (NativeList_1_t860DA76DDC244DB8C326F8207C115999B60CDBAC*)(&L_16->___vertices);
 				Mesher_t643035261793BA2DBEAF768F108C12645E673820* L_18 = V_5;
@@ -12094,7 +12238,7 @@ IL_009e_1:
 
 IL_009f_1:
 			{
-				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:109>
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:134>
 				bool L_22;
 				L_22 = Enumerator_MoveNext_m527C81CE3045E5E849A73BCDBC723339AC398DD9((&V_4), Enumerator_MoveNext_m527C81CE3045E5E849A73BCDBC723339AC398DD9_RuntimeMethod_var);
 				if (L_22)
@@ -12114,7 +12258,7 @@ IL_009f_1:
 
 IL_00b9:
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:116>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:141>
 		return;
 	}
 }
@@ -12122,7 +12266,7 @@ IL_00b9:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VertexAttributeDescriptor_tD4231FBF57335465D16308D2A18E8E83D36BFA76 Mesher_get_VertexFormat_m8ABA9D9D9544BA6BCAC7518F5202D7B28A0E5158 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:120>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:145>
 		VertexAttributeDescriptor_tD4231FBF57335465D16308D2A18E8E83D36BFA76 L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		VertexAttributeDescriptor__ctor_m713B31395FB13FDEB2665F5C4C31572D5875A43A((&L_0), 0, 0, 3, 0, NULL);
@@ -12143,7 +12287,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8
 	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:123>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:148>
 		int32_t L_0 = ___0_count;
 		V_0 = (bool)((((int32_t)L_0) > ((int32_t)((int32_t)1000000)))? 1 : 0);
 		bool L_1 = V_0;
@@ -12153,7 +12297,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8
 		}
 	}
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:124>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:149>
 		Exception_t* L_2 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
 		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral2852F34604F788C3817A9A0EA2D5ED468DF0B060)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Mesher_GetIndices_m12C4A512B819B505319D89223D2B4F61D98C0EE6_RuntimeMethod_var)));
@@ -12161,7 +12305,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8
 
 IL_0018:
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:125>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:150>
+		il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
 		int32_t L_3 = ___0_count;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_4;
 		L_4 = NativeArray_1_GetSubArray_m7A2E07EAE629213B862B7441AF74BE9A8BEEDC10((&((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->___indicesPrecalc32bit), 0, L_3, NativeArray_1_GetSubArray_m7A2E07EAE629213B862B7441AF74BE9A8BEEDC10_RuntimeMethod_var);
@@ -12171,7 +12316,7 @@ IL_0018:
 
 IL_0027:
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:126>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:151>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_5 = V_1;
 		return L_5;
 	}
@@ -12190,7 +12335,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t275C00CC374DEA66C69B3BB3992116
 	NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:129>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:154>
 		int32_t L_0 = ___0_count;
 		V_0 = (bool)((((int32_t)L_0) > ((int32_t)((int32_t)65535)))? 1 : 0);
 		bool L_1 = V_0;
@@ -12200,7 +12345,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t275C00CC374DEA66C69B3BB3992116
 		}
 	}
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:130>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:155>
 		Exception_t* L_2 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
 		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralDF609DF086B9252E2D77F5EECEFAF200910CEAC1)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Mesher_GetIndices16_mA9A53F4067D1DE0B1FC489DAFBE505B2A320C4A7_RuntimeMethod_var)));
@@ -12208,7 +12353,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t275C00CC374DEA66C69B3BB3992116
 
 IL_0018:
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:131>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:156>
+		il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
 		int32_t L_3 = ___0_count;
 		NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934 L_4;
 		L_4 = NativeArray_1_GetSubArray_m2253518A23D28E5EEF03BE39F86D0AB8F81622DA((&((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->___indicesPrecalc16bit), 0, L_3, NativeArray_1_GetSubArray_m2253518A23D28E5EEF03BE39F86D0AB8F81622DA_RuntimeMethod_var);
@@ -12218,7 +12364,7 @@ IL_0018:
 
 IL_0027:
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:132>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:157>
 		NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934 L_5 = V_1;
 		return L_5;
 	}
@@ -12233,7 +12379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:133>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:158>
 		MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3* L_0 = (MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3*)(&__this->___meshingJob);
 		NativeList_1_t860DA76DDC244DB8C326F8207C115999B60CDBAC* L_1 = (NativeList_1_t860DA76DDC244DB8C326F8207C115999B60CDBAC*)(&L_0->___vertices);
 		NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6 L_2;
@@ -12251,13 +12397,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:134>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:159>
 		MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3* L_0 = (MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3*)(&__this->___meshingJob);
 		UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1* L_1 = (UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1*)(&L_0->___bounds);
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* L_2;
 		L_2 = UnsafePointer_1_get_item_m290E730E94F5B8A56391C171A8803829A470EA4D_inline(L_1, UnsafePointer_1_get_item_m290E730E94F5B8A56391C171A8803829A470EA4D_RuntimeMethod_var);
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_3 = (*(Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3*)L_2);
 		return L_3;
+	}
+}
+// Method Definition Index: 122954
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesher__cctor_mC8114CC1F26E46687604F96D2F8B987A5FCC8AA4 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimeObject_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Mesher.cs:26>
+		RuntimeObject* L_0 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_0, NULL);
+		((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->____sharedResourcesLock = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields*)il2cpp_codegen_static_fields_for(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var))->____sharedResourcesLock), (void*)L_0);
+		return;
 	}
 }
 #ifdef __clang__
@@ -12268,7 +12433,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 122954
+// Method Definition Index: 122955
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nibble__ctor_m51C7891C3A12F6A27624816C623FBF1B77B4BF9D (Nibble_tEE1967982B38D9FB905BACC7A006B0CD63EEB601* __this, uint8_t ___0_low, uint8_t ___1_high, const RuntimeMethod* method) 
 {
 	{
@@ -12287,7 +12452,7 @@ IL2CPP_EXTERN_C  void Nibble__ctor_m51C7891C3A12F6A27624816C623FBF1B77B4BF9D_Adj
 	_thisAdjusted = reinterpret_cast<Nibble_tEE1967982B38D9FB905BACC7A006B0CD63EEB601*>(__this + _offset);
 	Nibble__ctor_m51C7891C3A12F6A27624816C623FBF1B77B4BF9D(_thisAdjusted, ___0_low, ___1_high, method);
 }
-// Method Definition Index: 122955
+// Method Definition Index: 122956
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Nibble_get_low_m26E21BD9C17B300CE0A7281C1B7301C258272F0E (Nibble_tEE1967982B38D9FB905BACC7A006B0CD63EEB601* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12305,7 +12470,7 @@ IL2CPP_EXTERN_C  int32_t Nibble_get_low_m26E21BD9C17B300CE0A7281C1B7301C258272F0
 	_returnValue = Nibble_get_low_m26E21BD9C17B300CE0A7281C1B7301C258272F0E(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 122956
+// Method Definition Index: 122957
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Nibble_get_high_m0DFCB1F08516BB0CDDB49C26352DADA4C578E265 (Nibble_tEE1967982B38D9FB905BACC7A006B0CD63EEB601* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12339,7 +12504,7 @@ IL2CPP_EXTERN_C  int32_t Nibble_get_high_m0DFCB1F08516BB0CDDB49C26352DADA4C578E2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 122957
+// Method Definition Index: 122958
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void MeshingJob_Allocate_m1A95407AC28F45C03C109C527167598946918ADE (MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12377,7 +12542,7 @@ IL2CPP_EXTERN_C  void MeshingJob_Allocate_m1A95407AC28F45C03C109C527167598946918
 	_thisAdjusted = reinterpret_cast<MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3*>(__this + _offset);
 	MeshingJob_Allocate_m1A95407AC28F45C03C109C527167598946918ADE(_thisAdjusted, method);
 }
-// Method Definition Index: 122958
+// Method Definition Index: 122959
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void MeshingJob_Dispose_mC9CC94BAE80CBFB12717D218191CB4998C8AA925 (MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12405,7 +12570,7 @@ IL2CPP_EXTERN_C  void MeshingJob_Dispose_mC9CC94BAE80CBFB12717D218191CB4998C8AA9
 	_thisAdjusted = reinterpret_cast<MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3*>(__this + _offset);
 	MeshingJob_Dispose_mC9CC94BAE80CBFB12717D218191CB4998C8AA925(_thisAdjusted, method);
 }
-// Method Definition Index: 122959
+// Method Definition Index: 122960
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR int32_t MeshingJob_movemask_neon_m86701795AC062613C21CB2F55155027B3CB46D69 (v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___0_a, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12466,7 +12631,7 @@ IL_002d:
 		return L_9;
 	}
 }
-// Method Definition Index: 122960
+// Method Definition Index: 122961
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR int32_t MeshingJob_NeonMoveMask_epi8_m237DFDBEBA4E8A6B0C7219FBF26B0DF085AB9F20 (v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___0_input, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -12533,7 +12698,7 @@ IL_0048:
 		return L_17;
 	}
 }
-// Method Definition Index: 122961
+// Method Definition Index: 122962
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR ValueTuple_2_t973F7AB0EF5DD3619E518A966941F10D8098F52D MeshingJob_NeonExtractBitsAndSamples_m3192AF0655091BDAA463B5381FF3DE79C70EACC6 (int8_t* ___0_samples23, void* ___1_volumePtr, int32_t ___2_x, int32_t ___3_y, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12684,7 +12849,7 @@ IL_00ef:
 		return L_48;
 	}
 }
-// Method Definition Index: 122962
+// Method Definition Index: 122963
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void MeshingJob_Execute_m957A5E8C02F2209767B7EE11378F973CB1798617 (MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12868,7 +13033,7 @@ IL2CPP_EXTERN_C  void MeshingJob_Execute_m957A5E8C02F2209767B7EE11378F973CB17986
 	_thisAdjusted = reinterpret_cast<MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3*>(__this + _offset);
 	MeshingJob_Execute_m957A5E8C02F2209767B7EE11378F973CB1798617(_thisAdjusted, method);
 }
-// Method Definition Index: 122963
+// Method Definition Index: 122964
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void MeshingJob_DefaultImplementation_mECF5D5A8209DD971C78706CF5532076630D3C6A8 (MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13477,7 +13642,7 @@ IL2CPP_EXTERN_C  void MeshingJob_DefaultImplementation_mECF5D5A8209DD971C78706CF
 	_thisAdjusted = reinterpret_cast<MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3*>(__this + _offset);
 	MeshingJob_DefaultImplementation_mECF5D5A8209DD971C78706CF5532076630D3C6A8(_thisAdjusted, method);
 }
-// Method Definition Index: 122964
+// Method Definition Index: 122965
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void MeshingJob_SIMDChunkSizeZ32_m791D3E5F518F81E0E2A365080CF80E2AEAE481FF (MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_xStart, int32_t ___1_xStop, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14111,7 +14276,7 @@ IL2CPP_EXTERN_C  void MeshingJob_SIMDChunkSizeZ32_m791D3E5F518F81E0E2A365080CF80
 	_thisAdjusted = reinterpret_cast<MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3*>(__this + _offset);
 	MeshingJob_SIMDChunkSizeZ32_m791D3E5F518F81E0E2A365080CF80E2AEAE481FF(_thisAdjusted, ___0_xStart, ___1_xStop, method);
 }
-// Method Definition Index: 122965
+// Method Definition Index: 122966
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void MeshingJob_NEON_SIMDChunkSizeZ32_m43420B2FF5C221D917F3B0CE42D2BC0EAB75B6C8 (MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_xStart, int32_t ___1_xStop, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14747,7 +14912,7 @@ IL2CPP_EXTERN_C  void MeshingJob_NEON_SIMDChunkSizeZ32_m43420B2FF5C221D917F3B0CE
 	_thisAdjusted = reinterpret_cast<MeshingJob_t9CDD7450CC8D738F1D93F39D38E3E0AF97CBCAD3*>(__this + _offset);
 	MeshingJob_NEON_SIMDChunkSizeZ32_m43420B2FF5C221D917F3B0CE42D2BC0EAB75B6C8(_thisAdjusted, ___0_xStart, ___1_xStop, method);
 }
-// Method Definition Index: 122966
+// Method Definition Index: 122967
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR ValueTuple_2_t973F7AB0EF5DD3619E518A966941F10D8098F52D MeshingJob_SimdExtractBitsAndSamples_mEBBD89CFD65837D36210EA277F40386AF49644B3 (int8_t* ___0_samples23, void* ___1_volumePtr, int32_t ___2_x, int32_t ___3_y, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14912,7 +15077,7 @@ IL_0127:
 		return L_56;
 	}
 }
-// Method Definition Index: 122967
+// Method Definition Index: 122968
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool MeshingJob_SameSigns_m26C70E585C855237F61AD9C6DE6BC821D999346E (v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___0_signBits, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -14996,7 +15161,7 @@ IL_0055:
 		return L_15;
 	}
 }
-// Method Definition Index: 122968
+// Method Definition Index: 122969
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR int32_t MeshingJob_FlattenIndex_mBE603BD8AC3A46A2695CC55CB8556E0726728387 (int32_t ___0_x, int32_t ___1_y, int32_t ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -15007,7 +15172,7 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR int32_t MeshingJob_FlattenIn
 		return ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_0, ((int32_t)32))), ((int32_t)32))), ((int32_t)il2cpp_codegen_multiply(L_1, ((int32_t)32))))), L_2));
 	}
 }
-// Method Definition Index: 122969
+// Method Definition Index: 122970
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E MeshingJob_InterpolateVerts_m18A83E69504517F9706125C614491FC7A390B966 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_v1, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_v2, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -15049,7 +15214,7 @@ IL_003a:
 		return L_14;
 	}
 }
-// Method Definition Index: 122970
+// Method Definition Index: 122971
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E MeshingJob_GetInterpolatedVertex_m5125C820F41DB235ADE00BB67793316C38AFACF3 (int32_t ___0_edge, float ___1_sample0, float ___2_sample1, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -15275,7 +15440,7 @@ IL_0162:
 		return L_31;
 	}
 }
-// Method Definition Index: 122971
+// Method Definition Index: 122972
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void MeshingJob__cctor_m4C0244AEA476E2A32328682C168423C5134C5ABB (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15301,7 +15466,7 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void MeshingJob__cctor_m4C02
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 122972
+// Method Definition Index: 122973
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* MeshBuilder_get_Mesh_m449425847890408AA671C713EC6B379CC62D85EE (MeshBuilder_tB07812D26387493F7CCB54136BB079A4402D706B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15310,7 +15475,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D
 		return L_0;
 	}
 }
-// Method Definition Index: 122973
+// Method Definition Index: 122974
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshBuilder__ctor_m0FC703C8A631350DE2076FF7C9563919FE66D0E1 (MeshBuilder_tB07812D26387493F7CCB54136BB079A4402D706B* __this, int32_t ___0_x, int32_t ___1_y, int32_t ___2_z, int32_t ___3_budget, ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* ___4_compute, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15335,7 +15500,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshBuilder__ctor_m0FC703C8A631350DE2076
 		return;
 	}
 }
-// Method Definition Index: 122974
+// Method Definition Index: 122975
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshBuilder__ctor_mB5ED878EF5E84B224DE5040F5693EBD6957A7536 (MeshBuilder_tB07812D26387493F7CCB54136BB079A4402D706B* __this, Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___0_dims, int32_t ___1_budget, ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* ___2_compute, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15363,7 +15528,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshBuilder__ctor_mB5ED878EF5E84B224DE50
 		return;
 	}
 }
-// Method Definition Index: 122975
+// Method Definition Index: 122976
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshBuilder_Dispose_mF24A76A3B38ACBB8EA5C7020009C4EB0CDBF7F68 (MeshBuilder_tB07812D26387493F7CCB54136BB079A4402D706B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15372,7 +15537,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshBuilder_Dispose_mF24A76A3B38ACBB8EA5
 		return;
 	}
 }
-// Method Definition Index: 122976
+// Method Definition Index: 122977
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshBuilder_BuildIsosurface_m86C43A7DACAFF582C5CF0CF364605D97990F72A2 (MeshBuilder_tB07812D26387493F7CCB54136BB079A4402D706B* __this, ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* ___0_voxels, float ___1_target, float ___2_scale, const RuntimeMethod* method) 
 {
 	{
@@ -15384,7 +15549,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshBuilder_BuildIsosurface_m86C43A7DACA
 		return;
 	}
 }
-// Method Definition Index: 122977
+// Method Definition Index: 122978
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshBuilder_Initialize_m437F69525C36531924D43A66E6AE8C8D0D290C4F (MeshBuilder_tB07812D26387493F7CCB54136BB079A4402D706B* __this, ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 ___0_dims, int32_t ___1_budget, ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* ___2_compute, const RuntimeMethod* method) 
 {
 	{
@@ -15407,7 +15572,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshBuilder_Initialize_m437F69525C365319
 		return;
 	}
 }
-// Method Definition Index: 122978
+// Method Definition Index: 122979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshBuilder_ReleaseAll_m7189B7606A78E4BFB0F9C89A2EA8BFCCF607867C (MeshBuilder_tB07812D26387493F7CCB54136BB079A4402D706B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15419,7 +15584,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshBuilder_ReleaseAll_m7189B7606A78E4BF
 		return;
 	}
 }
-// Method Definition Index: 122979
+// Method Definition Index: 122980
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshBuilder_RunCompute_m37BB9746D7835E775996E1ECE38C8F79F6984240 (MeshBuilder_tB07812D26387493F7CCB54136BB079A4402D706B* __this, ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* ___0_voxels, float ___1_target, float ___2_scale, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15537,7 +15702,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshBuilder_RunCompute_m37BB9746D7835E77
 		return;
 	}
 }
-// Method Definition Index: 122980
+// Method Definition Index: 122981
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshBuilder_AllocateBuffers_mCC1148B69B026623CF610A53118819915791C5FC (MeshBuilder_tB07812D26387493F7CCB54136BB079A4402D706B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15568,7 +15733,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshBuilder_AllocateBuffers_mCC1148B69B0
 		return;
 	}
 }
-// Method Definition Index: 122981
+// Method Definition Index: 122982
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshBuilder_ReleaseBuffers_m2FBF6D84CF721A345F66F4715D47FFE17FD5E65C (MeshBuilder_tB07812D26387493F7CCB54136BB079A4402D706B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15584,7 +15749,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshBuilder_ReleaseBuffers_m2FBF6D84CF72
 		return;
 	}
 }
-// Method Definition Index: 122982
+// Method Definition Index: 122983
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshBuilder_AllocateMesh_m4455CD14559D4E3D0F3A822180F3D919B9087047 (MeshBuilder_tB07812D26387493F7CCB54136BB079A4402D706B* __this, int32_t ___0_vertexCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15672,7 +15837,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshBuilder_AllocateMesh_m4455CD14559D4E
 		return;
 	}
 }
-// Method Definition Index: 122983
+// Method Definition Index: 122984
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshBuilder_ReleaseMesh_mB91C4F18CEEBFD81BE0BE32BFC9606366797C288 (MeshBuilder_tB07812D26387493F7CCB54136BB079A4402D706B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15698,7 +15863,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshBuilder_ReleaseMesh_mB91C4F18CEEBFD8
 		return;
 	}
 }
-// Method Definition Index: 122984
+// Method Definition Index: 122985
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t18162AC6E19765210C1A6EAD8B9803747870D52A* MeshBuilder_CopyMeshFromGPUAsync_m70E839022B3CAC121D7DE6777502DD96FE6E5336 (MeshBuilder_tB07812D26387493F7CCB54136BB079A4402D706B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15756,7 +15921,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t18162AC6E19765210C1A6EAD8B9803747870D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 122985
+// Method Definition Index: 122986
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshData__ctor_m785541A8B5E08F5BB681C21BAE59BCFF8CDD2BAB (MeshData_tF083439ABD320010C5E747D9FD27450D11F2C96E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15772,7 +15937,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshData__ctor_m785541A8B5E08F5BB681C21B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 122986
+// Method Definition Index: 122987
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCopyMeshFromGPUAsyncU3Ed__22__ctor_m65E1896AE50D4933A948459785F9BE182FFA0AFC (U3CCopyMeshFromGPUAsyncU3Ed__22_tCAFD0483341B4A36DE76F54006CD4E0FB5BB4C58* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15780,7 +15945,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCopyMeshFromGPUAsyncU3Ed__22__ctor_m6
 		return;
 	}
 }
-// Method Definition Index: 122987
+// Method Definition Index: 122988
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCopyMeshFromGPUAsyncU3Ed__22_MoveNext_mCDFDE25756E6929AEF3FDEAC01201898BE751E27 (U3CCopyMeshFromGPUAsyncU3Ed__22_tCAFD0483341B4A36DE76F54006CD4E0FB5BB4C58* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16269,7 +16434,7 @@ IL_03f6:
 		return;
 	}
 }
-// Method Definition Index: 122988
+// Method Definition Index: 122989
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCopyMeshFromGPUAsyncU3Ed__22_SetStateMachine_mC4A7CE0F13C25872143F139EAD88EC8DC54324C7 (U3CCopyMeshFromGPUAsyncU3Ed__22_tCAFD0483341B4A36DE76F54006CD4E0FB5BB4C58* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -16284,7 +16449,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCopyMeshFromGPUAsyncU3Ed__22_SetState
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 122989
+// Method Definition Index: 122990
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrecalculatedData__cctor_mC4DCB120F3B2E0D1E8C48F4031DE3D6894B37E78 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16572,7 +16737,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrecalculatedData__cctor_mC4DCB120F3B2E0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 122990
+// Method Definition Index: 122991
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComputeShaderExtensions_SetInts_m2AA472E6D3CB573BB74C81A239F39D1A63FA3CC0 (ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* ___0_compute, String_t* ___1_name, ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 ___2_t, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16606,7 +16771,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComputeShaderExtensions_SetInts_m2AA472E
 		return;
 	}
 }
-// Method Definition Index: 122991
+// Method Definition Index: 122992
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComputeShaderExtensions_SetInts_m3F96051DFDBA791C2448DC09B4C02F6AB9329A94 (ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* ___0_compute, String_t* ___1_name, Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___2_v, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16640,7 +16805,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComputeShaderExtensions_SetInts_m3F96051
 		return;
 	}
 }
-// Method Definition Index: 122992
+// Method Definition Index: 122993
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComputeShaderExtensions_DispatchThreads_m7694860B11CD5D12C46EE924277FDB3DC6D1BE0F (ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* ___0_compute, int32_t ___1_kernel, int32_t ___2_x, int32_t ___3_y, int32_t ___4_z, const RuntimeMethod* method) 
 {
 	uint32_t V_0 = 0;
@@ -16679,7 +16844,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComputeShaderExtensions_DispatchThreads_
 		return;
 	}
 }
-// Method Definition Index: 122993
+// Method Definition Index: 122994
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComputeShaderExtensions_DispatchThreads_mCF2A73F7D2AA4B52B72A30E48AB558AC1BC41CF5 (ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* ___0_compute, int32_t ___1_kernel, ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 ___2_t, const RuntimeMethod* method) 
 {
 	{
@@ -16696,7 +16861,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComputeShaderExtensions_DispatchThreads_
 		return;
 	}
 }
-// Method Definition Index: 122994
+// Method Definition Index: 122995
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComputeShaderExtensions_DispatchThreads_mB0BC61961DEEEE09003916C8B052910770B8FFCC (ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* ___0_compute, int32_t ___1_kernel, Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___2_v, const RuntimeMethod* method) 
 {
 	{
@@ -16721,7 +16886,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComputeShaderExtensions_DispatchThreads_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 122995
+// Method Definition Index: 122996
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t U3CPrivateImplementationDetailsU3E_ComputeStringHash_m6EA1F233618497AEFF8902A5EDFA24C74E2F2876 (String_t* ___0_s, const RuntimeMethod* method) 
 {
 	uint32_t V_0 = 0;
@@ -16830,7 +16995,7 @@ IL_002c:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 122996
+// Method Definition Index: 122997
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void __JobReflectionRegistrationOutput__1221673671587648887_CreateJobReflectionData_m1F483A9B7E258CE82A38F403CB25E2A8E08B8C7D (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16873,7 +17038,7 @@ IL_0020:
 		return;
 	}
 }
-// Method Definition Index: 122997
+// Method Definition Index: 122998
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void __JobReflectionRegistrationOutput__1221673671587648887_EarlyInit_m0E9D8082FECF3A06E063A71B0013E9029931CC67 (const RuntimeMethod* method) 
 {
 	{

@@ -512,6 +512,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralA2A3DF99788A73C2F0FE7267B988915F72D2C1F1
 IL2CPP_EXTERN_C String_t* _stringLiteralA2B5208CBD672BD56D417E00B07619D4FDBBD0C2;
 IL2CPP_EXTERN_C String_t* _stringLiteralA2C561FBF50E60EE6467CFDBB69E656633528C71;
 IL2CPP_EXTERN_C String_t* _stringLiteralA45FBB87893467CFD9C69AEE43B5E557413189CF;
+IL2CPP_EXTERN_C String_t* _stringLiteralA58050161A9CDE013D0FC909E346BCBAC35A2F8D;
 IL2CPP_EXTERN_C String_t* _stringLiteralA60BA640DCD4EDA363889D93F1814B69DF3931C7;
 IL2CPP_EXTERN_C String_t* _stringLiteralA6318B1E62673279A207D00CB356451933DD67C5;
 IL2CPP_EXTERN_C String_t* _stringLiteralA790E4AADE2D4C7C4EB042488EF82543A11A9D58;
@@ -716,6 +717,9 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mB8BEEB9BF4E88F4A5144CE9DA5
 IL2CPP_EXTERN_C const RuntimeMethod* Mesh_SetIndexBufferData_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mE5ABB3DE972D55382E6B7FBB37B2A564B4E64861_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Mesh_SetIndexBufferData_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_m616A2170A195312A9B66EF853DD545347EF6A86B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Mesh_SetVertexBufferData_Tisfloat3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_m9C94D0EC9E71D4DEE693F1834EC6516ECCB10CA6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_mB41B318820A405D727A0192457EC35740E6B7526_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_HasValue_m5E390FE1B37B443BEE9BE8F3FFC9A0974CCAC80C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_Value_m35132F34816B551520C24C7FE0A77D2DA8B59B73_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_FindFirstObjectByType_TisEnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_m5FD7C485F15F20C0D1A8AE0CBE80A4F47B9F1BE2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_FindFirstObjectByType_TisOVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9_m8F8D86388D19000F90EB1EB0BDB40AC7F51ECC71_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_FindObjectsByType_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m7DE9E9D6DA2393226C7F979325D17ACE076EF7F7_RuntimeMethod_var;
@@ -1433,6 +1437,11 @@ struct KeyValuePair_2_tA9C08938A7BB93727C1EA7CF1C27A8902E203C1E
 	Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___key;
 	RuntimeObject* ___value;
 };
+struct Nullable_1_t2153F26F688901E0795BA65DEA582FDC46AB9489 
+{
+	bool ___hasValue;
+	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___value;
+};
 struct Allocator_t996642592271AAD9EE688F142741D512C07B5824 
 {
 	int32_t ___value__;
@@ -1997,11 +2006,13 @@ struct U3CBuildMeshTaskU3Ed__16_tCCA3AED3B6767740DD13EDAC4FCCF2CB7BE54EE0  : pub
 	Mesher_t643035261793BA2DBEAF768F108C12645E673820* ___U3CmesherU3E5__1;
 	Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39* ___U3CchunkDataU3E5__2;
 	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___U3CfinalMeshU3E5__3;
-	Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___U3CvoxelOriginU3E5__4;
-	Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39* ___U3CU3Es__5;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CunrotatedPositionU3E5__6;
-	float ___U3CscaleU3E5__7;
-	float ___U3CgapCorrectionScaleU3E5__8;
+	Nullable_1_t2153F26F688901E0795BA65DEA582FDC46AB9489 ___U3CjobHandleU3E5__4;
+	Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___U3CvoxelOriginU3E5__5;
+	Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39* ___U3CU3Es__6;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CunrotatedPositionU3E5__7;
+	float ___U3CscaleU3E5__8;
+	float ___U3CgapCorrectionScaleU3E5__9;
+	Exception_t* ___U3CeU3E5__10;
 	TaskAwaiter_1_tCF76E8E8627C0B61FC714D9CBCAB9520D67F835A ___U3CU3Eu__1;
 };
 struct U3CInitialBuildU3Ed__14_t76A9D5C88C2B72B3603FE9E5502F56959A9D5FE9  : public RuntimeObject
@@ -2862,6 +2873,7 @@ struct Mesher_t643035261793BA2DBEAF768F108C12645E673820_StaticFields
 	NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___cornerIndexB;
 	NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___cornerIndexMix;
 	int32_t ___referenceCounter;
+	RuntimeObject* ____sharedResourcesLock;
 };
 struct EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_StaticFields
 {
@@ -3381,8 +3393,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_Start_TisRuntim
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* AsyncTaskMethodBuilder_1_get_Task_mEA092EC6F1324A9D694CF6056FA8583F2A2BDC89_gshared (AsyncTaskMethodBuilder_1_tE810F083929D7952F192036D298085BD4B048AD0* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisRuntimeObject_m88F9075FDCC2543975FBD89EEF959554B47051E3_gshared (AsyncTaskMethodBuilder_1_tE810F083929D7952F192036D298085BD4B048AD0* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, RuntimeObject** ___1_stateMachine, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mA8F6BD9905EC81897F4B6EB8980908B69A89E271_gshared_inline (Action_1_t5E12AFF3598D6A12C26E511CE20D986B93B14F86* __this, Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_mB41B318820A405D727A0192457EC35740E6B7526_gshared (Nullable_1_t2153F26F688901E0795BA65DEA582FDC46AB9489* __this, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Reverse_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m4D87E44403FE7179ED4476644C44876F2A7B8CB7_gshared (RuntimeObject* ___0_source, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* Enumerable_ToArray_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mF245DE52408A8C84E3C4CA32F2AFC491079443E8_gshared (RuntimeObject* ___0_source, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m5E390FE1B37B443BEE9BE8F3FFC9A0974CCAC80C_gshared_inline (Nullable_1_t2153F26F688901E0795BA65DEA582FDC46AB9489* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 Nullable_1_get_Value_m35132F34816B551520C24C7FE0A77D2DA8B59B73_gshared (Nullable_1_t2153F26F688901E0795BA65DEA582FDC46AB9489* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_SetException_mC2F74B26F5303F9F960965220E2866D777F1A5C6_gshared (AsyncTaskMethodBuilder_1_tE810F083929D7952F192036D298085BD4B048AD0* __this, Exception_t* ___0_exception, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_SetResult_m0D83195F995F9825D7A6DCDC3835D6917C43B5A6_gshared (AsyncTaskMethodBuilder_1_tE810F083929D7952F192036D298085BD4B048AD0* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisRuntimeObject_m39330AED229FA1BA70485D8A3995487EAF512FD4_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___0_awaiter, RuntimeObject** ___1_stateMachine, const RuntimeMethod* method) ;
@@ -4011,11 +4026,14 @@ inline void Action_1_Invoke_mA8F6BD9905EC81897F4B6EB8980908B69A89E271_inline (Ac
 	((  void (*) (Action_1_t5E12AFF3598D6A12C26E511CE20D986B93B14F86*, Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376, const RuntimeMethod*))Action_1_Invoke_mA8F6BD9905EC81897F4B6EB8980908B69A89E271_gshared_inline)(__this, ___0_obj, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 Mesher_StartMeshJob_m332D29E17879E57ECF708D15EF3E734135B2DD6A (Mesher_t643035261793BA2DBEAF768F108C12645E673820* __this, Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39* ___0_chunk, int32_t ___1_mode, int32_t ___2_xStart, int32_t ___3_xStop, const RuntimeMethod* method) ;
+inline void Nullable_1__ctor_mB41B318820A405D727A0192457EC35740E6B7526 (Nullable_1_t2153F26F688901E0795BA65DEA582FDC46AB9489* __this, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (Nullable_1_t2153F26F688901E0795BA65DEA582FDC46AB9489*, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08, const RuntimeMethod*))Nullable_1__ctor_mB41B318820A405D727A0192457EC35740E6B7526_gshared)(__this, ___0_value, method);
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesher_WaitForMeshJob_m7C9F058969BE23BB68163C9B68E11D2CBAFF9401 (Mesher_t643035261793BA2DBEAF768F108C12645E673820* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ChunkInstance_ChunkVoxelOriginToLocalPos_m3B3D452A9551D8C5DC7E64E1A94FE60BCF91F601 (ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* __this, Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___0_voxelOrigin, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* OVRCameraRig_get_trackingSpace_m76339871C7804C1BD14283FBF3D91268D4D87550_inline (OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, const RuntimeMethod* method) ;
 inline RuntimeObject* Enumerable_Reverse_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m4D87E44403FE7179ED4476644C44876F2A7B8CB7 (RuntimeObject* ___0_source, const RuntimeMethod* method)
 {
@@ -4027,6 +4045,15 @@ inline Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* Enumerable_ToArray
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_triangles_m124405320579A8D92711BB5A124644963A26F60B (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_RecalculateNormals_m3AA2788914611444E030CA310E03E3CFE683902B (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, const RuntimeMethod* method) ;
+inline bool Nullable_1_get_HasValue_m5E390FE1B37B443BEE9BE8F3FFC9A0974CCAC80C_inline (Nullable_1_t2153F26F688901E0795BA65DEA582FDC46AB9489* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Nullable_1_t2153F26F688901E0795BA65DEA582FDC46AB9489*, const RuntimeMethod*))Nullable_1_get_HasValue_m5E390FE1B37B443BEE9BE8F3FFC9A0974CCAC80C_gshared_inline)(__this, method);
+}
+inline JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 Nullable_1_get_Value_m35132F34816B551520C24C7FE0A77D2DA8B59B73 (Nullable_1_t2153F26F688901E0795BA65DEA582FDC46AB9489* __this, const RuntimeMethod* method)
+{
+	return ((  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 (*) (Nullable_1_t2153F26F688901E0795BA65DEA582FDC46AB9489*, const RuntimeMethod*))Nullable_1_get_Value_m35132F34816B551520C24C7FE0A77D2DA8B59B73_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobHandle_Complete_mDCED35A125AAB37EDDAB2E31C805B4904B614A4A (JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08* __this, const RuntimeMethod* method) ;
 inline void AsyncTaskMethodBuilder_1_SetException_m43B46B586B06170CCA27891C25DBA19EF535A2FB (AsyncTaskMethodBuilder_1_tF52D8583A6171196B4FD74BAE3F512C58DAFDA9B* __this, Exception_t* ___0_exception, const RuntimeMethod* method)
 {
 	((  void (*) (AsyncTaskMethodBuilder_1_tF52D8583A6171196B4FD74BAE3F512C58DAFDA9B*, Exception_t*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_SetException_mC2F74B26F5303F9F960965220E2866D777F1A5C6_gshared)(__this, ___0_exception, method);
@@ -4060,6 +4087,7 @@ inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t288C
 {
 	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_1_t288CC13E73B75D6C029A135F50B9D932253AB56A*, U3CUpdateMeshU3Ed__15_t9DBB433F1FC2C6CE2044B4854A874312A6859596**, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisRuntimeObject_m39330AED229FA1BA70485D8A3995487EAF512FD4_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_m064F2A066491D2DC4FFCFBDBE5FCFFB807A04436 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, float ___1_t, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ChunkManager_UpdateChunkGenerationCoroutine_m8A73FD93C4C9D6912372DA9BED842BF5DA83D61A (ChunkManager_tF9FAD853900B822D5DD7BE8BE38790D4966D71FF* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ChunkManager_UpdateChunkRemeshingCoroutine_m95055BD0AD612270C840A2076C994DAAAB11DBCF (ChunkManager_tF9FAD853900B822D5DD7BE8BE38790D4966D71FF* __this, const RuntimeMethod* method) ;
 inline ValueCollection_t1B5EEE7DE34BA1091654D9B39DBA435ACDB9F31D* Dictionary_2_get_Values_m8DB581998C72C9C0E1389389F98926E309CDC672 (Dictionary_2_t441B4EBCFAAE23F03B23C0111B35EE2C4853CD59* __this, const RuntimeMethod* method)
@@ -4339,6 +4367,7 @@ inline void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tCF
 	((  void (*) (AsyncTaskMethodBuilder_1_tF52D8583A6171196B4FD74BAE3F512C58DAFDA9B*, TaskAwaiter_1_tCF76E8E8627C0B61FC714D9CBCAB9520D67F835A*, U3CBuildMeshTaskU3Ed__9_t8BE4A45269C384FB560D67ACBCEF5DB880EBDD82**, const RuntimeMethod*))AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisRuntimeObject_m88F9075FDCC2543975FBD89EEF959554B47051E3_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ChunkProcessor_ChunkVoxelOriginToLocalPos_m915C6F16591AA761FDF52205A5203B8B074DAB84 (ChunkProcessor_t8B7809BAB0A6DAAB95783401C7AD153A4B4B75E8* __this, Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___0_voxelOrigin, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkManagerV2_SetChunkStatus_m44F730E3C411448316026D49C409D6A583797E0A (ChunkManagerV2_tFAD815E7B2016A033384BB223EBF474AAC4D671A* __this, Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___0_coord, int32_t ___1_status, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tB2C6BACE26DC94A2F554F6E911F45850C5C566E9* ChunkProcessor_BuildMeshTask_m5EAED671D88F7ACE163FBA3EBDFE060FF5973716 (ChunkProcessor_t8B7809BAB0A6DAAB95783401C7AD153A4B4B75E8* __this, Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___0_coordinate, const RuntimeMethod* method) ;
 inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t288CC13E73B75D6C029A135F50B9D932253AB56A_TisU3CProcessChunkTaskU3Ed__8_tA4B26183FCE881C843D48EC946C0330F01E7F465_mD7EEE8C2BAB3C64D6654A9093D2448AF8C69D411 (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t288CC13E73B75D6C029A135F50B9D932253AB56A* ___0_awaiter, U3CProcessChunkTaskU3Ed__8_tA4B26183FCE881C843D48EC946C0330F01E7F465** ___1_stateMachine, const RuntimeMethod* method)
@@ -9704,6 +9733,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshExtensions_SetMesh_mA4A3B13FC2BFB35C
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mesh_SetIndexBufferData_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mE5ABB3DE972D55382E6B7FBB37B2A564B4E64861_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mesh_SetIndexBufferData_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_m616A2170A195312A9B66EF853DD545347EF6A86B_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mesh_SetVertexBufferData_Tisfloat3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_m9C94D0EC9E71D4DEE693F1834EC6516ECCB10CA6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -9753,6 +9783,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshExtensions_SetMesh_mA4A3B13FC2BFB35C
 		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Extensions/MeshExtensions.cs:23>
 		int32_t L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_0))->___m_Length);
+		il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_8;
 		L_8 = Mesher_GetIndices_m12C4A512B819B505319D89223D2B4F61D98C0EE6(L_7, NULL);
 		V_5 = L_8;
@@ -9779,6 +9810,7 @@ IL_0068:
 		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Extensions/MeshExtensions.cs:29>
 		int32_t L_15;
 		L_15 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_0))->___m_Length);
+		il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
 		NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934 L_16;
 		L_16 = Mesher_GetIndices16_mA9A53F4067D1DE0B1FC489DAFBE505B2A320C4A7(L_15, NULL);
 		V_6 = L_16;
@@ -9807,6 +9839,7 @@ IL_009e:
 		L_24 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_0))->___m_Length);
 		VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2* L_25 = (VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2*)(VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2*)SZArrayNew(VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2_il2cpp_TypeInfo_var, (uint32_t)1);
 		VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2* L_26 = L_25;
+		il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
 		VertexAttributeDescriptor_tD4231FBF57335465D16308D2A18E8E83D36BFA76 L_27;
 		L_27 = Mesher_get_VertexFormat_m8ABA9D9D9544BA6BCAC7518F5202D7B28A0E5158(NULL);
 		NullCheck(L_26);
@@ -9876,6 +9909,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshExtensions_SetMesh_mD3D3E634D7164729
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mesh_SetIndexBufferData_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mE5ABB3DE972D55382E6B7FBB37B2A564B4E64861_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mesh_SetIndexBufferData_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_m616A2170A195312A9B66EF853DD545347EF6A86B_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mesh_SetVertexBufferData_Tisfloat3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_m9C94D0EC9E71D4DEE693F1834EC6516ECCB10CA6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -10028,6 +10062,7 @@ IL_0068:
 	{
 		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Extensions/MeshExtensions.cs:71>
 		int32_t L_21 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_22;
 		L_22 = Mesher_GetIndices_m12C4A512B819B505319D89223D2B4F61D98C0EE6(L_21, NULL);
 		V_12 = L_22;
@@ -10053,6 +10088,7 @@ IL_00ba:
 	{
 		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/FastMarchingCubes/Extensions/MeshExtensions.cs:77>
 		int32_t L_29 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
 		NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934 L_30;
 		L_30 = Mesher_GetIndices16_mA9A53F4067D1DE0B1FC489DAFBE505B2A320C4A7(L_29, NULL);
 		V_13 = L_30;
@@ -10080,6 +10116,7 @@ IL_00ea:
 		int32_t L_38 = V_0;
 		VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2* L_39 = (VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2*)(VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2*)SZArrayNew(VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2_il2cpp_TypeInfo_var, (uint32_t)1);
 		VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2* L_40 = L_39;
+		il2cpp_codegen_runtime_class_init_inline(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
 		VertexAttributeDescriptor_tD4231FBF57335465D16308D2A18E8E83D36BFA76 L_41;
 		L_41 = Mesher_get_VertexFormat_m8ABA9D9D9544BA6BCAC7518F5202D7B28A0E5158(NULL);
 		NullCheck(L_40);
@@ -15434,33 +15471,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkInstance_Initialize_m69A42ABC52DE03
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:29>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:30>
 		Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_0 = ___0_coordinate;
 		__this->____coordinate = L_0;
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:30>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:31>
 		Action_1_t5E12AFF3598D6A12C26E511CE20D986B93B14F86* L_1 = ___1_onBuildFailed;
 		__this->____onBuildFailed = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____onBuildFailed), (void*)L_1);
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:31>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:32>
 		VoxelProvider_t2734C40830E388EE11179B965C118D58316132F0* L_2 = ___2_provider;
 		__this->____voxelProvider = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____voxelProvider), (void*)L_2);
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:32>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:33>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___3_material;
 		__this->____meshMaterial = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____meshMaterial), (void*)L_3);
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:33>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:34>
 		EnvironmentMapper_tC0F66B5AD7C5D1FD6E796423FC598AFFCC89096B* L_4 = ___4_mapper;
 		__this->____environmentMapper = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____environmentMapper), (void*)L_4);
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:34>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:35>
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_5 = ___5_cameraRig;
 		__this->____cameraRig = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____cameraRig), (void*)L_5);
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:35>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:36>
 		bool L_6 = ___6_isVisible;
 		__this->____isRendererVisible = L_6;
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:37>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:38>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* L_8 = (Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)(&__this->____coordinate);
@@ -15482,9 +15519,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkInstance_Initialize_m69A42ABC52DE03
 		L_20 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral1E516536934967C57D6A1D9D8D11C949F82269F1, L_11, L_15, L_19, NULL);
 		NullCheck(L_7);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_7, L_20, NULL);
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:38>
-		ChunkInstance_InitialBuild_m2532B05282FBE3F271481A53860952A765433119(__this, NULL);
 		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:39>
+		ChunkInstance_InitialBuild_m2532B05282FBE3F271481A53860952A765433119(__this, NULL);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:40>
 		return;
 	}
 }
@@ -15499,10 +15536,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkInstance_SetRendererVisibility_m8AB
 	}
 	bool V_0 = false;
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:46>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:47>
 		bool L_0 = ___0_isVisible;
 		__this->____isRendererVisible = L_0;
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:47>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:48>
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_1 = __this->____meshRenderer;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -15515,7 +15552,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkInstance_SetRendererVisibility_m8AB
 		}
 	}
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:49>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:50>
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_4 = __this->____meshRenderer;
 		bool L_5 = __this->____isRendererVisible;
 		NullCheck(L_4);
@@ -15524,7 +15561,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkInstance_SetRendererVisibility_m8AB
 
 IL_002c:
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:51>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:52>
 		return;
 	}
 }
@@ -15533,7 +15570,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkInstance_TriggerUpdate_m4ADB8B31659
 {
 	bool V_0 = false;
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:55>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:56>
 		bool L_0 = __this->____isUpdating;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -15543,19 +15580,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkInstance_TriggerUpdate_m4ADB8B31659
 		}
 	}
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:55>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:56>
 		goto IL_0014;
 	}
 
 IL_000d:
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:56>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:57>
 		ChunkInstance_UpdateMesh_m5FA609E8C036F430177906063B24CD7410231835(__this, NULL);
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:57>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:58>
 		return;
 	}
 }
@@ -15705,9 +15742,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3Int_t65CB06F557251D18A37BD71F3655BA836
 	Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:167>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:185>
 		Vector3Int__ctor_mE06A86999D16FA579A7F2142B872AB7E3695C9E0_inline((&V_0), ((int32_t)32), ((int32_t)32), ((int32_t)32), NULL);
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:168>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:186>
 		int32_t L_0;
 		L_0 = Vector3Int_get_x_m21C268D2AA4C03CE35AA49DF6155347C9748054C_inline((&___0_chunkCoord), NULL);
 		int32_t L_1;
@@ -15729,7 +15766,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3Int_t65CB06F557251D18A37BD71F3655BA836
 
 IL_0043:
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:169>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:187>
 		Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_7 = V_1;
 		return L_7;
 	}
@@ -15742,7 +15779,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:173>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:191>
 		EnvironmentMapper_tC0F66B5AD7C5D1FD6E796423FC598AFFCC89096B* L_0 = __this->____environmentMapper;
 		NullCheck(L_0);
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_1 = L_0->___volume;
@@ -15762,7 +15799,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		int32_t L_8;
 		L_8 = RenderTexture_get_volumeDepth_m049340EE670E9632FC824B640A5570B5D3FCFEBF(L_7, NULL);
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_0), ((float)L_2), ((float)L_5), ((float)L_8), NULL);
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:174>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:192>
 		Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_9 = ___0_voxelOrigin;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
 		L_10 = Vector3Int_op_Implicit_m13297B1F6D07F1E46C0627EAAB8413E637FCA442_inline(L_9, NULL);
@@ -15782,7 +15819,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 IL_0064:
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:175>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:193>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_1;
 		return L_17;
 	}
@@ -15791,9 +15828,9 @@ IL_0064:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkInstance__ctor_m41E77D55D4BC53135BE495B13F5128D22E08981A (ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:18>
-		__this->____isUpdating = (bool)0;
 		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:19>
+		__this->____isUpdating = (bool)0;
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:20>
 		__this->____isRendererVisible = (bool)1;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -15829,6 +15866,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CBuildMeshTaskU3Ed__16_MoveNext_m7FE99
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MeshExtensions_t749DC6B74CCC997D8B1FB40736B83CA5827DD501_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_mB41B318820A405D727A0192457EC35740E6B7526_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskAwaiter_1_GetResult_mB31EB805DA54ABDB4FCC588B960D45B0CA906FA8_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskAwaiter_1_get_IsCompleted_m465247D61783548AA2F5C957B7F8158147DC2EC8_RuntimeMethod_var);
@@ -15845,15 +15883,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CBuildMeshTaskU3Ed__16_MoveNext_m7FE99
 	NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6 V_6;
 	memset((&V_6), 0, sizeof(V_6));
 	Exception_t* V_7 = NULL;
-	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	bool V_8 = false;
+	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 2> __active_exceptions;
 	Action_1_t5E12AFF3598D6A12C26E511CE20D986B93B14F86* G_B15_0 = NULL;
 	Action_1_t5E12AFF3598D6A12C26E511CE20D986B93B14F86* G_B14_0 = NULL;
 	Action_1_t5E12AFF3598D6A12C26E511CE20D986B93B14F86* G_B21_0 = NULL;
 	Action_1_t5E12AFF3598D6A12C26E511CE20D986B93B14F86* G_B20_0 = NULL;
-	Mesher_t643035261793BA2DBEAF768F108C12645E673820* G_B27_0 = NULL;
-	Mesher_t643035261793BA2DBEAF768F108C12645E673820* G_B26_0 = NULL;
-	Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39* G_B30_0 = NULL;
-	Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39* G_B29_0 = NULL;
+	Mesher_t643035261793BA2DBEAF768F108C12645E673820* G_B31_0 = NULL;
+	Mesher_t643035261793BA2DBEAF768F108C12645E673820* G_B30_0 = NULL;
+	Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39* G_B34_0 = NULL;
+	Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39* G_B33_0 = NULL;
 	{
 		int32_t L_0 = __this->___U3CU3E1__state;
 		V_0 = L_0;
@@ -15873,88 +15914,91 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CBuildMeshTaskU3Ed__16_MoveNext_m7FE99
 
 IL_000c_1:
 		{
-			goto IL_0028_1;
+			goto IL_0034_1;
 		}
 
 IL_000e_1:
 		{
-			//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:121>
+			//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:129>
 			Mesher_t643035261793BA2DBEAF768F108C12645E673820* L_2 = (Mesher_t643035261793BA2DBEAF768F108C12645E673820*)il2cpp_codegen_object_new(Mesher_t643035261793BA2DBEAF768F108C12645E673820_il2cpp_TypeInfo_var);
 			Mesher__ctor_m7378CE3FDE0237DAFD2FFD7E3EEB6A6682F34DD9(L_2, NULL);
 			__this->___U3CmesherU3E5__1 = L_2;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CmesherU3E5__1), (void*)L_2);
-			//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:122>
+			//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:130>
 			__this->___U3CchunkDataU3E5__2 = (Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39*)NULL;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CchunkDataU3E5__2), (void*)(Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39*)NULL);
-			//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:123>
+			//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:131>
 			__this->___U3CfinalMeshU3E5__3 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CfinalMeshU3E5__3), (void*)(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL);
+			//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:132>
+			Nullable_1_t2153F26F688901E0795BA65DEA582FDC46AB9489* L_3 = (Nullable_1_t2153F26F688901E0795BA65DEA582FDC46AB9489*)(&__this->___U3CjobHandleU3E5__4);
+			il2cpp_codegen_initobj(L_3, sizeof(Nullable_1_t2153F26F688901E0795BA65DEA582FDC46AB9489));
 		}
 
-IL_0028_1:
+IL_0034_1:
 		{
 		}
 		{
 			auto __finallyBlock = il2cpp::utils::Finally([&]
 			{
 
-FINALLY_02f0_1:
+FINALLY_032a_1:
 				{
 					{
-						int32_t L_3 = V_0;
-						if ((((int32_t)L_3) >= ((int32_t)0)))
+						int32_t L_4 = V_0;
+						if ((((int32_t)L_4) >= ((int32_t)0)))
 						{
-							goto IL_031a_1;
+							goto IL_0354_1;
 						}
 					}
 					{
-						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:159>
-						Mesher_t643035261793BA2DBEAF768F108C12645E673820* L_4 = __this->___U3CmesherU3E5__1;
-						Mesher_t643035261793BA2DBEAF768F108C12645E673820* L_5 = L_4;
-						if (L_5)
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:177>
+						Mesher_t643035261793BA2DBEAF768F108C12645E673820* L_5 = __this->___U3CmesherU3E5__1;
+						Mesher_t643035261793BA2DBEAF768F108C12645E673820* L_6 = L_5;
+						if (L_6)
 						{
-							G_B27_0 = L_5;
-							goto IL_0301_1;
+							G_B31_0 = L_6;
+							goto IL_033b_1;
 						}
-						G_B26_0 = L_5;
+						G_B30_0 = L_6;
 					}
 					{
-						goto IL_0307_1;
-					}
-
-IL_0301_1:
-					{
-						NullCheck(G_B27_0);
-						Mesher_Dispose_mBA20A568DEFC46AA70F78DBF2CB7C3BE4A0DAFFC(G_B27_0, NULL);
+						goto IL_0341_1;
 					}
 
-IL_0307_1:
+IL_033b_1:
 					{
-						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:160>
-						Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39* L_6 = __this->___U3CchunkDataU3E5__2;
-						Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39* L_7 = L_6;
-						if (L_7)
+						NullCheck(G_B31_0);
+						Mesher_Dispose_mBA20A568DEFC46AA70F78DBF2CB7C3BE4A0DAFFC(G_B31_0, NULL);
+					}
+
+IL_0341_1:
+					{
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:178>
+						Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39* L_7 = __this->___U3CchunkDataU3E5__2;
+						Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39* L_8 = L_7;
+						if (L_8)
 						{
-							G_B30_0 = L_7;
-							goto IL_0313_1;
+							G_B34_0 = L_8;
+							goto IL_034d_1;
 						}
-						G_B29_0 = L_7;
+						G_B33_0 = L_8;
 					}
 					{
-						goto IL_0319_1;
+						goto IL_0353_1;
 					}
 
-IL_0313_1:
+IL_034d_1:
 					{
-						NullCheck(G_B30_0);
-						Chunk_Dispose_m85CFCE75C133D0BEC4E48C4019DC4A3017083622(G_B30_0, NULL);
+						NullCheck(G_B34_0);
+						Chunk_Dispose_m85CFCE75C133D0BEC4E48C4019DC4A3017083622(G_B34_0, NULL);
 					}
 
-IL_0319_1:
+IL_0353_1:
 					{
 					}
 
-IL_031a_1:
+IL_0354_1:
 					{
 						return;
 					}
@@ -15962,318 +16006,369 @@ IL_031a_1:
 			});
 			try
 			{
+				try
 				{
-					int32_t L_8 = V_0;
-					if (!L_8)
 					{
-						goto IL_002e_2;
+						int32_t L_9 = V_0;
+						if (!L_9)
+						{
+							goto IL_003a_3;
+						}
+					}
+					{
+						goto IL_003c_3;
+					}
+
+IL_003a_3:
+					{
+						goto IL_00b0_3;
+					}
+
+IL_003c_3:
+					{
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:136>
+						ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_10 = __this->___U3CU3E4__this;
+						ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_11 = __this->___U3CU3E4__this;
+						NullCheck(L_11);
+						Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_12 = L_11->____coordinate;
+						NullCheck(L_10);
+						Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_13;
+						L_13 = ChunkInstance_ChunkCoordToVoxelOrigin_m9465C6A6CA2EB1CFC109FE202CA0CA7833F768AA(L_10, L_12, NULL);
+						__this->___U3CvoxelOriginU3E5__5 = L_13;
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:137>
+						ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_14 = __this->___U3CU3E4__this;
+						NullCheck(L_14);
+						VoxelProvider_t2734C40830E388EE11179B965C118D58316132F0* L_15 = L_14->____voxelProvider;
+						Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_16 = __this->___U3CvoxelOriginU3E5__5;
+						Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_17;
+						memset((&L_17), 0, sizeof(L_17));
+						Vector3Int__ctor_mE06A86999D16FA579A7F2142B872AB7E3695C9E0_inline((&L_17), ((int32_t)32), ((int32_t)32), ((int32_t)32), NULL);
+						NullCheck(L_15);
+						Task_1_tF3A630B8900F04869C08A02A8308C7C78E0D5DB3* L_18;
+						L_18 = VoxelProvider_GetVoxelDataForChunk_mBAFD78982E3AF08FF4FA5BE7BEE1A5912C977380(L_15, L_16, L_17, NULL);
+						NullCheck(L_18);
+						TaskAwaiter_1_tCF76E8E8627C0B61FC714D9CBCAB9520D67F835A L_19;
+						L_19 = Task_1_GetAwaiter_m16F1CB60860BDC71846572F72295B43CCB38EE66(L_18, Task_1_GetAwaiter_m16F1CB60860BDC71846572F72295B43CCB38EE66_RuntimeMethod_var);
+						V_2 = L_19;
+						bool L_20;
+						L_20 = TaskAwaiter_1_get_IsCompleted_m465247D61783548AA2F5C957B7F8158147DC2EC8((&V_2), TaskAwaiter_1_get_IsCompleted_m465247D61783548AA2F5C957B7F8158147DC2EC8_RuntimeMethod_var);
+						if (L_20)
+						{
+							goto IL_00cc_3;
+						}
+					}
+					{
+						int32_t L_21 = 0;
+						V_0 = L_21;
+						__this->___U3CU3E1__state = L_21;
+						TaskAwaiter_1_tCF76E8E8627C0B61FC714D9CBCAB9520D67F835A L_22 = V_2;
+						__this->___U3CU3Eu__1 = L_22;
+						Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1))->___m_task), (void*)NULL);
+						V_3 = __this;
+						AsyncTaskMethodBuilder_1_tF52D8583A6171196B4FD74BAE3F512C58DAFDA9B* L_23 = (AsyncTaskMethodBuilder_1_tF52D8583A6171196B4FD74BAE3F512C58DAFDA9B*)(&__this->___U3CU3Et__builder);
+						il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_1_tF52D8583A6171196B4FD74BAE3F512C58DAFDA9B_il2cpp_TypeInfo_var);
+						AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tCF76E8E8627C0B61FC714D9CBCAB9520D67F835A_TisU3CBuildMeshTaskU3Ed__16_tCCA3AED3B6767740DD13EDAC4FCCF2CB7BE54EE0_mB220085CA6FAF01376AED38066291534864A2986(L_23, (&V_2), (&V_3), AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tCF76E8E8627C0B61FC714D9CBCAB9520D67F835A_TisU3CBuildMeshTaskU3Ed__16_tCCA3AED3B6767740DD13EDAC4FCCF2CB7BE54EE0_mB220085CA6FAF01376AED38066291534864A2986_RuntimeMethod_var);
+						goto IL_03b7;
+					}
+
+IL_00b0_3:
+					{
+						TaskAwaiter_1_tCF76E8E8627C0B61FC714D9CBCAB9520D67F835A L_24 = __this->___U3CU3Eu__1;
+						V_2 = L_24;
+						TaskAwaiter_1_tCF76E8E8627C0B61FC714D9CBCAB9520D67F835A* L_25 = (TaskAwaiter_1_tCF76E8E8627C0B61FC714D9CBCAB9520D67F835A*)(&__this->___U3CU3Eu__1);
+						il2cpp_codegen_initobj(L_25, sizeof(TaskAwaiter_1_tCF76E8E8627C0B61FC714D9CBCAB9520D67F835A));
+						int32_t L_26 = (-1);
+						V_0 = L_26;
+						__this->___U3CU3E1__state = L_26;
+					}
+
+IL_00cc_3:
+					{
+						Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39* L_27;
+						L_27 = TaskAwaiter_1_GetResult_mB31EB805DA54ABDB4FCC588B960D45B0CA906FA8((&V_2), TaskAwaiter_1_GetResult_mB31EB805DA54ABDB4FCC588B960D45B0CA906FA8_RuntimeMethod_var);
+						__this->___U3CU3Es__6 = L_27;
+						Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3Es__6), (void*)L_27);
+						Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39* L_28 = __this->___U3CU3Es__6;
+						__this->___U3CchunkDataU3E5__2 = L_28;
+						Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CchunkDataU3E5__2), (void*)L_28);
+						__this->___U3CU3Es__6 = (Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39*)NULL;
+						Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3Es__6), (void*)(Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39*)NULL);
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:138>
+						Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39* L_29 = __this->___U3CchunkDataU3E5__2;
+						V_4 = (bool)((((RuntimeObject*)(Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39*)L_29) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+						bool L_30 = V_4;
+						if (!L_30)
+						{
+							goto IL_0136_3;
+						}
+					}
+					{
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:140>
+						ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_31 = __this->___U3CU3E4__this;
+						NullCheck(L_31);
+						Action_1_t5E12AFF3598D6A12C26E511CE20D986B93B14F86* L_32 = L_31->____onBuildFailed;
+						Action_1_t5E12AFF3598D6A12C26E511CE20D986B93B14F86* L_33 = L_32;
+						if (L_33)
+						{
+							G_B15_0 = L_33;
+							goto IL_010d_3;
+						}
+						G_B14_0 = L_33;
+					}
+					{
+						goto IL_011e_3;
+					}
+
+IL_010d_3:
+					{
+						ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_34 = __this->___U3CU3E4__this;
+						NullCheck(L_34);
+						Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_35 = L_34->____coordinate;
+						NullCheck(G_B15_0);
+						Action_1_Invoke_mA8F6BD9905EC81897F4B6EB8980908B69A89E271_inline(G_B15_0, L_35, NULL);
+					}
+
+IL_011e_3:
+					{
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:141>
+						ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_36 = __this->___U3CU3E4__this;
+						NullCheck(L_36);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_37;
+						L_37 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_36, NULL);
+						il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+						Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_37, NULL);
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:142>
+						V_1 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL;
+						goto IL_038d;
+					}
+
+IL_0136_3:
+					{
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:144>
+						Mesher_t643035261793BA2DBEAF768F108C12645E673820* L_38 = __this->___U3CmesherU3E5__1;
+						Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39* L_39 = __this->___U3CchunkDataU3E5__2;
+						NullCheck(L_38);
+						JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_40;
+						L_40 = Mesher_StartMeshJob_m332D29E17879E57ECF708D15EF3E734135B2DD6A(L_38, L_39, 2, 0, ((int32_t)31), NULL);
+						Nullable_1_t2153F26F688901E0795BA65DEA582FDC46AB9489 L_41;
+						memset((&L_41), 0, sizeof(L_41));
+						Nullable_1__ctor_mB41B318820A405D727A0192457EC35740E6B7526((&L_41), L_40, Nullable_1__ctor_mB41B318820A405D727A0192457EC35740E6B7526_RuntimeMethod_var);
+						__this->___U3CjobHandleU3E5__4 = L_41;
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:145>
+						Mesher_t643035261793BA2DBEAF768F108C12645E673820* L_42 = __this->___U3CmesherU3E5__1;
+						NullCheck(L_42);
+						Mesher_WaitForMeshJob_m7C9F058969BE23BB68163C9B68E11D2CBAFF9401(L_42, NULL);
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:146>
+						Mesher_t643035261793BA2DBEAF768F108C12645E673820* L_43 = __this->___U3CmesherU3E5__1;
+						NullCheck(L_43);
+						NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6 L_44;
+						L_44 = Mesher_get_Vertices_mFC96DFAA2691A2221B2E659AEF791B898F0D818E(L_43, NULL);
+						V_6 = L_44;
+						int32_t L_45;
+						L_45 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_6))->___m_Length);
+						V_5 = (bool)((((int32_t)L_45) > ((int32_t)2))? 1 : 0);
+						bool L_46 = V_5;
+						if (!L_46)
+						{
+							goto IL_027f_3;
+						}
+					}
+					{
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:148>
+						ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_47 = __this->___U3CU3E4__this;
+						Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_48 = __this->___U3CvoxelOriginU3E5__5;
+						NullCheck(L_47);
+						Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49;
+						L_49 = ChunkInstance_ChunkVoxelOriginToLocalPos_m3B3D452A9551D8C5DC7E64E1A94FE60BCF91F601(L_47, L_48, NULL);
+						__this->___U3CunrotatedPositionU3E5__7 = L_49;
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:149>
+						ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_50 = __this->___U3CU3E4__this;
+						NullCheck(L_50);
+						Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_51;
+						L_51 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_50, NULL);
+						ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_52 = __this->___U3CU3E4__this;
+						NullCheck(L_52);
+						OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_53 = L_52->____cameraRig;
+						NullCheck(L_53);
+						Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_54;
+						L_54 = OVRCameraRig_get_trackingSpace_m76339871C7804C1BD14283FBF3D91268D4D87550_inline(L_53, NULL);
+						Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_55 = __this->___U3CunrotatedPositionU3E5__7;
+						NullCheck(L_54);
+						Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_56;
+						L_56 = Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44(L_54, L_55, NULL);
+						NullCheck(L_51);
+						Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_51, L_56, NULL);
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:151>
+						ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_57 = __this->___U3CU3E4__this;
+						NullCheck(L_57);
+						EnvironmentMapper_tC0F66B5AD7C5D1FD6E796423FC598AFFCC89096B* L_58 = L_57->____environmentMapper;
+						NullCheck(L_58);
+						float L_59 = L_58->___metersPerVoxel;
+						__this->___U3CscaleU3E5__8 = L_59;
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:152>
+						__this->___U3CgapCorrectionScaleU3E5__9 = (1.03225803f);
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:153>
+						ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_60 = __this->___U3CU3E4__this;
+						NullCheck(L_60);
+						Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_61;
+						L_61 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_60, NULL);
+						float L_62 = __this->___U3CscaleU3E5__8;
+						float L_63 = __this->___U3CscaleU3E5__8;
+						float L_64 = __this->___U3CscaleU3E5__8;
+						Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_65;
+						memset((&L_65), 0, sizeof(L_65));
+						Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_65), L_62, L_63, L_64, NULL);
+						float L_66 = __this->___U3CgapCorrectionScaleU3E5__9;
+						Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_67;
+						L_67 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_65, L_66, NULL);
+						NullCheck(L_61);
+						Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_61, L_67, NULL);
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:154>
+						Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_68 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)il2cpp_codegen_object_new(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
+						Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00(L_68, NULL);
+						__this->___U3CfinalMeshU3E5__3 = L_68;
+						Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CfinalMeshU3E5__3), (void*)L_68);
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:155>
+						Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_69 = __this->___U3CfinalMeshU3E5__3;
+						Mesher_t643035261793BA2DBEAF768F108C12645E673820* L_70 = __this->___U3CmesherU3E5__1;
+						il2cpp_codegen_runtime_class_init_inline(MeshExtensions_t749DC6B74CCC997D8B1FB40736B83CA5827DD501_il2cpp_TypeInfo_var);
+						MeshExtensions_SetMesh_mA4A3B13FC2BFB35C59FF94C392083A3E287918C3(L_69, L_70, NULL);
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:156>
+						Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_71 = __this->___U3CfinalMeshU3E5__3;
+						Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_72 = __this->___U3CfinalMeshU3E5__3;
+						NullCheck(L_72);
+						Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_73;
+						L_73 = Mesh_get_triangles_m33E39B4A383CC613C760FA7E297AC417A433F24B(L_72, NULL);
+						RuntimeObject* L_74;
+						L_74 = Enumerable_Reverse_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m4D87E44403FE7179ED4476644C44876F2A7B8CB7((RuntimeObject*)L_73, Enumerable_Reverse_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m4D87E44403FE7179ED4476644C44876F2A7B8CB7_RuntimeMethod_var);
+						Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_75;
+						L_75 = Enumerable_ToArray_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mF245DE52408A8C84E3C4CA32F2AFC491079443E8(L_74, Enumerable_ToArray_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mF245DE52408A8C84E3C4CA32F2AFC491079443E8_RuntimeMethod_var);
+						NullCheck(L_71);
+						Mesh_set_triangles_m124405320579A8D92711BB5A124644963A26F60B(L_71, L_75, NULL);
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:157>
+						Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_76 = __this->___U3CfinalMeshU3E5__3;
+						NullCheck(L_76);
+						Mesh_RecalculateNormals_m3AA2788914611444E030CA310E03E3CFE683902B(L_76, NULL);
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:158>
+						Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_77 = __this->___U3CfinalMeshU3E5__3;
+						NullCheck(L_77);
+						Mesh_RecalculateBounds_mA9B293F57C6CD298AE2D2DB19061FC23B05AB90B(L_77, NULL);
+						Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_78 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___U3CunrotatedPositionU3E5__7);
+						il2cpp_codegen_initobj(L_78, sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+						goto IL_02ba_3;
+					}
+
+IL_027f_3:
+					{
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:162>
+						ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_79 = __this->___U3CU3E4__this;
+						NullCheck(L_79);
+						Action_1_t5E12AFF3598D6A12C26E511CE20D986B93B14F86* L_80 = L_79->____onBuildFailed;
+						Action_1_t5E12AFF3598D6A12C26E511CE20D986B93B14F86* L_81 = L_80;
+						if (L_81)
+						{
+							G_B21_0 = L_81;
+							goto IL_0291_3;
+						}
+						G_B20_0 = L_81;
+					}
+					{
+						goto IL_02a2_3;
+					}
+
+IL_0291_3:
+					{
+						ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_82 = __this->___U3CU3E4__this;
+						NullCheck(L_82);
+						Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_83 = L_82->____coordinate;
+						NullCheck(G_B21_0);
+						Action_1_Invoke_mA8F6BD9905EC81897F4B6EB8980908B69A89E271_inline(G_B21_0, L_83, NULL);
+					}
+
+IL_02a2_3:
+					{
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:163>
+						ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_84 = __this->___U3CU3E4__this;
+						NullCheck(L_84);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_85;
+						L_85 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_84, NULL);
+						il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+						Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_85, NULL);
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:164>
+						V_1 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL;
+						goto IL_038d;
+					}
+
+IL_02ba_3:
+					{
+						Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* L_86 = (Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)(&__this->___U3CvoxelOriginU3E5__5);
+						il2cpp_codegen_initobj(L_86, sizeof(Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376));
+						goto IL_0328_2;
 					}
 				}
+				catch(Il2CppExceptionWrapper& e)
 				{
-					goto IL_0030_2;
-				}
-
-IL_002e_2:
-				{
-					goto IL_00a4_2;
-				}
-
-IL_0030_2:
-				{
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:126>
-					ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_9 = __this->___U3CU3E4__this;
-					ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_10 = __this->___U3CU3E4__this;
-					NullCheck(L_10);
-					Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_11 = L_10->____coordinate;
-					NullCheck(L_9);
-					Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_12;
-					L_12 = ChunkInstance_ChunkCoordToVoxelOrigin_m9465C6A6CA2EB1CFC109FE202CA0CA7833F768AA(L_9, L_11, NULL);
-					__this->___U3CvoxelOriginU3E5__4 = L_12;
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:127>
-					ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_13 = __this->___U3CU3E4__this;
-					NullCheck(L_13);
-					VoxelProvider_t2734C40830E388EE11179B965C118D58316132F0* L_14 = L_13->____voxelProvider;
-					Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_15 = __this->___U3CvoxelOriginU3E5__4;
-					Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_16;
-					memset((&L_16), 0, sizeof(L_16));
-					Vector3Int__ctor_mE06A86999D16FA579A7F2142B872AB7E3695C9E0_inline((&L_16), ((int32_t)32), ((int32_t)32), ((int32_t)32), NULL);
-					NullCheck(L_14);
-					Task_1_tF3A630B8900F04869C08A02A8308C7C78E0D5DB3* L_17;
-					L_17 = VoxelProvider_GetVoxelDataForChunk_mBAFD78982E3AF08FF4FA5BE7BEE1A5912C977380(L_14, L_15, L_16, NULL);
-					NullCheck(L_17);
-					TaskAwaiter_1_tCF76E8E8627C0B61FC714D9CBCAB9520D67F835A L_18;
-					L_18 = Task_1_GetAwaiter_m16F1CB60860BDC71846572F72295B43CCB38EE66(L_17, Task_1_GetAwaiter_m16F1CB60860BDC71846572F72295B43CCB38EE66_RuntimeMethod_var);
-					V_2 = L_18;
-					bool L_19;
-					L_19 = TaskAwaiter_1_get_IsCompleted_m465247D61783548AA2F5C957B7F8158147DC2EC8((&V_2), TaskAwaiter_1_get_IsCompleted_m465247D61783548AA2F5C957B7F8158147DC2EC8_RuntimeMethod_var);
-					if (L_19)
+					if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 					{
-						goto IL_00c0_2;
+						IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+						goto CATCH_02c9_2;
+					}
+					throw e;
+				}
+
+CATCH_02c9_2:
+				{
+					{
+						Exception_t* L_87 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:167>
+						V_7 = L_87;
+						Exception_t* L_88 = V_7;
+						__this->___U3CeU3E5__10 = L_88;
+						Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CeU3E5__10), (void*)L_88);
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:170>
+						Nullable_1_t2153F26F688901E0795BA65DEA582FDC46AB9489* L_89 = (Nullable_1_t2153F26F688901E0795BA65DEA582FDC46AB9489*)(&__this->___U3CjobHandleU3E5__4);
+						bool L_90;
+						L_90 = Nullable_1_get_HasValue_m5E390FE1B37B443BEE9BE8F3FFC9A0974CCAC80C_inline(L_89, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Nullable_1_get_HasValue_m5E390FE1B37B443BEE9BE8F3FFC9A0974CCAC80C_RuntimeMethod_var)));
+						V_8 = L_90;
+						bool L_91 = V_8;
+						if (!L_91)
+						{
+							goto IL_02fa_2;
+						}
+					}
+					{
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:170>
+						Nullable_1_t2153F26F688901E0795BA65DEA582FDC46AB9489* L_92 = (Nullable_1_t2153F26F688901E0795BA65DEA582FDC46AB9489*)(&__this->___U3CjobHandleU3E5__4);
+						JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_93;
+						L_93 = Nullable_1_get_Value_m35132F34816B551520C24C7FE0A77D2DA8B59B73(L_92, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Nullable_1_get_Value_m35132F34816B551520C24C7FE0A77D2DA8B59B73_RuntimeMethod_var)));
+						V_9 = L_93;
+						JobHandle_Complete_mDCED35A125AAB37EDDAB2E31C805B4904B614A4A((&V_9), NULL);
+					}
+
+IL_02fa_2:
+					{
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:172>
+						ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_94 = __this->___U3CU3E4__this;
+						NullCheck(L_94);
+						Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_95 = L_94->____coordinate;
+						Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_96 = L_95;
+						RuntimeObject* L_97 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376_il2cpp_TypeInfo_var)), &L_96);
+						Exception_t* L_98 = __this->___U3CeU3E5__10;
+						NullCheck(L_98);
+						String_t* L_99;
+						L_99 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_98);
+						String_t* L_100;
+						L_100 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA58050161A9CDE013D0FC909E346BCBAC35A2F8D)), L_97, L_99, NULL);
+						il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+						Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_100, NULL);
+						IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+						goto IL_0328_2;
 					}
 				}
-				{
-					int32_t L_20 = 0;
-					V_0 = L_20;
-					__this->___U3CU3E1__state = L_20;
-					TaskAwaiter_1_tCF76E8E8627C0B61FC714D9CBCAB9520D67F835A L_21 = V_2;
-					__this->___U3CU3Eu__1 = L_21;
-					Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1))->___m_task), (void*)NULL);
-					V_3 = __this;
-					AsyncTaskMethodBuilder_1_tF52D8583A6171196B4FD74BAE3F512C58DAFDA9B* L_22 = (AsyncTaskMethodBuilder_1_tF52D8583A6171196B4FD74BAE3F512C58DAFDA9B*)(&__this->___U3CU3Et__builder);
-					il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_1_tF52D8583A6171196B4FD74BAE3F512C58DAFDA9B_il2cpp_TypeInfo_var);
-					AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tCF76E8E8627C0B61FC714D9CBCAB9520D67F835A_TisU3CBuildMeshTaskU3Ed__16_tCCA3AED3B6767740DD13EDAC4FCCF2CB7BE54EE0_mB220085CA6FAF01376AED38066291534864A2986(L_22, (&V_2), (&V_3), AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tCF76E8E8627C0B61FC714D9CBCAB9520D67F835A_TisU3CBuildMeshTaskU3Ed__16_tCCA3AED3B6767740DD13EDAC4FCCF2CB7BE54EE0_mB220085CA6FAF01376AED38066291534864A2986_RuntimeMethod_var);
-					goto IL_037d;
-				}
 
-IL_00a4_2:
+IL_0328_2:
 				{
-					TaskAwaiter_1_tCF76E8E8627C0B61FC714D9CBCAB9520D67F835A L_23 = __this->___U3CU3Eu__1;
-					V_2 = L_23;
-					TaskAwaiter_1_tCF76E8E8627C0B61FC714D9CBCAB9520D67F835A* L_24 = (TaskAwaiter_1_tCF76E8E8627C0B61FC714D9CBCAB9520D67F835A*)(&__this->___U3CU3Eu__1);
-					il2cpp_codegen_initobj(L_24, sizeof(TaskAwaiter_1_tCF76E8E8627C0B61FC714D9CBCAB9520D67F835A));
-					int32_t L_25 = (-1);
-					V_0 = L_25;
-					__this->___U3CU3E1__state = L_25;
-				}
-
-IL_00c0_2:
-				{
-					Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39* L_26;
-					L_26 = TaskAwaiter_1_GetResult_mB31EB805DA54ABDB4FCC588B960D45B0CA906FA8((&V_2), TaskAwaiter_1_GetResult_mB31EB805DA54ABDB4FCC588B960D45B0CA906FA8_RuntimeMethod_var);
-					__this->___U3CU3Es__5 = L_26;
-					Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3Es__5), (void*)L_26);
-					Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39* L_27 = __this->___U3CU3Es__5;
-					__this->___U3CchunkDataU3E5__2 = L_27;
-					Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CchunkDataU3E5__2), (void*)L_27);
-					__this->___U3CU3Es__5 = (Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39*)NULL;
-					Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3Es__5), (void*)(Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39*)NULL);
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:128>
-					Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39* L_28 = __this->___U3CchunkDataU3E5__2;
-					V_4 = (bool)((((RuntimeObject*)(Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39*)L_28) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-					bool L_29 = V_4;
-					if (!L_29)
-					{
-						goto IL_012a_2;
-					}
-				}
-				{
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:130>
-					ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_30 = __this->___U3CU3E4__this;
-					NullCheck(L_30);
-					Action_1_t5E12AFF3598D6A12C26E511CE20D986B93B14F86* L_31 = L_30->____onBuildFailed;
-					Action_1_t5E12AFF3598D6A12C26E511CE20D986B93B14F86* L_32 = L_31;
-					if (L_32)
-					{
-						G_B15_0 = L_32;
-						goto IL_0101_2;
-					}
-					G_B14_0 = L_32;
-				}
-				{
-					goto IL_0112_2;
-				}
-
-IL_0101_2:
-				{
-					ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_33 = __this->___U3CU3E4__this;
-					NullCheck(L_33);
-					Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_34 = L_33->____coordinate;
-					NullCheck(G_B15_0);
-					Action_1_Invoke_mA8F6BD9905EC81897F4B6EB8980908B69A89E271_inline(G_B15_0, L_34, NULL);
-				}
-
-IL_0112_2:
-				{
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:131>
-					ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_35 = __this->___U3CU3E4__this;
-					NullCheck(L_35);
-					GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_36;
-					L_36 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_35, NULL);
-					il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-					Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_36, NULL);
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:132>
-					V_1 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL;
-					goto IL_0353;
-				}
-
-IL_012a_2:
-				{
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:134>
-					Mesher_t643035261793BA2DBEAF768F108C12645E673820* L_37 = __this->___U3CmesherU3E5__1;
-					Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39* L_38 = __this->___U3CchunkDataU3E5__2;
-					NullCheck(L_37);
-					JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_39;
-					L_39 = Mesher_StartMeshJob_m332D29E17879E57ECF708D15EF3E734135B2DD6A(L_37, L_38, 2, 0, ((int32_t)31), NULL);
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:135>
-					Mesher_t643035261793BA2DBEAF768F108C12645E673820* L_40 = __this->___U3CmesherU3E5__1;
-					NullCheck(L_40);
-					Mesher_WaitForMeshJob_m7C9F058969BE23BB68163C9B68E11D2CBAFF9401(L_40, NULL);
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:136>
-					Mesher_t643035261793BA2DBEAF768F108C12645E673820* L_41 = __this->___U3CmesherU3E5__1;
-					NullCheck(L_41);
-					NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6 L_42;
-					L_42 = Mesher_get_Vertices_mFC96DFAA2691A2221B2E659AEF791B898F0D818E(L_41, NULL);
-					V_6 = L_42;
-					int32_t L_43;
-					L_43 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_6))->___m_Length);
-					V_5 = (bool)((((int32_t)L_43) > ((int32_t)2))? 1 : 0);
-					bool L_44 = V_5;
-					if (!L_44)
-					{
-						goto IL_02a9_2;
-					}
-				}
-				{
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:138>
-					ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_45 = __this->___U3CU3E4__this;
-					Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_46 = __this->___U3CvoxelOriginU3E5__4;
-					NullCheck(L_45);
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47;
-					L_47 = ChunkInstance_ChunkVoxelOriginToLocalPos_m3B3D452A9551D8C5DC7E64E1A94FE60BCF91F601(L_45, L_46, NULL);
-					__this->___U3CunrotatedPositionU3E5__6 = L_47;
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:139>
-					ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_48 = __this->___U3CU3E4__this;
-					NullCheck(L_48);
-					Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_49;
-					L_49 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_48, NULL);
-					ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_50 = __this->___U3CU3E4__this;
-					NullCheck(L_50);
-					OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_51 = L_50->____cameraRig;
-					NullCheck(L_51);
-					Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_52;
-					L_52 = OVRCameraRig_get_trackingSpace_m76339871C7804C1BD14283FBF3D91268D4D87550_inline(L_51, NULL);
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_53 = __this->___U3CunrotatedPositionU3E5__6;
-					NullCheck(L_52);
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_54;
-					L_54 = Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44(L_52, L_53, NULL);
-					NullCheck(L_49);
-					Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_49, L_54, NULL);
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:140>
-					ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_55 = __this->___U3CU3E4__this;
-					NullCheck(L_55);
-					Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_56;
-					L_56 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_55, NULL);
-					ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_57 = __this->___U3CU3E4__this;
-					NullCheck(L_57);
-					OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_58 = L_57->____cameraRig;
-					NullCheck(L_58);
-					Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_59;
-					L_59 = OVRCameraRig_get_trackingSpace_m76339871C7804C1BD14283FBF3D91268D4D87550_inline(L_58, NULL);
-					NullCheck(L_59);
-					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_60;
-					L_60 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_59, NULL);
-					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_61;
-					L_61 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((0.0f), (-90.0f), (0.0f), NULL);
-					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_62;
-					L_62 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_60, L_61, NULL);
-					NullCheck(L_56);
-					Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_56, L_62, NULL);
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:141>
-					ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_63 = __this->___U3CU3E4__this;
-					NullCheck(L_63);
-					EnvironmentMapper_tC0F66B5AD7C5D1FD6E796423FC598AFFCC89096B* L_64 = L_63->____environmentMapper;
-					NullCheck(L_64);
-					float L_65 = L_64->___metersPerVoxel;
-					__this->___U3CscaleU3E5__7 = L_65;
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:142>
-					__this->___U3CgapCorrectionScaleU3E5__8 = (1.03225803f);
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:143>
-					ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_66 = __this->___U3CU3E4__this;
-					NullCheck(L_66);
-					Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_67;
-					L_67 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_66, NULL);
-					float L_68 = __this->___U3CscaleU3E5__7;
-					float L_69 = __this->___U3CscaleU3E5__7;
-					float L_70 = __this->___U3CscaleU3E5__7;
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_71;
-					memset((&L_71), 0, sizeof(L_71));
-					Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_71), L_68, L_69, ((-L_70)), NULL);
-					float L_72 = __this->___U3CgapCorrectionScaleU3E5__8;
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_73;
-					L_73 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_71, L_72, NULL);
-					NullCheck(L_67);
-					Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_67, L_73, NULL);
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:144>
-					Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_74 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)il2cpp_codegen_object_new(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
-					Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00(L_74, NULL);
-					__this->___U3CfinalMeshU3E5__3 = L_74;
-					Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CfinalMeshU3E5__3), (void*)L_74);
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:145>
-					Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_75 = __this->___U3CfinalMeshU3E5__3;
-					Mesher_t643035261793BA2DBEAF768F108C12645E673820* L_76 = __this->___U3CmesherU3E5__1;
-					il2cpp_codegen_runtime_class_init_inline(MeshExtensions_t749DC6B74CCC997D8B1FB40736B83CA5827DD501_il2cpp_TypeInfo_var);
-					MeshExtensions_SetMesh_mA4A3B13FC2BFB35C59FF94C392083A3E287918C3(L_75, L_76, NULL);
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:146>
-					Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_77 = __this->___U3CfinalMeshU3E5__3;
-					Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_78 = __this->___U3CfinalMeshU3E5__3;
-					NullCheck(L_78);
-					Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_79;
-					L_79 = Mesh_get_triangles_m33E39B4A383CC613C760FA7E297AC417A433F24B(L_78, NULL);
-					RuntimeObject* L_80;
-					L_80 = Enumerable_Reverse_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m4D87E44403FE7179ED4476644C44876F2A7B8CB7((RuntimeObject*)L_79, Enumerable_Reverse_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m4D87E44403FE7179ED4476644C44876F2A7B8CB7_RuntimeMethod_var);
-					Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_81;
-					L_81 = Enumerable_ToArray_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mF245DE52408A8C84E3C4CA32F2AFC491079443E8(L_80, Enumerable_ToArray_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mF245DE52408A8C84E3C4CA32F2AFC491079443E8_RuntimeMethod_var);
-					NullCheck(L_77);
-					Mesh_set_triangles_m124405320579A8D92711BB5A124644963A26F60B(L_77, L_81, NULL);
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:147>
-					Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_82 = __this->___U3CfinalMeshU3E5__3;
-					NullCheck(L_82);
-					Mesh_RecalculateNormals_m3AA2788914611444E030CA310E03E3CFE683902B(L_82, NULL);
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:148>
-					Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_83 = __this->___U3CfinalMeshU3E5__3;
-					NullCheck(L_83);
-					Mesh_RecalculateBounds_mA9B293F57C6CD298AE2D2DB19061FC23B05AB90B(L_83, NULL);
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_84 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___U3CunrotatedPositionU3E5__6);
-					il2cpp_codegen_initobj(L_84, sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
-					goto IL_02e1_2;
-				}
-
-IL_02a9_2:
-				{
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:152>
-					ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_85 = __this->___U3CU3E4__this;
-					NullCheck(L_85);
-					Action_1_t5E12AFF3598D6A12C26E511CE20D986B93B14F86* L_86 = L_85->____onBuildFailed;
-					Action_1_t5E12AFF3598D6A12C26E511CE20D986B93B14F86* L_87 = L_86;
-					if (L_87)
-					{
-						G_B21_0 = L_87;
-						goto IL_02bb_2;
-					}
-					G_B20_0 = L_87;
-				}
-				{
-					goto IL_02cc_2;
-				}
-
-IL_02bb_2:
-				{
-					ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_88 = __this->___U3CU3E4__this;
-					NullCheck(L_88);
-					Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_89 = L_88->____coordinate;
-					NullCheck(G_B21_0);
-					Action_1_Invoke_mA8F6BD9905EC81897F4B6EB8980908B69A89E271_inline(G_B21_0, L_89, NULL);
-				}
-
-IL_02cc_2:
-				{
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:153>
-					ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_90 = __this->___U3CU3E4__this;
-					NullCheck(L_90);
-					GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_91;
-					L_91 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_90, NULL);
-					il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-					Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_91, NULL);
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:154>
-					V_1 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL;
-					goto IL_0353;
-				}
-
-IL_02e1_2:
-				{
-					Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* L_92 = (Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)(&__this->___U3CvoxelOriginU3E5__4);
-					il2cpp_codegen_initobj(L_92, sizeof(Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376));
-					goto IL_031b_1;
+					goto IL_0355_1;
 				}
 			}
 			catch(Il2CppExceptionWrapper& e)
@@ -16282,12 +16377,12 @@ IL_02e1_2:
 			}
 		}
 
-IL_031b_1:
+IL_0355_1:
 		{
-			//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:162>
-			Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_93 = __this->___U3CfinalMeshU3E5__3;
-			V_1 = L_93;
-			goto IL_0353;
+			//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:180>
+			Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_101 = __this->___U3CfinalMeshU3E5__3;
+			V_1 = L_101;
+			goto IL_038d;
 		}
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -16295,15 +16390,15 @@ IL_031b_1:
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_0324;
+			goto CATCH_035e;
 		}
 		throw e;
 	}
 
-CATCH_0324:
+CATCH_035e:
 	{
-		Exception_t* L_94 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		V_7 = L_94;
+		Exception_t* L_102 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_7 = L_102;
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		__this->___U3CmesherU3E5__1 = (Mesher_t643035261793BA2DBEAF768F108C12645E673820*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CmesherU3E5__1), (void*)(Mesher_t643035261793BA2DBEAF768F108C12645E673820*)NULL);
@@ -16311,17 +16406,17 @@ CATCH_0324:
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CchunkDataU3E5__2), (void*)(Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39*)NULL);
 		__this->___U3CfinalMeshU3E5__3 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CfinalMeshU3E5__3), (void*)(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL);
-		AsyncTaskMethodBuilder_1_tF52D8583A6171196B4FD74BAE3F512C58DAFDA9B* L_95 = (AsyncTaskMethodBuilder_1_tF52D8583A6171196B4FD74BAE3F512C58DAFDA9B*)(&__this->___U3CU3Et__builder);
-		Exception_t* L_96 = V_7;
+		AsyncTaskMethodBuilder_1_tF52D8583A6171196B4FD74BAE3F512C58DAFDA9B* L_103 = (AsyncTaskMethodBuilder_1_tF52D8583A6171196B4FD74BAE3F512C58DAFDA9B*)(&__this->___U3CU3Et__builder);
+		Exception_t* L_104 = V_7;
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_1_tF52D8583A6171196B4FD74BAE3F512C58DAFDA9B_il2cpp_TypeInfo_var)));
-		AsyncTaskMethodBuilder_1_SetException_m43B46B586B06170CCA27891C25DBA19EF535A2FB(L_95, L_96, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_1_SetException_m43B46B586B06170CCA27891C25DBA19EF535A2FB_RuntimeMethod_var)));
+		AsyncTaskMethodBuilder_1_SetException_m43B46B586B06170CCA27891C25DBA19EF535A2FB(L_103, L_104, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_1_SetException_m43B46B586B06170CCA27891C25DBA19EF535A2FB_RuntimeMethod_var)));
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
-		goto IL_037d;
+		goto IL_03b7;
 	}
 
-IL_0353:
+IL_038d:
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:163>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:181>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		__this->___U3CmesherU3E5__1 = (Mesher_t643035261793BA2DBEAF768F108C12645E673820*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CmesherU3E5__1), (void*)(Mesher_t643035261793BA2DBEAF768F108C12645E673820*)NULL);
@@ -16329,13 +16424,13 @@ IL_0353:
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CchunkDataU3E5__2), (void*)(Chunk_t24A7F4AEB37A36DBF71A7D44925268375F79EE39*)NULL);
 		__this->___U3CfinalMeshU3E5__3 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CfinalMeshU3E5__3), (void*)(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL);
-		AsyncTaskMethodBuilder_1_tF52D8583A6171196B4FD74BAE3F512C58DAFDA9B* L_97 = (AsyncTaskMethodBuilder_1_tF52D8583A6171196B4FD74BAE3F512C58DAFDA9B*)(&__this->___U3CU3Et__builder);
-		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_98 = V_1;
+		AsyncTaskMethodBuilder_1_tF52D8583A6171196B4FD74BAE3F512C58DAFDA9B* L_105 = (AsyncTaskMethodBuilder_1_tF52D8583A6171196B4FD74BAE3F512C58DAFDA9B*)(&__this->___U3CU3Et__builder);
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_106 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_1_tF52D8583A6171196B4FD74BAE3F512C58DAFDA9B_il2cpp_TypeInfo_var);
-		AsyncTaskMethodBuilder_1_SetResult_mE3270B6693065D74D316B608AF3E7BAE732568D5(L_97, L_98, AsyncTaskMethodBuilder_1_SetResult_mE3270B6693065D74D316B608AF3E7BAE732568D5_RuntimeMethod_var);
+		AsyncTaskMethodBuilder_1_SetResult_mE3270B6693065D74D316B608AF3E7BAE732568D5(L_105, L_106, AsyncTaskMethodBuilder_1_SetResult_mE3270B6693065D74D316B608AF3E7BAE732568D5_RuntimeMethod_var);
 	}
 
-IL_037d:
+IL_03b7:
 	{
 		return;
 	}
@@ -16437,7 +16532,7 @@ IL_0015_2:
 
 IL_0017_2:
 			{
-				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:63>
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:64>
 				ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_3 = __this->___U3CU3E4__this;
 				NullCheck(L_3);
 				Task_1_tB2C6BACE26DC94A2F554F6E911F45850C5C566E9* L_4;
@@ -16488,7 +16583,7 @@ IL_0075_2:
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CnewMeshU3E5__1), (void*)L_14);
 				__this->___U3CU3Es__2 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3Es__2), (void*)(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL);
-				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:64>
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:65>
 				Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_15 = __this->___U3CnewMeshU3E5__1;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				bool L_16;
@@ -16501,7 +16596,7 @@ IL_0075_2:
 				}
 			}
 			{
-				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:66>
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:67>
 				ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_18 = __this->___U3CU3E4__this;
 				ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_19 = __this->___U3CU3E4__this;
 				NullCheck(L_19);
@@ -16513,7 +16608,7 @@ IL_0075_2:
 				NullCheck(L_18);
 				L_18->____meshFilter = L_21;
 				Il2CppCodeGenWriteBarrier((void**)(&L_18->____meshFilter), (void*)L_21);
-				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:67>
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:68>
 				ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_22 = __this->___U3CU3E4__this;
 				ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_23 = __this->___U3CU3E4__this;
 				NullCheck(L_23);
@@ -16525,7 +16620,7 @@ IL_0075_2:
 				NullCheck(L_22);
 				L_22->____meshRenderer = L_25;
 				Il2CppCodeGenWriteBarrier((void**)(&L_22->____meshRenderer), (void*)L_25);
-				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:68>
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:69>
 				ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_26 = __this->___U3CU3E4__this;
 				NullCheck(L_26);
 				MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_27 = L_26->____meshRenderer;
@@ -16534,7 +16629,7 @@ IL_0075_2:
 				Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_29 = L_28->____meshMaterial;
 				NullCheck(L_27);
 				Renderer_set_material_m21E88977071E0A914D62F3D9CFF0193B3117C45A(L_27, L_29, NULL);
-				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:69>
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:70>
 				ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_30 = __this->___U3CU3E4__this;
 				NullCheck(L_30);
 				MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_31 = L_30->____meshRenderer;
@@ -16543,7 +16638,7 @@ IL_0075_2:
 				bool L_33 = L_32->____isRendererVisible;
 				NullCheck(L_31);
 				Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_31, L_33, NULL);
-				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:70>
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:71>
 				ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_34 = __this->___U3CU3E4__this;
 				ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_35 = __this->___U3CU3E4__this;
 				NullCheck(L_35);
@@ -16555,14 +16650,14 @@ IL_0075_2:
 				NullCheck(L_34);
 				L_34->____meshCollider = L_37;
 				Il2CppCodeGenWriteBarrier((void**)(&L_34->____meshCollider), (void*)L_37);
-				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:72>
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:73>
 				ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_38 = __this->___U3CU3E4__this;
 				NullCheck(L_38);
 				MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_39 = L_38->____meshFilter;
 				Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_40 = __this->___U3CnewMeshU3E5__1;
 				NullCheck(L_39);
 				MeshFilter_set_sharedMesh_m946F7E3F583761982642BDA4753784AF1DF6E16F(L_39, L_40, NULL);
-				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:73>
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:74>
 				ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_41 = __this->___U3CU3E4__this;
 				NullCheck(L_41);
 				MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455* L_42 = L_41->____meshCollider;
@@ -16592,12 +16687,12 @@ CATCH_016b_1:
 		{
 			{
 				Exception_t* L_44 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:76>
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:77>
 				V_4 = L_44;
 				Exception_t* L_45 = V_4;
 				__this->___U3CeU3E5__3 = L_45;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CeU3E5__3), (void*)L_45);
-				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:78>
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:79>
 				ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_46 = __this->___U3CU3E4__this;
 				NullCheck(L_46);
 				Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_47 = L_46->____coordinate;
@@ -16607,10 +16702,10 @@ CATCH_016b_1:
 				L_50 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC0002E01DF97E22E9906AB8AB0D2ED6831C4984F)), L_49, NULL);
 				il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
 				Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_50, NULL);
-				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:79>
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:80>
 				Exception_t* L_51 = __this->___U3CeU3E5__3;
 				Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_51, NULL);
-				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:80>
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:81>
 				ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_52 = __this->___U3CU3E4__this;
 				NullCheck(L_52);
 				Action_1_t5E12AFF3598D6A12C26E511CE20D986B93B14F86* L_53 = L_52->____onBuildFailed;
@@ -16637,7 +16732,7 @@ IL_01b3_1:
 
 IL_01c4_1:
 			{
-				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:81>
+				//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:82>
 				ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_57 = __this->___U3CU3E4__this;
 				NullCheck(L_57);
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_58;
@@ -16678,7 +16773,7 @@ CATCH_01da:
 
 IL_01f4:
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:83>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:84>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_62 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_62, NULL);
@@ -16731,7 +16826,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateMeshU3Ed__15_MoveNext_m5017D0AC
 	U3CUpdateMeshU3Ed__15_t9DBB433F1FC2C6CE2044B4854A874312A6859596* V_2 = NULL;
 	bool V_3 = false;
 	bool V_4 = false;
-	Exception_t* V_5 = NULL;
+	bool V_5 = false;
+	bool V_6 = false;
+	Exception_t* V_7 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 2> __active_exceptions;
 	{
 		int32_t L_0 = __this->___U3CU3E1__state;
@@ -16757,7 +16854,7 @@ IL_000c_1:
 
 IL_000e_1:
 		{
-			//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:87>
+			//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:88>
 			ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_2 = __this->___U3CU3E4__this;
 			NullCheck(L_2);
 			L_2->____isUpdating = (bool)1;
@@ -16770,23 +16867,23 @@ IL_001b_1:
 			auto __finallyBlock = il2cpp::utils::Finally([&]
 			{
 
-FINALLY_0164_1:
+FINALLY_01b0_1:
 				{
 					{
 						int32_t L_3 = V_0;
 						if ((((int32_t)L_3) >= ((int32_t)0)))
 						{
-							goto IL_0176_1;
+							goto IL_01c2_1;
 						}
 					}
 					{
-						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:115>
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:123>
 						ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_4 = __this->___U3CU3E4__this;
 						NullCheck(L_4);
 						L_4->____isUpdating = (bool)0;
 					}
 
-IL_0176_1:
+IL_01c2_1:
 					{
 						return;
 					}
@@ -16814,7 +16911,7 @@ IL_0021_3:
 
 IL_0023_3:
 					{
-						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:90>
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:91>
 						ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_6 = __this->___U3CU3E4__this;
 						NullCheck(L_6);
 						Task_1_tB2C6BACE26DC94A2F554F6E911F45850C5C566E9* L_7;
@@ -16840,7 +16937,7 @@ IL_0023_3:
 						V_2 = __this;
 						AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_12 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 						AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t288CC13E73B75D6C029A135F50B9D932253AB56A_TisU3CUpdateMeshU3Ed__15_t9DBB433F1FC2C6CE2044B4854A874312A6859596_m0382E8BB15D7840B2E049CE5C8016BEAE0F81B45(L_12, (&V_1), (&V_2), AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t288CC13E73B75D6C029A135F50B9D932253AB56A_TisU3CUpdateMeshU3Ed__15_t9DBB433F1FC2C6CE2044B4854A874312A6859596_m0382E8BB15D7840B2E049CE5C8016BEAE0F81B45_RuntimeMethod_var);
-						goto IL_01a7;
+						goto IL_01f3;
 					}
 
 IL_0065_3:
@@ -16865,7 +16962,7 @@ IL_0081_3:
 						Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CnewMeshU3E5__1), (void*)L_17);
 						__this->___U3CU3Es__2 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL;
 						Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3Es__2), (void*)(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL);
-						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:91>
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:92>
 						Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_18 = __this->___U3CnewMeshU3E5__1;
 						il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 						bool L_19;
@@ -16874,11 +16971,11 @@ IL_0081_3:
 						bool L_20 = V_3;
 						if (!L_20)
 						{
-							goto IL_011e_3;
+							goto IL_016a_3;
 						}
 					}
 					{
-						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:95>
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:96>
 						ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_21 = __this->___U3CU3E4__this;
 						NullCheck(L_21);
 						MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_22 = L_21->____meshFilter;
@@ -16887,50 +16984,94 @@ IL_0081_3:
 						L_23 = MeshFilter_get_sharedMesh_mE4ED3E7E31C1DE5097E4980DA996E620F7D7CB8C(L_22, NULL);
 						__this->___U3ColdMeshU3E5__3 = L_23;
 						Il2CppCodeGenWriteBarrier((void**)(&__this->___U3ColdMeshU3E5__3), (void*)L_23);
-						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:98>
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:97>
 						ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_24 = __this->___U3CU3E4__this;
 						NullCheck(L_24);
-						MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_25 = L_24->____meshFilter;
-						Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_26 = __this->___U3CnewMeshU3E5__1;
-						NullCheck(L_25);
-						MeshFilter_set_sharedMesh_m946F7E3F583761982642BDA4753784AF1DF6E16F(L_25, L_26, NULL);
-						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:99>
-						ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_27 = __this->___U3CU3E4__this;
-						NullCheck(L_27);
-						MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455* L_28 = L_27->____meshCollider;
-						Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_29 = __this->___U3CnewMeshU3E5__1;
-						NullCheck(L_28);
-						MeshCollider_set_sharedMesh_m05F87B9AC04139285EBBCC159F77B51C6940E79C(L_28, L_29, NULL);
-						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:102>
-						Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_30 = __this->___U3ColdMeshU3E5__3;
+						MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455* L_25 = L_24->____meshCollider;
 						il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-						bool L_31;
-						L_31 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_30, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-						V_4 = L_31;
-						bool L_32 = V_4;
-						if (!L_32)
+						bool L_26;
+						L_26 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_25, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+						V_4 = L_26;
+						bool L_27 = V_4;
+						if (!L_27)
 						{
-							goto IL_0116_3;
+							goto IL_00f6_3;
 						}
 					}
 					{
-						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:104>
-						Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_33 = __this->___U3ColdMeshU3E5__3;
-						il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-						Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_33, NULL);
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:99>
+						ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_28 = __this->___U3CU3E4__this;
+						NullCheck(L_28);
+						MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455* L_29 = L_28->____meshCollider;
+						NullCheck(L_29);
+						MeshCollider_set_sharedMesh_m05F87B9AC04139285EBBCC159F77B51C6940E79C(L_29, (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL, NULL);
 					}
 
-IL_0116_3:
+IL_00f6_3:
+					{
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:103>
+						ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_30 = __this->___U3CU3E4__this;
+						NullCheck(L_30);
+						MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_31 = L_30->____meshFilter;
+						Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_32 = __this->___U3CnewMeshU3E5__1;
+						NullCheck(L_31);
+						MeshFilter_set_sharedMesh_m946F7E3F583761982642BDA4753784AF1DF6E16F(L_31, L_32, NULL);
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:104>
+						ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_33 = __this->___U3CU3E4__this;
+						NullCheck(L_33);
+						MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455* L_34 = L_33->____meshCollider;
+						il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+						bool L_35;
+						L_35 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_34, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+						V_5 = L_35;
+						bool L_36 = V_5;
+						if (!L_36)
+						{
+							goto IL_013d_3;
+						}
+					}
+					{
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:106>
+						ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_37 = __this->___U3CU3E4__this;
+						NullCheck(L_37);
+						MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455* L_38 = L_37->____meshCollider;
+						Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_39 = __this->___U3CnewMeshU3E5__1;
+						NullCheck(L_38);
+						MeshCollider_set_sharedMesh_m05F87B9AC04139285EBBCC159F77B51C6940E79C(L_38, L_39, NULL);
+					}
+
+IL_013d_3:
+					{
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:110>
+						Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_40 = __this->___U3ColdMeshU3E5__3;
+						il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+						bool L_41;
+						L_41 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_40, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+						V_6 = L_41;
+						bool L_42 = V_6;
+						if (!L_42)
+						{
+							goto IL_0162_3;
+						}
+					}
+					{
+						//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:112>
+						Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_43 = __this->___U3ColdMeshU3E5__3;
+						il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+						Object_Destroy_m064F2A066491D2DC4FFCFBDBE5FCFFB807A04436(L_43, (0.100000001f), NULL);
+					}
+
+IL_0162_3:
 					{
 						__this->___U3ColdMeshU3E5__3 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL;
 						Il2CppCodeGenWriteBarrier((void**)(&__this->___U3ColdMeshU3E5__3), (void*)(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL);
 					}
 
-IL_011e_3:
+IL_016a_3:
 					{
 						__this->___U3CnewMeshU3E5__1 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL;
 						Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CnewMeshU3E5__1), (void*)(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL);
-						goto IL_0162_2;
+						goto IL_01ae_2;
 					}
 				}
 				catch(Il2CppExceptionWrapper& e)
@@ -16938,39 +17079,39 @@ IL_011e_3:
 					if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 					{
 						IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-						goto CATCH_0128_2;
+						goto CATCH_0174_2;
 					}
 					throw e;
 				}
 
-CATCH_0128_2:
+CATCH_0174_2:
 				{
-					Exception_t* L_34 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:108>
-					V_5 = L_34;
-					Exception_t* L_35 = V_5;
-					__this->___U3CeU3E5__4 = L_35;
-					Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CeU3E5__4), (void*)L_35);
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:110>
-					ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_36 = __this->___U3CU3E4__this;
-					NullCheck(L_36);
-					Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_37 = L_36->____coordinate;
-					Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_38 = L_37;
-					RuntimeObject* L_39 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376_il2cpp_TypeInfo_var)), &L_38);
-					String_t* L_40;
-					L_40 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralDB24499E8475632E0FBABD5BE62E9BA1F240BF99)), L_39, NULL);
+					Exception_t* L_44 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:116>
+					V_7 = L_44;
+					Exception_t* L_45 = V_7;
+					__this->___U3CeU3E5__4 = L_45;
+					Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CeU3E5__4), (void*)L_45);
+					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:118>
+					ChunkInstance_tC2A7F414E75B9269B9379BA91F6FED396292612E* L_46 = __this->___U3CU3E4__this;
+					NullCheck(L_46);
+					Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_47 = L_46->____coordinate;
+					Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_48 = L_47;
+					RuntimeObject* L_49 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376_il2cpp_TypeInfo_var)), &L_48);
+					String_t* L_50;
+					L_50 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralDB24499E8475632E0FBABD5BE62E9BA1F240BF99)), L_49, NULL);
 					il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
-					Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_40, NULL);
-					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:111>
-					Exception_t* L_41 = __this->___U3CeU3E5__4;
-					Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_41, NULL);
+					Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_50, NULL);
+					//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:119>
+					Exception_t* L_51 = __this->___U3CeU3E5__4;
+					Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_51, NULL);
 					IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
-					goto IL_0162_2;
+					goto IL_01ae_2;
 				}
 
-IL_0162_2:
+IL_01ae_2:
 				{
-					goto IL_0177_1;
+					goto IL_01c3_1;
 				}
 			}
 			catch(Il2CppExceptionWrapper& e)
@@ -16979,9 +17120,9 @@ IL_0162_2:
 			}
 		}
 
-IL_0177_1:
+IL_01c3_1:
 		{
-			goto IL_0193;
+			goto IL_01df;
 		}
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -16989,32 +17130,32 @@ IL_0177_1:
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_0179;
+			goto CATCH_01c5;
 		}
 		throw e;
 	}
 
-CATCH_0179:
+CATCH_01c5:
 	{
-		Exception_t* L_42 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		V_5 = L_42;
+		Exception_t* L_52 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_7 = L_52;
 		__this->___U3CU3E1__state = ((int32_t)-2);
-		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_43 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
-		Exception_t* L_44 = V_5;
-		AsyncVoidMethodBuilder_SetException_mD9A6F5D1A99A62AC9DF322901BFDE05193CB177B(L_43, L_44, NULL);
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_53 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
+		Exception_t* L_54 = V_7;
+		AsyncVoidMethodBuilder_SetException_mD9A6F5D1A99A62AC9DF322901BFDE05193CB177B(L_53, L_54, NULL);
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
-		goto IL_01a7;
+		goto IL_01f3;
 	}
 
-IL_0193:
+IL_01df:
 	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:117>
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Scripts/ChunkInstance.cs:125>
 		__this->___U3CU3E1__state = ((int32_t)-2);
-		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_45 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
-		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_45, NULL);
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_55 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
+		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_55, NULL);
 	}
 
-IL_01a7:
+IL_01f3:
 	{
 		return;
 	}
@@ -22372,7 +22513,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float TSDFVolumeManager_GetMeters
 		return L_0;
 	}
 }
-// Method Definition Index: 122972
+// Method Definition Index: 122973
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* MeshBuilder_get_Mesh_m449425847890408AA671C713EC6B379CC62D85EE_inline (MeshBuilder_tB07812D26387493F7CCB54136BB079A4402D706B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22577,7 +22718,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED02
 		return L_0;
 	}
 }
-// Method Definition Index: 134751
+// Method Definition Index: 134752
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool EnvironmentDepthManager_get_IsDepthAvailable_m46C6D9DCA227381A3840DBE6B41083EFB8FD132C_inline (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22784,7 +22925,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Quaternion__ctor_m868FD60AA6
 		return;
 	}
 }
-// Method Definition Index: 132212
+// Method Definition Index: 132213
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UnityEvent_2_t8BD8B2D552DBAC71219AB8986931168387484C85* SpatialAnchorCoreBuildingBlock_get_OnAnchorCreateCompleted_mD4EB0E9AB1E3E21FFE4A9D95A08A7B1CA15E7D6C_inline (SpatialAnchorCoreBuildingBlock_tCA657382824F34BC3401DD717A2F15F80ECA65B7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23239,6 +23380,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mA8F6BD9905E
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+// Method Definition Index: 2235
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m5E390FE1B37B443BEE9BE8F3FFC9A0974CCAC80C_gshared_inline (Nullable_1_t2153F26F688901E0795BA65DEA582FDC46AB9489* __this, const RuntimeMethod* method) 
+{
+	{
+		bool L_0 = __this->___hasValue;
+		return L_0;
+	}
 }
 // Method Definition Index: 11655
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ValueTuple_2_t9E1CBCEC084647867B410B3732DA4AF1A958BC33 Enumerator_get_Current_mF4BC8D10A05B5F2104A291C938B633414C186B53_gshared_inline (Enumerator_tA158D84C0C4E7449CA67CA108EA79BC2AF6C5F09* __this, const RuntimeMethod* method) 

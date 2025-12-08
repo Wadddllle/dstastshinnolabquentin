@@ -11431,7 +11431,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ChunkManager
   _environmentMapper: {fileID: 1112622324}
   _voxelProvider: {fileID: 621399653}
-  _meshMaterial: {fileID: 15303, guid: 0000000000000000f000000000000000, type: 0}
+  _meshMaterial: {fileID: 2100000, guid: 01fc586eca2a17f4185fafe0826d17a7, type: 2}
   _cameraRig: {fileID: 371933757}
   _playerHeadTransform: {fileID: 684351346}
   _chunkGenerationRadius: 2
@@ -12649,7 +12649,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 706151897}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de27d7f2f20024e18898941292d6c164, type: 3}
   m_Name: 
@@ -12666,7 +12666,7 @@ MonoBehaviour:
   <RoomRemovedEvent>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  EnableWorldLock: 0
+  EnableWorldLock: 1
   TrackingSpaceOffset:
     e00: 1
     e01: 0
@@ -12758,7 +12758,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   _worldContent: {fileID: 643645138}
-  _createIdealizedFloor: 0
+  _createIdealizedFloor: 1
   _floorSize: 100
   _floorVisualMaterial: {fileID: 2100000, guid: 01fc586eca2a17f4185fafe0826d17a7, type: 2}
   _floorPhysicMaterial: {fileID: 0}

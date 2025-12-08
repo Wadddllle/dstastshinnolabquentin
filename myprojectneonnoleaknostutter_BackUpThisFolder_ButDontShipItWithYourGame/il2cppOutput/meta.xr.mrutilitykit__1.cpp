@@ -28896,7 +28896,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SetLogPrinterDelegate_Invoke
 	typedef void (*FunctionPointerType) (RuntimeObject*, LogPrinter_tE8890B74ECCED9ECCA708FD7289649C205163360*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_printer, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 123056
+// Method Definition Index: 123057
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool RuntimeSettings_get_ImmersiveDebuggerEnabled_m89AF897A19F84521722D46E4817AE755440F2BBB_inline (RuntimeSettings_t09E547BE5F742B9C5735308FB6ACEC26EF550CA4* __this, const RuntimeMethod* method) 
 {
 	{

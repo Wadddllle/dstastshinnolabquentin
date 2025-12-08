@@ -44,35 +44,7 @@ void ConvertChunk(uint3 id : SV_DispatchThreadID) // id is the LOCAL coordinate 
     // Read the TSDF value (as a half) and write it (as a float)
     VoxelBuffer[flatten_local_index(id)] = TSDFVolume[global_coord];
     */
-    /*
-    if (any(id >= LocalDims))
-        return;
-
-    uint3 global_coord = id + VoxelOffset;
     
-    // Default to "empty" (127) if out of bounds of the big texture
-    int quantized = 127;
-    
-    if (all(global_coord < GlobalDims))
-    {
-        // Sample TSDF (-1 to 1)
-        float val = TSDFVolume[global_coord];
-        // Quantize to Sbyte range (-127 to 127)
-        quantized = clamp(val * 127.0, -127, 127);
-    }
-    
-    // Mask to lower 8 bits (0-255)
-    uint byteVal = (uint) (quantized & 0xFF);
-
-    // Calculate Index
-    uint flatIndex = flatten_local_index(id);
-    uint arrayIndex = flatIndex / 4; // 4 bytes per uint
-    uint byteShift = (flatIndex % 4) * 8; // 0, 8, 16, or 24 bits shift
-    
-    // Atomic write to pack the byte.
-    // (Safe here because each thread owns a unique byte slot)
-    InterlockedOr(VoxelBuffer[arrayIndex], byteVal << byteShift);
-*/
     // 1. Calculate the base Z coordinate for this thread
     uint baseZ = id.z * 4;
     
