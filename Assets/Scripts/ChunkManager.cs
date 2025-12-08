@@ -22,6 +22,8 @@ public class ChunkManager : MonoBehaviour
     [SerializeField] private float _chunkRemeshInterval = 2.0f;
     [SerializeField] private float _remeshCheckInterval = 0.25f; // How often we check if we NEED to remesh
 
+    private readonly Vector3Int _chunkStride = new Vector3Int(31, 31, 31);
+
     private readonly Dictionary<Vector3Int, (ChunkInstance instance, float lastUpdateTime)> _activeChunks = new();
     private readonly Vector3Int _chunkDimensions = new(MarchingCubes.Chunk.ChunkSizeX, MarchingCubes.Chunk.ChunkSizeY, MarchingCubes.Chunk.ChunkSizeZ);
 
@@ -153,14 +155,22 @@ public class ChunkManager : MonoBehaviour
 
     private Vector3Int WorldPosToChunkCoord(Vector3 worldPos)
     {
-        // ... (this function remains the same) ...
+        //Vector3 localPos = _cameraRig.trackingSpace.InverseTransformPoint(worldPos);
+        //var globalVolumeDims = new Vector3(_environmentMapper.volume.width, _environmentMapper.volume.height, _environmentMapper.volume.volumeDepth);
+        //Vector3 voxelPos = (localPos / _environmentMapper.metersPerVoxel) + (globalVolumeDims / 2.0f);
+        //return new Vector3Int(
+        //    Mathf.FloorToInt(voxelPos.x / _chunkDimensions.x),
+        //    Mathf.FloorToInt(voxelPos.y / _chunkDimensions.y),
+        //    Mathf.FloorToInt(voxelPos.z / _chunkDimensions.z)
+        //);
         Vector3 localPos = _cameraRig.trackingSpace.InverseTransformPoint(worldPos);
         var globalVolumeDims = new Vector3(_environmentMapper.volume.width, _environmentMapper.volume.height, _environmentMapper.volume.volumeDepth);
         Vector3 voxelPos = (localPos / _environmentMapper.metersPerVoxel) + (globalVolumeDims / 2.0f);
+
         return new Vector3Int(
-            Mathf.FloorToInt(voxelPos.x / _chunkDimensions.x),
-            Mathf.FloorToInt(voxelPos.y / _chunkDimensions.y),
-            Mathf.FloorToInt(voxelPos.z / _chunkDimensions.z)
+            Mathf.FloorToInt(voxelPos.x / _chunkStride.x),
+            Mathf.FloorToInt(voxelPos.y / _chunkStride.y),
+            Mathf.FloorToInt(voxelPos.z / _chunkStride.z)
         );
     }
 }

@@ -529,7 +529,6 @@ struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C;
 struct BaseUxmlTraits_t2A13D24373542A6401FE350C5119DE0FCE86E21E;
 struct BaseVisualElementPanel_tE3811F3D1474B72CB6CD5BCEECFF5B5CBEC1E303;
 struct Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235;
-struct Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3;
 struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3;
 struct Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B;
 struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
@@ -1347,10 +1346,6 @@ struct Task_1_t65B0CFA55427D8F65292A36D9BE1B7C5D949EE11  : public Task_t751C4CC3
 	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_result;
 };
 struct Task_1_tDF1FF540D7D2248A08580387A39717B7FB7A9CF9 : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572 {};
-struct UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1 
-{
-	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* ___pointer;
-};
 struct UnsafePointer_1_tF385D024AE7CE922E875123DEB39FC33DF1520AB 
 {
 	Il2CppFullySharedGenericStruct* ___pointer;
@@ -5090,12 +5085,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UnsafeParallelMultiHashMap_2_S
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UnsafeParallelMultiHashMap_2_System_Collections_IEnumerable_GetEnumerator_m64708D0165DA1C42D630B8C63E06EA8BC8CBA799_gshared (UnsafeParallelMultiHashMap_2_t4E7810C26A0DC9AFBF2B30BA797D0ACF99B4573F* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadOnly__ctor_m3564975A9D4AAF8614676EC338BAFCD77AA2C539_gshared (ReadOnly_t0CC4899AEC5833731AA82AB23F46B5E632B3AFC1* __this, UnsafeParallelMultiHashMap_2_t4E7810C26A0DC9AFBF2B30BA797D0ACF99B4573F ___0_container, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReadOnly_t0CC4899AEC5833731AA82AB23F46B5E632B3AFC1 UnsafeParallelMultiHashMap_2_AsReadOnly_mA8E54DBEF9F2B6A8572E465D50692D4A3179E949_gshared (UnsafeParallelMultiHashMap_2_t4E7810C26A0DC9AFBF2B30BA797D0ACF99B4573F* __this, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisBounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3_mD2F34AAB2050E90842D914F6E4ACCC10746C260D_gshared_inline (const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_AlignOf_TisBounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3_m2B54DEAE04DA7718238C600DEC6801202F182CAB_gshared (const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafePointer_1__ctor_mE6B91599C0B1D3A0750B073D02C4B8B767287AB8_gshared (UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1* __this, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___0_defaultValue, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnsafePointer_1_get_IsCreated_m0EA841BAD11BF3222BE732BC9FCD9531405EC0AF_gshared (UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1* __this, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* UnsafePointer_1_get_item_m290E730E94F5B8A56391C171A8803829A470EA4D_gshared_inline (UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafePointer_1_Dispose_mA9E3E524FE3DEA85BA05F7008ABE9EB0906CD11B_gshared (UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafePointer_1__ctor_mEAB834E5EC64BDAFB4E65841069467B445792E28_gshared (UnsafePointer_1_tF385D024AE7CE922E875123DEB39FC33DF1520AB* __this, Il2CppFullySharedGenericStruct ___0_defaultValue, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnsafePointer_1_get_IsCreated_mBB1A702E8AB6F902F57B69D3BF045600C7DBCCAF_gshared (UnsafePointer_1_tF385D024AE7CE922E875123DEB39FC33DF1520AB* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Il2CppFullySharedGenericStruct* UnsafePointer_1_get_item_m81230772F9B554F9F3F4BB58C8C62A93A8B9FAFF_gshared_inline (UnsafePointer_1_tF385D024AE7CE922E875123DEB39FC33DF1520AB* __this, const RuntimeMethod* method) ;
@@ -6799,32 +6788,7 @@ inline ReadOnly_t0CC4899AEC5833731AA82AB23F46B5E632B3AFC1 UnsafeParallelMultiHas
 {
 	return ((  ReadOnly_t0CC4899AEC5833731AA82AB23F46B5E632B3AFC1 (*) (UnsafeParallelMultiHashMap_2_t4E7810C26A0DC9AFBF2B30BA797D0ACF99B4573F*, const RuntimeMethod*))UnsafeParallelMultiHashMap_2_AsReadOnly_mA8E54DBEF9F2B6A8572E465D50692D4A3179E949_gshared)(__this, method);
 }
-inline int32_t UnsafeUtility_SizeOf_TisBounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3_mD2F34AAB2050E90842D914F6E4ACCC10746C260D_inline (const RuntimeMethod* method)
-{
-	return ((  int32_t (*) (const RuntimeMethod*))UnsafeUtility_SizeOf_TisBounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3_mD2F34AAB2050E90842D914F6E4ACCC10746C260D_gshared_inline)(method);
-}
-inline int32_t UnsafeUtility_AlignOf_TisBounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3_m2B54DEAE04DA7718238C600DEC6801202F182CAB (const RuntimeMethod* method)
-{
-	return ((  int32_t (*) (const RuntimeMethod*))UnsafeUtility_AlignOf_TisBounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3_m2B54DEAE04DA7718238C600DEC6801202F182CAB_gshared)(method);
-}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* UnsafeUtility_Malloc_mD7BD28D5AE7E4901B225B7DFFE2B568EE7BDC0C9 (int64_t ___0_size, int32_t ___1_alignment, int32_t ___2_allocator, const RuntimeMethod* method) ;
-inline void UnsafePointer_1__ctor_mE6B91599C0B1D3A0750B073D02C4B8B767287AB8 (UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1* __this, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___0_defaultValue, const RuntimeMethod* method)
-{
-	((  void (*) (UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1*, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3, const RuntimeMethod*))UnsafePointer_1__ctor_mE6B91599C0B1D3A0750B073D02C4B8B767287AB8_gshared)(__this, ___0_defaultValue, method);
-}
-inline bool UnsafePointer_1_get_IsCreated_m0EA841BAD11BF3222BE732BC9FCD9531405EC0AF (UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1* __this, const RuntimeMethod* method)
-{
-	return ((  bool (*) (UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1*, const RuntimeMethod*))UnsafePointer_1_get_IsCreated_m0EA841BAD11BF3222BE732BC9FCD9531405EC0AF_gshared)(__this, method);
-}
-inline Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* UnsafePointer_1_get_item_m290E730E94F5B8A56391C171A8803829A470EA4D_inline (UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1* __this, const RuntimeMethod* method)
-{
-	return ((  Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* (*) (UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1*, const RuntimeMethod*))UnsafePointer_1_get_item_m290E730E94F5B8A56391C171A8803829A470EA4D_gshared_inline)(__this, method);
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafeUtility_Free_mFF99F4F02FE7F735AB30D8987D6953E55A2B23E1 (void* ___0_memory, int32_t ___1_allocator, const RuntimeMethod* method) ;
-inline void UnsafePointer_1_Dispose_mA9E3E524FE3DEA85BA05F7008ABE9EB0906CD11B (UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1* __this, const RuntimeMethod* method)
-{
-	((  void (*) (UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1*, const RuntimeMethod*))UnsafePointer_1_Dispose_mA9E3E524FE3DEA85BA05F7008ABE9EB0906CD11B_gshared)(__this, method);
-}
 inline void UnsafePointer_1__ctor_mEAB834E5EC64BDAFB4E65841069467B445792E28 (UnsafePointer_1_tF385D024AE7CE922E875123DEB39FC33DF1520AB* __this, Il2CppFullySharedGenericStruct ___0_defaultValue, const RuntimeMethod* method)
 {
 	((  void (*) (UnsafePointer_1_tF385D024AE7CE922E875123DEB39FC33DF1520AB*, Il2CppFullySharedGenericStruct, const RuntimeMethod*))UnsafePointer_1__ctor_mEAB834E5EC64BDAFB4E65841069467B445792E28_gshared)((UnsafePointer_1_tF385D024AE7CE922E875123DEB39FC33DF1520AB*)__this, ___0_defaultValue, method);
@@ -6837,6 +6801,7 @@ inline Il2CppFullySharedGenericStruct* UnsafePointer_1_get_item_m81230772F9B554F
 {
 	return ((  Il2CppFullySharedGenericStruct* (*) (UnsafePointer_1_tF385D024AE7CE922E875123DEB39FC33DF1520AB*, const RuntimeMethod*))UnsafePointer_1_get_item_m81230772F9B554F9F3F4BB58C8C62A93A8B9FAFF_gshared_inline)(__this, method);
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafeUtility_Free_mFF99F4F02FE7F735AB30D8987D6953E55A2B23E1 (void* ___0_memory, int32_t ___1_allocator, const RuntimeMethod* method) ;
 inline void UnsafePointer_1_Dispose_m09F498EBA96C0C7BEBA089DA0DB2BD7F0E555428 (UnsafePointer_1_tF385D024AE7CE922E875123DEB39FC33DF1520AB* __this, const RuntimeMethod* method)
 {
 	((  void (*) (UnsafePointer_1_tF385D024AE7CE922E875123DEB39FC33DF1520AB*, const RuntimeMethod*))UnsafePointer_1_Dispose_m09F498EBA96C0C7BEBA089DA0DB2BD7F0E555428_gshared)(__this, method);
@@ -16713,138 +16678,6 @@ IL2CPP_EXTERN_C  ReadOnly_t0CC4899AEC5833731AA82AB23F46B5E632B3AFC1 UnsafeParall
 	ReadOnly_t0CC4899AEC5833731AA82AB23F46B5E632B3AFC1 _returnValue;
 	_returnValue = UnsafeParallelMultiHashMap_2_AsReadOnly_mA8E54DBEF9F2B6A8572E465D50692D4A3179E949(_thisAdjusted, method);
 	return _returnValue;
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// Method Definition Index: 122461
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafePointer_1__ctor_mE6B91599C0B1D3A0750B073D02C4B8B767287AB8_gshared (UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1* __this, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___0_defaultValue, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/Utils/UnsafePointer.cs:15>
-		int32_t L_0;
-		L_0 = UnsafeUtility_SizeOf_TisBounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3_mD2F34AAB2050E90842D914F6E4ACCC10746C260D_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
-		int32_t L_1;
-		L_1 = UnsafeUtility_AlignOf_TisBounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3_m2B54DEAE04DA7718238C600DEC6801202F182CAB(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		void* L_2;
-		L_2 = UnsafeUtility_Malloc_mD7BD28D5AE7E4901B225B7DFFE2B568EE7BDC0C9(((int64_t)L_0), L_1, (int32_t)4, NULL);
-		__this->___pointer = (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3*)L_2;
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/Utils/UnsafePointer.cs:16>
-		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* L_3 = __this->___pointer;
-		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_4 = ___0_defaultValue;
-		*(Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3*)L_3 = L_4;
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/Utils/UnsafePointer.cs:17>
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void UnsafePointer_1__ctor_mE6B91599C0B1D3A0750B073D02C4B8B767287AB8_AdjustorThunk (RuntimeObject* __this, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___0_defaultValue, const RuntimeMethod* method)
-{
-	UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1*>(__this + _offset);
-	UnsafePointer_1__ctor_mE6B91599C0B1D3A0750B073D02C4B8B767287AB8(_thisAdjusted, ___0_defaultValue, method);
-}
-// Method Definition Index: 122462
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1 UnsafePointer_1_Create_mB86A113ECE9F55A8FA67F31015109E89F677F90A_gshared (const RuntimeMethod* method) 
-{
-	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1 V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/Utils/UnsafePointer.cs:21>
-		il2cpp_codegen_initobj((&V_0), sizeof(Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3));
-		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_0 = V_0;
-		UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1 L_1;
-		memset((&L_1), 0, sizeof(L_1));
-		UnsafePointer_1__ctor_mE6B91599C0B1D3A0750B073D02C4B8B767287AB8((&L_1), L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		V_1 = L_1;
-		goto IL_0012;
-	}
-
-IL_0012:
-	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/Utils/UnsafePointer.cs:22>
-		UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1 L_2 = V_1;
-		return L_2;
-	}
-}
-// Method Definition Index: 122463
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnsafePointer_1_get_IsCreated_m0EA841BAD11BF3222BE732BC9FCD9531405EC0AF_gshared (UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1* __this, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/Utils/UnsafePointer.cs:24>
-		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* L_0 = __this->___pointer;
-		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-	}
-}
-IL2CPP_EXTERN_C  bool UnsafePointer_1_get_IsCreated_m0EA841BAD11BF3222BE732BC9FCD9531405EC0AF_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1*>(__this + _offset);
-	bool _returnValue;
-	_returnValue = UnsafePointer_1_get_IsCreated_m0EA841BAD11BF3222BE732BC9FCD9531405EC0AF(_thisAdjusted, method);
-	return _returnValue;
-}
-// Method Definition Index: 122464
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* UnsafePointer_1_get_item_m290E730E94F5B8A56391C171A8803829A470EA4D_gshared (UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1* __this, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/Utils/UnsafePointer.cs:26>
-		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* L_0 = __this->___pointer;
-		return (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3*)(L_0);
-	}
-}
-IL2CPP_EXTERN_C  Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* UnsafePointer_1_get_item_m290E730E94F5B8A56391C171A8803829A470EA4D_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1*>(__this + _offset);
-	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* _returnValue;
-	_returnValue = UnsafePointer_1_get_item_m290E730E94F5B8A56391C171A8803829A470EA4D_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// Method Definition Index: 122465
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafePointer_1_Dispose_mA9E3E524FE3DEA85BA05F7008ABE9EB0906CD11B_gshared (UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1* __this, const RuntimeMethod* method) 
-{
-	bool V_0 = false;
-	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/Utils/UnsafePointer.cs:30>
-		bool L_0;
-		L_0 = UnsafePointer_1_get_IsCreated_m0EA841BAD11BF3222BE732BC9FCD9531405EC0AF(__this, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
-		V_0 = L_0;
-		bool L_1 = V_0;
-		if (!L_1)
-		{
-			goto IL_0018;
-		}
-	}
-	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/Utils/UnsafePointer.cs:30>
-		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* L_2 = __this->___pointer;
-		UnsafeUtility_Free_mFF99F4F02FE7F735AB30D8987D6953E55A2B23E1((void*)L_2, (int32_t)4, NULL);
-	}
-
-IL_0018:
-	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/Utils/UnsafePointer.cs:31>
-		__this->___pointer = (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3*)((uintptr_t)0);
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/Utils/UnsafePointer.cs:32>
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void UnsafePointer_1_Dispose_mA9E3E524FE3DEA85BA05F7008ABE9EB0906CD11B_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1*>(__this + _offset);
-	UnsafePointer_1_Dispose_mA9E3E524FE3DEA85BA05F7008ABE9EB0906CD11B(_thisAdjusted, method);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -34911,23 +34744,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool UnsafeParallelMultiHashMap_2
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/UnsafeParallelMultiHashMap.cs:224>
 		UnsafeParallelHashMapData_t43CAB3170FBB624A9CCB6F30C0EC1BB820D57926* L_0 = __this->___m_Buffer;
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-	}
-}
-// Method Definition Index: 66059
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisBounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3_mD2F34AAB2050E90842D914F6E4ACCC10746C260D_gshared_inline (const RuntimeMethod* method) 
-{
-	{
-		uint32_t L_0 = sizeof(Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3);
-		return (int32_t)L_0;
-	}
-}
-// Method Definition Index: 122464
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* UnsafePointer_1_get_item_m290E730E94F5B8A56391C171A8803829A470EA4D_gshared_inline (UnsafePointer_1_t84EE8F915FD3DDD2699375C9263A7B0E78614DF1* __this, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/fastMarchingCubes-main/fastMarchingCubes-main/Assets/Utils/UnsafePointer.cs:26>
-		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* L_0 = __this->___pointer;
-		return (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3*)(L_0);
 	}
 }
 // Method Definition Index: 122464

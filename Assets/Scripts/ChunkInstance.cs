@@ -109,7 +109,7 @@ public class ChunkInstance : MonoBehaviour
                 // Now, this destroys the ACTUAL old mesh, preventing the leak.
                 if (oldMesh != null)
                 {
-                    Destroy(oldMesh,0.1f);
+                    Destroy(oldMesh,0.2f);
                 }
             }
         }
@@ -149,13 +149,19 @@ public class ChunkInstance : MonoBehaviour
                 transform.position = _cameraRig.trackingSpace.TransformPoint(unrotatedPosition);
                 //transform.rotation = _cameraRig.trackingSpace.rotation * Quaternion.Euler(0, -90, 0);
                 float scale = _environmentMapper.metersPerVoxel;
-                float gapCorrectionScale = (float)Chunk.ChunkSizeX / (Chunk.ChunkSizeX - 1.0f);
-                transform.localScale = new Vector3(scale, scale, scale) * gapCorrectionScale;
+                //float gapCorrectionScale = (float)Chunk.ChunkSizeX / (Chunk.ChunkSizeX - 1.0f);
+                //transform.localScale = new Vector3(scale, scale, scale) * gapCorrectionScale;
+                transform.localScale = new Vector3(scale, scale, scale);
                 finalMesh = new Mesh();
                 finalMesh.SetMesh(mesher);
-                finalMesh.triangles = finalMesh.triangles.Reverse().ToArray();
-                finalMesh.RecalculateNormals();
-                finalMesh.RecalculateBounds();
+                //finalMesh.triangles = finalMesh.triangles.Reverse().ToArray();
+                //finalMesh.RecalculateNormals();
+                //finalMesh.RecalculateBounds();
+
+                // 2. Process: Explode Vertices + Add Colors + REVERSE WINDING
+                // We do this in one super-fast burst pass.
+                WireframeJobHelper.ProcessMesh(finalMesh);
+
             }
             else
             {
@@ -182,8 +188,17 @@ public class ChunkInstance : MonoBehaviour
 
     private Vector3Int ChunkCoordToVoxelOrigin(Vector3Int chunkCoord)
     {
-        var dims = new Vector3Int(Chunk.ChunkSizeX, Chunk.ChunkSizeY, Chunk.ChunkSizeZ);
-        return new Vector3Int(chunkCoord.x * dims.x, chunkCoord.y * dims.y, chunkCoord.z * dims.z);
+        //    var dims = new Vector3Int(Chunk.ChunkSizeX, Chunk.ChunkSizeY, Chunk.ChunkSizeZ);
+        //    return new Vector3Int(chunkCoord.x * dims.x, chunkCoord.y * dims.y, chunkCoord.z * dims.z);
+        // Hardcode 31 here, or pass it in. 
+        // This implies that Chunk (1,0,0) starts at voxel 31.
+        var stride = new Vector3Int(31, 31, 31); 
+    
+        return new Vector3Int(
+            chunkCoord.x* stride.x,
+            chunkCoord.y* stride.y,
+            chunkCoord.z* stride.z
+        );
     }
 
     private Vector3 ChunkVoxelOriginToLocalPos(Vector3Int voxelOrigin)

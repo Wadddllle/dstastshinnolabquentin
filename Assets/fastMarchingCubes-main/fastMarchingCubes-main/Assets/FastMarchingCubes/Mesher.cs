@@ -25,7 +25,36 @@ namespace MarchingCubes
 		private static int referenceCounter;
         private static readonly object _sharedResourcesLock = new object();
 
+        private static bool _areTablesInitialized = false;
 
+        // Call this from MarchingCubesBootstrap.Awake()
+        public static void InitializeTables()
+        {
+            if (_areTablesInitialized) return;
+
+            AllocateLookupArrays(); // Defined in Mesher.Arrays.cs (assuming you have that file)
+            _areTablesInitialized = true;
+            Debug.Log("Marching Cubes Static Tables Allocated.");
+        }
+
+
+        // Call this from MarchingCubesBootstrap.OnDestroy()
+        public static void DisposeTables()
+        {
+            if (!_areTablesInitialized) return;
+
+            if (indicesPrecalc32bit.IsCreated) indicesPrecalc32bit.Dispose();
+            if (indicesPrecalc16bit.IsCreated) indicesPrecalc16bit.Dispose();
+            if (triangulationTable.IsCreated) triangulationTable.Dispose();
+            if (cornerIndexA.IsCreated) cornerIndexA.Dispose();
+            if (cornerIndexB.IsCreated) cornerIndexB.Dispose();
+
+            // Note: cornerIndexMix seems unused in your previous code, 
+            // but if it exists in Arrays.cs, dispose it here too.
+
+            _areTablesInitialized = false;
+            Debug.Log("Marching Cubes Static Tables Disposed.");
+        }
 
         public enum Mode { Naive, Simd32, Simd32Multithreaded }
 
@@ -40,13 +69,18 @@ namespace MarchingCubes
             //AllocateLookupArrays();
             //Allocate();
             // 2. Lock the entire reference counting and allocation block
-            lock (_sharedResourcesLock)
+            //lock (_sharedResourcesLock)
+            //{
+            //    referenceCounter++; // No need for Interlocked inside a lock
+            //    if (referenceCounter == 1)
+            //    {
+            //        AllocateLookupArrays();
+            //    }
+            //}
+            if (!_areTablesInitialized)
             {
-                referenceCounter++; // No need for Interlocked inside a lock
-                if (referenceCounter == 1)
-                {
-                    AllocateLookupArrays();
-                }
+                Debug.LogError("Marching Cubes tables not initialized! Ensure MarchingCubesBootstrap is in the scene.");
+                InitializeTables(); // Emergency fallback
             }
 
             Allocate(); // Instance allocation (local) is fine outside the lock
@@ -63,22 +97,22 @@ namespace MarchingCubes
 		}
 		public void Dispose()
 		{
-            //System.Threading.Interlocked.Decrement(ref referenceCounter);
-            //meshingJob.Dispose();
-            //DisposeStaticLookupArrays();
-            // Instance dispose is fine to do first
-            meshingJob.Dispose();
+			//System.Threading.Interlocked.Decrement(ref referenceCounter);
+			//meshingJob.Dispose();
+			//DisposeStaticLookupArrays();
+			// Instance dispose is fine to do first
+			meshingJob.Dispose();
 
-            // 3. Lock the static disposal block
-            lock (_sharedResourcesLock)
-            {
-                referenceCounter--; // No need for Interlocked inside a lock
+			//// 3. Lock the static disposal block
+			//lock (_sharedResourcesLock)
+			//{
+			//    referenceCounter--; // No need for Interlocked inside a lock
 
-                if (referenceCounter == 0)
-                {
-                    DisposeStaticLookupArrays();
-                }
-            }
+			//    if (referenceCounter == 0)
+			//    {
+			//        DisposeStaticLookupArrays();
+			//    }
+		//}
         }
 		private static void DisposeStaticLookupArrays()
 		{
@@ -118,44 +152,57 @@ namespace MarchingCubes
 		public void WaitForMeshJob() => meshingJobHandle.Complete();
 
 
-		/// <summary>
-		/// Combine meshes from different meshers.
-		/// </summary>
-		public void CombineMeshers(List<Mesher> meshers)
-		{
-			var verticesCount = 0;
-			foreach(var mesher in meshers)
-			{
-				verticesCount += mesher.Vertices.Length;
-			}
+        /// <summary>
+        /// Combine meshes from different meshers.
+        ///// </summary>
+        public void CombineMeshers(List<Mesher> meshers)
+        {
+            var verticesCount = 0;
+            foreach (var mesher in meshers)
+            {
+                verticesCount += mesher.Vertices.Length;
+            }
 
-			meshingJob.vertices.Capacity = verticesCount + 9;
+            meshingJob.vertices.Capacity = verticesCount + 9;
 
-			foreach (var mesher in meshers)
-			{
-				if (mesher != this)
-				{
-					meshingJob.vertices.AddRange(mesher.meshingJob.vertices.AsArray());
-				}
-			}
-		}
+            foreach (var mesher in meshers)
+            {
+                if (mesher != this)
+                {
+                    meshingJob.vertices.AddRange(mesher.meshingJob.vertices.AsArray());
+                }
+            }
+        }
 
 
 
-		public static VertexAttributeDescriptor VertexFormat => new VertexAttributeDescriptor(VertexAttribute.Position, VertexAttributeFormat.Float32);
-		public static NativeArray<int> GetIndices(int count)
-		{
-			if (count > PrecalculatedIndicesCount)
-				throw new System.Exception("Precalculated indices array is too short. Consider increasing PrecalculatedIndicesCount const in Mesher class.");
-			return indicesPrecalc32bit.GetSubArray(0, count);
-		}
-		public static NativeArray<ushort> GetIndices16(int count)
-		{
-			if (count > ushort.MaxValue)
-				throw new System.Exception("This should not happen. You are trying to get 16bit indices array for too many indices.");
-			return indicesPrecalc16bit.GetSubArray(0, count);
-		}
-		public NativeArray<float3> Vertices => meshingJob.vertices.AsArray();
-		public Bounds Bounds => meshingJob.bounds.item;
-	}
+        //public static VertexAttributeDescriptor VertexFormat => new VertexAttributeDescriptor(VertexAttribute.Position, VertexAttributeFormat.Float32);
+        //public static NativeArray<int> GetIndices(int count)
+        //{
+        //    if (count > PrecalculatedIndicesCount)
+        //        throw new System.Exception("Precalculated indices array is too short. Consider increasing PrecalculatedIndicesCount const in Mesher class.");
+        //    return indicesPrecalc32bit.GetSubArray(0, count);
+        //}
+        public static NativeArray<ushort> GetIndices16(int count)
+        {
+            if (count > ushort.MaxValue)
+                throw new System.Exception("This should not happen. You are trying to get 16bit indices array for too many indices.");
+            return indicesPrecalc16bit.GetSubArray(0, count);
+        }
+        public NativeArray<float3> Vertices => meshingJob.vertices.AsArray();
+        //public Bounds Bounds => meshingJob.bounds.Value;
+        public static VertexAttributeDescriptor VertexFormat => new VertexAttributeDescriptor(VertexAttribute.Position, VertexAttributeFormat.Float32);
+
+        public static NativeArray<int> GetIndices(int count)
+        {
+            if (count > PrecalculatedIndicesCount)
+                throw new System.Exception("Precalculated indices array is too short.");
+            return indicesPrecalc32bit.GetSubArray(0, count);
+        }
+
+        //public NativeArray<float3> Vertices => meshingJob.vertices.AsArray();
+
+        // Ensure you applied the Bounds fix from the previous answer:
+        public Bounds Bounds => meshingJob.bounds.Value;
+    }
 }

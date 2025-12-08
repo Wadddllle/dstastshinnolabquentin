@@ -22,4 +22,7 @@
   <uses-feature android:name="com.oculus.feature.PASSTHROUGH" android:required="false" />
   <uses-permission android:name="com.oculus.permission.USE_SCENE" />
   <uses-permission android:name="com.oculus.permission.BOUNDARY_VISIBILITY" />
+  <uses-feature
+    android:name="com.oculus.feature.CONTEXTUAL_BOUNDARYLESS_APP"
+    android:required="true" />
 </manifest>

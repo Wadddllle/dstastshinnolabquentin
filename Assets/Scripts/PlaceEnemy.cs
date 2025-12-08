@@ -1,19 +1,15 @@
-using Unity.VisualScripting;
 using UnityEngine;
+using Unity.VisualScripting;
 
 /// <summary>
 /// This script shoots a specified prefab from designated spawn points on the left and right controllers
-/// when the index triggers are pressed.
+/// when the A/X buttons are pressed, but only when controllers are actively in use.
 /// </summary>
 public class PlaceEnemy : MonoBehaviour
 {
     [Header("Projectile Settings")]
     [Tooltip("The prefab to be instantiated and shot.")]
     public GameObject projectilePrefab;
-
-    //[Tooltip("The speed at which the projectile will be fired.")]
-    //public float projectileSpeed = 20f;
-
 
     [Header("Controller References")]
     [Tooltip("The transform representing the spawn point for the left hand's projectile.")]
@@ -24,17 +20,24 @@ public class PlaceEnemy : MonoBehaviour
 
     void Update()
     {
-        // --- Check for Left Controller Trigger Press ---
-        // OVRInput.GetDown checks for the initial press of the button.
-        if (OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.LTouch))
+        if (OVRInput.GetActiveController() == OVRInput.Controller.LTouch)
         {
-            ShootPrefab(leftHandSpawnPoint);
+            // --- Check for Left Controller X Button Press (OVRInput.Button.One) ---
+            // This will only be checked when the physical LTouch controller is active.
+            if (OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.LTouch))
+            {
+                ShootPrefab(leftHandSpawnPoint);
+            }
         }
 
-        // --- Check for Right Controller Trigger Press ---
-        if (OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.RTouch))
+        if (OVRInput.GetActiveController() == OVRInput.Controller.RTouch)
         {
-            ShootPrefab(rightHandSpawnPoint);
+            // --- Check for Right Controller A Button Press (OVRInput.Button.One) ---
+            // This will only be checked when the physical RTouch controller is active.
+            if (OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.RTouch))
+            {
+                ShootPrefab(rightHandSpawnPoint);
+            }
         }
     }
 
