@@ -1,28 +1,31 @@
 using UnityEngine;
-using Anaglyph.XRTemplate; // Needed to access EnvironmentMapper settings
+using System.Collections;
+using Anaglyph.XRTemplate;
 
 public class TacticalGrid : MonoBehaviour
 {
-    public static TacticalGrid Instance; // Singleton for easy access
+    public static TacticalGrid Instance;
 
     [Header("Visualization")]
-    public Renderer FloorRenderer; // Drag the plane/quad here
+    public Renderer FloorRenderer;
     private Texture2D _visTexture;
-    private Color32[] _pixelColors;
+    private Color32[] _pixelColors; // Visual buffer
     private bool _textureNeedsUpdate = false;
 
-    // Grid Settings (Pulled from EnvironmentMapper)
-    private int _width;
-    private int _height;
+    // --- NEW: Data Layer ---
+    private System.Collections.BitArray _gridBits; // Logic buffer (1 bit per voxel)
+    public int GridWidth { get; private set; }     // Public accessor for Recorder
+    public int GridHeight { get; private set; }    // Public accessor for Recorder
+    public float CellSize { get; private set; }    // Public accessor for Recorder
+
+    // Settings
     private float _metersPerVoxel;
     private Vector3 _halfVolumeSize;
 
     // Colors
-    private Color32 _colorSeen = new Color32(0, 255, 0, 150); // Semi-transparent Green
-    private Color32 _colorUnseen = new Color32(0, 0, 0, 0);   // Transparent
-
+    private Color32 _colorSeen = new Color32(0, 255, 0, 150);
+    private Color32 _colorUnseen = new Color32(0, 0, 0, 0);
     private float _lastUploadTime;
-
 
     void Awake()
     {
@@ -31,36 +34,32 @@ public class TacticalGrid : MonoBehaviour
 
     void Start()
     {
-        // 1. Grab settings from your existing Mapper to match math
         var mapper = EnvironmentMapper.Instance;
-        _width = mapper.volume.width;
-        _height = mapper.volume.volumeDepth;
+        GridWidth = mapper.volume.width;
+        GridHeight = mapper.volume.volumeDepth;
+        CellSize = mapper.metersPerVoxel;
         _metersPerVoxel = mapper.metersPerVoxel;
 
-        // 2. Setup Coordinate Math Offset
-        Vector3 volumeSize = new Vector3(_width * _metersPerVoxel, 0, _height * _metersPerVoxel);
+        Vector3 volumeSize = new Vector3(GridWidth * _metersPerVoxel, 0, GridHeight * _metersPerVoxel);
         _halfVolumeSize = volumeSize / 2.0f;
 
-        // 3. Create the Texture
-        _visTexture = new Texture2D(_width, _height, TextureFormat.RGBA32, false);
-        _visTexture.filterMode = FilterMode.Point; // Pixelated look
-
-        // 4. Fill with transparent
-        _pixelColors = new Color32[_width * _height];
+        // 1. Setup Texture (Visuals)
+        _visTexture = new Texture2D(GridWidth, GridHeight, TextureFormat.RGBA32, false);
+        _visTexture.filterMode = FilterMode.Point;
+        _pixelColors = new Color32[GridWidth * GridHeight];
         System.Array.Fill(_pixelColors, _colorUnseen);
         _visTexture.SetPixels32(_pixelColors);
         _visTexture.Apply();
 
-        // 5. Apply to the Floor Mesh
-        if (FloorRenderer != null)
-        {
-            FloorRenderer.material.mainTexture = _visTexture;
-        }
+        if (FloorRenderer != null) FloorRenderer.material.mainTexture = _visTexture;
+
+        // 2. Setup BitArray (Data) - Size is total pixels
+        _gridBits = new System.Collections.BitArray(GridWidth * GridHeight);
+        _gridBits.SetAll(false); // Start as "Unseen"
     }
 
     void Update()
     {
-        // Only upload to GPU if we painted something this frame
         if (_textureNeedsUpdate && Time.time > _lastUploadTime + 0.1f)
         {
             _visTexture.SetPixels32(_pixelColors);
@@ -70,41 +69,48 @@ public class TacticalGrid : MonoBehaviour
         }
     }
 
-    // --- The "Paint" Function ---
     public void MarkSeen(Vector3 worldPos)
     {
-        // 1. Convert World to Grid Index
-        // NOTE: We subtract transform.position in case the parent moves, 
-        // but typically EnvironmentMapper is at 0,0,0.
         float localX = worldPos.x + _halfVolumeSize.x;
         float localZ = worldPos.z + _halfVolumeSize.z;
 
         int x = Mathf.FloorToInt(localX / _metersPerVoxel);
-        int y = Mathf.FloorToInt(localZ / _metersPerVoxel); // Z becomes Y in texture
+        int y = Mathf.FloorToInt(localZ / _metersPerVoxel);
 
-        // 2. Bounds Check
-        if (x >= 0 && x < _width && y >= 0 && y < _height)
+        if (x >= 0 && x < GridWidth && y >= 0 && y < GridHeight)
         {
-            int index = y * _width + x;
+            int index = y * GridWidth + x;
 
-            // 3. Paint Green if not already Green
-            if (_pixelColors[index].g != 255)
+            // Optimization: Only update if it was previously unseen
+            if (_gridBits.Get(index) == false)
             {
+                // 1. Update Data
+                _gridBits.Set(index, true);
+
+                // 2. Update Visuals
                 _pixelColors[index] = _colorSeen;
-                _textureNeedsUpdate = true; // Tell Update() to upload
+                _textureNeedsUpdate = true;
             }
         }
     }
-    // In TacticalGrid.cs
 
     public void ClearGrid()
     {
-        // 1. Reset the data array to 0 (Unseen)
-        System.Array.Fill(_pixelColors, _colorUnseen); // Revert to transparent
-
-        // 2. Mark texture as dirty so Update() uploads the changes
+        System.Array.Fill(_pixelColors, _colorUnseen);
+        _gridBits.SetAll(false); // Reset bits
         _textureNeedsUpdate = true;
+    }
 
-        Debug.Log("Tactical Grid Cleared.");
+    // --- NEW: Export Function for the Recorder ---
+    // Returns the grid as a raw byte array. 
+    // Example: 256x256 grid = 65k bits = ~8kb array
+    public byte[] GetCompressedGridData()
+    {
+        // BitArray.CopyTo expects an int[] or byte[] buffer.
+        // We calculate bytes needed: (TotalBits + 7) / 8
+        int numBytes = (_gridBits.Length + 7) / 8;
+        byte[] bytes = new byte[numBytes];
+        _gridBits.CopyTo(bytes, 0);
+        return bytes;
     }
 }
