@@ -3,60 +3,67 @@ using UnityEngine;
 public class VisionScanner : MonoBehaviour
 {
     [Header("Settings")]
-    public float Range = 10f; // How far you can see
-    public float FOV = 90f;   // Horizontal field of view
-    public int RaysPerFrame = 20; // How many rays to cast per update
+    public float Range = 10f;
+    public float FOV = 90f;
+    public int RaysPerFrame = 20;
 
     [Header("Layers")]
-    public LayerMask ObstacleMask; // Set this to "Default" or whatever your Mesh is on
+    public LayerMask ObstacleMask;
 
-    private Camera _cam;
+    private Transform _transform;
 
     void Start()
     {
-        _cam = GetComponent<Camera>();
-        if (_cam == null) _cam = Camera.main;
+        _transform = transform; // Cache transform for performance
     }
 
     void FixedUpdate()
     {
+        // Safety Check: Don't scan if the Grid isn't ready!
+        if (TacticalGrid.Instance == null || !TacticalGrid.Instance.IsInitialized) return;
+
         Scan();
     }
 
     void Scan()
     {
-        Vector3 origin = transform.position;
+        Vector3 origin = _transform.position;
+        Vector3 fwd = _transform.forward;
 
         for (int i = 0; i < RaysPerFrame; i++)
         {
-            // 1. Pick a random angle within the FOV (Creates a noisy "cone")
+            // 1. Pick a random angle within the FOV
             float angle = Random.Range(-FOV / 2f, FOV / 2f);
+
+            // Rotate around the Y axis relative to current forward
             Quaternion rot = Quaternion.Euler(0, angle, 0);
-            Vector3 dir = rot * transform.forward;
+            Vector3 dir = rot * fwd;
 
             // 2. Cast Ray
             RaycastHit hit;
             float distanceToPaint = Range;
 
-            // Did we hit a wall/mesh?
             if (Physics.Raycast(origin, dir, out hit, Range, ObstacleMask))
             {
                 distanceToPaint = hit.distance;
-                // Optional: Visualize the hit for debug
-                Debug.DrawLine(origin, hit.point, Color.red, 0.1f);
-            }
-            else
-            {
-                Debug.DrawLine(origin, origin + dir * Range, Color.green, 0.1f);
+                // Debug.DrawLine(origin, hit.point, Color.red, 0.05f); // Turn off for performance later
             }
 
-            // 3. "Walk" along the ray and paint the floor
-            // We step every 0.1m (10cm) to match the grid size
-            for (float d = 0; d < distanceToPaint; d += 0.1f)
+            // 3. "Walk" along the ray and paint
+            // Optimization: Get the CellSize from the grid so we don't over-paint
+            float stepSize = TacticalGrid.Instance.CellSize;
+            if (stepSize <= 0) stepSize = 0.1f; // Safety fallback
+
+            for (float d = 0; d < distanceToPaint; d += stepSize)
             {
                 Vector3 pointAlongRay = origin + (dir * d);
-                // Paint this specific spot
                 TacticalGrid.Instance.MarkSeen(pointAlongRay);
+            }
+
+            // Also mark the final hit point if we hit a wall
+            if (distanceToPaint < Range)
+            {
+                TacticalGrid.Instance.MarkSeen(origin + (dir * distanceToPaint));
             }
         }
     }

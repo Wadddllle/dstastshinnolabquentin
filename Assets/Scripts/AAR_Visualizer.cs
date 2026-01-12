@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
 using System.Collections.Generic;
+using System.Collections;
 
 public class AAR_Visualizer : MonoBehaviour
 {
@@ -42,14 +43,36 @@ public class AAR_Visualizer : MonoBehaviour
         public byte[] gridBytes;
     }
 
-    void Start()
+    //void Start()
+    ////{
+    ////    LoadMapImage();
+    ////    LoadLogData();
+
+    ////    // Initial Draw
+    ////    UpdateVisualization();
+    //}
+    public void Initialize(string specificLogFileName)
     {
+        // Update the filename
+        this.logFileName = specificLogFileName;
+
+        // Start a coroutine to handle the loading with a safety buffer
+        StartCoroutine(LoadSequence());
+    }
+
+    private IEnumerator LoadSequence()
+    {
+        // 1. Wait a tiny bit to ensure the OS has released the file handle from the Recorder
+        yield return new WaitForSeconds(0.1f);
+
         LoadMapImage();
+
+        // 2. Try to load the data
         LoadLogData();
 
-        // Initial Draw
         UpdateVisualization();
     }
+
 
     void Update()
     {
@@ -76,8 +99,13 @@ public class AAR_Visualizer : MonoBehaviour
     private void LoadLogData()
     {
         string path = Path.Combine(Application.persistentDataPath, logFileName);
-        if (!File.Exists(path)) return;
-
+        Debug.Log($"[AAR] Attempting to load: {path}");
+        if (!File.Exists(path))
+        {
+            Debug.LogError("[AAR] File does not exist!");
+            return;
+        }
+        _frames.Clear(); // Clear old data before loading new
         using (BinaryReader reader = new BinaryReader(File.Open(path, FileMode.Open)))
         {
             // 1. Read Header
@@ -86,6 +114,8 @@ public class AAR_Visualizer : MonoBehaviour
             _gridWidth = reader.ReadInt32();
             _gridHeight = reader.ReadInt32();
             _cellSize = reader.ReadSingle();
+
+            Debug.Log($"[AAR] Header: {magic} V{version} | Grid: {_gridWidth}x{_gridHeight}");
 
             // Setup Textures & Buffers
             _dataTexture = new Texture2D(_gridWidth, _gridHeight, TextureFormat.RGBA32, false);
@@ -116,10 +146,12 @@ public class AAR_Visualizer : MonoBehaviour
                     // Pre-calculate Heatmap
                     AddToHeatmap(frame.gridBytes);
                 }
-                catch
+                catch (System.Exception e)
                 {
+                    Debug.LogError($"[AAR] Failed to read bin file: {e.Message}");
                     break; // End of file
                 }
+                Debug.Log($"[AAR] Load Complete. Total Frames: {_frames.Count}");
             }
         }
         Debug.Log($"Loaded {_frames.Count} frames.");
@@ -150,8 +182,18 @@ public class AAR_Visualizer : MonoBehaviour
 
     private void UpdateVisualization()
     {
-        if (_frames.Count == 0) return;
+        if (_frames == null || _frames.Count == 0)
+        {
+            Debug.LogWarning("[AAR_Debug] No frames in list. Update aborted.");
+            return;
+        }
+        if (mapBackgroundImage == null || ghostAgentIcon == null)
+        {
+            Debug.LogError("[AAR_Debug] UI References are NULL!");
+            return;
+        }
 
+        //Debug.LogError("Update visualization happeming");
         // 1. Determine current frame index
         int frameIndex = Mathf.FloorToInt(playbackProgress * (_frames.Count - 1));
         LogFrame currentFrame = _frames[frameIndex];

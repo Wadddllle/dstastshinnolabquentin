@@ -9,7 +9,7 @@ public class GridRecorder : MonoBehaviour
     public Transform headTransform;
 
     [Header("Settings")]
-    public float recordFrequency = 10.0f; // 10Hz is plenty for grid replays
+    public float recordFrequency = 10.0f;
     public string fileName = "session_data.bin";
 
     private bool _isRecording = false;
@@ -26,21 +26,7 @@ public class GridRecorder : MonoBehaviour
             return;
         }
 
-        string path = Path.Combine(Application.persistentDataPath, fileName);
-
-        // Open File Stream
-        _fileStream = File.Open(path, FileMode.Create);
-        _writer = new BinaryWriter(_fileStream);
-
-        // --- WRITE HEADER ---
-        // This allows the Replayer to know how to reconstruct the grid later
-        _writer.Write("GRID"); // Magic string check
-        _writer.Write(1);      // Version number (useful if you change format later)
-        _writer.Write(sourceGrid.GridWidth);
-        _writer.Write(sourceGrid.GridHeight);
-        _writer.Write(sourceGrid.CellSize);
-
-        Debug.Log($"Recording Started. Saving to: {path}");
+        // Don't open the file yet. Wait until we are sure data exists.
         _isRecording = true;
         StartCoroutine(RecordRoutine());
     }
@@ -48,43 +34,57 @@ public class GridRecorder : MonoBehaviour
     [ContextMenu("Stop Recording")]
     public void StopRecording()
     {
-        _isRecording = false; // Coroutine will exit naturally
+        _isRecording = false;
+        // The loop in RecordRoutine will break naturally now,
+        // but we can force close if needed in OnDestroy.
     }
 
     private IEnumerator RecordRoutine()
     {
+        // 1. WAIT FOR GRID INITIALIZATION
+        // This ensures Width, Height, and CellSize are set before we write them.
+        while (!sourceGrid.IsInitialized)
+        {
+            yield return null;
+        }
+
+        // 2. NOW Open File & Write Header
+        string path = Path.Combine(Application.persistentDataPath, fileName);
+        _fileStream = File.Open(path, FileMode.Create);
+        _writer = new BinaryWriter(_fileStream);
+
+        _writer.Write("GRID");
+        _writer.Write(1);
+        _writer.Write(sourceGrid.GridWidth);
+        _writer.Write(sourceGrid.GridHeight);
+        _writer.Write(sourceGrid.CellSize); // This will now be correct (~0.1)
+
+        Debug.Log($"Recording Started. Header written. Saving to: {path}");
+
+        // 3. Recording Loop
         float interval = 1.0f / recordFrequency;
 
         while (_isRecording)
         {
-            // 1. Capture Data
+            // Capture Data
             float timestamp = Time.time;
             Vector3 pos = headTransform.position;
             Quaternion rot = headTransform.rotation;
-
-            // This is the heavy lifting: Get the packed bytes (Seen/Unseen)
             byte[] gridBytes = sourceGrid.GetCompressedGridData();
 
-            // 2. Write Frame to Disk
-            // Format: [Time(4)][Pos(12)][Rot(16)][GridData(Var)]
+            // Write Frame
             _writer.Write(timestamp);
-
             _writer.Write(pos.x);
             _writer.Write(pos.y);
             _writer.Write(pos.z);
-
             _writer.Write(rot.x);
             _writer.Write(rot.y);
             _writer.Write(rot.z);
             _writer.Write(rot.w);
 
-            // Flexible: If you add events later, you could write an Event ID here
-            // For now, we just dump the grid bytes.
             _writer.Write(gridBytes.Length);
             _writer.Write(gridBytes);
 
-            // Flush periodically to ensure data saves if app crashes
-            // (Optional, doing it every frame is safer for prototypes)
             _writer.Flush();
 
             yield return new WaitForSeconds(interval);
@@ -111,8 +111,7 @@ public class GridRecorder : MonoBehaviour
 
     private void OnDestroy()
     {
-        // Safety net: Close file if scene changes or app quits
-        if (_isRecording) StopRecording();
+        if (_isRecording) _isRecording = false; // Break the loop
         CloseFile();
     }
 }

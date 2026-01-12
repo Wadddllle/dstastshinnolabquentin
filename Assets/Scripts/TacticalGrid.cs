@@ -6,44 +6,55 @@ public class TacticalGrid : MonoBehaviour
 {
     public static TacticalGrid Instance;
 
+    [Header("Settings")]
+    public bool ShowDebugVisualization = true; // New Checkmark
+
     [Header("Visualization")]
     public Renderer FloorRenderer;
     private Texture2D _visTexture;
-    private Color32[] _pixelColors; // Visual buffer
+    private Color32[] _pixelColors;
     private bool _textureNeedsUpdate = false;
 
-    // --- NEW: Data Layer ---
-    private System.Collections.BitArray _gridBits; // Logic buffer (1 bit per voxel)
-    public int GridWidth { get; private set; }     // Public accessor for Recorder
-    public int GridHeight { get; private set; }    // Public accessor for Recorder
-    public float CellSize { get; private set; }    // Public accessor for Recorder
+    // --- Data Layer ---
+    private System.Collections.BitArray _gridBits;
+    public int GridWidth { get; private set; }
+    public int GridHeight { get; private set; }
+    public float CellSize { get; private set; }
 
-    // Settings
     private float _metersPerVoxel;
     private Vector3 _halfVolumeSize;
 
-    // Colors
     private Color32 _colorSeen = new Color32(0, 255, 0, 150);
     private Color32 _colorUnseen = new Color32(0, 0, 0, 0);
     private float _lastUploadTime;
+    public bool IsInitialized { get; private set; } = false;
 
     void Awake()
     {
         Instance = this;
+
+        // Move the data structure setup here so it's ready immediately
+        var mapper = EnvironmentMapper.Instance;
+        if (mapper != null)
+        {
+            GridWidth = mapper.volume.width;
+            GridHeight = mapper.volume.volumeDepth;
+            _metersPerVoxel = mapper.metersPerVoxel;
+
+            // Initialize the BitArray immediately
+            _gridBits = new System.Collections.BitArray(GridWidth * GridHeight);
+            _gridBits.SetAll(false);
+        }
     }
 
     void Start()
     {
+        // Keep visualization setup here
         var mapper = EnvironmentMapper.Instance;
-        GridWidth = mapper.volume.width;
-        GridHeight = mapper.volume.volumeDepth;
         CellSize = mapper.metersPerVoxel;
-        _metersPerVoxel = mapper.metersPerVoxel;
-
         Vector3 volumeSize = new Vector3(GridWidth * _metersPerVoxel, 0, GridHeight * _metersPerVoxel);
         _halfVolumeSize = volumeSize / 2.0f;
 
-        // 1. Setup Texture (Visuals)
         _visTexture = new Texture2D(GridWidth, GridHeight, TextureFormat.RGBA32, false);
         _visTexture.filterMode = FilterMode.Point;
         _pixelColors = new Color32[GridWidth * GridHeight];
@@ -51,16 +62,24 @@ public class TacticalGrid : MonoBehaviour
         _visTexture.SetPixels32(_pixelColors);
         _visTexture.Apply();
 
-        if (FloorRenderer != null) FloorRenderer.material.mainTexture = _visTexture;
-
-        // 2. Setup BitArray (Data) - Size is total pixels
-        _gridBits = new System.Collections.BitArray(GridWidth * GridHeight);
-        _gridBits.SetAll(false); // Start as "Unseen"
+        if (FloorRenderer != null)
+        {
+            FloorRenderer.material.mainTexture = _visTexture;
+            FloorRenderer.enabled = ShowDebugVisualization;
+        }
+        IsInitialized = true;
     }
 
     void Update()
     {
-        if (_textureNeedsUpdate && Time.time > _lastUploadTime + 0.1f)
+        // Toggle the renderer visibility based on the checkmark
+        if (FloorRenderer != null && FloorRenderer.enabled != ShowDebugVisualization)
+        {
+            FloorRenderer.enabled = ShowDebugVisualization;
+        }
+
+        // Only upload to GPU if we are in debug mode and need an update
+        if (ShowDebugVisualization && _textureNeedsUpdate && Time.time > _lastUploadTime + 0.1f)
         {
             _visTexture.SetPixels32(_pixelColors);
             _visTexture.Apply();
@@ -81,33 +100,34 @@ public class TacticalGrid : MonoBehaviour
         {
             int index = y * GridWidth + x;
 
-            // Optimization: Only update if it was previously unseen
             if (_gridBits.Get(index) == false)
             {
-                // 1. Update Data
+                // 1. Always Update Data
                 _gridBits.Set(index, true);
 
-                // 2. Update Visuals
-                _pixelColors[index] = _colorSeen;
-                _textureNeedsUpdate = true;
+                // 2. Only update visual buffer if debug is on
+                if (ShowDebugVisualization)
+                {
+                    _pixelColors[index] = _colorSeen;
+                    _textureNeedsUpdate = true;
+                }
             }
         }
     }
 
     public void ClearGrid()
     {
-        System.Array.Fill(_pixelColors, _colorUnseen);
-        _gridBits.SetAll(false); // Reset bits
-        _textureNeedsUpdate = true;
+        _gridBits.SetAll(false);
+
+        if (ShowDebugVisualization)
+        {
+            System.Array.Fill(_pixelColors, _colorUnseen);
+            _textureNeedsUpdate = true;
+        }
     }
 
-    // --- NEW: Export Function for the Recorder ---
-    // Returns the grid as a raw byte array. 
-    // Example: 256x256 grid = 65k bits = ~8kb array
     public byte[] GetCompressedGridData()
     {
-        // BitArray.CopyTo expects an int[] or byte[] buffer.
-        // We calculate bytes needed: (TotalBits + 7) / 8
         int numBytes = (_gridBits.Length + 7) / 8;
         byte[] bytes = new byte[numBytes];
         _gridBits.CopyTo(bytes, 0);
