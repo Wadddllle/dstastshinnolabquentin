@@ -35,8 +35,15 @@ public class GridRecorder : MonoBehaviour
     public void StopRecording()
     {
         _isRecording = false;
-        // The loop in RecordRoutine will break naturally now,
-        // but we can force close if needed in OnDestroy.
+
+        // FIX: Force the file to close IMMEDIATELY. 
+        // Do not wait for the Coroutine to finish in the next frame.
+        CloseFile();
+
+        // Optional: Stop the coroutine so it doesn't try to run again
+        StopAllCoroutines();
+
+        Debug.Log("Recording Stopped and File Closed immediately.");
     }
 
     private IEnumerator RecordRoutine()
@@ -96,22 +103,28 @@ public class GridRecorder : MonoBehaviour
 
     private void CloseFile()
     {
+        // Safety Check: Make sure we don't try to close an already closed file
+        // (This makes the function "Idempotent" - safe to call twice)
+
         if (_writer != null)
         {
+            _writer.Flush(); // Ensure all data is written
             _writer.Close();
+            _writer.Dispose();
             _writer = null;
         }
+
         if (_fileStream != null)
         {
             _fileStream.Close();
+            _fileStream.Dispose();
             _fileStream = null;
         }
-        Debug.Log("Recording Saved & Closed.");
     }
 
     private void OnDestroy()
     {
-        if (_isRecording) _isRecording = false; // Break the loop
+        if (_isRecording) StopRecording();
         CloseFile();
     }
 }

@@ -21,6 +21,10 @@ public class ChunkManager : MonoBehaviour
     [SerializeField] private float _chunkDiscoveryInterval = 1.0f; // Formerly _updateInterval
     [SerializeField] private float _chunkRemeshInterval = 2.0f;
     [SerializeField] private float _remeshCheckInterval = 0.25f; // How often we check if we NEED to remesh
+    [SerializeField] private string _floorLayerName = "Floor"; // NEW: Type the name of your layer here
+
+    private int _floorLayerId; // We will store the ID here
+
 
     private readonly Vector3Int _chunkStride = new Vector3Int(31, 31, 31);
 
@@ -30,6 +34,16 @@ public class ChunkManager : MonoBehaviour
     private bool _areChunksVisible = true;
     void Start()
     {
+        // 1.FIND THE LAYER ID
+        _floorLayerId = LayerMask.NameToLayer(_floorLayerName);
+
+        // Safety Check
+        if (_floorLayerId == -1)
+        {
+            Debug.LogError($"Layer '{_floorLayerName}' does not exist! Please add it in Unity's Layer settings.");
+            _floorLayerId = 0; // Default (fallback)
+        }
+
         if (_environmentMapper == null || _voxelProvider == null || _cameraRig == null || _playerHeadTransform == null)
         {
             Debug.LogError("FATAL: A dependency has not been assigned in the Inspector!", this);
@@ -101,7 +115,7 @@ public class ChunkManager : MonoBehaviour
                 {
                     GameObject newChunkObject = new GameObject();
                     ChunkInstance newInstance = newChunkObject.AddComponent<ChunkInstance>();
-                    newInstance.Initialize(coord, OnChunkBuildFailed, _voxelProvider, _meshMaterial, _environmentMapper, _cameraRig, _areChunksVisible);
+                    newInstance.Initialize(coord, OnChunkBuildFailed, _voxelProvider, _meshMaterial, _environmentMapper, _cameraRig, _areChunksVisible, _floorLayerId);
                     _activeChunks.Add(coord, (newInstance, Time.time));
                 }
             }

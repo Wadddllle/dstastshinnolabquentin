@@ -6,32 +6,28 @@ public class TraineeState : BaseState
     {
         Debug.Log("STATE: Trainee Mode");
 
-        GameObject projLauncher = Manager.projectileLauncher.gameObject;
-        projLauncher.SetActive(true);
-        GameObject tacGrid = Manager.tacticalGrid.gameObject;
-        tacGrid.SetActive(true);
-        GameObject gridRec = Manager.gridRecorder.gameObject;
-        gridRec.SetActive(true);
-        Manager.visionScanner.gameObject.SetActive(true);
-        Manager.visionScanner.enabled = true;
+        // 1. The Magic Swap (Turns on Grid, Recorder, Launcher, UI all at once)
+        Manager.SetActiveRoot(Manager.TraineeRoot);
 
-        // 1. Set the filename in the blackboard
+        // 2. Handle the "Exception" (VisionScanner on the head)
+        if (Manager.visionScanner != null)
+        {
+            Manager.visionScanner.gameObject.SetActive(true);
+            Manager.visionScanner.enabled = true;
+        }
+
+        // 3. Logic Setup (Filenames, etc.)
         Manager.currentSession.currentRecordingFileName = "Run_" + System.DateTime.Now.ToString("MMdd_HHmm") + ".bin";
-
-        // 2. Configure your existing Recorder
         Manager.gridRecorder.fileName = Manager.currentSession.currentRecordingFileName;
 
-        // 3. START RECORDING!
+        // 4. Start Logic
         Manager.gridRecorder.StartRecording();
     }
 
     public override void UpdateState()
     {
-        // Trainee is running around...
-        // Your TacticalGrid.cs is automatically updating visually because of its Update loop.
-
-        // TRANSITION: Finish Run
-        if (OVRInput.GetDown(OVRInput.Button.Two, OVRInput.Controller.RTouch)) // Or VR Button "B"
+        // Wait for 'B' Button
+        if (OVRInput.GetDown(OVRInput.Button.Two, OVRInput.Controller.RTouch))
         {
             Manager.ChangeState(new AARState());
         }
@@ -39,7 +35,12 @@ public class TraineeState : BaseState
 
     public override void ExitState()
     {
-        // STOP RECORDING!
         Manager.gridRecorder.StopRecording();
+
+        // Turn off the Exception
+        if (Manager.visionScanner != null)
+        {
+            Manager.visionScanner.gameObject.SetActive(false);
+        }
     }
 }

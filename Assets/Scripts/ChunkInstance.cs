@@ -18,6 +18,8 @@ public class ChunkInstance : MonoBehaviour
     private OVRCameraRig _cameraRig;
     private bool _isUpdating = false;
     private bool _isRendererVisible = true; // Tracks the desired state of the renderer
+    private int _layerId; // NEW: Store the layer ID
+
 
     // --- Components ---
     private MeshFilter _meshFilter;
@@ -25,7 +27,7 @@ public class ChunkInstance : MonoBehaviour
     private MeshRenderer _meshRenderer; // Reference to the renderer component
 
     // MODIFIED: Added 'isVisible' parameter
-    public void Initialize(Vector3Int coordinate, Action<Vector3Int> onBuildFailed, VoxelProvider provider, Material material, EnvironmentMapper mapper, OVRCameraRig cameraRig, bool isVisible)
+    public void Initialize(Vector3Int coordinate, Action<Vector3Int> onBuildFailed, VoxelProvider provider, Material material, EnvironmentMapper mapper, OVRCameraRig cameraRig, bool isVisible, int layerId)
     {
         _coordinate = coordinate;
         _onBuildFailed = onBuildFailed;
@@ -34,8 +36,13 @@ public class ChunkInstance : MonoBehaviour
         _environmentMapper = mapper;
         _cameraRig = cameraRig;
         _isRendererVisible = isVisible; // Store the initial visibility state
+        _layerId = layerId; // Store it
+
 
         gameObject.name = $"Chunk_{_coordinate.x}_{_coordinate.y}_{_coordinate.z}";
+        gameObject.layer = _layerId;
+
+
         InitialBuild();
     }
 
@@ -206,4 +213,6 @@ public class ChunkInstance : MonoBehaviour
         var globalVolumeDims = new Vector3(_environmentMapper.volume.width, _environmentMapper.volume.height, _environmentMapper.volume.volumeDepth);
         return ((Vector3)voxelOrigin - (globalVolumeDims / 2.0f)) * _environmentMapper.metersPerVoxel;
     }
+
+
 }

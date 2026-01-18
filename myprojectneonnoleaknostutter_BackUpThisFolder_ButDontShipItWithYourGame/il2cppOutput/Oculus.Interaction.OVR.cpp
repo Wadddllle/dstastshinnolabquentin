@@ -120,7 +120,6 @@ struct List_1_tC3F021D09EFA4F3516555517B5E0D39308C9C1B4;
 struct List_1_t90832B88D7207769654164CC28440CF594CC397D;
 struct List_1_tE4FDA13E1EFDB69156FBF29C3207E24FFBA09333;
 struct Observable_1_t8B0ED472F997DCC0EB03DB275E12BFF3D1B970F8;
-struct Predicate_1_tA9EAD6C541352D6E88E6F5EE734E87AE8BF7DCF1;
 struct SkeletonTree_t8F5B796334607D0F8E44DD9D368DFE9F1C4F265B;
 struct SkeletonTree_t1EAD64378A935EABBC242A1B498680C8088B33BE;
 struct UnityEvent_1_tE08F5B2E1CFB613B39C38F45D21250FAF510FB8B;
@@ -250,7 +249,6 @@ struct UsageTouchMapping_t069BEC8C91EC7A074ACC14D71D56F321753628BB;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 struct U3CU3Ec_t7DA03B57D85BD2757E820394419787FFEAEDA7AF;
 struct TransformChangeListener_tF10B2F6A15281A2A3F7536F587361C070D1B7E9E;
-struct U3CU3Ec__DisplayClass6_0_tC58F95D0A3BEF3B9F90A62CC59BDB3CA674BD7A8;
 struct RemapConfig_t908AD6537ADA12F582320E6AE01502862A67A8AB;
 struct U3CU3Ec_tAB0F8FB6DD25D3AABE265FFC392DB5EB3EC44144;
 struct InstantiateMrcCameraDelegate_t26D39C3003CADD2CBA4E7C5EB75333089B2F03C8;
@@ -308,14 +306,12 @@ IL2CPP_EXTERN_C RuntimeClass* OVRSkeletonMapping_tC39AC901BBAA2614D5C1006273A949
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Predicate_1_tA9EAD6C541352D6E88E6F5EE734E87AE8BF7DCF1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ProgressCurve_t4240A915DEBE2CD7C1D414683EB5A89A06494401_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Properties_tD3EBA450E7A78B87BAAEDD2E29ACDFB9E04F5512_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RemapConfig_t908AD6537ADA12F582320E6AE01502862A67A8AB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TextureU5BU5D_t0C3F884241E8243E791A31B920CAA89212888E46_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass6_0_tC58F95D0A3BEF3B9F90A62CC59BDB3CA674BD7A8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t7DA03B57D85BD2757E820394419787FFEAEDA7AF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_tAB0F8FB6DD25D3AABE265FFC392DB5EB3EC44144_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UsageAxis1DMapping_t956EFD5E68C615820E2B8A94FA3D43629B62F624_il2cpp_TypeInfo_var;
@@ -324,7 +320,7 @@ IL2CPP_EXTERN_C RuntimeClass* UsageButtonMapping_t4E351D44C2E63CBDFF581148D80761
 IL2CPP_EXTERN_C RuntimeClass* UsageTouchMapping_t069BEC8C91EC7A074ACC14D71D56F321753628BB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3fU5BU5D_tD8395E99259411E2F0A4F513559CC986FD7AB92E_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t48C47D8F756ACC079C32142925E4E3BBC4AEDE6A____0464E50E59C6202D97A1CD1B82BB7E0B18A39B52BD67B1FCB0BFC562E4147D83_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t48C47D8F756ACC079C32142925E4E3BBC4AEDE6A____B6022209D2AD4874378F430667EB21C22C87830F0F806128043A9DAD97D8137B_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t48C47D8F756ACC079C32142925E4E3BBC4AEDE6A____D912785E39BA3B461B4023BC976970A8553A4D7AA26F79D3AED1A42829A0065C_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral130D79FECECD75047FB5E79BCCC0435A9B46A89C;
 IL2CPP_EXTERN_C String_t* _stringLiteral17B4432F452C748E18CA9391A423D5A6AF5646B2;
@@ -357,7 +353,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralCE18B047107AA23D1AA9B2ED32D316148E02655F
 IL2CPP_EXTERN_C String_t* _stringLiteralD093A62BB49A14F9851435ACAA2DF8E6D1091590;
 IL2CPP_EXTERN_C String_t* _stringLiteralE6D620C3AB11D47CA0258AA7C5BD973A8E0734FB;
 IL2CPP_EXTERN_C String_t* _stringLiteralF810D1E03D882DC000399757AFAF9CC5E375F6AB;
-IL2CPP_EXTERN_C const RuntimeMethod* Array_FindIndex_TisBoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74_mFA5AF29425CD1569C7A8252FB69F0BF022478E3A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AssertUtils_AssertField_TisCanvasMesh_t27611EB5D29FF601150D5ED935F77B23ED0B38A9_m388BF4220B30CF8EC298BE96F252996EC5D3E10A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AssertUtils_AssertField_TisIBodyPose_t2BA886A75367D7351AACFE310468790C66930097_mE30B0A90589EB6AC0473FD405E017CBFF00279FE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AssertUtils_AssertField_TisIController_tBB414CDC1750977B683AF8D8FA056A7D2176A1EA_mAF7DF78FE81C7ADD5EAA7B8EBA6203438E6836C2_RuntimeMethod_var;
@@ -431,7 +426,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* Profiler_ValidateArguments_m631DF788CA8A7DF
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3C_ctorU3Eb__30_0_m930BEFE90A964D1BE21178A92DF764478A7139C0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3C_ctorU3Eb__51_0_mC3CA629F64F9C4F54E447C6C2968E7EBE88AD836_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3C_ctorU3Eb__51_1_m1B2C807B11D708BE72B75DB35FD1668179177544_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass6_0_U3CGetBoneRadiusU3Eb__0_m33184CA6BAE4A88DC7B5AD61E083D4CB66A97DA7_RuntimeMethod_var;
 struct BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74;
 struct Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D;
 struct Delegate_t_marshaled_com;
@@ -548,10 +542,6 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 };
 struct U3CU3Ec_t7DA03B57D85BD2757E820394419787FFEAEDA7AF  : public RuntimeObject
 {
-};
-struct U3CU3Ec__DisplayClass6_0_tC58F95D0A3BEF3B9F90A62CC59BDB3CA674BD7A8  : public RuntimeObject
-{
-	int32_t ___boneIndex;
 };
 struct RemapConfig_t908AD6537ADA12F582320E6AE01502862A67A8AB  : public RuntimeObject
 {
@@ -1495,9 +1485,6 @@ struct KeyValuePair_2_tDEA3C1BC01D679C9F3B771948623994EE8B62855
 	int32_t ___key;
 	JointInfo_t9A1D52B5AC07F31BFEA2D57D19EFFDEFD8CE5F61 ___value;
 };
-struct Predicate_1_tA9EAD6C541352D6E88E6F5EE734E87AE8BF7DCF1  : public MulticastDelegate_t
-{
-};
 struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07  : public MulticastDelegate_t
 {
 };
@@ -1919,6 +1906,7 @@ struct OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4  : public MonoBehavi
 	bool ___requestEyeTrackingPermissionOnStartup;
 	bool ___requestScenePermissionOnStartup;
 	bool ___requestRecordAudioPermissionOnStartup;
+	bool ___requestPassthroughCameraAccessPermissionOnStartup;
 	bool ____localDimming;
 	int32_t ____trackingOriginType;
 	bool ___usePositionTracking;
@@ -2229,6 +2217,11 @@ struct CanvasMeshRenderer_t9A3BB36C15352BA3F71071BDEEB390B849FB6419_StaticFields
 struct CanvasRenderTexture_t36344A51D0D2C0066A74709BF171880EF9671F1D_StaticFields
 {
 	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___DEFAULT_TEXTURE_RES;
+};
+struct OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9_StaticFields
+{
+	OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* ____instance;
+	bool ____isInstanceCached;
 };
 struct OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_StaticFields
 {
@@ -2765,8 +2758,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataSource_1_InjectAllDataSource_m02EB12
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataSource_1__ctor_mC4786C08977A8C959DC0956614E3C6C6B15834D7_gshared (DataSource_1_tE4347B771FFD29D6E6CF9CBDFF842BBE043BF642* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataSource_1_Start_mE8F782064637A81225ED7D709D125EEAFE620A8D_gshared (DataSource_1_tE4347B771FFD29D6E6CF9CBDFF842BBE043BF642* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Assert_AreEqual_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m7C001EF6BD886E9E5F774E24220262B107003B8F_gshared (int32_t ___0_expected, int32_t ___1_actual, String_t* ___2_message, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Predicate_1__ctor_m23D83BABAD74D8AC55D02DD00E6312E7C26027EC_gshared (Predicate_1_tA9EAD6C541352D6E88E6F5EE734E87AE8BF7DCF1* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_FindIndex_TisBoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74_mFA5AF29425CD1569C7A8252FB69F0BF022478E3A_gshared (BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* ___0_array, Predicate_1_tA9EAD6C541352D6E88E6F5EE734E87AE8BF7DCF1* ___1_match, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponentInChildren_TisRuntimeObject_m831BC1785A9E9CB99F8D66BDFCF6D606622B5ADB_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, bool ___0_includeInactive, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Assert_IsNotNull_TisRuntimeObject_mFA75318800124DED2E924476F16DD129394A20AC_gshared (RuntimeObject* ___0_value, const RuntimeMethod* method) ;
@@ -3081,15 +3072,6 @@ inline void DataSource_1_Start_m09DBE0DB15E616C56C4B990647E00B86C13CB270 (DataSo
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletonOVR_ApplyToSkeleton_mBA1B7720BDC9842952F8950B368D7B30C4D648F1 (Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* ___0_ovrSkeleton, HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A* ___1_handSkeleton, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeleton__ctor_mD8F0C35BB9A78E5048BDC992C7F017BE9BFD0CA7 (HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Assert_AreEqual_mE608D2C7D637EEF110A7D80AEB1244EF2612E836 (int64_t ___0_expected, int64_t ___1_actual, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0__ctor_m57B74878B63F830EFB093E448004392A1D6C4319 (U3CU3Ec__DisplayClass6_0_tC58F95D0A3BEF3B9F90A62CC59BDB3CA674BD7A8* __this, const RuntimeMethod* method) ;
-inline void Predicate_1__ctor_m23D83BABAD74D8AC55D02DD00E6312E7C26027EC (Predicate_1_tA9EAD6C541352D6E88E6F5EE734E87AE8BF7DCF1* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
-{
-	((  void (*) (Predicate_1_tA9EAD6C541352D6E88E6F5EE734E87AE8BF7DCF1*, RuntimeObject*, intptr_t, const RuntimeMethod*))Predicate_1__ctor_m23D83BABAD74D8AC55D02DD00E6312E7C26027EC_gshared)(__this, ___0_object, ___1_method, method);
-}
-inline int32_t Array_FindIndex_TisBoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74_mFA5AF29425CD1569C7A8252FB69F0BF022478E3A (BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* ___0_array, Predicate_1_tA9EAD6C541352D6E88E6F5EE734E87AE8BF7DCF1* ___1_match, const RuntimeMethod* method)
-{
-	return ((  int32_t (*) (BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44*, Predicate_1_tA9EAD6C541352D6E88E6F5EE734E87AE8BF7DCF1*, const RuntimeMethod*))Array_FindIndex_TisBoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74_mFA5AF29425CD1569C7A8252FB69F0BF022478E3A_gshared)(___0_array, ___1_match, method);
-}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* OVRCameraRig_get_leftHandAnchor_m2EE938DB2ADD234FA1211B562C659884ABC56644_inline (OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* OVRCameraRigRef_GetHandCached_mBE75C8E398359CFE0150C12767F56172853658E5 (OVRCameraRigRef_t559BBEBD06F1FE029695CA0E072E21E1CE9C01DE* __this, OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509** ___0_cachedValue, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_handAnchor, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* OVRCameraRig_get_rightHandAnchor_mF2D328A04338A8119F3BE6EE09FE66965258A26D_inline (OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* __this, const RuntimeMethod* method) ;
@@ -3318,14 +3300,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentException__ctor_m8F9D40CE19D19B6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131398
+// Method Definition Index: 131904
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t7B33CD9F239505FD392A40CDE4BC13B8C9D83D8B UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m3FD0A22F5BB1C719426428BD78432108CF12ADFA (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t48C47D8F756ACC079C32142925E4E3BBC4AEDE6A____0464E50E59C6202D97A1CD1B82BB7E0B18A39B52BD67B1FCB0BFC562E4147D83_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t48C47D8F756ACC079C32142925E4E3BBC4AEDE6A____B6022209D2AD4874378F430667EB21C22C87830F0F806128043A9DAD97D8137B_FieldInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t48C47D8F756ACC079C32142925E4E3BBC4AEDE6A____D912785E39BA3B461B4023BC976970A8553A4D7AA26F79D3AED1A42829A0065C_FieldInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -3337,7 +3319,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t7B33CD9F239505FD392A40CDE4BC1
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t7B33CD9F239505FD392A40CDE4BC13B8C9D83D8B));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)3133));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
-		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t48C47D8F756ACC079C32142925E4E3BBC4AEDE6A____0464E50E59C6202D97A1CD1B82BB7E0B18A39B52BD67B1FCB0BFC562E4147D83_FieldInfo_var) };
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t48C47D8F756ACC079C32142925E4E3BBC4AEDE6A____B6022209D2AD4874378F430667EB21C22C87830F0F806128043A9DAD97D8137B_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
 		(&V_0)->___FilePathsData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
@@ -3361,7 +3343,7 @@ IL_005f:
 		return L_7;
 	}
 }
-// Method Definition Index: 131399
+// Method Definition Index: 131905
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m6DB18EC74E6AA495F10E7CF61EFE73B2C0967EFD (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tF2EB3EE9863CD42CAEDE537EF36082C7B64138E8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3447,12 +3429,12 @@ IL2CPP_EXTERN_C void MonoScriptData_t7B33CD9F239505FD392A40CDE4BC13B8C9D83D8B_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131400
+// Method Definition Index: 131906
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRButtonAxis1D_get_NearValue_mD158192AFD1286AE7F297CF657D08D01F4B44404 (OVRButtonAxis1D_t5E7DB0FBC77A5E011066EECD2BE61B656989ACF5* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:66>
 		float L_0 = __this->____nearValue;
 		V_0 = L_0;
 		goto IL_000a;
@@ -3460,28 +3442,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRButtonAxis1D_get_NearValue_mD158192A
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:67>
 		float L_1 = V_0;
 		return L_1;
 	}
 }
-// Method Definition Index: 131401
+// Method Definition Index: 131907
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRButtonAxis1D_set_NearValue_m7464B5CBF97E1449AECE5C078A2966EDB846AC12 (OVRButtonAxis1D_t5E7DB0FBC77A5E011066EECD2BE61B656989ACF5* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:70>
 		float L_0 = ___0_value;
 		__this->____nearValue = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:71>
 		return;
 	}
 }
-// Method Definition Index: 131402
+// Method Definition Index: 131908
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRButtonAxis1D_get_TouchValue_m8AE30C9D5DCF24E11579A8511F11B33FA042E254 (OVRButtonAxis1D_t5E7DB0FBC77A5E011066EECD2BE61B656989ACF5* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:78>
 		float L_0 = __this->____touchValue;
 		V_0 = L_0;
 		goto IL_000a;
@@ -3489,28 +3471,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRButtonAxis1D_get_TouchValue_m8AE30C9
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:79>
 		float L_1 = V_0;
 		return L_1;
 	}
 }
-// Method Definition Index: 131403
+// Method Definition Index: 131909
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRButtonAxis1D_set_TouchValue_m0B4B09529F0D82A0ED4E1AE495DB71FA979FECDA (OVRButtonAxis1D_t5E7DB0FBC77A5E011066EECD2BE61B656989ACF5* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:82>
 		float L_0 = ___0_value;
 		__this->____touchValue = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:83>
 		return;
 	}
 }
-// Method Definition Index: 131404
+// Method Definition Index: 131910
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRButtonAxis1D_get_ButtonValue_m3D6FE8B8021EB938DC154ED0D0E6A91330C94494 (OVRButtonAxis1D_t5E7DB0FBC77A5E011066EECD2BE61B656989ACF5* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:90>
 		float L_0 = __this->____buttonValue;
 		V_0 = L_0;
 		goto IL_000a;
@@ -3518,28 +3500,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRButtonAxis1D_get_ButtonValue_m3D6FE8
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:91>
 		float L_1 = V_0;
 		return L_1;
 	}
 }
-// Method Definition Index: 131405
+// Method Definition Index: 131911
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRButtonAxis1D_set_ButtonValue_mAC80073B75ECA390B9B3652F569356E4BEA438FB (OVRButtonAxis1D_t5E7DB0FBC77A5E011066EECD2BE61B656989ACF5* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:94>
 		float L_0 = ___0_value;
 		__this->____buttonValue = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:95>
 		return;
 	}
 }
-// Method Definition Index: 131406
+// Method Definition Index: 131912
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRButtonAxis1D_Value_mE1EFF0197A20720695F0E761FE009907724A24E1 (OVRButtonAxis1D_t5E7DB0FBC77A5E011066EECD2BE61B656989ACF5* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:106>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:106>
 		float L_0 = __this->____value;
 		V_0 = L_0;
 		goto IL_000a;
@@ -3547,12 +3529,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRButtonAxis1D_Value_mE1EFF0197A207206
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:107>
 		float L_1 = V_0;
 		return L_1;
 	}
 }
-// Method Definition Index: 131407
+// Method Definition Index: 131913
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRButtonAxis1D_get_Target_m6A11A190E81D27CEF219EDD3700C8DB59562AA3F (OVRButtonAxis1D_t5E7DB0FBC77A5E011066EECD2BE61B656989ACF5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3566,7 +3548,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRButtonAxis1D_get_Target_m6A11A190E81
 	bool V_2 = false;
 	bool V_3 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:113>
 		int32_t L_0 = __this->____button;
 		int32_t L_1 = __this->____controller;
 		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
@@ -3580,7 +3562,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRButtonAxis1D_get_Target_m6A11A190E81
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:115>
 		float L_4 = __this->____buttonValue;
 		V_1 = L_4;
 		goto IL_0066;
@@ -3588,7 +3570,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRButtonAxis1D_get_Target_m6A11A190E81
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:118>
 		int32_t L_5 = __this->____touch;
 		int32_t L_6 = __this->____controller;
 		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
@@ -3602,7 +3584,7 @@ IL_0020:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:120>
 		float L_9 = __this->____touchValue;
 		V_1 = L_9;
 		goto IL_0066;
@@ -3610,7 +3592,7 @@ IL_0020:
 
 IL_003f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:123>
 		int32_t L_10 = __this->____near;
 		int32_t L_11 = __this->____controller;
 		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
@@ -3624,7 +3606,7 @@ IL_003f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:125>
 		float L_14 = __this->____nearValue;
 		V_1 = L_14;
 		goto IL_0066;
@@ -3632,29 +3614,29 @@ IL_003f:
 
 IL_005e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:128>
 		V_1 = (0.0f);
 		goto IL_0066;
 	}
 
 IL_0066:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:129>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:129>
 		float L_15 = V_1;
 		return L_15;
 	}
 }
-// Method Definition Index: 131408
+// Method Definition Index: 131914
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRButtonAxis1D_Update_mF3203C3A76EA58ED4C3B4637587661027CA74663 (OVRButtonAxis1D_t5E7DB0FBC77A5E011066EECD2BE61B656989ACF5* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	bool V_1 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:134>
 		float L_0;
 		L_0 = OVRButtonAxis1D_get_Target_m6A11A190E81D27CEF219EDD3700C8DB59562AA3F(__this, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:135>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:135>
 		float L_1 = __this->____currentTarget;
 		float L_2 = V_0;
 		V_1 = (bool)((((int32_t)((((float)L_1) == ((float)L_2))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -3665,13 +3647,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRButtonAxis1D_Update_mF3203C3A76EA58ED
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:137>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:137>
 		float L_4 = __this->____value;
 		__this->____baseValue = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:138>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:138>
 		float L_5 = V_0;
 		__this->____currentTarget = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:139>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:139>
 		ProgressCurve_t4240A915DEBE2CD7C1D414683EB5A89A06494401* L_6 = __this->____curve;
 		NullCheck(L_6);
 		ProgressCurve_Start_m9E43CC88BF0A04079B2283D8EC8A5FA9CE54F937(L_6, NULL);
@@ -3679,7 +3661,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRButtonAxis1D_Update_mF3203C3A76EA58ED
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:142>
 		ProgressCurve_t4240A915DEBE2CD7C1D414683EB5A89A06494401* L_7 = __this->____curve;
 		NullCheck(L_7);
 		float L_8;
@@ -3687,43 +3669,43 @@ IL_0039:
 		float L_9 = __this->____currentTarget;
 		float L_10 = __this->____baseValue;
 		__this->____value = ((float)il2cpp_codegen_multiply(L_8, ((float)il2cpp_codegen_subtract(L_9, L_10))));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:143>
 		return;
 	}
 }
-// Method Definition Index: 131409
+// Method Definition Index: 131915
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRButtonAxis1D_InjectAllOVRButtonAxis1D_m375DC39FBE4D62EB7C19A2E586CEDC7657264E65 (OVRButtonAxis1D_t5E7DB0FBC77A5E011066EECD2BE61B656989ACF5* __this, int32_t ___0_controller, int32_t ___1_near, int32_t ___2_touch, int32_t ___3_button, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:150>
 		int32_t L_0 = ___0_controller;
 		__this->____controller = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:151>
 		int32_t L_1 = ___1_near;
 		__this->____near = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:152>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:152>
 		int32_t L_2 = ___2_touch;
 		__this->____touch = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:153>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:153>
 		int32_t L_3 = ___3_button;
 		__this->____button = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:154>
 		return;
 	}
 }
-// Method Definition Index: 131410
+// Method Definition Index: 131916
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRButtonAxis1D_InjectOptionalCurve_m9AADD650462FA770394D75020AA543C424E4106B (OVRButtonAxis1D_t5E7DB0FBC77A5E011066EECD2BE61B656989ACF5* __this, ProgressCurve_t4240A915DEBE2CD7C1D414683EB5A89A06494401* ___0_progressCurve, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:158>
 		ProgressCurve_t4240A915DEBE2CD7C1D414683EB5A89A06494401* L_0 = ___0_progressCurve;
 		__this->____curve = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____curve), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:159>
 		return;
 	}
 }
-// Method Definition Index: 131411
+// Method Definition Index: 131917
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRButtonAxis1D__ctor_m44CB7F918AF2B3BCD618E0C1C00E8DF3E6990664 (OVRButtonAxis1D_t5E7DB0FBC77A5E011066EECD2BE61B656989ACF5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3733,27 +3715,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRButtonAxis1D__ctor_m44CB7F918AF2B3BCD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:46>
 		__this->____nearValue = (0.100000001f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:49>
 		__this->____touchValue = (0.5f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:52>
 		__this->____buttonValue = (1.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:55>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:56>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:57>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:58>
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_0;
 		L_0 = AnimationCurve_EaseInOut_m01DD06E6C8962F8F62F293C9EAE491C3D3F2CAF3((0.0f), (0.0f), (1.0f), (1.0f), NULL);
 		ProgressCurve_t4240A915DEBE2CD7C1D414683EB5A89A06494401* L_1 = (ProgressCurve_t4240A915DEBE2CD7C1D414683EB5A89A06494401*)il2cpp_codegen_object_new(ProgressCurve_t4240A915DEBE2CD7C1D414683EB5A89A06494401_il2cpp_TypeInfo_var);
 		ProgressCurve__ctor_m4C6B6C34F58923FF3211A30688F408578EBD1007(L_1, L_0, (0.100000001f), NULL);
 		__this->____curve = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____curve), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:100>
 		__this->____baseValue = (0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:101>
 		__this->____value = (0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonAxis1D.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonAxis1D.cs:102>
 		__this->____currentTarget = (0.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -3767,7 +3749,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRButtonAxis1D__ctor_m44CB7F918AF2B3BCD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131412
+// Method Definition Index: 131918
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRControllerMatchesProfileActiveState_get_Active_m815A34CC22798C95606091E37CACCE721ECC05D9 (OVRControllerMatchesProfileActiveState_t7FE55C1E93640A363133726AABC5F01CD0873E0B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3781,7 +3763,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRControllerMatchesProfileActiveState_g
 	bool V_2 = false;
 	int32_t G_B4_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerMatchesProfileActiveState.cs:42>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerMatchesProfileActiveState.cs:42>
 		int32_t L_0 = __this->____controller;
 		int32_t L_1 = L_0;
 		int32_t L_2 = 1;
@@ -3814,13 +3796,13 @@ IL_0035:
 IL_0036:
 	{
 		V_0 = G_B4_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerMatchesProfileActiveState.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerMatchesProfileActiveState.cs:43>
 		int32_t L_8 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
 		int32_t L_9;
 		L_9 = OVRInput_GetCurrentInteractionProfile_m8630585A560EB956CDEC8EA3355C3A4584E6734A(L_8, NULL);
 		V_1 = L_9;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerMatchesProfileActiveState.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerMatchesProfileActiveState.cs:44>
 		int32_t L_10 = V_1;
 		int32_t L_11 = __this->____profile;
 		V_2 = (bool)((((int32_t)L_10) == ((int32_t)L_11))? 1 : 0);
@@ -3829,23 +3811,23 @@ IL_0036:
 
 IL_004a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerMatchesProfileActiveState.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerMatchesProfileActiveState.cs:45>
 		bool L_12 = V_2;
 		return L_12;
 	}
 }
-// Method Definition Index: 131413
+// Method Definition Index: 131919
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerMatchesProfileActiveState_InjectAllOVRControllerSupportsPressure_m9DA3CA8F3F0DBEA01C5635F732F1F75758087D71 (OVRControllerMatchesProfileActiveState_t7FE55C1E93640A363133726AABC5F01CD0873E0B* __this, int32_t ___0_controller, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerMatchesProfileActiveState.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerMatchesProfileActiveState.cs:52>
 		int32_t L_0 = ___0_controller;
 		__this->____controller = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerMatchesProfileActiveState.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerMatchesProfileActiveState.cs:53>
 		return;
 	}
 }
-// Method Definition Index: 131414
+// Method Definition Index: 131920
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerMatchesProfileActiveState__ctor_mCE573AE367B580712CEF81EF40E8A5AB9935A6DE (OVRControllerMatchesProfileActiveState_t7FE55C1E93640A363133726AABC5F01CD0873E0B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3861,52 +3843,52 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerMatchesProfileActiveState__
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131415
+// Method Definition Index: 131921
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* MicroGestureUnityEventWrapper_get_WhenTapCenter_m550B8FFDEF86EED5F7FD01DDB2389638BF9D0A3E (MicroGestureUnityEventWrapper_t9262EC6702AA29C7892F187329E36632E3349C71* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:37>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:37>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->____whenTapCenter;
 		return L_0;
 	}
 }
-// Method Definition Index: 131416
+// Method Definition Index: 131922
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* MicroGestureUnityEventWrapper_get_WhenSwipeUp_mE50C8DE4F00B0D6B4E801CE1ABBEA52299E3BDF6 (MicroGestureUnityEventWrapper_t9262EC6702AA29C7892F187329E36632E3349C71* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:41>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->____whenSwipeUp;
 		return L_0;
 	}
 }
-// Method Definition Index: 131417
+// Method Definition Index: 131923
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* MicroGestureUnityEventWrapper_get_WhenSwipeDown_m5CD2ACA33D4EA310E1086C06238BF2C63FABB86F (MicroGestureUnityEventWrapper_t9262EC6702AA29C7892F187329E36632E3349C71* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:45>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->____whenSwipeDown;
 		return L_0;
 	}
 }
-// Method Definition Index: 131418
+// Method Definition Index: 131924
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* MicroGestureUnityEventWrapper_get_WhenSwipeLeft_m5E3C19CE17FAC73CCCC6605C0AE032EB1E1F5BAD (MicroGestureUnityEventWrapper_t9262EC6702AA29C7892F187329E36632E3349C71* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:49>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->____whenSwipeLeft;
 		return L_0;
 	}
 }
-// Method Definition Index: 131419
+// Method Definition Index: 131925
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* MicroGestureUnityEventWrapper_get_WhenSwipeRight_m31DF8D565A3E1C5BEB3BCA931A1DA6A14D3F5DF3 (MicroGestureUnityEventWrapper_t9262EC6702AA29C7892F187329E36632E3349C71* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:53>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->____whenSwipeRight;
 		return L_0;
 	}
 }
-// Method Definition Index: 131420
+// Method Definition Index: 131926
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicroGestureUnityEventWrapper_Start_m1EFDAC12AE46FDD158BC3E4137CFED5E92FCEE47 (MicroGestureUnityEventWrapper_t9262EC6702AA29C7892F187329E36632E3349C71* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3917,20 +3899,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicroGestureUnityEventWrapper_Start_m1EF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:59>
 		bool* L_0 = (bool*)(&__this->____started);
 		MonoBehaviourStartExtensions_BeginStart_mC498E0AC129F7CDC354718BF0E799CB2A2E04366(__this, L_0, (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:61>
 		OVRMicrogestureEventSource_tF07FF0408CB0929A45285A7EE01D9EE67E42F2DE* L_1 = __this->____ovrMicrogestureEventSource;
 		AssertUtils_AssertField_TisOVRMicrogestureEventSource_tF07FF0408CB0929A45285A7EE01D9EE67E42F2DE_mA3943310E218BF036B14FFE6F628E29FE6D44B79(__this, L_1, _stringLiteralD093A62BB49A14F9851435ACAA2DF8E6D1091590, (String_t*)NULL, (String_t*)NULL, (String_t*)NULL, AssertUtils_AssertField_TisOVRMicrogestureEventSource_tF07FF0408CB0929A45285A7EE01D9EE67E42F2DE_mA3943310E218BF036B14FFE6F628E29FE6D44B79_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:63>
 		bool* L_2 = (bool*)(&__this->____started);
 		MonoBehaviourStartExtensions_EndStart_mB9C76425BEAB3A0D8A30965081A4F356F9F69CF5(__this, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:64>
 		return;
 	}
 }
-// Method Definition Index: 131421
+// Method Definition Index: 131927
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicroGestureUnityEventWrapper_OnEnable_mD7174108E91EBFFFDDFF436886AB61CD35FF51F7 (MicroGestureUnityEventWrapper_t9262EC6702AA29C7892F187329E36632E3349C71* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3942,7 +3924,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicroGestureUnityEventWrapper_OnEnable_m
 	}
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:68>
 		bool L_0 = __this->____started;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -3952,7 +3934,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicroGestureUnityEventWrapper_OnEnable_m
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:70>
 		OVRMicrogestureEventSource_tF07FF0408CB0929A45285A7EE01D9EE67E42F2DE* L_2 = __this->____ovrMicrogestureEventSource;
 		OVRMicrogestureEventSource_tF07FF0408CB0929A45285A7EE01D9EE67E42F2DE* L_3 = L_2;
 		NullCheck(L_3);
@@ -3968,11 +3950,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicroGestureUnityEventWrapper_OnEnable_m
 
 IL_0034:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:72>
 		return;
 	}
 }
-// Method Definition Index: 131422
+// Method Definition Index: 131928
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicroGestureUnityEventWrapper_OnDisable_m9BF380F75769B440076A2D0BCF92B627B6E072A3 (MicroGestureUnityEventWrapper_t9262EC6702AA29C7892F187329E36632E3349C71* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3984,7 +3966,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicroGestureUnityEventWrapper_OnDisable_
 	}
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:76>
 		bool L_0 = __this->____started;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -3994,7 +3976,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicroGestureUnityEventWrapper_OnDisable_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:78>
 		OVRMicrogestureEventSource_tF07FF0408CB0929A45285A7EE01D9EE67E42F2DE* L_2 = __this->____ovrMicrogestureEventSource;
 		OVRMicrogestureEventSource_tF07FF0408CB0929A45285A7EE01D9EE67E42F2DE* L_3 = L_2;
 		NullCheck(L_3);
@@ -4010,11 +3992,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicroGestureUnityEventWrapper_OnDisable_
 
 IL_0034:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:80>
 		return;
 	}
 }
-// Method Definition Index: 131423
+// Method Definition Index: 131929
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicroGestureUnityEventWrapper_HandleGesture_m4D3BAA0B0DB6B1551B9461C671547CBF424BE726 (MicroGestureUnityEventWrapper_t9262EC6702AA29C7892F187329E36632E3349C71* __this, int32_t ___0_gesture, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -4023,7 +4005,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicroGestureUnityEventWrapper_HandleGest
 	bool V_3 = false;
 	bool V_4 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:84>
 		int32_t L_0 = ___0_gesture;
 		V_0 = (bool)((((int32_t)L_0) == ((int32_t)2))? 1 : 0);
 		bool L_1 = V_0;
@@ -4033,7 +4015,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicroGestureUnityEventWrapper_HandleGest
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:86>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_2 = __this->____whenSwipeRight;
 		NullCheck(L_2);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_2, NULL);
@@ -4042,7 +4024,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicroGestureUnityEventWrapper_HandleGest
 
 IL_0019:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:88>
 		int32_t L_3 = ___0_gesture;
 		V_1 = (bool)((((int32_t)L_3) == ((int32_t)1))? 1 : 0);
 		bool L_4 = V_1;
@@ -4052,7 +4034,7 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:90>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_5 = __this->____whenSwipeLeft;
 		NullCheck(L_5);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_5, NULL);
@@ -4061,7 +4043,7 @@ IL_0019:
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:92>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:92>
 		int32_t L_6 = ___0_gesture;
 		V_2 = (bool)((((int32_t)L_6) == ((int32_t)3))? 1 : 0);
 		bool L_7 = V_2;
@@ -4071,7 +4053,7 @@ IL_0031:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:94>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_8 = __this->____whenSwipeUp;
 		NullCheck(L_8);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_8, NULL);
@@ -4080,7 +4062,7 @@ IL_0031:
 
 IL_0049:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:96>
 		int32_t L_9 = ___0_gesture;
 		V_3 = (bool)((((int32_t)L_9) == ((int32_t)4))? 1 : 0);
 		bool L_10 = V_3;
@@ -4090,7 +4072,7 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:98>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_11 = __this->____whenSwipeDown;
 		NullCheck(L_11);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_11, NULL);
@@ -4099,7 +4081,7 @@ IL_0049:
 
 IL_0061:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:100>
 		int32_t L_12 = ___0_gesture;
 		V_4 = (bool)((((int32_t)L_12) == ((int32_t)5))? 1 : 0);
 		bool L_13 = V_4;
@@ -4109,7 +4091,7 @@ IL_0061:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:102>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_14 = __this->____whenTapCenter;
 		NullCheck(L_14);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_14, NULL);
@@ -4117,38 +4099,38 @@ IL_0061:
 
 IL_0079:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:104>
 		return;
 	}
 }
-// Method Definition Index: 131424
+// Method Definition Index: 131930
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicroGestureUnityEventWrapper_InjectAllMicroGestureUnityEventWrapper_m50B6ACDC85F957C7407812D897DFDC480A8856D3 (MicroGestureUnityEventWrapper_t9262EC6702AA29C7892F187329E36632E3349C71* __this, OVRMicrogestureEventSource_tF07FF0408CB0929A45285A7EE01D9EE67E42F2DE* ___0_ovrMicrogestureEventSource, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:110>
 		OVRMicrogestureEventSource_tF07FF0408CB0929A45285A7EE01D9EE67E42F2DE* L_0 = ___0_ovrMicrogestureEventSource;
 		MicroGestureUnityEventWrapper_InjectOvrMicrogestureEventSource_m2EEEA09DAE70080C3D7A40C5584BC84284958033(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:111>
 		return;
 	}
 }
-// Method Definition Index: 131425
+// Method Definition Index: 131931
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicroGestureUnityEventWrapper_InjectOvrMicrogestureEventSource_m2EEEA09DAE70080C3D7A40C5584BC84284958033 (MicroGestureUnityEventWrapper_t9262EC6702AA29C7892F187329E36632E3349C71* __this, OVRMicrogestureEventSource_tF07FF0408CB0929A45285A7EE01D9EE67E42F2DE* ___0_ovrMicrogestureEventSource, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:115>
 		OVRMicrogestureEventSource_tF07FF0408CB0929A45285A7EE01D9EE67E42F2DE* L_0 = ___0_ovrMicrogestureEventSource;
 		__this->____ovrMicrogestureEventSource = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____ovrMicrogestureEventSource), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:116>
 		return;
 	}
 }
-// Method Definition Index: 131426
+// Method Definition Index: 131932
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicroGestureUnityEventWrapper__ctor_m282653226369C2C108A34FC3CC5C4A87781D335B (MicroGestureUnityEventWrapper_t9262EC6702AA29C7892F187329E36632E3349C71* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Microgestures/MicroGestureUnityEventWrapper.cs:55>
 		__this->____started = (bool)0;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -4162,23 +4144,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicroGestureUnityEventWrapper__ctor_m282
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131427
+// Method Definition Index: 131933
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OVRCanvasMeshRenderer_get_RenderingMode_mE24382BC23C839818FD4E62FA057B44FCDEC4AF0 (OVRCanvasMeshRenderer_t79F619DA21BCBC644A841CE9FAD1E27954D5C97A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:65>
 		int32_t L_0 = ((CanvasMeshRenderer_t9A3BB36C15352BA3F71071BDEEB390B849FB6419*)__this)->____renderingMode;
 		return (int32_t)(L_0);
 	}
 }
-// Method Definition Index: 131428
+// Method Definition Index: 131934
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRCanvasMeshRenderer_get_ShouldUseOVROverlay_mD334E9B89AD0733303E3D9F9F3FC660D7F4E95B2 (OVRCanvasMeshRenderer_t79F619DA21BCBC644A841CE9FAD1E27954D5C97A* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	bool V_2 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:71>
 		int32_t L_0;
 		L_0 = OVRCanvasMeshRenderer_get_RenderingMode_mE24382BC23C839818FD4E62FA057B44FCDEC4AF0_inline(__this, NULL);
 		V_1 = L_0;
@@ -4196,7 +4178,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRCanvasMeshRenderer_get_ShouldUseOVROv
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:75>
 		bool L_3;
 		L_3 = OVRCanvasMeshRenderer_UseEditorEmulation_m4AF28B00E2DC8D6B3EADCF98A0C43B70480346C4(__this, NULL);
 		V_2 = (bool)((((int32_t)L_3) == ((int32_t)0))? 1 : 0);
@@ -4205,19 +4187,19 @@ IL_0013:
 
 IL_001f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:77>
 		V_2 = (bool)0;
 		goto IL_0023;
 	}
 
 IL_0023:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:79>
 		bool L_4 = V_2;
 		return L_4;
 	}
 }
-// Method Definition Index: 131429
+// Method Definition Index: 131935
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OVRCanvasMeshRenderer_GetShaderName_m498438A23E724B2E4CA93BB3DC9B771276FFFC6B (OVRCanvasMeshRenderer_t79F619DA21BCBC644A841CE9FAD1E27954D5C97A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4234,7 +4216,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OVRCanvasMeshRenderer_GetShaderName
 	bool V_3 = false;
 	bool V_4 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:84>
 		int32_t L_0;
 		L_0 = OVRCanvasMeshRenderer_get_RenderingMode_mE24382BC23C839818FD4E62FA057B44FCDEC4AF0_inline(__this, NULL);
 		V_1 = L_0;
@@ -4264,14 +4246,14 @@ IL_0011:
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:87>
 		V_2 = _stringLiteralCB7D704F2D432BF197F16D169F08B54287EE8C15;
 		goto IL_005a;
 	}
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:89>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:89>
 		bool L_4;
 		L_4 = OVRCanvasMeshRenderer_UseEditorEmulation_m4AF28B00E2DC8D6B3EADCF98A0C43B70480346C4(__this, NULL);
 		V_3 = L_4;
@@ -4282,14 +4264,14 @@ IL_0020:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:91>
 		V_2 = _stringLiteralCB7D704F2D432BF197F16D169F08B54287EE8C15;
 		goto IL_005a;
 	}
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:93>
 		bool L_6 = __this->____doUnderlayAntiAliasing;
 		V_4 = L_6;
 		bool L_7 = V_4;
@@ -4299,21 +4281,21 @@ IL_0033:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:95>
 		V_2 = _stringLiteral284A12F23CD70EAA3568B75D8BC85DA2DC5144AA;
 		goto IL_005a;
 	}
 
 IL_0048:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:99>
 		V_2 = _stringLiteralBE88DC0B94E060AF383860B05B9112834538AAA3;
 		goto IL_005a;
 	}
 
 IL_0051:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:102>
 		String_t* L_8;
 		L_8 = CanvasMeshRenderer_GetShaderName_mB3FF97C4C446A66BC6DFC8E917CFF83ABA6C0386(__this, NULL);
 		V_2 = L_8;
@@ -4322,12 +4304,12 @@ IL_0051:
 
 IL_005a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:104>
 		String_t* L_9 = V_2;
 		return L_9;
 	}
 }
-// Method Definition Index: 131430
+// Method Definition Index: 131936
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRCanvasMeshRenderer_GetAlphaCutoutThreshold_m44A3335E40B526BCB5B574571A5683D396C047C0 (OVRCanvasMeshRenderer_t79F619DA21BCBC644A841CE9FAD1E27954D5C97A* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -4335,7 +4317,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRCanvasMeshRenderer_GetAlphaCutoutThr
 	float V_2 = 0.0f;
 	float G_B8_0 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:108>
 		int32_t L_0;
 		L_0 = OVRCanvasMeshRenderer_get_RenderingMode_mE24382BC23C839818FD4E62FA057B44FCDEC4AF0_inline(__this, NULL);
 		V_1 = L_0;
@@ -4365,14 +4347,14 @@ IL_0011:
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:111>
 		V_2 = (1.0f);
 		goto IL_0040;
 	}
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:113>
 		bool L_4;
 		L_4 = OVRCanvasMeshRenderer_UseEditorEmulation_m4AF28B00E2DC8D6B3EADCF98A0C43B70480346C4(__this, NULL);
 		if (L_4)
@@ -4398,7 +4380,7 @@ IL_0034:
 
 IL_0037:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:115>
 		float L_5;
 		L_5 = CanvasMeshRenderer_GetAlphaCutoutThreshold_mD8BD2261D8E03A859F9A97D3DA7459A79AE9F3D8(__this, NULL);
 		V_2 = L_5;
@@ -4407,26 +4389,26 @@ IL_0037:
 
 IL_0040:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:117>
 		float L_6 = V_2;
 		return L_6;
 	}
 }
-// Method Definition Index: 131431
+// Method Definition Index: 131937
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCanvasMeshRenderer_HandleUpdateRenderTexture_mE8B459BCED549663F0642CA5DC947D6C619BF508 (OVRCanvasMeshRenderer_t79F619DA21BCBC644A841CE9FAD1E27954D5C97A* __this, Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___0_texture, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:121>
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_0 = ___0_texture;
 		CanvasMeshRenderer_HandleUpdateRenderTexture_mCD343FC8F6924F87882BCD5E44A6D4431A430038(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:122>
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_1 = ___0_texture;
 		OVRCanvasMeshRenderer_UpdateOverlay_mBB1E36CA35C916700F72D26CE38920914F414F34(__this, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:123>
 		return;
 	}
 }
-// Method Definition Index: 131432
+// Method Definition Index: 131938
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRCanvasMeshRenderer_UseEditorEmulation_m4AF28B00E2DC8D6B3EADCF98A0C43B70480346C4 (OVRCanvasMeshRenderer_t79F619DA21BCBC644A841CE9FAD1E27954D5C97A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4438,7 +4420,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRCanvasMeshRenderer_UseEditorEmulation
 	bool V_0 = false;
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:127>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:127>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = Application_get_isEditor_mEAC51E3ACE6DCE438087FB14BD75A3C219D354D0(NULL);
@@ -4466,12 +4448,12 @@ IL_0011:
 
 IL_0014:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:128>
 		bool L_2 = V_0;
 		return L_2;
 	}
 }
-// Method Definition Index: 131433
+// Method Definition Index: 131939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRCanvasMeshRenderer_GetOverlayParameters_mF088F433BD89F27664EE0247EB5FCAAFC5B14722 (OVRCanvasMeshRenderer_t79F619DA21BCBC644A841CE9FAD1E27954D5C97A* __this, int32_t* ___0_shape, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_position, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___2_scale, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4491,7 +4473,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRCanvasMeshRenderer_GetOverlayParamete
 	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A V_6;
 	memset((&V_6), 0, sizeof(V_6));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:134>
 		CanvasMesh_t27611EB5D29FF601150D5ED935F77B23ED0B38A9* L_0 = __this->____canvasMesh;
 		V_0 = ((CanvasCylinder_t3D78E2A0FF07F2F92952FC4AC39C940D5A720C5C*)IsInstClass((RuntimeObject*)L_0, CanvasCylinder_t3D78E2A0FF07F2F92952FC4AC39C940D5A720C5C_il2cpp_TypeInfo_var));
 		CanvasCylinder_t3D78E2A0FF07F2F92952FC4AC39C940D5A720C5C* L_1 = V_0;
@@ -4503,16 +4485,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRCanvasMeshRenderer_GetOverlayParamete
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:136>
 		int32_t* L_3 = ___0_shape;
 		*((int32_t*)L_3) = (int32_t)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:137>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:137>
 		CanvasRenderTexture_t36344A51D0D2C0066A74709BF171880EF9671F1D* L_4 = ((CanvasMeshRenderer_t9A3BB36C15352BA3F71071BDEEB390B849FB6419*)__this)->____canvasRenderTexture;
 		NullCheck(L_4);
 		Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A L_5;
 		L_5 = CanvasRenderTexture_GetBaseResolutionToUse_m5D2A5145BFF438976BEBBC3EA816BB90924F9256(L_4, NULL);
 		V_2 = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:138>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:138>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_6 = ___1_position;
 		CanvasCylinder_t3D78E2A0FF07F2F92952FC4AC39C940D5A720C5C* L_7 = V_0;
 		NullCheck(L_7);
@@ -4525,11 +4507,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRCanvasMeshRenderer_GetOverlayParamete
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
 		L_11 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_9, L_10, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_6 = L_11;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:139>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:140>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:141>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:142>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:139>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:140>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:143>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_12 = ___2_scale;
 		CanvasRenderTexture_t36344A51D0D2C0066A74709BF171880EF9671F1D* L_13 = ((CanvasMeshRenderer_t9A3BB36C15352BA3F71071BDEEB390B849FB6419*)__this)->____canvasRenderTexture;
 		int32_t L_14;
@@ -4567,14 +4549,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRCanvasMeshRenderer_GetOverlayParamete
 		memset((&L_29), 0, sizeof(L_29));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_29), ((float)(L_15/L_19)), ((float)(L_22/L_26)), L_28, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_12 = L_29;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:144>
 		V_3 = (bool)1;
 		goto IL_0141;
 	}
 
 IL_00af:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:146>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:146>
 		CanvasMesh_t27611EB5D29FF601150D5ED935F77B23ED0B38A9* L_30 = __this->____canvasMesh;
 		V_4 = ((CanvasRect_t85D9473B53828189878AB304BD347CA46487F1B1*)IsInstClass((RuntimeObject*)L_30, CanvasRect_t85D9473B53828189878AB304BD347CA46487F1B1_il2cpp_TypeInfo_var));
 		CanvasRect_t85D9473B53828189878AB304BD347CA46487F1B1* L_31 = V_4;
@@ -4586,24 +4568,24 @@ IL_00af:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:148>
 		int32_t* L_33 = ___0_shape;
 		*((int32_t*)L_33) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:149>
 		CanvasRenderTexture_t36344A51D0D2C0066A74709BF171880EF9671F1D* L_34 = ((CanvasMeshRenderer_t9A3BB36C15352BA3F71071BDEEB390B849FB6419*)__this)->____canvasRenderTexture;
 		NullCheck(L_34);
 		Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A L_35;
 		L_35 = CanvasRenderTexture_GetBaseResolutionToUse_m5D2A5145BFF438976BEBBC3EA816BB90924F9256(L_34, NULL);
 		V_6 = L_35;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:150>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_36 = ___1_position;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37 = __this->____runtimeOffset;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38;
 		L_38 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_37, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_36 = L_38;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:151>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:152>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:153>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:152>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:153>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_39 = ___2_scale;
 		CanvasRenderTexture_t36344A51D0D2C0066A74709BF171880EF9671F1D* L_40 = ((CanvasMeshRenderer_t9A3BB36C15352BA3F71071BDEEB390B849FB6419*)__this)->____canvasRenderTexture;
 		int32_t L_41;
@@ -4621,39 +4603,39 @@ IL_00af:
 		memset((&L_46), 0, sizeof(L_46));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_46), L_42, L_45, (1.0f), NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_39 = L_46;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:154>
 		V_3 = (bool)1;
 		goto IL_0141;
 	}
 
 IL_0123:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:158>
 		int32_t* L_47 = ___0_shape;
 		*((int32_t*)L_47) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:159>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_48 = ___1_position;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49;
 		L_49 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_48 = L_49;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:160>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_50 = ___2_scale;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51;
 		L_51 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_50 = L_51;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:161>
 		V_3 = (bool)0;
 		goto IL_0141;
 	}
 
 IL_0141:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:163>
 		bool L_52 = V_3;
 		return L_52;
 	}
 }
-// Method Definition Index: 131434
+// Method Definition Index: 131940
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCanvasMeshRenderer_Start_mD865A754CB41177824F4B63D1CF1C2F0B2B46445 (OVRCanvasMeshRenderer_t79F619DA21BCBC644A841CE9FAD1E27954D5C97A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4673,28 +4655,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCanvasMeshRenderer_Start_mD865A754CB4
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:167>
 		bool* L_0 = (bool*)(&((CanvasMeshRenderer_t9A3BB36C15352BA3F71071BDEEB390B849FB6419*)__this)->____started);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_1, __this, (intptr_t)((void*)OVRCanvasMeshRenderer_U3CStartU3Eb__15_0_m021CC5C9942B34248FF7423E5904E94A9675165D_RuntimeMethod_var), NULL);
 		MonoBehaviourStartExtensions_BeginStart_mC498E0AC129F7CDC354718BF0E799CB2A2E04366(__this, L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:168>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:168>
 		CanvasMesh_t27611EB5D29FF601150D5ED935F77B23ED0B38A9* L_2 = __this->____canvasMesh;
 		AssertUtils_AssertField_TisCanvasMesh_t27611EB5D29FF601150D5ED935F77B23ED0B38A9_m388BF4220B30CF8EC298BE96F252996EC5D3E10A(__this, L_2, _stringLiteral2375FCF20CEB44EEDCE888F11FB3D4CC6EAC845B, (String_t*)NULL, (String_t*)NULL, (String_t*)NULL, AssertUtils_AssertField_TisCanvasMesh_t27611EB5D29FF601150D5ED935F77B23ED0B38A9_m388BF4220B30CF8EC298BE96F252996EC5D3E10A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:169>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:170>
 		bool L_3;
 		L_3 = OVRCanvasMeshRenderer_GetOverlayParameters_mF088F433BD89F27664EE0247EB5FCAAFC5B14722(__this, (&V_0), (&V_1), (&V_2), NULL);
 		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
 		Assert_IsTrue_m390B3F48332F46CE76AB45491A60ACDCCF521AAE(L_3, _stringLiteral8A4DFD090964A74C7D6F3FDC2FCC05163D6DAC64, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:171>
 		bool* L_4 = (bool*)(&((CanvasMeshRenderer_t9A3BB36C15352BA3F71071BDEEB390B849FB6419*)__this)->____started);
 		MonoBehaviourStartExtensions_EndStart_mB9C76425BEAB3A0D8A30965081A4F356F9F69CF5(__this, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:172>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:172>
 		return;
 	}
 }
-// Method Definition Index: 131435
+// Method Definition Index: 131941
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCanvasMeshRenderer_UpdateOverlay_mBB1E36CA35C916700F72D26CE38920914F414F34 (OVRCanvasMeshRenderer_t79F619DA21BCBC644A841CE9FAD1E27954D5C97A* __this, Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___0_texture, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4727,7 +4709,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCanvasMeshRenderer_UpdateOverlay_mBB1
 	int32_t G_B16_0 = 0;
 	OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* G_B16_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:176>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:176>
 		Profiler_BeginSample_m640E26B682D803CC5DB4EDFDF2F6E83771BF0BE4_inline(_stringLiteralA6B7862E08689928D27429A70DE0B90E2A30CC22, NULL);
 	}
 	{
@@ -4736,7 +4718,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCanvasMeshRenderer_UpdateOverlay_mBB1
 
 FINALLY_0146:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:215>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:215>
 				Profiler_EndSample_m3FCA26738A87C0B8E352533AD48E2A16B047A757(NULL);
 				return;
 			}
@@ -4744,7 +4726,7 @@ FINALLY_0146:
 		try
 		{
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:179>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:179>
 				bool L_0;
 				L_0 = OVRCanvasMeshRenderer_get_ShouldUseOVROverlay_mD334E9B89AD0733303E3D9F9F3FC660D7F4E95B2(__this, NULL);
 				V_4 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
@@ -4755,7 +4737,7 @@ FINALLY_0146:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:181>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:181>
 				OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_2 = __this->____overlay;
 				OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_3 = L_2;
 				if (L_3)
@@ -4794,13 +4776,13 @@ IL_0034_1:
 
 IL_003b_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:182>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:182>
 				goto IL_014f;
 			}
 
 IL_0040_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:185>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:185>
 				OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_6 = __this->____overlay;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				bool L_7;
@@ -4813,18 +4795,18 @@ IL_0040_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:187>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:187>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
 				L_9 = OVRCanvasMeshRenderer_CreateChildObject_m5AA047EB88CC6777FF7D29432D578C39784B096F(__this, _stringLiteral18154393CDC43483C12FE8673DFE595B12D4F75B, NULL);
 				V_6 = L_9;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:188>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:188>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = V_6;
 				NullCheck(L_10);
 				OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_11;
 				L_11 = GameObject_AddComponent_TisOVROverlay_t236C8597A48845938E1DE1D591224817058AC43D_m0C68826E4AEEDB7AF4C2684A66A1886B9FD4D26A(L_10, GameObject_AddComponent_TisOVROverlay_t236C8597A48845938E1DE1D591224817058AC43D_m0C68826E4AEEDB7AF4C2684A66A1886B9FD4D26A_RuntimeMethod_var);
 				__this->____overlay = L_11;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->____overlay), (void*)L_11);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:189>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:189>
 				OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_12 = __this->____overlay;
 				il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 				bool L_13;
@@ -4836,7 +4818,7 @@ IL_0040_1:
 
 IL_0083_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:193>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:193>
 				OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_14 = __this->____overlay;
 				NullCheck(L_14);
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
@@ -4847,9 +4829,9 @@ IL_0083_1:
 
 IL_0097_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:196>
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:197>
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:198>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:196>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:197>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:198>
 				bool L_16;
 				L_16 = OVRCanvasMeshRenderer_GetOverlayParameters_mF088F433BD89F27664EE0247EB5FCAAFC5B14722(__this, (&V_0), (&V_1), (&V_2), NULL);
 				V_7 = (bool)((((int32_t)L_16) == ((int32_t)0))? 1 : 0);
@@ -4860,24 +4842,24 @@ IL_0097_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:200>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:200>
 				OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_18 = __this->____overlay;
 				NullCheck(L_18);
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19;
 				L_19 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_18, NULL);
 				NullCheck(L_19);
 				GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_19, (bool)0, NULL);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:201>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:201>
 				goto IL_014f;
 			}
 
 IL_00c4_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:204>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:204>
 				int32_t L_20;
 				L_20 = OVRCanvasMeshRenderer_get_RenderingMode_mE24382BC23C839818FD4E62FA057B44FCDEC4AF0_inline(__this, NULL);
 				V_3 = (bool)((((int32_t)L_20) == ((int32_t)((int32_t)101)))? 1 : 0);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:205>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:205>
 				OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_21 = __this->____overlay;
 				TextureU5BU5D_t0C3F884241E8243E791A31B920CAA89212888E46* L_22 = (TextureU5BU5D_t0C3F884241E8243E791A31B920CAA89212888E46*)(TextureU5BU5D_t0C3F884241E8243E791A31B920CAA89212888E46*)SZArrayNew(TextureU5BU5D_t0C3F884241E8243E791A31B920CAA89212888E46_il2cpp_TypeInfo_var, (uint32_t)1);
 				TextureU5BU5D_t0C3F884241E8243E791A31B920CAA89212888E46* L_23 = L_22;
@@ -4888,12 +4870,12 @@ IL_00c4_1:
 				NullCheck(L_21);
 				L_21->___textures = L_23;
 				Il2CppCodeGenWriteBarrier((void**)(&L_21->___textures), (void*)L_23);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:206>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:206>
 				OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_25 = __this->____overlay;
 				bool L_26 = V_3;
 				NullCheck(L_25);
 				L_25->___noDepthBufferTesting = L_26;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:207>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:207>
 				OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_27 = __this->____overlay;
 				bool L_28 = V_3;
 				if (L_28)
@@ -4919,17 +4901,17 @@ IL_00fd_1:
 			{
 				NullCheck(G_B16_1);
 				G_B16_1->___currentOverlayType = G_B16_0;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:208>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:208>
 				OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_29 = __this->____overlay;
 				int32_t L_30 = V_0;
 				NullCheck(L_29);
 				L_29->___currentOverlayShape = L_30;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:209>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:209>
 				OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_31 = __this->____overlay;
 				bool L_32 = __this->____enableSuperSampling;
 				NullCheck(L_31);
 				L_31->___useExpensiveSuperSample = L_32;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:210>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:210>
 				OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_33 = __this->____overlay;
 				NullCheck(L_33);
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_34;
@@ -4937,7 +4919,7 @@ IL_00fd_1:
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35 = V_1;
 				NullCheck(L_34);
 				Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_34, L_35, NULL);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:211>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:211>
 				OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_36 = __this->____overlay;
 				NullCheck(L_36);
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_37;
@@ -4956,11 +4938,11 @@ IL_00fd_1:
 
 IL_014f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:217>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:217>
 		return;
 	}
 }
-// Method Definition Index: 131436
+// Method Definition Index: 131942
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* OVRCanvasMeshRenderer_CreateChildObject_m5AA047EB88CC6777FF7D29432D578C39784B096F (OVRCanvasMeshRenderer_t79F619DA21BCBC644A841CE9FAD1E27954D5C97A* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4972,12 +4954,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:221>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:221>
 		String_t* L_0 = ___0_name;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_1, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:223>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:223>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = V_0;
 		NullCheck(L_2);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
@@ -4986,7 +4968,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_3);
 		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:224>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:224>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = V_0;
 		NullCheck(L_5);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
@@ -4995,7 +4977,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		L_7 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		NullCheck(L_6);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:225>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:225>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = V_0;
 		NullCheck(L_8);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
@@ -5004,7 +4986,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		L_10 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		NullCheck(L_9);
 		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:226>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:226>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = V_0;
 		NullCheck(L_11);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
@@ -5013,7 +4995,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		L_13 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
 		NullCheck(L_12);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_12, L_13, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:228>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:228>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = V_0;
 		V_1 = L_14;
 		goto IL_0051;
@@ -5021,72 +5003,72 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 
 IL_0051:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:229>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:229>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = V_1;
 		return L_15;
 	}
 }
-// Method Definition Index: 131437
+// Method Definition Index: 131943
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCanvasMeshRenderer_InjectAllOVRCanvasMeshRenderer_m4F089E5F996F7C0779E0AA08D1EC0203D40DA2E4 (OVRCanvasMeshRenderer_t79F619DA21BCBC644A841CE9FAD1E27954D5C97A* __this, CanvasRenderTexture_t36344A51D0D2C0066A74709BF171880EF9671F1D* ___0_canvasRenderTexture, MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* ___1_meshRenderer, CanvasMesh_t27611EB5D29FF601150D5ED935F77B23ED0B38A9* ___2_canvasMesh, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:247>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:247>
 		CanvasRenderTexture_t36344A51D0D2C0066A74709BF171880EF9671F1D* L_0 = ___0_canvasRenderTexture;
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_1 = ___1_meshRenderer;
 		CanvasMeshRenderer_InjectAllCanvasMeshRenderer_m8316D32D2F55E737B2E1F0FC35CA0C2920D1E56D(__this, L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:248>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:248>
 		CanvasMesh_t27611EB5D29FF601150D5ED935F77B23ED0B38A9* L_2 = ___2_canvasMesh;
 		OVRCanvasMeshRenderer_InjectCanvasMesh_m3E468056EA29A9302498CE9BCC951B338134308F(__this, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:249>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:249>
 		return;
 	}
 }
-// Method Definition Index: 131438
+// Method Definition Index: 131944
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCanvasMeshRenderer_InjectCanvasMesh_m3E468056EA29A9302498CE9BCC951B338134308F (OVRCanvasMeshRenderer_t79F619DA21BCBC644A841CE9FAD1E27954D5C97A* __this, CanvasMesh_t27611EB5D29FF601150D5ED935F77B23ED0B38A9* ___0_canvasMesh, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:253>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:253>
 		CanvasMesh_t27611EB5D29FF601150D5ED935F77B23ED0B38A9* L_0 = ___0_canvasMesh;
 		__this->____canvasMesh = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____canvasMesh), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:254>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:254>
 		return;
 	}
 }
-// Method Definition Index: 131439
+// Method Definition Index: 131945
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCanvasMeshRenderer_InjectOptionalRenderingMode_m85A5AEC6C99D910B57AB56F1204332050F83F61D (OVRCanvasMeshRenderer_t79F619DA21BCBC644A841CE9FAD1E27954D5C97A* __this, int32_t ___0_ovrRenderingMode, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:258>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:258>
 		int32_t L_0 = ___0_ovrRenderingMode;
 		((CanvasMeshRenderer_t9A3BB36C15352BA3F71071BDEEB390B849FB6419*)__this)->____renderingMode = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:259>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:259>
 		return;
 	}
 }
-// Method Definition Index: 131440
+// Method Definition Index: 131946
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCanvasMeshRenderer_InjectOptionalDoUnderlayAntiAliasing_mBA372E5F51D828BB8D903F4AB2499714A9D2885A (OVRCanvasMeshRenderer_t79F619DA21BCBC644A841CE9FAD1E27954D5C97A* __this, bool ___0_doUnderlayAntiAliasing, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:263>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:263>
 		bool L_0 = ___0_doUnderlayAntiAliasing;
 		__this->____doUnderlayAntiAliasing = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:264>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:264>
 		return;
 	}
 }
-// Method Definition Index: 131441
+// Method Definition Index: 131947
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCanvasMeshRenderer_InjectOptionalEnableSuperSampling_mBA8F2B3C49CC27F21F25E33836E086D9BE1FDE2C (OVRCanvasMeshRenderer_t79F619DA21BCBC644A841CE9FAD1E27954D5C97A* __this, bool ___0_enableSuperSampling, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:268>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:268>
 		bool L_0 = ___0_enableSuperSampling;
 		__this->____enableSuperSampling = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:269>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:269>
 		return;
 	}
 }
-// Method Definition Index: 131442
+// Method Definition Index: 131948
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCanvasMeshRenderer__ctor_mC99408C56BD877A850EC09A903770A8FF35003D0 (OVRCanvasMeshRenderer_t79F619DA21BCBC644A841CE9FAD1E27954D5C97A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5096,27 +5078,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCanvasMeshRenderer__ctor_mC99408C56BD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:44>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_0), (0.0f), (0.0f), (0.0f), NULL);
 		__this->____runtimeOffset = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:49>
 		__this->____enableSuperSampling = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:55>
 		__this->____doUnderlayAntiAliasing = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:61>
 		__this->____emulateWhileInEditor = (bool)1;
 		il2cpp_codegen_runtime_class_init_inline(CanvasMeshRenderer_t9A3BB36C15352BA3F71071BDEEB390B849FB6419_il2cpp_TypeInfo_var);
 		CanvasMeshRenderer__ctor_m82CB644E809FFBF56505F1CCA0283667478FF287(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 131443
+// Method Definition Index: 131949
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCanvasMeshRenderer_U3CStartU3Eb__15_0_m021CC5C9942B34248FF7423E5904E94A9675165D (OVRCanvasMeshRenderer_t79F619DA21BCBC644A841CE9FAD1E27954D5C97A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:167>
 		CanvasMeshRenderer_Start_m5F54837469E37CE6AC107A3E8DA7CF8D77BC07A6(__this, NULL);
 		return;
 	}
@@ -5129,7 +5111,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCanvasMeshRenderer_U3CStartU3Eb__15_0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131444
+// Method Definition Index: 131950
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Properties__cctor_mFD72B1E7626795167FAF9CD64278640DE8330E92 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5145,22 +5127,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Properties__cctor_mFD72B1E7626795167FAF9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:233>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:233>
 		((Properties_tD3EBA450E7A78B87BAAEDD2E29ACDFB9E04F5512_StaticFields*)il2cpp_codegen_static_fields_for(Properties_tD3EBA450E7A78B87BAAEDD2E29ACDFB9E04F5512_il2cpp_TypeInfo_var))->___CanvasRenderTexture = _stringLiteralB587743571C2F4591C4EB51196F7EB9EC7463213;
 		Il2CppCodeGenWriteBarrier((void**)(&((Properties_tD3EBA450E7A78B87BAAEDD2E29ACDFB9E04F5512_StaticFields*)il2cpp_codegen_static_fields_for(Properties_tD3EBA450E7A78B87BAAEDD2E29ACDFB9E04F5512_il2cpp_TypeInfo_var))->___CanvasRenderTexture), (void*)_stringLiteralB587743571C2F4591C4EB51196F7EB9EC7463213);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:234>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:234>
 		((Properties_tD3EBA450E7A78B87BAAEDD2E29ACDFB9E04F5512_StaticFields*)il2cpp_codegen_static_fields_for(Properties_tD3EBA450E7A78B87BAAEDD2E29ACDFB9E04F5512_il2cpp_TypeInfo_var))->___CanvasMesh = _stringLiteral2375FCF20CEB44EEDCE888F11FB3D4CC6EAC845B;
 		Il2CppCodeGenWriteBarrier((void**)(&((Properties_tD3EBA450E7A78B87BAAEDD2E29ACDFB9E04F5512_StaticFields*)il2cpp_codegen_static_fields_for(Properties_tD3EBA450E7A78B87BAAEDD2E29ACDFB9E04F5512_il2cpp_TypeInfo_var))->___CanvasMesh), (void*)_stringLiteral2375FCF20CEB44EEDCE888F11FB3D4CC6EAC845B);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:235>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:235>
 		((Properties_tD3EBA450E7A78B87BAAEDD2E29ACDFB9E04F5512_StaticFields*)il2cpp_codegen_static_fields_for(Properties_tD3EBA450E7A78B87BAAEDD2E29ACDFB9E04F5512_il2cpp_TypeInfo_var))->___EnableSuperSampling = _stringLiteralB999F9CF159D7C42FE4C8ACF4FEC9660AAEDB9AF;
 		Il2CppCodeGenWriteBarrier((void**)(&((Properties_tD3EBA450E7A78B87BAAEDD2E29ACDFB9E04F5512_StaticFields*)il2cpp_codegen_static_fields_for(Properties_tD3EBA450E7A78B87BAAEDD2E29ACDFB9E04F5512_il2cpp_TypeInfo_var))->___EnableSuperSampling), (void*)_stringLiteralB999F9CF159D7C42FE4C8ACF4FEC9660AAEDB9AF);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:236>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:236>
 		((Properties_tD3EBA450E7A78B87BAAEDD2E29ACDFB9E04F5512_StaticFields*)il2cpp_codegen_static_fields_for(Properties_tD3EBA450E7A78B87BAAEDD2E29ACDFB9E04F5512_il2cpp_TypeInfo_var))->___EmulateWhileInEditor = _stringLiteralE6D620C3AB11D47CA0258AA7C5BD973A8E0734FB;
 		Il2CppCodeGenWriteBarrier((void**)(&((Properties_tD3EBA450E7A78B87BAAEDD2E29ACDFB9E04F5512_StaticFields*)il2cpp_codegen_static_fields_for(Properties_tD3EBA450E7A78B87BAAEDD2E29ACDFB9E04F5512_il2cpp_TypeInfo_var))->___EmulateWhileInEditor), (void*)_stringLiteralE6D620C3AB11D47CA0258AA7C5BD973A8E0734FB);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:237>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:237>
 		((Properties_tD3EBA450E7A78B87BAAEDD2E29ACDFB9E04F5512_StaticFields*)il2cpp_codegen_static_fields_for(Properties_tD3EBA450E7A78B87BAAEDD2E29ACDFB9E04F5512_il2cpp_TypeInfo_var))->___DoUnderlayAntiAliasing = _stringLiteral130D79FECECD75047FB5E79BCCC0435A9B46A89C;
 		Il2CppCodeGenWriteBarrier((void**)(&((Properties_tD3EBA450E7A78B87BAAEDD2E29ACDFB9E04F5512_StaticFields*)il2cpp_codegen_static_fields_for(Properties_tD3EBA450E7A78B87BAAEDD2E29ACDFB9E04F5512_il2cpp_TypeInfo_var))->___DoUnderlayAntiAliasing), (void*)_stringLiteral130D79FECECD75047FB5E79BCCC0435A9B46A89C);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:238>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:238>
 		((Properties_tD3EBA450E7A78B87BAAEDD2E29ACDFB9E04F5512_StaticFields*)il2cpp_codegen_static_fields_for(Properties_tD3EBA450E7A78B87BAAEDD2E29ACDFB9E04F5512_il2cpp_TypeInfo_var))->___RuntimeOffset = _stringLiteral9907542636F44A093D24644F3AFC324DE07E5E9B;
 		Il2CppCodeGenWriteBarrier((void**)(&((Properties_tD3EBA450E7A78B87BAAEDD2E29ACDFB9E04F5512_StaticFields*)il2cpp_codegen_static_fields_for(Properties_tD3EBA450E7A78B87BAAEDD2E29ACDFB9E04F5512_il2cpp_TypeInfo_var))->___RuntimeOffset), (void*)_stringLiteral9907542636F44A093D24644F3AFC324DE07E5E9B);
 		return;
@@ -5182,45 +5164,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Properties__cctor_mFD72B1E7626795167FAF9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131445
+// Method Definition Index: 131951
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OVRControllerInHandActiveState_get_HandType_m939E6C10AADB0F74B9607741D7000226A7F5E7FB (OVRControllerInHandActiveState_tFA53787584534C47ADA439DCAD9A8B9C936F8019* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:34>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:34>
 		int32_t L_0 = __this->____handType;
 		return L_0;
 	}
 }
-// Method Definition Index: 131446
+// Method Definition Index: 131952
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerInHandActiveState_set_HandType_m93D29FA2A07C4CF04E3CD03345035D12FFE8AC57 (OVRControllerInHandActiveState_tFA53787584534C47ADA439DCAD9A8B9C936F8019* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:35>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:35>
 		int32_t L_0 = ___0_value;
 		__this->____handType = L_0;
 		return;
 	}
 }
-// Method Definition Index: 131447
+// Method Definition Index: 131953
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OVRControllerInHandActiveState_get_ShowState_m63527FEA5E168BAE6B35782C832C3283A5018AF5 (OVRControllerInHandActiveState_tFA53787584534C47ADA439DCAD9A8B9C936F8019* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:49>
 		int32_t L_0 = __this->____showState;
 		return L_0;
 	}
 }
-// Method Definition Index: 131448
+// Method Definition Index: 131954
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerInHandActiveState_set_ShowState_m71CFA075027ECF75E9C681D0C91B489AAB8F9357 (OVRControllerInHandActiveState_tFA53787584534C47ADA439DCAD9A8B9C936F8019* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:50>
 		int32_t L_0 = ___0_value;
 		__this->____showState = L_0;
 		return;
 	}
 }
-// Method Definition Index: 131449
+// Method Definition Index: 131955
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRControllerInHandActiveState_get_Active_mB4DDE49123D26A31C85D04F76203287EE379180B (OVRControllerInHandActiveState_tFA53787584534C47ADA439DCAD9A8B9C936F8019* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5235,13 +5217,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRControllerInHandActiveState_get_Activ
 	bool V_3 = false;
 	int32_t G_B7_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:57>
 		int32_t L_0 = __this->____handType;
 		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
 		int32_t L_1;
 		L_1 = OVRInput_GetControllerIsInHandState_m1F89D272E3F3FD38292CC65DA0C176F315C05C9A(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:58>
 		int32_t L_2 = __this->____showState;
 		V_2 = L_2;
 		int32_t L_3 = V_2;
@@ -5277,14 +5259,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRControllerInHandActiveState_get_Activ
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:61>
 		V_3 = (bool)1;
 		goto IL_005d;
 	}
 
 IL_0036:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:64>
 		int32_t L_5 = V_0;
 		V_3 = (bool)((((int32_t)L_5) == ((int32_t)1))? 1 : 0);
 		goto IL_005d;
@@ -5292,8 +5274,8 @@ IL_0036:
 
 IL_003d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:67>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:68>
 		int32_t L_6 = V_0;
 		if ((((int32_t)L_6) == ((int32_t)1)))
 		{
@@ -5319,7 +5301,7 @@ IL_0048:
 
 IL_004b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:71>
 		int32_t L_8 = V_0;
 		V_3 = (bool)((((int32_t)L_8) == ((int32_t)2))? 1 : 0);
 		goto IL_005d;
@@ -5327,7 +5309,7 @@ IL_004b:
 
 IL_0052:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:74>
 		int32_t L_9 = V_0;
 		V_3 = (bool)((((int32_t)L_9) == ((int32_t)0))? 1 : 0);
 		goto IL_005d;
@@ -5335,23 +5317,23 @@ IL_0052:
 
 IL_0059:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:76>
 		V_3 = (bool)0;
 		goto IL_005d;
 	}
 
 IL_005d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:78>
 		bool L_10 = V_3;
 		return L_10;
 	}
 }
-// Method Definition Index: 131450
+// Method Definition Index: 131956
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerInHandActiveState__ctor_m34822BE1C5F56A4B84229CBA651EB9E6D56BB376 (OVRControllerInHandActiveState_tFA53787584534C47ADA439DCAD9A8B9C936F8019* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerInHandActiveState.cs:46>
 		__this->____showState = 3;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -5365,7 +5347,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerInHandActiveState__ctor_m34
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131451
+// Method Definition Index: 131957
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRAxis1D_Value_m3D5FAD5A933468A7D71834FBB2450993D6606573 (OVRAxis1D_tDDE4C21033C806DE51A9920B817B68DE6FD75DC7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5378,14 +5360,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRAxis1D_Value_m3D5FAD5A933468A7D71834
 	bool V_1 = false;
 	float V_2 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRAxis1D.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRAxis1D.cs:53>
 		int32_t L_0 = __this->____axis1D;
 		int32_t L_1 = __this->____controller;
 		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
 		float L_2;
 		L_2 = OVRInput_Get_m1FD85568F358C43019E09E48A7BEBD6CD7F7E5D8(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRAxis1D.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRAxis1D.cs:54>
 		RemapConfig_t908AD6537ADA12F582320E6AE01502862A67A8AB* L_3 = __this->____remapConfig;
 		NullCheck(L_3);
 		bool L_4 = L_3->___Enabled;
@@ -5397,7 +5379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRAxis1D_Value_m3D5FAD5A933468A7D71834
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRAxis1D.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRAxis1D.cs:56>
 		RemapConfig_t908AD6537ADA12F582320E6AE01502862A67A8AB* L_6 = __this->____remapConfig;
 		NullCheck(L_6);
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_7 = L_6->___Curve;
@@ -5410,7 +5392,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRAxis1D_Value_m3D5FAD5A933468A7D71834
 
 IL_0036:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRAxis1D.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRAxis1D.cs:59>
 		float L_10 = V_0;
 		V_2 = L_10;
 		goto IL_003a;
@@ -5418,12 +5400,12 @@ IL_0036:
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRAxis1D.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRAxis1D.cs:60>
 		float L_11 = V_2;
 		return L_11;
 	}
 }
-// Method Definition Index: 131452
+// Method Definition Index: 131958
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRAxis1D__ctor_m50F4B98F1340D2E077921034A1472DE56139F100 (OVRAxis1D_tDDE4C21033C806DE51A9920B817B68DE6FD75DC7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5433,11 +5415,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRAxis1D__ctor_m50F4B98F1340D2E07792103
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRAxis1D.cs:38>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRAxis1D.cs:39>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRAxis1D.cs:40>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRAxis1D.cs:41>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRAxis1D.cs:42>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRAxis1D.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRAxis1D.cs:39>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRAxis1D.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRAxis1D.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRAxis1D.cs:42>
 		RemapConfig_t908AD6537ADA12F582320E6AE01502862A67A8AB* L_0 = (RemapConfig_t908AD6537ADA12F582320E6AE01502862A67A8AB*)il2cpp_codegen_object_new(RemapConfig_t908AD6537ADA12F582320E6AE01502862A67A8AB_il2cpp_TypeInfo_var);
 		RemapConfig__ctor_m41E6BC3A4E0A79FF35861AEF0A4D77C384A15B68(L_0, NULL);
 		RemapConfig_t908AD6537ADA12F582320E6AE01502862A67A8AB* L_1 = L_0;
@@ -5463,7 +5445,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRAxis1D__ctor_m50F4B98F1340D2E07792103
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131453
+// Method Definition Index: 131959
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemapConfig__ctor_m41E6BC3A4E0A79FF35861AEF0A4D77C384A15B68 (RemapConfig_t908AD6537ADA12F582320E6AE01502862A67A8AB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5479,7 +5461,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemapConfig__ctor_m41E6BC3A4E0A79FF35861
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131454
+// Method Definition Index: 131960
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 OVRAxis2D_Value_m080BD4645D84A2D8FF7C2955CD542D69EA241142 (OVRAxis2D_t19CF13D108490086C3C3B32E1DEC44F69BDFEFE5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5491,7 +5473,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRAxis2D.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRAxis2D.cs:38>
 		int32_t L_0 = __this->____axis2D;
 		int32_t L_1 = __this->____controller;
 		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
@@ -5503,12 +5485,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 
 IL_0015:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRAxis2D.cs:39>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRAxis2D.cs:39>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = V_0;
 		return L_3;
 	}
 }
-// Method Definition Index: 131455
+// Method Definition Index: 131961
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRAxis2D__ctor_mD02091EC803C6F319EF08700428A0505BAB28627 (OVRAxis2D_t19CF13D108490086C3C3B32E1DEC44F69BDFEFE5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5524,7 +5506,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRAxis2D__ctor_mD02091EC803C6F319EF0870
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131456
+// Method Definition Index: 131962
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRButton_Value_mCFB81BA203E45CFD9DB693C301B10E8027EFF1D6 (OVRButton_tB8CEAE200B419C7AEF7FC8150AC1EBF99DF80700* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5535,7 +5517,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRButton_Value_mCFB81BA203E45CFD9DB693C
 	}
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButton.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButton.cs:38>
 		int32_t L_0 = __this->____button;
 		int32_t L_1 = __this->____controller;
 		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
@@ -5547,12 +5529,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRButton_Value_mCFB81BA203E45CFD9DB693C
 
 IL_0015:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButton.cs:39>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButton.cs:39>
 		bool L_3 = V_0;
 		return L_3;
 	}
 }
-// Method Definition Index: 131457
+// Method Definition Index: 131963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRButton__ctor_m2E9A099FF21DDD6B9DB9B2CF1C110057B72F9788 (OVRButton_tB8CEAE200B419C7AEF7FC8150AC1EBF99DF80700* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5568,7 +5550,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRButton__ctor_m2E9A099FF21DDD6B9DB9B2C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131458
+// Method Definition Index: 131964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRButtonActiveState_get_Active_m35DCD6E6EE6F59A5DF986DE536874301F11CC723 (OVRButtonActiveState_t20FA9D63D3901930F78DE2BD72E5F1EB93715FF7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5578,7 +5560,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRButtonActiveState_get_Active_m35DCD6E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRButtonActiveState.cs:32>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRButtonActiveState.cs:32>
 		int32_t L_0 = __this->____button;
 		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5586,7 +5568,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRButtonActiveState_get_Active_m35DCD6E
 		return L_1;
 	}
 }
-// Method Definition Index: 131459
+// Method Definition Index: 131965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRButtonActiveState__ctor_m9852D60C7A0E0EEAB2272AB4C5A65FCB673A279F (OVRButtonActiveState_t20FA9D63D3901930F78DE2BD72E5F1EB93715FF7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5602,115 +5584,115 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRButtonActiveState__ctor_m9852D60C7A0E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131460
+// Method Definition Index: 131966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AnimatedHandOVR_get_AllowThumbUpMode_mB6850C196CF222D3A9A66A69E3958BCE7A89A77A (AnimatedHandOVR_t5215E103CB7E6CDB45543E152722254ACACD2D78* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:50>
 		int32_t L_0 = __this->____allowThumbUp;
 		return L_0;
 	}
 }
-// Method Definition Index: 131461
+// Method Definition Index: 131967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimatedHandOVR_set_AllowThumbUpMode_m4057F8441551FF6997772384BAC78A3CC2941E66 (AnimatedHandOVR_t5215E103CB7E6CDB45543E152722254ACACD2D78* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:51>
 		int32_t L_0 = ___0_value;
 		__this->____allowThumbUp = L_0;
 		return;
 	}
 }
-// Method Definition Index: 131462
+// Method Definition Index: 131968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AnimatedHandOVR_get_AnimFlexGain_m4466801CF0F7AA0DB1016DC698A7C5D5E9DDCD70 (AnimatedHandOVR_t5215E103CB7E6CDB45543E152722254ACACD2D78* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:62>
 		float L_0 = __this->____animFlexGain;
 		return L_0;
 	}
 }
-// Method Definition Index: 131463
+// Method Definition Index: 131969
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimatedHandOVR_set_AnimFlexGain_mC706EFE3CF23F69F753AB9E831796964F3741A0D (AnimatedHandOVR_t5215E103CB7E6CDB45543E152722254ACACD2D78* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:63>
 		float L_0 = ___0_value;
 		__this->____animFlexGain = L_0;
 		return;
 	}
 }
-// Method Definition Index: 131464
+// Method Definition Index: 131970
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AnimatedHandOVR_get_AnimPinchGain_m31CC8ACEC094A1F8E91D1FAA2C9DA4D59197A371 (AnimatedHandOVR_t5215E103CB7E6CDB45543E152722254ACACD2D78* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:71>
 		float L_0 = __this->____animPinchGain;
 		return L_0;
 	}
 }
-// Method Definition Index: 131465
+// Method Definition Index: 131971
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimatedHandOVR_set_AnimPinchGain_mEF3DAF3EA76F33C3A1E25101B9F6CB1B6A87E841 (AnimatedHandOVR_t5215E103CB7E6CDB45543E152722254ACACD2D78* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:72>
 		float L_0 = ___0_value;
 		__this->____animPinchGain = L_0;
 		return;
 	}
 }
-// Method Definition Index: 131466
+// Method Definition Index: 131972
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AnimatedHandOVR_get_AnimPointAndThumbsUpGain_m08C6C294AD2C364DF4CB508557304354AF5C07E4 (AnimatedHandOVR_t5215E103CB7E6CDB45543E152722254ACACD2D78* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:80>
 		float L_0 = __this->____animPointAndThumbsUpGain;
 		return L_0;
 	}
 }
-// Method Definition Index: 131467
+// Method Definition Index: 131973
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimatedHandOVR_set_AnimPointAndThumbsUpGain_m25C8B2C6EEC2F2866404329DA54C172FB49174FC (AnimatedHandOVR_t5215E103CB7E6CDB45543E152722254ACACD2D78* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:81>
 		float L_0 = ___0_value;
 		__this->____animPointAndThumbsUpGain = L_0;
 		return;
 	}
 }
-// Method Definition Index: 131468
+// Method Definition Index: 131974
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* AnimatedHandOVR_get_DeltaTimeProvider_mA40EE4C7BADD6EA1538FC89B728EB877DE81AB70 (AnimatedHandOVR_t5215E103CB7E6CDB45543E152722254ACACD2D78* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:86>
 		Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* L_0 = __this->___U3CDeltaTimeProviderU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131469
+// Method Definition Index: 131975
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimatedHandOVR_set_DeltaTimeProvider_m228843ECA80A49D41E4B5A79E471A4B6B299DBBC (AnimatedHandOVR_t5215E103CB7E6CDB45543E152722254ACACD2D78* __this, Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:86>
 		Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* L_0 = ___0_value;
 		__this->___U3CDeltaTimeProviderU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CDeltaTimeProviderU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 131470
+// Method Definition Index: 131976
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimatedHandOVR_SetDeltaTimeProvider_m613C16542A3B5C1EFDCEFB9F73327E51A848DF40 (AnimatedHandOVR_t5215E103CB7E6CDB45543E152722254ACACD2D78* __this, Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* ___0_deltaTimeProvider, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:117>
 		Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* L_0 = ___0_deltaTimeProvider;
 		__this->____deltaTimeProvider = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____deltaTimeProvider), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:118>
 		return;
 	}
 }
-// Method Definition Index: 131471
+// Method Definition Index: 131977
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimatedHandOVR_Start_m24194B359440EC41CB843BC53BF14BCB24B486DE (AnimatedHandOVR_t5215E103CB7E6CDB45543E152722254ACACD2D78* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5721,23 +5703,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimatedHandOVR_Start_m24194B359440EC41C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:122>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0 = __this->____animator;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = Animator_GetLayerIndex_mE57FA9E3A7B3308B07B79307B5BCE0688AF4B38B(L_0, _stringLiteralBC09616FC7A1F15CD91C601854596281EF11A6AC, NULL);
 		__this->____animLayerIndexPoint = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:123>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_2 = __this->____animator;
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = Animator_GetLayerIndex_mE57FA9E3A7B3308B07B79307B5BCE0688AF4B38B(L_2, _stringLiteral7C04A407FE215D295E25E3D30FD585ED38C7AA05, NULL);
 		__this->____animLayerIndexThumb = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:124>
 		return;
 	}
 }
-// Method Definition Index: 131472
+// Method Definition Index: 131978
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimatedHandOVR_Update_mADC40DDFEFA43DFBA4B804FC9F714C0E273107FB (AnimatedHandOVR_t5215E103CB7E6CDB45543E152722254ACACD2D78* __this, const RuntimeMethod* method) 
 {
 	float G_B2_0 = 0.0f;
@@ -5748,9 +5730,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimatedHandOVR_Update_mADC40DDFEFA43DFB
 	float G_B3_1 = 0.0f;
 	AnimatedHandOVR_t5215E103CB7E6CDB45543E152722254ACACD2D78* G_B3_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:128>
 		AnimatedHandOVR_UpdateCapTouchStates_mDB6D805C4C7992E8E83D9F766D112C291DA6158B(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:130>
 		float L_0 = __this->____pointBlend;
 		float L_1 = __this->____pointTarget;
 		float L_2 = __this->____animPointAndThumbsUpGain;
@@ -5761,7 +5743,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimatedHandOVR_Update_mADC40DDFEFA43DFB
 		float L_5;
 		L_5 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_0, L_1, ((float)il2cpp_codegen_multiply(L_2, L_4)), NULL);
 		__this->____pointBlend = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:131>
 		float L_6 = __this->____slideBlend;
 		float L_7 = __this->____slideTarget;
 		float L_8 = __this->____animPointAndThumbsUpGain;
@@ -5772,7 +5754,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimatedHandOVR_Update_mADC40DDFEFA43DFB
 		float L_11;
 		L_11 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_6, L_7, ((float)il2cpp_codegen_multiply(L_8, L_10)), NULL);
 		__this->____slideBlend = L_11;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:132>
 		float L_12 = __this->____thumbsUpBlend;
 		bool L_13 = __this->____isGivingThumbsUp;
 		if (L_13)
@@ -5809,13 +5791,13 @@ IL_006d:
 		L_17 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(G_B3_1, ((float)G_B3_0), ((float)il2cpp_codegen_multiply(L_14, L_16)), NULL);
 		NullCheck(G_B3_2);
 		G_B3_2->____thumbsUpBlend = L_17;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:134>
 		AnimatedHandOVR_UpdateAnimStates_mD1B5FC1A5D88D4A49284F0C569B7035757F15DBD(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:135>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:135>
 		return;
 	}
 }
-// Method Definition Index: 131473
+// Method Definition Index: 131979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimatedHandOVR_UpdateCapTouchStates_mDB6D805C4C7992E8E83D9F766D112C291DA6158B (AnimatedHandOVR_t5215E103CB7E6CDB45543E152722254ACACD2D78* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5834,28 +5816,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimatedHandOVR_UpdateCapTouchStates_mDB
 	int32_t G_B12_0 = 0;
 	AnimatedHandOVR_t5215E103CB7E6CDB45543E152722254ACACD2D78* G_B12_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:139>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:139>
 		int32_t L_0 = __this->____controller;
 		float L_1;
 		L_1 = OVRControllerUtility_GetIndexCurl_m371897D1DB6FF0572E4F816776D3502BFC9B95B8(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:140>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:140>
 		int32_t L_2 = __this->____controller;
 		float L_3;
 		L_3 = OVRControllerUtility_GetIndexSlide_m660103630E2C87BE0E1D6CDCDD56BB8A1331223A(L_2, NULL);
 		V_1 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:141>
 		float L_4 = V_0;
 		__this->____pointTarget = ((float)il2cpp_codegen_subtract((1.0f), L_4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:142>
 		float L_5 = V_1;
 		__this->____slideTarget = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:144>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:145>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:146>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:147>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:148>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:145>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:146>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:149>
 		int32_t L_6 = __this->____allowThumbUp;
 		if (!L_6)
 		{
@@ -5926,8 +5908,8 @@ IL_0088:
 IL_0089:
 	{
 		V_2 = (bool)G_B9_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:151>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:152>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:152>
 		bool L_15 = V_2;
 		if (!L_15)
 		{
@@ -5956,11 +5938,11 @@ IL_00a0:
 	{
 		NullCheck(G_B12_1);
 		G_B12_1->____isGivingThumbsUp = (bool)G_B12_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:153>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:153>
 		return;
 	}
 }
-// Method Definition Index: 131474
+// Method Definition Index: 131980
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimatedHandOVR_UpdateAnimStates_mD1B5FC1A5D88D4A49284F0C569B7035757F15DBD (AnimatedHandOVR_t5215E103CB7E6CDB45543E152722254ACACD2D78* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5972,13 +5954,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimatedHandOVR_UpdateAnimStates_mD1B5FC
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:159>
 		int32_t L_0 = __this->____controller;
 		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
 		float L_1;
 		L_1 = OVRInput_Get_m1FD85568F358C43019E09E48A7BEBD6CD7F7E5D8(4, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:160>
 		float L_2 = __this->____animFlex;
 		float L_3 = V_0;
 		float L_4 = __this->____animFlexGain;
@@ -5990,18 +5972,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimatedHandOVR_UpdateAnimStates_mD1B5FC
 		float L_7;
 		L_7 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_2, L_3, ((float)il2cpp_codegen_multiply(L_4, L_6)), NULL);
 		__this->____animFlex = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:161>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_8 = __this->____animator;
 		int32_t L_9 = __this->____animParamIndexFlex;
 		float L_10 = __this->____animFlex;
 		NullCheck(L_8);
 		Animator_SetFloat_m2CDA219BBAB214F4069C9844780EBCE6CCF579F5(L_8, L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:164>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:164>
 		int32_t L_11 = __this->____controller;
 		float L_12;
 		L_12 = OVRInput_Get_m1FD85568F358C43019E09E48A7BEBD6CD7F7E5D8(1, L_11, NULL);
 		V_1 = L_12;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:165>
 		float L_13 = __this->____animPinch;
 		float L_14 = V_1;
 		float L_15 = __this->____animPinchGain;
@@ -6013,72 +5995,72 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimatedHandOVR_UpdateAnimStates_mD1B5FC
 		float L_18;
 		L_18 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_13, L_14, ((float)il2cpp_codegen_multiply(L_15, L_17)), NULL);
 		__this->____animPinch = L_18;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:166>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:166>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_19 = __this->____animator;
 		int32_t L_20 = __this->____animParamPinch;
 		float L_21 = __this->____animPinch;
 		NullCheck(L_19);
 		Animator_SetFloat_m2CDA219BBAB214F4069C9844780EBCE6CCF579F5(L_19, L_20, L_21, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:169>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_22 = __this->____animator;
 		int32_t L_23 = __this->____animLayerIndexPoint;
 		float L_24 = __this->____pointBlend;
 		NullCheck(L_22);
 		Animator_SetLayerWeight_m06ADC732F76F22B4B1424F25525E7CBB80E6230F(L_22, L_23, L_24, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:170>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_25 = __this->____animator;
 		int32_t L_26 = __this->____animParamIndexSlide;
 		float L_27 = __this->____slideBlend;
 		NullCheck(L_25);
 		Animator_SetFloat_m2CDA219BBAB214F4069C9844780EBCE6CCF579F5(L_25, L_26, L_27, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:173>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:173>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_28 = __this->____animator;
 		int32_t L_29 = __this->____animLayerIndexThumb;
 		float L_30 = __this->____thumbsUpBlend;
 		NullCheck(L_28);
 		Animator_SetLayerWeight_m06ADC732F76F22B4B1424F25525E7CBB80E6230F(L_28, L_29, L_30, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:174>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:174>
 		return;
 	}
 }
-// Method Definition Index: 131475
+// Method Definition Index: 131981
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimatedHandOVR_InjectAllAnimatedHandOVR_m2011EFCC984034152F7BBF08D37E6B57E8AFD811 (AnimatedHandOVR_t5215E103CB7E6CDB45543E152722254ACACD2D78* __this, int32_t ___0_controller, Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___1_animator, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:181>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:181>
 		int32_t L_0 = ___0_controller;
 		AnimatedHandOVR_InjectController_m7C333EF1092C97A05ACC7620F57E0A877688FE28(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:182>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:182>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_1 = ___1_animator;
 		AnimatedHandOVR_InjectAnimator_mBD7C14F0B699D142D625EF6C8DC502669AB5FE53(__this, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:183>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:183>
 		return;
 	}
 }
-// Method Definition Index: 131476
+// Method Definition Index: 131982
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimatedHandOVR_InjectController_m7C333EF1092C97A05ACC7620F57E0A877688FE28 (AnimatedHandOVR_t5215E103CB7E6CDB45543E152722254ACACD2D78* __this, int32_t ___0_controller, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:187>
 		int32_t L_0 = ___0_controller;
 		__this->____controller = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:188>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:188>
 		return;
 	}
 }
-// Method Definition Index: 131477
+// Method Definition Index: 131983
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimatedHandOVR_InjectAnimator_mBD7C14F0B699D142D625EF6C8DC502669AB5FE53 (AnimatedHandOVR_t5215E103CB7E6CDB45543E152722254ACACD2D78* __this, Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___0_animator, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:192>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:192>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0 = ___0_animator;
 		__this->____animator = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____animator), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:193>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:193>
 		return;
 	}
 }
-// Method Definition Index: 131478
+// Method Definition Index: 131984
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimatedHandOVR__ctor_mDAA2F90CEC34F80EC18BDC5DE10995FB32CCD577 (AnimatedHandOVR_t5215E103CB7E6CDB45543E152722254ACACD2D78* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6102,20 +6084,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimatedHandOVR__ctor_mDAA2F90CEC34F80EC
 	Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* G_B3_0 = NULL;
 	AnimatedHandOVR_t5215E103CB7E6CDB45543E152722254ACACD2D78* G_B3_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:41>
 		__this->____controller = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:43>
 		__this->____animator = (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____animator), (void*)(Animator_t8A52E42AE54F76681838FE9E632683EF3952E883*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:47>
 		__this->____allowThumbUp = 2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:59>
 		__this->____animFlexGain = (35.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:68>
 		__this->____animPinchGain = (35.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:77>
 		__this->____animPointAndThumbsUpGain = (20.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:87>
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t7DA03B57D85BD2757E820394419787FFEAEDA7AF_il2cpp_TypeInfo_var);
 		Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* L_0 = ((U3CU3Ec_t7DA03B57D85BD2757E820394419787FFEAEDA7AF_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t7DA03B57D85BD2757E820394419787FFEAEDA7AF_il2cpp_TypeInfo_var))->___U3CU3E9__51_0;
 		Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* L_1 = L_0;
@@ -6145,39 +6127,39 @@ IL_0056:
 		NullCheck(G_B2_1);
 		G_B2_1->___U3CDeltaTimeProviderU3Ek__BackingField = G_B2_0;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B2_1->___U3CDeltaTimeProviderU3Ek__BackingField), (void*)G_B2_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:97>
 		__this->____animLayerIndexThumb = (-1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:98>
 		__this->____animLayerIndexPoint = (-1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:99>
 		int32_t L_5;
 		L_5 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(_stringLiteral761CAF2881EC72215DE6C3BFBC1BEEEC0E195109, NULL);
 		__this->____animParamIndexFlex = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:100>
 		int32_t L_6;
 		L_6 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(_stringLiteral7E85ECCB7093F5018C9F13499309750C0A65403D, NULL);
 		__this->____animParamPinch = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:101>
 		int32_t L_7;
 		L_7 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(_stringLiteral736440B0355FD704BED587386BC36C7E1088A34C, NULL);
 		__this->____animParamIndexSlide = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:103>
 		__this->____isGivingThumbsUp = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:104>
 		__this->____pointBlend = (0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:105>
 		__this->____slideBlend = (0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:107>
 		__this->____thumbsUpBlend = (0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:108>
 		__this->____pointTarget = (0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:109>
 		__this->____slideTarget = (0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:111>
 		__this->____animFlex = (0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:112>
 		__this->____animPinch = (0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:114>
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t7DA03B57D85BD2757E820394419787FFEAEDA7AF_il2cpp_TypeInfo_var);
 		Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* L_8 = ((U3CU3Ec_t7DA03B57D85BD2757E820394419787FFEAEDA7AF_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t7DA03B57D85BD2757E820394419787FFEAEDA7AF_il2cpp_TypeInfo_var))->___U3CU3E9__51_1;
 		Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* L_9 = L_8;
@@ -6227,7 +6209,7 @@ IL_010d:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131479
+// Method Definition Index: 131985
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m034B3F8A6FB09AA7DB78713D74514F82A95611BD (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6244,7 +6226,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m034B3F8A6FB09AA7DB78713D
 		return;
 	}
 }
-// Method Definition Index: 131480
+// Method Definition Index: 131986
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m2ED25EE3F5F2B828F5EE8808C2AD0E45E564C146 (U3CU3Ec_t7DA03B57D85BD2757E820394419787FFEAEDA7AF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6252,21 +6234,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m2ED25EE3F5F2B828F5EE8808C
 		return;
 	}
 }
-// Method Definition Index: 131481
+// Method Definition Index: 131987
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec_U3C_ctorU3Eb__51_0_mC3CA629F64F9C4F54E447C6C2968E7EBE88AD836 (U3CU3Ec_t7DA03B57D85BD2757E820394419787FFEAEDA7AF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:87>
 		float L_0;
 		L_0 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 131482
+// Method Definition Index: 131988
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec_U3C_ctorU3Eb__51_1_m1B2C807B11D708BE72B75DB35FD1668179177544 (U3CU3Ec_t7DA03B57D85BD2757E820394419787FFEAEDA7AF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:114>
 		float L_0;
 		L_0 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		return L_0;
@@ -6280,41 +6262,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec_U3C_ctorU3Eb__51_1_m1B2C807B11D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131484
+// Method Definition Index: 131990
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UsageTouchMapping_get_Usage_m4851C2564A227A06846869E9815150926F38DFD7 (UsageTouchMapping_t069BEC8C91EC7A074ACC14D71D56F321753628BB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:33>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:33>
 		int32_t L_0 = __this->___U3CUsageU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131485
+// Method Definition Index: 131991
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UsageTouchMapping_get_Touch_mEA9DCDEF2FDB6C6A21C335392FCE00B03CB365DF (UsageTouchMapping_t069BEC8C91EC7A074ACC14D71D56F321753628BB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:34>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:34>
 		int32_t L_0 = __this->___U3CTouchU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131486
+// Method Definition Index: 131992
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageTouchMapping__ctor_mC1611D75B192E8C4811CEE86F0C5DA925D8A9108 (UsageTouchMapping_t069BEC8C91EC7A074ACC14D71D56F321753628BB* __this, int32_t ___0_usage, int32_t ___1_touch, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:36>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:38>
 		int32_t L_0 = ___0_usage;
 		__this->___U3CUsageU3Ek__BackingField = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:39>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:39>
 		int32_t L_1 = ___1_touch;
 		__this->___U3CTouchU3Ek__BackingField = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:40>
 		return;
 	}
 }
-// Method Definition Index: 131487
+// Method Definition Index: 131993
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageTouchMapping_Apply_mFE03BCB2A3238F65A64CC0D9DF15F63C36A55AE6 (UsageTouchMapping_t069BEC8C91EC7A074ACC14D71D56F321753628BB* __this, ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* ___0_controllerDataAsset, int32_t ___1_controllerMask, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6325,7 +6307,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageTouchMapping_Apply_mFE03BCB2A3238F6
 	}
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:44>
 		int32_t L_0;
 		L_0 = UsageTouchMapping_get_Touch_mEA9DCDEF2FDB6C6A21C335392FCE00B03CB365DF_inline(__this, NULL);
 		int32_t L_1 = ___1_controllerMask;
@@ -6333,7 +6315,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageTouchMapping_Apply_mFE03BCB2A3238F6
 		bool L_2;
 		L_2 = OVRInput_Get_m6C2E703E080DE2688C40ACA3F68F83F906E625A2(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:45>
 		ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* L_3 = ___0_controllerDataAsset;
 		NullCheck(L_3);
 		ControllerInput_tD6932AB13D2130F0DBA5BEE561F52A2316442EA1* L_4 = (ControllerInput_tD6932AB13D2130F0DBA5BEE561F52A2316442EA1*)(&L_3->___Input);
@@ -6341,7 +6323,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageTouchMapping_Apply_mFE03BCB2A3238F6
 		L_5 = UsageTouchMapping_get_Usage_m4851C2564A227A06846869E9815150926F38DFD7_inline(__this, NULL);
 		bool L_6 = V_0;
 		ControllerInput_SetButton_m4374F73A035C3F4DFDC9437EAD279B42F7235F0A(L_4, L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:46>
 		return;
 	}
 }
@@ -6353,41 +6335,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageTouchMapping_Apply_mFE03BCB2A3238F6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131488
+// Method Definition Index: 131994
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UsageButtonMapping_get_Usage_m4C547D085B9EF46B96112E84F67A3A2814EE759E (UsageButtonMapping_t4E351D44C2E63CBDFF581148D80761332BC8D39C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:51>
 		int32_t L_0 = __this->___U3CUsageU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131489
+// Method Definition Index: 131995
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UsageButtonMapping_get_Button_mA2507EE5168803509F0682B52F84F27D927FA622 (UsageButtonMapping_t4E351D44C2E63CBDFF581148D80761332BC8D39C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:52>
 		int32_t L_0 = __this->___U3CButtonU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131490
+// Method Definition Index: 131996
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageButtonMapping__ctor_m4D732588AF3F3E4A307127ED3F07AB08535684D1 (UsageButtonMapping_t4E351D44C2E63CBDFF581148D80761332BC8D39C* __this, int32_t ___0_usage, int32_t ___1_button, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:54>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:56>
 		int32_t L_0 = ___0_usage;
 		__this->___U3CUsageU3Ek__BackingField = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:57>
 		int32_t L_1 = ___1_button;
 		__this->___U3CButtonU3Ek__BackingField = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:58>
 		return;
 	}
 }
-// Method Definition Index: 131491
+// Method Definition Index: 131997
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageButtonMapping_Apply_m48153915AD5CECF6F6267465905CBEDE153702B5 (UsageButtonMapping_t4E351D44C2E63CBDFF581148D80761332BC8D39C* __this, ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* ___0_controllerDataAsset, int32_t ___1_controllerMask, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6398,7 +6380,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageButtonMapping_Apply_m48153915AD5CEC
 	}
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:62>
 		int32_t L_0;
 		L_0 = UsageButtonMapping_get_Button_mA2507EE5168803509F0682B52F84F27D927FA622_inline(__this, NULL);
 		int32_t L_1 = ___1_controllerMask;
@@ -6406,7 +6388,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageButtonMapping_Apply_m48153915AD5CEC
 		bool L_2;
 		L_2 = OVRInput_Get_m8CF227684F49E1C26239D78F826E11A956E909C1(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:63>
 		ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* L_3 = ___0_controllerDataAsset;
 		NullCheck(L_3);
 		ControllerInput_tD6932AB13D2130F0DBA5BEE561F52A2316442EA1* L_4 = (ControllerInput_tD6932AB13D2130F0DBA5BEE561F52A2316442EA1*)(&L_3->___Input);
@@ -6414,7 +6396,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageButtonMapping_Apply_m48153915AD5CEC
 		L_5 = UsageButtonMapping_get_Usage_m4C547D085B9EF46B96112E84F67A3A2814EE759E_inline(__this, NULL);
 		bool L_6 = V_0;
 		ControllerInput_SetButton_m4374F73A035C3F4DFDC9437EAD279B42F7235F0A(L_4, L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:64>
 		return;
 	}
 }
@@ -6426,41 +6408,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageButtonMapping_Apply_m48153915AD5CEC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131492
+// Method Definition Index: 131998
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UsageAxis1DMapping_get_Usage_mF28D2090A85B4E414DD59338C1CB4A6075341F74 (UsageAxis1DMapping_t956EFD5E68C615820E2B8A94FA3D43629B62F624* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:69>
 		int32_t L_0 = __this->___U3CUsageU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131493
+// Method Definition Index: 131999
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UsageAxis1DMapping_get_Axis1D_m88CD0FEFB4723BAC838F74F956D017BF8918D4E9 (UsageAxis1DMapping_t956EFD5E68C615820E2B8A94FA3D43629B62F624* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:70>
 		int32_t L_0 = __this->___U3CAxis1DU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131494
+// Method Definition Index: 132000
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageAxis1DMapping__ctor_m9F8A470C3BFFD00D405DED1368EFC2D3CF8DDE39 (UsageAxis1DMapping_t956EFD5E68C615820E2B8A94FA3D43629B62F624* __this, int32_t ___0_usage, int32_t ___1_axis1D, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:72>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:74>
 		int32_t L_0 = ___0_usage;
 		__this->___U3CUsageU3Ek__BackingField = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:75>
 		int32_t L_1 = ___1_axis1D;
 		__this->___U3CAxis1DU3Ek__BackingField = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:76>
 		return;
 	}
 }
-// Method Definition Index: 131495
+// Method Definition Index: 132001
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageAxis1DMapping_Apply_m045895EBD1851C4B15FEDA38D584F33163A18483 (UsageAxis1DMapping_t956EFD5E68C615820E2B8A94FA3D43629B62F624* __this, ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* ___0_controllerDataAsset, int32_t ___1_controllerMask, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6471,7 +6453,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageAxis1DMapping_Apply_m045895EBD1851C
 	}
 	float V_0 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:80>
 		int32_t L_0;
 		L_0 = UsageAxis1DMapping_get_Axis1D_m88CD0FEFB4723BAC838F74F956D017BF8918D4E9_inline(__this, NULL);
 		int32_t L_1 = ___1_controllerMask;
@@ -6479,7 +6461,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageAxis1DMapping_Apply_m045895EBD1851C
 		float L_2;
 		L_2 = OVRInput_Get_m1FD85568F358C43019E09E48A7BEBD6CD7F7E5D8(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:81>
 		ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* L_3 = ___0_controllerDataAsset;
 		NullCheck(L_3);
 		ControllerInput_tD6932AB13D2130F0DBA5BEE561F52A2316442EA1* L_4 = (ControllerInput_tD6932AB13D2130F0DBA5BEE561F52A2316442EA1*)(&L_3->___Input);
@@ -6487,7 +6469,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageAxis1DMapping_Apply_m045895EBD1851C
 		L_5 = UsageAxis1DMapping_get_Usage_mF28D2090A85B4E414DD59338C1CB4A6075341F74_inline(__this, NULL);
 		float L_6 = V_0;
 		ControllerInput_SetAxis1D_m26082B2A1A8AC63758085FE01954B1B40A94B41E(L_4, L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:82>
 		return;
 	}
 }
@@ -6499,41 +6481,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageAxis1DMapping_Apply_m045895EBD1851C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131496
+// Method Definition Index: 132002
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UsageAxis2DMapping_get_Usage_m9D290DED83A87E68DF098B55E350E72F8E19288C (UsageAxis2DMapping_tFFAA2F828577824D87D694CD9CE64BA0F39910CA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:87>
 		int32_t L_0 = __this->___U3CUsageU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131497
+// Method Definition Index: 132003
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UsageAxis2DMapping_get_Axis2D_m5872C094109E168619073FB1D025E5B20D4DD987 (UsageAxis2DMapping_tFFAA2F828577824D87D694CD9CE64BA0F39910CA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:88>
 		int32_t L_0 = __this->___U3CAxis2DU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131498
+// Method Definition Index: 132004
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageAxis2DMapping__ctor_m3FEEAD4C2F6B79BFA4DD43568EDEFA084DB531B3 (UsageAxis2DMapping_tFFAA2F828577824D87D694CD9CE64BA0F39910CA* __this, int32_t ___0_usage, int32_t ___1_axis2D, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:90>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:92>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:92>
 		int32_t L_0 = ___0_usage;
 		__this->___U3CUsageU3Ek__BackingField = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:93>
 		int32_t L_1 = ___1_axis2D;
 		__this->___U3CAxis2DU3Ek__BackingField = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:94>
 		return;
 	}
 }
-// Method Definition Index: 131499
+// Method Definition Index: 132005
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageAxis2DMapping_Apply_mA2CF4138F19A13F0757961DDF64D2A6DE0BAF633 (UsageAxis2DMapping_tFFAA2F828577824D87D694CD9CE64BA0F39910CA* __this, ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* ___0_controllerDataAsset, int32_t ___1_controllerMask, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6545,7 +6527,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageAxis2DMapping_Apply_mA2CF4138F19A13
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:98>
 		int32_t L_0;
 		L_0 = UsageAxis2DMapping_get_Axis2D_m5872C094109E168619073FB1D025E5B20D4DD987_inline(__this, NULL);
 		int32_t L_1 = ___1_controllerMask;
@@ -6553,7 +6535,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageAxis2DMapping_Apply_mA2CF4138F19A13
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
 		L_2 = OVRInput_Get_mF4EA350D5898449529C641C72B7D440DF81180C8(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:99>
 		ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* L_3 = ___0_controllerDataAsset;
 		NullCheck(L_3);
 		ControllerInput_tD6932AB13D2130F0DBA5BEE561F52A2316442EA1* L_4 = (ControllerInput_tD6932AB13D2130F0DBA5BEE561F52A2316442EA1*)(&L_3->___Input);
@@ -6561,7 +6543,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageAxis2DMapping_Apply_mA2CF4138F19A13
 		L_5 = UsageAxis2DMapping_get_Usage_m9D290DED83A87E68DF098B55E350E72F8E19288C_inline(__this, NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = V_0;
 		ControllerInput_SetAxis2D_m431D34D90F1A071B5860C9F8AAEC52C986C1A6F4(L_4, L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:100>
 		return;
 	}
 }
@@ -6573,11 +6555,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageAxis2DMapping_Apply_mA2CF4138F19A13
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131500
+// Method Definition Index: 132006
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 OVRPointerPoseSelector_get_LocalPointerPose_m1B2EBC32C0F4D3C778CADB2D58DE762AF4EFFEC6 (OVRPointerPoseSelector_tAFF9D6C036191193059498E82B3E62E3A3490743* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:126>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = __this->___U3CLocalPointerPoseU3Ek__BackingField;
 		return L_0;
 	}
@@ -6591,11 +6573,11 @@ IL2CPP_EXTERN_C  Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 OVRPointerPoseSe
 	_returnValue = OVRPointerPoseSelector_get_LocalPointerPose_m1B2EBC32C0F4D3C778CADB2D58DE762AF4EFFEC6_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 131501
+// Method Definition Index: 132007
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRPointerPoseSelector_set_LocalPointerPose_m0F08718CAB486B4A44E57730FE87D04358D282CE (OVRPointerPoseSelector_tAFF9D6C036191193059498E82B3E62E3A3490743* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:126>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = ___0_value;
 		__this->___U3CLocalPointerPoseU3Ek__BackingField = L_0;
 		return;
@@ -6608,7 +6590,7 @@ IL2CPP_EXTERN_C  void OVRPointerPoseSelector_set_LocalPointerPose_m0F08718CAB486
 	_thisAdjusted = reinterpret_cast<OVRPointerPoseSelector_tAFF9D6C036191193059498E82B3E62E3A3490743*>(__this + _offset);
 	OVRPointerPoseSelector_set_LocalPointerPose_m0F08718CAB486B4A44E57730FE87D04358D282CE_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 131502
+// Method Definition Index: 132008
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRPointerPoseSelector__ctor_m286C17CA0B0637D8D9A841D3E1B7DE1225128617 (OVRPointerPoseSelector_tAFF9D6C036191193059498E82B3E62E3A3490743* __this, int32_t ___0_handedness, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6622,12 +6604,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRPointerPoseSelector__ctor_m286C17CA0B
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:130>
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
 		int32_t L_0;
 		L_0 = OVRPlugin_GetSystemHeadsetType_m78DFDBECE24A926CF89B9A8D93931C78A3824B01(NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:131>
 		int32_t L_1 = V_0;
 		V_2 = L_1;
 		int32_t L_2 = V_2;
@@ -6656,7 +6638,7 @@ IL_0012:
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:135>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:135>
 		il2cpp_codegen_runtime_class_init_inline(OVRPointerPoseSelector_tAFF9D6C036191193059498E82B3E62E3A3490743_il2cpp_TypeInfo_var);
 		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_5 = ((OVRPointerPoseSelector_tAFF9D6C036191193059498E82B3E62E3A3490743_StaticFields*)il2cpp_codegen_static_fields_for(OVRPointerPoseSelector_tAFF9D6C036191193059498E82B3E62E3A3490743_il2cpp_TypeInfo_var))->___QUEST2_POINTERS;
 		int32_t L_6 = ___0_handedness;
@@ -6664,13 +6646,13 @@ IL_001c:
 		int32_t L_7 = L_6;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
 		OVRPointerPoseSelector_set_LocalPointerPose_m0F08718CAB486B4A44E57730FE87D04358D282CE_inline(__this, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:136>
 		goto IL_0044;
 	}
 
 IL_0030:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:138>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:138>
 		il2cpp_codegen_runtime_class_init_inline(OVRPointerPoseSelector_tAFF9D6C036191193059498E82B3E62E3A3490743_il2cpp_TypeInfo_var);
 		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_9 = ((OVRPointerPoseSelector_tAFF9D6C036191193059498E82B3E62E3A3490743_StaticFields*)il2cpp_codegen_static_fields_for(OVRPointerPoseSelector_tAFF9D6C036191193059498E82B3E62E3A3490743_il2cpp_TypeInfo_var))->___QUEST1_POINTERS;
 		int32_t L_10 = ___0_handedness;
@@ -6678,13 +6660,13 @@ IL_0030:
 		int32_t L_11 = L_10;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
 		OVRPointerPoseSelector_set_LocalPointerPose_m0F08718CAB486B4A44E57730FE87D04358D282CE_inline(__this, L_12, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:139>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:139>
 		goto IL_0044;
 	}
 
 IL_0044:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:141>
 		return;
 	}
 }
@@ -6695,7 +6677,7 @@ IL2CPP_EXTERN_C  void OVRPointerPoseSelector__ctor_m286C17CA0B0637D8D9A841D3E1B7
 	_thisAdjusted = reinterpret_cast<OVRPointerPoseSelector_tAFF9D6C036191193059498E82B3E62E3A3490743*>(__this + _offset);
 	OVRPointerPoseSelector__ctor_m286C17CA0B0637D8D9A841D3E1B7DE1225128617(_thisAdjusted, ___0_handedness, method);
 }
-// Method Definition Index: 131503
+// Method Definition Index: 132009
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRPointerPoseSelector__cctor_m4FC64C238BE0797AA3DCCBC1960B71FD93173BF1 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6706,13 +6688,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRPointerPoseSelector__cctor_m4FC64C238
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:110>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:111>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:112>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:113>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:114>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:115>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:116>
 		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_0 = (PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB*)(PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB*)SZArrayNew(PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB_il2cpp_TypeInfo_var, (uint32_t)2);
 		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_1 = L_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
@@ -6738,13 +6720,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRPointerPoseSelector__cctor_m4FC64C238
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(1), (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971)L_8);
 		((OVRPointerPoseSelector_tAFF9D6C036191193059498E82B3E62E3A3490743_StaticFields*)il2cpp_codegen_static_fields_for(OVRPointerPoseSelector_tAFF9D6C036191193059498E82B3E62E3A3490743_il2cpp_TypeInfo_var))->___QUEST1_POINTERS = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&((OVRPointerPoseSelector_tAFF9D6C036191193059498E82B3E62E3A3490743_StaticFields*)il2cpp_codegen_static_fields_for(OVRPointerPoseSelector_tAFF9D6C036191193059498E82B3E62E3A3490743_il2cpp_TypeInfo_var))->___QUEST1_POINTERS), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:118>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:119>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:120>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:121>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:122>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:123>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:124>
 		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_9 = (PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB*)(PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB*)SZArrayNew(PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB_il2cpp_TypeInfo_var, (uint32_t)2);
 		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_10 = L_9;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
@@ -6781,32 +6763,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRPointerPoseSelector__cctor_m4FC64C238
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131504
+// Method Definition Index: 132010
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FromOVRControllerDataSource_get_CameraRigRef_mA1AF0A9F82733AB80D7BAF05AD09FF82D693C04D (FromOVRControllerDataSource_t15807F807DEF85A26FA6C78577FD8EB5697A4ACA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:150>
 		RuntimeObject* L_0 = __this->___U3CCameraRigRefU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131505
+// Method Definition Index: 132011
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_set_CameraRigRef_m77081F15C21BCF15B5CFCD3F432EA0709A5BF69D (FromOVRControllerDataSource_t15807F807DEF85A26FA6C78577FD8EB5697A4ACA* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:150>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CCameraRigRefU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCameraRigRefU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 131506
+// Method Definition Index: 132012
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FromOVRControllerDataSource_get_ProcessLateUpdates_mA621B7EE0977D5795383C9CC1BB9F91A3B5CB9AC (FromOVRControllerDataSource_t15807F807DEF85A26FA6C78577FD8EB5697A4ACA* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:167>
 		bool L_0 = __this->____processLateUpdates;
 		V_0 = L_0;
 		goto IL_000a;
@@ -6814,23 +6796,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FromOVRControllerDataSource_get_ProcessL
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:168>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:168>
 		bool L_1 = V_0;
 		return L_1;
 	}
 }
-// Method Definition Index: 131507
+// Method Definition Index: 132013
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_set_ProcessLateUpdates_m9C36294FFADDA1C821E4153317DC4E81844E9661 (FromOVRControllerDataSource_t15807F807DEF85A26FA6C78577FD8EB5697A4ACA* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:171>
 		bool L_0 = ___0_value;
 		__this->____processLateUpdates = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:172>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:172>
 		return;
 	}
 }
-// Method Definition Index: 131508
+// Method Definition Index: 132014
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_Awake_mC473FA1F07D8653BEF3C6D24426A595AC8EA7FB4 (FromOVRControllerDataSource_t15807F807DEF85A26FA6C78577FD8EB5697A4ACA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6841,20 +6823,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_Awake_mC473F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:207>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:207>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_0 = __this->____trackingToWorldTransformer;
 		__this->___TrackingToWorldTransformer = ((RuntimeObject*)IsInst((RuntimeObject*)L_0, ITrackingToWorldTransformer_t193B383D2CCDEDD1521A0197EB476879DD657B2E_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___TrackingToWorldTransformer), (void*)((RuntimeObject*)IsInst((RuntimeObject*)L_0, ITrackingToWorldTransformer_t193B383D2CCDEDD1521A0197EB476879DD657B2E_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:208>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:208>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_1 = __this->____cameraRigRef;
 		FromOVRControllerDataSource_set_CameraRigRef_m77081F15C21BCF15B5CFCD3F432EA0709A5BF69D_inline(__this, ((RuntimeObject*)IsInst((RuntimeObject*)L_1, IOVRCameraRigRef_t80C138B66CEC666A9A053632C2EFAF1B24FA67B8_il2cpp_TypeInfo_var)), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:210>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:210>
 		FromOVRControllerDataSource_UpdateConfig_mD0BEC70F807E2AE4B8046A6BF4E51A022E39C34A(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:211>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:211>
 		return;
 	}
 }
-// Method Definition Index: 131509
+// Method Definition Index: 132015
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_Start_m6E1FD4AD70C274EAD4D7024D62904CBB2A345DC3 (FromOVRControllerDataSource_t15807F807DEF85A26FA6C78577FD8EB5697A4ACA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6870,19 +6852,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_Start_m6E1FD
 	}
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:215>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:215>
 		bool* L_0 = (bool*)(&((DataSource_1_tE8EA827479FBF471B9F17E4E32325A6263E48E21*)__this)->____started);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_1, __this, (intptr_t)((void*)FromOVRControllerDataSource_U3CStartU3Eb__18_0_m53E054EC5308600227C98DB74743D476ECBEDC7C_RuntimeMethod_var), NULL);
 		MonoBehaviourStartExtensions_BeginStart_mC498E0AC129F7CDC354718BF0E799CB2A2E04366(__this, L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:216>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:216>
 		RuntimeObject* L_2;
 		L_2 = FromOVRControllerDataSource_get_CameraRigRef_mA1AF0A9F82733AB80D7BAF05AD09FF82D693C04D_inline(__this, NULL);
 		AssertUtils_AssertField_TisIOVRCameraRigRef_t80C138B66CEC666A9A053632C2EFAF1B24FA67B8_mB016E71C33D664913480CDA2A980A4256CF74048(__this, L_2, _stringLiteral3DA6FA5650959CC99BD5EC76A072208044EB59FD, (String_t*)NULL, (String_t*)NULL, (String_t*)NULL, AssertUtils_AssertField_TisIOVRCameraRigRef_t80C138B66CEC666A9A053632C2EFAF1B24FA67B8_mB016E71C33D664913480CDA2A980A4256CF74048_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:217>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:217>
 		RuntimeObject* L_3 = __this->___TrackingToWorldTransformer;
 		AssertUtils_AssertField_TisITrackingToWorldTransformer_t193B383D2CCDEDD1521A0197EB476879DD657B2E_mD60D3514AC3FA817A16A8C52A1CB4DBBD8DF1420(__this, L_3, _stringLiteralF810D1E03D882DC000399757AFAF9CC5E375F6AB, (String_t*)NULL, (String_t*)NULL, (String_t*)NULL, AssertUtils_AssertField_TisITrackingToWorldTransformer_t193B383D2CCDEDD1521A0197EB476879DD657B2E_mD60D3514AC3FA817A16A8C52A1CB4DBBD8DF1420_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:218>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:218>
 		int32_t L_4 = __this->____handedness;
 		V_0 = (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
 		bool L_5 = V_0;
@@ -6892,35 +6874,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_Start_m6E1FD
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:220>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:220>
 		__this->____ovrController = 1;
 		goto IL_0065;
 	}
 
 IL_005c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:224>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:224>
 		__this->____ovrController = 2;
 	}
 
 IL_0065:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:226>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:226>
 		int32_t L_6 = __this->____handedness;
 		OVRPointerPoseSelector_tAFF9D6C036191193059498E82B3E62E3A3490743 L_7;
 		memset((&L_7), 0, sizeof(L_7));
 		OVRPointerPoseSelector__ctor_m286C17CA0B0637D8D9A841D3E1B7DE1225128617((&L_7), L_6, NULL);
 		__this->____pointerPoseSelector = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:228>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:228>
 		FromOVRControllerDataSource_UpdateConfig_mD0BEC70F807E2AE4B8046A6BF4E51A022E39C34A(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:229>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:229>
 		bool* L_8 = (bool*)(&((DataSource_1_tE8EA827479FBF471B9F17E4E32325A6263E48E21*)__this)->____started);
 		MonoBehaviourStartExtensions_EndStart_mB9C76425BEAB3A0D8A30965081A4F356F9F69CF5(__this, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:230>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:230>
 		return;
 	}
 }
-// Method Definition Index: 131510
+// Method Definition Index: 132016
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_OnEnable_mD3DA66C69F2684557361CA64A045323436D34E1C (FromOVRControllerDataSource_t15807F807DEF85A26FA6C78577FD8EB5697A4ACA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6934,9 +6916,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_OnEnable_mD3
 	}
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:234>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:234>
 		DataSource_1_OnEnable_m04A10BF93483516A1096C59519289DA99173B3F5(__this, DataSource_1_OnEnable_m04A10BF93483516A1096C59519289DA99173B3F5_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:235>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:235>
 		bool L_0 = ((DataSource_1_tE8EA827479FBF471B9F17E4E32325A6263E48E21*)__this)->____started;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -6946,7 +6928,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_OnEnable_mD3
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:237>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:237>
 		RuntimeObject* L_2;
 		L_2 = FromOVRControllerDataSource_get_CameraRigRef_mA1AF0A9F82733AB80D7BAF05AD09FF82D693C04D_inline(__this, NULL);
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_3 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
@@ -6957,11 +6939,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_OnEnable_mD3
 
 IL_002c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:239>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:239>
 		return;
 	}
 }
-// Method Definition Index: 131511
+// Method Definition Index: 132017
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_OnDisable_mE4FA1DF1AA682287F490C872DAC11AA617F51122 (FromOVRControllerDataSource_t15807F807DEF85A26FA6C78577FD8EB5697A4ACA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6975,7 +6957,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_OnDisable_mE
 	}
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:243>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:243>
 		bool L_0 = ((DataSource_1_tE8EA827479FBF471B9F17E4E32325A6263E48E21*)__this)->____started;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -6985,7 +6967,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_OnDisable_mE
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:245>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:245>
 		RuntimeObject* L_2;
 		L_2 = FromOVRControllerDataSource_get_CameraRigRef_mA1AF0A9F82733AB80D7BAF05AD09FF82D693C04D_inline(__this, NULL);
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_3 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
@@ -6996,21 +6978,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_OnDisable_mE
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:248>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:248>
 		DataSource_1_OnDisable_m79227AB68310604820BED4AC79E03B1DCCD6299D(__this, DataSource_1_OnDisable_m79227AB68310604820BED4AC79E03B1DCCD6299D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:250>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:250>
 		VirtualActionInvoker0::Invoke(16, __this);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:251>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:251>
 		return;
 	}
 }
-// Method Definition Index: 131512
+// Method Definition Index: 132018
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_HandleInputDataDirtied_m5688BA3CD2BDBA21EE650AC64F818B779035D586 (FromOVRControllerDataSource_t15807F807DEF85A26FA6C78577FD8EB5697A4ACA* __this, bool ___0_isLateUpdate, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:255>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:255>
 		bool L_0 = ___0_isLateUpdate;
 		if (!L_0)
 		{
@@ -7038,23 +7020,23 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:257>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:257>
 		goto IL_001e;
 	}
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:259>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:259>
 		VirtualActionInvoker0::Invoke(16, __this);
 	}
 
 IL_001e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:260>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:260>
 		return;
 	}
 }
-// Method Definition Index: 131513
+// Method Definition Index: 132019
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ControllerDataSourceConfig_t77F9591B645FD62760D99484471B223F3ACF8062* FromOVRControllerDataSource_get_Config_mC8A01DA08D0A732995C7E503D79533C693B38E7E (FromOVRControllerDataSource_t15807F807DEF85A26FA6C78577FD8EB5697A4ACA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7066,7 +7048,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ControllerDataSourceConfig_t77F9591B645FD6276
 	bool V_0 = false;
 	ControllerDataSourceConfig_t77F9591B645FD62760D99484471B223F3ACF8062* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:266>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:266>
 		ControllerDataSourceConfig_t77F9591B645FD62760D99484471B223F3ACF8062* L_0 = __this->____config;
 		V_0 = (bool)((!(((RuntimeObject*)(ControllerDataSourceConfig_t77F9591B645FD62760D99484471B223F3ACF8062*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		bool L_1 = V_0;
@@ -7076,7 +7058,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ControllerDataSourceConfig_t77F9591B645FD6276
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:268>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:268>
 		ControllerDataSourceConfig_t77F9591B645FD62760D99484471B223F3ACF8062* L_2 = __this->____config;
 		V_1 = L_2;
 		goto IL_0039;
@@ -7084,10 +7066,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ControllerDataSourceConfig_t77F9591B645FD6276
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:271>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:272>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:273>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:274>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:271>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:272>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:273>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:274>
 		ControllerDataSourceConfig_t77F9591B645FD62760D99484471B223F3ACF8062* L_3 = (ControllerDataSourceConfig_t77F9591B645FD62760D99484471B223F3ACF8062*)il2cpp_codegen_object_new(ControllerDataSourceConfig_t77F9591B645FD62760D99484471B223F3ACF8062_il2cpp_TypeInfo_var);
 		ControllerDataSourceConfig__ctor_m46C6374C1D83096E8646C66609F7E84DF0914B17(L_3, NULL);
 		ControllerDataSourceConfig_t77F9591B645FD62760D99484471B223F3ACF8062* L_4 = L_3;
@@ -7096,7 +7078,7 @@ IL_0018:
 		ControllerDataSourceConfig_set_Handedness_mB4FAE612E5494F06F211F9FE3E0C459273EA2AE5_inline(L_4, L_5, NULL);
 		__this->____config = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____config), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:276>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:276>
 		ControllerDataSourceConfig_t77F9591B645FD62760D99484471B223F3ACF8062* L_6 = __this->____config;
 		V_1 = L_6;
 		goto IL_0039;
@@ -7104,32 +7086,32 @@ IL_0018:
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:277>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:277>
 		ControllerDataSourceConfig_t77F9591B645FD62760D99484471B223F3ACF8062* L_7 = V_1;
 		return L_7;
 	}
 }
-// Method Definition Index: 131514
+// Method Definition Index: 132020
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_UpdateConfig_mD0BEC70F807E2AE4B8046A6BF4E51A022E39C34A (FromOVRControllerDataSource_t15807F807DEF85A26FA6C78577FD8EB5697A4ACA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:282>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:282>
 		ControllerDataSourceConfig_t77F9591B645FD62760D99484471B223F3ACF8062* L_0;
 		L_0 = FromOVRControllerDataSource_get_Config_mC8A01DA08D0A732995C7E503D79533C693B38E7E(__this, NULL);
 		int32_t L_1 = __this->____handedness;
 		NullCheck(L_0);
 		ControllerDataSourceConfig_set_Handedness_mB4FAE612E5494F06F211F9FE3E0C459273EA2AE5_inline(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:283>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:283>
 		ControllerDataSourceConfig_t77F9591B645FD62760D99484471B223F3ACF8062* L_2;
 		L_2 = FromOVRControllerDataSource_get_Config_mC8A01DA08D0A732995C7E503D79533C693B38E7E(__this, NULL);
 		RuntimeObject* L_3 = __this->___TrackingToWorldTransformer;
 		NullCheck(L_2);
 		ControllerDataSourceConfig_set_TrackingToWorldTransformer_m3FEFC92EA64E81A433997AFA752FE3CB725A46E6_inline(L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:284>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:284>
 		return;
 	}
 }
-// Method Definition Index: 131515
+// Method Definition Index: 132021
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_UpdateData_m9498910927B8D16F65AB8D0A919541DBE3FE38D6 (FromOVRControllerDataSource_t15807F807DEF85A26FA6C78577FD8EB5697A4ACA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7160,19 +7142,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_UpdateData_m
 	int32_t G_B12_0 = 0;
 	ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* G_B12_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:288>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:288>
 		ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* L_0 = __this->____controllerDataAsset;
 		ControllerDataSourceConfig_t77F9591B645FD62760D99484471B223F3ACF8062* L_1;
 		L_1 = FromOVRControllerDataSource_get_Config_mC8A01DA08D0A732995C7E503D79533C693B38E7E(__this, NULL);
 		NullCheck(L_0);
 		L_0->___Config = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&L_0->___Config), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:289>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:289>
 		ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* L_2 = __this->____controllerDataAsset;
 		NullCheck(L_2);
 		L_2->___IsDataValid = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:290>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:291>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:290>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:291>
 		ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* L_3 = __this->____controllerDataAsset;
 		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
 		int32_t L_4;
@@ -7180,7 +7162,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_UpdateData_m
 		int32_t L_5 = __this->____ovrController;
 		NullCheck(L_3);
 		L_3->___IsConnected = (bool)((((int32_t)((int32_t)((int32_t)L_4&(int32_t)L_5))) > ((int32_t)0))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:292>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:292>
 		ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* L_6 = __this->____controllerDataAsset;
 		NullCheck(L_6);
 		bool L_7 = L_6->___IsConnected;
@@ -7211,41 +7193,41 @@ IL_0051:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:295>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:295>
 		ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* L_10 = __this->____controllerDataAsset;
 		NullCheck(L_10);
 		L_10->___IsConnected = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:296>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:296>
 		ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* L_11 = __this->____controllerDataAsset;
 		NullCheck(L_11);
 		L_11->___IsTracked = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:297>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:297>
 		ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* L_12 = __this->____controllerDataAsset;
 		NullCheck(L_12);
 		ControllerInput_tD6932AB13D2130F0DBA5BEE561F52A2316442EA1* L_13 = (ControllerInput_tD6932AB13D2130F0DBA5BEE561F52A2316442EA1*)(&L_12->___Input);
 		il2cpp_codegen_initobj(L_13, sizeof(ControllerInput_tD6932AB13D2130F0DBA5BEE561F52A2316442EA1));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:298>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:298>
 		ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* L_14 = __this->____controllerDataAsset;
 		NullCheck(L_14);
 		L_14->___RootPoseOrigin = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:299>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:299>
 		goto IL_01cc;
 	}
 
 IL_0090:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:302>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:302>
 		ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* L_15 = __this->____controllerDataAsset;
 		NullCheck(L_15);
 		L_15->___IsTracked = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:304>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:304>
 		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
 		int32_t L_16;
 		L_16 = OVRInput_GetDominantHand_m19E38B4B4C4B246B2ABE605F1ED7F0041B88E6F0(NULL);
 		V_0 = L_16;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:305>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:306>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:307>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:305>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:306>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:307>
 		ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* L_17 = __this->____controllerDataAsset;
 		int32_t L_18 = V_0;
 		if ((!(((uint32_t)L_18) == ((uint32_t)1))))
@@ -7305,15 +7287,15 @@ IL_00c7:
 	{
 		NullCheck(G_B12_1);
 		G_B12_1->___IsDominantHand = (bool)G_B12_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:310>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:310>
 		ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* L_22 = __this->____controllerDataAsset;
 		NullCheck(L_22);
 		ControllerInput_tD6932AB13D2130F0DBA5BEE561F52A2316442EA1* L_23 = (ControllerInput_tD6932AB13D2130F0DBA5BEE561F52A2316442EA1*)(&L_22->___Input);
 		ControllerInput_Clear_mAA9F744F6D2BC15975CDBECB03A3CA782A6C1709(L_23, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:312>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:312>
 		int32_t L_24 = __this->____ovrController;
 		V_1 = L_24;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:313>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:313>
 		il2cpp_codegen_runtime_class_init_inline(FromOVRControllerDataSource_t15807F807DEF85A26FA6C78577FD8EB5697A4ACA_il2cpp_TypeInfo_var);
 		IUsageU5BU5D_t8E2078A49846E1965DA663E26B144C4EA94FAAC1* L_25 = ((FromOVRControllerDataSource_t15807F807DEF85A26FA6C78577FD8EB5697A4ACA_StaticFields*)il2cpp_codegen_static_fields_for(FromOVRControllerDataSource_t15807F807DEF85A26FA6C78577FD8EB5697A4ACA_il2cpp_TypeInfo_var))->___ControllerUsageMappings;
 		V_4 = L_25;
@@ -7323,14 +7305,14 @@ IL_00c7:
 
 IL_00f1:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:313>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:313>
 		IUsageU5BU5D_t8E2078A49846E1965DA663E26B144C4EA94FAAC1* L_26 = V_4;
 		int32_t L_27 = V_5;
 		NullCheck(L_26);
 		int32_t L_28 = L_27;
 		RuntimeObject* L_29 = (L_26)->GetAt(static_cast<il2cpp_array_size_t>(L_28));
 		V_6 = L_29;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:315>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:315>
 		RuntimeObject* L_30 = V_6;
 		ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* L_31 = __this->____controllerDataAsset;
 		int32_t L_32 = V_1;
@@ -7342,7 +7324,7 @@ IL_00f1:
 
 IL_010f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:313>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:313>
 		int32_t L_34 = V_5;
 		IUsageU5BU5D_t8E2078A49846E1965DA663E26B144C4EA94FAAC1* L_35 = V_4;
 		NullCheck(L_35);
@@ -7352,9 +7334,9 @@ IL_010f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:321>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:322>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:323>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:321>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:322>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:323>
 		ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* L_36 = __this->____controllerDataAsset;
 		int32_t L_37 = __this->____ovrController;
 		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
@@ -7368,13 +7350,13 @@ IL_010f:
 		Pose__ctor_m15CA45808A2BBF1956E836D22C387FAB80BED051((&L_41), L_38, L_40, NULL);
 		NullCheck(L_36);
 		L_36->___RootPose = L_41;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:324>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:324>
 		ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* L_42 = __this->____controllerDataAsset;
 		NullCheck(L_42);
 		L_42->___RootPoseOrigin = 1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:327>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:328>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:329>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:327>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:328>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:329>
 		ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* L_43 = __this->____controllerDataAsset;
 		NullCheck(L_43);
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_44 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&L_43->___RootPose);
@@ -7388,9 +7370,9 @@ IL_010f:
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_50;
 		L_50 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3(L_45, L_48, L_49, NULL);
 		V_2 = L_50;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:330>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:331>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:332>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:330>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:331>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:332>
 		ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* L_51 = __this->____controllerDataAsset;
 		OVRPointerPoseSelector_tAFF9D6C036191193059498E82B3E62E3A3490743* L_52 = (OVRPointerPoseSelector_tAFF9D6C036191193059498E82B3E62E3A3490743*)(&__this->____pointerPoseSelector);
 		il2cpp_codegen_runtime_class_init_inline(OVRPointerPoseSelector_tAFF9D6C036191193059498E82B3E62E3A3490743_il2cpp_TypeInfo_var);
@@ -7414,7 +7396,7 @@ IL_010f:
 		Pose__ctor_m15CA45808A2BBF1956E836D22C387FAB80BED051((&L_63), L_55, L_62, NULL);
 		NullCheck(L_51);
 		L_51->___PointerPose = L_63;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:334>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:334>
 		ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* L_64 = __this->____controllerDataAsset;
 		NullCheck(L_64);
 		L_64->___PointerPoseOrigin = 1;
@@ -7422,20 +7404,20 @@ IL_010f:
 
 IL_01cc:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:335>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:335>
 		return;
 	}
 }
-// Method Definition Index: 131516
+// Method Definition Index: 132022
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* FromOVRControllerDataSource_get_DataAsset_m53091D8E4D4992445548AC964FBF373283A15B8F (FromOVRControllerDataSource_t15807F807DEF85A26FA6C78577FD8EB5697A4ACA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:337>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:337>
 		ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* L_0 = __this->____controllerDataAsset;
 		return L_0;
 	}
 }
-// Method Definition Index: 131517
+// Method Definition Index: 132023
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_InjectAllFromOVRControllerDataSource_m43C5928E3A705372DA38D10DBCE52A38BE92098A (FromOVRControllerDataSource_t15807F807DEF85A26FA6C78577FD8EB5697A4ACA* __this, int32_t ___0_updateMode, RuntimeObject* ___1_updateAfter, int32_t ___2_handedness, RuntimeObject* ___3_trackingToWorldTransformer, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7445,32 +7427,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_InjectAllFro
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:344>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:344>
 		int32_t L_0 = ___0_updateMode;
 		RuntimeObject* L_1 = ___1_updateAfter;
 		DataSource_1_InjectAllDataSource_mAFF8FA26FBDE6C4ADDB2EE85B9DEDA055CED5AD8(__this, L_0, L_1, DataSource_1_InjectAllDataSource_mAFF8FA26FBDE6C4ADDB2EE85B9DEDA055CED5AD8_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:345>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:345>
 		int32_t L_2 = ___2_handedness;
 		FromOVRControllerDataSource_InjectHandedness_m81961E1B46DFC1189822BFBD49AD90C1AEE92F54(__this, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:346>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:346>
 		RuntimeObject* L_3 = ___3_trackingToWorldTransformer;
 		FromOVRControllerDataSource_InjectTrackingToWorldTransformer_mDA0DB4BE3729D34D67141C72D0BC0143630176E3(__this, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:347>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:347>
 		return;
 	}
 }
-// Method Definition Index: 131518
+// Method Definition Index: 132024
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_InjectHandedness_m81961E1B46DFC1189822BFBD49AD90C1AEE92F54 (FromOVRControllerDataSource_t15807F807DEF85A26FA6C78577FD8EB5697A4ACA* __this, int32_t ___0_handedness, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:351>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:351>
 		int32_t L_0 = ___0_handedness;
 		__this->____handedness = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:352>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:352>
 		return;
 	}
 }
-// Method Definition Index: 131519
+// Method Definition Index: 132025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_InjectTrackingToWorldTransformer_mDA0DB4BE3729D34D67141C72D0BC0143630176E3 (FromOVRControllerDataSource_t15807F807DEF85A26FA6C78577FD8EB5697A4ACA* __this, RuntimeObject* ___0_trackingToWorldTransformer, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7480,19 +7462,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_InjectTracki
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:356>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:356>
 		RuntimeObject* L_0 = ___0_trackingToWorldTransformer;
 		__this->____trackingToWorldTransformer = ((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____trackingToWorldTransformer), (void*)((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:357>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:357>
 		RuntimeObject* L_1 = ___0_trackingToWorldTransformer;
 		__this->___TrackingToWorldTransformer = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___TrackingToWorldTransformer), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:358>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:358>
 		return;
 	}
 }
-// Method Definition Index: 131520
+// Method Definition Index: 132026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource__ctor_mDB3A3E6D430A36AA6E57A3FDEBF3792C2917C265 (FromOVRControllerDataSource_t15807F807DEF85A26FA6C78577FD8EB5697A4ACA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7503,9 +7485,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource__ctor_mDB3A3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:153>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:153>
 		__this->____processLateUpdates = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:175>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:175>
 		ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36* L_0 = (ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36*)il2cpp_codegen_object_new(ControllerDataAsset_t78DE4BF9CFD14EC955A27BBBF6DF4B981916EB36_il2cpp_TypeInfo_var);
 		ControllerDataAsset__ctor_mD64E460AACE10CEE77506FB45A55B081C908BD4A(L_0, NULL);
 		__this->____controllerDataAsset = L_0;
@@ -7514,7 +7496,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource__ctor_mDB3A3
 		return;
 	}
 }
-// Method Definition Index: 131521
+// Method Definition Index: 132027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource__cctor_m56CF88B2DF92658A18E2CE93FEC6BB7E36A0A1A3 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7529,24 +7511,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource__cctor_m56CF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:184>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:185>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:186>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:187>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:188>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:189>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:190>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:191>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:192>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:193>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:194>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:195>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:196>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:197>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:198>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:199>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:200>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:201>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:185>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:186>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:188>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:189>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:190>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:191>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:192>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:193>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:194>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:195>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:196>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:197>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:198>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:199>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:200>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:201>
 		IUsageU5BU5D_t8E2078A49846E1965DA663E26B144C4EA94FAAC1* L_0 = (IUsageU5BU5D_t8E2078A49846E1965DA663E26B144C4EA94FAAC1*)(IUsageU5BU5D_t8E2078A49846E1965DA663E26B144C4EA94FAAC1*)SZArrayNew(IUsageU5BU5D_t8E2078A49846E1965DA663E26B144C4EA94FAAC1_il2cpp_TypeInfo_var, (uint32_t)((int32_t)13));
 		IUsageU5BU5D_t8E2078A49846E1965DA663E26B144C4EA94FAAC1* L_1 = L_0;
 		UsageButtonMapping_t4E351D44C2E63CBDFF581148D80761332BC8D39C* L_2 = (UsageButtonMapping_t4E351D44C2E63CBDFF581148D80761332BC8D39C*)il2cpp_codegen_object_new(UsageButtonMapping_t4E351D44C2E63CBDFF581148D80761332BC8D39C_il2cpp_TypeInfo_var);
@@ -7631,7 +7613,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource__cctor_m56CF
 		return;
 	}
 }
-// Method Definition Index: 131522
+// Method Definition Index: 132028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_U3CStartU3Eb__18_0_m53E054EC5308600227C98DB74743D476ECBEDC7C (FromOVRControllerDataSource_t15807F807DEF85A26FA6C78577FD8EB5697A4ACA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7641,7 +7623,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_U3CStartU3Eb
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:215>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:215>
 		DataSource_1_Start_m730F94193926FEFFCE310B56E77FBD5BBDD87B06(__this, DataSource_1_Start_m730F94193926FEFFCE310B56E77FBD5BBDD87B06_RuntimeMethod_var);
 		return;
 	}
@@ -7654,12 +7636,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_U3CStartU3Eb
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131523
+// Method Definition Index: 132029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FromOVRHandDataSource_get_ProcessLateUpdates_m851639EB0AB851A5B25C657B02357D63F9F2F12E (FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:43>
 		bool L_0 = __this->____processLateUpdates;
 		V_0 = L_0;
 		goto IL_000a;
@@ -7667,32 +7649,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FromOVRHandDataSource_get_ProcessLateUpd
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:44>
 		bool L_1 = V_0;
 		return L_1;
 	}
 }
-// Method Definition Index: 131524
+// Method Definition Index: 132030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_set_ProcessLateUpdates_m45737D02B9263D7B332A4F05FB1A15B0041684F4 (FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:47>
 		bool L_0 = ___0_value;
 		__this->____processLateUpdates = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:48>
 		return;
 	}
 }
-// Method Definition Index: 131525
+// Method Definition Index: 132031
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* FromOVRHandDataSource_get_DataAsset_m7195406695FFE1DB1118D1CEAA676CD16987C498 (FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:72>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_0 = __this->____handDataAsset;
 		return L_0;
 	}
 }
-// Method Definition Index: 131526
+// Method Definition Index: 132032
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 FromOVRHandDataSource_get_WristFixupRotation_m7BFB41BF76A11C8C094B3877C515F87D65A292F7 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7702,13 +7684,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:75>
 		il2cpp_codegen_runtime_class_init_inline(FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9_il2cpp_TypeInfo_var);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ((FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9_StaticFields*)il2cpp_codegen_static_fields_for(FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9_il2cpp_TypeInfo_var))->___U3CWristFixupRotationU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131527
+// Method Definition Index: 132033
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_Awake_m2693984F2C7B8BD938EF23E1C625C628D0C5B2C8 (FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7720,25 +7702,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_Awake_m2693984F2C7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:80>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_0 = __this->____trackingToWorldTransformer;
 		__this->___TrackingToWorldTransformer = ((RuntimeObject*)IsInst((RuntimeObject*)L_0, ITrackingToWorldTransformer_t193B383D2CCDEDD1521A0197EB476879DD657B2E_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___TrackingToWorldTransformer), (void*)((RuntimeObject*)IsInst((RuntimeObject*)L_0, ITrackingToWorldTransformer_t193B383D2CCDEDD1521A0197EB476879DD657B2E_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:81>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_1 = __this->____cameraRigRef;
 		__this->___CameraRigRef = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, IOVRCameraRigRef_t80C138B66CEC666A9A053632C2EFAF1B24FA67B8_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___CameraRigRef), (void*)((RuntimeObject*)IsInst((RuntimeObject*)L_1, IOVRCameraRigRef_t80C138B66CEC666A9A053632C2EFAF1B24FA67B8_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:82>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_2 = __this->____handSkeletonProvider;
 		__this->___HandSkeletonProvider = ((RuntimeObject*)IsInst((RuntimeObject*)L_2, IHandSkeletonProvider_tB793450B93BBC4F4324DCEFC159C1F5CEC00FA56_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___HandSkeletonProvider), (void*)((RuntimeObject*)IsInst((RuntimeObject*)L_2, IHandSkeletonProvider_tB793450B93BBC4F4324DCEFC159C1F5CEC00FA56_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:83>
 		FromOVRHandDataSource_UpdateConfig_mC2BE466B3760F42F534055E6510DE9DBA7097926(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:84>
 		return;
 	}
 }
-// Method Definition Index: 131528
+// Method Definition Index: 132034
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_Start_m402C9D30C994124BC53F75B35D7BC6DC79B92B8A (FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7770,21 +7752,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_Start_m402C9D30C99
 	OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* G_B4_0 = NULL;
 	FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9* G_B4_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:88>
 		bool* L_0 = (bool*)(&((DataSource_1_t52417BE3B8B9F715907C38CA4A3396D702F6CE1E*)__this)->____started);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_1, __this, (intptr_t)((void*)FromOVRHandDataSource_U3CStartU3Eb__21_0_mCCE7B179219B5C7EC23819670D3487A69414E645_RuntimeMethod_var), NULL);
 		MonoBehaviourStartExtensions_BeginStart_mC498E0AC129F7CDC354718BF0E799CB2A2E04366(__this, L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:89>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:89>
 		RuntimeObject* L_2 = __this->___CameraRigRef;
 		AssertUtils_AssertField_TisIOVRCameraRigRef_t80C138B66CEC666A9A053632C2EFAF1B24FA67B8_mB016E71C33D664913480CDA2A980A4256CF74048(__this, L_2, _stringLiteral3DA6FA5650959CC99BD5EC76A072208044EB59FD, (String_t*)NULL, (String_t*)NULL, (String_t*)NULL, AssertUtils_AssertField_TisIOVRCameraRigRef_t80C138B66CEC666A9A053632C2EFAF1B24FA67B8_mB016E71C33D664913480CDA2A980A4256CF74048_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:90>
 		RuntimeObject* L_3 = __this->___TrackingToWorldTransformer;
 		AssertUtils_AssertField_TisITrackingToWorldTransformer_t193B383D2CCDEDD1521A0197EB476879DD657B2E_mD60D3514AC3FA817A16A8C52A1CB4DBBD8DF1420(__this, L_3, _stringLiteralF810D1E03D882DC000399757AFAF9CC5E375F6AB, (String_t*)NULL, (String_t*)NULL, (String_t*)NULL, AssertUtils_AssertField_TisITrackingToWorldTransformer_t193B383D2CCDEDD1521A0197EB476879DD657B2E_mD60D3514AC3FA817A16A8C52A1CB4DBBD8DF1420_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:91>
 		RuntimeObject* L_4 = __this->___HandSkeletonProvider;
 		AssertUtils_AssertField_TisIHandSkeletonProvider_tB793450B93BBC4F4324DCEFC159C1F5CEC00FA56_m56EB640A9BD316B3D175CC199EAA0D06677E87A8(__this, L_4, _stringLiteral4B0279A1659CAB3096531F6F36B939C79921DC8F, (String_t*)NULL, (String_t*)NULL, (String_t*)NULL, AssertUtils_AssertField_TisIHandSkeletonProvider_tB793450B93BBC4F4324DCEFC159C1F5CEC00FA56_m56EB640A9BD316B3D175CC199EAA0D06677E87A8_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:93>
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* L_5 = __this->____ovrHand;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -7797,8 +7779,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_Start_m402C9D30C99
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:95>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:96>
 		int32_t L_8 = __this->____handedness;
 		if (!L_8)
 		{
@@ -7836,12 +7818,12 @@ IL_008b:
 
 IL_0091:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:99>
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* L_13 = __this->____ovrHand;
 		AssertUtils_AssertField_TisOVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509_m67C135196C8C7282A5B8FA027FBD5EA793712A3E(__this, L_13, _stringLiteral7CF5BDB88925FA5ECDDDF68C7EAB62DB5C45CEBC, (String_t*)NULL, (String_t*)NULL, (String_t*)NULL, AssertUtils_AssertField_TisOVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509_m67C135196C8C7282A5B8FA027FBD5EA793712A3E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:101>
 		FromOVRHandDataSource_UpdateConfig_mC2BE466B3760F42F534055E6510DE9DBA7097926(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:103>
 		il2cpp_codegen_runtime_class_init_inline(OVRRuntimeSettings_tC85E84DCFBF4DB2D4C3311CA39C96DEE89220EE1_il2cpp_TypeInfo_var);
 		OVRRuntimeSettings_tC85E84DCFBF4DB2D4C3311CA39C96DEE89220EE1* L_14;
 		L_14 = OVRRuntimeSettings_GetRuntimeSettings_m357C35DCF6941F52EDB4FD95F9FEBC78DDFE62AB(NULL);
@@ -7849,8 +7831,8 @@ IL_0091:
 		int32_t L_15;
 		L_15 = OVRRuntimeSettings_get_HandSkeletonVersion_mDE8EF6777A30BE53949209A8FF8C0C84D2BBF299_inline(L_14, NULL);
 		V_0 = L_15;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:105>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:106>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:106>
 		int32_t L_16 = V_0;
 		int32_t L_17 = 1;
 		RuntimeObject* L_18 = Box(OVRHandSkeletonVersion_tB2505F97168E30D505EAAD7C922FB01223551A5D_il2cpp_TypeInfo_var, &L_17);
@@ -7858,14 +7840,14 @@ IL_0091:
 		L_19 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral2187FE8FC9973EC6975149C2BA73733CE9BFBE7D, L_18, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
 		Assert_AreEqual_TisOVRHandSkeletonVersion_tB2505F97168E30D505EAAD7C922FB01223551A5D_m7EEEF27B2A8A34E2BDF3B54C89520968B1ADA305(L_16, 1, L_19, Assert_AreEqual_TisOVRHandSkeletonVersion_tB2505F97168E30D505EAAD7C922FB01223551A5D_m7EEEF27B2A8A34E2BDF3B54C89520968B1ADA305_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:111>
 		bool* L_20 = (bool*)(&((DataSource_1_t52417BE3B8B9F715907C38CA4A3396D702F6CE1E*)__this)->____started);
 		MonoBehaviourStartExtensions_EndStart_mB9C76425BEAB3A0D8A30965081A4F356F9F69CF5(__this, L_20, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:112>
 		return;
 	}
 }
-// Method Definition Index: 131529
+// Method Definition Index: 132035
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_OnEnable_mF2E2F5014D3823A7392354FAB0AAEC1583CBD360 (FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7879,9 +7861,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_OnEnable_mF2E2F501
 	}
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:116>
 		DataSource_1_OnEnable_m695C41F567B556EC72BCD0A53EE95AF2FB17E21B(__this, DataSource_1_OnEnable_m695C41F567B556EC72BCD0A53EE95AF2FB17E21B_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:117>
 		bool L_0 = ((DataSource_1_t52417BE3B8B9F715907C38CA4A3396D702F6CE1E*)__this)->____started;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -7891,7 +7873,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_OnEnable_mF2E2F501
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:119>
 		RuntimeObject* L_2 = __this->___CameraRigRef;
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_3 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
 		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_3, __this, (intptr_t)((void*)FromOVRHandDataSource_HandleInputDataDirtied_m0B8F135AC0F63793E8E199DD43DCD6954B6634EF_RuntimeMethod_var), NULL);
@@ -7901,11 +7883,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_OnEnable_mF2E2F501
 
 IL_002c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:121>
 		return;
 	}
 }
-// Method Definition Index: 131530
+// Method Definition Index: 132036
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_OnDisable_mA77B6DABAA63A3EED003BDF645A7C8A33EBA8596 (FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7919,7 +7901,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_OnDisable_mA77B6DA
 	}
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:125>
 		bool L_0 = ((DataSource_1_t52417BE3B8B9F715907C38CA4A3396D702F6CE1E*)__this)->____started;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -7929,7 +7911,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_OnDisable_mA77B6DA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:127>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:127>
 		RuntimeObject* L_2 = __this->___CameraRigRef;
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_3 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
 		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_3, __this, (intptr_t)((void*)FromOVRHandDataSource_HandleInputDataDirtied_m0B8F135AC0F63793E8E199DD43DCD6954B6634EF_RuntimeMethod_var), NULL);
@@ -7939,21 +7921,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_OnDisable_mA77B6DA
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:130>
 		DataSource_1_OnDisable_m000B099FCED809A70D03B0651B144708C6BDFF36(__this, DataSource_1_OnDisable_m000B099FCED809A70D03B0651B144708C6BDFF36_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:132>
 		VirtualActionInvoker0::Invoke(16, __this);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:133>
 		return;
 	}
 }
-// Method Definition Index: 131531
+// Method Definition Index: 132037
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_HandleInputDataDirtied_m0B8F135AC0F63793E8E199DD43DCD6954B6634EF (FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9* __this, bool ___0_isLateUpdate, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:137>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:137>
 		bool L_0 = ___0_isLateUpdate;
 		if (!L_0)
 		{
@@ -7981,23 +7963,23 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:139>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:139>
 		goto IL_001e;
 	}
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:141>
 		VirtualActionInvoker0::Invoke(16, __this);
 	}
 
 IL_001e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:142>
 		return;
 	}
 }
-// Method Definition Index: 131532
+// Method Definition Index: 132038
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HandDataSourceConfig_t29A4B860CAB12E81573F5565FD5336F4010C3054* FromOVRHandDataSource_get_Config_m62051F394E930E580F0EE109BABA0F0EC41CE2CF (FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8009,7 +7991,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HandDataSourceConfig_t29A4B860CAB12E81573F556
 	bool V_0 = false;
 	HandDataSourceConfig_t29A4B860CAB12E81573F5565FD5336F4010C3054* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:149>
 		HandDataSourceConfig_t29A4B860CAB12E81573F5565FD5336F4010C3054* L_0 = __this->____config;
 		V_0 = (bool)((!(((RuntimeObject*)(HandDataSourceConfig_t29A4B860CAB12E81573F5565FD5336F4010C3054*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		bool L_1 = V_0;
@@ -8019,7 +8001,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HandDataSourceConfig_t29A4B860CAB12E81573F556
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:151>
 		HandDataSourceConfig_t29A4B860CAB12E81573F5565FD5336F4010C3054* L_2 = __this->____config;
 		V_1 = L_2;
 		goto IL_0039;
@@ -8027,10 +8009,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HandDataSourceConfig_t29A4B860CAB12E81573F556
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:154>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:155>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:156>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:157>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:157>
 		HandDataSourceConfig_t29A4B860CAB12E81573F5565FD5336F4010C3054* L_3 = (HandDataSourceConfig_t29A4B860CAB12E81573F5565FD5336F4010C3054*)il2cpp_codegen_object_new(HandDataSourceConfig_t29A4B860CAB12E81573F5565FD5336F4010C3054_il2cpp_TypeInfo_var);
 		HandDataSourceConfig__ctor_mA41828ACB676B6FB3BD15F8F36853D55C7565EB0(L_3, NULL);
 		HandDataSourceConfig_t29A4B860CAB12E81573F5565FD5336F4010C3054* L_4 = L_3;
@@ -8039,7 +8021,7 @@ IL_0018:
 		HandDataSourceConfig_set_Handedness_m6D4D243AC1A402A05F9674A5115E901EA2C0E85C_inline(L_4, L_5, NULL);
 		__this->____config = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____config), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:159>
 		HandDataSourceConfig_t29A4B860CAB12E81573F5565FD5336F4010C3054* L_6 = __this->____config;
 		V_1 = L_6;
 		goto IL_0039;
@@ -8047,12 +8029,12 @@ IL_0018:
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:160>
 		HandDataSourceConfig_t29A4B860CAB12E81573F5565FD5336F4010C3054* L_7 = V_1;
 		return L_7;
 	}
 }
-// Method Definition Index: 131533
+// Method Definition Index: 132039
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_UpdateConfig_mC2BE466B3760F42F534055E6510DE9DBA7097926 (FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8062,19 +8044,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_UpdateConfig_mC2BE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:165>
 		HandDataSourceConfig_t29A4B860CAB12E81573F5565FD5336F4010C3054* L_0;
 		L_0 = FromOVRHandDataSource_get_Config_m62051F394E930E580F0EE109BABA0F0EC41CE2CF(__this, NULL);
 		int32_t L_1 = __this->____handedness;
 		NullCheck(L_0);
 		HandDataSourceConfig_set_Handedness_m6D4D243AC1A402A05F9674A5115E901EA2C0E85C_inline(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:166>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:166>
 		HandDataSourceConfig_t29A4B860CAB12E81573F5565FD5336F4010C3054* L_2;
 		L_2 = FromOVRHandDataSource_get_Config_m62051F394E930E580F0EE109BABA0F0EC41CE2CF(__this, NULL);
 		RuntimeObject* L_3 = __this->___TrackingToWorldTransformer;
 		NullCheck(L_2);
 		HandDataSourceConfig_set_TrackingToWorldTransformer_m32D9167DF390D900C1C75D774F143CEC05D3326E_inline(L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:167>
 		HandDataSourceConfig_t29A4B860CAB12E81573F5565FD5336F4010C3054* L_4;
 		L_4 = FromOVRHandDataSource_get_Config_m62051F394E930E580F0EE109BABA0F0EC41CE2CF(__this, NULL);
 		RuntimeObject* L_5 = __this->___HandSkeletonProvider;
@@ -8084,11 +8066,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_UpdateConfig_mC2BE
 		L_7 = InterfaceFuncInvoker1< HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A*, int32_t >::Invoke(0, IHandSkeletonProvider_tB793450B93BBC4F4324DCEFC159C1F5CEC00FA56_il2cpp_TypeInfo_var, L_5, L_6);
 		NullCheck(L_4);
 		HandDataSourceConfig_set_HandSkeleton_m4BF7D11ABA852539E4AA81534AFCAB2E6A1F2F56_inline(L_4, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:168>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:168>
 		return;
 	}
 }
-// Method Definition Index: 131534
+// Method Definition Index: 132040
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_UpdateData_m490553D07163089BC3A525621CB2CFFC6B087678 (FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8114,22 +8096,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_UpdateData_m490553
 	HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* G_B8_1 = NULL;
 	int32_t G_B17_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:172>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:172>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_0 = __this->____handDataAsset;
 		HandDataSourceConfig_t29A4B860CAB12E81573F5565FD5336F4010C3054* L_1;
 		L_1 = FromOVRHandDataSource_get_Config_m62051F394E930E580F0EE109BABA0F0EC41CE2CF(__this, NULL);
 		NullCheck(L_0);
 		L_0->___Config = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&L_0->___Config), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:173>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:173>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_2 = __this->____handDataAsset;
 		NullCheck(L_2);
 		L_2->___IsDataValid = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:174>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:174>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_3 = __this->____handDataAsset;
 		NullCheck(L_3);
 		L_3->___IsConnected = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:176>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:176>
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* L_4 = __this->____ovrHand;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -8171,16 +8153,16 @@ IL_004e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:178>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:178>
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* L_10 = __this->____ovrHand;
 		V_1 = L_10;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:179>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:179>
 		RuntimeObject* L_11 = V_1;
 		NullCheck(L_11);
 		SkeletonPoseData_tA0A3A4163EEA849A40C82CF95F1847A9827A5F86 L_12;
 		L_12 = InterfaceFuncInvoker0< SkeletonPoseData_tA0A3A4163EEA849A40C82CF95F1847A9827A5F86 >::Invoke(1, IOVRSkeletonDataProvider_t3C0B47D347E1D2C6FC2A1AB062490F8792E4F460_il2cpp_TypeInfo_var, L_11);
 		V_2 = L_12;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:181>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:181>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_13 = __this->____handDataAsset;
 		bool L_14;
 		L_14 = SkeletonPoseData_get_IsDataValid_m7C3D29FE3C5F765C05C11DF50F7CCB6F7A5D35DD_inline((&V_2), NULL);
@@ -8209,7 +8191,7 @@ IL_0084:
 	{
 		NullCheck(G_B8_1);
 		G_B8_1->___IsConnected = (bool)G_B8_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:182>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:182>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_16 = __this->____handDataAsset;
 		NullCheck(L_16);
 		bool L_17 = L_16->___IsConnected;
@@ -8221,7 +8203,7 @@ IL_0084:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:184>
 		float L_19 = __this->____lastHandScale;
 		V_4 = (bool)((((int32_t)((!(((float)L_19) <= ((float)(0.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		bool L_20 = V_4;
@@ -8231,14 +8213,14 @@ IL_0084:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:186>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:186>
 		SkeletonPoseData_set_IsDataValid_m3EB469D44C3697FC541F1EB3AADEFAC3EB57AE20_inline((&V_2), (bool)0, NULL);
 		goto IL_00cf;
 	}
 
 IL_00bf:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:190>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:190>
 		float L_21 = __this->____lastHandScale;
 		SkeletonPoseData_set_RootScale_m418868BB1AA7A8080B53BEA4E4E72CEA9074D7A7_inline((&V_2), L_21, NULL);
 	}
@@ -8250,7 +8232,7 @@ IL_00cf:
 
 IL_00d2:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:195>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:195>
 		float L_22;
 		L_22 = SkeletonPoseData_get_RootScale_mFCF463E498E2652EE2F3B71C4D54B7801EC0D4F1_inline((&V_2), NULL);
 		__this->____lastHandScale = L_22;
@@ -8258,7 +8240,7 @@ IL_00d2:
 
 IL_00e1:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:198>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:198>
 		bool L_23;
 		L_23 = SkeletonPoseData_get_IsDataValid_m7C3D29FE3C5F765C05C11DF50F7CCB6F7A5D35DD_inline((&V_2), NULL);
 		if (!L_23)
@@ -8289,10 +8271,10 @@ IL_00f8:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:200>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:200>
 		SkeletonPoseData_tA0A3A4163EEA849A40C82CF95F1847A9827A5F86 L_27 = V_2;
 		FromOVRHandDataSource_UpdateDataPoses_m0A1E20B1FD4485048D3B4313B23408ED2331025A(__this, L_27, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:201>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:201>
 		goto IL_017c;
 	}
 
@@ -8302,55 +8284,55 @@ IL_0109:
 
 IL_010a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:206>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:206>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_28 = __this->____handDataAsset;
 		NullCheck(L_28);
 		L_28->___IsConnected = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:207>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:207>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_29 = __this->____handDataAsset;
 		NullCheck(L_29);
 		L_29->___IsTracked = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:208>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:208>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_30 = __this->____handDataAsset;
 		NullCheck(L_30);
 		L_30->___RootPoseOrigin = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:209>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:209>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_31 = __this->____handDataAsset;
 		NullCheck(L_31);
 		L_31->___PointerPoseOrigin = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:210>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:210>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_32 = __this->____handDataAsset;
 		NullCheck(L_32);
 		L_32->___IsHighConfidence = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:211>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:211>
 		V_6 = 0;
 		goto IL_0171;
 	}
 
 IL_014b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:213>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:213>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_33 = __this->____handDataAsset;
 		NullCheck(L_33);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_34 = L_33->___IsFingerPinching;
 		int32_t L_35 = V_6;
 		NullCheck(L_34);
 		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(L_35), (bool)0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:214>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:214>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_36 = __this->____handDataAsset;
 		NullCheck(L_36);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_37 = L_36->___IsFingerHighConfidence;
 		int32_t L_38 = V_6;
 		NullCheck(L_37);
 		(L_37)->SetAt(static_cast<il2cpp_array_size_t>(L_38), (bool)0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:211>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:211>
 		int32_t L_39 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_39, 1));
 	}
 
 IL_0171:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:211>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:211>
 		int32_t L_40 = V_6;
 		V_7 = (bool)((((int32_t)L_40) < ((int32_t)5))? 1 : 0);
 		bool L_41 = V_7;
@@ -8362,11 +8344,11 @@ IL_0171:
 
 IL_017c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:216>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:216>
 		return;
 	}
 }
-// Method Definition Index: 131535
+// Method Definition Index: 132041
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_UpdateDataPoses_m0A1E20B1FD4485048D3B4313B23408ED2331025A (FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9* __this, SkeletonPoseData_tA0A3A4163EEA849A40C82CF95F1847A9827A5F86 ___0_poseData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8403,13 +8385,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_UpdateDataPoses_m0
 	Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F G_B15_0;
 	memset((&G_B15_0), 0, sizeof(G_B15_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:220>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:220>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_0 = __this->____handDataAsset;
 		float L_1;
 		L_1 = SkeletonPoseData_get_RootScale_mFCF463E498E2652EE2F3B71C4D54B7801EC0D4F1_inline((&___0_poseData), NULL);
 		NullCheck(L_0);
 		L_0->___HandScale = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:221>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:221>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_2 = __this->____handDataAsset;
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* L_3 = __this->____ovrHand;
 		NullCheck(L_3);
@@ -8417,13 +8399,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_UpdateDataPoses_m0
 		L_4 = OVRHand_get_IsTracked_m869AA41C7CC8F224F1CD5A10FF6CD62E6F6BDFDA_inline(L_3, NULL);
 		NullCheck(L_2);
 		L_2->___IsTracked = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:222>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:222>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_5 = __this->____handDataAsset;
 		bool L_6;
 		L_6 = SkeletonPoseData_get_IsDataHighConfidence_mA41FF6B1B22AC004AC0502A6EEED5F0E5DD46BDC_inline((&___0_poseData), NULL);
 		NullCheck(L_5);
 		L_5->___IsHighConfidence = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:223>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:223>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_7 = __this->____handDataAsset;
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* L_8 = __this->____ovrHand;
 		NullCheck(L_8);
@@ -8431,9 +8413,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_UpdateDataPoses_m0
 		L_9 = OVRHand_get_IsDominantHand_m27F6ABFDF2E9F717E7EED827AF1867D11CBA415A_inline(L_8, NULL);
 		NullCheck(L_7);
 		L_7->___IsDominantHand = L_9;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:224>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:225>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:226>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:224>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:225>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:226>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_10 = __this->____handDataAsset;
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_11 = __this->____handDataAsset;
 		NullCheck(L_11);
@@ -8461,24 +8443,24 @@ IL_0068:
 	{
 		NullCheck(G_B3_1);
 		G_B3_1->___RootPoseOrigin = G_B3_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:228>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:228>
 		V_2 = 0;
 		goto IL_00d7;
 	}
 
 IL_0071:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:230>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:230>
 		int32_t L_13 = V_2;
 		V_3 = L_13;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:231>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:231>
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* L_14 = __this->____ovrHand;
 		int32_t L_15 = V_3;
 		NullCheck(L_14);
 		bool L_16;
 		L_16 = OVRHand_GetFingerIsPinching_mC0FAC991CEA8B0B07F6DBA92CB56BEA09D4726FD(L_14, L_15, NULL);
 		V_4 = L_16;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:232>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:232>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_17 = __this->____handDataAsset;
 		NullCheck(L_17);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_18 = L_17->___IsFingerPinching;
@@ -8486,15 +8468,15 @@ IL_0071:
 		bool L_20 = V_4;
 		NullCheck(L_18);
 		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (bool)L_20);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:234>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:235>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:234>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:235>
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* L_21 = __this->____ovrHand;
 		int32_t L_22 = V_3;
 		NullCheck(L_21);
 		int32_t L_23;
 		L_23 = OVRHand_GetFingerConfidence_m4A21F2F93A484AA72F34BDDDECA350D69401A3D1(L_21, L_22, NULL);
 		V_5 = (bool)((((int32_t)L_23) == ((int32_t)((int32_t)1065353216)))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:236>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:236>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_24 = __this->____handDataAsset;
 		NullCheck(L_24);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_25 = L_24->___IsFingerHighConfidence;
@@ -8502,14 +8484,14 @@ IL_0071:
 		bool L_27 = V_5;
 		NullCheck(L_25);
 		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(L_26), (bool)L_27);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:238>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:238>
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* L_28 = __this->____ovrHand;
 		int32_t L_29 = V_3;
 		NullCheck(L_28);
 		float L_30;
 		L_30 = OVRHand_GetFingerPinchStrength_mF6517B5CA9FF87146ECDAED8914DE2EFA29BE4E6(L_28, L_29, NULL);
 		V_6 = L_30;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:239>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:239>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_31 = __this->____handDataAsset;
 		NullCheck(L_31);
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_32 = L_31->___FingerPinchStrength;
@@ -8517,14 +8499,14 @@ IL_0071:
 		float L_34 = V_6;
 		NullCheck(L_32);
 		(L_32)->SetAt(static_cast<il2cpp_array_size_t>(L_33), (float)L_34);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:228>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:228>
 		int32_t L_35 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_35, 1));
 	}
 
 IL_00d7:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:228>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:228>
 		int32_t L_36 = V_2;
 		V_7 = (bool)((((int32_t)L_36) < ((int32_t)5))? 1 : 0);
 		bool L_37 = V_7;
@@ -8534,11 +8516,11 @@ IL_00d7:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:244>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:245>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:246>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:247>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:248>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:244>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:245>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:246>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:247>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:248>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_38 = __this->____handDataAsset;
 		il2cpp_codegen_initobj((&V_8), sizeof(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971));
 		Posef_t51A2C10B4094B44A8D3C1913292B839172887B61 L_39;
@@ -8556,7 +8538,7 @@ IL_00d7:
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_45 = V_8;
 		NullCheck(L_38);
 		L_38->___Root = L_45;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:250>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:250>
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* L_46 = __this->____ovrHand;
 		NullCheck(L_46);
 		bool L_47;
@@ -8569,12 +8551,12 @@ IL_00d7:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:252>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:252>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_49 = __this->____handDataAsset;
 		NullCheck(L_49);
 		L_49->___PointerPoseOrigin = 1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:253>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:254>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:253>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:254>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_50 = __this->____handDataAsset;
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* L_51 = __this->____ovrHand;
 		NullCheck(L_51);
@@ -8600,7 +8582,7 @@ IL_00d7:
 
 IL_0177:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:258>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:258>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_58 = __this->____handDataAsset;
 		NullCheck(L_58);
 		L_58->___PointerPoseOrigin = 0;
@@ -8608,8 +8590,8 @@ IL_0177:
 
 IL_0185:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:262>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:263>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:262>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:263>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_59 = __this->____handDataAsset;
 		NullCheck(L_59);
 		float L_60 = L_59->___HandScale;
@@ -8634,8 +8616,8 @@ IL_019e:
 IL_01af:
 	{
 		V_0 = G_B12_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:265>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:266>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:265>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:266>
 		int32_t L_63 = __this->____handedness;
 		if (!L_63)
 		{
@@ -8659,16 +8641,16 @@ IL_01bf:
 IL_01c4:
 	{
 		V_1 = G_B15_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:267>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:267>
 		V_10 = 0;
 		goto IL_0259;
 	}
 
 IL_01cd:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:269>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:270>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:271>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:269>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:270>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:271>
 		Vector3fU5BU5D_tD8395E99259411E2F0A4F513559CC986FD7AB92E* L_66;
 		L_66 = SkeletonPoseData_get_BoneTranslations_mD38F3969B21935A65F2B41F5F8E1A85D2A5ADE9D_inline((&___0_poseData), NULL);
 		int32_t L_67 = V_10;
@@ -8687,14 +8669,14 @@ IL_01cd:
 		L_75 = OVRExtensions_FromFlippedZQuatf_mF626F183B84EA8C08153550313227736286F2657(L_74, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
 		Pose__ctor_m15CA45808A2BBF1956E836D22C387FAB80BED051((&V_11), L_70, L_75, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:272>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:272>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_76 = __this->____handDataAsset;
 		NullCheck(L_76);
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_77 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&L_76->___Root);
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_78;
 		L_78 = PoseUtils_Delta_m62647EFB71E1076B0C44E3DBDE54782CDB4BA5E2(L_77, (&V_11), NULL);
 		V_12 = L_78;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:273>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:273>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_79 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&(&V_12)->___position);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_80 = L_79;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_81 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_80);
@@ -8702,7 +8684,7 @@ IL_01cd:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_83;
 		L_83 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_81, L_82, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_80 = L_83;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:274>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:274>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_84 = __this->____handDataAsset;
 		NullCheck(L_84);
 		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_85 = L_84->___JointPoses;
@@ -8710,7 +8692,7 @@ IL_01cd:
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_87 = V_12;
 		NullCheck(L_85);
 		(L_85)->SetAt(static_cast<il2cpp_array_size_t>(L_86), (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971)L_87);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:275>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:275>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_88 = __this->____handDataAsset;
 		NullCheck(L_88);
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_89 = L_88->___JointRadii;
@@ -8720,14 +8702,14 @@ IL_01cd:
 		L_92 = HandSkeletonOVR_GetBoneRadius_m528A608B96A7E85670B457C30BDA1DF201CA3FD1((&V_1), L_91, NULL);
 		NullCheck(L_89);
 		(L_89)->SetAt(static_cast<il2cpp_array_size_t>(L_90), (float)L_92);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:267>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:267>
 		int32_t L_93 = V_10;
 		V_10 = ((int32_t)il2cpp_codegen_add(L_93, 1));
 	}
 
 IL_0259:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:267>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:267>
 		int32_t L_94 = V_10;
 		V_13 = (bool)((((int32_t)L_94) < ((int32_t)((int32_t)26)))? 1 : 0);
 		bool L_95 = V_13;
@@ -8737,8 +8719,8 @@ IL_0259:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:280>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:281>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:280>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:281>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_96 = __this->____handDataAsset;
 		NullCheck(L_96);
 		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_97 = L_96->___JointPoses;
@@ -8748,11 +8730,11 @@ IL_0259:
 		il2cpp_codegen_runtime_class_init_inline(HandJointUtils_t398E7EA5CA755A046BC60F9C5F8A144650D37DF7_il2cpp_TypeInfo_var);
 		bool L_100;
 		L_100 = HandJointUtils_WristJointPosesToLocalRotations_m5B77979C89E7F9A7002331EC9E05500EA1914899(L_97, L_99, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:297>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:297>
 		return;
 	}
 }
-// Method Definition Index: 131536
+// Method Definition Index: 132042
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_InjectAllFromOVRHandDataSource_m3CA0C26E5AC94B67548C3C35F301A6C696F3C582 (FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9* __this, int32_t ___0_updateMode, RuntimeObject* ___1_updateAfter, int32_t ___2_handedness, RuntimeObject* ___3_trackingToWorldTransformer, RuntimeObject* ___4_handSkeletonProvider, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8762,35 +8744,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_InjectAllFromOVRHa
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:305>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:305>
 		int32_t L_0 = ___0_updateMode;
 		RuntimeObject* L_1 = ___1_updateAfter;
 		DataSource_1_InjectAllDataSource_mA38066CC13A6A872B6E29B2A23B7CA26701E5253(__this, L_0, L_1, DataSource_1_InjectAllDataSource_mA38066CC13A6A872B6E29B2A23B7CA26701E5253_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:306>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:306>
 		int32_t L_2 = ___2_handedness;
 		FromOVRHandDataSource_InjectHandedness_m0A2CFFFD12F32F429E472E7CCFCF43B01FC6D373(__this, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:307>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:307>
 		RuntimeObject* L_3 = ___3_trackingToWorldTransformer;
 		FromOVRHandDataSource_InjectTrackingToWorldTransformer_m4C812B31C6F4FB73A18A177588308AF55E32E9EB(__this, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:308>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:308>
 		RuntimeObject* L_4 = ___4_handSkeletonProvider;
 		FromOVRHandDataSource_InjectHandSkeletonProvider_m98B9B404DF74A3773C81A884A8F4880E97C8B73E(__this, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:309>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:309>
 		return;
 	}
 }
-// Method Definition Index: 131537
+// Method Definition Index: 132043
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_InjectHandedness_m0A2CFFFD12F32F429E472E7CCFCF43B01FC6D373 (FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9* __this, int32_t ___0_handedness, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:313>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:313>
 		int32_t L_0 = ___0_handedness;
 		__this->____handedness = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:314>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:314>
 		return;
 	}
 }
-// Method Definition Index: 131538
+// Method Definition Index: 132044
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_InjectTrackingToWorldTransformer_m4C812B31C6F4FB73A18A177588308AF55E32E9EB (FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9* __this, RuntimeObject* ___0_trackingToWorldTransformer, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8800,19 +8782,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_InjectTrackingToWo
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:318>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:318>
 		RuntimeObject* L_0 = ___0_trackingToWorldTransformer;
 		__this->____trackingToWorldTransformer = ((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____trackingToWorldTransformer), (void*)((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:319>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:319>
 		RuntimeObject* L_1 = ___0_trackingToWorldTransformer;
 		__this->___TrackingToWorldTransformer = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___TrackingToWorldTransformer), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:320>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:320>
 		return;
 	}
 }
-// Method Definition Index: 131539
+// Method Definition Index: 132045
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_InjectHandSkeletonProvider_m98B9B404DF74A3773C81A884A8F4880E97C8B73E (FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9* __this, RuntimeObject* ___0_handSkeletonProvider, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8822,31 +8804,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_InjectHandSkeleton
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:324>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:324>
 		RuntimeObject* L_0 = ___0_handSkeletonProvider;
 		__this->____handSkeletonProvider = ((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____handSkeletonProvider), (void*)((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:325>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:325>
 		RuntimeObject* L_1 = ___0_handSkeletonProvider;
 		__this->___HandSkeletonProvider = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___HandSkeletonProvider), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:326>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:326>
 		return;
 	}
 }
-// Method Definition Index: 131540
+// Method Definition Index: 132046
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_InjectOptionalOVRHand_m1D2817EE4E07EB676A3870104C4107372D31E172 (FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9* __this, OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* ___0_ovrHand, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:330>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:330>
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* L_0 = ___0_ovrHand;
 		__this->____ovrHand = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____ovrHand), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:331>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:331>
 		return;
 	}
 }
-// Method Definition Index: 131541
+// Method Definition Index: 132047
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource__ctor_m1BCB30129AC6C3D3A860FAC898123F6685CBC832 (FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8857,9 +8839,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource__ctor_m1BCB30129AC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:38>
 		__this->____processLateUpdates = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:66>
 		HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3* L_0 = (HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3*)il2cpp_codegen_object_new(HandDataAsset_tEB32D325152E55F645082B8E35A6EB27CBA629F3_il2cpp_TypeInfo_var);
 		HandDataAsset__ctor_m4B295E8EC3BA9AC265706984717743500B2E17E9(L_0, NULL);
 		__this->____handDataAsset = L_0;
@@ -8868,7 +8850,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource__ctor_m1BCB30129AC
 		return;
 	}
 }
-// Method Definition Index: 131542
+// Method Definition Index: 132048
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource__cctor_mDEEF4074EC7751B8DABFFD081BB60C01A186AF21 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8878,7 +8860,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource__cctor_mDEEF4074EC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:76>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Quaternion__ctor_m868FD60AA65DD5A8AC0C5DEB0608381A8D85FCD8_inline((&L_0), (0.0f), (1.0f), (0.0f), (0.0f), NULL);
@@ -8886,7 +8868,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource__cctor_mDEEF4074EC
 		return;
 	}
 }
-// Method Definition Index: 131543
+// Method Definition Index: 132049
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_U3CStartU3Eb__21_0_mCCE7B179219B5C7EC23819670D3487A69414E645 (FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8896,7 +8878,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_U3CStartU3Eb__21_0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:88>
 		DataSource_1_Start_mABC46B1BBF1EC7635CBC6DBF5A1F3A4E5A08B2AE(__this, DataSource_1_Start_mABC46B1BBF1EC7635CBC6DBF5A1F3A4E5A08B2AE_RuntimeMethod_var);
 		return;
 	}
@@ -8909,32 +8891,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHandDataSource_U3CStartU3Eb__21_0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131544
+// Method Definition Index: 132050
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FromOVRHmdDataSource_get_CameraRigRef_m9701F8D26583D60BF41D866E77293BAD713FA800 (FromOVRHmdDataSource_t60F1D32F93B58AC36DB8E25645BB23596DCFA1CF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:37>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:37>
 		RuntimeObject* L_0 = __this->___U3CCameraRigRefU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131545
+// Method Definition Index: 132051
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_set_CameraRigRef_mF7F1292CCD53BFD490169C7292E43482B0439CDD (FromOVRHmdDataSource_t60F1D32F93B58AC36DB8E25645BB23596DCFA1CF* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:37>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:37>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CCameraRigRefU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCameraRigRefU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 131546
+// Method Definition Index: 132052
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FromOVRHmdDataSource_get_ProcessLateUpdates_mE04DAAF8178D3ED9184F047B2AB1A39B0B7B23A0 (FromOVRHmdDataSource_t60F1D32F93B58AC36DB8E25645BB23596DCFA1CF* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:56>
 		bool L_0 = __this->____processLateUpdates;
 		V_0 = L_0;
 		goto IL_000a;
@@ -8942,23 +8924,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FromOVRHmdDataSource_get_ProcessLateUpda
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:57>
 		bool L_1 = V_0;
 		return L_1;
 	}
 }
-// Method Definition Index: 131547
+// Method Definition Index: 132053
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_set_ProcessLateUpdates_m7E5F6A1CFFE4B1E8386036D19B6CB710B196EDA0 (FromOVRHmdDataSource_t60F1D32F93B58AC36DB8E25645BB23596DCFA1CF* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:60>
 		bool L_0 = ___0_value;
 		__this->____processLateUpdates = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:61>
 		return;
 	}
 }
-// Method Definition Index: 131548
+// Method Definition Index: 132054
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_Awake_m66A411D11A0F63CAF0FB3D04B39A6AAD27825E89 (FromOVRHmdDataSource_t60F1D32F93B58AC36DB8E25645BB23596DCFA1CF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8969,18 +8951,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_Awake_m66A411D11A0F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:69>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_0 = __this->____cameraRigRef;
 		FromOVRHmdDataSource_set_CameraRigRef_mF7F1292CCD53BFD490169C7292E43482B0439CDD_inline(__this, ((RuntimeObject*)IsInst((RuntimeObject*)L_0, IOVRCameraRigRef_t80C138B66CEC666A9A053632C2EFAF1B24FA67B8_il2cpp_TypeInfo_var)), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:70>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_1 = __this->____trackingToWorldTransformer;
 		__this->___TrackingToWorldTransformer = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, ITrackingToWorldTransformer_t193B383D2CCDEDD1521A0197EB476879DD657B2E_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___TrackingToWorldTransformer), (void*)((RuntimeObject*)IsInst((RuntimeObject*)L_1, ITrackingToWorldTransformer_t193B383D2CCDEDD1521A0197EB476879DD657B2E_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:71>
 		return;
 	}
 }
-// Method Definition Index: 131549
+// Method Definition Index: 132055
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_Start_mF45DA31B7B349052FA2600DB556DCE7B945E8F1A (FromOVRHmdDataSource_t60F1D32F93B58AC36DB8E25645BB23596DCFA1CF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8995,26 +8977,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_Start_mF45DA31B7B34
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:75>
 		bool* L_0 = (bool*)(&((DataSource_1_t43863080B32A3078810E52A6590829D07D453583*)__this)->____started);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_1, __this, (intptr_t)((void*)FromOVRHmdDataSource_U3CStartU3Eb__15_0_m3B3878DDDF1148FA81E635F9FBBDDBEBB4B7A8CD_RuntimeMethod_var), NULL);
 		MonoBehaviourStartExtensions_BeginStart_mC498E0AC129F7CDC354718BF0E799CB2A2E04366(__this, L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:76>
 		RuntimeObject* L_2;
 		L_2 = FromOVRHmdDataSource_get_CameraRigRef_m9701F8D26583D60BF41D866E77293BAD713FA800_inline(__this, NULL);
 		AssertUtils_AssertField_TisIOVRCameraRigRef_t80C138B66CEC666A9A053632C2EFAF1B24FA67B8_mB016E71C33D664913480CDA2A980A4256CF74048(__this, L_2, _stringLiteral3DA6FA5650959CC99BD5EC76A072208044EB59FD, (String_t*)NULL, (String_t*)NULL, (String_t*)NULL, AssertUtils_AssertField_TisIOVRCameraRigRef_t80C138B66CEC666A9A053632C2EFAF1B24FA67B8_mB016E71C33D664913480CDA2A980A4256CF74048_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:77>
 		RuntimeObject* L_3 = __this->___TrackingToWorldTransformer;
 		AssertUtils_AssertField_TisITrackingToWorldTransformer_t193B383D2CCDEDD1521A0197EB476879DD657B2E_mD60D3514AC3FA817A16A8C52A1CB4DBBD8DF1420(__this, L_3, _stringLiteralF810D1E03D882DC000399757AFAF9CC5E375F6AB, (String_t*)NULL, (String_t*)NULL, (String_t*)NULL, AssertUtils_AssertField_TisITrackingToWorldTransformer_t193B383D2CCDEDD1521A0197EB476879DD657B2E_mD60D3514AC3FA817A16A8C52A1CB4DBBD8DF1420_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:78>
 		bool* L_4 = (bool*)(&((DataSource_1_t43863080B32A3078810E52A6590829D07D453583*)__this)->____started);
 		MonoBehaviourStartExtensions_EndStart_mB9C76425BEAB3A0D8A30965081A4F356F9F69CF5(__this, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:79>
 		return;
 	}
 }
-// Method Definition Index: 131550
+// Method Definition Index: 132056
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_OnEnable_m9E64F48408F2A4F82C2917F2037A1A3EA3A54B22 (FromOVRHmdDataSource_t60F1D32F93B58AC36DB8E25645BB23596DCFA1CF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9028,9 +9010,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_OnEnable_m9E64F4840
 	}
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:83>
 		DataSource_1_OnEnable_mA19EB4C9B1B8437DC989BD91310F584A88551C90(__this, DataSource_1_OnEnable_mA19EB4C9B1B8437DC989BD91310F584A88551C90_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:84>
 		bool L_0 = ((DataSource_1_t43863080B32A3078810E52A6590829D07D453583*)__this)->____started;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -9040,7 +9022,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_OnEnable_m9E64F4840
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:86>
 		RuntimeObject* L_2;
 		L_2 = FromOVRHmdDataSource_get_CameraRigRef_m9701F8D26583D60BF41D866E77293BAD713FA800_inline(__this, NULL);
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_3 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
@@ -9051,11 +9033,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_OnEnable_m9E64F4840
 
 IL_002c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:88>
 		return;
 	}
 }
-// Method Definition Index: 131551
+// Method Definition Index: 132057
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_OnDisable_mFB8CBBAEB1B3338FC285AEDF4EFE6258A32B567C (FromOVRHmdDataSource_t60F1D32F93B58AC36DB8E25645BB23596DCFA1CF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9069,7 +9051,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_OnDisable_mFB8CBBAE
 	}
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:92>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:92>
 		bool L_0 = ((DataSource_1_t43863080B32A3078810E52A6590829D07D453583*)__this)->____started;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -9079,7 +9061,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_OnDisable_mFB8CBBAE
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:94>
 		RuntimeObject* L_2;
 		L_2 = FromOVRHmdDataSource_get_CameraRigRef_m9701F8D26583D60BF41D866E77293BAD713FA800_inline(__this, NULL);
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_3 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
@@ -9090,21 +9072,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_OnDisable_mFB8CBBAE
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:97>
 		DataSource_1_OnDisable_mF1B627104F56C9FF19B3E5576F8A52CB24C8C478(__this, DataSource_1_OnDisable_mF1B627104F56C9FF19B3E5576F8A52CB24C8C478_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:99>
 		VirtualActionInvoker0::Invoke(16, __this);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:100>
 		return;
 	}
 }
-// Method Definition Index: 131552
+// Method Definition Index: 132058
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_HandleInputDataDirtied_m14AA5466E2B650B6B6AC27E81054A0D309CAB5D9 (FromOVRHmdDataSource_t60F1D32F93B58AC36DB8E25645BB23596DCFA1CF* __this, bool ___0_isLateUpdate, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:104>
 		bool L_0 = ___0_isLateUpdate;
 		if (!L_0)
 		{
@@ -9132,23 +9114,23 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:106>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:106>
 		goto IL_001e;
 	}
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:108>
 		VirtualActionInvoker0::Invoke(16, __this);
 	}
 
 IL_001e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:109>
 		return;
 	}
 }
-// Method Definition Index: 131553
+// Method Definition Index: 132059
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdDataSourceConfig_tDF44AA08CCE0251849B4951A28930B6405B7C51F* FromOVRHmdDataSource_get_Config_m07BC652804E928436AF209955AC55FCD4FDDA645 (FromOVRHmdDataSource_t60F1D32F93B58AC36DB8E25645BB23596DCFA1CF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9160,7 +9142,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdDataSourceConfig_tDF44AA08CCE0251849B4951A
 	bool V_0 = false;
 	HmdDataSourceConfig_tDF44AA08CCE0251849B4951A28930B6405B7C51F* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:115>
 		HmdDataSourceConfig_tDF44AA08CCE0251849B4951A28930B6405B7C51F* L_0 = __this->____config;
 		V_0 = (bool)((!(((RuntimeObject*)(HmdDataSourceConfig_tDF44AA08CCE0251849B4951A28930B6405B7C51F*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		bool L_1 = V_0;
@@ -9170,7 +9152,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdDataSourceConfig_tDF44AA08CCE0251849B4951A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:117>
 		HmdDataSourceConfig_tDF44AA08CCE0251849B4951A28930B6405B7C51F* L_2 = __this->____config;
 		V_1 = L_2;
 		goto IL_0039;
@@ -9178,10 +9160,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdDataSourceConfig_tDF44AA08CCE0251849B4951A
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:120>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:121>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:122>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:123>
 		HmdDataSourceConfig_tDF44AA08CCE0251849B4951A28930B6405B7C51F* L_3 = (HmdDataSourceConfig_tDF44AA08CCE0251849B4951A28930B6405B7C51F*)il2cpp_codegen_object_new(HmdDataSourceConfig_tDF44AA08CCE0251849B4951A28930B6405B7C51F_il2cpp_TypeInfo_var);
 		HmdDataSourceConfig__ctor_mD83D5EA81D238BBFDE57C635A044401E8F735C43(L_3, NULL);
 		HmdDataSourceConfig_tDF44AA08CCE0251849B4951A28930B6405B7C51F* L_4 = L_3;
@@ -9190,7 +9172,7 @@ IL_0018:
 		HmdDataSourceConfig_set_TrackingToWorldTransformer_m16678A152AEFFFE83CF6FB6222C49A30EC6FAB75_inline(L_4, L_5, NULL);
 		__this->____config = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____config), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:125>
 		HmdDataSourceConfig_tDF44AA08CCE0251849B4951A28930B6405B7C51F* L_6 = __this->____config;
 		V_1 = L_6;
 		goto IL_0039;
@@ -9198,12 +9180,12 @@ IL_0018:
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:126>
 		HmdDataSourceConfig_tDF44AA08CCE0251849B4951A28930B6405B7C51F* L_7 = V_1;
 		return L_7;
 	}
 }
-// Method Definition Index: 131554
+// Method Definition Index: 132060
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_UpdateData_m1DB5CC920E858C5788A0B99A7955B12D44560C1C (FromOVRHmdDataSource_t60F1D32F93B58AC36DB8E25645BB23596DCFA1CF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9227,14 +9209,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_UpdateData_m1DB5CC9
 	bool V_8 = false;
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:131>
 		HmdDataAsset_tD78CD64BF92E02FF803F48F1CD8B1B6476167EED* L_0 = __this->____hmdDataAsset;
 		HmdDataSourceConfig_tDF44AA08CCE0251849B4951A28930B6405B7C51F* L_1;
 		L_1 = FromOVRHmdDataSource_get_Config_m07BC652804E928436AF209955AC55FCD4FDDA645(__this, NULL);
 		NullCheck(L_0);
 		L_0->___Config = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&L_0->___Config), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:132>
 		il2cpp_codegen_runtime_class_init_inline(OVRNodeStateProperties_tE41A5F7393D4FB967D6062A0A2DBE4F3A24350BC_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = OVRNodeStateProperties_IsHmdPresent_m007E7C0AA8B7D85019F2238007C8F5F28DB3547D(NULL);
@@ -9258,12 +9240,12 @@ IL_0021:
 IL_0022:
 	{
 		V_0 = (bool)G_B3_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:133>
 		HmdDataAsset_tD78CD64BF92E02FF803F48F1CD8B1B6476167EED* L_4 = __this->____hmdDataAsset;
 		NullCheck(L_4);
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_5 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&L_4->___Root);
 		V_1 = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:134>
 		bool L_6 = __this->____useOvrManagerEmulatedPose;
 		V_2 = L_6;
 		bool L_7 = V_2;
@@ -9273,10 +9255,10 @@ IL_0022:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:136>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:137>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:138>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:139>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:137>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:138>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:139>
 		il2cpp_codegen_runtime_class_init_inline(OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_il2cpp_TypeInfo_var);
 		OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4* L_8;
 		L_8 = OVRManager_get_instance_m642500A467C7D7B5B1C2763F2BA90C52BBF5381C_inline(NULL);
@@ -9299,11 +9281,11 @@ IL_0022:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_17;
 		L_17 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline(((-L_10)), ((-L_13)), L_16, NULL);
 		V_3 = L_17;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:140>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:140>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_18 = V_1;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_19 = V_3;
 		L_18->___rotation = L_19;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:141>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_20 = V_1;
 		OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4* L_21;
 		L_21 = OVRManager_get_instance_m642500A467C7D7B5B1C2763F2BA90C52BBF5381C_inline(NULL);
@@ -9311,19 +9293,19 @@ IL_0022:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
 		L_22 = OVRManager_get_headPoseRelativeOffsetTranslation_m699900022730F69357C46494506381ED7647BC0C(L_21, NULL);
 		L_20->___position = L_22;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:142>
 		V_0 = (bool)1;
 		goto IL_011a;
 	}
 
 IL_008e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:146>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:146>
 		il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_23;
 		L_23 = Pose_get_identity_m145C7BA9D895CD7F8CCE2483B69764F7A9FEC66E(NULL);
 		V_4 = L_23;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:148>
 		HmdDataAsset_tD78CD64BF92E02FF803F48F1CD8B1B6476167EED* L_24 = __this->____hmdDataAsset;
 		NullCheck(L_24);
 		bool L_25 = L_24->___IsTracked;
@@ -9335,7 +9317,7 @@ IL_008e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:150>
 		HmdDataAsset_tD78CD64BF92E02FF803F48F1CD8B1B6476167EED* L_27 = __this->____hmdDataAsset;
 		NullCheck(L_27);
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_28 = L_27->___Root;
@@ -9344,7 +9326,7 @@ IL_008e:
 
 IL_00b6:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:153>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:153>
 		bool L_29 = V_0;
 		V_6 = L_29;
 		bool L_30 = V_6;
@@ -9354,9 +9336,9 @@ IL_00b6:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:156>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:157>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:157>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:158>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_31 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_32 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&L_31->___position);
 		il2cpp_codegen_runtime_class_init_inline(OVRNodeStateProperties_tE41A5F7393D4FB967D6062A0A2DBE4F3A24350BC_il2cpp_TypeInfo_var);
@@ -9370,7 +9352,7 @@ IL_00b6:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:160>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_35 = V_1;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_36 = V_4;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37 = L_36.___position;
@@ -9379,9 +9361,9 @@ IL_00b6:
 
 IL_00e5:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:163>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:164>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:164>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:165>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_38 = V_1;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_39 = (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)(&L_38->___rotation);
 		il2cpp_codegen_runtime_class_init_inline(OVRNodeStateProperties_tE41A5F7393D4FB967D6062A0A2DBE4F3A24350BC_il2cpp_TypeInfo_var);
@@ -9395,7 +9377,7 @@ IL_00e5:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:167>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_42 = V_1;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_43 = V_4;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_44 = L_43.___rotation;
@@ -9409,7 +9391,7 @@ IL_010c:
 
 IL_010f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:172>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:172>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_45 = V_1;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_46 = V_4;
 		*(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)L_45 = L_46;
@@ -9421,31 +9403,31 @@ IL_0119:
 
 IL_011a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:176>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:176>
 		HmdDataAsset_tD78CD64BF92E02FF803F48F1CD8B1B6476167EED* L_47 = __this->____hmdDataAsset;
 		bool L_48 = V_0;
 		NullCheck(L_47);
 		L_47->___IsTracked = L_48;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:177>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:177>
 		HmdDataAsset_tD78CD64BF92E02FF803F48F1CD8B1B6476167EED* L_49 = __this->____hmdDataAsset;
 		int32_t L_50;
 		L_50 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
 		NullCheck(L_49);
 		L_49->___FrameId = L_50;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:178>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:178>
 		return;
 	}
 }
-// Method Definition Index: 131555
+// Method Definition Index: 132061
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdDataAsset_tD78CD64BF92E02FF803F48F1CD8B1B6476167EED* FromOVRHmdDataSource_get_DataAsset_m341254ECD4CD4976F42A304DC852FECEE454F680 (FromOVRHmdDataSource_t60F1D32F93B58AC36DB8E25645BB23596DCFA1CF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:180>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:180>
 		HmdDataAsset_tD78CD64BF92E02FF803F48F1CD8B1B6476167EED* L_0 = __this->____hmdDataAsset;
 		return L_0;
 	}
 }
-// Method Definition Index: 131556
+// Method Definition Index: 132062
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_InjectAllFromOVRHmdDataSource_m15AB72F08A1F7CF48DA06989F1F4289A123A6DCB (FromOVRHmdDataSource_t60F1D32F93B58AC36DB8E25645BB23596DCFA1CF* __this, int32_t ___0_updateMode, RuntimeObject* ___1_updateAfter, bool ___2_useOvrManagerEmulatedPose, RuntimeObject* ___3_trackingToWorldTransformer, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9455,32 +9437,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_InjectAllFromOVRHmd
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:187>
 		int32_t L_0 = ___0_updateMode;
 		RuntimeObject* L_1 = ___1_updateAfter;
 		DataSource_1_InjectAllDataSource_m0A129B63BA4AE69ED3B9BA0D77F0F716C0695D86(__this, L_0, L_1, DataSource_1_InjectAllDataSource_m0A129B63BA4AE69ED3B9BA0D77F0F716C0695D86_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:188>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:188>
 		bool L_2 = ___2_useOvrManagerEmulatedPose;
 		FromOVRHmdDataSource_InjectUseOvrManagerEmulatedPose_m09200B01D452610D27E55B79E05CBCD86C53B1DD(__this, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:189>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:189>
 		RuntimeObject* L_3 = ___3_trackingToWorldTransformer;
 		FromOVRHmdDataSource_InjectTrackingToWorldTransformer_m5BD5A0AA3199E19046AF96B45246C8BD68BCAFF9(__this, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:190>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:190>
 		return;
 	}
 }
-// Method Definition Index: 131557
+// Method Definition Index: 132063
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_InjectUseOvrManagerEmulatedPose_m09200B01D452610D27E55B79E05CBCD86C53B1DD (FromOVRHmdDataSource_t60F1D32F93B58AC36DB8E25645BB23596DCFA1CF* __this, bool ___0_useOvrManagerEmulatedPose, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:194>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:194>
 		bool L_0 = ___0_useOvrManagerEmulatedPose;
 		__this->____useOvrManagerEmulatedPose = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:195>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:195>
 		return;
 	}
 }
-// Method Definition Index: 131558
+// Method Definition Index: 132064
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_InjectTrackingToWorldTransformer_m5BD5A0AA3199E19046AF96B45246C8BD68BCAFF9 (FromOVRHmdDataSource_t60F1D32F93B58AC36DB8E25645BB23596DCFA1CF* __this, RuntimeObject* ___0_trackingToWorldTransformer, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9490,19 +9472,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_InjectTrackingToWor
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:199>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:199>
 		RuntimeObject* L_0 = ___0_trackingToWorldTransformer;
 		__this->____trackingToWorldTransformer = ((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____trackingToWorldTransformer), (void*)((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:200>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:200>
 		RuntimeObject* L_1 = ___0_trackingToWorldTransformer;
 		__this->___TrackingToWorldTransformer = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___TrackingToWorldTransformer), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:201>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:201>
 		return;
 	}
 }
-// Method Definition Index: 131559
+// Method Definition Index: 132065
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource__ctor_m92DF09EC8A3BA8252E2F1CE146E501BFFB33B163 (FromOVRHmdDataSource_t60F1D32F93B58AC36DB8E25645BB23596DCFA1CF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9513,11 +9495,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource__ctor_m92DF09EC8A3B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:40>
 		__this->____processLateUpdates = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:45>
 		__this->____useOvrManagerEmulatedPose = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:64>
 		HmdDataAsset_tD78CD64BF92E02FF803F48F1CD8B1B6476167EED* L_0 = (HmdDataAsset_tD78CD64BF92E02FF803F48F1CD8B1B6476167EED*)il2cpp_codegen_object_new(HmdDataAsset_tD78CD64BF92E02FF803F48F1CD8B1B6476167EED_il2cpp_TypeInfo_var);
 		HmdDataAsset__ctor_m118A2075F8D66D12D12C6ED6C8B335C604CBFF27(L_0, NULL);
 		__this->____hmdDataAsset = L_0;
@@ -9526,7 +9508,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource__ctor_m92DF09EC8A3B
 		return;
 	}
 }
-// Method Definition Index: 131560
+// Method Definition Index: 132066
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_U3CStartU3Eb__15_0_m3B3878DDDF1148FA81E635F9FBBDDBEBB4B7A8CD (FromOVRHmdDataSource_t60F1D32F93B58AC36DB8E25645BB23596DCFA1CF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9536,7 +9518,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_U3CStartU3Eb__15_0_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:75>
 		DataSource_1_Start_m09DBE0DB15E616C56C4B990647E00B86C13CB270(__this, DataSource_1_Start_m09DBE0DB15E616C56C4B990647E00B86C13CB270_RuntimeMethod_var);
 		return;
 	}
@@ -9549,11 +9531,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_U3CStartU3Eb__15_0_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131561
+// Method Definition Index: 132067
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A* HandSkeletonOVR_get_Item_m20FD26CE5973A0F59AFD8843B2F374F566C2ECD0 (HandSkeletonOVR_t996D4212C7D93C00A7A400C055C056FE09CE8BD1* __this, int32_t ___0_handedness, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:32>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:32>
 		HandSkeletonU5BU5D_tFA06444E9B00A9A2A0BCEBD88AD4E1BCAFAB30C8* L_0 = __this->____skeletons;
 		int32_t L_1 = ___0_handedness;
 		NullCheck(L_0);
@@ -9562,7 +9544,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HandSkeleton_t1D460014EB9A79C22A05097791ABEE5
 		return L_3;
 	}
 }
-// Method Definition Index: 131562
+// Method Definition Index: 132068
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletonOVR_Awake_mA0C738D159835D9B7A869317EA820A8559062899 (HandSkeletonOVR_t996D4212C7D93C00A7A400C055C056FE09CE8BD1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9572,24 +9554,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletonOVR_Awake_mA0C738D159835D9B7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:36>
 		il2cpp_codegen_runtime_class_init_inline(OVRSkeletonData_t6C85DC6103A1CFF1FACB103A206637A58D2A9CA6_il2cpp_TypeInfo_var);
 		HandSkeletonU5BU5D_tFA06444E9B00A9A2A0BCEBD88AD4E1BCAFAB30C8* L_0 = __this->____skeletons;
 		NullCheck(L_0);
 		int32_t L_1 = 0;
 		HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A* L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
 		HandSkeletonOVR_ApplyToSkeleton_mBA1B7720BDC9842952F8950B368D7B30C4D648F1((&((OVRSkeletonData_t6C85DC6103A1CFF1FACB103A206637A58D2A9CA6_StaticFields*)il2cpp_codegen_static_fields_for(OVRSkeletonData_t6C85DC6103A1CFF1FACB103A206637A58D2A9CA6_il2cpp_TypeInfo_var))->___LeftSkeleton), L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:37>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:37>
 		HandSkeletonU5BU5D_tFA06444E9B00A9A2A0BCEBD88AD4E1BCAFAB30C8* L_3 = __this->____skeletons;
 		NullCheck(L_3);
 		int32_t L_4 = 1;
 		HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A* L_5 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		HandSkeletonOVR_ApplyToSkeleton_mBA1B7720BDC9842952F8950B368D7B30C4D648F1((&((OVRSkeletonData_t6C85DC6103A1CFF1FACB103A206637A58D2A9CA6_StaticFields*)il2cpp_codegen_static_fields_for(OVRSkeletonData_t6C85DC6103A1CFF1FACB103A206637A58D2A9CA6_il2cpp_TypeInfo_var))->___RightSkeleton), L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:38>
 		return;
 	}
 }
-// Method Definition Index: 131563
+// Method Definition Index: 132069
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A* HandSkeletonOVR_CreateSkeletonData_m9C2D7CFC1E7FA73A74E99775EE4572DEDDF3CF04 (int32_t ___0_handedness, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9603,11 +9585,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HandSkeleton_t1D460014EB9A79C22A05097791ABEE5
 	bool V_1 = false;
 	HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:42>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:42>
 		HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A* L_0 = (HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A*)il2cpp_codegen_object_new(HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A_il2cpp_TypeInfo_var);
 		HandSkeleton__ctor_mD8F0C35BB9A78E5048BDC992C7F017BE9BFD0CA7(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:46>
 		int32_t L_1 = ___0_handedness;
 		V_1 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
 		bool L_2 = V_1;
@@ -9617,7 +9599,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HandSkeleton_t1D460014EB9A79C22A05097791ABEE5
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:48>
 		il2cpp_codegen_runtime_class_init_inline(OVRSkeletonData_t6C85DC6103A1CFF1FACB103A206637A58D2A9CA6_il2cpp_TypeInfo_var);
 		HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A* L_3 = V_0;
 		HandSkeletonOVR_ApplyToSkeleton_mBA1B7720BDC9842952F8950B368D7B30C4D648F1((&((OVRSkeletonData_t6C85DC6103A1CFF1FACB103A206637A58D2A9CA6_StaticFields*)il2cpp_codegen_static_fields_for(OVRSkeletonData_t6C85DC6103A1CFF1FACB103A206637A58D2A9CA6_il2cpp_TypeInfo_var))->___LeftSkeleton), L_3, NULL);
@@ -9626,7 +9608,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HandSkeleton_t1D460014EB9A79C22A05097791ABEE5
 
 IL_001f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:52>
 		il2cpp_codegen_runtime_class_init_inline(OVRSkeletonData_t6C85DC6103A1CFF1FACB103A206637A58D2A9CA6_il2cpp_TypeInfo_var);
 		HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A* L_4 = V_0;
 		HandSkeletonOVR_ApplyToSkeleton_mBA1B7720BDC9842952F8950B368D7B30C4D648F1((&((OVRSkeletonData_t6C85DC6103A1CFF1FACB103A206637A58D2A9CA6_StaticFields*)il2cpp_codegen_static_fields_for(OVRSkeletonData_t6C85DC6103A1CFF1FACB103A206637A58D2A9CA6_il2cpp_TypeInfo_var))->___RightSkeleton), L_4, NULL);
@@ -9634,7 +9616,7 @@ IL_001f:
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:55>
 		HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A* L_5 = V_0;
 		V_2 = L_5;
 		goto IL_0031;
@@ -9642,12 +9624,12 @@ IL_002d:
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:56>
 		HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A* L_6 = V_2;
 		return L_6;
 	}
 }
-// Method Definition Index: 131564
+// Method Definition Index: 132070
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletonOVR_ApplyToSkeleton_mBA1B7720BDC9842952F8950B368D7B30C4D648F1 (Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* ___0_ovrSkeleton, HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A* ___1_handSkeleton, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9665,49 +9647,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletonOVR_ApplyToSkeleton_mBA1B772
 	memset((&V_4), 0, sizeof(V_4));
 	bool V_5 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:60>
 		HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A* L_0 = ___1_handSkeleton;
 		NullCheck(L_0);
 		HandSkeletonJointU5BU5D_t51777BC841638FBD65EF72F51217D480C935E4F6* L_1 = L_0->___joints;
 		NullCheck(L_1);
 		V_0 = ((int32_t)(((RuntimeArray*)L_1)->max_length));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:61>
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_2 = ___0_ovrSkeleton;
 		uint32_t L_3 = L_2->___NumBones;
 		int32_t L_4 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
 		Assert_AreEqual_mE608D2C7D637EEF110A7D80AEB1244EF2612E836(((int64_t)(uint64_t)((uint32_t)L_3)), ((int64_t)L_4), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:63>
 		V_1 = 0;
 		goto IL_0097;
 	}
 
 IL_001d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:65>
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_5 = ___0_ovrSkeleton;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_6 = L_5->___Bones;
 		int32_t L_7 = V_1;
 		NullCheck(L_6);
 		Posef_t51A2C10B4094B44A8D3C1913292B839172887B61* L_8 = (Posef_t51A2C10B4094B44A8D3C1913292B839172887B61*)(&((L_6)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_7)))->___Pose);
 		V_2 = L_8;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:67>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:68>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:69>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:70>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:71>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:72>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:73>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:74>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:75>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:76>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:77>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:78>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:79>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:80>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:81>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:82>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:73>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:83>
 		HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A* L_9 = ___1_handSkeleton;
 		NullCheck(L_9);
 		HandSkeletonJointU5BU5D_t51777BC841638FBD65EF72F51217D480C935E4F6* L_10 = L_9->___joints;
@@ -9735,14 +9717,14 @@ IL_001d:
 		HandSkeletonJoint_t3120B3D1CBB219AF904F1E0C239D0F4E3699DF50 L_23 = V_3;
 		NullCheck(L_10);
 		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (HandSkeletonJoint_t3120B3D1CBB219AF904F1E0C239D0F4E3699DF50)L_23);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:63>
 		int32_t L_24 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_24, 1));
 	}
 
 IL_0097:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:63>
 		int32_t L_25 = V_1;
 		int32_t L_26 = V_0;
 		V_5 = (bool)((((int32_t)L_25) < ((int32_t)L_26))? 1 : 0);
@@ -9753,166 +9735,158 @@ IL_0097:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:85>
 		return;
 	}
 }
-// Method Definition Index: 131565
+// Method Definition Index: 132071
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float HandSkeletonOVR_GetBoneRadius_m528A608B96A7E85670B457C30BDA1DF201CA3FD1 (Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* ___0_ovrSkeleton, int32_t ___1_boneIndex, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_FindIndex_TisBoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74_mFA5AF29425CD1569C7A8252FB69F0BF022478E3A_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Predicate_1_tA9EAD6C541352D6E88E6F5EE734E87AE8BF7DCF1_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass6_0_U3CGetBoneRadiusU3Eb__0_m33184CA6BAE4A88DC7B5AD61E083D4CB66A97DA7_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass6_0_tC58F95D0A3BEF3B9F90A62CC59BDB3CA674BD7A8_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	U3CU3Ec__DisplayClass6_0_tC58F95D0A3BEF3B9F90A62CC59BDB3CA674BD7A8* V_0 = NULL;
-	int32_t V_1 = 0;
+	BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* V_0 = NULL;
+	bool V_1 = false;
 	bool V_2 = false;
 	bool V_3 = false;
 	bool V_4 = false;
-	bool V_5 = false;
-	float V_6 = 0.0f;
-	float G_B11_0 = 0.0f;
+	int32_t V_5 = 0;
+	bool V_6 = false;
+	float V_7 = 0.0f;
+	bool V_8 = false;
 	{
-		U3CU3Ec__DisplayClass6_0_tC58F95D0A3BEF3B9F90A62CC59BDB3CA674BD7A8* L_0 = (U3CU3Ec__DisplayClass6_0_tC58F95D0A3BEF3B9F90A62CC59BDB3CA674BD7A8*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass6_0_tC58F95D0A3BEF3B9F90A62CC59BDB3CA674BD7A8_il2cpp_TypeInfo_var);
-		U3CU3Ec__DisplayClass6_0__ctor_m57B74878B63F830EFB093E448004392A1D6C4319(L_0, NULL);
-		V_0 = L_0;
-		U3CU3Ec__DisplayClass6_0_tC58F95D0A3BEF3B9F90A62CC59BDB3CA674BD7A8* L_1 = V_0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:90>
+		int32_t L_0 = ___1_boneIndex;
+		V_1 = (bool)((((int32_t)L_0) == ((int32_t)6))? 1 : 0);
+		bool L_1 = V_1;
+		if (!L_1)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:92>
+		___1_boneIndex = 7;
+		goto IL_0043;
+	}
+
+IL_0010:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:94>
 		int32_t L_2 = ___1_boneIndex;
-		NullCheck(L_1);
-		L_1->___boneIndex = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:90>
-		U3CU3Ec__DisplayClass6_0_tC58F95D0A3BEF3B9F90A62CC59BDB3CA674BD7A8* L_3 = V_0;
-		NullCheck(L_3);
-		int32_t L_4 = L_3->___boneIndex;
-		V_2 = (bool)((((int32_t)L_4) == ((int32_t)6))? 1 : 0);
-		bool L_5 = V_2;
+		V_2 = (bool)((((int32_t)L_2) == ((int32_t)((int32_t)11)))? 1 : 0);
+		bool L_3 = V_2;
+		if (!L_3)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:96>
+		___1_boneIndex = ((int32_t)12);
+		goto IL_0043;
+	}
+
+IL_0021:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:98>
+		int32_t L_4 = ___1_boneIndex;
+		V_3 = (bool)((((int32_t)L_4) == ((int32_t)((int32_t)16)))? 1 : 0);
+		bool L_5 = V_3;
 		if (!L_5)
 		{
-			goto IL_0026;
+			goto IL_0032;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:92>
-		U3CU3Ec__DisplayClass6_0_tC58F95D0A3BEF3B9F90A62CC59BDB3CA674BD7A8* L_6 = V_0;
-		NullCheck(L_6);
-		L_6->___boneIndex = 7;
-		goto IL_0076;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:100>
+		___1_boneIndex = ((int32_t)17);
+		goto IL_0043;
 	}
 
-IL_0026:
+IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:94>
-		U3CU3Ec__DisplayClass6_0_tC58F95D0A3BEF3B9F90A62CC59BDB3CA674BD7A8* L_7 = V_0;
-		NullCheck(L_7);
-		int32_t L_8 = L_7->___boneIndex;
-		V_3 = (bool)((((int32_t)L_8) == ((int32_t)((int32_t)11)))? 1 : 0);
-		bool L_9 = V_3;
-		if (!L_9)
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:102>
+		int32_t L_6 = ___1_boneIndex;
+		V_4 = (bool)((((int32_t)L_6) == ((int32_t)((int32_t)21)))? 1 : 0);
+		bool L_7 = V_4;
+		if (!L_7)
 		{
-			goto IL_0040;
+			goto IL_0043;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:96>
-		U3CU3Ec__DisplayClass6_0_tC58F95D0A3BEF3B9F90A62CC59BDB3CA674BD7A8* L_10 = V_0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:104>
+		___1_boneIndex = ((int32_t)22);
+	}
+
+IL_0043:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:116>
+		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_8 = ___0_ovrSkeleton;
+		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_9 = L_8->___BoneCapsules;
+		V_0 = L_9;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:117>
+		V_5 = 0;
+		goto IL_007f;
+	}
+
+IL_004f:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:119>
+		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_10 = V_0;
+		int32_t L_11 = V_5;
 		NullCheck(L_10);
-		L_10->___boneIndex = ((int32_t)12);
-		goto IL_0076;
-	}
-
-IL_0040:
-	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:98>
-		U3CU3Ec__DisplayClass6_0_tC58F95D0A3BEF3B9F90A62CC59BDB3CA674BD7A8* L_11 = V_0;
-		NullCheck(L_11);
-		int32_t L_12 = L_11->___boneIndex;
-		V_4 = (bool)((((int32_t)L_12) == ((int32_t)((int32_t)16)))? 1 : 0);
-		bool L_13 = V_4;
-		if (!L_13)
+		int16_t L_12 = ((L_10)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_11)))->___BoneIndex;
+		int32_t L_13 = ___1_boneIndex;
+		V_6 = (bool)((((int32_t)L_12) == ((int32_t)L_13))? 1 : 0);
+		bool L_14 = V_6;
+		if (!L_14)
 		{
-			goto IL_005c;
+			goto IL_0078;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:100>
-		U3CU3Ec__DisplayClass6_0_tC58F95D0A3BEF3B9F90A62CC59BDB3CA674BD7A8* L_14 = V_0;
-		NullCheck(L_14);
-		L_14->___boneIndex = ((int32_t)17);
-		goto IL_0076;
-	}
-
-IL_005c:
-	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:102>
-		U3CU3Ec__DisplayClass6_0_tC58F95D0A3BEF3B9F90A62CC59BDB3CA674BD7A8* L_15 = V_0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:121>
+		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_15 = V_0;
+		int32_t L_16 = V_5;
 		NullCheck(L_15);
-		int32_t L_16 = L_15->___boneIndex;
-		V_5 = (bool)((((int32_t)L_16) == ((int32_t)((int32_t)21)))? 1 : 0);
-		bool L_17 = V_5;
-		if (!L_17)
+		float L_17 = ((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_16)))->___Radius;
+		V_7 = L_17;
+		goto IL_0095;
+	}
+
+IL_0078:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:117>
+		int32_t L_18 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_18, 1));
+	}
+
+IL_007f:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:117>
+		int32_t L_19 = V_5;
+		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_20 = V_0;
+		NullCheck(L_20);
+		V_8 = (bool)((((int32_t)L_19) < ((int32_t)((int32_t)(((RuntimeArray*)L_20)->max_length))))? 1 : 0);
+		bool L_21 = V_8;
+		if (L_21)
 		{
-			goto IL_0076;
+			goto IL_004f;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:104>
-		U3CU3Ec__DisplayClass6_0_tC58F95D0A3BEF3B9F90A62CC59BDB3CA674BD7A8* L_18 = V_0;
-		NullCheck(L_18);
-		L_18->___boneIndex = ((int32_t)22);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:125>
+		V_7 = (0.0f);
+		goto IL_0095;
 	}
 
-IL_0076:
+IL_0095:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:116>
-		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_19 = ___0_ovrSkeleton;
-		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_20 = L_19->___BoneCapsules;
-		U3CU3Ec__DisplayClass6_0_tC58F95D0A3BEF3B9F90A62CC59BDB3CA674BD7A8* L_21 = V_0;
-		Predicate_1_tA9EAD6C541352D6E88E6F5EE734E87AE8BF7DCF1* L_22 = (Predicate_1_tA9EAD6C541352D6E88E6F5EE734E87AE8BF7DCF1*)il2cpp_codegen_object_new(Predicate_1_tA9EAD6C541352D6E88E6F5EE734E87AE8BF7DCF1_il2cpp_TypeInfo_var);
-		Predicate_1__ctor_m23D83BABAD74D8AC55D02DD00E6312E7C26027EC(L_22, L_21, (intptr_t)((void*)U3CU3Ec__DisplayClass6_0_U3CGetBoneRadiusU3Eb__0_m33184CA6BAE4A88DC7B5AD61E083D4CB66A97DA7_RuntimeMethod_var), NULL);
-		int32_t L_23;
-		L_23 = Array_FindIndex_TisBoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74_mFA5AF29425CD1569C7A8252FB69F0BF022478E3A(L_20, L_22, Array_FindIndex_TisBoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74_mFA5AF29425CD1569C7A8252FB69F0BF022478E3A_RuntimeMethod_var);
-		V_1 = L_23;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:117>
-		int32_t L_24 = V_1;
-		if ((((int32_t)L_24) < ((int32_t)0)))
-		{
-			goto IL_00a5;
-		}
-	}
-	{
-		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_25 = ___0_ovrSkeleton;
-		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_26 = L_25->___BoneCapsules;
-		int32_t L_27 = V_1;
-		NullCheck(L_26);
-		float L_28 = ((L_26)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_27)))->___Radius;
-		G_B11_0 = L_28;
-		goto IL_00aa;
-	}
-
-IL_00a5:
-	{
-		G_B11_0 = (0.0f);
-	}
-
-IL_00aa:
-	{
-		V_6 = G_B11_0;
-		goto IL_00ae;
-	}
-
-IL_00ae:
-	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:118>
-		float L_29 = V_6;
-		return L_29;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:126>
+		float L_22 = V_7;
+		return L_22;
 	}
 }
-// Method Definition Index: 131566
+// Method Definition Index: 132072
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletonOVR__ctor_mD1147F36DC5A85AF8F4A09FBB2B91AFCED969858 (HandSkeletonOVR_t996D4212C7D93C00A7A400C055C056FE09CE8BD1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9923,7 +9897,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletonOVR__ctor_mD1147F36DC5A85AF8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:30>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/HandSkeletonOVR.cs:30>
 		HandSkeletonU5BU5D_tFA06444E9B00A9A2A0BCEBD88AD4E1BCAFAB30C8* L_0 = (HandSkeletonU5BU5D_tFA06444E9B00A9A2A0BCEBD88AD4E1BCAFAB30C8*)(HandSkeletonU5BU5D_tFA06444E9B00A9A2A0BCEBD88AD4E1BCAFAB30C8*)SZArrayNew(HandSkeletonU5BU5D_tFA06444E9B00A9A2A0BCEBD88AD4E1BCAFAB30C8_il2cpp_TypeInfo_var, (uint32_t)2);
 		HandSkeletonU5BU5D_tFA06444E9B00A9A2A0BCEBD88AD4E1BCAFAB30C8* L_1 = L_0;
 		HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A* L_2 = (HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A*)il2cpp_codegen_object_new(HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A_il2cpp_TypeInfo_var);
@@ -9951,47 +9925,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletonOVR__ctor_mD1147F36DC5A85AF8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131567
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0__ctor_m57B74878B63F830EFB093E448004392A1D6C4319 (U3CU3Ec__DisplayClass6_0_tC58F95D0A3BEF3B9F90A62CC59BDB3CA674BD7A8* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-// Method Definition Index: 131568
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass6_0_U3CGetBoneRadiusU3Eb__0_m33184CA6BAE4A88DC7B5AD61E083D4CB66A97DA7 (U3CU3Ec__DisplayClass6_0_tC58F95D0A3BEF3B9F90A62CC59BDB3CA674BD7A8* __this, BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 ___0_c, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/HandSkeletonOVR.cs:116>
-		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_0 = ___0_c;
-		int16_t L_1 = L_0.___BoneIndex;
-		int32_t L_2 = __this->___boneIndex;
-		return (bool)((((int32_t)L_1) == ((int32_t)L_2))? 1 : 0);
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// Method Definition Index: 131576
+// Method Definition Index: 132080
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* OVRCameraRigRef_get_CameraRig_mBA6A96863C9DA3F9056645D33E18145A12962CD9 (OVRCameraRigRef_t559BBEBD06F1FE029695CA0E072E21E1CE9C01DE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:70>
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_0 = __this->____ovrCameraRig;
 		return L_0;
 	}
 }
-// Method Definition Index: 131577
+// Method Definition Index: 132081
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* OVRCameraRigRef_get_LeftHand_mF29F31FC8E074732C959C2D3F2AD662B56122A77 (OVRCameraRigRef_t559BBEBD06F1FE029695CA0E072E21E1CE9C01DE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:72>
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509** L_0 = (OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509**)(&__this->____leftHand);
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_1 = __this->____ovrCameraRig;
 		NullCheck(L_1);
@@ -10002,11 +9949,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3A
 		return L_3;
 	}
 }
-// Method Definition Index: 131578
+// Method Definition Index: 132082
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* OVRCameraRigRef_get_RightHand_mCB7C152272CF5D305C3F921B7494EF175BF67AA7 (OVRCameraRigRef_t559BBEBD06F1FE029695CA0E072E21E1CE9C01DE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:73>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:73>
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509** L_0 = (OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509**)(&__this->____rightHand);
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_1 = __this->____ovrCameraRig;
 		NullCheck(L_1);
@@ -10017,11 +9964,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3A
 		return L_3;
 	}
 }
-// Method Definition Index: 131579
+// Method Definition Index: 132083
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* OVRCameraRigRef_get_LeftController_m8859AE4C6C30830FDE3664F304100AC9111E57E3 (OVRCameraRigRef_t559BBEBD06F1FE029695CA0E072E21E1CE9C01DE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:75>
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_0 = __this->____ovrCameraRig;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -10029,11 +9976,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 		return L_1;
 	}
 }
-// Method Definition Index: 131580
+// Method Definition Index: 132084
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* OVRCameraRigRef_get_RightController_mECA3D4EBEF423D9B0888448BEE4637DFD98A7328 (OVRCameraRigRef_t559BBEBD06F1FE029695CA0E072E21E1CE9C01DE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:76>
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_0 = __this->____ovrCameraRig;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -10041,7 +9988,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 		return L_1;
 	}
 }
-// Method Definition Index: 131581
+// Method Definition Index: 132085
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraRigRef_add_WhenInputDataDirtied_mDC434DE4A9CA515E24C8A583D5E3A54B033015CE (OVRCameraRigRef_t559BBEBD06F1FE029695CA0E072E21E1CE9C01DE* __this, Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10084,7 +10031,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 131582
+// Method Definition Index: 132086
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraRigRef_remove_WhenInputDataDirtied_m754F5EA46184B2BEEB189F91BCBD7DDE83C3A4B2 (OVRCameraRigRef_t559BBEBD06F1FE029695CA0E072E21E1CE9C01DE* __this, Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10127,7 +10074,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 131583
+// Method Definition Index: 132087
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraRigRef_Start_m8AD9FA46EA3EEE1D02B79CE1CCC6D2E2FCAFE702 (OVRCameraRigRef_t559BBEBD06F1FE029695CA0E072E21E1CE9C01DE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10138,50 +10085,50 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraRigRef_Start_m8AD9FA46EA3EEE1D0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:86>
 		bool* L_0 = (bool*)(&__this->____started);
 		MonoBehaviourStartExtensions_BeginStart_mC498E0AC129F7CDC354718BF0E799CB2A2E04366(__this, L_0, (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:87>
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_1 = __this->____ovrCameraRig;
 		AssertUtils_AssertField_TisOVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9_m256669D856AC44837DF8A9A297EE1AA22042956A(__this, L_1, _stringLiteral7FA25963A229DB77ADEF93C9682464D5CF01621B, (String_t*)NULL, (String_t*)NULL, (String_t*)NULL, AssertUtils_AssertField_TisOVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9_m256669D856AC44837DF8A9A297EE1AA22042956A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:88>
 		bool* L_2 = (bool*)(&__this->____started);
 		MonoBehaviourStartExtensions_EndStart_mB9C76425BEAB3A0D8A30965081A4F356F9F69CF5(__this, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:89>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:89>
 		return;
 	}
 }
-// Method Definition Index: 131584
+// Method Definition Index: 132088
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraRigRef_FixedUpdate_mAECE4F46652FA30171C4DF315887062C5BA9FF27 (OVRCameraRigRef_t559BBEBD06F1FE029695CA0E072E21E1CE9C01DE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:93>
 		__this->____isLateUpdate = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:94>
 		return;
 	}
 }
-// Method Definition Index: 131585
+// Method Definition Index: 132089
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraRigRef_Update_m66DC649403A11F49080979FBE15B76CDB23F2AC3 (OVRCameraRigRef_t559BBEBD06F1FE029695CA0E072E21E1CE9C01DE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:98>
 		__this->____isLateUpdate = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:99>
 		return;
 	}
 }
-// Method Definition Index: 131586
+// Method Definition Index: 132090
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraRigRef_LateUpdate_m5938AD077AF317AC0177EA3A162599870B6549EF (OVRCameraRigRef_t559BBEBD06F1FE029695CA0E072E21E1CE9C01DE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:103>
 		__this->____isLateUpdate = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:104>
 		return;
 	}
 }
-// Method Definition Index: 131587
+// Method Definition Index: 132091
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraRigRef_OnEnable_mFE90843F31B1FF9E605413959815FB8198578399 (OVRCameraRigRef_t559BBEBD06F1FE029695CA0E072E21E1CE9C01DE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10193,7 +10140,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraRigRef_OnEnable_mFE90843F31B1FF
 	}
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:108>
 		bool L_0 = __this->____started;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -10203,7 +10150,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraRigRef_OnEnable_mFE90843F31B1FF
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:110>
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_2;
 		L_2 = OVRCameraRigRef_get_CameraRig_mBA6A96863C9DA3F9056645D33E18145A12962CD9_inline(__this, NULL);
 		Action_1_t88CC03E8C305DA991BBBCEBE79519B58D52F577F* L_3 = (Action_1_t88CC03E8C305DA991BBBCEBE79519B58D52F577F*)il2cpp_codegen_object_new(Action_1_t88CC03E8C305DA991BBBCEBE79519B58D52F577F_il2cpp_TypeInfo_var);
@@ -10214,11 +10161,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraRigRef_OnEnable_mFE90843F31B1FF
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:112>
 		return;
 	}
 }
-// Method Definition Index: 131588
+// Method Definition Index: 132092
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraRigRef_OnDisable_m8D58C65F0810159559A08DF8663B4C42CD945D93 (OVRCameraRigRef_t559BBEBD06F1FE029695CA0E072E21E1CE9C01DE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10230,7 +10177,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraRigRef_OnDisable_m8D58C65F08101
 	}
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:116>
 		bool L_0 = __this->____started;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -10240,7 +10187,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraRigRef_OnDisable_m8D58C65F08101
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:118>
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_2;
 		L_2 = OVRCameraRigRef_get_CameraRig_mBA6A96863C9DA3F9056645D33E18145A12962CD9_inline(__this, NULL);
 		Action_1_t88CC03E8C305DA991BBBCEBE79519B58D52F577F* L_3 = (Action_1_t88CC03E8C305DA991BBBCEBE79519B58D52F577F*)il2cpp_codegen_object_new(Action_1_t88CC03E8C305DA991BBBCEBE79519B58D52F577F_il2cpp_TypeInfo_var);
@@ -10251,11 +10198,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraRigRef_OnDisable_m8D58C65F08101
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:120>
 		return;
 	}
 }
-// Method Definition Index: 131589
+// Method Definition Index: 132093
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* OVRCameraRigRef_GetHandCached_mBE75C8E398359CFE0150C12767F56172853658E5 (OVRCameraRigRef_t559BBEBD06F1FE029695CA0E072E21E1CE9C01DE* __this, OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509** ___0_cachedValue, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_handAnchor, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10271,7 +10218,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3A
 	OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* V_1 = NULL;
 	bool V_2 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:124>
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509** L_0 = ___0_cachedValue;
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* L_1 = *((OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509**)L_0);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -10285,7 +10232,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:126>
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509** L_4 = ___0_cachedValue;
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* L_5 = *((OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509**)L_4);
 		V_1 = L_5;
@@ -10294,7 +10241,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3A
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:129>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:129>
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509** L_6 = ___0_cachedValue;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = ___1_handAnchor;
 		NullCheck(L_7);
@@ -10302,7 +10249,7 @@ IL_0013:
 		L_8 = Component_GetComponentInChildren_TisOVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509_mBAD8051B6FE029CE959F47310C0042658F827B20(L_7, (bool)1, Component_GetComponentInChildren_TisOVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509_mBAD8051B6FE029CE959F47310C0042658F827B20_RuntimeMethod_var);
 		*((RuntimeObject**)L_6) = (RuntimeObject*)L_8;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_6, (void*)(RuntimeObject*)L_8);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:130>
 		bool L_9 = __this->____requireOvrHands;
 		V_2 = L_9;
 		bool L_10 = V_2;
@@ -10312,7 +10259,7 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:132>
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509** L_11 = ___0_cachedValue;
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* L_12 = *((OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509**)L_11);
 		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
@@ -10321,7 +10268,7 @@ IL_0013:
 
 IL_0030:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:135>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:135>
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509** L_13 = ___0_cachedValue;
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* L_14 = *((OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509**)L_13);
 		V_1 = L_14;
@@ -10330,68 +10277,68 @@ IL_0030:
 
 IL_0035:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:136>
 		OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* L_15 = V_1;
 		return L_15;
 	}
 }
-// Method Definition Index: 131590
+// Method Definition Index: 132094
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraRigRef_HandleInputDataDirtied_m84A927FABA960B4070DB030F97A9888AD589448B (OVRCameraRigRef_t559BBEBD06F1FE029695CA0E072E21E1CE9C01DE* __this, OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* ___0_cameraRig, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:140>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:140>
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_0 = __this->___WhenInputDataDirtied;
 		bool L_1 = __this->____isLateUpdate;
 		NullCheck(L_0);
 		Action_1_Invoke_m69C8773D6967F3B224777183E24EA621CE056F8F_inline(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:141>
 		return;
 	}
 }
-// Method Definition Index: 131591
+// Method Definition Index: 132095
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraRigRef_InjectAllOVRCameraRigRef_m51C335083A39E04253ADF989BC8D351F0AEA6B63 (OVRCameraRigRef_t559BBEBD06F1FE029695CA0E072E21E1CE9C01DE* __this, OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* ___0_ovrCameraRig, bool ___1_requireHands, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:146>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:146>
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_0 = ___0_ovrCameraRig;
 		OVRCameraRigRef_InjectInteractionOVRCameraRig_m8272E5BFDA1F4BC724CF98BF094A599BA3A3C739(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:147>
 		bool L_1 = ___1_requireHands;
 		OVRCameraRigRef_InjectRequireHands_mF8D0893140652474BFB8478DA5B4F3A57E184A83(__this, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:148>
 		return;
 	}
 }
-// Method Definition Index: 131592
+// Method Definition Index: 132096
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraRigRef_InjectInteractionOVRCameraRig_m8272E5BFDA1F4BC724CF98BF094A599BA3A3C739 (OVRCameraRigRef_t559BBEBD06F1FE029695CA0E072E21E1CE9C01DE* __this, OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* ___0_ovrCameraRig, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:152>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:152>
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_0 = ___0_ovrCameraRig;
 		__this->____ovrCameraRig = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____ovrCameraRig), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:154>
 		__this->____leftHand = (OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____leftHand), (void*)(OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:155>
 		__this->____rightHand = (OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____rightHand), (void*)(OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:156>
 		return;
 	}
 }
-// Method Definition Index: 131593
+// Method Definition Index: 132097
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraRigRef_InjectRequireHands_mF8D0893140652474BFB8478DA5B4F3A57E184A83 (OVRCameraRigRef_t559BBEBD06F1FE029695CA0E072E21E1CE9C01DE* __this, bool ___0_requireHands, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:160>
 		bool L_0 = ___0_requireHands;
 		__this->____requireOvrHands = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:161>
 		return;
 	}
 }
-// Method Definition Index: 131594
+// Method Definition Index: 132098
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraRigRef__ctor_m0ED06B3BF13E8F9F7EE200F8725C3A02EBE2B1CD (OVRCameraRigRef_t559BBEBD06F1FE029695CA0E072E21E1CE9C01DE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10407,9 +10354,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRCameraRigRef__ctor_m0ED06B3BF13E8F9F7
 	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* G_B1_0 = NULL;
 	OVRCameraRigRef_t559BBEBD06F1FE029695CA0E072E21E1CE9C01DE* G_B1_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:68>
 		__this->____requireOvrHands = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:78>
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tAB0F8FB6DD25D3AABE265FFC392DB5EB3EC44144_il2cpp_TypeInfo_var);
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_0 = ((U3CU3Ec_tAB0F8FB6DD25D3AABE265FFC392DB5EB3EC44144_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tAB0F8FB6DD25D3AABE265FFC392DB5EB3EC44144_il2cpp_TypeInfo_var))->___U3CU3E9__30_0;
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_1 = L_0;
@@ -10439,7 +10386,7 @@ IL_0027:
 		NullCheck(G_B2_1);
 		G_B2_1->___WhenInputDataDirtied = G_B2_0;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B2_1->___WhenInputDataDirtied), (void*)G_B2_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:80>
 		__this->____started = (bool)0;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -10453,7 +10400,7 @@ IL_0027:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131595
+// Method Definition Index: 132099
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m37F55F185C39F0794D636ADBA1B5D350ED4A9BE5 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10470,7 +10417,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m37F55F185C39F0794D636ADB
 		return;
 	}
 }
-// Method Definition Index: 131596
+// Method Definition Index: 132100
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mECDB5846FC37B6FC0D23E41452DDC1C4B673564E (U3CU3Ec_tAB0F8FB6DD25D3AABE265FFC392DB5EB3EC44144* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10478,11 +10425,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mECDB5846FC37B6FC0D23E4145
 		return;
 	}
 }
-// Method Definition Index: 131597
+// Method Definition Index: 132101
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_ctorU3Eb__30_0_m930BEFE90A964D1BE21178A92DF764478A7139C0 (U3CU3Ec_tAB0F8FB6DD25D3AABE265FFC392DB5EB3EC44144* __this, bool ___0_U3Cp0U3E, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:78>
 		return;
 	}
 }
@@ -10494,7 +10441,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_ctorU3Eb__30_0_m930BEFE90A96
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131598
+// Method Definition Index: 132102
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRControllerUtility_GetPinchAmount_m0DB9DCF88396C2CC5CBE20AE6F3450303A9C46B9 (int32_t ___0_ovrController, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10506,13 +10453,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRControllerUtility_GetPinchAmount_m0D
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerUtility.cs:30>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerUtility.cs:30>
 		int32_t L_0 = ___0_ovrController;
 		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
 		float L_1;
 		L_1 = OVRInput_Get_m1FD85568F358C43019E09E48A7BEBD6CD7F7E5D8(1, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerUtility.cs:31>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerUtility.cs:31>
 		float L_2 = V_0;
 		V_1 = L_2;
 		goto IL_000d;
@@ -10520,12 +10467,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRControllerUtility_GetPinchAmount_m0D
 
 IL_000d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerUtility.cs:32>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerUtility.cs:32>
 		float L_3 = V_1;
 		return L_3;
 	}
 }
-// Method Definition Index: 131599
+// Method Definition Index: 132103
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRControllerUtility_GetIndexCurl_m371897D1DB6FF0572E4F816776D3502BFC9B95B8 (int32_t ___0_ovrController, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10541,7 +10488,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRControllerUtility_GetIndexCurl_m3718
 	int32_t G_B5_0 = 0;
 	int32_t G_B8_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerUtility.cs:37>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerUtility.cs:37>
 		int32_t L_0 = ___0_ovrController;
 		bool L_1;
 		L_1 = OVRControllerUtility_SupportsAnalogIndex_m59D2965988087774C6B66FD17185C7D393F4BBCC(L_0, NULL);
@@ -10553,7 +10500,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRControllerUtility_GetIndexCurl_m3718
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerUtility.cs:39>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerUtility.cs:39>
 		int32_t L_3 = ___0_ovrController;
 		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
 		float L_4;
@@ -10564,8 +10511,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRControllerUtility_GetIndexCurl_m3718
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerUtility.cs:44>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerUtility.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerUtility.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerUtility.cs:45>
 		int32_t L_5 = ___0_ovrController;
 		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -10592,7 +10539,7 @@ IL_0032:
 IL_0033:
 	{
 		V_2 = (bool)G_B5_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerUtility.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerUtility.cs:47>
 		bool L_9 = V_2;
 		if (L_9)
 		{
@@ -10616,7 +10563,7 @@ IL_003b:
 
 IL_003e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerUtility.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerUtility.cs:49>
 		float L_10 = V_0;
 		V_3 = L_10;
 		goto IL_0042;
@@ -10624,12 +10571,12 @@ IL_003e:
 
 IL_0042:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerUtility.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerUtility.cs:50>
 		float L_11 = V_3;
 		return L_11;
 	}
 }
-// Method Definition Index: 131600
+// Method Definition Index: 132104
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRControllerUtility_GetIndexSlide_m660103630E2C87BE0E1D6CDCDD56BB8A1331223A (int32_t ___0_ovrController, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10642,7 +10589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRControllerUtility_GetIndexSlide_m660
 	bool V_1 = false;
 	float V_2 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerUtility.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerUtility.cs:55>
 		int32_t L_0 = ___0_ovrController;
 		bool L_1;
 		L_1 = OVRControllerUtility_SupportsAnalogIndex_m59D2965988087774C6B66FD17185C7D393F4BBCC(L_0, NULL);
@@ -10654,7 +10601,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRControllerUtility_GetIndexSlide_m660
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerUtility.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerUtility.cs:57>
 		int32_t L_3 = ___0_ovrController;
 		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
 		float L_4;
@@ -10665,13 +10612,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRControllerUtility_GetIndexSlide_m660
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerUtility.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerUtility.cs:61>
 		V_0 = (0.0f);
 	}
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerUtility.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerUtility.cs:63>
 		float L_5 = V_0;
 		V_2 = L_5;
 		goto IL_0024;
@@ -10679,12 +10626,12 @@ IL_0020:
 
 IL_0024:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerUtility.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerUtility.cs:64>
 		float L_6 = V_2;
 		return L_6;
 	}
 }
-// Method Definition Index: 131601
+// Method Definition Index: 132105
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRControllerUtility_SupportsAnalogIndex_m59D2965988087774C6B66FD17185C7D393F4BBCC (int32_t ___0_ovrController, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10701,7 +10648,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRControllerUtility_SupportsAnalogIndex
 	int32_t G_B3_0 = 0;
 	int32_t G_B8_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerUtility.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerUtility.cs:68>
 		int32_t L_0 = ___0_ovrController;
 		if ((((int32_t)L_0) == ((int32_t)1)))
 		{
@@ -10722,7 +10669,7 @@ IL_000b:
 IL_000c:
 	{
 		V_0 = (bool)G_B3_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerUtility.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerUtility.cs:69>
 		bool L_2 = V_0;
 		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
 		bool L_3 = V_3;
@@ -10732,14 +10679,14 @@ IL_000c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerUtility.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerUtility.cs:71>
 		V_4 = (bool)0;
 		goto IL_0036;
 	}
 
 IL_001b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerUtility.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerUtility.cs:74>
 		int32_t L_4 = ___0_ovrController;
 		if ((((int32_t)L_4) == ((int32_t)1)))
 		{
@@ -10759,13 +10706,13 @@ IL_0022:
 IL_0023:
 	{
 		V_1 = G_B8_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerUtility.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerUtility.cs:75>
 		int32_t L_5 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
 		int32_t L_6;
 		L_6 = OVRInput_GetCurrentInteractionProfile_m8630585A560EB956CDEC8EA3355C3A4584E6734A(L_5, NULL);
 		V_2 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerUtility.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerUtility.cs:76>
 		int32_t L_7 = V_2;
 		V_4 = (bool)((((int32_t)((((int32_t)L_7) == ((int32_t)1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		goto IL_0036;
@@ -10773,7 +10720,7 @@ IL_0023:
 
 IL_0036:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerUtility.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerUtility.cs:77>
 		bool L_8 = V_4;
 		return L_8;
 	}
@@ -10786,7 +10733,7 @@ IL_0036:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131602
+// Method Definition Index: 132106
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRInputDeviceActiveState_get_Active_m82DF33191BF6A250AC483A69F0E183483B3E1F8F (OVRInputDeviceActiveState_tC7731D9583BB49397FFB1C9F9913D04611C5B559* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10805,7 +10752,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRInputDeviceActiveState_get_Active_m82
 	bool V_2 = false;
 	bool V_3 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRInputDeviceActiveState.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRInputDeviceActiveState.cs:43>
 		List_1_tE4FDA13E1EFDB69156FBF29C3207E24FFBA09333* L_0 = __this->____controllerTypes;
 		NullCheck(L_0);
 		Enumerator_t8BE4B8A85DCA7E485346EC3F313A5E8F1EA8CACB L_1;
@@ -10830,11 +10777,11 @@ FINALLY_0035:
 
 IL_0010_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRInputDeviceActiveState.cs:43>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRInputDeviceActiveState.cs:43>
 				int32_t L_2;
 				L_2 = Enumerator_get_Current_mF6B92BD4CC7F0F206C3B132D8B49927950328FD4_inline((&V_0), Enumerator_get_Current_mF6B92BD4CC7F0F206C3B132D8B49927950328FD4_RuntimeMethod_var);
 				V_1 = L_2;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRInputDeviceActiveState.cs:45>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRInputDeviceActiveState.cs:45>
 				il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
 				int32_t L_3;
 				L_3 = OVRInput_GetConnectedControllers_m70645A9B001F6880D104D779341958174139332D(NULL);
@@ -10847,7 +10794,7 @@ IL_0010_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRInputDeviceActiveState.cs:45>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRInputDeviceActiveState.cs:45>
 				V_3 = (bool)1;
 				goto IL_0048;
 			}
@@ -10858,7 +10805,7 @@ IL_0029_1:
 
 IL_002a_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRInputDeviceActiveState.cs:43>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRInputDeviceActiveState.cs:43>
 				bool L_6;
 				L_6 = Enumerator_MoveNext_m49F5AA38898BAC4BD0EF2FA858F3B0AFFB91E9C5((&V_0), Enumerator_MoveNext_m49F5AA38898BAC4BD0EF2FA858F3B0AFFB91E9C5_RuntimeMethod_var);
 				if (L_6)
@@ -10878,42 +10825,42 @@ IL_002a_1:
 
 IL_0044:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRInputDeviceActiveState.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRInputDeviceActiveState.cs:47>
 		V_3 = (bool)0;
 		goto IL_0048;
 	}
 
 IL_0048:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRInputDeviceActiveState.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRInputDeviceActiveState.cs:48>
 		bool L_7 = V_3;
 		return L_7;
 	}
 }
-// Method Definition Index: 131603
+// Method Definition Index: 132107
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputDeviceActiveState_InjectAllOVRInputDeviceActiveState_m78C6767FEC719CA5292B110A54DF0960B7108EC4 (OVRInputDeviceActiveState_tC7731D9583BB49397FFB1C9F9913D04611C5B559* __this, List_1_tE4FDA13E1EFDB69156FBF29C3207E24FFBA09333* ___0_controllerTypes, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRInputDeviceActiveState.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRInputDeviceActiveState.cs:55>
 		List_1_tE4FDA13E1EFDB69156FBF29C3207E24FFBA09333* L_0 = ___0_controllerTypes;
 		OVRInputDeviceActiveState_InjectControllerTypes_m0CDBF4767F3C14AD09296F5D0FB5DC53FE8D825F(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRInputDeviceActiveState.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRInputDeviceActiveState.cs:56>
 		return;
 	}
 }
-// Method Definition Index: 131604
+// Method Definition Index: 132108
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputDeviceActiveState_InjectControllerTypes_m0CDBF4767F3C14AD09296F5D0FB5DC53FE8D825F (OVRInputDeviceActiveState_tC7731D9583BB49397FFB1C9F9913D04611C5B559* __this, List_1_tE4FDA13E1EFDB69156FBF29C3207E24FFBA09333* ___0_controllerTypes, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRInputDeviceActiveState.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRInputDeviceActiveState.cs:60>
 		List_1_tE4FDA13E1EFDB69156FBF29C3207E24FFBA09333* L_0 = ___0_controllerTypes;
 		__this->____controllerTypes = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____controllerTypes), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRInputDeviceActiveState.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRInputDeviceActiveState.cs:61>
 		return;
 	}
 }
-// Method Definition Index: 131605
+// Method Definition Index: 132109
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputDeviceActiveState__ctor_mF8DFC8889BDC8C27135B2993A222FA644AC8469B (OVRInputDeviceActiveState_tC7731D9583BB49397FFB1C9F9913D04611C5B559* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10929,7 +10876,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInputDeviceActiveState__ctor_mF8DFC88
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131606
+// Method Definition Index: 132110
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRNearTouch_Value_mEEB6780F30DC11A75F4908D067AA1188BAC2DBB6 (OVRNearTouch_tCDC78B6278C1C6504F0A75BFF50AB18AEFD3B92B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10940,7 +10887,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRNearTouch_Value_mEEB6780F30DC11A75F49
 	}
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRNearTouch.cs:37>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRNearTouch.cs:37>
 		int32_t L_0 = __this->____nearTouch;
 		int32_t L_1 = __this->____controller;
 		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
@@ -10952,12 +10899,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRNearTouch_Value_mEEB6780F30DC11A75F49
 
 IL_0015:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRNearTouch.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRNearTouch.cs:38>
 		bool L_3 = V_0;
 		return L_3;
 	}
 }
-// Method Definition Index: 131607
+// Method Definition Index: 132111
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRNearTouch__ctor_mAEC68AF76AB759CCCF01E072348C9120F3AC901D (OVRNearTouch_tCDC78B6278C1C6504F0A75BFF50AB18AEFD3B92B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10973,7 +10920,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRNearTouch__ctor_mAEC68AF76AB759CCCF01
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131608
+// Method Definition Index: 132112
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRSkeletonData__ctor_m60E94FDB5540ED05BDD5BBC2F27809CAC7003BF8 (OVRSkeletonData_t6C85DC6103A1CFF1FACB103A206637A58D2A9CA6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10981,7 +10928,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRSkeletonData__ctor_m60E94FDB5540ED05B
 		return;
 	}
 }
-// Method Definition Index: 131609
+// Method Definition Index: 132113
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRSkeletonData__cctor_mE24D8B9532627370DAB11B18810736EC6FC02B40 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11005,61 +10952,61 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRSkeletonData__cctor_mE24D8B9532627370
 	BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:32>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:33>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:34>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:35>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:36>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:37>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:38>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:39>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:40>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:41>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:42>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:43>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:44>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:45>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:46>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:47>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:48>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:49>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:50>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:51>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:52>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:53>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:54>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:55>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:56>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:57>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:58>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:59>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:60>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:61>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:62>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:63>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:64>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:65>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:66>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:67>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:68>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:69>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:70>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:71>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:72>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:73>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:74>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:75>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:76>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:77>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:78>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:79>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:80>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:81>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:82>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:83>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:84>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:85>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:32>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:33>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:34>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:35>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:37>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:39>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:42>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:73>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:86>
 		il2cpp_codegen_initobj((&V_0), sizeof(Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F));
 		(&V_0)->___Type = 4;
 		(&V_0)->___NumBones = ((int32_t)26);
@@ -12035,61 +11982,61 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRSkeletonData__cctor_mE24D8B9532627370
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&((OVRSkeletonData_t6C85DC6103A1CFF1FACB103A206637A58D2A9CA6_StaticFields*)il2cpp_codegen_static_fields_for(OVRSkeletonData_t6C85DC6103A1CFF1FACB103A206637A58D2A9CA6_il2cpp_TypeInfo_var))->___LeftSkeleton))->___BoneCapsules), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:88>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:89>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:90>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:91>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:92>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:93>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:94>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:95>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:96>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:97>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:98>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:99>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:100>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:101>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:102>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:103>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:104>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:105>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:106>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:107>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:108>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:109>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:110>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:111>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:112>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:113>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:114>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:115>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:116>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:117>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:118>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:119>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:120>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:121>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:122>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:123>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:124>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:125>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:126>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:127>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:128>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:129>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:130>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:131>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:132>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:133>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:134>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:135>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:136>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:137>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:138>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:139>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:140>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:141>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRSkeletonData.cs:142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:89>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:92>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:106>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:127>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:129>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:135>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:137>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:138>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:139>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:140>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRSkeletonData.cs:142>
 		il2cpp_codegen_initobj((&V_0), sizeof(Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F));
 		(&V_0)->___Type = 5;
 		(&V_0)->___NumBones = ((int32_t)26);
@@ -13076,7 +13023,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRSkeletonData__cctor_mE24D8B9532627370
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131610
+// Method Definition Index: 132114
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRTouch_Value_m8D67E9FA79F78610B448555D6C92A1D0FC9F92D5 (OVRTouch_t19BA07A0DAFFFFF5EDD890058AB893DFD6158409* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13087,7 +13034,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRTouch_Value_m8D67E9FA79F78610B448555D
 	}
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRTouch.cs:37>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRTouch.cs:37>
 		int32_t L_0 = __this->____touch;
 		int32_t L_1 = __this->____controller;
 		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
@@ -13099,12 +13046,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRTouch_Value_m8D67E9FA79F78610B448555D
 
 IL_0015:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRTouch.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRTouch.cs:38>
 		bool L_3 = V_0;
 		return L_3;
 	}
 }
-// Method Definition Index: 131611
+// Method Definition Index: 132115
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRTouch__ctor_mE91B57B3DD45AAA768211E0100CBB93023DA2F06 (OVRTouch_t19BA07A0DAFFFFF5EDD890058AB893DFD6158409* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13120,7 +13067,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRTouch__ctor_mE91B57B3DD45AAA768211E01
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131612
+// Method Definition Index: 132116
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SetDisplayRefresh_SetDesiredDisplayFrequency_mD8D02EE88963C2FE24CBC40A58E07576BA3086F8 (SetDisplayRefresh_t1F83887BC4D7009A3C0A6C7404A6E972B75B5719* __this, float ___0_desiredDisplayFrequency, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13135,12 +13082,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SetDisplayRefresh_SetDesiredDisplayFrequ
 	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_0 = NULL;
 	bool V_1 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/SetDisplayRefresh.cs:35>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/SetDisplayRefresh.cs:35>
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0;
 		L_0 = OVRPlugin_get_systemDisplayFrequenciesAvailable_m0C8838572B37964AD96032AA4F4C021F077AE68D(NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/SetDisplayRefresh.cs:37>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/SetDisplayRefresh.cs:37>
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_1 = V_0;
 		float L_2 = __this->____desiredDisplayFrequency;
 		bool L_3;
@@ -13153,7 +13100,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SetDisplayRefresh_SetDesiredDisplayFrequ
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/SetDisplayRefresh.cs:39>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/SetDisplayRefresh.cs:39>
 		float* L_5 = (float*)(&__this->____desiredDisplayFrequency);
 		String_t* L_6;
 		L_6 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972(L_5, NULL);
@@ -13161,7 +13108,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SetDisplayRefresh_SetDesiredDisplayFrequ
 		L_7 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral17B4432F452C748E18CA9391A423D5A6AF5646B2, L_6, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/SetDisplayRefresh.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/SetDisplayRefresh.cs:40>
 		float L_8 = __this->____desiredDisplayFrequency;
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
 		OVRPlugin_set_systemDisplayFrequency_m1C71496AF03BFA13D61113389F4C8CC065043034(L_8, NULL);
@@ -13169,26 +13116,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SetDisplayRefresh_SetDesiredDisplayFrequ
 
 IL_0040:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/SetDisplayRefresh.cs:42>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/SetDisplayRefresh.cs:42>
 		return;
 	}
 }
-// Method Definition Index: 131613
+// Method Definition Index: 132117
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SetDisplayRefresh_Awake_mC0D805EACD51C81099F0CE009E56D0EF62F79388 (SetDisplayRefresh_t1F83887BC4D7009A3C0A6C7404A6E972B75B5719* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/SetDisplayRefresh.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/SetDisplayRefresh.cs:46>
 		float L_0 = __this->____desiredDisplayFrequency;
 		SetDisplayRefresh_SetDesiredDisplayFrequency_mD8D02EE88963C2FE24CBC40A58E07576BA3086F8(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/SetDisplayRefresh.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/SetDisplayRefresh.cs:47>
 		return;
 	}
 }
-// Method Definition Index: 131614
+// Method Definition Index: 132118
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SetDisplayRefresh__ctor_m03ACF121F70E891C7C4031D7C2FC5ACF697BC06F (SetDisplayRefresh_t1F83887BC4D7009A3C0A6C7404A6E972B75B5719* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/SetDisplayRefresh.cs:31>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/SetDisplayRefresh.cs:31>
 		__this->____desiredDisplayFrequency = (90.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -13202,27 +13149,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SetDisplayRefresh__ctor_m03ACF121F70E891
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131615
+// Method Definition Index: 132119
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TrackingToWorldTransformerOVR_get_CameraRigRef_mE27D2627F557B2C82BFB456A0E4109E70B34BDC3 (TrackingToWorldTransformerOVR_t17348670A78557CA7D426556FAA0981B783ABB33* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:33>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:33>
 		RuntimeObject* L_0 = __this->___U3CCameraRigRefU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131616
+// Method Definition Index: 132120
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackingToWorldTransformerOVR_set_CameraRigRef_m49E4398C42EDBC38F8F2B72FFFFBAD818556EF0B (TrackingToWorldTransformerOVR_t17348670A78557CA7D426556FAA0981B783ABB33* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:33>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:33>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CCameraRigRefU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCameraRigRefU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 131617
+// Method Definition Index: 132121
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* TrackingToWorldTransformerOVR_get_Transform_mE918FAAE6A2FD32CA5FA5CAC8F604588C5EFC653 (TrackingToWorldTransformerOVR_t17348670A78557CA7D426556FAA0981B783ABB33* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13232,7 +13179,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:35>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:35>
 		RuntimeObject* L_0;
 		L_0 = TrackingToWorldTransformerOVR_get_CameraRigRef_mE27D2627F557B2C82BFB456A0E4109E70B34BDC3_inline(__this, NULL);
 		NullCheck(L_0);
@@ -13244,18 +13191,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 		return L_2;
 	}
 }
-// Method Definition Index: 131618
+// Method Definition Index: 132122
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 TrackingToWorldTransformerOVR_ToWorldPose_m309C9A4A25FF0DC8866DC1B3EFB4BBB60C4EA81C (TrackingToWorldTransformerOVR_t17348670A78557CA7D426556FAA0981B783ABB33* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_pose, const RuntimeMethod* method) 
 {
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
 	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:42>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:42>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = TrackingToWorldTransformerOVR_get_Transform_mE918FAAE6A2FD32CA5FA5CAC8F604588C5EFC653(__this, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:44>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = V_0;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_2 = ___0_pose;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = L_2.___position;
@@ -13263,7 +13210,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE797
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44(L_1, L_3, NULL);
 		(&___0_pose)->___position = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:45>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = V_0;
 		NullCheck(L_5);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6;
@@ -13273,7 +13220,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE797
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9;
 		L_9 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_6, L_8, NULL);
 		(&___0_pose)->___rotation = L_9;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:46>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_10 = ___0_pose;
 		V_1 = L_10;
 		goto IL_0037;
@@ -13281,12 +13228,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE797
 
 IL_0037:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:47>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_11 = V_1;
 		return L_11;
 	}
 }
-// Method Definition Index: 131619
+// Method Definition Index: 132123
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 TrackingToWorldTransformerOVR_ToTrackingPose_m9AF62ABF51AAE4CCD93E93673F100136FBB318BC (TrackingToWorldTransformerOVR_t17348670A78557CA7D426556FAA0981B783ABB33* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_worldPose, const RuntimeMethod* method) 
 {
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
@@ -13297,11 +13244,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE797
 	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:54>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = TrackingToWorldTransformerOVR_get_Transform_mE918FAAE6A2FD32CA5FA5CAC8F604588C5EFC653(__this, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:56>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = V_0;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_2 = ___0_worldPose;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = L_2->___position;
@@ -13309,7 +13256,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE797
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D(L_1, L_3, NULL);
 		V_1 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:57>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = V_0;
 		NullCheck(L_5);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6;
@@ -13321,7 +13268,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE797
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10;
 		L_10 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_7, L_9, NULL);
 		V_2 = L_10;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:59>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_1;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12 = V_2;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_13;
@@ -13333,12 +13280,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE797
 
 IL_0036:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:60>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_14 = V_3;
 		return L_14;
 	}
 }
-// Method Definition Index: 131620
+// Method Definition Index: 132124
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 TrackingToWorldTransformerOVR_get_WorldToTrackingWristJointFixup_mB0D0650B912262C90A72D2FAE44B4330888B2CEA (TrackingToWorldTransformerOVR_t17348670A78557CA7D426556FAA0981B783ABB33* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13348,14 +13295,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:62>
 		il2cpp_codegen_runtime_class_init_inline(FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9_il2cpp_TypeInfo_var);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0;
 		L_0 = FromOVRHandDataSource_get_WristFixupRotation_m7BFB41BF76A11C8C094B3877C515F87D65A292F7_inline(NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 131621
+// Method Definition Index: 132125
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackingToWorldTransformerOVR_Awake_m3257DCD440DB56525ECF31C867BA8466CF6AD6F9 (TrackingToWorldTransformerOVR_t17348670A78557CA7D426556FAA0981B783ABB33* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13365,14 +13312,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackingToWorldTransformerOVR_Awake_m325
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:66>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_0 = __this->____cameraRigRef;
 		TrackingToWorldTransformerOVR_set_CameraRigRef_m49E4398C42EDBC38F8F2B72FFFFBAD818556EF0B_inline(__this, ((RuntimeObject*)IsInst((RuntimeObject*)L_0, IOVRCameraRigRef_t80C138B66CEC666A9A053632C2EFAF1B24FA67B8_il2cpp_TypeInfo_var)), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:67>
 		return;
 	}
 }
-// Method Definition Index: 131622
+// Method Definition Index: 132126
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackingToWorldTransformerOVR_Start_m09AF68A70EA96E218907FFFE63384586B0FFB9DB (TrackingToWorldTransformerOVR_t17348670A78557CA7D426556FAA0981B783ABB33* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13383,26 +13330,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackingToWorldTransformerOVR_Start_m09A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:71>
 		RuntimeObject* L_0;
 		L_0 = TrackingToWorldTransformerOVR_get_CameraRigRef_mE27D2627F557B2C82BFB456A0E4109E70B34BDC3_inline(__this, NULL);
 		AssertUtils_AssertField_TisIOVRCameraRigRef_t80C138B66CEC666A9A053632C2EFAF1B24FA67B8_mB016E71C33D664913480CDA2A980A4256CF74048(__this, L_0, _stringLiteral3DA6FA5650959CC99BD5EC76A072208044EB59FD, (String_t*)NULL, (String_t*)NULL, (String_t*)NULL, AssertUtils_AssertField_TisIOVRCameraRigRef_t80C138B66CEC666A9A053632C2EFAF1B24FA67B8_mB016E71C33D664913480CDA2A980A4256CF74048_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:72>
 		return;
 	}
 }
-// Method Definition Index: 131623
+// Method Definition Index: 132127
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackingToWorldTransformerOVR_InjectAllTrackingToWorldTransformerOVR_mE8D0DC71460D617EBF6B2DDCB41C0B33A4C2B607 (TrackingToWorldTransformerOVR_t17348670A78557CA7D426556FAA0981B783ABB33* __this, RuntimeObject* ___0_cameraRigRef, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:78>
 		RuntimeObject* L_0 = ___0_cameraRigRef;
 		TrackingToWorldTransformerOVR_InjectCameraRigRef_m57BF77341D801D3237EF26C5931CD63A2F6DC32F(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:79>
 		return;
 	}
 }
-// Method Definition Index: 131624
+// Method Definition Index: 132128
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackingToWorldTransformerOVR_InjectCameraRigRef_m57BF77341D801D3237EF26C5931CD63A2F6DC32F (TrackingToWorldTransformerOVR_t17348670A78557CA7D426556FAA0981B783ABB33* __this, RuntimeObject* ___0_cameraRigRef, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13412,18 +13359,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackingToWorldTransformerOVR_InjectCame
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:83>
 		RuntimeObject* L_0 = ___0_cameraRigRef;
 		__this->____cameraRigRef = ((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____cameraRigRef), (void*)((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:84>
 		RuntimeObject* L_1 = ___0_cameraRigRef;
 		TrackingToWorldTransformerOVR_set_CameraRigRef_m49E4398C42EDBC38F8F2B72FFFFBAD818556EF0B_inline(__this, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:85>
 		return;
 	}
 }
-// Method Definition Index: 131625
+// Method Definition Index: 132129
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackingToWorldTransformerOVR__ctor_m9B233C04F8CB9319410ABB0368CC04D37D918AFC (TrackingToWorldTransformerOVR_t17348670A78557CA7D426556FAA0981B783ABB33* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13431,7 +13378,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackingToWorldTransformerOVR__ctor_m9B2
 		return;
 	}
 }
-// Method Definition Index: 131626
+// Method Definition Index: 132130
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 TrackingToWorldTransformerOVR_Oculus_Interaction_Input_ITrackingToWorldTransformer_ToTrackingPose_m3D90EFE6F65A7372E23A310744758743A8EC5DE5 (TrackingToWorldTransformerOVR_t17348670A78557CA7D426556FAA0981B783ABB33* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_worldPose, const RuntimeMethod* method) 
 {
 	{
@@ -13449,26 +13396,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE797
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131627
+// Method Definition Index: 132131
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRControllerVisual_get_ForceOffVisibility_m0C45B7C4C12000F3BCF270DFC8F3A5D1DEB823E6 (OVRControllerVisual_t0A2C503E6A07EF6F01D6FB5CED8A580F0890D2B9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:38>
 		bool L_0 = __this->___U3CForceOffVisibilityU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131628
+// Method Definition Index: 132132
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerVisual_set_ForceOffVisibility_m231B7EFC10879F66D25B393CAC366D02287BB341 (OVRControllerVisual_t0A2C503E6A07EF6F01D6FB5CED8A580F0890D2B9* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:38>
 		bool L_0 = ___0_value;
 		__this->___U3CForceOffVisibilityU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 131629
+// Method Definition Index: 132133
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerVisual_Awake_mC9A29A2934C219E871DAA971716F4DBE03785441 (OVRControllerVisual_t0A2C503E6A07EF6F01D6FB5CED8A580F0890D2B9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13478,15 +13425,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerVisual_Awake_mC9A29A2934C21
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:44>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_0 = __this->____controller;
 		__this->___Controller = ((RuntimeObject*)IsInst((RuntimeObject*)L_0, IController_tBB414CDC1750977B683AF8D8FA056A7D2176A1EA_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Controller), (void*)((RuntimeObject*)IsInst((RuntimeObject*)L_0, IController_tBB414CDC1750977B683AF8D8FA056A7D2176A1EA_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:45>
 		return;
 	}
 }
-// Method Definition Index: 131630
+// Method Definition Index: 132134
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerVisual_Start_mEBE2CAD8B217957A29D058684C371DE63AD6D529 (OVRControllerVisual_t0A2C503E6A07EF6F01D6FB5CED8A580F0890D2B9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13502,16 +13449,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerVisual_Start_mEBE2CAD8B2179
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:49>
 		bool* L_0 = (bool*)(&__this->____started);
 		MonoBehaviourStartExtensions_BeginStart_mC498E0AC129F7CDC354718BF0E799CB2A2E04366(__this, L_0, (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:50>
 		RuntimeObject* L_1 = __this->___Controller;
 		AssertUtils_AssertField_TisIController_tBB414CDC1750977B683AF8D8FA056A7D2176A1EA_mAF7DF78FE81C7ADD5EAA7B8EBA6203438E6836C2(__this, L_1, _stringLiteral8307880B84740DB654CFBFE2F4EAEEDA3297C010, (String_t*)NULL, (String_t*)NULL, (String_t*)NULL, AssertUtils_AssertField_TisIController_tBB414CDC1750977B683AF8D8FA056A7D2176A1EA_mAF7DF78FE81C7ADD5EAA7B8EBA6203438E6836C2_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:51>
 		OVRControllerHelper_tE74358674840FCEA3E11CA3F6E87BC1653056D6F* L_2 = __this->____ovrControllerHelper;
 		AssertUtils_AssertField_TisOVRControllerHelper_tE74358674840FCEA3E11CA3F6E87BC1653056D6F_m275919A99C696034F16E13C19CF666CE20B42084(__this, L_2, _stringLiteral5DBA01FA0D57322C841527A85BCDB936F4AABE5F, (String_t*)NULL, (String_t*)NULL, (String_t*)NULL, AssertUtils_AssertField_TisOVRControllerHelper_tE74358674840FCEA3E11CA3F6E87BC1653056D6F_m275919A99C696034F16E13C19CF666CE20B42084_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:52>
 		RuntimeObject* L_3 = __this->___Controller;
 		NullCheck(L_3);
 		int32_t L_4;
@@ -13543,34 +13490,34 @@ IL_004c:
 
 IL_0052:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:55>
 		OVRControllerHelper_tE74358674840FCEA3E11CA3F6E87BC1653056D6F* L_8 = __this->____ovrControllerHelper;
 		NullCheck(L_8);
 		L_8->___m_controller = 1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:56>
 		goto IL_006e;
 	}
 
 IL_0060:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:58>
 		OVRControllerHelper_tE74358674840FCEA3E11CA3F6E87BC1653056D6F* L_9 = __this->____ovrControllerHelper;
 		NullCheck(L_9);
 		L_9->___m_controller = 2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:59>
 		goto IL_006e;
 	}
 
 IL_006e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:61>
 		bool* L_10 = (bool*)(&__this->____started);
 		MonoBehaviourStartExtensions_EndStart_mB9C76425BEAB3A0D8A30965081A4F356F9F69CF5(__this, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:62>
 		return;
 	}
 }
-// Method Definition Index: 131631
+// Method Definition Index: 132135
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerVisual_OnEnable_m7B49E7A5389C6289203707219E8BFD9E203F2292 (OVRControllerVisual_t0A2C503E6A07EF6F01D6FB5CED8A580F0890D2B9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13583,7 +13530,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerVisual_OnEnable_m7B49E7A538
 	}
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:66>
 		bool L_0 = __this->____started;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -13593,7 +13540,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerVisual_OnEnable_m7B49E7A538
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:68>
 		RuntimeObject* L_2 = __this->___Controller;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_3, __this, (intptr_t)((void*)OVRControllerVisual_HandleUpdated_mBDEBB686F063FB7B6ECA22D73328B58F82AAC7EE_RuntimeMethod_var), NULL);
@@ -13603,11 +13550,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerVisual_OnEnable_m7B49E7A538
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:70>
 		return;
 	}
 }
-// Method Definition Index: 131632
+// Method Definition Index: 132136
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerVisual_OnDisable_mF09EF8F6D29649B179DAA7264EFCE8F293D3FB05 (OVRControllerVisual_t0A2C503E6A07EF6F01D6FB5CED8A580F0890D2B9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13622,7 +13569,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerVisual_OnDisable_mF09EF8F6D
 	bool V_0 = false;
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:74>
 		bool L_0 = __this->____started;
 		if (!L_0)
 		{
@@ -13653,7 +13600,7 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:76>
 		RuntimeObject* L_4 = __this->___Controller;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_5, __this, (intptr_t)((void*)OVRControllerVisual_HandleUpdated_mBDEBB686F063FB7B6ECA22D73328B58F82AAC7EE_RuntimeMethod_var), NULL);
@@ -13663,11 +13610,11 @@ IL_0018:
 
 IL_0036:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:78>
 		return;
 	}
 }
-// Method Definition Index: 131633
+// Method Definition Index: 132137
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerVisual_HandleUpdated_mBDEBB686F063FB7B6ECA22D73328B58F82AAC7EE (OVRControllerVisual_t0A2C503E6A07EF6F01D6FB5CED8A580F0890D2B9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13684,9 +13631,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerVisual_HandleUpdated_mBDEBB
 	int32_t G_B4_0 = 0;
 	float G_B9_0 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:82>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:83>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:84>
 		RuntimeObject* L_0 = __this->___Controller;
 		NullCheck(L_0);
 		bool L_1;
@@ -13728,41 +13675,41 @@ IL_0029:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:86>
 		OVRControllerHelper_tE74358674840FCEA3E11CA3F6E87BC1653056D6F* L_6 = __this->____ovrControllerHelper;
 		NullCheck(L_6);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
 		NullCheck(L_7);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:87>
 		goto IL_00ce;
 	}
 
 IL_0045:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:90>
 		OVRControllerHelper_tE74358674840FCEA3E11CA3F6E87BC1653056D6F* L_8 = __this->____ovrControllerHelper;
 		NullCheck(L_8);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
 		L_9 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_8, NULL);
 		NullCheck(L_9);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:91>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
 		L_10 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_11 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = L_11.___position;
 		NullCheck(L_10);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_10, L_12, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:92>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:92>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13;
 		L_13 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_14 = V_0;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_15 = L_14.___rotation;
 		NullCheck(L_13);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_13, L_15, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:93>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
 		L_16 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_16);
@@ -13798,7 +13745,7 @@ IL_0095:
 IL_00aa:
 	{
 		V_1 = G_B9_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:94>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23;
 		L_23 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		RuntimeObject* L_24 = __this->___Controller;
@@ -13816,25 +13763,25 @@ IL_00aa:
 
 IL_00ce:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:95>
 		return;
 	}
 }
-// Method Definition Index: 131634
+// Method Definition Index: 132138
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerVisual_InjectAllOVRControllerVisual_m167637C984FEA203699F72F3E3F5A0807B05C7C9 (OVRControllerVisual_t0A2C503E6A07EF6F01D6FB5CED8A580F0890D2B9* __this, RuntimeObject* ___0_controller, OVRControllerHelper_tE74358674840FCEA3E11CA3F6E87BC1653056D6F* ___1_ovrControllerHelper, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:101>
 		RuntimeObject* L_0 = ___0_controller;
 		OVRControllerVisual_InjectController_m88C4432F0B0CA047F62BC9D0DF5DC3302B5F05BB(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:102>
 		OVRControllerHelper_tE74358674840FCEA3E11CA3F6E87BC1653056D6F* L_1 = ___1_ovrControllerHelper;
 		OVRControllerVisual_InjectAllOVRControllerHelper_m799D33B5BB72DF7A765A667812D36620B9917222(__this, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:103>
 		return;
 	}
 }
-// Method Definition Index: 131635
+// Method Definition Index: 132139
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerVisual_InjectController_m88C4432F0B0CA047F62BC9D0DF5DC3302B5F05BB (OVRControllerVisual_t0A2C503E6A07EF6F01D6FB5CED8A580F0890D2B9* __this, RuntimeObject* ___0_controller, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13844,35 +13791,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerVisual_InjectController_m88
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:107>
 		RuntimeObject* L_0 = ___0_controller;
 		__this->____controller = ((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____controller), (void*)((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:108>
 		RuntimeObject* L_1 = ___0_controller;
 		__this->___Controller = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Controller), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:109>
 		return;
 	}
 }
-// Method Definition Index: 131636
+// Method Definition Index: 132140
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerVisual_InjectAllOVRControllerHelper_m799D33B5BB72DF7A765A667812D36620B9917222 (OVRControllerVisual_t0A2C503E6A07EF6F01D6FB5CED8A580F0890D2B9* __this, OVRControllerHelper_tE74358674840FCEA3E11CA3F6E87BC1653056D6F* ___0_ovrControllerHelper, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:113>
 		OVRControllerHelper_tE74358674840FCEA3E11CA3F6E87BC1653056D6F* L_0 = ___0_ovrControllerHelper;
 		__this->____ovrControllerHelper = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____ovrControllerHelper), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:114>
 		return;
 	}
 }
-// Method Definition Index: 131637
+// Method Definition Index: 132141
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerVisual__ctor_mC0577E7320E03CE7593955752190A912E9C7AADE (OVRControllerVisual_t0A2C503E6A07EF6F01D6FB5CED8A580F0890D2B9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:40>
 		__this->____started = (bool)0;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -13886,7 +13833,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRControllerVisual__ctor_mC0577E7320E03
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131638
+// Method Definition Index: 132142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRBodyPoseSkeletonProvider_Awake_m11DD9BD1885EE0BA6E6FF7053015A764F0BFAB55 (OVRBodyPoseSkeletonProvider_t72A0B46A2026CE8129E71AE5912F43E1688B8A5E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13896,15 +13843,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRBodyPoseSkeletonProvider_Awake_m11DD9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:50>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_0 = __this->____bodyPose;
 		__this->___BodyPose = ((RuntimeObject*)IsInst((RuntimeObject*)L_0, IBodyPose_t2BA886A75367D7351AACFE310468790C66930097_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___BodyPose), (void*)((RuntimeObject*)IsInst((RuntimeObject*)L_0, IBodyPose_t2BA886A75367D7351AACFE310468790C66930097_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:51>
 		return;
 	}
 }
-// Method Definition Index: 131639
+// Method Definition Index: 132143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRBodyPoseSkeletonProvider_Start_mC7209D5F5F6D8445D3F16DCC351B102C81E241B7 (OVRBodyPoseSkeletonProvider_t72A0B46A2026CE8129E71AE5912F43E1688B8A5E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13916,20 +13863,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRBodyPoseSkeletonProvider_Start_mC7209
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:55>
 		RuntimeObject* L_0 = __this->___BodyPose;
 		AssertUtils_AssertField_TisIBodyPose_t2BA886A75367D7351AACFE310468790C66930097_mE30B0A90589EB6AC0473FD405E017CBFF00279FE(__this, L_0, _stringLiteral6C9AA532905C162827F4D19C545C6BB49B5358CC, (String_t*)NULL, (String_t*)NULL, (String_t*)NULL, AssertUtils_AssertField_TisIBodyPose_t2BA886A75367D7351AACFE310468790C66930097_mE30B0A90589EB6AC0473FD405E017CBFF00279FE_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:56>
 		int32_t L_1 = __this->____bodyJointSet;
 		OVRSkeletonMapping_tC39AC901BBAA2614D5C1006273A949399BF370BE* L_2 = (OVRSkeletonMapping_tC39AC901BBAA2614D5C1006273A949399BF370BE*)il2cpp_codegen_object_new(OVRSkeletonMapping_tC39AC901BBAA2614D5C1006273A949399BF370BE_il2cpp_TypeInfo_var);
 		OVRSkeletonMapping__ctor_mBB8D3DD493239F7F8DAB728C33F6F3ECC91B3A46(L_2, L_1, NULL);
 		__this->____mapping = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____mapping), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:57>
 		return;
 	}
 }
-// Method Definition Index: 131640
+// Method Definition Index: 132144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SkeletonPoseData_tA0A3A4163EEA849A40C82CF95F1847A9827A5F86 OVRBodyPoseSkeletonProvider_OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonPoseData_m92FCBBB13F5EDA4A1AA511DD8BA334AB6A7519BA (OVRBodyPoseSkeletonProvider_t72A0B46A2026CE8129E71AE5912F43E1688B8A5E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13961,30 +13908,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SkeletonPoseData_tA0A3A4163EEA849A40C82CF95F1
 	memset((&V_11), 0, sizeof(V_11));
 	int32_t G_B4_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:64>
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_0 = __this->____boneRotations;
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_1;
 		L_1 = OVRBodyPoseSkeletonProvider_U3COVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonPoseDataU3Eg__EnsureLengthU7C9_0_TisQuatf_t5347392804DF5326AF790F82E4EDE1578FED682A_mCA8BA1260747792FAA1A4A8FC37F30985674DF42(L_0, ((int32_t)84), OVRBodyPoseSkeletonProvider_U3COVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonPoseDataU3Eg__EnsureLengthU7C9_0_TisQuatf_t5347392804DF5326AF790F82E4EDE1578FED682A_mCA8BA1260747792FAA1A4A8FC37F30985674DF42_RuntimeMethod_var);
 		__this->____boneRotations = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____boneRotations), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:65>
 		Vector3fU5BU5D_tD8395E99259411E2F0A4F513559CC986FD7AB92E* L_2 = __this->____boneTranslations;
 		Vector3fU5BU5D_tD8395E99259411E2F0A4F513559CC986FD7AB92E* L_3;
 		L_3 = OVRBodyPoseSkeletonProvider_U3COVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonPoseDataU3Eg__EnsureLengthU7C9_0_TisVector3f_t232AF83B4642C67BE8EFF85D8E1599D3B06BD562_m785C47E88ED1137FE59B7D9B993062CC2ADB013A(L_2, ((int32_t)84), OVRBodyPoseSkeletonProvider_U3COVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonPoseDataU3Eg__EnsureLengthU7C9_0_TisVector3f_t232AF83B4642C67BE8EFF85D8E1599D3B06BD562_m785C47E88ED1137FE59B7D9B993062CC2ADB013A_RuntimeMethod_var);
 		__this->____boneTranslations = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____boneTranslations), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:68>
 		V_2 = 0;
 		goto IL_008e;
 	}
 
 IL_002c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:70>
 		int32_t L_4 = V_2;
 		V_3 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:71>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:72>
 		OVRSkeletonMapping_tC39AC901BBAA2614D5C1006273A949399BF370BE* L_5 = __this->____mapping;
 		int32_t L_6 = V_3;
 		NullCheck(L_5);
@@ -14020,7 +13967,7 @@ IL_0051:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:74>
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_12 = __this->____boneRotations;
 		int32_t L_13 = V_2;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_14 = V_5;
@@ -14029,7 +13976,7 @@ IL_0051:
 		L_16 = OVRExtensions_ToFlippedZQuatf_m3C842AE77FAD382FD91D0F8E81CCA1EF9393BCEF(L_15, NULL);
 		NullCheck(L_12);
 		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(L_13), (Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A)L_16);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:75>
 		Vector3fU5BU5D_tD8395E99259411E2F0A4F513559CC986FD7AB92E* L_17 = __this->____boneTranslations;
 		int32_t L_18 = V_2;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_19 = V_5;
@@ -14042,14 +13989,14 @@ IL_0051:
 
 IL_0089:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:68>
 		int32_t L_22 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_22, 1));
 	}
 
 IL_008e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:68>
 		int32_t L_23 = V_2;
 		V_7 = (bool)((((int32_t)L_23) < ((int32_t)((int32_t)84)))? 1 : 0);
 		bool L_24 = V_7;
@@ -14059,7 +14006,7 @@ IL_008e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:80>
 		RuntimeObject* L_25 = __this->___BodyPose;
 		NullCheck(L_25);
 		bool L_26;
@@ -14072,11 +14019,11 @@ IL_008e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:82>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:83>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:84>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:85>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:86>
 		il2cpp_codegen_initobj((&V_9), sizeof(Posef_t51A2C10B4094B44A8D3C1913292B839172887B61));
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_28 = V_1;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_29 = L_28.___rotation;
@@ -14095,21 +14042,21 @@ IL_008e:
 
 IL_00e0:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:90>
 		il2cpp_codegen_initobj((&V_0), sizeof(Posef_t51A2C10B4094B44A8D3C1913292B839172887B61));
 	}
 
 IL_00ea:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:93>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:94>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:95>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:96>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:97>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:98>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:99>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:100>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:101>
 		il2cpp_codegen_initobj((&V_10), sizeof(SkeletonPoseData_tA0A3A4163EEA849A40C82CF95F1847A9827A5F86));
 		SkeletonPoseData_set_IsDataValid_m3EB469D44C3697FC541F1EB3AADEFAC3EB57AE20_inline((&V_10), (bool)1, NULL);
 		SkeletonPoseData_set_IsDataHighConfidence_m5ED9547D2D2792DE6D7784FC6C57A17B7B137C89_inline((&V_10), (bool)1, NULL);
@@ -14127,24 +14074,24 @@ IL_00ea:
 
 IL_013c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:102>
 		SkeletonPoseData_tA0A3A4163EEA849A40C82CF95F1847A9827A5F86 L_39 = V_11;
 		return L_39;
 	}
 }
-// Method Definition Index: 131641
+// Method Definition Index: 132145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OVRBodyPoseSkeletonProvider_GetSkeletonType_mEADDD715C81E698D3141B5558B05176153B8F5D2 (OVRBodyPoseSkeletonProvider_t72A0B46A2026CE8129E71AE5912F43E1688B8A5E* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:106>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:107>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:108>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:109>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:110>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:106>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:111>
 		int32_t L_0 = __this->____bodyJointSet;
 		V_1 = L_0;
 		if (1)
@@ -14181,21 +14128,21 @@ IL_0011:
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:108>
 		V_0 = 2;
 		goto IL_0023;
 	}
 
 IL_001b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:109>
 		V_0 = 3;
 		goto IL_0023;
 	}
 
 IL_001f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:110>
 		V_0 = (-1);
 		goto IL_0023;
 	}
@@ -14219,12 +14166,12 @@ IL_0027:
 
 IL_002b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:112>
 		int32_t L_4 = V_2;
 		return L_4;
 	}
 }
-// Method Definition Index: 131642
+// Method Definition Index: 132146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRBodyPoseSkeletonProvider__ctor_m693583C7534045225555AB3C7D74326B6D1475C2 (OVRBodyPoseSkeletonProvider_t72A0B46A2026CE8129E71AE5912F43E1688B8A5E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14235,11 +14182,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRBodyPoseSkeletonProvider__ctor_m69358
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:43>
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_0 = (QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF*)(QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF*)SZArrayNew(QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF_il2cpp_TypeInfo_var, (uint32_t)((int32_t)84));
 		__this->____boneRotations = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____boneRotations), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRBodyPoseSkeletonProvider.cs:44>
 		Vector3fU5BU5D_tD8395E99259411E2F0A4F513559CC986FD7AB92E* L_1 = (Vector3fU5BU5D_tD8395E99259411E2F0A4F513559CC986FD7AB92E*)(Vector3fU5BU5D_tD8395E99259411E2F0A4F513559CC986FD7AB92E*)SZArrayNew(Vector3fU5BU5D_tD8395E99259411E2F0A4F513559CC986FD7AB92E_il2cpp_TypeInfo_var, (uint32_t)((int32_t)84));
 		__this->____boneTranslations = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____boneTranslations), (void*)L_1);
@@ -14247,7 +14194,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRBodyPoseSkeletonProvider__ctor_m69358
 		return;
 	}
 }
-// Method Definition Index: 131643
+// Method Definition Index: 132147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRBodyPoseSkeletonProvider_OVRSkeleton_IOVRSkeletonDataProvider_get_enabled_mD465903A0C867D5F2402C4237E58A9F36093ABC1 (OVRBodyPoseSkeletonProvider_t72A0B46A2026CE8129E71AE5912F43E1688B8A5E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14264,16 +14211,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRBodyPoseSkeletonProvider_OVRSkeleton_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131645
+// Method Definition Index: 132149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BodyDataAsset_tABE642D7F55B97949428DC81DE984B16C21D2456* FromOVRBodyDataSource_get_DataAsset_mA1B529C634535142A9F0A35B00BEC8CD9520AD1B (FromOVRBodyDataSource_t736E7E21F4A1DE760A9CC81488AB40B061200C4B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:45>
 		BodyDataAsset_tABE642D7F55B97949428DC81DE984B16C21D2456* L_0 = __this->____bodyDataAsset;
 		return L_0;
 	}
 }
-// Method Definition Index: 131646
+// Method Definition Index: 132150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FromOVRBodyDataSource_GetJointSet_m54B03DCA1E80E434023FB236AF7F688A969FF2A6 (RuntimeObject* ___0_provider, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14286,12 +14233,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FromOVRBodyDataSource_GetJointSet_m54
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:53>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:54>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:55>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:56>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:57>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:58>
 		RuntimeObject* L_0 = ___0_provider;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -14331,21 +14278,21 @@ IL_0012:
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:55>
 		V_0 = 0;
 		goto IL_0024;
 	}
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:56>
 		V_0 = 1;
 		goto IL_0024;
 	}
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:57>
 		V_0 = (-1);
 		goto IL_0024;
 	}
@@ -14369,12 +14316,12 @@ IL_0028:
 
 IL_002c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:59>
 		int32_t L_5 = V_2;
 		return L_5;
 	}
 }
-// Method Definition Index: 131647
+// Method Definition Index: 132151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRBodyDataSource_Awake_m02C850A7963E8885680BFCBC2B5DC8962FB8476D (FromOVRBodyDataSource_t736E7E21F4A1DE760A9CC81488AB40B061200C4B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14385,19 +14332,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRBodyDataSource_Awake_m02C850A7963
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:63>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_0 = __this->____cameraRigRef;
 		__this->___CameraRigRef = ((RuntimeObject*)IsInst((RuntimeObject*)L_0, IOVRCameraRigRef_t80C138B66CEC666A9A053632C2EFAF1B24FA67B8_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___CameraRigRef), (void*)((RuntimeObject*)IsInst((RuntimeObject*)L_0, IOVRCameraRigRef_t80C138B66CEC666A9A053632C2EFAF1B24FA67B8_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:64>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_1 = __this->____dataProvider;
 		__this->___DataProvider = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, IOVRSkeletonDataProvider_t3C0B47D347E1D2C6FC2A1AB062490F8792E4F460_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___DataProvider), (void*)((RuntimeObject*)IsInst((RuntimeObject*)L_1, IOVRSkeletonDataProvider_t3C0B47D347E1D2C6FC2A1AB062490F8792E4F460_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:65>
 		return;
 	}
 }
-// Method Definition Index: 131648
+// Method Definition Index: 132152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRBodyDataSource_Start_mF776AD00AC560FF64C67A50BBE6DE3D97FC82036 (FromOVRBodyDataSource_t736E7E21F4A1DE760A9CC81488AB40B061200C4B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14412,15 +14359,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRBodyDataSource_Start_mF776AD00AC5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:69>
 		DataSource_1_Start_mD49987FAA0C5F999458EF16B75C043775693676C(__this, DataSource_1_Start_mD49987FAA0C5F999458EF16B75C043775693676C_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:70>
 		RuntimeObject* L_0 = __this->___DataProvider;
 		AssertUtils_AssertField_TisIOVRSkeletonDataProvider_t3C0B47D347E1D2C6FC2A1AB062490F8792E4F460_m548EA7CCA2BAE17268C065630C624B3A201AE732(__this, L_0, _stringLiteral9019723741ACC564739C4183C3B11BC68DC059A6, (String_t*)NULL, (String_t*)NULL, (String_t*)NULL, AssertUtils_AssertField_TisIOVRSkeletonDataProvider_t3C0B47D347E1D2C6FC2A1AB062490F8792E4F460_m548EA7CCA2BAE17268C065630C624B3A201AE732_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:71>
 		RuntimeObject* L_1 = __this->___CameraRigRef;
 		AssertUtils_AssertField_TisIOVRCameraRigRef_t80C138B66CEC666A9A053632C2EFAF1B24FA67B8_mB016E71C33D664913480CDA2A980A4256CF74048(__this, L_1, _stringLiteral3DA6FA5650959CC99BD5EC76A072208044EB59FD, (String_t*)NULL, (String_t*)NULL, (String_t*)NULL, AssertUtils_AssertField_TisIOVRCameraRigRef_t80C138B66CEC666A9A053632C2EFAF1B24FA67B8_mB016E71C33D664913480CDA2A980A4256CF74048_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:73>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:73>
 		RuntimeObject* L_2 = __this->___DataProvider;
 		int32_t L_3;
 		L_3 = FromOVRBodyDataSource_GetJointSet_m54B03DCA1E80E434023FB236AF7F688A969FF2A6(L_2, NULL);
@@ -14428,16 +14375,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRBodyDataSource_Start_mF776AD00AC5
 		OVRSkeletonMapping__ctor_mBB8D3DD493239F7F8DAB728C33F6F3ECC91B3A46(L_4, L_3, NULL);
 		__this->____mapping = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____mapping), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:74>
 		BodyDataAsset_tABE642D7F55B97949428DC81DE984B16C21D2456* L_5 = __this->____bodyDataAsset;
 		OVRSkeletonMapping_tC39AC901BBAA2614D5C1006273A949399BF370BE* L_6 = __this->____mapping;
 		NullCheck(L_5);
 		BodyDataAsset_set_SkeletonMapping_mB6DF36A7012359D311F3C0888AADA3F9CA1D8F84_inline(L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:75>
 		return;
 	}
 }
-// Method Definition Index: 131649
+// Method Definition Index: 132153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRBodyDataSource_OnEnable_m35F3E44A54C6EB8DC58D1C23251C266AC87788E7 (FromOVRBodyDataSource_t736E7E21F4A1DE760A9CC81488AB40B061200C4B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14451,9 +14398,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRBodyDataSource_OnEnable_m35F3E44A
 	}
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:79>
 		DataSource_1_OnEnable_m747EF4EA9A7C7FDEA3568D52CD036B7EDB1ED920(__this, DataSource_1_OnEnable_m747EF4EA9A7C7FDEA3568D52CD036B7EDB1ED920_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:80>
 		bool L_0 = ((DataSource_1_tF073EB05A2D29ABA77A19C288B67C94C7578922A*)__this)->____started;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -14463,7 +14410,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRBodyDataSource_OnEnable_m35F3E44A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:82>
 		RuntimeObject* L_2 = __this->___CameraRigRef;
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_3 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
 		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_3, __this, (intptr_t)((void*)FromOVRBodyDataSource_HandleInputDataDirtied_mF5D52188607D720AB4692D5CE29AEC5661C7AE6F_RuntimeMethod_var), NULL);
@@ -14473,11 +14420,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRBodyDataSource_OnEnable_m35F3E44A
 
 IL_002c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:84>
 		return;
 	}
 }
-// Method Definition Index: 131650
+// Method Definition Index: 132154
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRBodyDataSource_OnDisable_m87108F50F4E173C70C7EFF11C7E3FAC16800508F (FromOVRBodyDataSource_t736E7E21F4A1DE760A9CC81488AB40B061200C4B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14491,7 +14438,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRBodyDataSource_OnDisable_m87108F5
 	}
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:88>
 		bool L_0 = ((DataSource_1_tF073EB05A2D29ABA77A19C288B67C94C7578922A*)__this)->____started;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -14501,7 +14448,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRBodyDataSource_OnDisable_m87108F5
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:90>
 		RuntimeObject* L_2 = __this->___CameraRigRef;
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_3 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
 		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_3, __this, (intptr_t)((void*)FromOVRBodyDataSource_HandleInputDataDirtied_mF5D52188607D720AB4692D5CE29AEC5661C7AE6F_RuntimeMethod_var), NULL);
@@ -14511,19 +14458,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRBodyDataSource_OnDisable_m87108F5
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:93>
 		DataSource_1_OnDisable_m3FDEDDD16279A886E7F9F10313ED397D7474727B(__this, DataSource_1_OnDisable_m3FDEDDD16279A886E7F9F10313ED397D7474727B_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:94>
 		return;
 	}
 }
-// Method Definition Index: 131651
+// Method Definition Index: 132155
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRBodyDataSource_HandleInputDataDirtied_mF5D52188607D720AB4692D5CE29AEC5661C7AE6F (FromOVRBodyDataSource_t736E7E21F4A1DE760A9CC81488AB40B061200C4B* __this, bool ___0_isLateUpdate, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:98>
 		bool L_0 = ___0_isLateUpdate;
 		if (!L_0)
 		{
@@ -14551,23 +14498,23 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:100>
 		goto IL_001e;
 	}
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:102>
 		VirtualActionInvoker0::Invoke(16, __this);
 	}
 
 IL_001e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:103>
 		return;
 	}
 }
-// Method Definition Index: 131652
+// Method Definition Index: 132156
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRBodyDataSource_UpdateData_mC88533E375349794D78E5AD35962DBBF9DADA338 (FromOVRBodyDataSource_t736E7E21F4A1DE760A9CC81488AB40B061200C4B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14603,13 +14550,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRBodyDataSource_UpdateData_mC88533
 	memset((&G_B8_0), 0, sizeof(G_B8_0));
 	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* G_B8_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:107>
 		RuntimeObject* L_0 = __this->___DataProvider;
 		NullCheck(L_0);
 		SkeletonPoseData_tA0A3A4163EEA849A40C82CF95F1847A9827A5F86 L_1;
 		L_1 = InterfaceFuncInvoker0< SkeletonPoseData_tA0A3A4163EEA849A40C82CF95F1847A9827A5F86 >::Invoke(1, IOVRSkeletonDataProvider_t3C0B47D347E1D2C6FC2A1AB062490F8792E4F460_il2cpp_TypeInfo_var, L_0);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:108>
 		bool L_2;
 		L_2 = SkeletonPoseData_get_IsDataValid_m7C3D29FE3C5F765C05C11DF50F7CCB6F7A5D35DD_inline((&V_0), NULL);
 		V_1 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
@@ -14620,46 +14567,46 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRBodyDataSource_UpdateData_mC88533
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:110>
 		goto IL_01b2;
 	}
 
 IL_0021:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:113>
 		BodyDataAsset_tABE642D7F55B97949428DC81DE984B16C21D2456* L_4 = __this->____bodyDataAsset;
 		OVRSkeletonMapping_tC39AC901BBAA2614D5C1006273A949399BF370BE* L_5 = __this->____mapping;
 		NullCheck(L_4);
 		BodyDataAsset_set_SkeletonMapping_mB6DF36A7012359D311F3C0888AADA3F9CA1D8F84_inline(L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:114>
 		BodyDataAsset_tABE642D7F55B97949428DC81DE984B16C21D2456* L_6 = __this->____bodyDataAsset;
 		bool L_7;
 		L_7 = SkeletonPoseData_get_IsDataHighConfidence_mA41FF6B1B22AC004AC0502A6EEED5F0E5DD46BDC_inline((&V_0), NULL);
 		NullCheck(L_6);
 		BodyDataAsset_set_IsDataHighConfidence_m953EEBED8F285FA85FAEF8FB678E8C092E3F3E95_inline(L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:115>
 		BodyDataAsset_tABE642D7F55B97949428DC81DE984B16C21D2456* L_8 = __this->____bodyDataAsset;
 		bool L_9;
 		L_9 = SkeletonPoseData_get_IsDataValid_m7C3D29FE3C5F765C05C11DF50F7CCB6F7A5D35DD_inline((&V_0), NULL);
 		NullCheck(L_8);
 		BodyDataAsset_set_IsDataValid_mF12679F578A873BC383687500370067420D9A68F_inline(L_8, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:116>
 		BodyDataAsset_tABE642D7F55B97949428DC81DE984B16C21D2456* L_10 = __this->____bodyDataAsset;
 		int32_t L_11;
 		L_11 = SkeletonPoseData_get_SkeletonChangedCount_m9CA1D65747E8C06C433B961ED106A99D7BCE5661_inline((&V_0), NULL);
 		NullCheck(L_10);
 		BodyDataAsset_set_SkeletonChangedCount_mC45A59445F977719A2A0A3B61169E378E260BA1D_inline(L_10, L_11, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:117>
 		BodyDataAsset_tABE642D7F55B97949428DC81DE984B16C21D2456* L_12 = __this->____bodyDataAsset;
 		float L_13;
 		L_13 = SkeletonPoseData_get_RootScale_mFCF463E498E2652EE2F3B71C4D54B7801EC0D4F1_inline((&V_0), NULL);
 		NullCheck(L_12);
 		BodyDataAsset_set_RootScale_mBA174F53CE563D588848320D605C576DABAF4CE5_inline(L_12, L_13, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:119>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:120>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:121>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:122>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:123>
 		BodyDataAsset_tABE642D7F55B97949428DC81DE984B16C21D2456* L_14 = __this->____bodyDataAsset;
 		il2cpp_codegen_initobj((&V_2), sizeof(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971));
 		Posef_t51A2C10B4094B44A8D3C1913292B839172887B61 L_15;
@@ -14677,7 +14624,7 @@ IL_0021:
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_21 = V_2;
 		NullCheck(L_14);
 		BodyDataAsset_set_Root_mA4227DE133677A6B81A21005029B53D0CD816161_inline(L_14, L_21, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:125>
 		OVRSkeletonMapping_tC39AC901BBAA2614D5C1006273A949399BF370BE* L_22 = __this->____mapping;
 		NullCheck(L_22);
 		RuntimeObject* L_23;
@@ -14705,13 +14652,13 @@ FINALLY_01a3:
 
 IL_00db_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:125>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:125>
 				int32_t L_25;
 				L_25 = Enumerator_get_Current_mBD313D072A7D6DE22768FDFD25BF1E2753441484_inline((&V_3), Enumerator_get_Current_mBD313D072A7D6DE22768FDFD25BF1E2753441484_RuntimeMethod_var);
 				V_4 = L_25;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:127>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:127>
 				il2cpp_codegen_initobj((&V_5), sizeof(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:128>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:128>
 				OVRSkeletonMapping_tC39AC901BBAA2614D5C1006273A949399BF370BE* L_26 = __this->____mapping;
 				int32_t L_27 = V_4;
 				NullCheck(L_26);
@@ -14725,16 +14672,16 @@ IL_00db_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:130>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:130>
 				int32_t L_30 = V_6;
 				V_8 = L_30;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:131>
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:132>
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:133>
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:134>
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:135>
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:136>
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:137>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:131>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:132>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:133>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:134>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:135>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:136>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:137>
 				il2cpp_codegen_initobj((&V_2), sizeof(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971));
 				QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_31;
 				L_31 = SkeletonPoseData_get_BoneRotations_mACE351DC74E169E3806489E476047373DA10C25E_inline((&V_0), NULL);
@@ -14790,8 +14737,8 @@ IL_014a_1:
 
 IL_016d_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:140>
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:141>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:140>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:141>
 				BodyDataAsset_tABE642D7F55B97949428DC81DE984B16C21D2456* L_47 = __this->____bodyDataAsset;
 				NullCheck(L_47);
 				PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_48;
@@ -14810,7 +14757,7 @@ IL_016d_1:
 
 IL_0195_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:125>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:125>
 				bool L_53;
 				L_53 = Enumerator_MoveNext_m5F6EB936DF2A34CA353A4D6E6E4362ED44D97FE8((&V_3), Enumerator_MoveNext_m5F6EB936DF2A34CA353A4D6E6E4362ED44D97FE8_RuntimeMethod_var);
 				if (L_53)
@@ -14830,11 +14777,11 @@ IL_0195_1:
 
 IL_01b2:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:143>
 		return;
 	}
 }
-// Method Definition Index: 131653
+// Method Definition Index: 132157
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRBodyDataSource__ctor_mB63B697B039EE71198DFA853F506439D26E0ED9A (FromOVRBodyDataSource_t736E7E21F4A1DE760A9CC81488AB40B061200C4B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14845,9 +14792,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRBodyDataSource__ctor_mB63B697B039
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:43>
 		__this->____processLateUpdates = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/FromOVRBodyDataSource.cs:47>
 		BodyDataAsset_tABE642D7F55B97949428DC81DE984B16C21D2456* L_0 = (BodyDataAsset_tABE642D7F55B97949428DC81DE984B16C21D2456*)il2cpp_codegen_object_new(BodyDataAsset_tABE642D7F55B97949428DC81DE984B16C21D2456_il2cpp_TypeInfo_var);
 		BodyDataAsset__ctor_mF8B6BB967E907A5ACA382FE386F6DD3C87A4E262(L_0, NULL);
 		__this->____bodyDataAsset = L_0;
@@ -14864,7 +14811,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FromOVRBodyDataSource__ctor_mB63B697B039
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131654
+// Method Definition Index: 132158
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRSkeletonMapping__ctor_mAD0EFFB4E51B507EC352ED9DB0FFF1C92D3E09A7 (OVRSkeletonMapping_tC39AC901BBAA2614D5C1006273A949399BF370BE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14875,15 +14822,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRSkeletonMapping__ctor_mAD0EFFB4E51B50
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:36>
 		il2cpp_codegen_runtime_class_init_inline(OVRSkeletonMapping_tC39AC901BBAA2614D5C1006273A949399BF370BE_il2cpp_TypeInfo_var);
 		Dictionary_2_t1D10D55F8460717EBD55BA18B7F5C4342F991183* L_0 = ((OVRSkeletonMapping_tC39AC901BBAA2614D5C1006273A949399BF370BE_StaticFields*)il2cpp_codegen_static_fields_for(OVRSkeletonMapping_tC39AC901BBAA2614D5C1006273A949399BF370BE_il2cpp_TypeInfo_var))->____upperBodyJoints;
 		BodySkeletonMapping_1__ctor_mDBF3AAA72C26CFE91BA2B9C3C5C10338EBD77B49(__this, 0, L_0, BodySkeletonMapping_1__ctor_mDBF3AAA72C26CFE91BA2B9C3C5C10338EBD77B49_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:36>
 		return;
 	}
 }
-// Method Definition Index: 131655
+// Method Definition Index: 132159
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRSkeletonMapping__ctor_mBB8D3DD493239F7F8DAB728C33F6F3ECC91B3A46 (OVRSkeletonMapping_tC39AC901BBAA2614D5C1006273A949399BF370BE* __this, int32_t ___0_skeletonType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14894,7 +14841,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRSkeletonMapping__ctor_mBB8D3DD493239F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:39>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:39>
 		il2cpp_codegen_runtime_class_init_inline(OVRSkeletonMapping_tC39AC901BBAA2614D5C1006273A949399BF370BE_il2cpp_TypeInfo_var);
 		int32_t L_0;
 		L_0 = OVRSkeletonMapping_GetRoot_mB5AF26DD7CC85C6E3A490988CB33455B1027E3CF(NULL);
@@ -14902,11 +14849,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRSkeletonMapping__ctor_mBB8D3DD493239F
 		RuntimeObject* L_2;
 		L_2 = OVRSkeletonMapping_GetJointMapping_mC46382B1A968F2553D2277D242247DB818318809(L_1, NULL);
 		BodySkeletonMapping_1__ctor_mDBF3AAA72C26CFE91BA2B9C3C5C10338EBD77B49(__this, L_0, L_2, BodySkeletonMapping_1__ctor_mDBF3AAA72C26CFE91BA2B9C3C5C10338EBD77B49_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:40>
 		return;
 	}
 }
-// Method Definition Index: 131656
+// Method Definition Index: 132160
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OVRSkeletonMapping_GetJointMapping_mC46382B1A968F2553D2277D242247DB818318809 (int32_t ___0_jointSet, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14936,12 +14883,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OVRSkeletonMapping_GetJointMap
 	memset((&V_5), 0, sizeof(V_5));
 	RuntimeObject* V_6 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:44>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:45>
 		Dictionary_2_t1D10D55F8460717EBD55BA18B7F5C4342F991183* L_0 = (Dictionary_2_t1D10D55F8460717EBD55BA18B7F5C4342F991183*)il2cpp_codegen_object_new(Dictionary_2_t1D10D55F8460717EBD55BA18B7F5C4342F991183_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m81A36C9D7A5136E0E6BD1A0CEF36F60FD4E8B166(L_0, Dictionary_2__ctor_m81A36C9D7A5136E0E6BD1A0CEF36F60FD4E8B166_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:46>
 		il2cpp_codegen_runtime_class_init_inline(OVRSkeletonMapping_tC39AC901BBAA2614D5C1006273A949399BF370BE_il2cpp_TypeInfo_var);
 		Dictionary_2_t1D10D55F8460717EBD55BA18B7F5C4342F991183* L_1 = ((OVRSkeletonMapping_tC39AC901BBAA2614D5C1006273A949399BF370BE_StaticFields*)il2cpp_codegen_static_fields_for(OVRSkeletonMapping_tC39AC901BBAA2614D5C1006273A949399BF370BE_il2cpp_TypeInfo_var))->____upperBodyJoints;
 		NullCheck(L_1);
@@ -14967,11 +14914,11 @@ FINALLY_003f:
 
 IL_0015_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:46>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:46>
 				KeyValuePair_2_t0F7ED963724A0D64642B0AE1D34480EF7025F9B2 L_3;
 				L_3 = Enumerator_get_Current_mD26596B306CFC7394F84A3A7A59E9F1D37B47DBE_inline((&V_1), Enumerator_get_Current_mD26596B306CFC7394F84A3A7A59E9F1D37B47DBE_RuntimeMethod_var);
 				V_2 = L_3;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:48>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:48>
 				Dictionary_2_t1D10D55F8460717EBD55BA18B7F5C4342F991183* L_4 = V_0;
 				int32_t L_5;
 				L_5 = KeyValuePair_2_get_Key_mB0032D4553A685413694407A43E956D2BAC9F8EB_inline((&V_2), KeyValuePair_2_get_Key_mB0032D4553A685413694407A43E956D2BAC9F8EB_RuntimeMethod_var);
@@ -14983,7 +14930,7 @@ IL_0015_1:
 
 IL_0034_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:46>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:46>
 				bool L_7;
 				L_7 = Enumerator_MoveNext_mFC5B28D2E9F275DF36274C90962D32AC85BC2536((&V_1), Enumerator_MoveNext_mFC5B28D2E9F275DF36274C90962D32AC85BC2536_RuntimeMethod_var);
 				if (L_7)
@@ -15003,7 +14950,7 @@ IL_0034_1:
 
 IL_004e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:50>
 		int32_t L_8 = ___0_jointSet;
 		V_3 = (bool)((((int32_t)L_8) == ((int32_t)1))? 1 : 0);
 		bool L_9 = V_3;
@@ -15013,7 +14960,7 @@ IL_004e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:52>
 		il2cpp_codegen_runtime_class_init_inline(OVRSkeletonMapping_tC39AC901BBAA2614D5C1006273A949399BF370BE_il2cpp_TypeInfo_var);
 		Dictionary_2_t1D10D55F8460717EBD55BA18B7F5C4342F991183* L_10 = ((OVRSkeletonMapping_tC39AC901BBAA2614D5C1006273A949399BF370BE_StaticFields*)il2cpp_codegen_static_fields_for(OVRSkeletonMapping_tC39AC901BBAA2614D5C1006273A949399BF370BE_il2cpp_TypeInfo_var))->____lowerBodyJoints;
 		NullCheck(L_10);
@@ -15039,11 +14986,11 @@ FINALLY_0091:
 
 IL_0066_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:52>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:52>
 				KeyValuePair_2_t0F7ED963724A0D64642B0AE1D34480EF7025F9B2 L_12;
 				L_12 = Enumerator_get_Current_mD26596B306CFC7394F84A3A7A59E9F1D37B47DBE_inline((&V_4), Enumerator_get_Current_mD26596B306CFC7394F84A3A7A59E9F1D37B47DBE_RuntimeMethod_var);
 				V_5 = L_12;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:54>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:54>
 				Dictionary_2_t1D10D55F8460717EBD55BA18B7F5C4342F991183* L_13 = V_0;
 				int32_t L_14;
 				L_14 = KeyValuePair_2_get_Key_mB0032D4553A685413694407A43E956D2BAC9F8EB_inline((&V_5), KeyValuePair_2_get_Key_mB0032D4553A685413694407A43E956D2BAC9F8EB_RuntimeMethod_var);
@@ -15055,7 +15002,7 @@ IL_0066_1:
 
 IL_0086_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:52>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:52>
 				bool L_16;
 				L_16 = Enumerator_MoveNext_mFC5B28D2E9F275DF36274C90962D32AC85BC2536((&V_4), Enumerator_MoveNext_mFC5B28D2E9F275DF36274C90962D32AC85BC2536_RuntimeMethod_var);
 				if (L_16)
@@ -15079,7 +15026,7 @@ IL_00a0:
 
 IL_00a1:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:57>
 		Dictionary_2_t1D10D55F8460717EBD55BA18B7F5C4342F991183* L_17 = V_0;
 		V_6 = L_17;
 		goto IL_00a6;
@@ -15087,29 +15034,29 @@ IL_00a1:
 
 IL_00a6:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:58>
 		RuntimeObject* L_18 = V_6;
 		return L_18;
 	}
 }
-// Method Definition Index: 131657
+// Method Definition Index: 132161
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OVRSkeletonMapping_GetRoot_mB5AF26DD7CC85C6E3A490988CB33455B1027E3CF (const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:62>
 		V_0 = 0;
 		goto IL_0005;
 	}
 
 IL_0005:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:63>
 		int32_t L_0 = V_0;
 		return L_0;
 	}
 }
-// Method Definition Index: 131658
+// Method Definition Index: 132162
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRSkeletonMapping__cctor_m98181CB7DC844E3A111E8B3E1B6AEA16876A604D (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15123,88 +15070,88 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRSkeletonMapping__cctor_m98181CB7DC844
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:68>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:69>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:70>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:71>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:72>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:73>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:74>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:75>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:76>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:77>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:78>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:79>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:80>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:81>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:82>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:83>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:84>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:85>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:86>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:87>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:88>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:89>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:90>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:91>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:92>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:93>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:94>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:95>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:96>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:97>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:98>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:99>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:100>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:101>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:102>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:103>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:104>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:105>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:106>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:107>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:108>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:109>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:110>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:111>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:112>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:113>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:114>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:115>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:116>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:117>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:118>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:119>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:120>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:121>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:122>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:123>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:124>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:125>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:126>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:127>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:128>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:129>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:130>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:131>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:132>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:133>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:134>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:135>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:136>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:137>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:138>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:139>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:140>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:141>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:142>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:143>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:144>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:145>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:146>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:147>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:148>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:73>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:89>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:92>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:106>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:127>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:129>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:135>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:137>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:138>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:139>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:140>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:145>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:146>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:149>
 		Dictionary_2_t1D10D55F8460717EBD55BA18B7F5C4342F991183* L_0 = (Dictionary_2_t1D10D55F8460717EBD55BA18B7F5C4342F991183*)il2cpp_codegen_object_new(Dictionary_2_t1D10D55F8460717EBD55BA18B7F5C4342F991183_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m81A36C9D7A5136E0E6BD1A0CEF36F60FD4E8B166(L_0, Dictionary_2__ctor_m81A36C9D7A5136E0E6BD1A0CEF36F60FD4E8B166_RuntimeMethod_var);
 		Dictionary_2_t1D10D55F8460717EBD55BA18B7F5C4342F991183* L_1 = L_0;
@@ -15629,27 +15576,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRSkeletonMapping__cctor_m98181CB7DC844
 		Dictionary_2_set_Item_m8E0F479453401E3DA3AB6E4927F62F14A7EB50D1(L_139, ((int32_t)69), L_140, Dictionary_2_set_Item_m8E0F479453401E3DA3AB6E4927F62F14A7EB50D1_RuntimeMethod_var);
 		((OVRSkeletonMapping_tC39AC901BBAA2614D5C1006273A949399BF370BE_StaticFields*)il2cpp_codegen_static_fields_for(OVRSkeletonMapping_tC39AC901BBAA2614D5C1006273A949399BF370BE_il2cpp_TypeInfo_var))->____upperBodyJoints = L_139;
 		Il2CppCodeGenWriteBarrier((void**)(&((OVRSkeletonMapping_tC39AC901BBAA2614D5C1006273A949399BF370BE_StaticFields*)il2cpp_codegen_static_fields_for(OVRSkeletonMapping_tC39AC901BBAA2614D5C1006273A949399BF370BE_il2cpp_TypeInfo_var))->____upperBodyJoints), (void*)L_139);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:154>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:155>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:156>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:157>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:158>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:159>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:160>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:161>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:162>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:163>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:164>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:165>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:166>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:167>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:168>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:169>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:170>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:171>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:172>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:173>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:174>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:157>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:162>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:164>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:166>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:168>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:172>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:173>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Body/Input/OVRSkeletonMapping.cs:174>
 		Dictionary_2_t1D10D55F8460717EBD55BA18B7F5C4342F991183* L_141 = (Dictionary_2_t1D10D55F8460717EBD55BA18B7F5C4342F991183*)il2cpp_codegen_object_new(Dictionary_2_t1D10D55F8460717EBD55BA18B7F5C4342F991183_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m81A36C9D7A5136E0E6BD1A0CEF36F60FD4E8B166(L_141, Dictionary_2__ctor_m81A36C9D7A5136E0E6BD1A0CEF36F60FD4E8B166_RuntimeMethod_var);
 		Dictionary_2_t1D10D55F8460717EBD55BA18B7F5C4342F991183* L_142 = L_141;
@@ -15744,16 +15691,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRSkeletonMapping__cctor_m98181CB7DC844
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 131427
+// Method Definition Index: 131933
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t OVRCanvasMeshRenderer_get_RenderingMode_mE24382BC23C839818FD4E62FA057B44FCDEC4AF0_inline (OVRCanvasMeshRenderer_t79F619DA21BCBC644A841CE9FAD1E27954D5C97A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs:65>
 		int32_t L_0 = ((CanvasMeshRenderer_t9A3BB36C15352BA3F71071BDEEB390B849FB6419*)__this)->____renderingMode;
 		return (int32_t)(L_0);
 	}
 }
-// Method Definition Index: 68372
+// Method Definition Index: 68710
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -15766,7 +15713,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 		return;
 	}
 }
-// Method Definition Index: 68407
+// Method Definition Index: 68745
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -15797,7 +15744,7 @@ IL_0030:
 		return L_13;
 	}
 }
-// Method Definition Index: 68570
+// Method Definition Index: 68908
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Vector2Int_get_x_mA2CACB1B6E6B5AD0CCC32B2CD2EDCE3ECEB50576_inline (Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -15813,7 +15760,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 68572
+// Method Definition Index: 68910
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Vector2Int_get_y_m48454163ECF0B463FB5A16A0C4FC4B14DB0768B3_inline (Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -15829,7 +15776,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 68408
+// Method Definition Index: 68746
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -15854,7 +15801,7 @@ IL_001e:
 		return L_7;
 	}
 }
-// Method Definition Index: 68397
+// Method Definition Index: 68735
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15877,7 +15824,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 69825
+// Method Definition Index: 70170
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Profiler_BeginSample_m640E26B682D803CC5DB4EDFDF2F6E83771BF0BE4_inline (String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
@@ -15888,7 +15835,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Profiler_BeginSample_m640E26
 		return;
 	}
 }
-// Method Definition Index: 68432
+// Method Definition Index: 68770
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15911,7 +15858,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 68398
+// Method Definition Index: 68736
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15934,7 +15881,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 68506
+// Method Definition Index: 68844
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -15955,107 +15902,107 @@ IL_0010:
 		return L_5;
 	}
 }
-// Method Definition Index: 131468
+// Method Definition Index: 131974
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* AnimatedHandOVR_get_DeltaTimeProvider_mA40EE4C7BADD6EA1538FC89B728EB877DE81AB70_inline (AnimatedHandOVR_t5215E103CB7E6CDB45543E152722254ACACD2D78* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/AnimatedHandOVR.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/AnimatedHandOVR.cs:86>
 		Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* L_0 = __this->___U3CDeltaTimeProviderU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131485
+// Method Definition Index: 131991
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UsageTouchMapping_get_Touch_mEA9DCDEF2FDB6C6A21C335392FCE00B03CB365DF_inline (UsageTouchMapping_t069BEC8C91EC7A074ACC14D71D56F321753628BB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:34>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:34>
 		int32_t L_0 = __this->___U3CTouchU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131484
+// Method Definition Index: 131990
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UsageTouchMapping_get_Usage_m4851C2564A227A06846869E9815150926F38DFD7_inline (UsageTouchMapping_t069BEC8C91EC7A074ACC14D71D56F321753628BB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:33>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:33>
 		int32_t L_0 = __this->___U3CUsageU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131489
+// Method Definition Index: 131995
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UsageButtonMapping_get_Button_mA2507EE5168803509F0682B52F84F27D927FA622_inline (UsageButtonMapping_t4E351D44C2E63CBDFF581148D80761332BC8D39C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:52>
 		int32_t L_0 = __this->___U3CButtonU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131488
+// Method Definition Index: 131994
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UsageButtonMapping_get_Usage_m4C547D085B9EF46B96112E84F67A3A2814EE759E_inline (UsageButtonMapping_t4E351D44C2E63CBDFF581148D80761332BC8D39C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:51>
 		int32_t L_0 = __this->___U3CUsageU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131493
+// Method Definition Index: 131999
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UsageAxis1DMapping_get_Axis1D_m88CD0FEFB4723BAC838F74F956D017BF8918D4E9_inline (UsageAxis1DMapping_t956EFD5E68C615820E2B8A94FA3D43629B62F624* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:70>
 		int32_t L_0 = __this->___U3CAxis1DU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131492
+// Method Definition Index: 131998
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UsageAxis1DMapping_get_Usage_mF28D2090A85B4E414DD59338C1CB4A6075341F74_inline (UsageAxis1DMapping_t956EFD5E68C615820E2B8A94FA3D43629B62F624* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:69>
 		int32_t L_0 = __this->___U3CUsageU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131497
+// Method Definition Index: 132003
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UsageAxis2DMapping_get_Axis2D_m5872C094109E168619073FB1D025E5B20D4DD987_inline (UsageAxis2DMapping_tFFAA2F828577824D87D694CD9CE64BA0F39910CA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:88>
 		int32_t L_0 = __this->___U3CAxis2DU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131496
+// Method Definition Index: 132002
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UsageAxis2DMapping_get_Usage_m9D290DED83A87E68DF098B55E350E72F8E19288C_inline (UsageAxis2DMapping_tFFAA2F828577824D87D694CD9CE64BA0F39910CA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:87>
 		int32_t L_0 = __this->___U3CUsageU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131500
+// Method Definition Index: 132006
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 OVRPointerPoseSelector_get_LocalPointerPose_m1B2EBC32C0F4D3C778CADB2D58DE762AF4EFFEC6_inline (OVRPointerPoseSelector_tAFF9D6C036191193059498E82B3E62E3A3490743* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:126>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = __this->___U3CLocalPointerPoseU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131501
+// Method Definition Index: 132007
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OVRPointerPoseSelector_set_LocalPointerPose_m0F08718CAB486B4A44E57730FE87D04358D282CE_inline (OVRPointerPoseSelector_tAFF9D6C036191193059498E82B3E62E3A3490743* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:126>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = ___0_value;
 		__this->___U3CLocalPointerPoseU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 68444
+// Method Definition Index: 68782
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
@@ -16081,48 +16028,48 @@ IL_001b:
 		return L_6;
 	}
 }
-// Method Definition Index: 131505
+// Method Definition Index: 132011
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FromOVRControllerDataSource_set_CameraRigRef_m77081F15C21BCF15B5CFCD3F432EA0709A5BF69D_inline (FromOVRControllerDataSource_t15807F807DEF85A26FA6C78577FD8EB5697A4ACA* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:150>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CCameraRigRefU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCameraRigRefU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 131504
+// Method Definition Index: 132010
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* FromOVRControllerDataSource_get_CameraRigRef_mA1AF0A9F82733AB80D7BAF05AD09FF82D693C04D_inline (FromOVRControllerDataSource_t15807F807DEF85A26FA6C78577FD8EB5697A4ACA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRControllerDataSource.cs:150>
 		RuntimeObject* L_0 = __this->___U3CCameraRigRefU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 50426
+// Method Definition Index: 50764
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ControllerDataSourceConfig_set_Handedness_mB4FAE612E5494F06F211F9FE3E0C459273EA2AE5_inline (ControllerDataSourceConfig_t77F9591B645FD62760D99484471B223F3ACF8062* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@be53de53710b/Runtime/Scripts/Input/Controllers/ControllerDataSourceConfig.cs:28>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/Controllers/ControllerDataSourceConfig.cs:28>
 		int32_t L_0 = ___0_value;
 		__this->___U3CHandednessU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 50428
+// Method Definition Index: 50766
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ControllerDataSourceConfig_set_TrackingToWorldTransformer_m3FEFC92EA64E81A433997AFA752FE3CB725A46E6_inline (ControllerDataSourceConfig_t77F9591B645FD62760D99484471B223F3ACF8062* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@be53de53710b/Runtime/Scripts/Input/Controllers/ControllerDataSourceConfig.cs:29>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/Controllers/ControllerDataSourceConfig.cs:29>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CTrackingToWorldTransformerU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTrackingToWorldTransformerU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 68433
+// Method Definition Index: 68771
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) 
 {
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
@@ -16205,149 +16152,149 @@ IL_00e5:
 		return L_65;
 	}
 }
-// Method Definition Index: 27220
+// Method Definition Index: 27299
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t OVRRuntimeSettings_get_HandSkeletonVersion_mDE8EF6777A30BE53949209A8FF8C0C84D2BBF299_inline (OVRRuntimeSettings_tC85E84DCFBF4DB2D4C3311CA39C96DEE89220EE1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@503a72ca5496/Scripts/OVRRuntimeSettings.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/OVRRuntimeSettings.cs:47>
 		int32_t L_0 = __this->___handSkeletonVersion;
 		return L_0;
 	}
 }
-// Method Definition Index: 50753
+// Method Definition Index: 51091
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HandDataSourceConfig_set_Handedness_m6D4D243AC1A402A05F9674A5115E901EA2C0E85C_inline (HandDataSourceConfig_t29A4B860CAB12E81573F5565FD5336F4010C3054* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@be53de53710b/Runtime/Scripts/Input/Hands/HandDataSourceConfig.cs:28>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/Hands/HandDataSourceConfig.cs:28>
 		int32_t L_0 = ___0_value;
 		__this->___U3CHandednessU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 50755
+// Method Definition Index: 51093
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HandDataSourceConfig_set_TrackingToWorldTransformer_m32D9167DF390D900C1C75D774F143CEC05D3326E_inline (HandDataSourceConfig_t29A4B860CAB12E81573F5565FD5336F4010C3054* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@be53de53710b/Runtime/Scripts/Input/Hands/HandDataSourceConfig.cs:29>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/Hands/HandDataSourceConfig.cs:29>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CTrackingToWorldTransformerU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTrackingToWorldTransformerU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 50757
+// Method Definition Index: 51095
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HandDataSourceConfig_set_HandSkeleton_m4BF7D11ABA852539E4AA81534AFCAB2E6A1F2F56_inline (HandDataSourceConfig_t29A4B860CAB12E81573F5565FD5336F4010C3054* __this, HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@be53de53710b/Runtime/Scripts/Input/Hands/HandDataSourceConfig.cs:30>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/Hands/HandDataSourceConfig.cs:30>
 		HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A* L_0 = ___0_value;
 		__this->___U3CHandSkeletonU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CHandSkeletonU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 28923
+// Method Definition Index: 29022
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SkeletonPoseData_get_IsDataValid_m7C3D29FE3C5F765C05C11DF50F7CCB6F7A5D35DD_inline (SkeletonPoseData_tA0A3A4163EEA849A40C82CF95F1847A9827A5F86* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@503a72ca5496/Scripts/Util/OVRSkeleton.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRSkeleton.cs:95>
 		bool L_0 = __this->___U3CIsDataValidU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 28919
+// Method Definition Index: 29018
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float SkeletonPoseData_get_RootScale_mFCF463E498E2652EE2F3B71C4D54B7801EC0D4F1_inline (SkeletonPoseData_tA0A3A4163EEA849A40C82CF95F1847A9827A5F86* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@503a72ca5496/Scripts/Util/OVRSkeleton.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRSkeleton.cs:84>
 		float L_0 = __this->___U3CRootScaleU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 28924
+// Method Definition Index: 29023
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SkeletonPoseData_set_IsDataValid_m3EB469D44C3697FC541F1EB3AADEFAC3EB57AE20_inline (SkeletonPoseData_tA0A3A4163EEA849A40C82CF95F1847A9827A5F86* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@503a72ca5496/Scripts/Util/OVRSkeleton.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRSkeleton.cs:95>
 		bool L_0 = ___0_value;
 		__this->___U3CIsDataValidU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 28920
+// Method Definition Index: 29019
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SkeletonPoseData_set_RootScale_m418868BB1AA7A8080B53BEA4E4E72CEA9074D7A7_inline (SkeletonPoseData_tA0A3A4163EEA849A40C82CF95F1847A9827A5F86* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@503a72ca5496/Scripts/Util/OVRSkeleton.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRSkeleton.cs:84>
 		float L_0 = ___0_value;
 		__this->___U3CRootScaleU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 28465
+// Method Definition Index: 28564
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool OVRHand_get_IsTracked_m869AA41C7CC8F224F1CD5A10FF6CD62E6F6BDFDA_inline (OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@503a72ca5496/Scripts/Util/OVRHand.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRHand.cs:141>
 		bool L_0 = __this->___U3CIsTrackedU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 28925
+// Method Definition Index: 29024
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SkeletonPoseData_get_IsDataHighConfidence_mA41FF6B1B22AC004AC0502A6EEED5F0E5DD46BDC_inline (SkeletonPoseData_tA0A3A4163EEA849A40C82CF95F1847A9827A5F86* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@503a72ca5496/Scripts/Util/OVRSkeleton.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRSkeleton.cs:100>
 		bool L_0 = __this->___U3CIsDataHighConfidenceU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 28476
+// Method Definition Index: 28575
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool OVRHand_get_IsDominantHand_m27F6ABFDF2E9F717E7EED827AF1867D11CBA415A_inline (OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@503a72ca5496/Scripts/Util/OVRHand.cs:182>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRHand.cs:182>
 		bool L_0 = __this->___U3CIsDominantHandU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 28917
+// Method Definition Index: 29016
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Posef_t51A2C10B4094B44A8D3C1913292B839172887B61 SkeletonPoseData_get_RootPose_m80C1C69254FA42D1065FBA827681D934E1B334A1_inline (SkeletonPoseData_tA0A3A4163EEA849A40C82CF95F1847A9827A5F86* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@503a72ca5496/Scripts/Util/OVRSkeleton.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRSkeleton.cs:79>
 		Posef_t51A2C10B4094B44A8D3C1913292B839172887B61 L_0 = __this->___U3CRootPoseU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 28469
+// Method Definition Index: 28568
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool OVRHand_get_IsPointerPoseValid_m675548AD3E51E67A3F5EF6C47345775E5B1C8B5F_inline (OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@503a72ca5496/Scripts/Util/OVRHand.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRHand.cs:154>
 		bool L_0 = __this->___U3CIsPointerPoseValidU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 28927
+// Method Definition Index: 29026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3fU5BU5D_tD8395E99259411E2F0A4F513559CC986FD7AB92E* SkeletonPoseData_get_BoneTranslations_mD38F3969B21935A65F2B41F5F8E1A85D2A5ADE9D_inline (SkeletonPoseData_tA0A3A4163EEA849A40C82CF95F1847A9827A5F86* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@503a72ca5496/Scripts/Util/OVRSkeleton.cs:106>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRSkeleton.cs:106>
 		Vector3fU5BU5D_tD8395E99259411E2F0A4F513559CC986FD7AB92E* L_0 = __this->___U3CBoneTranslationsU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 28921
+// Method Definition Index: 29020
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* SkeletonPoseData_get_BoneRotations_mACE351DC74E169E3806489E476047373DA10C25E_inline (SkeletonPoseData_tA0A3A4163EEA849A40C82CF95F1847A9827A5F86* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@503a72ca5496/Scripts/Util/OVRSkeleton.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRSkeleton.cs:90>
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_0 = __this->___U3CBoneRotationsU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 68409
+// Method Definition Index: 68747
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -16375,7 +16322,7 @@ IL_0021:
 		return L_10;
 	}
 }
-// Method Definition Index: 68431
+// Method Definition Index: 68769
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Quaternion__ctor_m868FD60AA65DD5A8AC0C5DEB0608381A8D85FCD8_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
 {
 	{
@@ -16390,38 +16337,38 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Quaternion__ctor_m868FD60AA6
 		return;
 	}
 }
-// Method Definition Index: 131545
+// Method Definition Index: 132051
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FromOVRHmdDataSource_set_CameraRigRef_mF7F1292CCD53BFD490169C7292E43482B0439CDD_inline (FromOVRHmdDataSource_t60F1D32F93B58AC36DB8E25645BB23596DCFA1CF* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:37>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:37>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CCameraRigRefU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCameraRigRefU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 131544
+// Method Definition Index: 132050
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* FromOVRHmdDataSource_get_CameraRigRef_m9701F8D26583D60BF41D866E77293BAD713FA800_inline (FromOVRHmdDataSource_t60F1D32F93B58AC36DB8E25645BB23596DCFA1CF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:37>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHmdDataSource.cs:37>
 		RuntimeObject* L_0 = __this->___U3CCameraRigRefU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 50918
+// Method Definition Index: 51256
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HmdDataSourceConfig_set_TrackingToWorldTransformer_m16678A152AEFFFE83CF6FB6222C49A30EC6FAB75_inline (HmdDataSourceConfig_tDF44AA08CCE0251849B4951A28930B6405B7C51F* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@be53de53710b/Runtime/Scripts/Input/HMD/HmdDataSourceConfig.cs:28>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/HMD/HmdDataSourceConfig.cs:28>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CTrackingToWorldTransformerU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTrackingToWorldTransformerU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 25364
+// Method Definition Index: 25391
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4* OVRManager_get_instance_m642500A467C7D7B5B1C2763F2BA90C52BBF5381C_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16431,76 +16378,76 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OVRManager_t21429E69CA88C5E9C6EE3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@503a72ca5496/Scripts/OVRManager.cs:245>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/OVRManager.cs:245>
 		il2cpp_codegen_runtime_class_init_inline(OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_il2cpp_TypeInfo_var);
 		OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4* L_0 = ((OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_StaticFields*)il2cpp_codegen_static_fields_for(OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_il2cpp_TypeInfo_var))->___U3CinstanceU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 24889
+// Method Definition Index: 24910
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* OVRCameraRig_get_leftHandAnchor_m2EE938DB2ADD234FA1211B562C659884ABC56644_inline (OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@503a72ca5496/Scripts/OVRCameraRig.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/OVRCameraRig.cs:85>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___U3CleftHandAnchorU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 24891
+// Method Definition Index: 24912
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* OVRCameraRig_get_rightHandAnchor_mF2D328A04338A8119F3BE6EE09FE66965258A26D_inline (OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@503a72ca5496/Scripts/OVRCameraRig.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/OVRCameraRig.cs:90>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___U3CrightHandAnchorU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 24905
+// Method Definition Index: 24926
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* OVRCameraRig_get_leftControllerAnchor_m0757202E2FCE3F39E1E8E8A1CFABFB1645596538_inline (OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@503a72ca5496/Scripts/OVRCameraRig.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/OVRCameraRig.cs:125>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___U3CleftControllerAnchorU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 24907
+// Method Definition Index: 24928
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* OVRCameraRig_get_rightControllerAnchor_mF14AEB62D422D3570CCAE0F62F0C955C12AD7594_inline (OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@503a72ca5496/Scripts/OVRCameraRig.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/OVRCameraRig.cs:130>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___U3CrightControllerAnchorU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131576
+// Method Definition Index: 132080
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* OVRCameraRigRef_get_CameraRig_mBA6A96863C9DA3F9056645D33E18145A12962CD9_inline (OVRCameraRigRef_t559BBEBD06F1FE029695CA0E072E21E1CE9C01DE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRCameraRigRef.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRCameraRigRef.cs:70>
 		OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* L_0 = __this->____ovrCameraRig;
 		return L_0;
 	}
 }
-// Method Definition Index: 131615
+// Method Definition Index: 132119
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* TrackingToWorldTransformerOVR_get_CameraRigRef_mE27D2627F557B2C82BFB456A0E4109E70B34BDC3_inline (TrackingToWorldTransformerOVR_t17348670A78557CA7D426556FAA0981B783ABB33* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:33>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:33>
 		RuntimeObject* L_0 = __this->___U3CCameraRigRefU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 24881
+// Method Definition Index: 24902
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* OVRCameraRig_get_trackingSpace_m76339871C7804C1BD14283FBF3D91268D4D87550_inline (OVRCameraRig_t7FC2BB0D30DED2B7F0C8914AF2B66E9F4CF891A9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@503a72ca5496/Scripts/OVRCameraRig.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/OVRCameraRig.cs:65>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___U3CtrackingSpaceU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131526
+// Method Definition Index: 132032
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 FromOVRHandDataSource_get_WristFixupRotation_m7BFB41BF76A11C8C094B3877C515F87D65A292F7_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16510,33 +16457,33 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/FromOVRHandDataSource.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/FromOVRHandDataSource.cs:75>
 		il2cpp_codegen_runtime_class_init_inline(FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9_il2cpp_TypeInfo_var);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ((FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9_StaticFields*)il2cpp_codegen_static_fields_for(FromOVRHandDataSource_t432607B9E900CE79C6DAF59C38656A25387CF7C9_il2cpp_TypeInfo_var))->___U3CWristFixupRotationU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131616
+// Method Definition Index: 132120
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TrackingToWorldTransformerOVR_set_CameraRigRef_m49E4398C42EDBC38F8F2B72FFFFBAD818556EF0B_inline (TrackingToWorldTransformerOVR_t17348670A78557CA7D426556FAA0981B783ABB33* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:33>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs:33>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CCameraRigRefU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCameraRigRefU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 131627
+// Method Definition Index: 132131
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool OVRControllerVisual_get_ForceOffVisibility_m0C45B7C4C12000F3BCF270DFC8F3A5D1DEB823E6_inline (OVRControllerVisual_t0A2C503E6A07EF6F01D6FB5CED8A580F0890D2B9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a99b76803a6e/Runtime/Scripts/Input/OVRControllerVisual.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction.ovr@ac1e4e09e6a6/Runtime/Scripts/Input/OVRControllerVisual.cs:38>
 		bool L_0 = __this->___U3CForceOffVisibilityU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 68410
+// Method Definition Index: 68748
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline (float ___0_d, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_a, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -16564,113 +16511,113 @@ IL_0021:
 		return L_10;
 	}
 }
-// Method Definition Index: 28926
+// Method Definition Index: 29025
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SkeletonPoseData_set_IsDataHighConfidence_m5ED9547D2D2792DE6D7784FC6C57A17B7B137C89_inline (SkeletonPoseData_tA0A3A4163EEA849A40C82CF95F1847A9827A5F86* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@503a72ca5496/Scripts/Util/OVRSkeleton.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRSkeleton.cs:100>
 		bool L_0 = ___0_value;
 		__this->___U3CIsDataHighConfidenceU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 28918
+// Method Definition Index: 29017
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SkeletonPoseData_set_RootPose_mE4586839D8462D4FE6FE58D73650E722AB4C85E7_inline (SkeletonPoseData_tA0A3A4163EEA849A40C82CF95F1847A9827A5F86* __this, Posef_t51A2C10B4094B44A8D3C1913292B839172887B61 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@503a72ca5496/Scripts/Util/OVRSkeleton.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRSkeleton.cs:79>
 		Posef_t51A2C10B4094B44A8D3C1913292B839172887B61 L_0 = ___0_value;
 		__this->___U3CRootPoseU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 28922
+// Method Definition Index: 29021
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SkeletonPoseData_set_BoneRotations_m949EF8A39998D039EF0C42C3DC77CD149661B846_inline (SkeletonPoseData_tA0A3A4163EEA849A40C82CF95F1847A9827A5F86* __this, QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@503a72ca5496/Scripts/Util/OVRSkeleton.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRSkeleton.cs:90>
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_0 = ___0_value;
 		__this->___U3CBoneRotationsU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CBoneRotationsU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 28928
+// Method Definition Index: 29027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SkeletonPoseData_set_BoneTranslations_m6476364877A2E5AA9BEFE0E0E5BC9DD2BAB6F060_inline (SkeletonPoseData_tA0A3A4163EEA849A40C82CF95F1847A9827A5F86* __this, Vector3fU5BU5D_tD8395E99259411E2F0A4F513559CC986FD7AB92E* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@503a72ca5496/Scripts/Util/OVRSkeleton.cs:106>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRSkeleton.cs:106>
 		Vector3fU5BU5D_tD8395E99259411E2F0A4F513559CC986FD7AB92E* L_0 = ___0_value;
 		__this->___U3CBoneTranslationsU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CBoneTranslationsU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 50114
+// Method Definition Index: 50432
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BodyDataAsset_set_SkeletonMapping_mB6DF36A7012359D311F3C0888AADA3F9CA1D8F84_inline (BodyDataAsset_tABE642D7F55B97949428DC81DE984B16C21D2456* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@be53de53710b/Runtime/Scripts/Body/Input/BodyDataAsset.cs:29>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodyDataAsset.cs:29>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CSkeletonMappingU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSkeletonMappingU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 50122
+// Method Definition Index: 50440
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BodyDataAsset_set_IsDataHighConfidence_m953EEBED8F285FA85FAEF8FB678E8C092E3F3E95_inline (BodyDataAsset_tABE642D7F55B97949428DC81DE984B16C21D2456* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@be53de53710b/Runtime/Scripts/Body/Input/BodyDataAsset.cs:33>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodyDataAsset.cs:33>
 		bool L_0 = ___0_value;
 		__this->___U3CIsDataHighConfidenceU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 50120
+// Method Definition Index: 50438
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BodyDataAsset_set_IsDataValid_mF12679F578A873BC383687500370067420D9A68F_inline (BodyDataAsset_tABE642D7F55B97949428DC81DE984B16C21D2456* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@be53de53710b/Runtime/Scripts/Body/Input/BodyDataAsset.cs:32>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodyDataAsset.cs:32>
 		bool L_0 = ___0_value;
 		__this->___U3CIsDataValidU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 28929
+// Method Definition Index: 29028
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t SkeletonPoseData_get_SkeletonChangedCount_m9CA1D65747E8C06C433B961ED106A99D7BCE5661_inline (SkeletonPoseData_tA0A3A4163EEA849A40C82CF95F1847A9827A5F86* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@503a72ca5496/Scripts/Util/OVRSkeleton.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@06273138c40d/Scripts/Util/OVRSkeleton.cs:113>
 		int32_t L_0 = __this->___U3CSkeletonChangedCountU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 50126
+// Method Definition Index: 50444
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BodyDataAsset_set_SkeletonChangedCount_mC45A59445F977719A2A0A3B61169E378E260BA1D_inline (BodyDataAsset_tABE642D7F55B97949428DC81DE984B16C21D2456* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@be53de53710b/Runtime/Scripts/Body/Input/BodyDataAsset.cs:35>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodyDataAsset.cs:35>
 		int32_t L_0 = ___0_value;
 		__this->___U3CSkeletonChangedCountU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 50118
+// Method Definition Index: 50436
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BodyDataAsset_set_RootScale_mBA174F53CE563D588848320D605C576DABAF4CE5_inline (BodyDataAsset_tABE642D7F55B97949428DC81DE984B16C21D2456* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@be53de53710b/Runtime/Scripts/Body/Input/BodyDataAsset.cs:31>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodyDataAsset.cs:31>
 		float L_0 = ___0_value;
 		__this->___U3CRootScaleU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 50116
+// Method Definition Index: 50434
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BodyDataAsset_set_Root_mA4227DE133677A6B81A21005029B53D0CD816161_inline (BodyDataAsset_tABE642D7F55B97949428DC81DE984B16C21D2456* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@be53de53710b/Runtime/Scripts/Body/Input/BodyDataAsset.cs:30>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodyDataAsset.cs:30>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = ___0_value;
 		__this->___U3CRootU3Ek__BackingField = L_0;
 		return;
@@ -16686,20 +16633,20 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsNaN_mFE637F6ECA9F76
 		return (bool)((((int32_t)((int32_t)(L_1&((int32_t)2147483647LL)))) > ((int32_t)((int32_t)2139095040)))? 1 : 0);
 	}
 }
-// Method Definition Index: 50123
+// Method Definition Index: 50441
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* BodyDataAsset_get_JointPoses_m1F6288350B6B36BDE4A1DFE02DFDCD71FE6D14E5_inline (BodyDataAsset_tABE642D7F55B97949428DC81DE984B16C21D2456* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@be53de53710b/Runtime/Scripts/Body/Input/BodyDataAsset.cs:34>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodyDataAsset.cs:34>
 		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_0 = __this->___U3CJointPosesU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 50115
+// Method Definition Index: 50433
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 BodyDataAsset_get_Root_mBDC6B64758E82072A79B3A8E0CB9AB4F7BBF03F5_inline (BodyDataAsset_tABE642D7F55B97949428DC81DE984B16C21D2456* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@be53de53710b/Runtime/Scripts/Body/Input/BodyDataAsset.cs:30>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodyDataAsset.cs:30>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = __this->___U3CRootU3Ek__BackingField;
 		return L_0;
 	}
@@ -16716,7 +16663,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_m69C8773D696
 	typedef void (*FunctionPointerType) (RuntimeObject*, bool, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 11777
+// Method Definition Index: 11778
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Enumerator_get_Current_mB6A201CD563FEF33A6BDA75B83C7BF2AA36CD98C_gshared_inline (Enumerator_t6209EE23CCD16838DA331AC87789A15508C6C72B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16724,16 +16671,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Enumerator_get_Current_mB
 		return L_0;
 	}
 }
-// Method Definition Index: 50152
+// Method Definition Index: 50470
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* BodySkeletonMapping_1_get_Joints_mBDAFDB4A62E56ABD9A1C2515B217FA07BF67659E_gshared_inline (BodySkeletonMapping_1_t5F725302253AC0F951567C97B2A4BC5CFFF1FD25* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@be53de53710b/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:36>
 		RuntimeObject* L_0 = __this->____joints;
 		return L_0;
 	}
 }
-// Method Definition Index: 101241
+// Method Definition Index: 101586
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Enumerator_get_Current_mA0DBBD9C59D8292DA10ACC1F8163E1BD9BA9D92C_gshared_inline (Enumerator_t5438B9989E702349A6790B901A8E6B408ED3B3CD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16741,7 +16688,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Enumerator_get_Current_mA
 		return L_0;
 	}
 }
-// Method Definition Index: 11611
+// Method Definition Index: 11612
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_tDEA3C1BC01D679C9F3B771948623994EE8B62855 Enumerator_get_Current_m5BD216E3B33F08A41A845A729560B31C83A5F870_gshared_inline (Enumerator_tB22734833D40C45D3A3FE4B2188140AA84EF375F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16749,7 +16696,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_tDEA3C1BC01D679C9F
 		return L_0;
 	}
 }
-// Method Definition Index: 11704
+// Method Definition Index: 11705
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t KeyValuePair_2_get_Key_m7F8F8C82D057FE3085CEAA93D209797D9D942CA3_gshared_inline (KeyValuePair_2_tDEA3C1BC01D679C9F3B771948623994EE8B62855* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16757,7 +16704,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t KeyValuePair_2_get_Key_m7
 		return L_0;
 	}
 }
-// Method Definition Index: 11705
+// Method Definition Index: 11706
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR JointInfo_t9A1D52B5AC07F31BFEA2D57D19EFFDEFD8CE5F61 KeyValuePair_2_get_Value_m2D907B8CA3BA36E297A38113774090189227AB0D_gshared_inline (KeyValuePair_2_tDEA3C1BC01D679C9F3B771948623994EE8B62855* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16765,7 +16712,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR JointInfo_t9A1D52B5AC07F31BFEA2D5
 		return L_0;
 	}
 }
-// Method Definition Index: 69827
+// Method Definition Index: 70172
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Profiler_ValidateArguments_m631DF788CA8A7DF599A5871AF4D7FA8B9C3B52CC_inline (String_t* ___0_name, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -16791,7 +16738,7 @@ IL_001c:
 		return;
 	}
 }
-// Method Definition Index: 68505
+// Method Definition Index: 68843
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
 {
 	bool V_0 = false;

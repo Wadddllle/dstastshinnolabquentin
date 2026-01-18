@@ -1,35 +1,241 @@
 using UnityEngine;
 
+[RequireComponent(typeof(LineRenderer))]
 public class InstructorPlacementTool : MonoBehaviour
 {
-    [Header("Settings")]
-    public GameObject prefabToPlace; // Your target/enemy prefab
-    public Transform rightHandSpawnPoint;
+    [Header("Controller Settings")]
+    public Transform controllerAnchor;
+    public OVRInput.Controller controller = OVRInput.Controller.RTouch;
 
-    // We only update if this component is enabled by the State!
-    void Update()
+    [Header("Prefab Settings")]
+    public GameObject prefabToPlace;
+    public float verticalOffset = 0.85f; // Set this to 0.85 for a 1.7m tall object
+
+    [Header("Raycast Settings")]
+    public LayerMask floorLayer;
+    public LayerMask enemyLayer;
+    public float rayDistance = 20f;
+
+    [Header("Visuals")]
+    public Material highlightMaterial; // The Yellow transparent material
+    public Color ghostColor = new Color(0, 1, 0, 0.5f); // Green transparent for ghost
+
+    // Internal State
+    private GameObject _currentDraggedObject;
+    private GameObject _hoveredObject;
+    private Material _originalMaterial; // Store the Material, not just color, for safety
+
+    private GameObject _placementGhost;
+    private LineRenderer _lineRenderer;
+
+    void Start()
     {
-        // Check for Right Trigger Press
-        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch))
+        _lineRenderer = GetComponent<LineRenderer>();
+        _lineRenderer.useWorldSpace = true;
+        _lineRenderer.startWidth = 0.01f;
+        _lineRenderer.endWidth = 0.005f;
+
+        if (prefabToPlace != null)
         {
-            PlaceObject(rightHandSpawnPoint);
+            // 1. Create the Ghost
+            _placementGhost = Instantiate(prefabToPlace);
+
+            // 2. IMPORTANT: Move Ghost and ALL children to "Ignore Raycast" layer (Layer 2)
+            // This makes the ray pass through both your solid collider AND your trigger collider.
+            SetLayerRecursively(_placementGhost, 2);
+
+            // 3. Remove the HitTest script from the Ghost only
+            // (We don't want the ghost changing colors if a bullet hits it while you are aiming)
+            var ghostHitTest = _placementGhost.GetComponent<HitTest>();
+            if (ghostHitTest) Destroy(ghostHitTest);
+
+            // 4. Make it look like a ghost (Green/Transparent)
+            // We loop through all renderers in case your rectangle has child parts
+            foreach (var rend in _placementGhost.GetComponentsInChildren<Renderer>())
+            {
+                Material ghostMat = new Material(Shader.Find("Sprites/Default"));
+                ghostMat.color = ghostColor; // Your green transparent color
+                rend.material = ghostMat;
+            }
+
+            _placementGhost.SetActive(false);
         }
     }
 
-    private void PlaceObject(Transform spawnPoint)
+    // Copy this helper function into your script
+    void SetLayerRecursively(GameObject obj, int newLayer)
     {
-        if (prefabToPlace == null) return;
+        obj.layer = newLayer;
+        foreach (Transform child in obj.transform)
+        {
+            SetLayerRecursively(child.gameObject, newLayer);
+        }
+    }
 
-        // 1. Instantiate the object
-        // (Using simple spawning at hand position for accurate placement, 
-        // but you can keep your shooting logic if you prefer)
-        GameObject newObj = Instantiate(prefabToPlace, spawnPoint.position, Quaternion.identity);
+    void Update()
+    {
+        Ray ray = new Ray(controllerAnchor.position, controllerAnchor.forward);
+        RaycastHit hit;
 
-        // 2. IMPORTANT: Save this location to the SessionData!
-        // This ensures the AAR knows where the enemies were.
-        //Pose enemyPose = new Pose(spawnPoint.position, Quaternion.identity);
-        //AppManager.Instance.currentSession.enemySpawnLocations.Add(enemyPose);
+        // Visual Ray Default (Red = Hit nothing)
+        Vector3 endPoint = ray.origin + (ray.direction * rayDistance);
+        _lineRenderer.startColor = Color.red;
+        _lineRenderer.endColor = Color.red;
 
-        Debug.Log($"Placed Enemy at: {spawnPoint.position}");
+        // --- 1. HANDLE DRAGGING (Priority) ---
+        if (_currentDraggedObject != null)
+        {
+            if (Physics.Raycast(ray, out hit, rayDistance, floorLayer))
+            {
+                // Apply Height Offset
+                Vector3 targetPos = hit.point + (Vector3.up * verticalOffset);
+                _currentDraggedObject.transform.position = targetPos;
+
+                // Ray Visuals
+                endPoint = hit.point;
+                _lineRenderer.startColor = Color.blue;
+                _lineRenderer.endColor = Color.blue;
+            }
+
+            // Release
+            if (OVRInput.GetUp(OVRInput.Button.PrimaryIndexTrigger, controller))
+            {
+                _currentDraggedObject = null;
+            }
+
+            DrawRay(endPoint);
+            return; // Stop here, don't hover/highlight while dragging
+        }
+
+        // --- 2. RAYCAST LOGIC ---
+        bool hitSomething = Physics.Raycast(ray, out hit, rayDistance, floorLayer | enemyLayer);
+
+        if (hitSomething)
+        {
+            endPoint = hit.point;
+
+            // CHECK: Is it an Enemy?
+            if (((1 << hit.collider.gameObject.layer) & enemyLayer) != 0)
+            {
+                // Ray Color (Yellow = Hovering Enemy)
+                _lineRenderer.startColor = Color.yellow;
+                _lineRenderer.endColor = Color.yellow;
+
+                // Hide Ghost
+                if (_placementGhost) _placementGhost.SetActive(false);
+
+                // Highlight Logic
+                HandleEnemyHover(hit.collider.gameObject);
+
+                // Inputs
+                if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, controller))
+                {
+                    _currentDraggedObject = hit.collider.gameObject;
+                }
+
+                if (OVRInput.GetDown(OVRInput.Button.Two, controller)) // B Button
+                {
+                    ClearHover(); // Reset color before destroying!
+                    Destroy(hit.collider.gameObject);
+                }
+            }
+            // CHECK: Is it the Floor?
+            else if (((1 << hit.collider.gameObject.layer) & floorLayer) != 0)
+            {
+                // Ray Color (Green = Can Place)
+                _lineRenderer.startColor = Color.green;
+                _lineRenderer.endColor = Color.green;
+
+                ClearHover(); // Ensure no enemy is highlighted
+
+                // Update Ghost
+                if (_placementGhost)
+                {
+                    _placementGhost.SetActive(true);
+                    // Apply Height Offset to Ghost
+                    _placementGhost.transform.position = hit.point + (Vector3.up * (verticalOffset + 0.02f));
+                    _placementGhost.transform.rotation = Quaternion.identity;
+                }
+
+                if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, controller))
+                {
+                    PlaceNewObject(hit.point);
+                }
+            }
+        }
+        else
+        {
+            // Hit Nothing (Sky)
+            if (_placementGhost) _placementGhost.SetActive(false);
+            ClearHover();
+        }
+
+        // Draw the laser
+        DrawRay(endPoint);
+    }
+
+    void DrawRay(Vector3 end)
+    {
+        _lineRenderer.enabled = true;
+        _lineRenderer.SetPosition(0, controllerAnchor.position);
+        _lineRenderer.SetPosition(1, end);
+    }
+
+    void PlaceNewObject(Vector3 hitPoint)
+    {
+        // Apply Height Offset to Spawn
+        Vector3 spawnPos = hitPoint + (Vector3.up * verticalOffset);
+
+        GameObject newObj = Instantiate(prefabToPlace, spawnPos, Quaternion.identity);
+
+        // Ensure layer is correct (optional safety)
+        // int enemyLayerID = LayerMask.NameToLayer("Enemy");
+        // if(enemyLayerID != -1) newObj.layer = enemyLayerID;
+
+        // Note: We don't drag immediately here to avoid the "Flash" issue you mentioned
+    }
+
+    void HandleEnemyHover(GameObject enemy)
+    {
+        // If we are already highlighting this specific enemy, stop.
+        if (_hoveredObject == enemy) return;
+
+        // If we were highlighting a DIFFERENT enemy, reset that one first.
+        ClearHover();
+
+        _hoveredObject = enemy;
+        Renderer rend = _hoveredObject.GetComponent<Renderer>();
+
+        if (rend != null)
+        {
+            _originalMaterial = rend.material; // Save Original
+            if (highlightMaterial != null)
+            {
+                rend.material = highlightMaterial; // Swap to Highlight
+            }
+        }
+    }
+
+    void ClearHover()
+    {
+        if (_hoveredObject != null)
+        {
+            Renderer rend = _hoveredObject.GetComponent<Renderer>();
+            if (rend != null && _originalMaterial != null)
+            {
+                rend.material = _originalMaterial; // Revert to Original
+            }
+            _hoveredObject = null;
+            _originalMaterial = null;
+        }
+    }
+
+    // Add this anywhere in the class
+    void OnDisable()
+    {
+        if (_lineRenderer != null) _lineRenderer.enabled = false;
+        if (_placementGhost != null) _placementGhost.SetActive(false);
+        ClearHover();
+        _currentDraggedObject = null;
     }
 }

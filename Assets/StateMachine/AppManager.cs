@@ -7,34 +7,26 @@ public class AppManager : MonoBehaviour
     [Header("Data")]
     public SessionData currentSession = new SessionData();
 
-    [Header("Core Systems")]
+    [Header("Scene Roots (The Parents)")]
+    public GameObject InstructorRoot;
+    public GameObject TraineeRoot;
+    public GameObject AARRoot;
+
+    [Header("Script References (For Data/Logic only)")]
+    // We still need these to set variables (like filenames), 
+    // but we WON'T use them for SetActive().
     public TacticalGrid tacticalGrid;
     public MapGenerator mapGenerator;
-
-
-    [Header("Instructor Tools")]
-    public InstructorPlacementTool instructorTool;
-
-
-    [Header("Trainee Tools")]
-    public buttontest projectileLauncher;
     public GridRecorder gridRecorder;
-
-    [Header("AAR Tools")]
     public AAR_Visualizer aarVisualizer;
-    public GridReplayer gridReplayer;
-    public VisionScanner visionScanner; // <--- ADD THIS
 
-
-
+    [Header("Exceptions (Head-Mounted)")]
+    // Since this is childed to the Camera, it can't be under TraineeRoot.
+    // We must toggle it manually.
+    public VisionScanner visionScanner;
 
     // State Machine internals
     private BaseState _currentState;
-
-    [Header("Debug Settings")]
-    [SerializeField] private bool showDebugLogs = true;
-    [SerializeField] private float debugInterval = 5f; // Print every 5 seconds
-    private float _nextDebugTime;
 
     void Awake()
     {
@@ -43,42 +35,38 @@ public class AppManager : MonoBehaviour
 
     void Start()
     {
+        // Ensure everything is off to start
+        InstructorRoot.SetActive(false);
+        TraineeRoot.SetActive(false);
+        AARRoot.SetActive(false);
+
         ChangeState(new InstructorState());
     }
 
     void Update()
     {
-        if (_currentState != null)
-        {
-            _currentState.UpdateState();
-
-            // Periodic debug print
-            if (showDebugLogs && Time.time >= _nextDebugTime)
-            {
-                Debug.Log($"<color=cyan>[AppManager]</color> Currently in: <b>{_currentState.GetType().Name}</b>");
-                _nextDebugTime = Time.time + debugInterval;
-            }
-        }
+        if (_currentState != null) _currentState.UpdateState();
     }
 
     public void ChangeState(BaseState newState)
     {
-        if (_currentState != null)
-        {
-            if (showDebugLogs) Debug.Log($"<color=orange>[State Exit]</color> Leaving: {_currentState.GetType().Name}");
-            _currentState.ExitState();
-        }
-
+        if (_currentState != null) _currentState.ExitState();
         _currentState = newState;
-
-        if (showDebugLogs)
-        {
-            Debug.Log($"<color=green>[State Enter]</color> Entered: <b>{_currentState.GetType().Name}</b>");
-        }
-
         _currentState.EnterState();
+    }
 
-        // Reset the periodic timer so it doesn't fire immediately after a change
-        _nextDebugTime = Time.time + debugInterval;
+    // --- THE MAGIC HELPER FUNCTION ---
+    public void SetActiveRoot(GameObject rootToOn)
+    {
+        // 1. Turn everything OFF
+        InstructorRoot.SetActive(false);
+        TraineeRoot.SetActive(false);
+        AARRoot.SetActive(false);
+
+        // 2. Turn the requested one ON
+        if (rootToOn != null)
+        {
+            rootToOn.SetActive(true);
+        }
     }
 }

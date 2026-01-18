@@ -30,10 +30,11 @@ extern void CustomIntegrationConfigBase_Awake_mE343DD448130865AD3706C93DFBB62E0D
 extern void CustomIntegrationConfigBase_OnDestroy_mB07679E1AA9B42D79B1E3D30192010B56F0640CC (void);
 extern void CustomIntegrationConfigBase_GetCamera_m00168AB60C2B28A6286AF3D29FA7ED81F24E4EAB (void);
 extern void CustomIntegrationConfigBase__ctor_mE96705B31E26A03C2FEDA28BCE42594BA3E59993 (void);
+extern void DebugDecorativeText__ctor_m99EA5F24B91A75A6FB24C288575B1222EB0403C2 (void);
 extern void DebugMember__ctor_m23524BF378E4EA831123889D02C9A659855D65EA (void);
 extern void DebugMember__ctor_m48F4B79CA4CCA8D15EAC6BE1D5903E2D3AF636D2 (void);
 extern void DebugMember__cctor_mCDE94112D1AD0353A21B35FC7D2A1DD84FA62566 (void);
-static Il2CppMethodPointer s_methodPointers[27] = 
+static Il2CppMethodPointer s_methodPointers[28] = 
 {
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mADC772862F562035DFA9797014361F1F494C93AC,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mB8D37EBA5643F54561CD111CA6664DF4A9064A5C,
@@ -59,45 +60,47 @@ static Il2CppMethodPointer s_methodPointers[27] =
 	CustomIntegrationConfigBase_OnDestroy_mB07679E1AA9B42D79B1E3D30192010B56F0640CC,
 	CustomIntegrationConfigBase_GetCamera_m00168AB60C2B28A6286AF3D29FA7ED81F24E4EAB,
 	CustomIntegrationConfigBase__ctor_mE96705B31E26A03C2FEDA28BCE42594BA3E59993,
+	DebugDecorativeText__ctor_m99EA5F24B91A75A6FB24C288575B1222EB0403C2,
 	DebugMember__ctor_m23524BF378E4EA831123889D02C9A659855D65EA,
 	DebugMember__ctor_m48F4B79CA4CCA8D15EAC6BE1D5903E2D3AF636D2,
 	DebugMember__cctor_mCDE94112D1AD0353A21B35FC7D2A1DD84FA62566,
 };
-static const int32_t s_InvokerIndices[27] = 
+static const int32_t s_InvokerIndices[28] = 
 {
-	38994,
-	23717,
-	37055,
-	37055,
-	37055,
-	37055,
-	38845,
-	9067,
-	23489,
-	6902,
-	15239,
-	9067,
-	23489,
-	6902,
-	15239,
-	9067,
-	23489,
-	6902,
-	15239,
+	39278,
+	23899,
+	37332,
+	37332,
+	37332,
+	37332,
+	39129,
+	9141,
+	23671,
+	6962,
+	15353,
+	9141,
+	23671,
+	6962,
+	15353,
+	9141,
+	23671,
+	6962,
+	15353,
 	-1,
-	23717,
-	23717,
-	23489,
-	23717,
-	17775,
-	17863,
-	38938,
+	23899,
+	23899,
+	23671,
+	23899,
+	23899,
+	17902,
+	17992,
+	39222,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Meta_XR_ImmersiveDebugger_Interface_CodeGenModule;
 const Il2CppCodeGenModule g_Meta_XR_ImmersiveDebugger_Interface_CodeGenModule = 
 {
 	"Meta.XR.ImmersiveDebugger.Interface.dll",
-	27,
+	28,
 	s_methodPointers,
 	0,
 	NULL,
