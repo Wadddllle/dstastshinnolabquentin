@@ -26,7 +26,7 @@ public class AppManager : MonoBehaviour
     public VisionScanner visionScanner;
 
     // State Machine internals
-    private BaseState _currentState;
+    public BaseState _currentState { get; private set; }
 
     void Awake()
     {

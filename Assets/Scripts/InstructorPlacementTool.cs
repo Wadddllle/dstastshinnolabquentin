@@ -32,6 +32,14 @@ public class InstructorPlacementTool : MonoBehaviour
     {
         _lineRenderer = GetComponent<LineRenderer>();
         _lineRenderer.useWorldSpace = true;
+        _lineRenderer.positionCount = 2;
+        // --- FIX STARTS HERE ---
+        // Force the material to Sprites/Default to prevent VR Stereo Rendering glitches
+        if (_lineRenderer.material == null || _lineRenderer.material.name.StartsWith("Default-Line"))
+        {
+            _lineRenderer.material = new Material(Shader.Find("Sprites/Default"));
+        }
+        // --- FIX ENDS HERE ---
         _lineRenderer.startWidth = 0.01f;
         _lineRenderer.endWidth = 0.005f;
 
