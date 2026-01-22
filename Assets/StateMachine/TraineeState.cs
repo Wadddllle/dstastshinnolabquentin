@@ -2,45 +2,86 @@ using UnityEngine;
 
 public class TraineeState : BaseState
 {
+    private bool _isScenarioLive = false;
+
     public override void EnterState()
     {
         Debug.Log("STATE: Trainee Mode");
 
-        // 1. The Magic Swap (Turns on Grid, Recorder, Launcher, UI all at once)
-        Manager.SetActiveRoot(Manager.TraineeRoot);
+        // 1. Swap Roots (Turns off Instructor, turns on Trainee HUD)
+        // This also auto-hides the Gun/Scanner via AppManager defaults
+        AppManager.Instance.SetActiveRoot(AppManager.Instance.TraineeRoot);
 
-        // 2. Handle the "Exception" (VisionScanner on the head)
-        if (Manager.visionScanner != null)
+        // 2. TURN ON EXCEPTIONS (Manual Override)
+        if (AppManager.Instance.visionScanner != null)
         {
-            Manager.visionScanner.gameObject.SetActive(true);
-            Manager.visionScanner.enabled = true;
+            AppManager.Instance.visionScanner.gameObject.SetActive(true);
+            AppManager.Instance.visionScanner.enabled = true;
         }
 
-        // 3. Logic Setup (Filenames, etc.)
-        Manager.currentSession.currentRecordingFileName = "Run_" + System.DateTime.Now.ToString("MMdd_HHmm") + ".bin";
-        Manager.gridRecorder.fileName = Manager.currentSession.currentRecordingFileName;
+        if (AppManager.Instance.raycastWeapon != null)
+        {
+            AppManager.Instance.raycastWeapon.gameObject.SetActive(true);
+            AppManager.Instance.raycastWeapon.enabled = true;
+        }
 
-        // 4. Start Logic
-        Manager.gridRecorder.StartRecording();
+        // 3. Wake Up Enemies (Colliders/Scripts)
+        if (SessionManager.Instance != null)
+        {
+            SessionManager.Instance.PrepareForTrainee();
+        }
+
+        // 4. Start Recording Logic
+        if (GridRecorder.Instance != null)
+        {
+            GridRecorder.Instance.StartRecording();
+            Debug.Log("[Trainee State] Started Recording");
+        }
+
+        _isScenarioLive = true;
     }
 
     public override void UpdateState()
     {
-        // Wait for 'B' Button
+        if (!_isScenarioLive) return;
+
+        // INPUT: FIRE (Right Index Trigger)
+        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch))
+        {
+            if (AppManager.Instance.raycastWeapon != null)
+            {
+                AppManager.Instance.raycastWeapon.Fire();
+            }
+        }
+
+        // INPUT: FINISH (Right B Button)
         if (OVRInput.GetDown(OVRInput.Button.Two, OVRInput.Controller.RTouch))
         {
-            Manager.ChangeState(new AARState());
+            FinishScenario();
         }
+    }
+
+    private void FinishScenario()
+    {
+        _isScenarioLive = false;
+
+        // Log End
+        if (GridRecorder.Instance != null)
+        {
+            GridRecorder.Instance.LogEvent("CLEAR", "Trainee called Clear", Vector3.zero);
+            GridRecorder.Instance.StopRecording();
+        }
+
+        // Transition
+        AppManager.Instance.ChangeState(new AARState());
     }
 
     public override void ExitState()
     {
-        Manager.gridRecorder.StopRecording();
+        // Safety Cleanup
+        if (GridRecorder.Instance != null) GridRecorder.Instance.StopRecording();
 
-        // Turn off the Exception
-        if (Manager.visionScanner != null)
-        {
-            Manager.visionScanner.gameObject.SetActive(false);
-        }
+        // Note: SetActiveRoot in the NEXT state will automatically 
+        // disable the Gun and Scanner, so we don't need to do it here.
     }
 }

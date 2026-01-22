@@ -3,6 +3,7 @@ using UnityEngine;
 public class AppManager : MonoBehaviour
 {
     public static AppManager Instance;
+    public static CanvasLogic canvasLogic; // Add this if you haven't yet
 
     [Header("Data")]
     public SessionData currentSession = new SessionData();
@@ -19,11 +20,13 @@ public class AppManager : MonoBehaviour
     public MapGenerator mapGenerator;
     public GridRecorder gridRecorder;
     public AAR_Visualizer aarVisualizer;
+    public AAR_ReportCard aarReportCard;
 
-    [Header("Exceptions (Head-Mounted)")]
-    // Since this is childed to the Camera, it can't be under TraineeRoot.
-    // We must toggle it manually.
+    [Header("Exceptions (Persistant Objects)")]
+    // 1. Vision Scanner (Head)
     public VisionScanner visionScanner;
+    // 2. The Gun (Right Hand Controller) - NEW
+    public RaycastWeapon raycastWeapon;
 
     // State Machine internals
     public BaseState _currentState { get; private set; }
@@ -39,6 +42,9 @@ public class AppManager : MonoBehaviour
         InstructorRoot.SetActive(false);
         TraineeRoot.SetActive(false);
         AARRoot.SetActive(false);
+
+        if (visionScanner) visionScanner.enabled = false;
+        if (raycastWeapon) raycastWeapon.enabled = false;
 
         ChangeState(new InstructorState());
     }
@@ -62,6 +68,10 @@ public class AppManager : MonoBehaviour
         InstructorRoot.SetActive(false);
         TraineeRoot.SetActive(false);
         AARRoot.SetActive(false);
+
+        if (visionScanner != null) visionScanner.gameObject.SetActive(false);
+        if (raycastWeapon != null) raycastWeapon.gameObject.SetActive(false);
+
 
         // 2. Turn the requested one ON
         if (rootToOn != null)

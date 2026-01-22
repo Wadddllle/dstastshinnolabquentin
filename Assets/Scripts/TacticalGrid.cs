@@ -40,6 +40,7 @@ public class TacticalGrid : MonoBehaviour
             GridWidth = mapper.volume.width;
             GridHeight = mapper.volume.volumeDepth;
             _metersPerVoxel = mapper.metersPerVoxel;
+            CellSize = mapper.metersPerVoxel;
 
             // Initialize the BitArray immediately
             _gridBits = new System.Collections.BitArray(GridWidth * GridHeight);
@@ -51,7 +52,6 @@ public class TacticalGrid : MonoBehaviour
     {
         // Keep visualization setup here
         var mapper = EnvironmentMapper.Instance;
-        CellSize = mapper.metersPerVoxel;
         Vector3 volumeSize = new Vector3(GridWidth * _metersPerVoxel, 0, GridHeight * _metersPerVoxel);
         _halfVolumeSize = volumeSize / 2.0f;
 

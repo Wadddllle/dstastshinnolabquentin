@@ -7,173 +7,199 @@ using System.Collections;
 public class AAR_Visualizer : MonoBehaviour
 {
     [Header("UI References")]
-    public RawImage mapBackgroundImage; // Assign the Bottom Layer (White/Black Map)
-    public RawImage dataOverlayImage;   // Assign the Top Layer (Green Grid)
-    public RectTransform ghostAgentIcon; // Assign a small Arrow/Circle UI Image
+    public RawImage mapBackgroundImage; // The Room Snapshot
+    public RawImage dataOverlayImage;   // The 100m Green Grid
+    public RectTransform ghostAgentIcon;
+    public Slider timelineSlider;
 
     [Header("Data Source")]
-    public string mapFileName = "Map_Snapshot.png";
-    public string logFileName = "session_data.bin";
+    public string logFileName;
 
     [Header("Playback Control")]
-    [Range(0f, 1f)] public float playbackProgress = 0f; // Drag this in Inspector!
+    [Range(0f, 1f)] public float playbackProgress = 0f;
     public bool showHeatmap = false;
+    public bool isPlaying = false;
+    public float playbackSpeed = 0.5f;
 
     // --- Internal Data ---
     private Texture2D _mapTexture;
     private Texture2D _dataTexture;
-    private Color32[] _dataPixels; // Reusable pixel buffer
-
-    // Loaded Log Data
+    private Color32[] _dataPixels;
     private List<LogFrame> _frames = new List<LogFrame>();
     private int[] _heatmapAccumulator;
     private int _maxHeat = 1;
 
-    // Grid Specs (Read from file header)
+    // Grid Specs
     private int _gridWidth;
     private int _gridHeight;
     private float _cellSize;
 
-    // Struct to hold frame data in memory
     struct LogFrame
     {
         public float time;
-        public Vector3 pos;
-        public Quaternion rot;
+        public Vector3 headPos;
+        public Quaternion headRot;
+        public Vector3 gunPos;
+        public Quaternion gunRot;
         public byte[] gridBytes;
     }
 
-    //void Start()
-    ////{
-    ////    LoadMapImage();
-    ////    LoadLogData();
-
-    ////    // Initial Draw
-    ////    UpdateVisualization();
-    //}
-    public void Initialize(string specificLogFileName)
+    void Start()
     {
-        // Update the filename
-        this.logFileName = specificLogFileName;
+        if (timelineSlider != null)
+            timelineSlider.onValueChanged.AddListener(OnUserScrub);
 
-        // Start a coroutine to handle the loading with a safety buffer
+        // Visual Cleanup: Make sure grid overlay is transparent to start
+        if (dataOverlayImage != null) dataOverlayImage.color = Color.white;
+    }
+
+    public void Initialize(string sessionFolderPath)
+    {
+        this.logFileName = Path.Combine(sessionFolderPath, "telemetry.bin");
         StartCoroutine(LoadSequence());
     }
 
     private IEnumerator LoadSequence()
     {
-        // 1. Wait a tiny bit to ensure the OS has released the file handle from the Recorder
         yield return new WaitForSeconds(0.1f);
-
         LoadMapImage();
-
-        // 2. Try to load the data
         LoadLogData();
+
+        // --- NEW: DIAGNOSTIC ---
+        AnalyzeSessionData();
 
         UpdateVisualization();
     }
 
-
     void Update()
     {
-        // For testing, update every frame so dragging the inspector slider works live
+        if (isPlaying && _frames.Count > 0)
+        {
+            playbackProgress += Time.deltaTime * playbackSpeed;
+            if (playbackProgress > 1.0f) { playbackProgress = 1.0f; isPlaying = false; }
+            if (timelineSlider != null) timelineSlider.SetValueWithoutNotify(playbackProgress);
+        }
+        UpdateVisualization();
+    }
+
+    public void OnUserScrub(float value)
+    {
+        isPlaying = false;
+        playbackProgress = value;
         UpdateVisualization();
     }
 
     private void LoadMapImage()
     {
-        string path = Path.Combine(Application.persistentDataPath, mapFileName);
+        string path = Path.Combine(Application.persistentDataPath, "Map_Snapshot.png");
         if (File.Exists(path))
         {
             byte[] bytes = File.ReadAllBytes(path);
             _mapTexture = new Texture2D(2, 2);
-            _mapTexture.LoadImage(bytes); // Auto-resizes
-            mapBackgroundImage.texture = _mapTexture;
+            _mapTexture.LoadImage(bytes);
 
-            // Fix Aspect Ratio of the UI to match the texture
-            float aspect = (float)_mapTexture.width / _mapTexture.height;
-            mapBackgroundImage.GetComponent<AspectRatioFitter>().aspectRatio = aspect;
+            if (mapBackgroundImage != null)
+            {
+                mapBackgroundImage.texture = _mapTexture;
+                // Keep aspect ratio
+                float aspect = (float)_mapTexture.width / _mapTexture.height;
+                var fitter = mapBackgroundImage.GetComponent<AspectRatioFitter>();
+                if (fitter) fitter.aspectRatio = aspect;
+            }
         }
     }
 
     private void LoadLogData()
     {
-        string path = Path.Combine(Application.persistentDataPath, logFileName);
-        Debug.Log($"[AAR] Attempting to load: {path}");
-        if (!File.Exists(path))
-        {
-            Debug.LogError("[AAR] File does not exist!");
-            return;
-        }
-        _frames.Clear(); // Clear old data before loading new
+        string path = logFileName;
+
+        if (!File.Exists(path)) return;
+
+        _frames.Clear();
+
         using (BinaryReader reader = new BinaryReader(File.Open(path, FileMode.Open)))
         {
-            // 1. Read Header
             string magic = reader.ReadString();
-            int version = reader.ReadInt32();
             _gridWidth = reader.ReadInt32();
             _gridHeight = reader.ReadInt32();
             _cellSize = reader.ReadSingle();
 
-            Debug.Log($"[AAR] Header: {magic} V{version} | Grid: {_gridWidth}x{_gridHeight}");
+            // Safety Fix
+            if (_cellSize <= 0.0001f) _cellSize = 0.1f;
 
-            // Setup Textures & Buffers
             _dataTexture = new Texture2D(_gridWidth, _gridHeight, TextureFormat.RGBA32, false);
-            _dataTexture.filterMode = FilterMode.Point; // Crisp pixels
-            dataOverlayImage.texture = _dataTexture;
+            _dataTexture.filterMode = FilterMode.Point;
+
+            if (dataOverlayImage != null)
+                dataOverlayImage.texture = _dataTexture;
 
             _dataPixels = new Color32[_gridWidth * _gridHeight];
             _heatmapAccumulator = new int[_gridWidth * _gridHeight];
 
-            // 2. Read Frames
             while (reader.BaseStream.Position < reader.BaseStream.Length)
             {
+                if (reader.BaseStream.Length - reader.BaseStream.Position < 4) break;
                 try
                 {
                     LogFrame frame = new LogFrame();
                     frame.time = reader.ReadSingle();
-                    frame.pos = new Vector3(reader.ReadSingle(), reader.ReadSingle(), reader.ReadSingle());
-                    frame.rot = new Quaternion(reader.ReadSingle(), reader.ReadSingle(), reader.ReadSingle(), reader.ReadSingle());
-                    //Quaternion originalRot = new Quaternion(reader.ReadSingle(), reader.ReadSingle(), reader.ReadSingle(), reader.ReadSingle());
-                    //Quaternion flipRot = Quaternion.Euler(0, 0, 180);
-                    //frame.rot = originalRot * flipRot;
-
+                    frame.headPos = new Vector3(reader.ReadSingle(), reader.ReadSingle(), reader.ReadSingle());
+                    frame.headRot = new Quaternion(reader.ReadSingle(), reader.ReadSingle(), reader.ReadSingle(), reader.ReadSingle());
+                    frame.gunPos = new Vector3(reader.ReadSingle(), reader.ReadSingle(), reader.ReadSingle());
+                    frame.gunRot = new Quaternion(reader.ReadSingle(), reader.ReadSingle(), reader.ReadSingle(), reader.ReadSingle());
                     int byteCount = reader.ReadInt32();
                     frame.gridBytes = reader.ReadBytes(byteCount);
 
                     _frames.Add(frame);
-
-                    // Pre-calculate Heatmap
                     AddToHeatmap(frame.gridBytes);
                 }
-                catch (System.Exception e)
-                {
-                    Debug.LogError($"[AAR] Failed to read bin file: {e.Message}");
-                    break; // End of file
-                }
-                Debug.Log($"[AAR] Load Complete. Total Frames: {_frames.Count}");
+                catch { break; }
             }
         }
-        Debug.Log($"Loaded {_frames.Count} frames.");
+    }
+
+    // --- NEW DIAGNOSTIC FUNCTION ---
+    private void AnalyzeSessionData()
+    {
+        if (_frames.Count == 0) return;
+
+        float minX = float.MaxValue, maxX = float.MinValue;
+        float minZ = float.MaxValue, maxZ = float.MinValue;
+
+        foreach (var f in _frames)
+        {
+            if (f.headPos.x < minX) minX = f.headPos.x;
+            if (f.headPos.x > maxX) maxX = f.headPos.x;
+            if (f.headPos.z < minZ) minZ = f.headPos.z;
+            if (f.headPos.z > maxZ) maxZ = f.headPos.z;
+        }
+
+        float traveledWidth = maxX - minX;
+        float traveledDepth = maxZ - minZ;
+        float totalGridWidth = _gridWidth * _cellSize;
+
+        Debug.Log($"[AAR ANALYSIS]");
+        Debug.Log($"Player Bounds X: {minX:F2} to {maxX:F2} (Size: {traveledWidth:F2}m)");
+        Debug.Log($"Player Bounds Z: {minZ:F2} to {maxZ:F2} (Size: {traveledDepth:F2}m)");
+        Debug.Log($"Total Map Size: {totalGridWidth}m x {totalGridWidth}m");
+        Debug.Log($"Coverage: The player explored {(traveledWidth / totalGridWidth) * 100:F2}% of the available grid width.");
     }
 
     private void AddToHeatmap(byte[] gridBytes)
     {
-        // Iterate through bits in the byte array
+        // (Same as before)
         for (int i = 0; i < gridBytes.Length; i++)
         {
             byte b = gridBytes[i];
             for (int bit = 0; bit < 8; bit++)
             {
-                // Check if bit is set
                 if ((b & (1 << bit)) != 0)
                 {
                     int pixelIndex = i * 8 + bit;
                     if (pixelIndex < _heatmapAccumulator.Length)
                     {
                         _heatmapAccumulator[pixelIndex]++;
-                        if (_heatmapAccumulator[pixelIndex] > _maxHeat)
-                            _maxHeat = _heatmapAccumulator[pixelIndex];
+                        if (_heatmapAccumulator[pixelIndex] > _maxHeat) _maxHeat = _heatmapAccumulator[pixelIndex];
                     }
                 }
             }
@@ -182,54 +208,39 @@ public class AAR_Visualizer : MonoBehaviour
 
     private void UpdateVisualization()
     {
-        if (_frames == null || _frames.Count == 0)
-        {
-            Debug.LogWarning("[AAR_Debug] No frames in list. Update aborted.");
-            return;
-        }
-        if (mapBackgroundImage == null || ghostAgentIcon == null)
-        {
-            Debug.LogError("[AAR_Debug] UI References are NULL!");
-            return;
-        }
+        if (_frames == null || _frames.Count == 0) return;
+        if (dataOverlayImage == null || ghostAgentIcon == null) return;
 
-        //Debug.LogError("Update visualization happeming");
-        // 1. Determine current frame index
         int frameIndex = Mathf.FloorToInt(playbackProgress * (_frames.Count - 1));
         LogFrame currentFrame = _frames[frameIndex];
 
-        // 2. Update Ghost Agent Icon
-        // Map World Pos -> UV Coordinate (0 to 1)
-        // Note: This requires knowing the Map's World Bounds. 
-        // For now, assume map center is (0,0,0) and size is Width * CellSize.
         float worldWidth = _gridWidth * _cellSize;
         float worldHeight = _gridHeight * _cellSize;
+        if (worldWidth == 0) worldWidth = 100f; // Safety
+
+        // --- POSITIONING FIX ---
+        // We calculate position relative to the GRID (Data Overlay), NOT the Map Snapshot.
+        // The DataOverlay represents the full 100m x 100m area.
 
         Vector2 uvPos = new Vector2(
-            (currentFrame.pos.x / worldWidth) + 0.5f,
-            (currentFrame.pos.z / worldHeight) + 0.5f
+            (currentFrame.headPos.x / worldWidth) + 0.5f,
+            (currentFrame.headPos.z / worldHeight) + 0.5f
         );
 
-        // Position the UI Element on the Rect
-        RectTransform mapRect = mapBackgroundImage.GetComponent<RectTransform>();
+        // We use the RectTransform of the DataOverlay, NOT the Map Background
+        RectTransform gridRect = dataOverlayImage.GetComponent<RectTransform>();
+
         ghostAgentIcon.anchoredPosition = new Vector2(
-            (uvPos.x - 0.5f) * mapRect.rect.width,
-            (uvPos.y - 0.5f) * mapRect.rect.height
+            (uvPos.x - 0.5f) * gridRect.rect.width,
+            (uvPos.y - 0.5f) * gridRect.rect.height
         );
 
-        // Rotate Icon (Z-up in Unity UI corresponds to Y-rotation in World)
-        Vector3 rotEuler = currentFrame.rot.eulerAngles;
-        ghostAgentIcon.localRotation = Quaternion.Euler(0, 0, -rotEuler.y); // Negative because UI Y is flipped relative to World Y
+        Vector3 rotEuler = currentFrame.headRot.eulerAngles;
+        ghostAgentIcon.localRotation = Quaternion.Euler(0, 0, -rotEuler.y);
 
-        // 3. Update Texture (Heatmap vs Playback)
-        if (showHeatmap)
-        {
-            DrawHeatmap();
-        }
-        else
-        {
-            DrawPlayback(currentFrame.gridBytes);
-        }
+        // --- UPDATE TEXTURE ---
+        if (showHeatmap) DrawHeatmap();
+        else DrawPlayback(currentFrame.gridBytes);
 
         _dataTexture.SetPixels32(_dataPixels);
         _dataTexture.Apply();
@@ -238,11 +249,11 @@ public class AAR_Visualizer : MonoBehaviour
     private void DrawPlayback(byte[] gridBytes)
     {
         Color32 clear = new Color32(0, 0, 0, 0);
-        Color32 seen = new Color32(0, 255, 0, 150); // Semi-transparent Green
+        // FIX: Make the "Seen" color Solid Green so we can see it even if small
+        Color32 seen = new Color32(0, 255, 0, 255);
 
         for (int i = 0; i < _dataPixels.Length; i++)
         {
-            // Calculate byte index and bit offset
             int byteIndex = i / 8;
             int bitOffset = i % 8;
 
@@ -251,27 +262,23 @@ public class AAR_Visualizer : MonoBehaviour
             {
                 isSeen = (gridBytes[byteIndex] & (1 << bitOffset)) != 0;
             }
-
+            // Simple visualizer: If seen, green. Else clear.
             _dataPixels[i] = isSeen ? seen : clear;
         }
     }
 
     private void DrawHeatmap()
     {
+        // (Same as before)
         Color32 clear = new Color32(0, 0, 0, 0);
-
         for (int i = 0; i < _heatmapAccumulator.Length; i++)
         {
             int val = _heatmapAccumulator[i];
-            if (val == 0)
-            {
-                _dataPixels[i] = clear;
-            }
+            if (val == 0) _dataPixels[i] = clear;
             else
             {
                 float t = (float)val / _maxHeat;
-                // Simple Blue -> Red Gradient
-                _dataPixels[i] = Color32.Lerp(new Color32(0, 0, 255, 150), new Color32(255, 0, 0, 150), t);
+                _dataPixels[i] = Color32.Lerp(new Color32(0, 0, 255, 150), new Color32(255, 0, 0, 255), t);
             }
         }
     }

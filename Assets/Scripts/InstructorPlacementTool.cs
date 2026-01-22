@@ -191,16 +191,25 @@ public class InstructorPlacementTool : MonoBehaviour
 
     void PlaceNewObject(Vector3 hitPoint)
     {
-        // Apply Height Offset to Spawn
+        // 1. Calculate Spawn Position (with height offset)
         Vector3 spawnPos = hitPoint + (Vector3.up * verticalOffset);
 
+        // 2. Instantiate
         GameObject newObj = Instantiate(prefabToPlace, spawnPos, Quaternion.identity);
 
-        // Ensure layer is correct (optional safety)
-        // int enemyLayerID = LayerMask.NameToLayer("Enemy");
-        // if(enemyLayerID != -1) newObj.layer = enemyLayerID;
+        // 3. Give it a Unique Name (Critical for JSON saving)
+        newObj.name = $"Target_{System.DateTime.Now.Ticks % 10000}"; // e.g., Target_4921
 
-        // Note: We don't drag immediately here to avoid the "Flash" issue you mentioned
+        // 4. REGISTER WITH DATABASE
+        if (SessionManager.Instance != null)
+        {
+            SessionManager.Instance.RegisterEnemy(newObj);
+            Debug.Log($"[Instructor] Enemy Placed & Registered: {newObj.name}");
+        }
+        else
+        {
+            Debug.LogError("[Instructor] CRITICAL: SessionManager not found! Enemy not saved.");
+        }
     }
 
     void HandleEnemyHover(GameObject enemy)

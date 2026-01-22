@@ -286,11 +286,36 @@ public class ObstacleTool : MonoBehaviour
         _faceHighlighter.transform.localScale = quadScale;
     }
 
+    //void PlaceNewObstacle(Vector3 point)
+    //{
+    //    Vector3 spawnPos = point + (Vector3.up * 0.5f);
+    //    GameObject obj = Instantiate(obstaclePrefab, spawnPos, Quaternion.identity);
+    //    SetupInteractionComponents(obj);
+    //}
     void PlaceNewObstacle(Vector3 point)
     {
+        // 1. Calculate Spawn Position
         Vector3 spawnPos = point + (Vector3.up * 0.5f);
+
+        // 2. Instantiate
         GameObject obj = Instantiate(obstaclePrefab, spawnPos, Quaternion.identity);
+
+        // 3. Setup Interaction (Your existing helper function)
         SetupInteractionComponents(obj);
+
+        // 4. Give Unique Name
+        obj.name = $"Obstacle_{System.DateTime.Now.Ticks % 10000}";
+
+        // 5. REGISTER WITH DATABASE
+        if (SessionManager.Instance != null)
+        {
+            SessionManager.Instance.RegisterObstacle(obj);
+            Debug.Log($"[Instructor] Obstacle Placed & Registered: {obj.name}");
+        }
+        else
+        {
+            Debug.LogError("[Instructor] CRITICAL: SessionManager not found! Obstacle not saved.");
+        }
     }
 
     // --- SETUP & HELPERS ---

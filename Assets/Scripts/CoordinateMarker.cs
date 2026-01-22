@@ -101,6 +101,15 @@ public class CoordinateMarker : MonoBehaviour
             savedCoordinate = _confirmedMarker.transform.position - (_confirmedMarker.transform.forward * 0.03f);
 
             Debug.Log($"Coordinate Saved: {savedCoordinate}");
+            if(SessionManager.Instance != null)
+            {
+                    SessionManager.Instance.SetBreachPoint(savedCoordinate);
+                    Debug.Log($"[Instructor] Breach Point Placed & Registered: {savedCoordinate}");
+            }
+            else
+            {
+                Debug.LogError("[Instructor] CRITICAL: SessionManager not found! Obstacle not saved.");
+            }
         }
         else if (_previewMarker != null)
         {

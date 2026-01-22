@@ -2846,7 +2846,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR __Il2CppFullySharedGenericTypeU5BU5D_tCAB6D06
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28865
+// Method Definition Index: 28884
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QueueScope_1__ctor_mD5515AA4F1D24FAA4377BAC80B4AC176C963E314_gshared (QueueScope_1_tD44324E04FFBAD59B89ABAF179A818FAE7446C31* __this, Queue_1_t00794C5F46E3254E713B03F949E6AB3A1AB1FD41** ___0_queue, const RuntimeMethod* method) 
 {
 	Queue_1_t00794C5F46E3254E713B03F949E6AB3A1AB1FD41* V_0 = NULL;
@@ -2872,7 +2872,7 @@ IL2CPP_EXTERN_C  void QueueScope_1__ctor_mD5515AA4F1D24FAA4377BAC80B4AC176C963E3
 	_thisAdjusted = reinterpret_cast<QueueScope_1_tD44324E04FFBAD59B89ABAF179A818FAE7446C31*>(__this + _offset);
 	QueueScope_1__ctor_mD5515AA4F1D24FAA4377BAC80B4AC176C963E314(_thisAdjusted, ___0_queue, method);
 }
-// Method Definition Index: 28866
+// Method Definition Index: 28885
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QueueScope_1_Dispose_m131CAC63A1B39029AFD7A5140B7147FC60C40D38_gshared (QueueScope_1_tD44324E04FFBAD59B89ABAF179A818FAE7446C31* __this, const RuntimeMethod* method) 
 {
 	{
