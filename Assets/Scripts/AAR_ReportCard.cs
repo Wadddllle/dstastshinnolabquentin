@@ -1,81 +1,76 @@
 using UnityEngine;
 using System.IO;
-using TMPro; // TextMeshPro
+using TMPro;
 
 public class AAR_ReportCard : MonoBehaviour
 {
     [Header("UI Output")]
-    public TextMeshProUGUI reportText; // Drag your text object here
+    public TextMeshProUGUI reportText;
 
-    // Data Holders
     private SessionManifest _manifest;
     private EventLog _eventLog;
 
+    // Store the base text so we can append the percentage later
+    private string _baseReportText = "";
+
     public void GenerateReport(string folderPath)
     {
-        Debug.Log($"[ReportCard] Reading JSON from: {folderPath}");
-
-        // 1. Load Manifest (Setup)
+        // 1. Load basic JSON files
         string manifestPath = Path.Combine(folderPath, "manifest.json");
         if (File.Exists(manifestPath))
-        {
             _manifest = JsonUtility.FromJson<SessionManifest>(File.ReadAllText(manifestPath));
-        }
 
-        // 2. Load Events (Actions)
         string eventsPath = Path.Combine(folderPath, "events.json");
         if (File.Exists(eventsPath))
-        {
             _eventLog = JsonUtility.FromJson<EventLog>(File.ReadAllText(eventsPath));
-        }
 
-        // 3. Calculate & Display
-        CalculateStats();
+        // 2. Show what we have so far (Kills, Time, etc)
+        CalculateBasicStats();
     }
 
-    private void CalculateStats()
+    private void CalculateBasicStats()
     {
         if (_manifest == null || _eventLog == null)
         {
-            reportText.text = "Error: Missing Session Data files.";
+            reportText.text = "Error: Missing Data.";
             return;
         }
 
-        // --- MATH ---
-        // Duration: Last event time - First event time
         float duration = 0f;
         if (_eventLog.events.Count > 1)
-        {
             duration = _eventLog.events[_eventLog.events.Count - 1].timestamp - _eventLog.events[0].timestamp;
-        }
 
-        // Counts
-        int shots = 0;
-        int hits = 0;
-        int kills = 0;
-        int totalEnemies = _manifest.enemies.Count;
-
+        int shots = 0, hits = 0, kills = 0;
         foreach (var evt in _eventLog.events)
         {
             if (evt.eventType == "SHOT") shots++;
             if (evt.eventType == "HIT") hits++;
             if (evt.eventType == "KILL") kills++;
         }
-
+        int totalEnemies = _manifest.enemies.Count;
         float accuracy = shots > 0 ? ((float)hits / shots) * 100f : 0f;
 
-        // --- DISPLAY ---
-        string text = "<size=150%><b>MISSION DEBRIEF</b></size>\n\n";
-        text += $"<b>Time:</b> {duration:F1}s\n";
-        text += $"<b>Threats Neutralized:</b> {kills} / {totalEnemies}\n";
-        text += $"<b>Shots Fired:</b> {shots}\n";
-        text += $"<b>Accuracy:</b> {accuracy:F1}%\n\n";
+        // Build String
+        _baseReportText = "<size=150%><b>MISSION DEBRIEF</b></size>\n\n";
+        _baseReportText += $"<b>Time:</b> {duration:F1}s\n";
+        _baseReportText += $"<b>Threats:</b> {kills} / {totalEnemies}\n";
+        _baseReportText += $"<b>Accuracy:</b> {accuracy:F1}%\n";
 
-        if (kills >= totalEnemies)
-            text += "<color=green>STATUS: AREA SECURE</color>";
-        else
-            text += $"<color=red>STATUS: {totalEnemies - kills} THREATS REMAINING</color>";
+        // We leave a placeholder for Clearance
+        reportText.text = _baseReportText + "\n<color=yellow>Calculating Room Clearance...</color>";
+    }
 
-        reportText.text = text;
+    // --- NEW: Called by Visualizer when binary data is ready ---
+    public void InjectClearanceStat(float percent)
+    {
+        string color = percent > 90f ? "green" : "red";
+        string clearanceLine = $"<b>Room Clearance:</b> <color={color}>{percent:F1}%</color>\n\n";
+
+        // Combine base text + new stat
+        reportText.text = _baseReportText + clearanceLine;
+
+        // Add final status
+        int kills = 0; // simplified, you might want to store this variable at class level
+        // (For now, just appending the status line here is fine or keep it in CalculateBasicStats)
     }
 }

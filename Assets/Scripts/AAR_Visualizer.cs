@@ -14,6 +14,8 @@ public class AAR_Visualizer : MonoBehaviour
 
     [Header("Data Source")]
     public string logFileName;
+    public AAR_ReportCard reportCardLink; // DRAG REPORT CARD HERE IN INSPECTOR
+
 
     [Header("Playback Control")]
     [Range(0f, 1f)] public float playbackProgress = 0f;
@@ -28,11 +30,17 @@ public class AAR_Visualizer : MonoBehaviour
     private List<LogFrame> _frames = new List<LogFrame>();
     private int[] _heatmapAccumulator;
     private int _maxHeat = 1;
+    private string _currentSessionFolder; // Added to store path
+
+    private SessionContext _context;
+
 
     // Grid Specs
     private int _gridWidth;
     private int _gridHeight;
     private float _cellSize;
+
+
 
     struct LogFrame
     {
@@ -55,6 +63,7 @@ public class AAR_Visualizer : MonoBehaviour
 
     public void Initialize(string sessionFolderPath)
     {
+        _currentSessionFolder = sessionFolderPath; // Store folder path
         this.logFileName = Path.Combine(sessionFolderPath, "telemetry.bin");
         StartCoroutine(LoadSequence());
     }
@@ -64,7 +73,21 @@ public class AAR_Visualizer : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         LoadMapImage();
         LoadLogData();
+        // --- NEW: CALCULATE & PUSH STATS ---
+        if (_frames.Count > 0 && _context != null)
+        {
+            // Get the very last frame of data (the final state of the room)
+            byte[] finalGrid = _frames[_frames.Count - 1].gridBytes;
 
+            // Ask Context to do the math
+            float clearedPercent = _context.CalculateClearancePercent(finalGrid);
+
+            // Push to Report Card
+            if (reportCardLink != null)
+            {
+                reportCardLink.InjectClearanceStat(clearedPercent);
+            }
+        }
         // --- NEW: DIAGNOSTIC ---
         AnalyzeSessionData();
 
@@ -91,7 +114,14 @@ public class AAR_Visualizer : MonoBehaviour
 
     private void LoadMapImage()
     {
-        string path = Path.Combine(Application.persistentDataPath, "Map_Snapshot.png");
+        string path = Path.Combine(_currentSessionFolder, "Map_Snapshot.png");
+
+        // 2. Fallback: If legacy session or missing, try the global "current" map
+        if (!File.Exists(path))
+        {
+            Debug.LogWarning("Session map not found. Falling back to global map.");
+            path = Path.Combine(Application.persistentDataPath, "Map_Snapshot.png");
+        }
         if (File.Exists(path))
         {
             byte[] bytes = File.ReadAllBytes(path);
@@ -112,30 +142,33 @@ public class AAR_Visualizer : MonoBehaviour
     private void LoadLogData()
     {
         string path = logFileName;
-
         if (!File.Exists(path)) return;
 
         _frames.Clear();
 
-        using (BinaryReader reader = new BinaryReader(File.Open(path, FileMode.Open)))
+        using (FileStream fs = new FileStream(path, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+        using (BinaryReader reader = new BinaryReader(fs))
         {
             string magic = reader.ReadString();
             _gridWidth = reader.ReadInt32();
             _gridHeight = reader.ReadInt32();
             _cellSize = reader.ReadSingle();
-
-            // Safety Fix
             if (_cellSize <= 0.0001f) _cellSize = 0.1f;
+
+            // --- NEW: INITIALIZE CONTEXT HERE ---
+            // We have the dimensions now, so we can build the mask
+            _context = new SessionContext();
+            _context.Initialize(_currentSessionFolder, _gridWidth, _gridHeight, _cellSize);
+            // ------------------------------------
 
             _dataTexture = new Texture2D(_gridWidth, _gridHeight, TextureFormat.RGBA32, false);
             _dataTexture.filterMode = FilterMode.Point;
-
-            if (dataOverlayImage != null)
-                dataOverlayImage.texture = _dataTexture;
+            if (dataOverlayImage != null) dataOverlayImage.texture = _dataTexture;
 
             _dataPixels = new Color32[_gridWidth * _gridHeight];
             _heatmapAccumulator = new int[_gridWidth * _gridHeight];
 
+            // ... (Rest of your reading loop is the same) ...
             while (reader.BaseStream.Position < reader.BaseStream.Length)
             {
                 if (reader.BaseStream.Length - reader.BaseStream.Position < 4) break;
@@ -249,21 +282,32 @@ public class AAR_Visualizer : MonoBehaviour
     private void DrawPlayback(byte[] gridBytes)
     {
         Color32 clear = new Color32(0, 0, 0, 0);
-        // FIX: Make the "Seen" color Solid Green so we can see it even if small
-        Color32 seen = new Color32(0, 255, 0, 255);
+        Color32 colorSeen = new Color32(0, 255, 0, 100);   // Transparent Green
+        Color32 colorUnseen = new Color32(50, 0, 0, 150);  // Dark Red (Fog of War)
 
         for (int i = 0; i < _dataPixels.Length; i++)
         {
+            // 1. Check Cookie Cutter (Is this pixel in the room?)
+            if (_context != null && !_context.IsCellPlayable(i))
+            {
+                _dataPixels[i] = clear; // It's a leak/void. Hide it.
+                continue;
+            }
+
+            // 2. It IS in the room. Did we see it?
             int byteIndex = i / 8;
             int bitOffset = i % 8;
-
             bool isSeen = false;
             if (byteIndex < gridBytes.Length)
             {
                 isSeen = (gridBytes[byteIndex] & (1 << bitOffset)) != 0;
             }
-            // Simple visualizer: If seen, green. Else clear.
-            _dataPixels[i] = isSeen ? seen : clear;
+
+            // 3. Color logic
+            if (isSeen)
+                _dataPixels[i] = colorSeen;
+            else
+                _dataPixels[i] = colorUnseen; // It's in the room, but we missed it!
         }
     }
 

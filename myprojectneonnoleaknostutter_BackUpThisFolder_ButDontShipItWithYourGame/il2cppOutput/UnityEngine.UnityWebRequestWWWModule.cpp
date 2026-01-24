@@ -242,7 +242,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 136376
+// Method Definition Index: 136400
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WWW__ctor_m5D29D83E9EE0925ED8252347CE24EC236401503D (WWW_tEADA9A43B98FC277E498F8E3206A3B8C4E5AF3FB* __this, String_t* ___0_url, const RuntimeMethod* method) 
 {
 	{
@@ -259,7 +259,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WWW__ctor_m5D29D83E9EE0925ED8252347CE24E
 		return;
 	}
 }
-// Method Definition Index: 136377
+// Method Definition Index: 136401
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WWW_get_isDone_m7E88B666AD0E3903757043813B2811BBFCCCA52E (WWW_tEADA9A43B98FC277E498F8E3206A3B8C4E5AF3FB* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -278,7 +278,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 136378
+// Method Definition Index: 136402
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WWW_get_text_m95F7CAAC33FD0BAB9B535E3AEAFDA36B81B3EC4F (WWW_tEADA9A43B98FC277E498F8E3206A3B8C4E5AF3FB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -361,7 +361,7 @@ IL_0057:
 		return L_11;
 	}
 }
-// Method Definition Index: 136379
+// Method Definition Index: 136403
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WWW_get_url_m368B1D7D23DC22E412A3F802C6E3047760665519 (WWW_tEADA9A43B98FC277E498F8E3206A3B8C4E5AF3FB* __this, const RuntimeMethod* method) 
 {
 	String_t* V_0 = NULL;
@@ -380,7 +380,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 136380
+// Method Definition Index: 136404
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WWW_get_keepWaiting_m2D6B60FD9CB9C3E86D69E87EA32953AA68AE26B9 (WWW_tEADA9A43B98FC277E498F8E3206A3B8C4E5AF3FB* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -418,7 +418,7 @@ IL_001d:
 		return L_3;
 	}
 }
-// Method Definition Index: 136381
+// Method Definition Index: 136405
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WWW_Dispose_mE5FC4A2013C63A68C287F139B177D86F75C4A74F (WWW_tEADA9A43B98FC277E498F8E3206A3B8C4E5AF3FB* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -444,7 +444,7 @@ IL_0023:
 		return;
 	}
 }
-// Method Definition Index: 136382
+// Method Definition Index: 136406
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WWW_WaitUntilDoneIfPossible_mD975AFF6737F00BB5003C5AEDBD795751F129A84 (WWW_tEADA9A43B98FC277E498F8E3206A3B8C4E5AF3FB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

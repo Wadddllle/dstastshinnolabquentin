@@ -17314,6 +17314,7 @@ MonoBehaviour:
   ghostAgentIcon: {fileID: 1945902839}
   timelineSlider: {fileID: 276580429}
   logFileName: session_data.bin
+  reportCardLink: {fileID: 38955752}
   playbackProgress: 0
   showHeatmap: 0
   isPlaying: 0
