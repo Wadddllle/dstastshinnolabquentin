@@ -56,16 +56,21 @@ public class ChunkManager : MonoBehaviour
     }
     public void ToggleChunkVisibility()
     {
-        _areChunksVisible = !_areChunksVisible;
+        // Simply calls the overloaded version with the flipped state
+        ToggleChunkVisibility(!_areChunksVisible);
+    }
+    public void ToggleChunkVisibility(bool isVisible)
+    {
+        _areChunksVisible = isVisible;
+
         foreach (var chunkData in _activeChunks.Values)
         {
             if (chunkData.instance != null)
             {
-                // MODIFIED: Call the new method on the instance
-                chunkData.instance.SetRendererVisibility(_areChunksVisible);
+                chunkData.instance.SetRendererVisibility(isVisible);
             }
         }
-        Debug.Log($"Chunk renderers toggled to: {(_areChunksVisible ? "Visible" : "Hidden")}");
+        Debug.Log($"Chunk renderers set to: {(isVisible ? "Visible" : "Hidden")}");
     }
     // ... (ToggleChunkVisibility remains the same) ...
 

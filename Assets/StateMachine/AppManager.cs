@@ -22,11 +22,12 @@ public class AppManager : MonoBehaviour
     public AAR_Visualizer aarVisualizer;
     public AAR_ReportCard aarReportCard;
 
-    [Header("Exceptions (Persistant Objects)")]
+    [Header("Exceptions")]
     // 1. Vision Scanner (Head)
     public VisionScanner visionScanner;
     // 2. The Gun (Right Hand Controller) - NEW
-    public RaycastWeapon raycastWeapon;
+    //public RaycastWeapon raycastWeapon;
+    public GlobalPathfinder globalPathfinder;
 
     // State Machine internals
     public BaseState _currentState { get; private set; }
@@ -44,7 +45,7 @@ public class AppManager : MonoBehaviour
         AARRoot.SetActive(false);
 
         if (visionScanner) visionScanner.enabled = false;
-        if (raycastWeapon) raycastWeapon.enabled = false;
+        //if (raycastWeapon) raycastWeapon.enabled = false;
 
         ChangeState(new InstructorState());
     }
@@ -70,7 +71,7 @@ public class AppManager : MonoBehaviour
         AARRoot.SetActive(false);
 
         if (visionScanner != null) visionScanner.gameObject.SetActive(false);
-        if (raycastWeapon != null) raycastWeapon.gameObject.SetActive(false);
+        //if (raycastWeapon != null) raycastWeapon.gameObject.SetActive(false);
 
 
         // 2. Turn the requested one ON

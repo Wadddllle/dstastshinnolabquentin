@@ -1,82 +1,83 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-/// <summary>
-/// This script shoots a specified prefab from designated spawn points on the left and right controllers
-/// when the index triggers are pressed.
-/// </summary>
-public class buttontest : MonoBehaviour
+public class Buttontest : MonoBehaviour
 {
     [Header("Projectile Settings")]
-    [Tooltip("The prefab to be instantiated and shot.")]
     public GameObject projectilePrefab;
-
-    [Tooltip("The speed at which the projectile will be fired.")]
     public float projectileSpeed = 20f;
+    public float bulletLifeTime = 5.0f;
 
+    [Header("Effects")]
+    public AudioClip gunshotSound;
+    [Tooltip("Drag the AudioSource component here")]
+    public AudioSource weaponAudioSource;
+    public ForceTubeController haptics;
 
-    [Header("Controller References")]
-    [Tooltip("The transform representing the spawn point for the left hand's projectile.")]
-    public Transform leftHandSpawnPoint;
+    [Header("Right Hand (Weapon)")]
+    public Transform rightMuzzlePoint; // The tip of the gun barrel
+    public ParticleSystem rightMuzzleFlash; // The particle system on the barrel
 
-    [Tooltip("The transform representing the spawn point for the right hand's projectile.")]
-    public Transform rightHandSpawnPoint;
+    [Header("Left Hand (Optional/Dual Wield)")]
+    public Transform leftMuzzlePoint;
+    public ParticleSystem leftMuzzleFlash;
 
     void Update()
     {
-        // --- Check for Left Controller Trigger Press ---
-        // OVRInput.GetDown checks for the initial press of the button.
-        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.LTouch))
-        {
-            ShootPrefab(leftHandSpawnPoint);
-        }
-
-        // --- Check for Right Controller Trigger Press ---
+        // Right Controller (Primary Trigger)
         if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch))
         {
-            ShootPrefab(rightHandSpawnPoint);
+            FireWeapon(rightMuzzlePoint, rightMuzzleFlash);
+        }
+
+        // Left Controller (Optional)
+        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.LTouch))
+        {
+            FireWeapon(leftMuzzlePoint, leftMuzzleFlash);
         }
     }
 
-    /// <summary>
-    /// Instantiates and fires the projectile from a given spawn point.
-    /// </summary>
-    /// <param name="spawnPoint">The transform from which to fire.</param>
-    private void ShootPrefab(Transform spawnPoint)
+    private void FireWeapon(Transform spawnPoint, ParticleSystem muzzleFlash)
     {
-        // Safety check: Do nothing if the prefab or spawn point isn't set.
-        if (projectilePrefab == null || spawnPoint == null)
+        if (projectilePrefab == null || spawnPoint == null) return;
+        if (haptics != null) haptics.FireHaptic();
+        // --- 1. Visual & Audio Effects ---
+        // Play Muzzle Flash
+        if (muzzleFlash != null)
         {
-            Debug.LogError("Projectile Prefab or Spawn Point is not set in the Inspector!");
-            return;
+            muzzleFlash.Stop(); // Reset if already playing
+            muzzleFlash.Play();
         }
 
-        // --- THE MAGIC IS HERE ---
+        // Play Sound
+        if (weaponAudioSource != null && gunshotSound != null)
+        {
+            weaponAudioSource.PlayOneShot(gunshotSound);
+        }
 
-        // 1. Define the rotation we need to apply to fix our model's orientation.
-        // Quaternion.Euler creates a rotation from the familiar X, Y, Z degree values.
+        // --- 2. Log the Shot Event ---
+        if (GridRecorder.Instance != null)
+        {
+            GridRecorder.Instance.LogEvent("SHOT_FIRED", $"Fired from {spawnPoint.name}", spawnPoint.position);
+        }
+
+        // --- 3. Create the Bullet ---
+        // Adjust rotation by 90 degrees on X if your bullet model is lying flat
         Quaternion rotationOffset = Quaternion.Euler(90, 0, 0);
-
-        // 2. Combine the spawn point's rotation with our offset.
-        // The order matters! Controller rotation first, then our local adjustment.
         Quaternion finalRotation = spawnPoint.rotation * rotationOffset;
 
-        // 3. Instantiate the projectile using this new, corrected rotation.
         GameObject newProjectile = Instantiate(projectilePrefab, spawnPoint.position, finalRotation);
 
-
-        // Get the Rigidbody component from the newly created projectile.
+        // --- 4. Apply Velocity ---
         Rigidbody rb = newProjectile.GetComponent<Rigidbody>();
-
-        // If the projectile has a Rigidbody, apply velocity to make it move forward.
         if (rb != null)
         {
-            // spawnPoint.forward gives us the blue-axis "forward" direction of the spawn point.
+            // Note: Use rb.velocity if using Unity 2022 or older. 
+            // rb.linearVelocity is for Unity 6000+ (Unity 6).
             rb.linearVelocity = spawnPoint.forward * projectileSpeed;
         }
-        else
-        {
-            Debug.LogWarning("The projectile prefab is missing a Rigidbody component. It won't move on its own.");
-        }
+
+        // --- 5. Cleanup ---
+        Destroy(newProjectile, bulletLifeTime);
     }
 }

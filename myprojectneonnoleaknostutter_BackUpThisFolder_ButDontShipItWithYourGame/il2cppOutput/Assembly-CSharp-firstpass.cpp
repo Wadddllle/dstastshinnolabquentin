@@ -1,0 +1,2707 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+struct InterfaceActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+struct List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E;
+struct Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12;
+struct Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct FTChannelU5BU5D_t14115437BB4AFF52AF351A11F0D94CDF2DEB1D82;
+struct AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03;
+struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
+struct MethodInfo_t;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct String_t;
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC4249931E82CEBAEC1968B680E9E9A0DF4A946C6;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3;
+struct U3CU3Ec__DisplayClass19_0_tE4C5CD628310406870B6EFA6BB8095B3CE7154A9;
+struct U3CInitAndroidU3Ed__2_tB232CF32478A4FA9E7C08A673B624479113AE1A0;
+struct FTCType_t154C820F17568CE2E44253D43B5E9C90CC3F5DAF;
+struct FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962;
+struct FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC;
+
+IL2CPP_EXTERN_C RuntimeClass* AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CInitAndroidU3Ed__2_tB232CF32478A4FA9E7C08A673B624479113AE1A0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass19_0_tE4C5CD628310406870B6EFA6BB8095B3CE7154A9_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tDF76FE2002958A97429065AC028E0A0C70442121____11E66558B67034785C6BD2A0219221C8AE9241D4AE905B010A8BA43457307AE5_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tDF76FE2002958A97429065AC028E0A0C70442121____C5DAF363AC38AEEA437B835E56DA6A4C0B49607DE1E856F7844322F63829458C_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral173C6059003868B35D843CEA0FD98B9DDF357A5E;
+IL2CPP_EXTERN_C String_t* _stringLiteral17FAB2A8A9A9CFE21DE166623AC30D6F44C9266B;
+IL2CPP_EXTERN_C String_t* _stringLiteral2063737B07B6658BC2E1EC3128D4E09E57CA123E;
+IL2CPP_EXTERN_C String_t* _stringLiteral3106F22B1AE813C362C53EC20D0E459355C444AE;
+IL2CPP_EXTERN_C String_t* _stringLiteral3B373FD7CD324405B7FA45BDCCFD54439F232888;
+IL2CPP_EXTERN_C String_t* _stringLiteral3F5657742E0F11AD2D750180096C6146BD18E790;
+IL2CPP_EXTERN_C String_t* _stringLiteral45A9E522015CD217B11029078FF30B00D9BF59C5;
+IL2CPP_EXTERN_C String_t* _stringLiteral46FD253ADF27657C7A99604AE1BDCE45A4E6B9E7;
+IL2CPP_EXTERN_C String_t* _stringLiteral4D613657609485AE586A3379BA0E3FC13C1E1078;
+IL2CPP_EXTERN_C String_t* _stringLiteral5C22673B23917E544A263B91F70219DECF69DCAF;
+IL2CPP_EXTERN_C String_t* _stringLiteral7810603242D4096C1146C08935016D7E7A4069E0;
+IL2CPP_EXTERN_C String_t* _stringLiteral7D4F165B4B430FD93DDE824A4182535D7D628FB1;
+IL2CPP_EXTERN_C String_t* _stringLiteral7FB065FC47DDCF8134948800A310281E12F058C7;
+IL2CPP_EXTERN_C String_t* _stringLiteral83B0BC09A1CC4744ADD7743500D4C45146C5862B;
+IL2CPP_EXTERN_C String_t* _stringLiteral8D2F696E9A29869B81527D5FF286947852B1331B;
+IL2CPP_EXTERN_C String_t* _stringLiteral8EFC9483FF992CD27566EF692EFBBEB06255186A;
+IL2CPP_EXTERN_C String_t* _stringLiteral981FDBE572C83FBC500B6E711C524AA0A3BBD053;
+IL2CPP_EXTERN_C String_t* _stringLiteral98C2FF281267139EF119CFF6691ECC3EFB9BC8C4;
+IL2CPP_EXTERN_C String_t* _stringLiteral9C105B704FF5CEEBC0F3EBE2D5D8783844C769BE;
+IL2CPP_EXTERN_C String_t* _stringLiteral9C722D8E40F4F2FDBF635DF7A63150CB824C97E6;
+IL2CPP_EXTERN_C String_t* _stringLiteralA7EF181E4E2AC44A68E4841A755DD3867E96B931;
+IL2CPP_EXTERN_C String_t* _stringLiteralAB1B6DA9C1F5AA6752CA4B51A53E261615782B0D;
+IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+IL2CPP_EXTERN_C String_t* _stringLiteralFB4AE4F77150C3A8E8E4F8B23E734E0C7277B7D9;
+IL2CPP_EXTERN_C String_t* _stringLiteralFEA67666144ADE87A18CAFFB3DC73DE745C60420;
+IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_CallStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m398EA96C1DE1BB885F2B1DD0E00E8BBA86B49E63_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_Call_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m9A65BC4E147425F454355D2E28E81D2D18C52162_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_Call_TisString_t_m67FC2931E81004C3F259008314180511C3D2AF40_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_mC5C9EF73F5C1088183A79CC263D02BC518162062_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* JsonUtility_FromJson_TisFTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC_m4AD59952F7069C37CD5F59F3B6DA981F21230B6E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mBCAA57C69AA1109C9CBEA2318041CCEA06896396_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Find_m6A82E298733F8B4C91F5CF492F55DF744B67A69D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Remove_mC21EB6197AEE1A269AD453EAA1A20A15702E2109_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CInitAndroidU3Ed__2_System_Collections_IEnumerator_Reset_mB1D24B59C58A1B5DA44019EA3E40D7A561EC4E15_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass19_0_U3CRemoveFromChannelU3Eb__0_m936456666AB7CC9D37252D8CE4A42BD4182CE023_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass19_0_U3CRemoveFromChannelU3Eb__1_mA74D2EC8E4A426D0FFF51C38FBA597294B9493ED_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass19_0_U3CRemoveFromChannelU3Eb__2_m2298C6DA23F7C3A67E6D2A7C3BF05F4CE8C2D079_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass19_0_U3CRemoveFromChannelU3Eb__3_mA6E09E0250891B5F7D7477A88AE3A80CB0527825_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass19_0_U3CRemoveFromChannelU3Eb__4_mB6279C8E98E6CCD6CAD13104CF909E3E22680A98_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass19_0_U3CRemoveFromChannelU3Eb__5_mD0FC967B54190E1019A24C19347BC0988F5CDE4A_RuntimeMethod_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_tF062866229C4952B8051AD32AB6E9D931142CC95 
+{
+};
+struct EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE  : public RuntimeObject
+{
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E  : public RuntimeObject
+{
+	FTChannelU5BU5D_t14115437BB4AFF52AF351A11F0D94CDF2DEB1D82* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct U3CPrivateImplementationDetailsU3E_tDF76FE2002958A97429065AC028E0A0C70442121  : public RuntimeObject
+{
+};
+struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0  : public RuntimeObject
+{
+	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___m_jobject;
+	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___m_jclass;
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC4249931E82CEBAEC1968B680E9E9A0DF4A946C6  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D  : public RuntimeObject
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+};
+struct U3CU3Ec__DisplayClass19_0_tE4C5CD628310406870B6EFA6BB8095B3CE7154A9  : public RuntimeObject
+{
+	String_t* ___sName;
+};
+struct U3CInitAndroidU3Ed__2_tB232CF32478A4FA9E7C08A673B624479113AE1A0  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	bool ___pistolsFirst;
+	AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* ___U3CunityPlayerU3E5__1;
+	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___U3CactivityU3E5__2;
+	AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* ___U3CbuilderClassU3E5__3;
+};
+struct FTCType_t154C820F17568CE2E44253D43B5E9C90CC3F5DAF  : public RuntimeObject
+{
+	List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* ___rifleButt;
+	List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* ___rifleBolt;
+	List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* ___pistol1;
+	List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* ___pistol2;
+	List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* ___other;
+	List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* ___vest;
+};
+struct FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962  : public RuntimeObject
+{
+	String_t* ___name;
+	int32_t ___batteryLevel;
+};
+struct FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC  : public RuntimeObject
+{
+	FTCType_t154C820F17568CE2E44253D43B5E9C90CC3F5DAF* ___channels;
+};
+struct AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03  : public AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0
+{
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	float ___m_Seconds;
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	float ___m_Seconds;
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	float ___m_Seconds;
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D133_t2096B39A0641CA501A0B93C7997598CB6872C29A 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D133_t2096B39A0641CA501A0B93C7997598CB6872C29A__padding[133];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D47_t5B2A7520F9166F393B26B815B3CE725D8EE64921 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D47_t5B2A7520F9166F393B26B815B3CE725D8EE64921__padding[47];
+	};
+};
+#pragma pack(pop, tp)
+struct MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685 
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	bool ___IsEditorOnly;
+};
+struct MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshaled_com
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	intptr_t ___m_Ptr;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct ForceTubeVRChannel_t54FF18F18FC5E51188AD4EEB52AACBD46FCB627B 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95  : public MulticastDelegate_t
+{
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___Value;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray;
+};
+struct List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E_StaticFields
+{
+	FTChannelU5BU5D_t14115437BB4AFF52AF351A11F0D94CDF2DEB1D82* ___s_emptyArray;
+};
+struct U3CPrivateImplementationDetailsU3E_tDF76FE2002958A97429065AC028E0A0C70442121_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D133_t2096B39A0641CA501A0B93C7997598CB6872C29A ___11E66558B67034785C6BD2A0219221C8AE9241D4AE905B010A8BA43457307AE5;
+	__StaticArrayInitTypeSizeU3D47_t5B2A7520F9166F393B26B815B3CE725D8EE64921 ___C5DAF363AC38AEEA437B835E56DA6A4C0B49607DE1E856F7844322F63829458C;
+};
+struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_StaticFields
+{
+	bool ___enableDebugPrints;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields
+{
+	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___ForceTubeVRPlugin;
+	ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9* ___instance;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t AndroidJavaObject_Call_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m9A65BC4E147425F454355D2E28E81D2D18C52162_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AndroidJavaObject_Call_TisRuntimeObject_mA5AF1A9E0463CE91F0ACB6AC2FE0C1922B579EF7_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JsonUtility_FromJson_TisRuntimeObject_m0CCF0FE109BF4C85AECC9C5D0DBB43422A24FB40_gshared (String_t* ___0_json, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Predicate_1__ctor_m3E007299121A15DF80F4A210FF8C20E5DF688F20_gshared (Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_Find_m5E78A210541B0D844FE27B94F509313623BE33D3_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___0_match, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool List_1_Remove_m4DFA48F4CEB9169601E75FC28517C5C06EFA5AD7_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AndroidJavaObject_GetStatic_TisRuntimeObject_m4EF4E4761A0A6E99E0A298F653E8129B1494E4C9_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AndroidJavaObject_CallStatic_TisRuntimeObject_mCAFE27630F6092C4910E14592B050DACFCBE146F_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitAndroidU3Ed__2__ctor_mD0E2B5393D2FFFC19ACB04EC0DB58E6572DCA48D (U3CInitAndroidU3Ed__2_tB232CF32478A4FA9E7C08A673B624479113AE1A0* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, String_t* ___0_name, const RuntimeMethod* method) ;
+inline ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9* GameObject_AddComponent_TisForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_mC5C9EF73F5C1088183A79CC263D02BC518162062 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_target, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ForceTubeVRInterface_InitAndroid_m62CEC00C432A9B7F1F14C42D7BBB389A2F315024 (bool ___0_pistolsFirst, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
+inline uint8_t AndroidJavaObject_Call_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m9A65BC4E147425F454355D2E28E81D2D18C52162 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method)
+{
+	return ((  uint8_t (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_Call_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m9A65BC4E147425F454355D2E28E81D2D18C52162_gshared)(__this, ___0_methodName, ___1_args, method);
+}
+inline ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline (const RuntimeMethod* method)
+{
+	return ((  ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* (*) (const RuntimeMethod*))Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline)(method);
+}
+inline String_t* AndroidJavaObject_Call_TisString_t_m67FC2931E81004C3F259008314180511C3D2AF40 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method)
+{
+	return ((  String_t* (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_Call_TisRuntimeObject_mA5AF1A9E0463CE91F0ACB6AC2FE0C1922B579EF7_gshared)(__this, ___0_methodName, ___1_args, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_WriteAllText_m8AE8932A417928EF1E86F1E6B37C7A41904614D1 (String_t* ___0_path, String_t* ___1_contents, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ForceTubeVRInterface_LoadChannelJSon_mAF5DD01DEA9C90A85B264F2F994D10331CF1B982 (const RuntimeMethod* method) ;
+inline bool AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method)
+{
+	return ((  bool (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_gshared)(__this, ___0_methodName, ___1_args, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ForceTubeVRInterface_SaveChannelJSon_m65E495CB0DE73041A6E7DA37AFFA8DEBE0EE6306 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* File_ReadAllText_mA4A939F853D573379F7129AFDC469B91E9747BAA (String_t* ___0_path, const RuntimeMethod* method) ;
+inline FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* JsonUtility_FromJson_TisFTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC_m4AD59952F7069C37CD5F59F3B6DA981F21230B6E (String_t* ___0_json, const RuntimeMethod* method)
+{
+	return ((  FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* (*) (String_t*, const RuntimeMethod*))JsonUtility_FromJson_TisRuntimeObject_m0CCF0FE109BF4C85AECC9C5D0DBB43422A24FB40_gshared)(___0_json, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FTChannel__ctor_m1E76476A1F14C1079FE67DDE0C788FDDCE67A050 (FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* __this, const RuntimeMethod* method) ;
+inline void List_1_Add_mBCAA57C69AA1109C9CBEA2318041CCEA06896396_inline (List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* __this, FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E*, FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonUtility_ToJson_m28CC6843B9D3723D88AD13EA3829B71FDE7826BA (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass19_0__ctor_mDEFBCBDB48544B842989C78910783FADC9F8BA24 (U3CU3Ec__DisplayClass19_0_tE4C5CD628310406870B6EFA6BB8095B3CE7154A9* __this, const RuntimeMethod* method) ;
+inline void Predicate_1__ctor_m89F41C6F16BAB58D6E29FF64FBFAFD0DC049D239 (Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95*, RuntimeObject*, intptr_t, const RuntimeMethod*))Predicate_1__ctor_m3E007299121A15DF80F4A210FF8C20E5DF688F20_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* List_1_Find_m6A82E298733F8B4C91F5CF492F55DF744B67A69D (List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* __this, Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95* ___0_match, const RuntimeMethod* method)
+{
+	return ((  FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* (*) (List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E*, Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95*, const RuntimeMethod*))List_1_Find_m5E78A210541B0D844FE27B94F509313623BE33D3_gshared)(__this, ___0_match, method);
+}
+inline bool List_1_Remove_mC21EB6197AEE1A269AD453EAA1A20A15702E2109 (List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* __this, FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* ___0_item, const RuntimeMethod* method)
+{
+	return ((  bool (*) (List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E*, FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962*, const RuntimeMethod*))List_1_Remove_m4DFA48F4CEB9169601E75FC28517C5C06EFA5AD7_gshared)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1 (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* __this, float ___0_seconds, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389 (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* __this, String_t* ___0_className, const RuntimeMethod* method) ;
+inline AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, const RuntimeMethod* method)
+{
+	return ((  AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, const RuntimeMethod*))AndroidJavaObject_GetStatic_TisRuntimeObject_m4EF4E4761A0A6E99E0A298F653E8129B1494E4C9_gshared)(__this, ___0_fieldName, method);
+}
+inline AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* AndroidJavaObject_CallStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m398EA96C1DE1BB885F2B1DD0E00E8BBA86B49E63 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method)
+{
+	return ((  AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_CallStatic_TisRuntimeObject_mCAFE27630F6092C4910E14592B050DACFCBE146F_gshared)(__this, ___0_methodName, ___1_args, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared)(__this, ___0_item, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 136504
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ForceTubeVRInterface_InitAndroid_m62CEC00C432A9B7F1F14C42D7BBB389A2F315024 (bool ___0_pistolsFirst, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CInitAndroidU3Ed__2_tB232CF32478A4FA9E7C08A673B624479113AE1A0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CInitAndroidU3Ed__2_tB232CF32478A4FA9E7C08A673B624479113AE1A0* L_0 = (U3CInitAndroidU3Ed__2_tB232CF32478A4FA9E7C08A673B624479113AE1A0*)il2cpp_codegen_object_new(U3CInitAndroidU3Ed__2_tB232CF32478A4FA9E7C08A673B624479113AE1A0_il2cpp_TypeInfo_var);
+		U3CInitAndroidU3Ed__2__ctor_mD0E2B5393D2FFFC19ACB04EC0DB58E6572DCA48D(L_0, 0, NULL);
+		U3CInitAndroidU3Ed__2_tB232CF32478A4FA9E7C08A673B624479113AE1A0* L_1 = L_0;
+		bool L_2 = ___0_pistolsFirst;
+		NullCheck(L_1);
+		L_1->___pistolsFirst = L_2;
+		return L_1;
+	}
+}
+// Method Definition Index: 136505
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForceTubeVRInterface_InitAsync_mAD578A63014B15B4578DC72AB85331BF3F6EA081 (bool ___0_pistolsFirst, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_mC5C9EF73F5C1088183A79CC263D02BC518162062_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8D2F696E9A29869B81527D5FF286947852B1331B);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:132>
+		ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9* L_0 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:134>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_3, _stringLiteral8D2F696E9A29869B81527D5FF286947852B1331B, NULL);
+		NullCheck(L_3);
+		ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9* L_4;
+		L_4 = GameObject_AddComponent_TisForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_mC5C9EF73F5C1088183A79CC263D02BC518162062(L_3, GameObject_AddComponent_TisForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_mC5C9EF73F5C1088183A79CC263D02BC518162062_RuntimeMethod_var);
+		((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___instance = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___instance), (void*)L_4);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:135>
+		ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9* L_5 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7(L_5, NULL);
+	}
+
+IL_0031:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:137>
+		ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9* L_6 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___instance;
+		bool L_7 = ___0_pistolsFirst;
+		RuntimeObject* L_8;
+		L_8 = ForceTubeVRInterface_InitAndroid_m62CEC00C432A9B7F1F14C42D7BBB389A2F315024(L_7, NULL);
+		NullCheck(L_6);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_9;
+		L_9 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_6, L_8, NULL);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:164>
+		return;
+	}
+}
+// Method Definition Index: 136506
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForceTubeVRInterface_Kick_mF0FE397031A87DBC24190FD5AB1D74708CE74CA7 (uint8_t ___0_power, int32_t ___1_target, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral45A9E522015CD217B11029078FF30B00D9BF59C5);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:172>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		V_0 = (bool)((!(((RuntimeObject*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:174>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = L_3;
+		uint8_t L_5 = ___0_power;
+		uint8_t L_6 = L_5;
+		RuntimeObject* L_7 = Box(il2cpp_defaults.byte_class, &L_6);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_7);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_7);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = L_4;
+		int32_t L_9 = ___1_target;
+		int32_t L_10 = ((int32_t)L_9);
+		RuntimeObject* L_11 = Box(il2cpp_defaults.int32_class, &L_10);
+		NullCheck(L_8);
+		ArrayElementTypeCheck (L_8, L_11);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_11);
+		NullCheck(L_2);
+		AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C(L_2, _stringLiteral45A9E522015CD217B11029078FF30B00D9BF59C5, L_8, NULL);
+	}
+
+IL_0037:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:188>
+		return;
+	}
+}
+// Method Definition Index: 136507
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForceTubeVRInterface_Rumble_m004DA69234D755E74A4E0051C84E52FC9AA9A5F9 (uint8_t ___0_power, float ___1_duration, int32_t ___2_target, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral46FD253ADF27657C7A99604AE1BDCE45A4E6B9E7);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:197>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		V_0 = (bool)((!(((RuntimeObject*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:199>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = L_3;
+		uint8_t L_5 = ___0_power;
+		uint8_t L_6 = L_5;
+		RuntimeObject* L_7 = Box(il2cpp_defaults.byte_class, &L_6);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_7);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_7);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = L_4;
+		float L_9 = ___1_duration;
+		int32_t L_10 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_9, (1000.0f))));
+		RuntimeObject* L_11 = Box(il2cpp_defaults.int32_class, &L_10);
+		NullCheck(L_8);
+		ArrayElementTypeCheck (L_8, L_11);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_11);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_12 = L_8;
+		int32_t L_13 = ___2_target;
+		int32_t L_14 = ((int32_t)L_13);
+		RuntimeObject* L_15 = Box(il2cpp_defaults.int32_class, &L_14);
+		NullCheck(L_12);
+		ArrayElementTypeCheck (L_12, L_15);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_15);
+		NullCheck(L_2);
+		AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C(L_2, _stringLiteral46FD253ADF27657C7A99604AE1BDCE45A4E6B9E7, L_12, NULL);
+	}
+
+IL_0047:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:213>
+		return;
+	}
+}
+// Method Definition Index: 136508
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForceTubeVRInterface_Shoot_m5485610B9954715C73935137821E4A96B914066B (uint8_t ___0_kickPower, uint8_t ___1_rumblePower, float ___2_rumbleDuration, int32_t ___3_target, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral981FDBE572C83FBC500B6E711C524AA0A3BBD053);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:222>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		V_0 = (bool)((!(((RuntimeObject*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:224>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = L_3;
+		uint8_t L_5 = ___0_kickPower;
+		uint8_t L_6 = L_5;
+		RuntimeObject* L_7 = Box(il2cpp_defaults.byte_class, &L_6);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_7);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_7);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = L_4;
+		uint8_t L_9 = ___1_rumblePower;
+		uint8_t L_10 = L_9;
+		RuntimeObject* L_11 = Box(il2cpp_defaults.byte_class, &L_10);
+		NullCheck(L_8);
+		ArrayElementTypeCheck (L_8, L_11);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_11);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_12 = L_8;
+		float L_13 = ___2_rumbleDuration;
+		int32_t L_14 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_13, (1000.0f))));
+		RuntimeObject* L_15 = Box(il2cpp_defaults.int32_class, &L_14);
+		NullCheck(L_12);
+		ArrayElementTypeCheck (L_12, L_15);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_15);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_16 = L_12;
+		int32_t L_17 = ___3_target;
+		int32_t L_18 = ((int32_t)L_17);
+		RuntimeObject* L_19 = Box(il2cpp_defaults.int32_class, &L_18);
+		NullCheck(L_16);
+		ArrayElementTypeCheck (L_16, L_19);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_19);
+		NullCheck(L_2);
+		AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C(L_2, _stringLiteral981FDBE572C83FBC500B6E711C524AA0A3BBD053, L_16, NULL);
+	}
+
+IL_0050:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:238>
+		return;
+	}
+}
+// Method Definition Index: 136509
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForceTubeVRInterface_SetActiveResearch_m1D3D404C79A9718A81416760336CCCFF11FE3BA1 (bool ___0_active, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral83B0BC09A1CC4744ADD7743500D4C45146C5862B);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:247>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		V_0 = (bool)((!(((RuntimeObject*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:249>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = L_3;
+		bool L_5 = ___0_active;
+		bool L_6 = L_5;
+		RuntimeObject* L_7 = Box(il2cpp_defaults.boolean_class, &L_6);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_7);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_7);
+		NullCheck(L_2);
+		AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C(L_2, _stringLiteral83B0BC09A1CC4744ADD7743500D4C45146C5862B, L_4, NULL);
+	}
+
+IL_002e:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:263>
+		return;
+	}
+}
+// Method Definition Index: 136510
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t ForceTubeVRInterface_TempoToKickPower_m8D45F12C75FE44CBABA4A50E5CB3ABFC277F09E4 (float ___0_tempo, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m9A65BC4E147425F454355D2E28E81D2D18C52162_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3F5657742E0F11AD2D750180096C6146BD18E790);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	uint8_t V_1 = 0x0;
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:272>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		V_0 = (bool)((!(((RuntimeObject*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:274>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = L_3;
+		float L_5 = ___0_tempo;
+		float L_6 = L_5;
+		RuntimeObject* L_7 = Box(il2cpp_defaults.single_class, &L_6);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_7);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_7);
+		NullCheck(L_2);
+		uint8_t L_8;
+		L_8 = AndroidJavaObject_Call_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m9A65BC4E147425F454355D2E28E81D2D18C52162(L_2, _stringLiteral3F5657742E0F11AD2D750180096C6146BD18E790, L_4, AndroidJavaObject_Call_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m9A65BC4E147425F454355D2E28E81D2D18C52162_RuntimeMethod_var);
+		V_1 = L_8;
+		goto IL_0038;
+	}
+
+IL_002f:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:276>
+		V_1 = (uint8_t)((int32_t)255);
+		goto IL_0038;
+	}
+
+IL_0038:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:290>
+		uint8_t L_9 = V_1;
+		return L_9;
+	}
+}
+// Method Definition Index: 136511
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t ForceTubeVRInterface_GetBatteryLevel_m6587817BAD78E39981140731DF51241C8582DD93 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m9A65BC4E147425F454355D2E28E81D2D18C52162_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral173C6059003868B35D843CEA0FD98B9DDF357A5E);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	uint8_t V_1 = 0x0;
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:299>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		V_0 = (bool)((!(((RuntimeObject*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:301>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3;
+		L_3 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_2);
+		uint8_t L_4;
+		L_4 = AndroidJavaObject_Call_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m9A65BC4E147425F454355D2E28E81D2D18C52162(L_2, _stringLiteral173C6059003868B35D843CEA0FD98B9DDF357A5E, L_3, AndroidJavaObject_Call_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m9A65BC4E147425F454355D2E28E81D2D18C52162_RuntimeMethod_var);
+		V_1 = L_4;
+		goto IL_002e;
+	}
+
+IL_0025:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:303>
+		V_1 = (uint8_t)((int32_t)255);
+		goto IL_002e;
+	}
+
+IL_002e:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:317>
+		uint8_t L_5 = V_1;
+		return L_5;
+	}
+}
+// Method Definition Index: 136512
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ForceTubeVRInterface_ListConnectedForceTube_m028FAFBFACEF3BE25887C1B084A41F56DD31AF66 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisString_t_m67FC2931E81004C3F259008314180511C3D2AF40_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7810603242D4096C1146C08935016D7E7A4069E0);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	String_t* V_1 = NULL;
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:324>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		V_0 = (bool)((!(((RuntimeObject*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:326>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3;
+		L_3 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_2);
+		String_t* L_4;
+		L_4 = AndroidJavaObject_Call_TisString_t_m67FC2931E81004C3F259008314180511C3D2AF40(L_2, _stringLiteral7810603242D4096C1146C08935016D7E7A4069E0, L_3, AndroidJavaObject_Call_TisString_t_m67FC2931E81004C3F259008314180511C3D2AF40_RuntimeMethod_var);
+		V_1 = L_4;
+		goto IL_002d;
+	}
+
+IL_0025:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:329>
+		V_1 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:339>
+		String_t* L_5 = V_1;
+		return L_5;
+	}
+}
+// Method Definition Index: 136513
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ForceTubeVRInterface_ListChannels_m4DF1F2C27385DAFCCDD46384CF9A614874131F7F (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisString_t_m67FC2931E81004C3F259008314180511C3D2AF40_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFEA67666144ADE87A18CAFFB3DC73DE745C60420);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	String_t* V_1 = NULL;
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:343>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		V_0 = (bool)((!(((RuntimeObject*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:345>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3;
+		L_3 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_2);
+		String_t* L_4;
+		L_4 = AndroidJavaObject_Call_TisString_t_m67FC2931E81004C3F259008314180511C3D2AF40(L_2, _stringLiteralFEA67666144ADE87A18CAFFB3DC73DE745C60420, L_3, AndroidJavaObject_Call_TisString_t_m67FC2931E81004C3F259008314180511C3D2AF40_RuntimeMethod_var);
+		V_1 = L_4;
+		goto IL_002d;
+	}
+
+IL_0025:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:348>
+		V_1 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:358>
+		String_t* L_5 = V_1;
+		return L_5;
+	}
+}
+// Method Definition Index: 136514
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ForceTubeVRInterface_InitChannels_mD9204009BEC5C42C72CC770F2129AC42169011E0 (String_t* ___0_sJsonChannelList, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5C22673B23917E544A263B91F70219DECF69DCAF);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7D4F165B4B430FD93DDE824A4182535D7D628FB1);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	String_t* V_1 = NULL;
+	bool V_2 = false;
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:393>
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		String_t* L_0;
+		L_0 = Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399(NULL);
+		V_0 = L_0;
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:394>
+		String_t* L_1 = V_0;
+		String_t* L_2;
+		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_1, _stringLiteral7D4F165B4B430FD93DDE824A4182535D7D628FB1, NULL);
+		V_1 = L_2;
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:395>
+		String_t* L_3 = V_1;
+		String_t* L_4;
+		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral5C22673B23917E544A263B91F70219DECF69DCAF, L_3, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_4, NULL);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:396>
+		String_t* L_5 = V_1;
+		String_t* L_6 = ___0_sJsonChannelList;
+		File_WriteAllText_m8AE8932A417928EF1E86F1E6B37C7A41904614D1(L_5, L_6, NULL);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:397>
+		bool L_7;
+		L_7 = ForceTubeVRInterface_LoadChannelJSon_mAF5DD01DEA9C90A85B264F2F994D10331CF1B982(NULL);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:399>
+		V_2 = (bool)1;
+		goto IL_0036;
+	}
+
+IL_0036:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:411>
+		bool L_8 = V_2;
+		return L_8;
+	}
+}
+// Method Definition Index: 136515
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ForceTubeVRInterface_LoadChannelJSon_mAF5DD01DEA9C90A85B264F2F994D10331CF1B982 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAB1B6DA9C1F5AA6752CA4B51A53E261615782B0D);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:417>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		V_0 = (bool)((!(((RuntimeObject*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:419>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3;
+		L_3 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_2);
+		bool L_4;
+		L_4 = AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF(L_2, _stringLiteralAB1B6DA9C1F5AA6752CA4B51A53E261615782B0D, L_3, AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
+		V_1 = L_4;
+		goto IL_0029;
+	}
+
+IL_0025:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:422>
+		V_1 = (bool)0;
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:430>
+		bool L_5 = V_1;
+		return L_5;
+	}
+}
+// Method Definition Index: 136516
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ForceTubeVRInterface_SaveChannelJSon_m65E495CB0DE73041A6E7DA37AFFA8DEBE0EE6306 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral98C2FF281267139EF119CFF6691ECC3EFB9BC8C4);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:435>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		V_0 = (bool)((!(((RuntimeObject*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:437>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3;
+		L_3 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_2);
+		bool L_4;
+		L_4 = AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF(L_2, _stringLiteral98C2FF281267139EF119CFF6691ECC3EFB9BC8C4, L_3, AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
+		V_1 = L_4;
+		goto IL_0029;
+	}
+
+IL_0025:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:440>
+		V_1 = (bool)0;
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:449>
+		bool L_5 = V_1;
+		return L_5;
+	}
+}
+// Method Definition Index: 136517
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ForceTubeVRInterface_AddToChannel_mB7AA3B7038D838DCC5B1396D41EBDB6C7895546A (int32_t ___0_nChannel, String_t* ___1_sName, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JsonUtility_FromJson_TisFTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC_m4AD59952F7069C37CD5F59F3B6DA981F21230B6E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mBCAA57C69AA1109C9CBEA2318041CCEA06896396_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7D4F165B4B430FD93DDE824A4182535D7D628FB1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9C722D8E40F4F2FDBF635DF7A63150CB824C97E6);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA7EF181E4E2AC44A68E4841A755DD3867E96B931);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	String_t* V_1 = NULL;
+	String_t* V_2 = NULL;
+	FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* V_3 = NULL;
+	FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* V_4 = NULL;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	bool V_8 = false;
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:490>
+		bool L_0;
+		L_0 = ForceTubeVRInterface_SaveChannelJSon_m65E495CB0DE73041A6E7DA37AFFA8DEBE0EE6306(NULL);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:492>
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		String_t* L_1;
+		L_1 = Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399(NULL);
+		V_0 = L_1;
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:493>
+		String_t* L_2 = V_0;
+		String_t* L_3;
+		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_2, _stringLiteral7D4F165B4B430FD93DDE824A4182535D7D628FB1, NULL);
+		V_1 = L_3;
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:494>
+		String_t* L_4 = V_1;
+		String_t* L_5;
+		L_5 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral9C722D8E40F4F2FDBF635DF7A63150CB824C97E6, L_4, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_5, NULL);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:495>
+		String_t* L_6 = V_1;
+		String_t* L_7;
+		L_7 = File_ReadAllText_mA4A939F853D573379F7129AFDC469B91E9747BAA(L_6, NULL);
+		V_2 = L_7;
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:497>
+		String_t* L_8 = V_2;
+		FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* L_9;
+		L_9 = JsonUtility_FromJson_TisFTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC_m4AD59952F7069C37CD5F59F3B6DA981F21230B6E(L_8, JsonUtility_FromJson_TisFTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC_m4AD59952F7069C37CD5F59F3B6DA981F21230B6E_RuntimeMethod_var);
+		V_3 = L_9;
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:500>
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_10 = (FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962*)il2cpp_codegen_object_new(FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962_il2cpp_TypeInfo_var);
+		FTChannel__ctor_m1E76476A1F14C1079FE67DDE0C788FDDCE67A050(L_10, NULL);
+		V_4 = L_10;
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:501>
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_11 = V_4;
+		String_t* L_12 = ___1_sName;
+		NullCheck(L_11);
+		L_11->___name = L_12;
+		Il2CppCodeGenWriteBarrier((void**)(&L_11->___name), (void*)L_12);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:502>
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_13 = V_4;
+		NullCheck(L_13);
+		L_13->___batteryLevel = 0;
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:504>
+		int32_t L_14 = ___0_nChannel;
+		V_5 = L_14;
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:505>
+		int32_t L_15 = V_5;
+		V_7 = L_15;
+		int32_t L_16 = V_7;
+		V_6 = L_16;
+		int32_t L_17 = V_6;
+		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_17, 2)))
+		{
+			case 0:
+			{
+				goto IL_007d;
+			}
+			case 1:
+			{
+				goto IL_0092;
+			}
+			case 2:
+			{
+				goto IL_00a7;
+			}
+			case 3:
+			{
+				goto IL_00bc;
+			}
+			case 4:
+			{
+				goto IL_00d1;
+			}
+			case 5:
+			{
+				goto IL_00e6;
+			}
+		}
+	}
+	{
+		goto IL_00fb;
+	}
+
+IL_007d:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:508>
+		FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* L_18 = V_3;
+		NullCheck(L_18);
+		FTCType_t154C820F17568CE2E44253D43B5E9C90CC3F5DAF* L_19 = L_18->___channels;
+		NullCheck(L_19);
+		List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* L_20 = L_19->___rifleButt;
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_21 = V_4;
+		NullCheck(L_20);
+		List_1_Add_mBCAA57C69AA1109C9CBEA2318041CCEA06896396_inline(L_20, L_21, List_1_Add_mBCAA57C69AA1109C9CBEA2318041CCEA06896396_RuntimeMethod_var);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:509>
+		goto IL_00fb;
+	}
+
+IL_0092:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:511>
+		FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* L_22 = V_3;
+		NullCheck(L_22);
+		FTCType_t154C820F17568CE2E44253D43B5E9C90CC3F5DAF* L_23 = L_22->___channels;
+		NullCheck(L_23);
+		List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* L_24 = L_23->___rifleBolt;
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_25 = V_4;
+		NullCheck(L_24);
+		List_1_Add_mBCAA57C69AA1109C9CBEA2318041CCEA06896396_inline(L_24, L_25, List_1_Add_mBCAA57C69AA1109C9CBEA2318041CCEA06896396_RuntimeMethod_var);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:512>
+		goto IL_00fb;
+	}
+
+IL_00a7:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:514>
+		FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* L_26 = V_3;
+		NullCheck(L_26);
+		FTCType_t154C820F17568CE2E44253D43B5E9C90CC3F5DAF* L_27 = L_26->___channels;
+		NullCheck(L_27);
+		List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* L_28 = L_27->___pistol1;
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_29 = V_4;
+		NullCheck(L_28);
+		List_1_Add_mBCAA57C69AA1109C9CBEA2318041CCEA06896396_inline(L_28, L_29, List_1_Add_mBCAA57C69AA1109C9CBEA2318041CCEA06896396_RuntimeMethod_var);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:515>
+		goto IL_00fb;
+	}
+
+IL_00bc:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:517>
+		FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* L_30 = V_3;
+		NullCheck(L_30);
+		FTCType_t154C820F17568CE2E44253D43B5E9C90CC3F5DAF* L_31 = L_30->___channels;
+		NullCheck(L_31);
+		List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* L_32 = L_31->___pistol2;
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_33 = V_4;
+		NullCheck(L_32);
+		List_1_Add_mBCAA57C69AA1109C9CBEA2318041CCEA06896396_inline(L_32, L_33, List_1_Add_mBCAA57C69AA1109C9CBEA2318041CCEA06896396_RuntimeMethod_var);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:518>
+		goto IL_00fb;
+	}
+
+IL_00d1:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:520>
+		FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* L_34 = V_3;
+		NullCheck(L_34);
+		FTCType_t154C820F17568CE2E44253D43B5E9C90CC3F5DAF* L_35 = L_34->___channels;
+		NullCheck(L_35);
+		List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* L_36 = L_35->___other;
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_37 = V_4;
+		NullCheck(L_36);
+		List_1_Add_mBCAA57C69AA1109C9CBEA2318041CCEA06896396_inline(L_36, L_37, List_1_Add_mBCAA57C69AA1109C9CBEA2318041CCEA06896396_RuntimeMethod_var);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:521>
+		goto IL_00fb;
+	}
+
+IL_00e6:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:523>
+		FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* L_38 = V_3;
+		NullCheck(L_38);
+		FTCType_t154C820F17568CE2E44253D43B5E9C90CC3F5DAF* L_39 = L_38->___channels;
+		NullCheck(L_39);
+		List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* L_40 = L_39->___vest;
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_41 = V_4;
+		NullCheck(L_40);
+		List_1_Add_mBCAA57C69AA1109C9CBEA2318041CCEA06896396_inline(L_40, L_41, List_1_Add_mBCAA57C69AA1109C9CBEA2318041CCEA06896396_RuntimeMethod_var);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:524>
+		goto IL_00fb;
+	}
+
+IL_00fb:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:527>
+		FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* L_42 = V_3;
+		String_t* L_43;
+		L_43 = JsonUtility_ToJson_m28CC6843B9D3723D88AD13EA3829B71FDE7826BA(L_42, NULL);
+		V_2 = L_43;
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:529>
+		String_t* L_44 = V_1;
+		String_t* L_45;
+		L_45 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralA7EF181E4E2AC44A68E4841A755DD3867E96B931, L_44, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_45, NULL);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:530>
+		String_t* L_46 = V_1;
+		String_t* L_47 = V_2;
+		File_WriteAllText_m8AE8932A417928EF1E86F1E6B37C7A41904614D1(L_46, L_47, NULL);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:531>
+		bool L_48;
+		L_48 = ForceTubeVRInterface_LoadChannelJSon_mAF5DD01DEA9C90A85B264F2F994D10331CF1B982(NULL);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:532>
+		V_8 = (bool)1;
+		goto IL_0126;
+	}
+
+IL_0126:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:545>
+		bool L_49 = V_8;
+		return L_49;
+	}
+}
+// Method Definition Index: 136518
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ForceTubeVRInterface_RemoveFromChannel_mAD9B4230CDC16D36A584AB0ACB048C09355BD3CC (int32_t ___0_nChannel, String_t* ___1_sName, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JsonUtility_FromJson_TisFTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC_m4AD59952F7069C37CD5F59F3B6DA981F21230B6E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Find_m6A82E298733F8B4C91F5CF492F55DF744B67A69D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Remove_mC21EB6197AEE1A269AD453EAA1A20A15702E2109_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass19_0_U3CRemoveFromChannelU3Eb__0_m936456666AB7CC9D37252D8CE4A42BD4182CE023_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass19_0_U3CRemoveFromChannelU3Eb__1_mA74D2EC8E4A426D0FFF51C38FBA597294B9493ED_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass19_0_U3CRemoveFromChannelU3Eb__2_m2298C6DA23F7C3A67E6D2A7C3BF05F4CE8C2D079_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass19_0_U3CRemoveFromChannelU3Eb__3_mA6E09E0250891B5F7D7477A88AE3A80CB0527825_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass19_0_U3CRemoveFromChannelU3Eb__4_mB6279C8E98E6CCD6CAD13104CF909E3E22680A98_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass19_0_U3CRemoveFromChannelU3Eb__5_mD0FC967B54190E1019A24C19347BC0988F5CDE4A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass19_0_tE4C5CD628310406870B6EFA6BB8095B3CE7154A9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7D4F165B4B430FD93DDE824A4182535D7D628FB1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9C722D8E40F4F2FDBF635DF7A63150CB824C97E6);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA7EF181E4E2AC44A68E4841A755DD3867E96B931);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass19_0_tE4C5CD628310406870B6EFA6BB8095B3CE7154A9* V_0 = NULL;
+	String_t* V_1 = NULL;
+	String_t* V_2 = NULL;
+	String_t* V_3 = NULL;
+	FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* V_4 = NULL;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* V_8 = NULL;
+	FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* V_9 = NULL;
+	FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* V_10 = NULL;
+	FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* V_11 = NULL;
+	FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* V_12 = NULL;
+	FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* V_13 = NULL;
+	bool V_14 = false;
+	{
+		U3CU3Ec__DisplayClass19_0_tE4C5CD628310406870B6EFA6BB8095B3CE7154A9* L_0 = (U3CU3Ec__DisplayClass19_0_tE4C5CD628310406870B6EFA6BB8095B3CE7154A9*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass19_0_tE4C5CD628310406870B6EFA6BB8095B3CE7154A9_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass19_0__ctor_mDEFBCBDB48544B842989C78910783FADC9F8BA24(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass19_0_tE4C5CD628310406870B6EFA6BB8095B3CE7154A9* L_1 = V_0;
+		String_t* L_2 = ___1_sName;
+		NullCheck(L_1);
+		L_1->___sName = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___sName), (void*)L_2);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:557>
+		bool L_3;
+		L_3 = ForceTubeVRInterface_SaveChannelJSon_m65E495CB0DE73041A6E7DA37AFFA8DEBE0EE6306(NULL);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:559>
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		String_t* L_4;
+		L_4 = Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399(NULL);
+		V_1 = L_4;
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:560>
+		String_t* L_5 = V_1;
+		String_t* L_6;
+		L_6 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_5, _stringLiteral7D4F165B4B430FD93DDE824A4182535D7D628FB1, NULL);
+		V_2 = L_6;
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:561>
+		String_t* L_7 = V_2;
+		String_t* L_8;
+		L_8 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral9C722D8E40F4F2FDBF635DF7A63150CB824C97E6, L_7, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_8, NULL);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:562>
+		String_t* L_9 = V_2;
+		String_t* L_10;
+		L_10 = File_ReadAllText_mA4A939F853D573379F7129AFDC469B91E9747BAA(L_9, NULL);
+		V_3 = L_10;
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:564>
+		String_t* L_11 = V_3;
+		FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* L_12;
+		L_12 = JsonUtility_FromJson_TisFTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC_m4AD59952F7069C37CD5F59F3B6DA981F21230B6E(L_11, JsonUtility_FromJson_TisFTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC_m4AD59952F7069C37CD5F59F3B6DA981F21230B6E_RuntimeMethod_var);
+		V_4 = L_12;
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:568>
+		int32_t L_13 = ___0_nChannel;
+		V_5 = L_13;
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:569>
+		int32_t L_14 = V_5;
+		V_7 = L_14;
+		int32_t L_15 = V_7;
+		V_6 = L_15;
+		int32_t L_16 = V_6;
+		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_16, 2)))
+		{
+			case 0:
+			{
+				goto IL_0077;
+			}
+			case 1:
+			{
+				goto IL_00b1;
+			}
+			case 2:
+			{
+				goto IL_00eb;
+			}
+			case 3:
+			{
+				goto IL_0125;
+			}
+			case 4:
+			{
+				goto IL_015c;
+			}
+			case 5:
+			{
+				goto IL_0193;
+			}
+		}
+	}
+	{
+		goto IL_01ca;
+	}
+
+IL_0077:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:573>
+		FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* L_17 = V_4;
+		NullCheck(L_17);
+		FTCType_t154C820F17568CE2E44253D43B5E9C90CC3F5DAF* L_18 = L_17->___channels;
+		NullCheck(L_18);
+		List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* L_19 = L_18->___rifleButt;
+		U3CU3Ec__DisplayClass19_0_tE4C5CD628310406870B6EFA6BB8095B3CE7154A9* L_20 = V_0;
+		Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95* L_21 = (Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95*)il2cpp_codegen_object_new(Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95_il2cpp_TypeInfo_var);
+		Predicate_1__ctor_m89F41C6F16BAB58D6E29FF64FBFAFD0DC049D239(L_21, L_20, (intptr_t)((void*)U3CU3Ec__DisplayClass19_0_U3CRemoveFromChannelU3Eb__0_m936456666AB7CC9D37252D8CE4A42BD4182CE023_RuntimeMethod_var), NULL);
+		NullCheck(L_19);
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_22;
+		L_22 = List_1_Find_m6A82E298733F8B4C91F5CF492F55DF744B67A69D(L_19, L_21, List_1_Find_m6A82E298733F8B4C91F5CF492F55DF744B67A69D_RuntimeMethod_var);
+		V_8 = L_22;
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:574>
+		FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* L_23 = V_4;
+		NullCheck(L_23);
+		FTCType_t154C820F17568CE2E44253D43B5E9C90CC3F5DAF* L_24 = L_23->___channels;
+		NullCheck(L_24);
+		List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* L_25 = L_24->___rifleButt;
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_26 = V_8;
+		NullCheck(L_25);
+		bool L_27;
+		L_27 = List_1_Remove_mC21EB6197AEE1A269AD453EAA1A20A15702E2109(L_25, L_26, List_1_Remove_mC21EB6197AEE1A269AD453EAA1A20A15702E2109_RuntimeMethod_var);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:576>
+		goto IL_01ca;
+	}
+
+IL_00b1:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:579>
+		FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* L_28 = V_4;
+		NullCheck(L_28);
+		FTCType_t154C820F17568CE2E44253D43B5E9C90CC3F5DAF* L_29 = L_28->___channels;
+		NullCheck(L_29);
+		List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* L_30 = L_29->___rifleBolt;
+		U3CU3Ec__DisplayClass19_0_tE4C5CD628310406870B6EFA6BB8095B3CE7154A9* L_31 = V_0;
+		Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95* L_32 = (Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95*)il2cpp_codegen_object_new(Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95_il2cpp_TypeInfo_var);
+		Predicate_1__ctor_m89F41C6F16BAB58D6E29FF64FBFAFD0DC049D239(L_32, L_31, (intptr_t)((void*)U3CU3Ec__DisplayClass19_0_U3CRemoveFromChannelU3Eb__1_mA74D2EC8E4A426D0FFF51C38FBA597294B9493ED_RuntimeMethod_var), NULL);
+		NullCheck(L_30);
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_33;
+		L_33 = List_1_Find_m6A82E298733F8B4C91F5CF492F55DF744B67A69D(L_30, L_32, List_1_Find_m6A82E298733F8B4C91F5CF492F55DF744B67A69D_RuntimeMethod_var);
+		V_9 = L_33;
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:580>
+		FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* L_34 = V_4;
+		NullCheck(L_34);
+		FTCType_t154C820F17568CE2E44253D43B5E9C90CC3F5DAF* L_35 = L_34->___channels;
+		NullCheck(L_35);
+		List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* L_36 = L_35->___rifleBolt;
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_37 = V_9;
+		NullCheck(L_36);
+		bool L_38;
+		L_38 = List_1_Remove_mC21EB6197AEE1A269AD453EAA1A20A15702E2109(L_36, L_37, List_1_Remove_mC21EB6197AEE1A269AD453EAA1A20A15702E2109_RuntimeMethod_var);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:582>
+		goto IL_01ca;
+	}
+
+IL_00eb:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:585>
+		FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* L_39 = V_4;
+		NullCheck(L_39);
+		FTCType_t154C820F17568CE2E44253D43B5E9C90CC3F5DAF* L_40 = L_39->___channels;
+		NullCheck(L_40);
+		List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* L_41 = L_40->___pistol1;
+		U3CU3Ec__DisplayClass19_0_tE4C5CD628310406870B6EFA6BB8095B3CE7154A9* L_42 = V_0;
+		Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95* L_43 = (Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95*)il2cpp_codegen_object_new(Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95_il2cpp_TypeInfo_var);
+		Predicate_1__ctor_m89F41C6F16BAB58D6E29FF64FBFAFD0DC049D239(L_43, L_42, (intptr_t)((void*)U3CU3Ec__DisplayClass19_0_U3CRemoveFromChannelU3Eb__2_m2298C6DA23F7C3A67E6D2A7C3BF05F4CE8C2D079_RuntimeMethod_var), NULL);
+		NullCheck(L_41);
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_44;
+		L_44 = List_1_Find_m6A82E298733F8B4C91F5CF492F55DF744B67A69D(L_41, L_43, List_1_Find_m6A82E298733F8B4C91F5CF492F55DF744B67A69D_RuntimeMethod_var);
+		V_10 = L_44;
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:586>
+		FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* L_45 = V_4;
+		NullCheck(L_45);
+		FTCType_t154C820F17568CE2E44253D43B5E9C90CC3F5DAF* L_46 = L_45->___channels;
+		NullCheck(L_46);
+		List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* L_47 = L_46->___pistol1;
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_48 = V_10;
+		NullCheck(L_47);
+		bool L_49;
+		L_49 = List_1_Remove_mC21EB6197AEE1A269AD453EAA1A20A15702E2109(L_47, L_48, List_1_Remove_mC21EB6197AEE1A269AD453EAA1A20A15702E2109_RuntimeMethod_var);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:588>
+		goto IL_01ca;
+	}
+
+IL_0125:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:591>
+		FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* L_50 = V_4;
+		NullCheck(L_50);
+		FTCType_t154C820F17568CE2E44253D43B5E9C90CC3F5DAF* L_51 = L_50->___channels;
+		NullCheck(L_51);
+		List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* L_52 = L_51->___pistol2;
+		U3CU3Ec__DisplayClass19_0_tE4C5CD628310406870B6EFA6BB8095B3CE7154A9* L_53 = V_0;
+		Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95* L_54 = (Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95*)il2cpp_codegen_object_new(Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95_il2cpp_TypeInfo_var);
+		Predicate_1__ctor_m89F41C6F16BAB58D6E29FF64FBFAFD0DC049D239(L_54, L_53, (intptr_t)((void*)U3CU3Ec__DisplayClass19_0_U3CRemoveFromChannelU3Eb__3_mA6E09E0250891B5F7D7477A88AE3A80CB0527825_RuntimeMethod_var), NULL);
+		NullCheck(L_52);
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_55;
+		L_55 = List_1_Find_m6A82E298733F8B4C91F5CF492F55DF744B67A69D(L_52, L_54, List_1_Find_m6A82E298733F8B4C91F5CF492F55DF744B67A69D_RuntimeMethod_var);
+		V_11 = L_55;
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:592>
+		FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* L_56 = V_4;
+		NullCheck(L_56);
+		FTCType_t154C820F17568CE2E44253D43B5E9C90CC3F5DAF* L_57 = L_56->___channels;
+		NullCheck(L_57);
+		List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* L_58 = L_57->___pistol2;
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_59 = V_11;
+		NullCheck(L_58);
+		bool L_60;
+		L_60 = List_1_Remove_mC21EB6197AEE1A269AD453EAA1A20A15702E2109(L_58, L_59, List_1_Remove_mC21EB6197AEE1A269AD453EAA1A20A15702E2109_RuntimeMethod_var);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:594>
+		goto IL_01ca;
+	}
+
+IL_015c:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:597>
+		FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* L_61 = V_4;
+		NullCheck(L_61);
+		FTCType_t154C820F17568CE2E44253D43B5E9C90CC3F5DAF* L_62 = L_61->___channels;
+		NullCheck(L_62);
+		List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* L_63 = L_62->___other;
+		U3CU3Ec__DisplayClass19_0_tE4C5CD628310406870B6EFA6BB8095B3CE7154A9* L_64 = V_0;
+		Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95* L_65 = (Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95*)il2cpp_codegen_object_new(Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95_il2cpp_TypeInfo_var);
+		Predicate_1__ctor_m89F41C6F16BAB58D6E29FF64FBFAFD0DC049D239(L_65, L_64, (intptr_t)((void*)U3CU3Ec__DisplayClass19_0_U3CRemoveFromChannelU3Eb__4_mB6279C8E98E6CCD6CAD13104CF909E3E22680A98_RuntimeMethod_var), NULL);
+		NullCheck(L_63);
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_66;
+		L_66 = List_1_Find_m6A82E298733F8B4C91F5CF492F55DF744B67A69D(L_63, L_65, List_1_Find_m6A82E298733F8B4C91F5CF492F55DF744B67A69D_RuntimeMethod_var);
+		V_12 = L_66;
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:598>
+		FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* L_67 = V_4;
+		NullCheck(L_67);
+		FTCType_t154C820F17568CE2E44253D43B5E9C90CC3F5DAF* L_68 = L_67->___channels;
+		NullCheck(L_68);
+		List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* L_69 = L_68->___other;
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_70 = V_12;
+		NullCheck(L_69);
+		bool L_71;
+		L_71 = List_1_Remove_mC21EB6197AEE1A269AD453EAA1A20A15702E2109(L_69, L_70, List_1_Remove_mC21EB6197AEE1A269AD453EAA1A20A15702E2109_RuntimeMethod_var);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:600>
+		goto IL_01ca;
+	}
+
+IL_0193:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:603>
+		FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* L_72 = V_4;
+		NullCheck(L_72);
+		FTCType_t154C820F17568CE2E44253D43B5E9C90CC3F5DAF* L_73 = L_72->___channels;
+		NullCheck(L_73);
+		List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* L_74 = L_73->___vest;
+		U3CU3Ec__DisplayClass19_0_tE4C5CD628310406870B6EFA6BB8095B3CE7154A9* L_75 = V_0;
+		Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95* L_76 = (Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95*)il2cpp_codegen_object_new(Predicate_1_t9F2EFEDFDB3A440798FEA139DAC4AFE4D8F36D95_il2cpp_TypeInfo_var);
+		Predicate_1__ctor_m89F41C6F16BAB58D6E29FF64FBFAFD0DC049D239(L_76, L_75, (intptr_t)((void*)U3CU3Ec__DisplayClass19_0_U3CRemoveFromChannelU3Eb__5_mD0FC967B54190E1019A24C19347BC0988F5CDE4A_RuntimeMethod_var), NULL);
+		NullCheck(L_74);
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_77;
+		L_77 = List_1_Find_m6A82E298733F8B4C91F5CF492F55DF744B67A69D(L_74, L_76, List_1_Find_m6A82E298733F8B4C91F5CF492F55DF744B67A69D_RuntimeMethod_var);
+		V_13 = L_77;
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:604>
+		FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* L_78 = V_4;
+		NullCheck(L_78);
+		FTCType_t154C820F17568CE2E44253D43B5E9C90CC3F5DAF* L_79 = L_78->___channels;
+		NullCheck(L_79);
+		List_1_tDF19C4963A3176BBAB4CB175A6FF8AAF3DE5A49E* L_80 = L_79->___vest;
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_81 = V_13;
+		NullCheck(L_80);
+		bool L_82;
+		L_82 = List_1_Remove_mC21EB6197AEE1A269AD453EAA1A20A15702E2109(L_80, L_81, List_1_Remove_mC21EB6197AEE1A269AD453EAA1A20A15702E2109_RuntimeMethod_var);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:606>
+		goto IL_01ca;
+	}
+
+IL_01ca:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:609>
+		FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* L_83 = V_4;
+		String_t* L_84;
+		L_84 = JsonUtility_ToJson_m28CC6843B9D3723D88AD13EA3829B71FDE7826BA(L_83, NULL);
+		V_3 = L_84;
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:611>
+		String_t* L_85 = V_2;
+		String_t* L_86;
+		L_86 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralA7EF181E4E2AC44A68E4841A755DD3867E96B931, L_85, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_86, NULL);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:612>
+		String_t* L_87 = V_2;
+		String_t* L_88 = V_3;
+		File_WriteAllText_m8AE8932A417928EF1E86F1E6B37C7A41904614D1(L_87, L_88, NULL);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:613>
+		bool L_89;
+		L_89 = ForceTubeVRInterface_LoadChannelJSon_mAF5DD01DEA9C90A85B264F2F994D10331CF1B982(NULL);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:614>
+		V_14 = (bool)1;
+		goto IL_01f6;
+	}
+
+IL_01f6:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:625>
+		bool L_90 = V_14;
+		return L_90;
+	}
+}
+// Method Definition Index: 136519
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForceTubeVRInterface_ClearChannel_m544D0F830C0B984D3FB99AD79D51CCAC06D141D3 (int32_t ___0_nChannel, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3B373FD7CD324405B7FA45BDCCFD54439F232888);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:630>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		V_0 = (bool)((!(((RuntimeObject*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:632>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = L_3;
+		int32_t L_5 = ___0_nChannel;
+		int32_t L_6 = L_5;
+		RuntimeObject* L_7 = Box(il2cpp_defaults.int32_class, &L_6);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_7);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_7);
+		NullCheck(L_2);
+		AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C(L_2, _stringLiteral3B373FD7CD324405B7FA45BDCCFD54439F232888, L_4, NULL);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:633>
+		bool L_8;
+		L_8 = ForceTubeVRInterface_SaveChannelJSon_m65E495CB0DE73041A6E7DA37AFFA8DEBE0EE6306(NULL);
+	}
+
+IL_0034:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:643>
+		return;
+	}
+}
+// Method Definition Index: 136520
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForceTubeVRInterface_ClearAllChannel_m3E08E1973693978174674F8D885FD633D1F1C6AC (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9C105B704FF5CEEBC0F3EBE2D5D8783844C769BE);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:648>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		V_0 = (bool)((!(((RuntimeObject*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:650>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3;
+		L_3 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_2);
+		AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C(L_2, _stringLiteral9C105B704FF5CEEBC0F3EBE2D5D8783844C769BE, L_3, NULL);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:651>
+		bool L_4;
+		L_4 = ForceTubeVRInterface_SaveChannelJSon_m65E495CB0DE73041A6E7DA37AFFA8DEBE0EE6306(NULL);
+	}
+
+IL_002a:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:661>
+		return;
+	}
+}
+// Method Definition Index: 136521
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForceTubeVRInterface_OpenBluetoothSettings_m633C19F1ED6A3601E7D021C17AD767151A66FC12 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral17FAB2A8A9A9CFE21DE166623AC30D6F44C9266B);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:672>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		V_0 = (bool)((!(((RuntimeObject*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:674>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3;
+		L_3 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_2);
+		AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C(L_2, _stringLiteral17FAB2A8A9A9CFE21DE166623AC30D6F44C9266B, L_3, NULL);
+	}
+
+IL_0024:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:677>
+		return;
+	}
+}
+// Method Definition Index: 136522
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForceTubeVRInterface_DisconnectAll_m99F86E350804B1B280C7469C38D5AFDCBDA5EFC7 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8EFC9483FF992CD27566EF692EFBBEB06255186A);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:682>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		V_0 = (bool)((!(((RuntimeObject*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:684>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3;
+		L_3 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_2);
+		AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C(L_2, _stringLiteral8EFC9483FF992CD27566EF692EFBBEB06255186A, L_3, NULL);
+	}
+
+IL_0024:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:688>
+		return;
+	}
+}
+// Method Definition Index: 136523
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForceTubeVRInterface_OnDestroy_m0C80E1CD7C4A81D1369A1755D8DACBEEBBD6B777 (ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7FB065FC47DDCF8134948800A310281E12F058C7);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:693>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		V_0 = (bool)((!(((RuntimeObject*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:695>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3;
+		L_3 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_2);
+		AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C(L_2, _stringLiteral7FB065FC47DDCF8134948800A310281E12F058C7, L_3, NULL);
+	}
+
+IL_0024:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:698>
+		return;
+	}
+}
+// Method Definition Index: 136524
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForceTubeVRInterface__ctor_mD4F6EFC8ABD0B1669F108B110F165E8AFBBD87B5 (ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 136525
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FTChannel__ctor_m1E76476A1F14C1079FE67DDE0C788FDDCE67A050 (FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 136526
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FTCType__ctor_m1FC77BC7C8E97502B25861CD62770C710453F6C9 (FTCType_t154C820F17568CE2E44253D43B5E9C90CC3F5DAF* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 136527
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FTChannelFile__ctor_m86CFCDFC511B0B0771C17DB678EA9154D7DC7A48 (FTChannelFile_t281F7C22B2173E2C5BB5471E107C11F4AE3639CC* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 136528
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass19_0__ctor_mDEFBCBDB48544B842989C78910783FADC9F8BA24 (U3CU3Ec__DisplayClass19_0_tE4C5CD628310406870B6EFA6BB8095B3CE7154A9* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 136529
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass19_0_U3CRemoveFromChannelU3Eb__0_m936456666AB7CC9D37252D8CE4A42BD4182CE023 (U3CU3Ec__DisplayClass19_0_tE4C5CD628310406870B6EFA6BB8095B3CE7154A9* __this, FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* ___0_x, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:573>
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_0 = ___0_x;
+		NullCheck(L_0);
+		String_t* L_1 = L_0->___name;
+		String_t* L_2 = __this->___sName;
+		bool L_3;
+		L_3 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_1, L_2, NULL);
+		return L_3;
+	}
+}
+// Method Definition Index: 136530
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass19_0_U3CRemoveFromChannelU3Eb__1_mA74D2EC8E4A426D0FFF51C38FBA597294B9493ED (U3CU3Ec__DisplayClass19_0_tE4C5CD628310406870B6EFA6BB8095B3CE7154A9* __this, FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* ___0_x, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:579>
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_0 = ___0_x;
+		NullCheck(L_0);
+		String_t* L_1 = L_0->___name;
+		String_t* L_2 = __this->___sName;
+		bool L_3;
+		L_3 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_1, L_2, NULL);
+		return L_3;
+	}
+}
+// Method Definition Index: 136531
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass19_0_U3CRemoveFromChannelU3Eb__2_m2298C6DA23F7C3A67E6D2A7C3BF05F4CE8C2D079 (U3CU3Ec__DisplayClass19_0_tE4C5CD628310406870B6EFA6BB8095B3CE7154A9* __this, FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* ___0_x, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:585>
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_0 = ___0_x;
+		NullCheck(L_0);
+		String_t* L_1 = L_0->___name;
+		String_t* L_2 = __this->___sName;
+		bool L_3;
+		L_3 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_1, L_2, NULL);
+		return L_3;
+	}
+}
+// Method Definition Index: 136532
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass19_0_U3CRemoveFromChannelU3Eb__3_mA6E09E0250891B5F7D7477A88AE3A80CB0527825 (U3CU3Ec__DisplayClass19_0_tE4C5CD628310406870B6EFA6BB8095B3CE7154A9* __this, FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* ___0_x, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:591>
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_0 = ___0_x;
+		NullCheck(L_0);
+		String_t* L_1 = L_0->___name;
+		String_t* L_2 = __this->___sName;
+		bool L_3;
+		L_3 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_1, L_2, NULL);
+		return L_3;
+	}
+}
+// Method Definition Index: 136533
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass19_0_U3CRemoveFromChannelU3Eb__4_mB6279C8E98E6CCD6CAD13104CF909E3E22680A98 (U3CU3Ec__DisplayClass19_0_tE4C5CD628310406870B6EFA6BB8095B3CE7154A9* __this, FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* ___0_x, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:597>
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_0 = ___0_x;
+		NullCheck(L_0);
+		String_t* L_1 = L_0->___name;
+		String_t* L_2 = __this->___sName;
+		bool L_3;
+		L_3 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_1, L_2, NULL);
+		return L_3;
+	}
+}
+// Method Definition Index: 136534
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass19_0_U3CRemoveFromChannelU3Eb__5_mD0FC967B54190E1019A24C19347BC0988F5CDE4A (U3CU3Ec__DisplayClass19_0_tE4C5CD628310406870B6EFA6BB8095B3CE7154A9* __this, FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* ___0_x, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:603>
+		FTChannel_tE40494C4FCA394C957B40CEB2A7BC09A455EB962* L_0 = ___0_x;
+		NullCheck(L_0);
+		String_t* L_1 = L_0->___name;
+		String_t* L_2 = __this->___sName;
+		bool L_3;
+		L_3 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_1, L_2, NULL);
+		return L_3;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 136535
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitAndroidU3Ed__2__ctor_mD0E2B5393D2FFFC19ACB04EC0DB58E6572DCA48D (U3CInitAndroidU3Ed__2_tB232CF32478A4FA9E7C08A673B624479113AE1A0* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 136536
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitAndroidU3Ed__2_System_IDisposable_Dispose_mBDF8DA3071876B87226FE954B57EEAF2552797C9 (U3CInitAndroidU3Ed__2_tB232CF32478A4FA9E7C08A673B624479113AE1A0* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 136537
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CInitAndroidU3Ed__2_MoveNext_mBB813757014F95E9EB5825C38F1577516A7DCC95 (U3CInitAndroidU3Ed__2_tB232CF32478A4FA9E7C08A673B624479113AE1A0* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_CallStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m398EA96C1DE1BB885F2B1DD0E00E8BBA86B49E63_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2063737B07B6658BC2E1EC3128D4E09E57CA123E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3106F22B1AE813C362C53EC20D0E459355C444AE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4D613657609485AE586A3379BA0E3FC13C1E1078);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFB4AE4F77150C3A8E8E4F8B23E734E0C7277B7D9);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) == ((int32_t)1)))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		goto IL_0016;
+	}
+
+IL_0012:
+	{
+		goto IL_0018;
+	}
+
+IL_0014:
+	{
+		goto IL_0039;
+	}
+
+IL_0016:
+	{
+		return (bool)0;
+	}
+
+IL_0018:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:32>
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_3 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_3, (0.100000001f), NULL);
+		__this->___U3CU3E2__current = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_3);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0039:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:33>
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_4 = ((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin;
+		V_1 = (bool)((((RuntimeObject*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)L_4) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_5 = V_1;
+		if (!L_5)
+		{
+			goto IL_00e7;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:35>
+		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_6 = (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03*)il2cpp_codegen_object_new(AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var);
+		AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389(L_6, _stringLiteral4D613657609485AE586A3379BA0E3FC13C1E1078, NULL);
+		__this->___U3CunityPlayerU3E5__1 = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CunityPlayerU3E5__1), (void*)L_6);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:36>
+		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_7 = __this->___U3CunityPlayerU3E5__1;
+		NullCheck(L_7);
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_8;
+		L_8 = AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD(L_7, _stringLiteralFB4AE4F77150C3A8E8E4F8B23E734E0C7277B7D9, AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD_RuntimeMethod_var);
+		__this->___U3CactivityU3E5__2 = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CactivityU3E5__2), (void*)L_8);
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:37>
+		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_9 = (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03*)il2cpp_codegen_object_new(AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var);
+		AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389(L_9, _stringLiteral3106F22B1AE813C362C53EC20D0E459355C444AE, NULL);
+		__this->___U3CbuilderClassU3E5__3 = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CbuilderClassU3E5__3), (void*)L_9);
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_00bc:
+			{
+				{
+					AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_10 = __this->___U3CbuilderClassU3E5__3;
+					if (!L_10)
+					{
+						goto IL_00d0;
+					}
+				}
+				{
+					AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_11 = __this->___U3CbuilderClassU3E5__3;
+					NullCheck(L_11);
+					InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_11);
+				}
+
+IL_00d0:
+				{
+					return;
+				}
+			}
+		});
+		try
+		{
+			//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:39>
+			AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_12 = __this->___U3CbuilderClassU3E5__3;
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_13 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_14 = L_13;
+			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_15 = __this->___U3CactivityU3E5__2;
+			NullCheck(L_14);
+			ArrayElementTypeCheck (L_14, L_15);
+			(L_14)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_15);
+			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_16 = L_14;
+			bool L_17 = __this->___pistolsFirst;
+			bool L_18 = L_17;
+			RuntimeObject* L_19 = Box(il2cpp_defaults.boolean_class, &L_18);
+			NullCheck(L_16);
+			ArrayElementTypeCheck (L_16, L_19);
+			(L_16)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_19);
+			NullCheck(L_12);
+			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_20;
+			L_20 = AndroidJavaObject_CallStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m398EA96C1DE1BB885F2B1DD0E00E8BBA86B49E63(L_12, _stringLiteral2063737B07B6658BC2E1EC3128D4E09E57CA123E, L_16, AndroidJavaObject_CallStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m398EA96C1DE1BB885F2B1DD0E00E8BBA86B49E63_RuntimeMethod_var);
+			((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin = L_20;
+			Il2CppCodeGenWriteBarrier((void**)(&((ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_StaticFields*)il2cpp_codegen_static_fields_for(ForceTubeVRInterface_t1448ECA9539E3614F5C15BCAE9E8E2F25079CBC9_il2cpp_TypeInfo_var))->___ForceTubeVRPlugin), (void*)L_20);
+			goto IL_00d1;
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_00d1:
+	{
+		__this->___U3CbuilderClassU3E5__3 = (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CbuilderClassU3E5__3), (void*)(AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03*)NULL);
+		__this->___U3CunityPlayerU3E5__1 = (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CunityPlayerU3E5__1), (void*)(AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03*)NULL);
+		__this->___U3CactivityU3E5__2 = (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CactivityU3E5__2), (void*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)NULL);
+	}
+
+IL_00e7:
+	{
+		//<source_info:C:/Users/User/UnitySaves/My project (1)/Assets/Plugins/ForceTubeVRInterface.cs:42>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 136538
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInitAndroidU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mEE353A34A64F3E937D9AC7B1FE42CB3C0051F144 (U3CInitAndroidU3Ed__2_tB232CF32478A4FA9E7C08A673B624479113AE1A0* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 136539
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitAndroidU3Ed__2_System_Collections_IEnumerator_Reset_mB1D24B59C58A1B5DA44019EA3E40D7A561EC4E15 (U3CInitAndroidU3Ed__2_tB232CF32478A4FA9E7C08A673B624479113AE1A0* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CInitAndroidU3Ed__2_System_Collections_IEnumerator_Reset_mB1D24B59C58A1B5DA44019EA3E40D7A561EC4E15_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 136540
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInitAndroidU3Ed__2_System_Collections_IEnumerator_get_Current_m7228EBBB594DE6F6EE4E93B0F8A2E83F37D3C8A6 (U3CInitAndroidU3Ed__2_tB232CF32478A4FA9E7C08A673B624479113AE1A0* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 136541
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mC7CA174A23290C34424DF6D2733D5E64B92E5977 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tDF76FE2002958A97429065AC028E0A0C70442121____11E66558B67034785C6BD2A0219221C8AE9241D4AE905B010A8BA43457307AE5_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tDF76FE2002958A97429065AC028E0A0C70442121____C5DAF363AC38AEEA437B835E56DA6A4C0B49607DE1E856F7844322F63829458C_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)47));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tDF76FE2002958A97429065AC028E0A0C70442121____C5DAF363AC38AEEA437B835E56DA6A4C0B49607DE1E856F7844322F63829458C_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		(&V_0)->___FilePathsData = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)133));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tDF76FE2002958A97429065AC028E0A0C70442121____11E66558B67034785C6BD2A0219221C8AE9241D4AE905B010A8BA43457307AE5_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		(&V_0)->___TypesData = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
+		(&V_0)->___TotalFiles = 1;
+		(&V_0)->___TotalTypes = 4;
+		(&V_0)->___IsEditorOnly = (bool)0;
+		MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685 L_6 = V_0;
+		V_1 = L_6;
+		goto IL_005a;
+	}
+
+IL_005a:
+	{
+		MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685 L_7 = V_1;
+		return L_7;
+	}
+}
+// Method Definition Index: 136542
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m3C9D09F94200334DD5FA29A465481C7848AF4549 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC4249931E82CEBAEC1968B680E9E9A0DF4A946C6* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshal_pinvoke(const MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685& unmarshaled, MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshaled_pinvoke& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshal_pinvoke_back(const MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshaled_pinvoke& marshaled, MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshal_pinvoke_cleanup(MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshal_com(const MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685& unmarshaled, MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshaled_com& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshal_com_back(const MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshaled_com& marshaled, MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshal_com_cleanup(MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshaled_com& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 3397
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline (const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 2));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = ((EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->rgctx_data, 2)))->___Value;
+		return L_0;
+	}
+}
+// Method Definition Index: 11731
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
+		int32_t L_7 = V_1;
+		RuntimeObject* L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		RuntimeObject* L_9 = ___0_item;
+		List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4979034552377794839}
   - component: {fileID: 8601274191407652354}
   - component: {fileID: 4832427664557118206}
+  - component: {fileID: 6166083189365890707}
   m_Layer: 0
   m_Name: projectile
   m_TagString: bullet
@@ -155,3 +156,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Projectile
   lifetime: 5
+--- !u!114 &6166083189365890707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6067728771518257848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6524e0d400acd240b2969df7e46e217, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'

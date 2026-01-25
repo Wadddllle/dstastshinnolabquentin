@@ -19,11 +19,11 @@ public class TraineeState : BaseState
             AppManager.Instance.visionScanner.enabled = true;
         }
 
-        if (AppManager.Instance.raycastWeapon != null)
-        {
-            AppManager.Instance.raycastWeapon.gameObject.SetActive(true);
-            AppManager.Instance.raycastWeapon.enabled = true;
-        }
+        //if (AppManager.Instance.raycastWeapon != null)
+        //{
+        //    AppManager.Instance.raycastWeapon.gameObject.SetActive(true);
+        //    AppManager.Instance.raycastWeapon.enabled = true;
+        //}
 
         // 3. Wake Up Enemies (Colliders/Scripts)
         if (SessionManager.Instance != null)
@@ -48,10 +48,10 @@ public class TraineeState : BaseState
         // INPUT: FIRE (Right Index Trigger)
         if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch))
         {
-            if (AppManager.Instance.raycastWeapon != null)
-            {
-                AppManager.Instance.raycastWeapon.Fire();
-            }
+            //if (AppManager.Instance.raycastWeapon != null)
+            //{
+            //    AppManager.Instance.raycastWeapon.Fire();
+            //}
         }
 
         // INPUT: FINISH (Right B Button)

@@ -26921,7 +26921,7 @@ IL2CPP_EXTERN_C  ReadOnly_t0CC4899AEC5833731AA82AB23F46B5E632B3AFC1 UnsafeParall
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 124171
+// Method Definition Index: 122972
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafePointer_1__ctor_mEAB834E5EC64BDAFB4E65841069467B445792E28_gshared (UnsafePointer_1_tF385D024AE7CE922E875123DEB39FC33DF1520AB* __this, Il2CppFullySharedGenericStruct ___0_defaultValue, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_t517760846E24B60A9BCB02EFB84A6B8DE05BEE5F = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4));
@@ -26951,7 +26951,7 @@ IL2CPP_EXTERN_C  void UnsafePointer_1__ctor_mEAB834E5EC64BDAFB4E65841069467B4457
 	_thisAdjusted = reinterpret_cast<UnsafePointer_1_tF385D024AE7CE922E875123DEB39FC33DF1520AB*>(__this + _offset);
 	UnsafePointer_1__ctor_mEAB834E5EC64BDAFB4E65841069467B445792E28(_thisAdjusted, ___0_defaultValue, method);
 }
-// Method Definition Index: 124172
+// Method Definition Index: 122973
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnsafePointer_1_tF385D024AE7CE922E875123DEB39FC33DF1520AB UnsafePointer_1_Create_mDF8426E12B62CF4798F874A841205452FFB0234E_gshared (const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_t517760846E24B60A9BCB02EFB84A6B8DE05BEE5F = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4));
@@ -26979,7 +26979,7 @@ IL_0012:
 		return L_3;
 	}
 }
-// Method Definition Index: 124173
+// Method Definition Index: 122974
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnsafePointer_1_get_IsCreated_mBB1A702E8AB6F902F57B69D3BF045600C7DBCCAF_gshared (UnsafePointer_1_tF385D024AE7CE922E875123DEB39FC33DF1520AB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26997,7 +26997,7 @@ IL2CPP_EXTERN_C  bool UnsafePointer_1_get_IsCreated_mBB1A702E8AB6F902F57B69D3BF0
 	_returnValue = UnsafePointer_1_get_IsCreated_mBB1A702E8AB6F902F57B69D3BF045600C7DBCCAF(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 124174
+// Method Definition Index: 122975
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppFullySharedGenericStruct* UnsafePointer_1_get_item_m81230772F9B554F9F3F4BB58C8C62A93A8B9FAFF_gshared (UnsafePointer_1_tF385D024AE7CE922E875123DEB39FC33DF1520AB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27015,7 +27015,7 @@ IL2CPP_EXTERN_C  Il2CppFullySharedGenericStruct* UnsafePointer_1_get_item_m81230
 	_returnValue = UnsafePointer_1_get_item_m81230772F9B554F9F3F4BB58C8C62A93A8B9FAFF_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 124175
+// Method Definition Index: 122976
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafePointer_1_Dispose_m09F498EBA96C0C7BEBA089DA0DB2BD7F0E555428_gshared (UnsafePointer_1_tF385D024AE7CE922E875123DEB39FC33DF1520AB* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -31710,7 +31710,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool UnsafeParallelMultiHashMap_2
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 124174
+// Method Definition Index: 122975
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Il2CppFullySharedGenericStruct* UnsafePointer_1_get_item_m81230772F9B554F9F3F4BB58C8C62A93A8B9FAFF_gshared_inline (UnsafePointer_1_tF385D024AE7CE922E875123DEB39FC33DF1520AB* __this, const RuntimeMethod* method) 
 {
 	{

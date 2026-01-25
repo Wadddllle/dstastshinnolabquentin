@@ -105,6 +105,10 @@ public class AAR_Visualizer : MonoBehaviour
         UpdateVisualization();
     }
 
+    public void isPlayingButton() { 
+        isPlaying = !isPlaying;
+    }
+
     public void OnUserScrub(float value)
     {
         isPlaying = false;

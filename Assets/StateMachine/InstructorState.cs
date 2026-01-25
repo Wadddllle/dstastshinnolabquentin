@@ -8,7 +8,7 @@ public class InstructorState : BaseState
 
         // 1. The Magic Swap
         Manager.SetActiveRoot(Manager.InstructorRoot);
-
+        Manager.globalPathfinder.gameObject.SetActive(false);
         // 2. Data Cleanup
         Manager.tacticalGrid.ClearGrid();
     }

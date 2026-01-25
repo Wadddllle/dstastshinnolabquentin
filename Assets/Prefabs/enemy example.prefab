@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 649197071385422186}
   - component: {fileID: 6413661108727706228}
   - component: {fileID: 369727143556832407}
-  - component: {fileID: 1866729045107365175}
   - component: {fileID: 1218426490068614145}
   - component: {fileID: 3979804038156812875}
   m_Layer: 7
@@ -190,19 +189,6 @@ MonoBehaviour:
   _releaseDistance: 0
   _resetGrabOnGrabsUpdated: 1
   _physicsGrabbable: {fileID: 0}
---- !u!114 &1866729045107365175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6892469893750615395}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3361ee10a6031064eb01bd34e9e2a364, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  newColor: {r: 0, g: 0, b: 1, a: 1}
 --- !u!65 &1218426490068614145
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -236,6 +222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9fb35357511be5418850fdf1c0d8b26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  meshRenderer: {fileID: 8574443568957673808}
+  mainRenderer: {fileID: 8574443568957673808}
   aliveMaterial: {fileID: 2100000, guid: 6b2abe7dd03e5834b9f2efbb10b055d2, type: 2}
   deadMaterial: {fileID: 2100000, guid: 7e15bb16b66c03a4b9195bcde90210cb, type: 2}
+  soldierAnimator: {fileID: 0}

@@ -15,6 +15,7 @@ IL2CPP_EXTERN_C const Il2CppMethodPointer g_UnresolvedVirtualMethodPointers[];
 IL2CPP_EXTERN_C const Il2CppMethodPointer g_UnresolvedInstanceMethodPointers[];
 IL2CPP_EXTERN_C const Il2CppMethodPointer g_UnresolvedStaticMethodPointers[];
 IL2CPP_EXTERN_C Il2CppInteropData g_Il2CppInteropData[];
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AssemblyU2DCSharpU2Dfirstpass_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Meta_XR_Audio_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Meta_XR_BuildingBlocks_CodeGenModule;
@@ -115,8 +116,9 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g___Generated_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_meta_xr_mrutilitykit_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[99] = 
+const Il2CppCodeGenModule* g_CodeGenModules[100] = 
 {
+	(&g_AssemblyU2DCSharpU2Dfirstpass_CodeGenModule),
 	(&g_AssemblyU2DCSharp_CodeGenModule),
 	(&g_Meta_XR_Audio_CodeGenModule),
 	(&g_Meta_XR_BuildingBlocks_CodeGenModule),
@@ -222,20 +224,20 @@ const Il2CppCodeRegistration g_CodeRegistration =
 {
 	102,
 	g_ReversePInvokeWrapperPointers,
-	196624,
+	196633,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	39350,
+	39358,
 	g_Il2CppInvokerPointers,
 	6483,
 	g_UnresolvedVirtualMethodPointers,
 	g_UnresolvedInstanceMethodPointers,
 	g_UnresolvedStaticMethodPointers,
-	1704,
+	1705,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	99,
+	100,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;

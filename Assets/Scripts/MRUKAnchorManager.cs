@@ -121,4 +121,11 @@ public class MRUKAnchorManager : MonoBehaviour
             _floorRenderer.enabled = !_floorRenderer.enabled;
         }
     }
+    public void ToggleFloorVisibility(bool isVisible)
+    {
+        if (_floorRenderer != null)
+        {
+            _floorRenderer.enabled = isVisible;
+        }
+    }
 }

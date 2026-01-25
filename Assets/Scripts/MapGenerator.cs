@@ -10,7 +10,7 @@ public class MapGenerator : MonoBehaviour
     [Header("Settings")]
     public int resolution = 1024;
     public float sliceHeight = 1.5f;
-    public float floorBuffer = 0.2f;
+    public float floorBuffer = 0.3f;
 
     [Header("Output")]
     public string fileName = "Map_Snapshot.png";

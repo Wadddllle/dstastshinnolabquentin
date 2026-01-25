@@ -181,4 +181,8 @@ public class ZoneTool : MonoBehaviour
         _previewCursor.GetComponent<Renderer>().material.color = Color.yellow;
         _previewCursor.SetActive(false);
     }
+    public bool IsZoneConfirmed()
+    {
+        return _isZoneLocked;
+    }
 }

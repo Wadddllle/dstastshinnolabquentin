@@ -2,31 +2,56 @@ using UnityEngine;
 
 public class TargetBehavior : MonoBehaviour
 {
-    // Assign these in Inspector
-    public Renderer meshRenderer;
+    [Header("Visuals")]
+    [Tooltip("Drag the soldier's Renderer here. (SkinnedMeshRenderer for characters, MeshRenderer for cubes)")]
+    public Renderer mainRenderer;
+
     public Material aliveMaterial;
     public Material deadMaterial;
 
+    [Tooltip("Optional: Drag Animator here if the soldier has animations")]
+    public Animator soldierAnimator;
+
     private bool _isDead = false;
 
-    // Called by SessionManager when starting Trainee Mode
+    // Called by your Game Manager to reset the enemy
     public void ResetTarget()
     {
         _isDead = false;
-        if (meshRenderer && aliveMaterial) meshRenderer.material = aliveMaterial;
+
+        // Reset Material
+        if (mainRenderer && aliveMaterial)
+            mainRenderer.material = aliveMaterial;
+
+        // Reset Animation (if you add animations later)
+        if (soldierAnimator != null)
+        {
+            soldierAnimator.enabled = true; // Re-enable animations
+        }
     }
 
-    // Called by the Gun
+    // Called by BulletCollision.cs
     public void HitByBullet(Vector3 hitPoint)
     {
         if (_isDead) return;
 
         _isDead = true;
 
-        if (meshRenderer && deadMaterial) meshRenderer.material = deadMaterial;
+        // --- 1. Visual Feedback ---
+        if (mainRenderer && deadMaterial)
+        {
+            mainRenderer.material = deadMaterial;
+        }
 
-        // --- THE FIX ---
-        // Use GridRecorder.Instance instead of Manager.gridRecorder
+        // --- 2. Handle 3D Model Death ---
+        // If it's a soldier, you might want to disable the animator so it stops playing "Idle"
+        // or enable ragdoll physics here. For now, we'll just stop the animator.
+        if (soldierAnimator != null)
+        {
+            soldierAnimator.enabled = false;
+        }
+
+        // --- 3. Log to GridRecorder ---
         if (GridRecorder.Instance != null)
         {
             GridRecorder.Instance.LogEvent("KILL", $"Neutralized: {gameObject.name}", hitPoint);
