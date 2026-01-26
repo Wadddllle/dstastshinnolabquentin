@@ -16,6 +16,6 @@ public class BulletCollision : MonoBehaviour
         }
 
         // Destroy the bullet immediately on impact
-        Destroy(gameObject);
+        //Destroy(gameObject);
     }
 }

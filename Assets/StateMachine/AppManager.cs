@@ -28,6 +28,8 @@ public class AppManager : MonoBehaviour
     // 2. The Gun (Right Hand Controller) - NEW
     //public RaycastWeapon raycastWeapon;
     public GlobalPathfinder globalPathfinder;
+    public GameObject gunPivotRoot;
+
 
     // State Machine internals
     public BaseState _currentState { get; private set; }
@@ -46,6 +48,8 @@ public class AppManager : MonoBehaviour
 
         if (visionScanner) visionScanner.enabled = false;
         //if (raycastWeapon) raycastWeapon.enabled = false;
+        if (gunPivotRoot) gunPivotRoot.SetActive(false); // Ensure gun starts hidden
+
 
         ChangeState(new InstructorState());
     }
@@ -72,6 +76,8 @@ public class AppManager : MonoBehaviour
 
         if (visionScanner != null) visionScanner.gameObject.SetActive(false);
         //if (raycastWeapon != null) raycastWeapon.gameObject.SetActive(false);
+        if (gunPivotRoot != null) gunPivotRoot.SetActive(false);
+
 
 
         // 2. Turn the requested one ON

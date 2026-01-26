@@ -35939,7 +35939,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float OpenXRRestarter_get_TimeBet
 		return L_0;
 	}
 }
-// Method Definition Index: 136210
+// Method Definition Index: 136216
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* XRManagerSettings_get_activeLoader_mFB3B679005792D3DF871EAA7120DD86DCA1D5DEA_inline (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36392,7 +36392,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3Control_t32D7E4836F56C2FDC
 		return L_0;
 	}
 }
-// Method Definition Index: 126846
+// Method Definition Index: 126852
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* TexturesExtension_get_LeftTexture_mFBDAC6C5F3B74AD77A0759FA479F40DEF11F510A_inline (TexturesExtension_tDD606F9105098773605C2881E410842014684B25* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36401,7 +36401,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Texture_t791CBB51219779964E0E8A2E
 		return L_0;
 	}
 }
-// Method Definition Index: 126479
+// Method Definition Index: 126485
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR LayerData_tC074CAFB1920401B787CE941C66D1E51A221D325* CompositionLayer_get_LayerData_m92E3575340A60FDA69DDDE1C96C9C1D54143C9E4_inline (CompositionLayer_tB17BA358F28A0A8FD522860354804EB94C636ADA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36410,7 +36410,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR LayerData_tC074CAFB1920401B787CE9
 		return L_0;
 	}
 }
-// Method Definition Index: 126856
+// Method Definition Index: 126862
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t TexturesExtension_get_sourceTexture_m1D682B331FD171E6AF56985C292302AF8568B1F3_inline (TexturesExtension_tDD606F9105098773605C2881E410842014684B25* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36419,7 +36419,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t TexturesExtension_get_sou
 		return L_0;
 	}
 }
-// Method Definition Index: 126858
+// Method Definition Index: 126864
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 TexturesExtension_get_Resolution_m95F342919229A7F0C103F442EBA8A120A5D005B4_inline (TexturesExtension_tDD606F9105098773605C2881E410842014684B25* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36428,7 +36428,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_0;
 	}
 }
-// Method Definition Index: 126868
+// Method Definition Index: 126874
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TexturesExtension_get_CropToAspect_m14041C31A29762EB6AEC92CEDEAC4C7774ACD2C6_inline (TexturesExtension_tDD606F9105098773605C2881E410842014684B25* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36437,7 +36437,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TexturesExtension_get_CropTo
 		return L_0;
 	}
 }
-// Method Definition Index: 126769
+// Method Definition Index: 126775
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool CylinderLayerData_get_ApplyTransformScale_m70392A3797AA107502A8C910341A3FDDEB5D25D8_inline (CylinderLayerData_t2CBE6EC85107126C64C6877037AD89444141F3AE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36446,7 +36446,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool CylinderLayerData_get_ApplyT
 		return L_0;
 	}
 }
-// Method Definition Index: 126759
+// Method Definition Index: 126765
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float CylinderLayerData_get_Radius_m9C25D6762DF885B93F7E4938A7D99E9D30219806_inline (CylinderLayerData_t2CBE6EC85107126C64C6877037AD89444141F3AE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36455,7 +36455,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float CylinderLayerData_get_Radiu
 		return L_0;
 	}
 }
-// Method Definition Index: 126767
+// Method Definition Index: 126773
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float CylinderLayerData_get_AspectRatio_m1B10CE71B57CB7851552DCF61F5565D538E52B2B_inline (CylinderLayerData_t2CBE6EC85107126C64C6877037AD89444141F3AE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36464,7 +36464,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float CylinderLayerData_get_Aspec
 		return L_0;
 	}
 }
-// Method Definition Index: 126854
+// Method Definition Index: 126860
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TexturesExtension_get_CustomRects_m4692A298C1688F1D6CE1052E97640AED0E843DD4_inline (TexturesExtension_tDD606F9105098773605C2881E410842014684B25* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36656,7 +36656,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 		return;
 	}
 }
-// Method Definition Index: 126781
+// Method Definition Index: 126787
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float EquirectMeshLayerData_get_CentralHorizontalAngle_m1EB340215A8F33C110BA6D3A0AC82F6C52E7D246_inline (EquirectMeshLayerData_tC38FF994C7D45BC61828F5F54A561A572B406711* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36665,7 +36665,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float EquirectMeshLayerData_get_C
 		return L_0;
 	}
 }
-// Method Definition Index: 126785
+// Method Definition Index: 126791
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float EquirectMeshLayerData_get_UpperVerticalAngle_m01E47F0289D88B89BC7723116F223486CE499BB5_inline (EquirectMeshLayerData_tC38FF994C7D45BC61828F5F54A561A572B406711* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36674,7 +36674,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float EquirectMeshLayerData_get_U
 		return L_0;
 	}
 }
-// Method Definition Index: 126789
+// Method Definition Index: 126795
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float EquirectMeshLayerData_get_LowerVerticalAngle_m99339667FD0D8DBFEA9C5D76A71F644013850ACE_inline (EquirectMeshLayerData_tC38FF994C7D45BC61828F5F54A561A572B406711* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36740,7 +36740,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker__ctor_mDD68B0
 		return;
 	}
 }
-// Method Definition Index: 126474
+// Method Definition Index: 126480
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t63D5645D656AA4114CD4AD643D8806747E09BBC6* CompositionLayer_get_Extensions_mCE578BCE4D83F33DC4B2EBFB1F734BF8EFEA264C_inline (CompositionLayer_tB17BA358F28A0A8FD522860354804EB94C636ADA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36749,7 +36749,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t63D5645D656AA4114CD4AD643
 		return L_0;
 	}
 }
-// Method Definition Index: 126848
+// Method Definition Index: 126854
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* TexturesExtension_get_RightTexture_mDA718811EA428EAF9DAE184A188C9B812652AC93_inline (TexturesExtension_tDD606F9105098773605C2881E410842014684B25* __this, const RuntimeMethod* method) 
 {
 	{

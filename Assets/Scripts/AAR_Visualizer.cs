@@ -93,7 +93,10 @@ public class AAR_Visualizer : MonoBehaviour
 
         UpdateVisualization();
     }
-
+    public void HeatmapToggle()
+    { 
+        showHeatmap = !showHeatmap;
+    }
     void Update()
     {
         if (isPlaying && _frames.Count > 0)

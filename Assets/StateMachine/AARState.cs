@@ -36,7 +36,7 @@ public class AARState : BaseState
     public override void UpdateState()
     {
         // Restart logic
-        if (OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.RTouch))
+        if (OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.LTouch))
         {
             Manager.ChangeState(new InstructorState());
         }

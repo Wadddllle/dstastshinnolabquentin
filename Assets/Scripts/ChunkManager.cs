@@ -1,9 +1,7 @@
-
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using Anaglyph.XRTemplate;
-
 
 public class ChunkManager : MonoBehaviour
 {
@@ -11,6 +9,9 @@ public class ChunkManager : MonoBehaviour
     [SerializeField] private EnvironmentMapper _environmentMapper;
     [SerializeField] private VoxelProvider _voxelProvider;
     [SerializeField] private Material _meshMaterial;
+    // --- ADD THIS ---
+    [SerializeField] private Material _occlusionMaterial; // Drag your 'Mat_Occlusion' here
+    private bool _isOcclusionMode = false;
 
     [Header("Core References")]
     [SerializeField] private OVRCameraRig _cameraRig;
@@ -21,27 +22,24 @@ public class ChunkManager : MonoBehaviour
     [SerializeField] private float _chunkDiscoveryInterval = 1.0f; // Formerly _updateInterval
     [SerializeField] private float _chunkRemeshInterval = 2.0f;
     [SerializeField] private float _remeshCheckInterval = 0.25f; // How often we check if we NEED to remesh
-    [SerializeField] private string _floorLayerName = "Floor"; // NEW: Type the name of your layer here
+    [SerializeField] private string _floorLayerName = "Floor";
 
-    private int _floorLayerId; // We will store the ID here
-
+    private int _floorLayerId;
 
     private readonly Vector3Int _chunkStride = new Vector3Int(31, 31, 31);
-
     private readonly Dictionary<Vector3Int, (ChunkInstance instance, float lastUpdateTime)> _activeChunks = new();
     private readonly Vector3Int _chunkDimensions = new(MarchingCubes.Chunk.ChunkSizeX, MarchingCubes.Chunk.ChunkSizeY, MarchingCubes.Chunk.ChunkSizeZ);
 
     private bool _areChunksVisible = true;
+
     void Start()
     {
-        // 1.FIND THE LAYER ID
         _floorLayerId = LayerMask.NameToLayer(_floorLayerName);
 
-        // Safety Check
         if (_floorLayerId == -1)
         {
             Debug.LogError($"Layer '{_floorLayerName}' does not exist! Please add it in Unity's Layer settings.");
-            _floorLayerId = 0; // Default (fallback)
+            _floorLayerId = 0;
         }
 
         if (_environmentMapper == null || _voxelProvider == null || _cameraRig == null || _playerHeadTransform == null)
@@ -50,15 +48,16 @@ public class ChunkManager : MonoBehaviour
             enabled = false;
             return;
         }
-        // Start BOTH coroutines
+
         StartCoroutine(UpdateChunkGenerationCoroutine());
         StartCoroutine(UpdateChunkRemeshingCoroutine());
     }
+
     public void ToggleChunkVisibility()
     {
-        // Simply calls the overloaded version with the flipped state
         ToggleChunkVisibility(!_areChunksVisible);
     }
+
     public void ToggleChunkVisibility(bool isVisible)
     {
         _areChunksVisible = isVisible;
@@ -72,11 +71,34 @@ public class ChunkManager : MonoBehaviour
         }
         Debug.Log($"Chunk renderers set to: {(isVisible ? "Visible" : "Hidden")}");
     }
-    // ... (ToggleChunkVisibility remains the same) ...
+
+    public void SetOcclusionMode(bool enableOcclusion)
+    {
+        _isOcclusionMode = enableOcclusion;
+        Material targetMat = _isOcclusionMode ? _occlusionMaterial : _meshMaterial;
+
+        // 1. Swap material on all currently active chunks
+        foreach (var chunkData in _activeChunks.Values)
+        {
+            if (chunkData.instance != null)
+            {
+                // Ensure renderer is enabled so Z-write happens
+                chunkData.instance.SetRendererVisibility(true);
+
+                // Swap the material
+                var rend = chunkData.instance.GetComponent<Renderer>();
+                if (rend != null) rend.material = targetMat;
+            }
+        }
+
+        // 2. Ensure future chunks know which visibility state to use
+        _areChunksVisible = true; // Always true in occlusion mode (it's just invisible paint)
+        Debug.Log($"Occlusion Mode set to: {enableOcclusion}");
+    }
 
     /// <summary>
-    /// This coroutine ONLY handles creating new chunks and unloading old ones.
-    /// It can run slower because player position doesn't need to be checked constantly.
+    /// This coroutine ONLY handles creating new chunks.
+    /// UNLOADING HAS BEEN DISABLED so the MapGenerator can capture the full area.
     /// </summary>
     private IEnumerator UpdateChunkGenerationCoroutine()
     {
@@ -96,6 +118,10 @@ public class ChunkManager : MonoBehaviour
                 }
             }
 
+            // =========================================================
+            //  UNLOADING LOGIC COMMENTED OUT FOR MAP GENERATION
+            // =========================================================
+            /*
             var chunksToUnload = new List<Vector3Int>();
             foreach (var chunkCoord in _activeChunks.Keys)
             {
@@ -113,6 +139,8 @@ public class ChunkManager : MonoBehaviour
                 }
                 _activeChunks.Remove(coord);
             }
+            */
+            // =========================================================
 
             foreach (var coord in requiredChunks)
             {
@@ -120,7 +148,9 @@ public class ChunkManager : MonoBehaviour
                 {
                     GameObject newChunkObject = new GameObject();
                     ChunkInstance newInstance = newChunkObject.AddComponent<ChunkInstance>();
-                    newInstance.Initialize(coord, OnChunkBuildFailed, _voxelProvider, _meshMaterial, _environmentMapper, _cameraRig, _areChunksVisible, _floorLayerId);
+                    //newInstance.Initialize(coord, OnChunkBuildFailed, _voxelProvider, _meshMaterial, _environmentMapper, _cameraRig, _areChunksVisible, _floorLayerId);
+                    Material matToUse = _isOcclusionMode ? _occlusionMaterial : _meshMaterial;
+                    newInstance.Initialize(coord, OnChunkBuildFailed, _voxelProvider, matToUse, _environmentMapper, _cameraRig, _areChunksVisible, _floorLayerId);
                     _activeChunks.Add(coord, (newInstance, Time.time));
                 }
             }
@@ -129,15 +159,10 @@ public class ChunkManager : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// This coroutine ONLY handles remeshing existing chunks.
-    /// It runs much faster to ensure the remesh interval is respected.
-    /// </summary>
     private IEnumerator UpdateChunkRemeshingCoroutine()
     {
         while (true)
         {
-            // Create a temporary list to avoid modifying the dictionary while iterating
             var chunksToUpdate = new List<Vector3Int>();
             foreach (var chunk in _activeChunks)
             {
@@ -152,8 +177,6 @@ public class ChunkManager : MonoBehaviour
 
             foreach (var coord in chunksToUpdate)
             {
-                // We still need to check if the chunk exists, as it might have been
-                // unloaded by the other coroutine between the loops.
                 if (_activeChunks.TryGetValue(coord, out var chunkData))
                 {
                     chunkData.instance.TriggerUpdate();
@@ -161,11 +184,9 @@ public class ChunkManager : MonoBehaviour
                 }
             }
 
-            // This loop runs frequently to check the time condition accurately.
             yield return new WaitForSeconds(_remeshCheckInterval);
         }
     }
-
 
     private void OnChunkBuildFailed(Vector3Int coordinate)
     {
@@ -174,14 +195,6 @@ public class ChunkManager : MonoBehaviour
 
     private Vector3Int WorldPosToChunkCoord(Vector3 worldPos)
     {
-        //Vector3 localPos = _cameraRig.trackingSpace.InverseTransformPoint(worldPos);
-        //var globalVolumeDims = new Vector3(_environmentMapper.volume.width, _environmentMapper.volume.height, _environmentMapper.volume.volumeDepth);
-        //Vector3 voxelPos = (localPos / _environmentMapper.metersPerVoxel) + (globalVolumeDims / 2.0f);
-        //return new Vector3Int(
-        //    Mathf.FloorToInt(voxelPos.x / _chunkDimensions.x),
-        //    Mathf.FloorToInt(voxelPos.y / _chunkDimensions.y),
-        //    Mathf.FloorToInt(voxelPos.z / _chunkDimensions.z)
-        //);
         Vector3 localPos = _cameraRig.trackingSpace.InverseTransformPoint(worldPos);
         var globalVolumeDims = new Vector3(_environmentMapper.volume.width, _environmentMapper.volume.height, _environmentMapper.volume.volumeDepth);
         Vector3 voxelPos = (localPos / _environmentMapper.metersPerVoxel) + (globalVolumeDims / 2.0f);

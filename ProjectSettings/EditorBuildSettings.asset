@@ -8,12 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/testbed.unity
     guid: b2280f124a42a684bad54f5befa6414e
   - enabled: 0
     path: Assets/Scenes/TheGame.unity
     guid: d8604a03f00577d4eb2137629ca32a91
+  - enabled: 1
+    path: Assets/Scenes/Gun Mesh Example.unity
+    guid: f4e6866a778be784c929c7939c38ae96
   m_configObjects:
     Niantic.Lightship.AR.LightshipSettings: {fileID: 11400000, guid: 1f26814bd843c144eb0327faf7326806, type: 2}
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 67a6506a09db9364f90f32cb624d3579, type: 2}

@@ -150,14 +150,23 @@ public class CanvasLogic : MonoBehaviour
         _isCheckingPosition = false;
         if (instructionText != null) instructionText.gameObject.SetActive(false);
 
-        // --- NEW: CLEANUP TOOLS & UI ---
-
-        
-
         // TRIGGER THE STATE CHANGE
         if (appManager._currentState is InstructorState instructorState)
         {
-            ToggleVisibility(false);
+            // --- OLD: ToggleVisibility(false); ---
+
+            // --- NEW: Enable Occlusion Mode ---
+            if (chunkManager != null)
+            {
+                chunkManager.SetOcclusionMode(true);
+            }
+
+            // Hide the floor completely (assuming you don't want the floor occluding)
+            if (mRUKAnchorManager != null)
+            {
+                mRUKAnchorManager.ToggleFloorVisibility(false);
+            }
+
             instructorState.FinishSetup();
         }
         else

@@ -9,7 +9,7 @@ public class InstructorPlacementTool : MonoBehaviour
 
     [Header("Prefab Settings")]
     public GameObject prefabToPlace;
-    public float verticalOffset = 0.85f; // Set this to 0.85 for a 1.7m tall object
+    public float verticalOffset = 0.0f;// Set this to 0.85 for a 1.7m tall object
 
     [Header("Raycast Settings")]
     public LayerMask floorLayer;
@@ -33,13 +33,13 @@ public class InstructorPlacementTool : MonoBehaviour
         _lineRenderer = GetComponent<LineRenderer>();
         _lineRenderer.useWorldSpace = true;
         _lineRenderer.positionCount = 2;
-        // --- FIX STARTS HERE ---
-        // Force the material to Sprites/Default to prevent VR Stereo Rendering glitches
+
+        // Fix for VR Line Rendering
         if (_lineRenderer.material == null || _lineRenderer.material.name.StartsWith("Default-Line"))
         {
             _lineRenderer.material = new Material(Shader.Find("Sprites/Default"));
         }
-        // --- FIX ENDS HERE ---
+
         _lineRenderer.startWidth = 0.01f;
         _lineRenderer.endWidth = 0.005f;
 
@@ -48,21 +48,28 @@ public class InstructorPlacementTool : MonoBehaviour
             // 1. Create the Ghost
             _placementGhost = Instantiate(prefabToPlace);
 
-            // 2. IMPORTANT: Move Ghost and ALL children to "Ignore Raycast" layer (Layer 2)
-            // This makes the ray pass through both your solid collider AND your trigger collider.
+            // 2. Move Ghost to "Ignore Raycast" layer so it doesn't block your laser
             SetLayerRecursively(_placementGhost, 2);
 
-            // 3. Remove the HitTest script from the Ghost only
-            // (We don't want the ghost changing colors if a bullet hits it while you are aiming)
-            var ghostHitTest = _placementGhost.GetComponent<HitTest>();
-            if (ghostHitTest) Destroy(ghostHitTest);
+            // --- UPDATE: Remove the Logic Script from the Ghost ---
+            // We destroy TargetBehavior so the ghost doesn't try to die or record kills
+            var ghostLogic = _placementGhost.GetComponent<TargetBehavior>();
+            if (ghostLogic) Destroy(ghostLogic);
 
-            // 4. Make it look like a ghost (Green/Transparent)
-            // We loop through all renderers in case your rectangle has child parts
+            // Also remove the old HitTest if it exists
+            var oldHitTest = _placementGhost.GetComponent<HitTest>();
+            if (oldHitTest) Destroy(oldHitTest);
+
+            // --- UPDATE: Disable Physics on the Ghost ---
+            // Destroy the Rigidbody so the ghost doesn't fall over or get pushed
+            var ghostRb = _placementGhost.GetComponent<Rigidbody>();
+            if (ghostRb) Destroy(ghostRb);
+
+            // 3. Make it look like a ghost (Green/Transparent)
             foreach (var rend in _placementGhost.GetComponentsInChildren<Renderer>())
             {
                 Material ghostMat = new Material(Shader.Find("Sprites/Default"));
-                ghostMat.color = ghostColor; // Your green transparent color
+                ghostMat.color = ghostColor;
                 rend.material = ghostMat;
             }
 
@@ -221,7 +228,21 @@ public class InstructorPlacementTool : MonoBehaviour
         ClearHover();
 
         _hoveredObject = enemy;
-        Renderer rend = _hoveredObject.GetComponent<Renderer>();
+
+        // --- FIX: Find the correct renderer ---
+        // 1. Try to get it from the TargetBehavior script (Best way)
+        Renderer rend = null;
+        var targetScript = _hoveredObject.GetComponent<TargetBehavior>();
+
+        if (targetScript != null && targetScript.mainRenderer != null)
+        {
+            rend = targetScript.mainRenderer;
+        }
+        else
+        {
+            // 2. Fallback: Check children if script is missing
+            rend = _hoveredObject.GetComponentInChildren<Renderer>();
+        }
 
         if (rend != null)
         {
@@ -237,11 +258,25 @@ public class InstructorPlacementTool : MonoBehaviour
     {
         if (_hoveredObject != null)
         {
-            Renderer rend = _hoveredObject.GetComponent<Renderer>();
+            // --- FIX: Find the renderer again to revert color ---
+            Renderer rend = null;
+            var targetScript = _hoveredObject.GetComponent<TargetBehavior>();
+
+            if (targetScript != null && targetScript.mainRenderer != null)
+            {
+                rend = targetScript.mainRenderer;
+            }
+            else
+            {
+                rend = _hoveredObject.GetComponentInChildren<Renderer>();
+            }
+
+            // Revert
             if (rend != null && _originalMaterial != null)
             {
-                rend.material = _originalMaterial; // Revert to Original
+                rend.material = _originalMaterial;
             }
+
             _hoveredObject = null;
             _originalMaterial = null;
         }

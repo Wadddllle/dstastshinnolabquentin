@@ -18,7 +18,11 @@ public class TraineeState : BaseState
             AppManager.Instance.visionScanner.gameObject.SetActive(true);
             AppManager.Instance.visionScanner.enabled = true;
         }
-
+        // Enable Gun Pivot
+        if (AppManager.Instance.gunPivotRoot != null)
+        {
+            AppManager.Instance.gunPivotRoot.SetActive(true);
+        }
         //if (AppManager.Instance.raycastWeapon != null)
         //{
         //    AppManager.Instance.raycastWeapon.gameObject.SetActive(true);
