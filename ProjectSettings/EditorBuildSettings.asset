@@ -11,10 +11,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/testbed.unity
     guid: b2280f124a42a684bad54f5befa6414e
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/TheGame.unity
     guid: d8604a03f00577d4eb2137629ca32a91
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Gun Mesh Example.unity
     guid: f4e6866a778be784c929c7939c38ae96
   m_configObjects:
