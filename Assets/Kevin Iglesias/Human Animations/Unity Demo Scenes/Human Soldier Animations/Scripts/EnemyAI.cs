@@ -1,6 +1,5 @@
 using KevinIglesias;
 using System.Drawing;
-using Unity.Android.Gradle.Manifest;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -53,7 +52,7 @@ public class EnemyAI : MonoBehaviour
 
         if (enemy_healthState.currentHealth <= 0f)
             Kill();
-
+        
         switch (state)
         {
             case State.Idle:
