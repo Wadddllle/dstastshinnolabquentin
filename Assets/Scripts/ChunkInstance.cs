@@ -1,11 +1,12 @@
-using UnityEngine;
-using System.Threading.Tasks;
-using MarchingCubes;
-using Unity.Collections;
-using System;
-using System.Linq;
 using Anaglyph.XRTemplate;
+using MarchingCubes;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Unity.Collections;
 using Unity.Jobs;
+using UnityEngine;
 
 public class ChunkInstance : MonoBehaviour
 {
@@ -45,6 +46,44 @@ public class ChunkInstance : MonoBehaviour
 
         InitialBuild();
     }
+    public void CreateWalkableMesh(Mesh sourceMesh)
+    {
+        // Only upward-facing triangles
+        Vector3[] vertices = sourceMesh.vertices;
+        int[] triangles = sourceMesh.triangles;
+        List<int> walkableTriangles = new List<int>();
+
+        for (int i = 0; i < triangles.Length; i += 3)
+        {
+            Vector3 a = vertices[triangles[i]];
+            Vector3 b = vertices[triangles[i + 1]];
+            Vector3 c = vertices[triangles[i + 2]];
+
+            Vector3 normal = Vector3.Cross(b - a, c - a).normalized;
+
+            // Only consider surfaces with ~45° slope or less
+            if (Vector3.Dot(normal, Vector3.up) > 0.7f)
+            {
+                walkableTriangles.Add(triangles[i]);
+                walkableTriangles.Add(triangles[i + 1]);
+                walkableTriangles.Add(triangles[i + 2]);
+            }
+        }
+
+        Mesh walkableMesh = new Mesh();
+        walkableMesh.vertices = vertices;
+        walkableMesh.triangles = walkableTriangles.ToArray();
+        walkableMesh.RecalculateNormals();
+        walkableMesh.RecalculateBounds();
+
+        // Assign to separate child collider
+        GameObject navMeshObj = new GameObject("NavMeshCollider");
+        navMeshObj.transform.SetParent(transform, false);
+        MeshCollider mc = navMeshObj.AddComponent<MeshCollider>();
+        mc.sharedMesh = walkableMesh;
+        mc.convex = false;
+        navMeshObj.layer = LayerMask.NameToLayer("Floor"); // NavMesh will see this
+    }
 
     /// <summary>
     /// Public method to control the visibility of the chunk's mesh renderer.
@@ -76,9 +115,12 @@ public class ChunkInstance : MonoBehaviour
                 _meshRenderer.material = _meshMaterial;
                 _meshRenderer.enabled = _isRendererVisible; // Set initial state
                 _meshCollider = gameObject.AddComponent<MeshCollider>();
+                _meshCollider.convex = false;
 
                 _meshFilter.sharedMesh = newMesh;
                 _meshCollider.sharedMesh = newMesh;
+
+                CreateWalkableMesh(newMesh);
             }
         }
         catch (Exception e)
@@ -111,6 +153,7 @@ public class ChunkInstance : MonoBehaviour
                 if (_meshCollider != null)
                 {
                     _meshCollider.sharedMesh = newMesh;
+                    CreateWalkableMesh(newMesh);
                 }
 
                 // Now, this destroys the ACTUAL old mesh, preventing the leak.

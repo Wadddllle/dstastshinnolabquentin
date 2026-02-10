@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Gun Mesh Example.unity
     guid: f4e6866a778be784c929c7939c38ae96
+  - enabled: 0
+    path: Assets/Scenes/TheGame 1.unity
+    guid: 66caef4e9a8669b49b2f16cd2b6240c3
   m_configObjects:
     Niantic.Lightship.AR.LightshipSettings: {fileID: 11400000, guid: 1f26814bd843c144eb0327faf7326806, type: 2}
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 67a6506a09db9364f90f32cb624d3579, type: 2}

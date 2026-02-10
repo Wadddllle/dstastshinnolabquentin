@@ -22,9 +22,9 @@ public class ChunkManager : MonoBehaviour
     [SerializeField] private float _chunkDiscoveryInterval = 1.0f; // Formerly _updateInterval
     [SerializeField] private float _chunkRemeshInterval = 2.0f;
     [SerializeField] private float _remeshCheckInterval = 0.25f; // How often we check if we NEED to remesh
-    [SerializeField] private string _floorLayerName = "Floor";
+    [SerializeField] private string _envLayerName = "Environment";
 
-    private int _floorLayerId;
+    private int _envLayerId;
 
     private readonly Vector3Int _chunkStride = new Vector3Int(31, 31, 31);
     private readonly Dictionary<Vector3Int, (ChunkInstance instance, float lastUpdateTime)> _activeChunks = new();
@@ -34,12 +34,12 @@ public class ChunkManager : MonoBehaviour
 
     void Start()
     {
-        _floorLayerId = LayerMask.NameToLayer(_floorLayerName);
+        _envLayerId = LayerMask.NameToLayer(_envLayerName);
 
-        if (_floorLayerId == -1)
+        if (_envLayerId == -1)
         {
-            Debug.LogError($"Layer '{_floorLayerName}' does not exist! Please add it in Unity's Layer settings.");
-            _floorLayerId = 0;
+            Debug.LogError($"Layer '{_envLayerName}' does not exist! Please add it in Unity's Layer settings.");
+            _envLayerId = 0;
         }
 
         if (_environmentMapper == null || _voxelProvider == null || _cameraRig == null || _playerHeadTransform == null)
@@ -150,7 +150,7 @@ public class ChunkManager : MonoBehaviour
                     ChunkInstance newInstance = newChunkObject.AddComponent<ChunkInstance>();
                     //newInstance.Initialize(coord, OnChunkBuildFailed, _voxelProvider, _meshMaterial, _environmentMapper, _cameraRig, _areChunksVisible, _floorLayerId);
                     Material matToUse = _isOcclusionMode ? _occlusionMaterial : _meshMaterial;
-                    newInstance.Initialize(coord, OnChunkBuildFailed, _voxelProvider, matToUse, _environmentMapper, _cameraRig, _areChunksVisible, _floorLayerId);
+                    newInstance.Initialize(coord, OnChunkBuildFailed, _voxelProvider, matToUse, _environmentMapper, _cameraRig, _areChunksVisible, _envLayerId);
                     _activeChunks.Add(coord, (newInstance, Time.time));
                 }
             }
@@ -205,4 +205,11 @@ public class ChunkManager : MonoBehaviour
             Mathf.FloorToInt(voxelPos.z / _chunkStride.z)
         );
     }
+
+    public Dictionary<Vector3Int, (ChunkInstance instance, float lastUpdateTime)> GetActiveChunks()
+    {
+        // Return a copy to prevent external scripts from accidentally modifying it
+        return new Dictionary<Vector3Int, (ChunkInstance instance, float lastUpdateTime)>(_activeChunks);
+    }
+
 }

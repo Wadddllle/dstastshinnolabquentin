@@ -17,9 +17,9 @@ TagManager:
   - Floor
   - Enemy
   - Obstacle
-  - 
-  - 
-  - 
+  - Environment
+  - Indestructable Env
+  - Destructables
   - 
   - 
   - 
