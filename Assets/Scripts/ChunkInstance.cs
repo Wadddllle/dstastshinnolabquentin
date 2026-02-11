@@ -46,7 +46,7 @@ public class ChunkInstance : MonoBehaviour
 
         InitialBuild();
     }
-    public void CreateWalkableMesh(Mesh sourceMesh)
+    /*public void CreateWalkableMesh(Mesh sourceMesh)
     {
         // Only upward-facing triangles
         Vector3[] vertices = sourceMesh.vertices;
@@ -83,7 +83,7 @@ public class ChunkInstance : MonoBehaviour
         mc.sharedMesh = walkableMesh;
         mc.convex = false;
         navMeshObj.layer = LayerMask.NameToLayer("Floor"); // NavMesh will see this
-    }
+    }*/
 
     /// <summary>
     /// Public method to control the visibility of the chunk's mesh renderer.
@@ -115,12 +115,12 @@ public class ChunkInstance : MonoBehaviour
                 _meshRenderer.material = _meshMaterial;
                 _meshRenderer.enabled = _isRendererVisible; // Set initial state
                 _meshCollider = gameObject.AddComponent<MeshCollider>();
-                _meshCollider.convex = false;
+                //_meshCollider.convex = false;
 
                 _meshFilter.sharedMesh = newMesh;
                 _meshCollider.sharedMesh = newMesh;
 
-                CreateWalkableMesh(newMesh);
+                //CreateWalkableMesh(newMesh);
             }
         }
         catch (Exception e)
@@ -153,7 +153,7 @@ public class ChunkInstance : MonoBehaviour
                 if (_meshCollider != null)
                 {
                     _meshCollider.sharedMesh = newMesh;
-                    CreateWalkableMesh(newMesh);
+                    //CreateWalkableMesh(newMesh);
                 }
 
                 // Now, this destroys the ACTUAL old mesh, preventing the leak.

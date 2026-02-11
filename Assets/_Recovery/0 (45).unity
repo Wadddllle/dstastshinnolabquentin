@@ -22794,9 +22794,9 @@ MonoBehaviour:
   weaponAudioSource: {fileID: 691586201}
   haptics: {fileID: 0}
   rightMuzzlePoint: {fileID: 1808762980}
-  rightMuzzleFlash: {fileID: 2109928389698797380, guid: 35f3e21af5ca17441b81ab24524d1b88, type: 3}
+  rightMuzzleFlash: {fileID: 0}
   leftMuzzlePoint: {fileID: 0}
-  leftMuzzleFlash: {fileID: 2109928389698797380, guid: 35f3e21af5ca17441b81ab24524d1b88, type: 3}
+  leftMuzzleFlash: {fileID: 0}
 --- !u!4 &934220236
 Transform:
   m_ObjectHideFlags: 0
@@ -33418,10 +33418,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1567736598}
   - component: {fileID: 1567736597}
-  - component: {fileID: 1567736599}
   m_Layer: 0
   m_Name: Player Hitbox
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33441,14 +33440,14 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.3
   m_Height: 1.7
   m_Direction: 1
-  m_Center: {x: 0, y: -0.85, z: 0}
+  m_Center: {x: 0, y: -0.67, z: 0}
 --- !u!4 &1567736598
 Transform:
   m_ObjectHideFlags: 0
@@ -33464,20 +33463,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1567736599
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1567736596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9e1f5db78c4c8446afa7a5f711f7129, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HitboxFollower
-  player_root: {fileID: 1884639079}
-  center_offset: {x: 0, y: 0, z: 0}
 --- !u!1 &1571011351
 GameObject:
   m_ObjectHideFlags: 0
@@ -35546,7 +35531,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InstructorPlacementTool
   controllerAnchor: {fileID: 1468200470}
   controller: 2
-  prefabToPlace: {fileID: 5140362250260108345, guid: 481f04c7903b4b14e83d17a9aabc6c5d, type: 3}
+  prefabToPlace: {fileID: 5140362250260108345, guid: 65002d9084d22b748a69343d2b2cd81b, type: 3}
   verticalOffset: 0
   floorLayer:
     serializedVersion: 2

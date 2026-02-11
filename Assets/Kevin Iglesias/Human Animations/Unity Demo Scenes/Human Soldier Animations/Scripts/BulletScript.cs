@@ -7,9 +7,12 @@ public class Bullet : MonoBehaviour
     public GameObject explosionPrefab;
     public GameObject bloodSplatterPrefab;
 
+    [SerializeField] private string envLayerName = "Environment";
+    private int envLayerId;
 
     void Awake()
     {
+        envLayerId = LayerMask.NameToLayer(envLayerName);
         Destroy(gameObject, life);
     }
 
@@ -24,7 +27,7 @@ public class Bullet : MonoBehaviour
                 if (target.currentHealth <= 0)
                     Destroy(collision.gameObject);
                 GameObject explosion = Instantiate(explosionPrefab, collision.gameObject.transform.position, collision.gameObject.transform.rotation);
-                Destroy(gameObject);     
+                Destroy(gameObject);
             }
         }
 
@@ -39,7 +42,7 @@ public class Bullet : MonoBehaviour
             }
         }
 
-        else if (collision.gameObject.CompareTag("Indestructable Env")) //environment
+        else if (collision.gameObject.layer == envLayerId) //environment
         {
             Destroy(gameObject);
             GameObject explosion = Instantiate(explosionPrefab, collision.gameObject.transform.position, collision.gameObject.transform.rotation);

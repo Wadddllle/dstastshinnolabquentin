@@ -20,6 +20,9 @@ public class InstructorPlacementTool : MonoBehaviour
     public Material highlightMaterial; // The Yellow transparent material
     public Color ghostColor = new Color(0, 1, 0, 0.5f); // Green transparent for ghost
 
+    [Header("Enemy Config")]
+    public EnemyConfig enemyConfig;
+
     // Internal State
     private GameObject _currentDraggedObject;
     private GameObject _hoveredObject;
@@ -216,6 +219,13 @@ public class InstructorPlacementTool : MonoBehaviour
         else
         {
             Debug.LogError("[Instructor] CRITICAL: SessionManager not found! Enemy not saved.");
+        }
+
+        //5. Configure enemy AI to difficulty level
+        EnemyAI enemyAI = newObj.GetComponent<EnemyAI>();
+        if (enemyAI != null && enemyConfig != null)
+        {
+            enemyAI.ApplyConfig(enemyConfig);
         }
     }
 

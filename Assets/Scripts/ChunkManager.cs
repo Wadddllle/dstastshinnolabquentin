@@ -152,6 +152,8 @@ public class ChunkManager : MonoBehaviour
                     Material matToUse = _isOcclusionMode ? _occlusionMaterial : _meshMaterial;
                     newInstance.Initialize(coord, OnChunkBuildFailed, _voxelProvider, matToUse, _environmentMapper, _cameraRig, _areChunksVisible, _envLayerId);
                     _activeChunks.Add(coord, (newInstance, Time.time));
+                    
+
                 }
             }
 

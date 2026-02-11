@@ -1,4 +1,5 @@
 using KevinIglesias;
+using System.Collections;
 using System.Drawing;
 using UnityEngine;
 using UnityEngine.AI;
@@ -28,11 +29,18 @@ public class EnemyAI : MonoBehaviour
     public float repositionRadius = 3f;
     public float repositionCooldown = 1f;
 
+    [Header("Reaction")]
+    public float reactionTime_offGuard;
+    public float reactionTime_aware;
+    [SerializeField] private bool reacting;
+    [SerializeField] private bool aware = false; //is the enemy aware of the player's presence? (important for setting reaction time)
+
     public enum State { Idle, Chase, Attack, Reposition, Dead }
     public State state = State.Idle;
     private float lastAttackTime;
     private float lastRepositionTime;
     private Vector3 repositionTarget;
+    
 
     void Start()
     {
@@ -59,8 +67,15 @@ public class EnemyAI : MonoBehaviour
                 soldier.movement = SoldierMovement.NoMovement;
                 soldier.action = SoldierAction.Nothing;
 
-                if (distance <= detectionRange)
-                    state = State.Chase;
+                if (distance <= detectionRange && !aware)
+                {
+                    aware = true;
+                    StartCoroutine(ReactionDelay(reactionTime_offGuard));
+                }
+                else if (distance <= detectionRange && aware)
+                {
+                    StartCoroutine(ReactionDelay(reactionTime_aware));
+                }
                 break;
 
             case State.Chase:
@@ -210,5 +225,30 @@ public class EnemyAI : MonoBehaviour
         transform.LookAt(lookPos);
     }
 
-  
+    IEnumerator ReactionDelay(float delay)
+    {
+        if (reacting) 
+            yield 
+        break;
+
+        reacting = true;
+
+       yield return new WaitForSeconds(delay);
+
+        state = State.Chase;
+        reacting = false;
+    }
+
+    public void ApplyConfig(EnemyConfig config)
+    {
+        detectionRange = config.detectionRange;
+        eyeRange = config.eyeRange;
+        attackRange = config.attackRange;
+        shot_cooldown = config.shot_cooldown;
+        reactionTime_offGuard = config.reactionTime_offGuard;
+        reactionTime_aware = config.reactionTime_aware;
+
+        agent.speed = config.movementSpeed;
+        agent.angularSpeed = config.turningSpeed;
+    }
 }

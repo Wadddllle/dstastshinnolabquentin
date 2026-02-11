@@ -22794,9 +22794,9 @@ MonoBehaviour:
   weaponAudioSource: {fileID: 691586201}
   haptics: {fileID: 0}
   rightMuzzlePoint: {fileID: 1808762980}
-  rightMuzzleFlash: {fileID: 2109928389698797380, guid: 35f3e21af5ca17441b81ab24524d1b88, type: 3}
+  rightMuzzleFlash: {fileID: 0}
   leftMuzzlePoint: {fileID: 0}
-  leftMuzzleFlash: {fileID: 2109928389698797380, guid: 35f3e21af5ca17441b81ab24524d1b88, type: 3}
+  leftMuzzleFlash: {fileID: 0}
 --- !u!4 &934220236
 Transform:
   m_ObjectHideFlags: 0
@@ -33477,7 +33477,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HitboxFollower
   player_root: {fileID: 1884639079}
-  center_offset: {x: 0, y: 0, z: 0}
+  center_offset: {x: 0, y: 0.85, z: 0}
 --- !u!1 &1571011351
 GameObject:
   m_ObjectHideFlags: 0

@@ -44,13 +44,13 @@ public class NavMeshBuilder : MonoBehaviour
     {
         lastRebuildTime = Time.time;
 
-        AssignChunksToFloorLayer();
+        //AssignChunksToFloorLayer();
         navMeshSurface.BuildNavMesh();
 
         Debug.Log("Runtime NavMesh rebuilt");
     }
 
-    void AssignChunksToFloorLayer()
+    /*void AssignChunksToFloorLayer()
     {
         foreach (var chunkPair in chunkManager.GetActiveChunks())
         {
@@ -62,7 +62,7 @@ public class NavMeshBuilder : MonoBehaviour
                 navCollider.gameObject.layer = LayerMask.NameToLayer("Floor");
         }
     }
-    /*void AssignPlanesToFloorLayer()
+    void AssignPlanesToFloorLayer()
     {
 
         foreach (var plane in planeManager.trackables)
