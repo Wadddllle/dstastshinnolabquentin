@@ -221,12 +221,20 @@ public class InstructorPlacementTool : MonoBehaviour
             Debug.LogError("[Instructor] CRITICAL: SessionManager not found! Enemy not saved.");
         }
 
-        //5. Configure enemy AI to difficulty level
+        //5. Configure enemy AI to difficulty level & disable until trainee mode
         EnemyAI enemyAI = newObj.GetComponent<EnemyAI>();
         if (enemyAI != null && enemyConfig != null)
         {
             enemyAI.ApplyConfig(enemyConfig);
+
+            enemyAI.enabled = AppManager.Instance.IsTraineeState();
+
+            var agent = newObj.GetComponent<UnityEngine.AI.NavMeshAgent>();
+            if (agent != null)
+                agent.isStopped = !enemyAI.enabled;
         }
+
+
     }
 
     void HandleEnemyHover(GameObject enemy)

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class AppManager : MonoBehaviour
 {
@@ -33,6 +34,7 @@ public class AppManager : MonoBehaviour
 
     // State Machine internals
     public BaseState _currentState { get; private set; }
+    public event System.Action OnStateChanged;
 
     void Awake()
     {
@@ -56,7 +58,9 @@ public class AppManager : MonoBehaviour
 
     void Update()
     {
-        if (_currentState != null) _currentState.UpdateState();
+        if (_currentState != null) 
+            _currentState.UpdateState();
+        Debug.Log(_currentState.ToString());
     }
 
     public void ChangeState(BaseState newState)
@@ -64,6 +68,7 @@ public class AppManager : MonoBehaviour
         if (_currentState != null) _currentState.ExitState();
         _currentState = newState;
         _currentState.EnterState();
+        //OnStateChanged?.Invoke();
     }
 
     // --- THE MAGIC HELPER FUNCTION ---
@@ -84,6 +89,42 @@ public class AppManager : MonoBehaviour
         if (rootToOn != null)
         {
             rootToOn.SetActive(true);
+
+            if (rootToOn == TraineeRoot)
+                SetEnemyAI(true);
+            else 
+                SetEnemyAI(false);
+            
         }
+    }
+    public void SetEnemyAI(bool enable)
+    {
+        EnemyAI[] enemies = FindObjectsByType<EnemyAI>(FindObjectsSortMode.None);
+
+        foreach (var enemyAI in enemies)
+        {
+            enemyAI.enabled = enable;  
+
+            var agent = enemyAI.GetComponent<UnityEngine.AI.NavMeshAgent>();
+            if (agent != null)
+            {
+                agent.isStopped = !enable;
+            }
+        }
+    }
+
+    public bool IsTraineeState()
+    {
+        return _currentState is TraineeState;
+    }
+
+    public bool IsInstructorState()
+    {
+        return _currentState is InstructorState;
+    }
+
+    public bool IsAARState()
+    {
+        return _currentState is AARState;
     }
 }

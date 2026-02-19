@@ -5967,6 +5967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60b2b5cf9af955044bd7e1f656b02650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  config: {fileID: 11400000, guid: eae5916870498eb4a9c1f1149b31a763, type: 2}
   eyePoint: {fileID: 848695787607456471}
   losMask:
     serializedVersion: 2

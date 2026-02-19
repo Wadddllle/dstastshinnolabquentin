@@ -6,6 +6,8 @@ using UnityEngine.AI;
 
 public class EnemyAI : MonoBehaviour
 {
+    public EnemyConfig config;
+
     [Header("References")]
     private Transform player_target;
     public Transform eyePoint;
@@ -14,15 +16,15 @@ public class EnemyAI : MonoBehaviour
     private HumanSoldierController soldier;
 
     [Header("Ranges")]
-    public float detectionRange = 10f;
-    public float eyeRange = 2f;
-    public float attackRange = 2f;
+    public float detectionRange;
+    public float eyeRange;
+    public float attackRange;
 
     [Header("Bullet")]
     public Transform bulletSpawnPoint;
     public GameObject bulletPrefab;
     public float bulletSpeed = 10f;
-    public float shot_cooldown = 10f;
+    public float shot_cooldown;
     public ParticleSystem muzzleflash;
 
     [Header("Repositioning")]
@@ -40,6 +42,7 @@ public class EnemyAI : MonoBehaviour
     private float lastAttackTime;
     private float lastRepositionTime;
     private Vector3 repositionTarget;
+    [SerializeField] private bool isActive;
     
 
     void Start()
@@ -47,6 +50,19 @@ public class EnemyAI : MonoBehaviour
         player_target = GameObject.FindGameObjectWithTag("Player")?.transform;
         agent = GetComponent<NavMeshAgent>();
         soldier = GetComponent<HumanSoldierController>();
+
+        //AppManager.Instance.OnStateChanged += UpdateState;
+        //UpdateState();
+    }
+
+    void UpdateState()
+    {
+        bool shouldBeActive = AppManager.Instance.IsTraineeState();
+
+        if (isActive == shouldBeActive)
+            return;
+        isActive = shouldBeActive;
+        enabled = isActive;
     }
 
     void Update()
@@ -144,6 +160,8 @@ public class EnemyAI : MonoBehaviour
         soldier.movement = SoldierMovement.NoMovement;
         soldier.action = SoldierAction.Death02;
         agent.enabled = false;
+        //if (AppManager.Instance != null)
+            //AppManager.Instance.OnStateChanged -= UpdateState;
     }
 
 
