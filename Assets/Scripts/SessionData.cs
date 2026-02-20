@@ -18,6 +18,7 @@ public class SessionManifest
 
     // 3. The placed assets
     public List<EntityData> enemies = new List<EntityData>();
+    public List<EntityData> hostages = new List<EntityData>();
     public List<EntityData> obstacles = new List<EntityData>();
 }
 

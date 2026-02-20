@@ -7,6 +7,10 @@ TagManager:
   - Ball
   - Enemy
   - bullet
+  - Head
+  - Body
+  - Limb
+  - Hostage
   layers:
   - Default
   - TransparentFX
@@ -20,7 +24,7 @@ TagManager:
   - Environment
   - Indestructable Env
   - Destructables
-  - 
+  - Hostage
   - 
   - 
   - 

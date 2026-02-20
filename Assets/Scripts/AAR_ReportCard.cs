@@ -40,20 +40,23 @@ public class AAR_ReportCard : MonoBehaviour
         if (_eventLog.events.Count > 1)
             duration = _eventLog.events[_eventLog.events.Count - 1].timestamp - _eventLog.events[0].timestamp;
 
-        int shots = 0, hits = 0, kills = 0;
+        int shots = 0, hits = 0, kills = 0, collateral = 0;
         foreach (var evt in _eventLog.events)
         {
             if (evt.eventType == "SHOT") shots++;
             if (evt.eventType == "HIT") hits++;
             if (evt.eventType == "KILL") kills++;
+            if (evt.eventType == "COLLATERAL") collateral++; 
         }
         int totalEnemies = _manifest.enemies.Count;
+        int totalHostages = _manifest.hostages.Count > 0 ? _manifest.hostages.Count : 0;
         float accuracy = shots > 0 ? ((float)hits / shots) * 100f : 0f;
 
         // Build String
         _baseReportText = "<size=150%><b>MISSION DEBRIEF</b></size>\n\n";
         _baseReportText += $"<b>Time:</b> {duration:F1}s\n";
         _baseReportText += $"<b>Threats:</b> {kills} / {totalEnemies}\n";
+        _baseReportText += $"<b>Hostages Remaining:</b> {totalHostages - collateral} / {totalHostages}\n";
         _baseReportText += $"<b>Accuracy:</b> {accuracy:F1}%\n";
 
         // We leave a placeholder for Clearance
@@ -70,7 +73,7 @@ public class AAR_ReportCard : MonoBehaviour
         reportText.text = _baseReportText + clearanceLine;
 
         // Add final status
-        int kills = 0; // simplified, you might want to store this variable at class level
+        //int kills = 0; // simplified, you might want to store this variable at class level
         // (For now, just appending the status line here is fine or keep it in CalculateBasicStats)
     }
 }

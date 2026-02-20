@@ -22,24 +22,33 @@ public class Buttontest : MonoBehaviour
     public Transform leftMuzzlePoint;
     public ParticleSystem leftMuzzleFlash;
 
+    public Transform shotSource;
+
+    [SerializeField] private bool stillSilent = true;
+
+
     void Update()
     {
         // Right Controller (Primary Trigger)
         if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch))
         {
             FireWeapon(rightMuzzlePoint, rightMuzzleFlash);
+            shotSource = rightMuzzlePoint;
         }
 
         // Left Controller (Optional)
         if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.LTouch))
         {
             FireWeapon(leftMuzzlePoint, leftMuzzleFlash);
+            shotSource = leftMuzzlePoint;
         }
     }
 
     private void FireWeapon(Transform spawnPoint, ParticleSystem muzzleFlash)
     {
-        if (projectilePrefab == null || spawnPoint == null) return;
+        if (projectilePrefab == null || spawnPoint == null) 
+            return;
+            
         if (haptics != null) haptics.FireHaptic();
         // --- 1. Visual & Audio Effects ---
         // Play Muzzle Flash
@@ -61,14 +70,27 @@ public class Buttontest : MonoBehaviour
             GridRecorder.Instance.LogEvent("SHOT_FIRED", $"Fired from {spawnPoint.name}", spawnPoint.position);
         }
 
-        // --- 3. Create the Bullet ---
+        // --- 3. Check if player has already shot before ---
+        if (stillSilent == true)
+        {
+            EnemyAI[] allEnemies = FindObjectsByType<EnemyAI>(FindObjectsSortMode.None);
+            foreach (var enemy in allEnemies)
+                enemy.AlertByGunshot();         //all enemies will be alerted to move towards player upon first shot out
+
+            HostageAI[] allHostages = FindObjectsByType<HostageAI>(FindObjectsSortMode.None);
+            foreach (var hostage in allHostages)
+                hostage.AlertByGunshot();       //all hostages will be alerted to crouch down upon first shot out
+
+            stillSilent = false;
+        }
+        // --- 4. Create the Bullet ---
         // Adjust rotation by 90 degrees on X if your bullet model is lying flat
         Quaternion rotationOffset = Quaternion.Euler(90, 0, 0);
         Quaternion finalRotation = spawnPoint.rotation * rotationOffset;
 
         GameObject newProjectile = Instantiate(projectilePrefab, spawnPoint.position, finalRotation);
 
-        // --- 4. Apply Velocity ---
+        // --- 5. Apply Velocity ---
         Rigidbody rb = newProjectile.GetComponent<Rigidbody>();
         if (rb != null)
         {
@@ -77,7 +99,7 @@ public class Buttontest : MonoBehaviour
             rb.linearVelocity = spawnPoint.forward * projectileSpeed;
         }
 
-        // --- 5. Cleanup ---
+        // --- 6. Cleanup ---
         Destroy(newProjectile, bulletLifeTime);
     }
 }

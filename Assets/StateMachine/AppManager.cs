@@ -65,9 +65,11 @@ public class AppManager : MonoBehaviour
 
     public void ChangeState(BaseState newState)
     {
-        if (_currentState != null) _currentState.ExitState();
+        if (_currentState != null) 
+            _currentState.ExitState();
         _currentState = newState;
         _currentState.EnterState();
+
         //OnStateChanged?.Invoke();
     }
 

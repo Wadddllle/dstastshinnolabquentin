@@ -8,6 +8,7 @@ public class SessionManager : MonoBehaviour
     [Header("Live Data (Instructor Setup)")]
     // The Master Lists
     public List<GameObject> activeEnemies = new List<GameObject>();
+    public List<GameObject> activeHostages = new List<GameObject>();
     public List<GameObject> activeObstacles = new List<GameObject>();
 
     // The Room Geometry
@@ -35,6 +36,17 @@ public class SessionManager : MonoBehaviour
     {
         if (activeEnemies.Contains(enemy)) activeEnemies.Remove(enemy);
     }
+
+    // --- HOSTAGES ---
+    public void RegisterHostage(GameObject hos)
+    {
+        if (!activeHostages.Contains(hos)) activeHostages.Add(hos);
+    }
+    public void UnregisterHostage(GameObject hos)
+    {
+        if (activeHostages.Contains(hos)) activeHostages.Remove(hos);
+    }
+
 
     // --- OBSTACLES ---
     public void RegisterObstacle(GameObject obs)
@@ -100,7 +112,21 @@ public class SessionManager : MonoBehaviour
             });
         }
 
-        // 3. Save Obstacles
+        // 3. Save Hostages
+        foreach (var obj in activeHostages)
+        {
+            if (obj == null) continue;
+            manifest.hostages.Add(new EntityData
+            {
+                id = obj.name,
+                type = "Hostage",
+                position = obj.transform.position,
+                rotation = obj.transform.rotation,
+                scale = obj.transform.localScale
+            });
+        }
+
+        // 4. Save Obstacles
         foreach (var obj in activeObstacles)
         {
             if (obj == null) continue;

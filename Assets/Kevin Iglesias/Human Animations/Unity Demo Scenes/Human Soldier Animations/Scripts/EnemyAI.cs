@@ -1,4 +1,5 @@
 using KevinIglesias;
+using Oculus.Interaction;
 using System.Collections;
 using System.Drawing;
 using UnityEngine;
@@ -19,6 +20,7 @@ public class EnemyAI : MonoBehaviour
     public float detectionRange;
     public float eyeRange;
     public float attackRange;
+    private float distance;
 
     [Header("Bullet")]
     public Transform bulletSpawnPoint;
@@ -35,7 +37,7 @@ public class EnemyAI : MonoBehaviour
     public float reactionTime_offGuard;
     public float reactionTime_aware;
     [SerializeField] private bool reacting;
-    [SerializeField] private bool aware = false; //is the enemy aware of the player's presence? (important for setting reaction time)
+    [SerializeField] private bool isAware = false; //is the enemy aware of the player's presence? (important for setting reaction time)
 
     public enum State { Idle, Chase, Attack, Reposition, Dead }
     public State state = State.Idle;
@@ -50,9 +52,6 @@ public class EnemyAI : MonoBehaviour
         player_target = GameObject.FindGameObjectWithTag("Player")?.transform;
         agent = GetComponent<NavMeshAgent>();
         soldier = GetComponent<HumanSoldierController>();
-
-        //AppManager.Instance.OnStateChanged += UpdateState;
-        //UpdateState();
     }
 
     void UpdateState()
@@ -62,15 +61,15 @@ public class EnemyAI : MonoBehaviour
         if (isActive == shouldBeActive)
             return;
         isActive = shouldBeActive;
-        enabled = isActive;
     }
 
     void Update()
     {
-        if (state == State.Dead)
+        UpdateState();
+        if (!isActive || state == State.Dead) 
             return;
 
-        float distance = Vector3.Distance(transform.position, player_target.position);
+        distance = Vector3.Distance(transform.position, player_target.position);
         float currentSpeed = agent.velocity.magnitude;
         Health enemy_healthState = gameObject.GetComponent<Health>();
 
@@ -83,12 +82,12 @@ public class EnemyAI : MonoBehaviour
                 soldier.movement = SoldierMovement.NoMovement;
                 soldier.action = SoldierAction.Nothing;
 
-                if (distance <= detectionRange && !aware)
+                if (distance <= detectionRange && !isAware)
                 {
-                    aware = true;
+                    isAware = true;
                     StartCoroutine(ReactionDelay(reactionTime_offGuard));
                 }
-                else if (distance <= detectionRange && aware)
+                else if (distance <= detectionRange && isAware)
                 {
                     StartCoroutine(ReactionDelay(reactionTime_aware));
                 }
@@ -159,9 +158,14 @@ public class EnemyAI : MonoBehaviour
         state = State.Dead;
         soldier.movement = SoldierMovement.NoMovement;
         soldier.action = SoldierAction.Death02;
-        agent.enabled = false;
-        //if (AppManager.Instance != null)
-            //AppManager.Instance.OnStateChanged -= UpdateState;
+
+        if (GridRecorder.Instance != null)
+        {
+            GridRecorder.Instance.LogEvent("KILL", $"Neutralized: {gameObject.name}", transform.position); //by right location param is supposed to be where enemy got shot, but that is alr recorded in HIT in bullet script
+        }
+
+        Debug.Log($"Target Down: {gameObject.name}");
+
     }
 
 
@@ -242,7 +246,18 @@ public class EnemyAI : MonoBehaviour
         Vector3 lookPos = player_target.position - Vector3.up * 1.4f; //hardcoded!!
         transform.LookAt(lookPos);
     }
+    public void AlertByGunshot()
+    {
+        if (state == State.Dead) 
+            return;
+        else if (state == State.Idle && distance <= 20f) //hardcoded!
+        {
+            isAware = true;
+            StartCoroutine(ReactionDelay(reactionTime_offGuard)); //alr changes state to chase here
+        }
+            
 
+    }
     IEnumerator ReactionDelay(float delay)
     {
         if (reacting) 
