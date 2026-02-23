@@ -66,7 +66,7 @@ public class EnemyAI : MonoBehaviour
     void Update()
     {
         UpdateState();
-        /*if (!isActive || state == State.Dead)
+        if (!isActive || state == State.Dead)
         {
             if (agent != null)
             {
@@ -77,7 +77,7 @@ public class EnemyAI : MonoBehaviour
             }
         }
         else
-            agent.isStopped = false;*/
+            agent.isStopped = false;
 
         distance = Vector3.Distance(transform.position, player_target.position);
         float currentSpeed = agent.velocity.magnitude;
