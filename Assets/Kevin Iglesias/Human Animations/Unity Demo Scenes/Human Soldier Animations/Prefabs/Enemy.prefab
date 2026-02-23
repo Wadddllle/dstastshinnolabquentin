@@ -5994,7 +5994,7 @@ MonoBehaviour:
   reactionTime_offGuard: 1.5
   reactionTime_aware: 0.5
   reacting: 0
-  aware: 0
+  isAware: 0
   state: 0
   isActive: 0
 --- !u!114 &5258785238198104315
@@ -6021,7 +6021,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 5140362250260108345}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.3
+  m_Radius: 0.2
   m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50

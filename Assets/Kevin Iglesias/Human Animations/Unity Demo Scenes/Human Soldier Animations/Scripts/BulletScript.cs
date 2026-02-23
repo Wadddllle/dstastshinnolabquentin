@@ -42,24 +42,25 @@ public class Bullet : MonoBehaviour
             Health target = collision.gameObject.transform.GetComponentInParent<Health>();
             if (target != null)
             {
-                if (collision.gameObject.CompareTag("Head"))
+                target.TakeDmg(dmg);
+                /*if (collision.gameObject.CompareTag("Head"))
                 {
                     target.TakeDmg(dmg*2); //headshot x2 dmg
                     if (GridRecorder.Instance != null)
-                        GridRecorder.Instance.LogEvent("HIT", $"Headshot on: {gameObject.name}", contact.point);
+                        GridRecorder.Instance.LogEvent("HIT", $"Headshot on: {target.gameObject.name}", contact.point);
                 }
                 else if (collision.gameObject.CompareTag("Body"))
                 {
                     target.TakeDmg(dmg); //bodyshot normal dmg
                     if (GridRecorder.Instance != null)
-                        GridRecorder.Instance.LogEvent("HIT", $"Bodyshot on: {gameObject.name}", contact.point);
+                        GridRecorder.Instance.LogEvent("HIT", $"Bodyshot on: {target.gameObject.name}", contact.point);
                 }
                 else if (collision.gameObject.CompareTag("Limb"))
                 {
                     target.TakeDmg(dmg*0.5f); //limbshot x0.5 dmg
                     if (GridRecorder.Instance != null)
-                        GridRecorder.Instance.LogEvent("HIT", $"Limbshot on: {gameObject.name}", contact.point);
-                }
+                        GridRecorder.Instance.LogEvent("HIT", $"Limbshot on: {target.gameObject.name}", contact.point);
+                }*/
                 GameObject bloodSplatter = Instantiate(bloodSplatterPrefab, contact.point, Quaternion.LookRotation(contact.normal));
                 Destroy(gameObject);    
             }

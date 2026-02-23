@@ -248,7 +248,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 8b6f8a2221b39964ca31475404210937, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 091486e804301aa40b6b4177c1c3ab1d, type: 2}
+      objectReference: {fileID: 2100000, guid: fadf4ab759020d549bdc810492267a97, type: 2}
     - target: {fileID: 919132149155446097, guid: 8b6f8a2221b39964ca31475404210937, type: 3}
       propertyPath: m_Name
       value: HumanM_SoldierHelmet
@@ -522,7 +522,7 @@ PrefabInstance:
     - target: {fileID: -2717395650310496025, guid: 2faa610713d3b3c439473daa55e8c60a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 15b1d5ff3d274694e8d0c6cb466a4ae6, type: 2}
+      objectReference: {fileID: 2100000, guid: df81ddc38bae7e945a835735059fe898, type: 2}
     - target: {fileID: -2426548417520011582, guid: 2faa610713d3b3c439473daa55e8c60a, type: 3}
       propertyPath: m_Layer
       value: 12
@@ -838,7 +838,7 @@ PrefabInstance:
       addedObject: {fileID: 5493695656782703974}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2faa610713d3b3c439473daa55e8c60a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8336139479504344817}
+      addedObject: {fileID: 3494353208076895105}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2faa610713d3b3c439473daa55e8c60a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5258785238198104315}
@@ -1125,7 +1125,7 @@ MonoBehaviour:
   - {fileID: 1846231963526981168}
   - {fileID: 1486201986312412088}
   - {fileID: 8958961509962534483}
---- !u!114 &8336139479504344817
+--- !u!114 &3494353208076895105
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1134,9 +1134,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 5140362250260108345}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60b2b5cf9af955044bd7e1f656b02650, type: 3}
+  m_Script: {fileID: 11500000, guid: d36cd396df9239b4dbc7e0003d1124cf, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::HostageAI
   config: {fileID: 11400000, guid: eae5916870498eb4a9c1f1149b31a763, type: 2}
   eyePoint: {fileID: 848695787607456471}
   losMask:
@@ -1144,20 +1144,9 @@ MonoBehaviour:
     m_Bits: 585
   detectionRange: 10
   eyeRange: 10
-  attackRange: 5
-  bulletSpawnPoint: {fileID: 0}
-  bulletPrefab: {fileID: 0}
-  bulletSpeed: 50
-  shot_cooldown: 1.3
-  muzzleflash: {fileID: 0}
-  repositionRadius: 3
-  repositionCooldown: 1
-  reactionTime_offGuard: 1.5
-  reactionTime_aware: 0.5
-  reacting: 0
-  aware: 0
   state: 0
   isActive: 0
+  isAfraid: 0
 --- !u!114 &5258785238198104315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1182,7 +1171,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 5140362250260108345}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.3
+  m_Radius: 0.2
   m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50

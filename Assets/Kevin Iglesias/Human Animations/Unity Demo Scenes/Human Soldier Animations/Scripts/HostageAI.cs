@@ -42,14 +42,23 @@ public class HostageAI : MonoBehaviour
 
         if (isActive == shouldBeActive)
             return;
-        isActive = shouldBeActive;
+        else
+            isActive = shouldBeActive;
     }
 
     void Update()
     {
         UpdateState();
-        if (!isActive || state == State.Dead) 
+
+        /*if (!isActive || state == State.Dead)
+        {
+            agent.ResetPath();
+            agent.velocity = Vector3.zero;
+            agent.isStopped = true;
             return;
+        }
+        else
+            agent.isStopped = false;*/
 
         distance = Vector3.Distance(transform.position, player.position);
         float currentSpeed = agent.velocity.magnitude;
@@ -62,7 +71,7 @@ public class HostageAI : MonoBehaviour
         {
             case State.Idle:
                 soldier.movement = SoldierMovement.NoMovement;
-                soldier.action = SoldierAction.Nothing;
+                soldier.action = SoldierAction.Idle;
 
                 if (isAfraid)
                     state = State.Crouch;
@@ -91,7 +100,7 @@ public class HostageAI : MonoBehaviour
                 break;
 
         }
-
+        
     }
 
     /// <summary>

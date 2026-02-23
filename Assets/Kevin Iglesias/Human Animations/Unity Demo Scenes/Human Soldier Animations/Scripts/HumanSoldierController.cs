@@ -30,6 +30,7 @@ namespace KevinIglesias
     public enum SoldierAction
     {
         Nothing,
+        Idle,
         HoldWeapon,
         Salute,
         WeaponChange,

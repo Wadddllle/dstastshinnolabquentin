@@ -60,7 +60,6 @@ public class AppManager : MonoBehaviour
     {
         if (_currentState != null) 
             _currentState.UpdateState();
-        Debug.Log(_currentState.ToString());
     }
 
     public void ChangeState(BaseState newState)
@@ -90,13 +89,7 @@ public class AppManager : MonoBehaviour
         // 2. Turn the requested one ON
         if (rootToOn != null)
         {
-            rootToOn.SetActive(true);
-
-            if (rootToOn == TraineeRoot)
-                SetEnemyAI(true);
-            else 
-                SetEnemyAI(false);
-            
+            rootToOn.SetActive(true);           
         }
     }
     public void SetEnemyAI(bool enable)
