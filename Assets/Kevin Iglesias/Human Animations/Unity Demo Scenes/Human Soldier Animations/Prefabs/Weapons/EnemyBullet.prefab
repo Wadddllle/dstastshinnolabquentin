@@ -90,7 +90,7 @@ TrailRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.10958445
+        value: 0.021541238
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -98,8 +98,8 @@ TrailRenderer:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.31551746
-        value: 0.019844055
+        time: 0.63116074
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -120,17 +120,17 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 0, b: 0, a: 1}
-      key1: {r: 1, g: 0.54923946, b: 0, a: 1}
-      key2: {r: 1, g: 0.76114666, b: 0, a: 1}
+      key0: {r: 0.7264151, g: 0, b: 0.11394746, a: 1}
+      key1: {r: 1, g: 0.00000011126201, b: 0, a: 1}
+      key2: {r: 1, g: 0.54923946, b: 0, a: 1}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 25250
-      ctime2: 65535
+      ctime1: 25443
+      ctime2: 44718
       ctime3: 0
       ctime4: 0
       ctime5: 0
@@ -191,7 +191,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.02, y: 0.02, z: 0.02}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1066398404230602172}
@@ -318,3 +318,5 @@ MonoBehaviour:
   explosionPrefab: {fileID: 3187283609441800976, guid: fc2ee9ba4390d1f478ff8a9b5634ee8d, type: 3}
   bloodSplatterPrefab: {fileID: 3187283609441800976, guid: 669d1f6fc36555742a7fc851c7353d06, type: 3}
   envLayerName: Environment
+  enemyLayerName: Enemy
+  hostageLayerName: Hostage

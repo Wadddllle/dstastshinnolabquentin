@@ -27,6 +27,8 @@ public class ChunkInstance : MonoBehaviour
     private MeshCollider _meshCollider;
     private MeshRenderer _meshRenderer; // Reference to the renderer component
 
+    private bool isDestroyed = false;
+
     // MODIFIED: Added 'isVisible' parameter
     public void Initialize(Vector3Int coordinate, Action<Vector3Int> onBuildFailed, VoxelProvider provider, Material material, EnvironmentMapper mapper, OVRCameraRig cameraRig, bool isVisible, int layerId)
     {
@@ -108,6 +110,8 @@ public class ChunkInstance : MonoBehaviour
         try
         {
             Mesh newMesh = await BuildMeshTask();
+            if (isDestroyed)
+                return;
             if (newMesh != null)
             {
                 _meshFilter = gameObject.AddComponent<MeshFilter>();
@@ -138,6 +142,9 @@ public class ChunkInstance : MonoBehaviour
         try
         {
             Mesh newMesh = await BuildMeshTask();
+            if ( isDestroyed )
+                return;
+            
             if (newMesh != null)
             {
                 // --- THE FIX ---
@@ -185,10 +192,13 @@ public class ChunkInstance : MonoBehaviour
         {
             var voxelOrigin = ChunkCoordToVoxelOrigin(_coordinate);
             chunkData = await _voxelProvider.GetVoxelDataForChunk(voxelOrigin, new Vector3Int(Chunk.ChunkSizeX, Chunk.ChunkSizeY, Chunk.ChunkSizeZ));
+            if (isDestroyed)
+                return null;
+
             if (chunkData == null)
             {
                 _onBuildFailed?.Invoke(_coordinate);
-                Destroy(gameObject);
+                
                 return null;
             }
             jobHandle = mesher.StartMeshJob(chunkData, Mesher.Mode.Simd32Multithreaded);
@@ -216,7 +226,7 @@ public class ChunkInstance : MonoBehaviour
             else
             {
                 _onBuildFailed?.Invoke(_coordinate);
-                Destroy(gameObject);
+                
                 return null;
             }
         }
@@ -236,6 +246,10 @@ public class ChunkInstance : MonoBehaviour
         return finalMesh;
     }
 
+    private void OnDestroy()
+    {
+        isDestroyed = true;
+    }
     private Vector3Int ChunkCoordToVoxelOrigin(Vector3Int chunkCoord)
     {
         //    var dims = new Vector3Int(Chunk.ChunkSizeX, Chunk.ChunkSizeY, Chunk.ChunkSizeZ);

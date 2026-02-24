@@ -67,7 +67,7 @@ public class Buttontest : MonoBehaviour
         // --- 2. Log the Shot Event ---
         if (GridRecorder.Instance != null)
         {
-            GridRecorder.Instance.LogEvent("SHOT_FIRED", $"Fired from {spawnPoint.name}", spawnPoint.position);
+            GridRecorder.Instance.LogEvent("SHOT", $"Fired from {spawnPoint.name}", spawnPoint.position);
         }
 
         // --- 3. Check if player has already shot before ---

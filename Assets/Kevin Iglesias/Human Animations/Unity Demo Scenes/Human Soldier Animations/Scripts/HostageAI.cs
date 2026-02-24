@@ -50,7 +50,7 @@ public class HostageAI : MonoBehaviour
     {
         UpdateState();
 
-        /*if (!isActive || state == State.Dead)
+        if (!isActive || state == State.Dead)
         {
             agent.ResetPath();
             agent.velocity = Vector3.zero;
@@ -58,7 +58,7 @@ public class HostageAI : MonoBehaviour
             return;
         }
         else
-            agent.isStopped = false;*/
+            agent.isStopped = false;
 
         distance = Vector3.Distance(transform.position, player.position);
         float currentSpeed = agent.velocity.magnitude;

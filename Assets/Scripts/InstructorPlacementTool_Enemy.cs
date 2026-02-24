@@ -56,7 +56,7 @@ public class InstructorPlacementTool_Enemy : MonoBehaviour
 
             // --- UPDATE: Remove the Logic Script from the Ghost ---
             // We destroy TargetBehavior so the ghost doesn't try to die or record kills
-            var ghostLogic = _placementGhost.GetComponent<TargetBehavior>();
+            var ghostLogic = _placementGhost.GetComponent<EnemyAI>();
             if (ghostLogic) Destroy(ghostLogic);
 
             // Also remove the old HitTest if it exists
@@ -65,7 +65,7 @@ public class InstructorPlacementTool_Enemy : MonoBehaviour
 
             // --- UPDATE: Disable Physics on the Ghost ---
             // Destroy the Rigidbody so the ghost doesn't fall over or get pushed
-            var ghostRb = _placementGhost.GetComponent<Rigidbody>();
+            var ghostRb = _placementGhost.GetComponent<Collider>();
             if (ghostRb) Destroy(ghostRb);
 
             // 3. Make it look like a ghost (Green/Transparent)

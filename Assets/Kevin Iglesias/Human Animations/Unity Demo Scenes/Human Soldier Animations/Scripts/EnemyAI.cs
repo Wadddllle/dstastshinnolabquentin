@@ -26,6 +26,7 @@ public class EnemyAI : MonoBehaviour
     public Transform bulletSpawnPoint;
     public GameObject bulletPrefab;
     public float bulletSpeed = 10f;
+    public float maxBulletSpreadAngle = 2f;
     public float shot_cooldown;
     public ParticleSystem muzzleflash;
 
@@ -183,8 +184,16 @@ public class EnemyAI : MonoBehaviour
     {
         //bulletSpawnPoint.Rotate(i, j, k, Space.Self);
 
-        var bullet_0 = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
-        bullet_0.GetComponent<Rigidbody>().linearVelocity = bulletSpawnPoint.forward * bulletSpeed;
+
+        var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
+
+        //give the bullet a random variance spread in a cone of angle = maxBulletSpreadAngle
+        Vector3 spreadDir = Quaternion.Euler(
+            Random.Range(-maxBulletSpreadAngle, maxBulletSpreadAngle),
+            Random.Range(-maxBulletSpreadAngle,maxBulletSpreadAngle),
+            0f) * bulletSpawnPoint.forward;
+
+        bullet.GetComponent<Rigidbody>().linearVelocity = spreadDir.normalized * bulletSpeed;
         muzzleflash.Play();
 
         //bulletSpawnPoint.Rotate(-i, -j, -k, Space.Self);
