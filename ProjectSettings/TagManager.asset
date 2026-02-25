@@ -11,6 +11,8 @@ TagManager:
   - Body
   - Hostage
   - Leg
+  - PlayerProjectiles
+  - EnemyProjectiles
   layers:
   - Default
   - TransparentFX

@@ -56,7 +56,7 @@ public class InstructorPlacementTool_Hostage : MonoBehaviour
 
             // --- UPDATE: Remove the Logic Script from the Ghost ---
             // We destroy TargetBehavior so the ghost doesn't try to die or record kills
-            var ghostLogic = _placementGhost.GetComponent<TargetBehavior>();
+            var ghostLogic = _placementGhost.GetComponent<HostageAI>();
             if (ghostLogic) Destroy(ghostLogic);
 
             // Also remove the old HitTest if it exists
@@ -68,6 +68,14 @@ public class InstructorPlacementTool_Hostage : MonoBehaviour
             var ghostRb = _placementGhost.GetComponent<Rigidbody>();
             if (ghostRb) Destroy(ghostRb);
 
+            //--- UPDATE: Disable Colliders on the Ghost ---
+            foreach (var ghostCollider in _placementGhost.GetComponentsInChildren<Collider>())
+                ghostCollider.enabled = false;
+
+            //--- UPDATE: Disable NavMeshAgent on the Ghost ---
+            var ghostNavAgent = _placementGhost.GetComponent<UnityEngine.AI.NavMeshAgent>();
+            if (ghostNavAgent) Destroy(ghostNavAgent);
+
             // 3. Make it look like a ghost (Green/Transparent)
             foreach (var rend in _placementGhost.GetComponentsInChildren<Renderer>())
             {
@@ -76,6 +84,7 @@ public class InstructorPlacementTool_Hostage : MonoBehaviour
                 rend.material = ghostMat;
             }
 
+            _placementGhost.SetActive(false);
             _placementGhost.SetActive(false);
         }
     }
@@ -131,9 +140,9 @@ public class InstructorPlacementTool_Hostage : MonoBehaviour
         if (hitSomething)
         {
             endPoint = hit.point;
-
+            GameObject root = hit.collider.transform.root.gameObject;
             // CHECK: Is it an Enemy?
-            if (((1 << hit.collider.gameObject.layer) & hostageLayer) != 0)
+            if (((1 << root.layer) & hostageLayer) != 0)
             {
                 // Ray Color (Yellow = Hovering Enemy)
                 _lineRenderer.startColor = Color.yellow;
@@ -143,18 +152,18 @@ public class InstructorPlacementTool_Hostage : MonoBehaviour
                 if (_placementGhost) _placementGhost.SetActive(false);
 
                 // Highlight Logic
-                HandleHostageHover(hit.collider.gameObject);
+                HandleHostageHover(root);
 
                 // Inputs
                 if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, controller))
                 {
-                    _currentDraggedObject = hit.collider.gameObject;
+                    _currentDraggedObject = root;
                 }
 
                 if (OVRInput.GetDown(OVRInput.Button.Two, controller)) // B Button
                 {
                     ClearHover(); // Reset color before destroying!
-                    Destroy(hit.collider.gameObject);
+                    Destroy(root);
                 }
             }
             // CHECK: Is it the Floor?
@@ -244,7 +253,7 @@ public class InstructorPlacementTool_Hostage : MonoBehaviour
         // --- FIX: Find the correct renderer ---
         // 1. Try to get it from the TargetBehavior script (Best way)
         Renderer rend = null;
-        var targetScript = _hoveredObject.GetComponent<TargetBehavior>();
+        var targetScript = _hoveredObject.GetComponent<HostageAI>();
 
         if (targetScript != null && targetScript.mainRenderer != null)
         {
@@ -272,7 +281,7 @@ public class InstructorPlacementTool_Hostage : MonoBehaviour
         {
             // --- FIX: Find the renderer again to revert color ---
             Renderer rend = null;
-            var targetScript = _hoveredObject.GetComponent<TargetBehavior>();
+            var targetScript = _hoveredObject.GetComponent<HostageAI>();
 
             if (targetScript != null && targetScript.mainRenderer != null)
             {

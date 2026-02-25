@@ -54,7 +54,7 @@ public class Buttontest : MonoBehaviour
         // Play Muzzle Flash
         if (muzzleFlash != null)
         {
-            muzzleFlash.Stop(); // Reset if already playing
+            muzzleFlash.Stop();
             muzzleFlash.Play();
         }
 

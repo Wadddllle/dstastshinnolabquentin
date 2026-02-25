@@ -392,6 +392,7 @@ public class ObstacleTool : MonoBehaviour
         if (!obstaclePrefab) return;
         _ghost = Instantiate(obstaclePrefab);
         if (_ghost.GetComponent<Collider>()) Destroy(_ghost.GetComponent<Collider>());
+        if (_ghost.GetComponent<Rigidbody>()) Destroy(_ghost.GetComponent<Rigidbody>());
         Renderer r = _ghost.GetComponent<Renderer>();
         if (r)
         {

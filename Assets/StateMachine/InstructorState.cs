@@ -11,6 +11,13 @@ public class InstructorState : BaseState
         Manager.globalPathfinder.gameObject.SetActive(false);
         // 2. Data Cleanup
         Manager.tacticalGrid.ClearGrid();
+
+        var dropdowns = GameObject.FindObjectsByType<TMPro.TMP_Dropdown>(FindObjectsSortMode.None);
+        foreach (var dropdown in dropdowns)
+        {
+            dropdown.Hide();
+            dropdown.RefreshShownValue();
+        }
     }
 
     public override void UpdateState()

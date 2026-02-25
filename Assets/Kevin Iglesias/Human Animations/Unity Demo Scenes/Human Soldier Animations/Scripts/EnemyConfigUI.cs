@@ -42,8 +42,8 @@ public class EnemyConfigUI : MonoBehaviour
         reactionTime_offguardSlider.value = config.reactionTime_offGuard;
         reactionTime_awareSlider.value = config.reactionTime_aware;
 
-        movementSpeedSlider .value = config.movementSpeed;
-        turningSpeedSlider .value = config.turningSpeed;
+        movementSpeedSlider.value = config.movementSpeed;
+        turningSpeedSlider.value = config.turningSpeed;
 
         //listeners
         detectionRangeSlider.onValueChanged.AddListener(OnDetectionRangeChange);

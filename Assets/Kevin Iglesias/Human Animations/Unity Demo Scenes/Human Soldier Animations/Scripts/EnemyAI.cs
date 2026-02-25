@@ -15,6 +15,7 @@ public class EnemyAI : MonoBehaviour
     public LayerMask losMask;
     private NavMeshAgent agent;
     private HumanSoldierController soldier;
+    public Renderer mainRenderer;
 
     [Header("Ranges")]
     public float detectionRange;
@@ -179,7 +180,6 @@ public class EnemyAI : MonoBehaviour
 
     }
 
-
     void BulletSpawner(float i = 0f, float j = 0f, float k = 0f)
     {
         //bulletSpawnPoint.Rotate(i, j, k, Space.Self);
@@ -269,7 +269,7 @@ public class EnemyAI : MonoBehaviour
     {
         if (state == State.Dead) 
             return;
-        else if (state == State.Idle && distance <= 20f) //hardcoded!
+        else if (state == State.Idle && distance <= 10f) //hardcoded!
         {
             isAware = true;
             StartCoroutine(ReactionDelay(reactionTime_offGuard)); //alr changes state to chase here

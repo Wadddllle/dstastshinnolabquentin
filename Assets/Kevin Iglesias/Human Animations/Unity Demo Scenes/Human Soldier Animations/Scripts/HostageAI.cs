@@ -16,6 +16,7 @@ public class HostageAI : MonoBehaviour
     private NavMeshAgent agent;
     private HumanSoldierController soldier;
     private GameObject[] enemies;
+    public Renderer mainRenderer;
 
     [Header("Ranges")]
     public float detectionRange;

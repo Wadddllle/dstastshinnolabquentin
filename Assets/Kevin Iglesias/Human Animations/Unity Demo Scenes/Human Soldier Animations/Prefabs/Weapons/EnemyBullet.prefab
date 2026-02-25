@@ -176,7 +176,7 @@ GameObject:
   - component: {fileID: 7163104633669686358}
   m_Layer: 0
   m_Name: EnemyBullet
-  m_TagString: Untagged
+  m_TagString: EnemyProjectiles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -317,6 +317,7 @@ MonoBehaviour:
   dmg: 20
   explosionPrefab: {fileID: 3187283609441800976, guid: fc2ee9ba4390d1f478ff8a9b5634ee8d, type: 3}
   bloodSplatterPrefab: {fileID: 3187283609441800976, guid: 669d1f6fc36555742a7fc851c7353d06, type: 3}
+  shooter: {fileID: 5140362250260108345, guid: 481f04c7903b4b14e83d17a9aabc6c5d, type: 3}
   envLayerName: Environment
   enemyLayerName: Enemy
   hostageLayerName: Hostage

@@ -51,14 +51,14 @@ public class AAR_ReportCard : MonoBehaviour
         }
         int totalEnemies = _manifest.enemies.Count;
         int totalHostages = _manifest.hostages.Count > 0 ? _manifest.hostages.Count : 0;
-        float accuracy = shots > 0 ? ((float)hits / shots) * 100f : 6.7f;
+        float accuracy = shots > 0 ? ((float)hits / shots) * 100f : 0f;
 
         // Build String
         _baseReportText = "<size=150%><b>MISSION DEBRIEF</b></size>\n\n";
         _baseReportText += $"<b>Time:</b> {duration:F1}s\n";
         _baseReportText += $"<b>Total Shots Fired:</b> {shots}\n";
         _baseReportText += $"<b>Threats:</b> {kills} / {totalEnemies}\n";
-        _baseReportText += $"<b>Accuracy:</b> {accuracy:F1}%\n";
+        _baseReportText += $"<b>Accuracy:</b> {hits} hits / {shots} shots = {accuracy:F1}% accuracy\n";
         _baseReportText += $"<b>Hostage Casualties:</b> {collateral}\n";
         _baseReportText += $"<b>Hostages Remaining:</b> {totalHostages - collateral} / {totalHostages}\n";
         _baseReportText += $"<b>No of times you got shot:</b> {injuries}\n";

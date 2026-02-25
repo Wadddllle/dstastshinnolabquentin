@@ -6,6 +6,7 @@ public class Bullet : MonoBehaviour
     public float dmg = 50f;
     public GameObject explosionPrefab;
     public GameObject bloodSplatterPrefab;
+    public GameObject shooter;
 
     [SerializeField] private string envLayerName = "Environment";
     [SerializeField] private string enemyLayerName = "Enemy";
@@ -13,6 +14,7 @@ public class Bullet : MonoBehaviour
     private int envLayerId;
     private int enemyLayerId;
     private int hostageLayerId;
+    private bool hasHit = false;
 
     void Awake()
     {
@@ -24,6 +26,9 @@ public class Bullet : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
+        if (hasHit) //since OnCollisionEnter can trigger multiple times per frame, this boolean guard is used to prevent a single bullet from hitting multiple hitboxes
+            return;
+        hasHit = true;
         
         if (collision.gameObject.CompareTag("Destructable")) //destructable terrain/objects
         {
@@ -55,6 +60,7 @@ public class Bullet : MonoBehaviour
         {
             ContactPoint contact = collision.GetContact(0);
             Health target = collision.gameObject.transform.GetComponentInParent<Health>();
+
             if (target != null)
             {
                 
@@ -81,7 +87,7 @@ public class Bullet : MonoBehaviour
             }
         }
 
-        else if (collision.gameObject.layer == hostageLayerId) //hostage
+        else if (collision.gameObject.layer == hostageLayerId && shooter.CompareTag("PlayerProjectiles")) //hostage, which can only be shot by the player
         {
             ContactPoint contact = collision.GetContact(0);
             Health target = collision.gameObject.transform.GetComponentInParent<Health>();
@@ -96,9 +102,9 @@ public class Bullet : MonoBehaviour
 
         else if (collision.gameObject.layer == envLayerId) //environment
         {
-            //ContactPoint contact = collision.GetContact(0);
+            ContactPoint contact = collision.GetContact(0);
             Destroy(gameObject);
-            //GameObject explosion = Instantiate(explosionPrefab, contact.point, Quaternion.LookRotation(contact.normal));
+            GameObject explosion = Instantiate(explosionPrefab, contact.point, Quaternion.LookRotation(contact.normal));
         }
     }
 

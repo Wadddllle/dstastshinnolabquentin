@@ -5084,7 +5084,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 8b6f8a2221b39964ca31475404210937, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 6ef4c921d08caf34da88843a18533ff4, type: 2}
+      objectReference: {fileID: 2100000, guid: 766fd3ff04aab4745a764d33daac86fa, type: 2}
     - target: {fileID: 919132149155446097, guid: 8b6f8a2221b39964ca31475404210937, type: 3}
       propertyPath: m_Name
       value: HumanM_SoldierHelmet
@@ -5358,7 +5358,7 @@ PrefabInstance:
     - target: {fileID: -2717395650310496025, guid: 2faa610713d3b3c439473daa55e8c60a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: df81ddc38bae7e945a835735059fe898, type: 2}
+      objectReference: {fileID: 2100000, guid: 43714b68324cc2c409d534d9874f2a2b, type: 2}
     - target: {fileID: -2426548417520011582, guid: 2faa610713d3b3c439473daa55e8c60a, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -5805,6 +5805,11 @@ CapsuleCollider:
   m_Height: 0.48
   m_Direction: 1
   m_Center: {x: -0.01, y: 0.17, z: 0}
+--- !u!137 &1287619268729686415 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -2717395650310496025, guid: 2faa610713d3b3c439473daa55e8c60a, type: 3}
+  m_PrefabInstance: {fileID: 5446916740851820904}
+  m_PrefabAsset: {fileID: 0}
 --- !u!95 &1944922009303078137 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 2faa610713d3b3c439473daa55e8c60a, type: 3}
@@ -5972,12 +5977,14 @@ MonoBehaviour:
   losMask:
     serializedVersion: 2
     m_Bits: 585
+  mainRenderer: {fileID: 1287619268729686415}
   detectionRange: 10
   eyeRange: 10
   attackRange: 5
   bulletSpawnPoint: {fileID: 939538976312789459}
   bulletPrefab: {fileID: 3633575255752120972, guid: c80e3800c6f113049873b285af45c40f, type: 3}
   bulletSpeed: 30
+  maxBulletSpreadAngle: 2
   shot_cooldown: 1.3
   muzzleflash: {fileID: 7949557013187377833}
   repositionRadius: 3
