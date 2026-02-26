@@ -22,15 +22,15 @@ public class EnemyConfig : ScriptableObject
     [Header("Reaction")]
 
     [Range(0.5f, 2f)]
-    public float reactionTime_offGuard = 1.5f;
+    public float reactionTime_offGuard = 1f;
 
-    [Range(0.5f, 2f)]
-    public float reactionTime_aware = 0.5f;
+    [Range(0.3f, 2f)]
+    public float reactionTime_aware = 0.3f;
 
     [Header("Movement")]
 
     [Range(1f, 5f)]
-    public float movementSpeed = 3.5f;
+    public float movementSpeed = 2f;
 
     [Range(180f, 360f)]
     public float turningSpeed = 200f; //angular speed in deg/s

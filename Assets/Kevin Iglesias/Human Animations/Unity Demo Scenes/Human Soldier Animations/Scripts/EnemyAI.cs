@@ -15,6 +15,7 @@ public class EnemyAI : MonoBehaviour
     public LayerMask losMask;
     private NavMeshAgent agent;
     private HumanSoldierController soldier;
+    private Health enemy_healthState;
     public Renderer mainRenderer;
 
     [Header("Ranges")]
@@ -40,6 +41,7 @@ public class EnemyAI : MonoBehaviour
     public float reactionTime_aware;
     [SerializeField] private bool reacting;
     [SerializeField] private bool isAware = false; //is the enemy aware of the player's presence? (important for setting reaction time)
+    [SerializeField] private bool gotShot = false;
 
     public enum State { Idle, Chase, Attack, Reposition, Dead }
     public State state = State.Idle;
@@ -54,6 +56,7 @@ public class EnemyAI : MonoBehaviour
         player_target = GameObject.FindGameObjectWithTag("Player")?.transform;
         agent = GetComponent<NavMeshAgent>();
         soldier = GetComponent<HumanSoldierController>();
+        enemy_healthState = gameObject.GetComponent<Health>();
     }
 
     void UpdateState()
@@ -83,11 +86,16 @@ public class EnemyAI : MonoBehaviour
 
         distance = Vector3.Distance(transform.position, player_target.position);
         float currentSpeed = agent.velocity.magnitude;
-        Health enemy_healthState = gameObject.GetComponent<Health>();
-
+        
         if (enemy_healthState.currentHealth <= 0f)
             Kill();
-        
+        else if (enemy_healthState.currentHealth < enemy_healthState.maxHealth && gotShot == false)
+        {
+            gotShot = true;
+            isAware = true;
+            StartCoroutine(ReactionDelay(reactionTime_aware)); //alr changes state to chase here
+        }
+
         switch (state)
         {
             case State.Idle:

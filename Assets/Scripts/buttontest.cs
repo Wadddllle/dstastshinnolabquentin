@@ -25,6 +25,7 @@ public class Buttontest : MonoBehaviour
     public Transform shotSource;
 
     [SerializeField] private bool stillSilent = true;
+    private bool toggleAlertByGunshot = true;
 
 
     void Update()
@@ -71,7 +72,7 @@ public class Buttontest : MonoBehaviour
         }
 
         // --- 3. Check if player has already shot before ---
-        if (stillSilent == true)
+        if (stillSilent == true && toggleAlertByGunshot == true)
         {
             EnemyAI[] allEnemies = FindObjectsByType<EnemyAI>(FindObjectsSortMode.None);
             foreach (var enemy in allEnemies)
@@ -101,5 +102,12 @@ public class Buttontest : MonoBehaviour
 
         // --- 6. Cleanup ---
         Destroy(newProjectile, bulletLifeTime);
+    }
+    public void ToggleAlertByGunshot()
+    {
+        if (toggleAlertByGunshot == true)
+            toggleAlertByGunshot = false;
+        else
+            toggleAlertByGunshot = true;
     }
 }
