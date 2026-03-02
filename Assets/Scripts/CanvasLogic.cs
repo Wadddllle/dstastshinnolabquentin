@@ -84,8 +84,8 @@ public class CanvasLogic : MonoBehaviour
         if (myDropdown != null)
         {
             // Option A: Hide it completely (Recommended)
-            myDropdown.gameObject.SetActive(false);
-
+            //myDropdown.gameObject.SetActive(false);
+            Destroy(myDropdown.gameObject);
             // Option B: Just make it unclickable (Greyed out)
             // myDropdown.interactable = false; 
         }

@@ -66,7 +66,7 @@ public class CoordinateMarker : MonoBehaviour
 
             // --- FIX 3: Increase Lift ---
             // 0.03f (3cm) is safer to prevent Z-fighting flickering
-            Vector3 offsetPosition = hit.point + (hit.normal * 0.03f);
+            Vector3 offsetPosition = hit.point + (hit.normal * 0.05f);
 
             _previewMarker.transform.position = offsetPosition;
 

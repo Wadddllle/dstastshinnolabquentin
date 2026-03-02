@@ -32,6 +32,7 @@ public class InstructorState : BaseState
     public void FinishSetup()
     {
         Manager.mapGenerator.CaptureSnapshot();
+        
         Manager.ChangeState(new TraineeState());
     }
 
