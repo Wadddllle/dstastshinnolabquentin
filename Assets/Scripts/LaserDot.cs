@@ -10,6 +10,7 @@ public class LaserDot : MonoBehaviour
     void Update()
     {
        transform.position = lineRenderer.GetPosition(1);
+        GetComponent<MeshRenderer>().enabled = AppManager.Instance.IsInstructorState();
     }
 
     public void ChangeMaterial(bool cutShort)

@@ -81,14 +81,15 @@ public class CanvasLogic : MonoBehaviour
             return;
         }
         // 1. Disable the Dropdown so user can't select old tools
-        if (myDropdown != null)
-        {
+        //if (myDropdown != null)
+        //{
             // Option A: Hide it completely (Recommended)
             //myDropdown.gameObject.SetActive(false);
-            Destroy(myDropdown.gameObject);
+            //Destroy(myDropdown.gameObject);
             // Option B: Just make it unclickable (Greyed out)
             // myDropdown.interactable = false; 
-        }
+
+        //}
 
         // 2. Disable all the specific tool GameObjects you dragged in
         if (toolsToDisable != null)
