@@ -4,13 +4,13 @@ using UnityEngine.UI;
 
 public class EnemySpawnManagerUI : MonoBehaviour
 {
-    public EnemySpawnManager spawnManager;
+    public EnemyMarker markerPrefab;
     public Slider slider;
     public TextMeshProUGUI sliderValue;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        slider.value = spawnManager.chance;
+        slider.value = markerPrefab.chance * 10f;
         slider.onValueChanged.AddListener(OnChanceChange);
 
         UpdateChanceLabel();
@@ -18,12 +18,12 @@ public class EnemySpawnManagerUI : MonoBehaviour
 
     void OnChanceChange(float chance)
     {
-        spawnManager.chance = chance;
-        sliderValue.text = (chance*100).ToString("F1") + "%";
+        markerPrefab.chance = chance * 0.1f;
+        sliderValue.text = (markerPrefab.chance*100).ToString("F1") + "%";
     }
     // Update is called once per frame
     void UpdateChanceLabel()
     {
-        sliderValue.text = (spawnManager.chance*100).ToString("F1") + "%";
+        sliderValue.text = (markerPrefab.chance*100).ToString("F1") + "%";
     }
 }

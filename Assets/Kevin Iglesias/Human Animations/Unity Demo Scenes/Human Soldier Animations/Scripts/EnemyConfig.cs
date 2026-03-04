@@ -5,13 +5,13 @@ public class EnemyConfig : ScriptableObject
 {
     [Header("Ranges")]
 
-    [Range(1f,10f)]
+    [Range(3f,10f)]
     public float detectionRange = 5f;
 
-    [Range(1f, 10f)]
+    [Range(3f, 10f)]
     public float eyeRange = 4f;
 
-    [Range(1f, 10f)]
+    [Range(3f, 10f)]
     public float attackRange = 4f;
 
     [Header("Bullet")]

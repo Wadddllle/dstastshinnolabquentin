@@ -20,6 +20,7 @@ public class SessionManifest
     public List<EntityData> enemies = new List<EntityData>();
     public List<EntityData> hostages = new List<EntityData>();
     public List<EntityData> obstacles = new List<EntityData>();
+    public List<EntityData> spawnPoints = new List<EntityData>();
 }
 
 // Helper class to save Position/Rotation/Scale easily

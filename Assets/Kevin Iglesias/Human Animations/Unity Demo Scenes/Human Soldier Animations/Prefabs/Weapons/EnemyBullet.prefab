@@ -317,7 +317,7 @@ MonoBehaviour:
   dmg: 20
   explosionPrefab: {fileID: 3187283609441800976, guid: fc2ee9ba4390d1f478ff8a9b5634ee8d, type: 3}
   bloodSplatterPrefab: {fileID: 3187283609441800976, guid: 669d1f6fc36555742a7fc851c7353d06, type: 3}
-  shooter: {fileID: 5140362250260108345, guid: 481f04c7903b4b14e83d17a9aabc6c5d, type: 3}
+  shooter: {fileID: 3633575255752120972}
   envLayerName: Environment
   enemyLayerName: Enemy
   hostageLayerName: Hostage

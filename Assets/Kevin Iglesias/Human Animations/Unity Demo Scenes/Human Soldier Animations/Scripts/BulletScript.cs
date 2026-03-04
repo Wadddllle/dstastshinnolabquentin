@@ -44,7 +44,7 @@ public class Bullet : MonoBehaviour
             }
         }
 
-        else if (collision.gameObject.CompareTag("Player")) //Player kena
+        else if (collision.gameObject.CompareTag("Player") && shooter.CompareTag("EnemyProjectiles")) //Player kena
         {
             ContactPoint contact = collision.GetContact(0);
             GameObject bloodSplatter = Instantiate(bloodSplatterPrefab, contact.point, Quaternion.LookRotation(contact.normal));
@@ -56,7 +56,7 @@ public class Bullet : MonoBehaviour
 
         }
 
-        else if (collision.gameObject.layer == enemyLayerId) //enemies
+        else if (collision.gameObject.layer == enemyLayerId && shooter.CompareTag("PlayerProjectiles")) //enemies
         {
             ContactPoint contact = collision.GetContact(0);
             Health target = collision.gameObject.transform.GetComponentInParent<Health>();

@@ -10,6 +10,7 @@ public class SessionManager : MonoBehaviour
     public List<GameObject> activeEnemies = new List<GameObject>();
     public List<GameObject> activeHostages = new List<GameObject>();
     public List<GameObject> activeObstacles = new List<GameObject>();
+    public List<GameObject> activeSpawnPoints = new List<GameObject>();
 
     // The Room Geometry
     public List<Vector3> zonePoints = new List<Vector3>(); // From ZoneTool
@@ -56,6 +57,16 @@ public class SessionManager : MonoBehaviour
     public void UnregisterObstacle(GameObject obs)
     {
         if (activeObstacles.Contains(obs)) activeObstacles.Remove(obs);
+    }
+    // ---SPAWN POINTS---
+
+    public void RegisterSpawnPoint(GameObject spn)
+    {
+        if (!activeSpawnPoints.Contains(spn)) activeSpawnPoints.Add(spn);
+    }
+    public void UnregisterSpawnPoint(GameObject spn)
+    {
+        if (activeSpawnPoints.Contains(spn)) activeSpawnPoints.Remove(spn);
     }
 
     // --- GEOMETRY (Breach & Zone) ---
@@ -140,6 +151,19 @@ public class SessionManager : MonoBehaviour
             });
         }
 
+        //5. Save Spawn Points
+        foreach (var spn in activeSpawnPoints)
+        {
+            if (spn == null) continue;
+            manifest.spawnPoints.Add(new EntityData
+            {
+                id = spn.name,
+                type = "SpawnPoint",
+                position = spn.transform.position,
+                rotation = spn.transform.rotation,
+                scale = spn.transform.localScale
+            });
+        }
         return manifest;
     }
 }

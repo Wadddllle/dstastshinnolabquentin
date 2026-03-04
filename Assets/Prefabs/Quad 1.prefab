@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 326191000386526256}
   - component: {fileID: 5823581001605953317}
   - component: {fileID: 5427159235096484215}
+  - component: {fileID: 7056768400221211198}
   m_Layer: 0
   m_Name: Quad 1
   m_TagString: EnemySpawnPoint
@@ -112,3 +113,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &7056768400221211198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6844729902787079979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3fb585a65dd9444db448701d860729d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyMarkerTool
+  enemyPrefab: {fileID: 5140362250260108345, guid: 481f04c7903b4b14e83d17a9aabc6c5d, type: 3}
+  enemyConfig: {fileID: 11400000, guid: eae5916870498eb4a9c1f1149b31a763, type: 2}
+  chance: 1

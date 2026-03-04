@@ -1,61 +1,58 @@
 using UnityEngine;
-using System.Collections.Generic;
 
 public class EnemyMarker : MonoBehaviour
 {
-    [Header("Settings")]
-    public Transform controllerTransform;
-    public GameObject markerPrefab;
-    public LayerMask floorLayer;
-    public OVRInput.Controller controllerType = OVRInput.Controller.RTouch;
+    new Collider collider;
+    private bool useAlr;
+    public GameObject enemyPrefab;
+    public EnemyConfig enemyConfig;
+    private float poll;
 
-
+    [Range(0f, 1f)]
+    public float chance = 0.5f;
+    void Start()
+    {
+        collider = GetComponent<Collider>();
+    }
+    // Update is called once per frame
     void Update()
     {
-        // Trigger RELEASE: Lock it in
-        if (OVRInput.GetUp(OVRInput.Button.PrimaryIndexTrigger, controllerType))
+        if (AppManager.Instance.IsInstructorState())
         {
-            ConfirmLocation();
-        }
+            collider.enabled = true;
+            if (useAlr == true)
+                useAlr = false;
 
-        if (OVRInput.GetDown(OVRInput.Button.Two, controllerType))
+        }  
+        else if (AppManager.Instance.IsTraineeState())
         {
-            DeleteMarkerLookedAt();
-        }
-    }
+            collider.enabled = false;
 
-    void ConfirmLocation()
-    {
-        Ray ray = new Ray(controllerTransform.position, controllerTransform.forward);
-        RaycastHit hit;
-        if (Physics.Raycast(ray, out hit, 100f, floorLayer) && Vector3.Dot(Vector3.up,hit.normal) >= 0.707f)
-        {
-            Vector3 offsetPosition = hit.point + (hit.normal * 0.05f);
-            GameObject marker = Instantiate(markerPrefab, offsetPosition, Quaternion.LookRotation(-hit.normal));
-            Renderer r = marker.GetComponent<Renderer>();
-            if (r)
+            if (useAlr == false)
             {
-                r.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
-                r.receiveShadows = false; // Optional
+                useAlr = true;
+                poll = Random.value;
+                if (poll <= chance)
+                {
+                    GameObject enemy = Instantiate(enemyPrefab, transform.position, Quaternion.identity);
+
+                    // 3. Give it a Unique Name (Critical for JSON saving)
+                    enemy.name = $"Target_{System.DateTime.Now.Ticks % 10000}"; // e.g., Target_4921
+
+                    // 4. REGISTER WITH DATABASE
+                    if (SessionManager.Instance != null)
+                    {
+                        SessionManager.Instance.RegisterEnemy(enemy);
+                        Debug.Log($"[Instructor] Enemy Placed & Registered: {enemy.name}");
+                    }
+                    else
+                        Debug.LogError("[Instructor] CRITICAL: SessionManager not found! Enemy not saved.");
+
+                    EnemyAI enemyAI = enemy.GetComponent<EnemyAI>();
+                    if (enemyAI != null && enemyConfig != null)
+                        enemyAI.ApplyConfig(enemyConfig);
+                }
             }
-        }
-
-         
-    }
-        
-    void DeleteMarkerLookedAt()
-    {
-        Ray ray = new Ray(controllerTransform.position, controllerTransform.forward);
-
-        if (Physics.Raycast(ray, out RaycastHit hit, 100f))
-        {
-            if (hit.collider.CompareTag("EnemySpawnPoint"))
-            {
-                GameObject marker = hit.collider.gameObject;
-                Destroy(marker);
-
-                Debug.Log("[Instructor] Enemy Spawn Point deleted.");
-            }
-        }
+        }  
     }
 }

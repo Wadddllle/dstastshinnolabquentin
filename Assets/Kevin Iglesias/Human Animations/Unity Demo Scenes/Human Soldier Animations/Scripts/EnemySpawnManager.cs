@@ -1,18 +1,18 @@
 using UnityEngine;
-
+using System.Collections.Generic;
 public class EnemySpawnManager : MonoBehaviour  
 {
-    private GameObject[] spawnPoints;
+    private List<GameObject> spawnPoints;
     public GameObject enemyPrefab;
     public EnemyConfig enemyConfig;
 
     [Range(0f, 1f)]
     public float chance = 0.5f;
 
-    void Start()
+    public void SpawnEnemies()
     {
-        spawnPoints = GameObject.FindGameObjectsWithTag("EnemySpawnPoint");
-        foreach (GameObject spawnPoint in spawnPoints)
+        spawnPoints = SessionManager.Instance.activeSpawnPoints;
+        foreach (var spawnPoint in spawnPoints)
         {
             float poll = Random.value;
             if (poll <= chance)
@@ -30,11 +30,12 @@ public class EnemySpawnManager : MonoBehaviour
                 }
                 else
                     Debug.LogError("[Instructor] CRITICAL: SessionManager not found! Enemy not saved.");
-                
+
                 EnemyAI enemyAI = enemy.GetComponent<EnemyAI>();
                 if (enemyAI != null && enemyConfig != null)
                     enemyAI.ApplyConfig(enemyConfig);
             }
+            else continue;
         }
     }
 }

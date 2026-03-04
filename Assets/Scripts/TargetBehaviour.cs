@@ -54,7 +54,8 @@ public class TargetBehavior : MonoBehaviour
         // --- 3. Log to GridRecorder ---
         if (GridRecorder.Instance != null)
         {
-            GridRecorder.Instance.LogEvent("KILL", $"Neutralized: {gameObject.name}", hitPoint);
+            //GridRecorder.Instance.LogEvent("KILL", $"Neutralized: {gameObject.name}", hitPoint);
+            return;
         }
 
         Debug.Log($"Target Down: {gameObject.name}");

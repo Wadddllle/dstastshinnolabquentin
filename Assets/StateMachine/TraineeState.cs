@@ -3,6 +3,7 @@ using UnityEngine;
 public class TraineeState : BaseState
 {
     private bool _isScenarioLive = false;
+    public EnemySpawnManager spawnManager;
 
     public override void EnterState()
     {

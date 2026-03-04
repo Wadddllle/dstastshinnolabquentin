@@ -11,6 +11,7 @@ public class CanvasLogic : MonoBehaviour
     public ZoneTool zoneTool;           // Ensure you added this from the previous step!
     public Transform playerHead;
     public AppManager appManager;
+    public EnemySpawnManager spawnManager;
 
     [Header("UI Components")]
     public TMP_Dropdown myDropdown;
@@ -169,6 +170,7 @@ public class CanvasLogic : MonoBehaviour
             }
 
             instructorState.FinishSetup();
+            
         }
         else
         {
