@@ -38,7 +38,7 @@ public class EnemyAI : MonoBehaviour
 
     [Header("Reaction")]
     public float reactionTime_offGuard; //used for when player shoots out and alerts everyone (based on AlertByGunshot) or when player gets too close to enemy (ie within detection range)
-    public float reactionTime_aware; //used for when player enters enemy line or sight, or shoots and wounds enemy and enemy responds
+    public float reactionTime_aware; //used for when player enters enemy line of sight, or shoots and wounds enemy and enemy responds
     [SerializeField] private bool reacting;
     [SerializeField] private bool isAware = false; //is the enemy aware of the player's presence? (important for setting reaction time)
     [SerializeField] private bool gotShot = false;
