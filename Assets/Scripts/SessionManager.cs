@@ -31,11 +31,20 @@ public class SessionManager : MonoBehaviour
     // --- ENEMIES ---
     public void RegisterEnemy(GameObject enemy)
     {
-        if (!activeEnemies.Contains(enemy)) activeEnemies.Add(enemy);
+        if (!activeEnemies.Contains(enemy))
+        {
+            activeEnemies.Add(enemy);
+            EnemyHitData enemyHitData = new EnemyHitData();
+            AppManager.Instance.enemyHits.Add(enemy.name, enemyHitData);
+        }
     }
     public void UnregisterEnemy(GameObject enemy)
     {
-        if (activeEnemies.Contains(enemy)) activeEnemies.Remove(enemy);
+        if (activeEnemies.Contains(enemy))
+        { 
+            activeEnemies.Remove(enemy);
+            AppManager.Instance.enemyHits.Remove(enemy.name);
+        }
     }
 
     // --- HOSTAGES ---

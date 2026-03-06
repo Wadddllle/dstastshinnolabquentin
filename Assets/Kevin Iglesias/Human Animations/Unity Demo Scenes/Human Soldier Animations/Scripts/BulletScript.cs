@@ -60,25 +60,31 @@ public class Bullet : MonoBehaviour
         {
             ContactPoint contact = collision.GetContact(0);
             Health target = collision.gameObject.transform.GetComponentInParent<Health>();
+            string enemyId = collision.gameObject.transform.parent.name;
 
             if (target != null)
             {
-                
+                //EnemyHitData hitData = AppManager.Instance.enemyHits[enemyId];
+                //hitData.hitCount++;
+
                 if (collision.gameObject.CompareTag("Head"))
                 {
                     target.TakeDmg(dmg*2); //headshot x2 dmg
+                    //hitData.headShot = true;
                     if (GridRecorder.Instance != null)
                         GridRecorder.Instance.LogEvent("HIT", $"Headshot on: {target.gameObject.name}", contact.point);
                 }
                 else if (collision.gameObject.CompareTag("Body"))
                 {
                     target.TakeDmg(dmg); //bodyshot normal dmg
+                    //hitData.bodyShot = true;
                     if (GridRecorder.Instance != null)
                         GridRecorder.Instance.LogEvent("HIT", $"Bodyshot on: {target.gameObject.name}", contact.point);
                 }
                 else if (collision.gameObject.CompareTag("Leg"))
                 {
                     target.TakeDmg(dmg*0.5f); //limbshot x0.5 dmg
+                    //hitData.legShot = true;
                     if (GridRecorder.Instance != null)
                         GridRecorder.Instance.LogEvent("HIT", $"Legshot on: {target.gameObject.name}", contact.point);
                 }
