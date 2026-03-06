@@ -30,12 +30,22 @@ public class AAR_ReportCard : MonoBehaviour
 
     private void CalculateBasicStats()
     {
-        if (_manifest == null || _eventLog == null)
+        /*if (_manifest == null || _eventLog == null)
         {
             reportText.text = "Error: Missing Data.";
             return;
-        }
+        }*/
 
+        if (_manifest == null)
+        {
+            reportText.text = "Error:  missing manifest";
+            return;
+        }
+        if (_eventLog == null)
+        {
+            reportText.text = "Error: missing eventlog";
+            return;
+        }
         float duration = 0f;
         if (_eventLog.events.Count > 1)
             duration = _eventLog.events[_eventLog.events.Count - 1].timestamp - _eventLog.events[0].timestamp;
@@ -57,7 +67,7 @@ public class AAR_ReportCard : MonoBehaviour
         _baseReportText = "<size=150%><b>MISSION DEBRIEF</b></size>\n\n";
         _baseReportText += $"<b>Time:</b> {duration:F1}s\n";
         _baseReportText += $"<b>Total Shots Fired:</b> {shots}\n";
-        _baseReportText += $"<b>Threats:</b> {kills} / {totalEnemies}\n";
+        _baseReportText += $"<b>Threats Eliminated:</b> {kills} / {totalEnemies}\n";
         _baseReportText += $"<b>Accuracy:</b> {hits} hits / {shots} shots = {accuracy:F1}% accuracy\n";
         _baseReportText += $"<b>Hostage Casualties:</b> {collateral}\n";
         _baseReportText += $"<b>Hostages Remaining:</b> {totalHostages - collateral} / {totalHostages}\n";
@@ -80,4 +90,5 @@ public class AAR_ReportCard : MonoBehaviour
         int kills = 0; // simplified, you might want to store this variable at class level
         // (For now, just appending the status line here is fine or keep it in CalculateBasicStats)
     }
+
 }

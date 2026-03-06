@@ -49,6 +49,7 @@ public class EnemyAI : MonoBehaviour
     private float lastRepositionTime;
     private Vector3 repositionTarget;
     [SerializeField] private bool isActive;
+    private bool isDead = false;
     
 
     void Start()
@@ -87,7 +88,7 @@ public class EnemyAI : MonoBehaviour
         distance = Vector3.Distance(transform.position, player_target.position);
         float currentSpeed = agent.velocity.magnitude;
         
-        if (enemy_healthState.currentHealth <= 0f)
+        if (enemy_healthState.currentHealth <= 0f && isDead == false)
             Kill();
         else if (enemy_healthState.currentHealth < enemy_healthState.maxHealth && gotShot == false)
         {
@@ -179,7 +180,10 @@ public class EnemyAI : MonoBehaviour
     /// </summary>
     public void Kill()
     {
+        if (isDead) return;
+
         state = State.Dead;
+        isDead = true;
         soldier.movement = SoldierMovement.NoMovement;
         soldier.action = SoldierAction.Death02;
 
@@ -187,8 +191,6 @@ public class EnemyAI : MonoBehaviour
         {
             GridRecorder.Instance.LogEvent("KILL", $"Neutralized: {gameObject.name}", transform.position); //by right location param is supposed to be where enemy got shot, but that is alr recorded in HIT in bullet script
         }
-
-        Debug.Log($"Target Down: {gameObject.name}");
 
     }
 

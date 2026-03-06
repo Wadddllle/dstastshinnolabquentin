@@ -192,7 +192,7 @@ IL2CPP_EXTERN_C RuntimeClass* TextureFormat_t87A73E4A3850D3410DC211676FC14B94226
 IL2CPP_EXTERN_C RuntimeClass* UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* XrResult_tC6E780422C0CF27153FB9B0ED7D1F60015608195_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tDEA4DBF25ED3A57BEF93477E21812F662B700F3C____46D8AF688A55DA0C9B6EBCB9C3DE7067CD56758FA757519D406687E8CBD5D9A1_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tDEA4DBF25ED3A57BEF93477E21812F662B700F3C____1A7F21DC41AD6CD0AD44414ACA5F23BBB178B6243DBE5B016F8205E1392ED802_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tDEA4DBF25ED3A57BEF93477E21812F662B700F3C____5099921F0941EB557F2865A09B5793D34CF97AC43C5372C06866DFD07AEB57E3_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral06E02AAD278C470CA00827078CCD2F85C887CBD0;
 IL2CPP_EXTERN_C String_t* _stringLiteral1636A4BA9AE4E4042E374DBDD1627CE3A68CF0CE;
@@ -1073,7 +1073,7 @@ struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
 };
 struct U3CPrivateImplementationDetailsU3E_tDEA4DBF25ED3A57BEF93477E21812F662B700F3C_StaticFields
 {
-	__StaticArrayInitTypeSizeU3D339_tA32BC955AD2E1AA254BBB5ACE06EBCF27858F86C ___46D8AF688A55DA0C9B6EBCB9C3DE7067CD56758FA757519D406687E8CBD5D9A1;
+	__StaticArrayInitTypeSizeU3D339_tA32BC955AD2E1AA254BBB5ACE06EBCF27858F86C ___1A7F21DC41AD6CD0AD44414ACA5F23BBB178B6243DBE5B016F8205E1392ED802;
 	__StaticArrayInitTypeSizeU3D354_tFD6C9C70C6B3FB1F89725E1DD418CDA37FDF8C5E ___5099921F0941EB557F2865A09B5793D34CF97AC43C5372C06866DFD07AEB57E3;
 };
 struct Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_StaticFields
@@ -1627,14 +1627,14 @@ inline NativeArray_1_t6C2613A1D4A03EFEE59BBADBC529386D1205D01C UnsafeUtility_Rea
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 136117
+// Method Definition Index: 136026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t3416D25F961CB51863D291A045234B8C52193BA3 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m75C3BB6863489AED0D5ED23A50FC2B78D83B0D4B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tDEA4DBF25ED3A57BEF93477E21812F662B700F3C____46D8AF688A55DA0C9B6EBCB9C3DE7067CD56758FA757519D406687E8CBD5D9A1_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tDEA4DBF25ED3A57BEF93477E21812F662B700F3C____1A7F21DC41AD6CD0AD44414ACA5F23BBB178B6243DBE5B016F8205E1392ED802_FieldInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tDEA4DBF25ED3A57BEF93477E21812F662B700F3C____5099921F0941EB557F2865A09B5793D34CF97AC43C5372C06866DFD07AEB57E3_FieldInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -1644,7 +1644,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t3416D25F961CB51863D291A045234
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t3416D25F961CB51863D291A045234B8C52193BA3));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)339));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
-		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tDEA4DBF25ED3A57BEF93477E21812F662B700F3C____46D8AF688A55DA0C9B6EBCB9C3DE7067CD56758FA757519D406687E8CBD5D9A1_FieldInfo_var) };
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tDEA4DBF25ED3A57BEF93477E21812F662B700F3C____1A7F21DC41AD6CD0AD44414ACA5F23BBB178B6243DBE5B016F8205E1392ED802_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
 		(&V_0)->___FilePathsData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
@@ -1661,7 +1661,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t3416D25F961CB51863D291A045234
 		return L_6;
 	}
 }
-// Method Definition Index: 136118
+// Method Definition Index: 136027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m2B5E401043D3EF6EC0554C5045D2FA46F2A513E6 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t1ACF46C8B2EF733FA0223A82328A383F4AABE8DA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1747,7 +1747,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t3416D25F961CB51863D291A045234B8C52193BA3_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 136119
+// Method Definition Index: 136028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DepthProviderOpenXR__ctor_mE15660C7002F192F38172E256FEDC7D7412258FF (DepthProviderOpenXR_t4943E33E3F77D6E7CF199479585A84944DECDA81* __this, XRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1* ___0_displaySubsystem, OpenXRLoader_tA12FB18F0FC8F79E1D42A6786EEF18F6D8101408* ___1_loader, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1760,20 +1760,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DepthProviderOpenXR__ctor_mE15660C7002F1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:44>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:46>
 		XRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1* L_0 = ___0_displaySubsystem;
 		__this->____displaySubsystem = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____displaySubsystem), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:47>
 		OpenXRLoader_tA12FB18F0FC8F79E1D42A6786EEF18F6D8101408* L_1 = ___1_loader;
 		NullCheck(L_1);
 		XROcclusionSubsystem_tAA1BB69ACF188D778FBC8EF5E7B427C6EB2F0C3C* L_2;
 		L_2 = GenericVirtualFuncInvoker0< XROcclusionSubsystem_tAA1BB69ACF188D778FBC8EF5E7B427C6EB2F0C3C* >::Invoke(XRLoaderHelper_GetLoadedSubsystem_TisXROcclusionSubsystem_tAA1BB69ACF188D778FBC8EF5E7B427C6EB2F0C3C_m87449C72B44B643176DF4965D35811BB9BD56338_RuntimeMethod_var, L_1);
 		__this->____occlusionSubsystem = ((MetaOpenXROcclusionSubsystem_t4785F2E3F4B8AA770233D45F8A124661F7FDBF61*)IsInstSealed((RuntimeObject*)L_2, MetaOpenXROcclusionSubsystem_t4785F2E3F4B8AA770233D45F8A124661F7FDBF61_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____occlusionSubsystem), (void*)((MetaOpenXROcclusionSubsystem_t4785F2E3F4B8AA770233D45F8A124661F7FDBF61*)IsInstSealed((RuntimeObject*)L_2, MetaOpenXROcclusionSubsystem_t4785F2E3F4B8AA770233D45F8A124661F7FDBF61_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:48>
 		MetaOpenXROcclusionSubsystem_t4785F2E3F4B8AA770233D45F8A124661F7FDBF61* L_3 = __this->____occlusionSubsystem;
 		if (L_3)
 		{
@@ -1781,22 +1781,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DepthProviderOpenXR__ctor_mE15660C7002F1
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:50>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralE0A8E8EC6ED83A1A64286F4C3651BD02A2361530, NULL);
 	}
 
 IL_0030:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:52>
 		return;
 	}
 }
-// Method Definition Index: 136120
+// Method Definition Index: 136029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DepthProviderOpenXR_Meta_XR_EnvironmentDepth_IDepthProvider_get_IsSupported_mD5743870EDC2AE5ECE23F1A5095B50FF8807552A (DepthProviderOpenXR_t4943E33E3F77D6E7CF199479585A84944DECDA81* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:54>
 		MetaOpenXROcclusionSubsystem_t4785F2E3F4B8AA770233D45F8A124661F7FDBF61* L_0 = __this->____occlusionSubsystem;
 		if (!L_0)
 		{
@@ -1813,17 +1813,17 @@ IL_0012:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 136121
+// Method Definition Index: 136030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DepthProviderOpenXR_Meta_XR_EnvironmentDepth_IDepthProvider_set_RemoveHands_m95D193BB6387B1B6A256CBAFB32FCB8012D2BE51 (DepthProviderOpenXR_t4943E33E3F77D6E7CF199479585A84944DECDA81* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:56>
 		bool L_0 = ___0_value;
 		DepthProviderOpenXR_SetHandRemovalEnabled_mE781374DD16F3E2BF40B1A985A975328F61FEA69(__this, L_0, NULL);
 		return;
 	}
 }
-// Method Definition Index: 136122
+// Method Definition Index: 136031
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DepthProviderOpenXR_Meta_XR_EnvironmentDepth_IDepthProvider_SetDepthEnabled_m94E2E90CA7365C4C8E1BFA8F7450644130046457 (DepthProviderOpenXR_t4943E33E3F77D6E7CF199479585A84944DECDA81* __this, bool ___0_isEnabled, bool ___1_removeHands, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1842,7 +1842,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DepthProviderOpenXR_Meta_XR_EnvironmentD
 	KeyValuePair_2_t4F5403486A78CB7D12A5AF928A6488D4D65D12B6 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:61>
 		bool L_0 = ___0_isEnabled;
 		if (!L_0)
 		{
@@ -1850,11 +1850,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DepthProviderOpenXR_Meta_XR_EnvironmentD
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:63>
 		MetaOpenXROcclusionSubsystem_t4785F2E3F4B8AA770233D45F8A124661F7FDBF61* L_1 = __this->____occlusionSubsystem;
 		NullCheck(L_1);
 		SubsystemWithProvider_Start_m720DC3EDB918F58D65CA4B12017D395788934644(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:64>
 		bool L_2 = ___1_removeHands;
 		if (!L_2)
 		{
@@ -1862,14 +1862,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DepthProviderOpenXR_Meta_XR_EnvironmentD
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:66>
 		DepthProviderOpenXR_SetHandRemovalEnabled_mE781374DD16F3E2BF40B1A985A975328F61FEA69(__this, (bool)1, NULL);
 		return;
 	}
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:71>
 		MetaOpenXROcclusionSubsystem_t4785F2E3F4B8AA770233D45F8A124661F7FDBF61* L_3 = __this->____occlusionSubsystem;
 		NullCheck(L_3);
 		int32_t L_4;
@@ -1890,17 +1890,17 @@ IL_001c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:73>
 		DepthProviderOpenXR_SetHandRemovalEnabled_mE781374DD16F3E2BF40B1A985A975328F61FEA69(__this, (bool)0, NULL);
 	}
 
 IL_003e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:75>
 		MetaOpenXROcclusionSubsystem_t4785F2E3F4B8AA770233D45F8A124661F7FDBF61* L_7 = __this->____occlusionSubsystem;
 		NullCheck(L_7);
 		SubsystemWithProvider_Stop_mB22AB4811D2636FCB317C0E54E8A7139D81A8E16(L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:77>
 		Dictionary_2_tDEE638C3EE716884B2EBD7DD821E08C469FEC88B* L_8 = __this->____depthTextures;
 		if (!L_8)
 		{
@@ -1908,7 +1908,7 @@ IL_003e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:79>
 		Dictionary_2_tDEE638C3EE716884B2EBD7DD821E08C469FEC88B* L_9 = __this->____depthTextures;
 		NullCheck(L_9);
 		Enumerator_t385C4DCFB8A6514047102B29E2C49AC981666F6C L_10;
@@ -1933,15 +1933,15 @@ FINALLY_0098:
 
 IL_005f_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:80>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:79>
 				KeyValuePair_2_t4F5403486A78CB7D12A5AF928A6488D4D65D12B6 L_11;
 				L_11 = Enumerator_get_Current_m0DEABC51E716E0A58269BC3FABFAC56798B259AD_inline((&V_0), Enumerator_get_Current_m0DEABC51E716E0A58269BC3FABFAC56798B259AD_RuntimeMethod_var);
 				V_1 = L_11;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:82>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:81>
 				ValueTuple_2_t88A373151903A3902F5EB394D91252EEBC61876A L_12;
 				L_12 = KeyValuePair_2_get_Value_m6A9C41E3724D1B2FBA6DCFEAE8FF2F06F345784A_inline((&V_1), KeyValuePair_2_get_Value_m6A9C41E3724D1B2FBA6DCFEAE8FF2F06F345784A_RuntimeMethod_var);
 				RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_13 = L_12.___Item2;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:83>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:82>
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				bool L_14;
 				L_14 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_13, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -1951,7 +1951,7 @@ IL_005f_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:86>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:85>
 				ValueTuple_2_t88A373151903A3902F5EB394D91252EEBC61876A L_15;
 				L_15 = KeyValuePair_2_get_Value_m6A9C41E3724D1B2FBA6DCFEAE8FF2F06F345784A_inline((&V_1), KeyValuePair_2_get_Value_m6A9C41E3724D1B2FBA6DCFEAE8FF2F06F345784A_RuntimeMethod_var);
 				uint32_t L_16 = L_15.___Item1;
@@ -1961,7 +1961,7 @@ IL_005f_1:
 
 IL_008d_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:80>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:79>
 				bool L_18;
 				L_18 = Enumerator_MoveNext_m929BA979B3B40C4C67D0901325DE0E764A827A5E((&V_0), Enumerator_MoveNext_m929BA979B3B40C4C67D0901325DE0E764A827A5E_RuntimeMethod_var);
 				if (L_18)
@@ -1981,18 +1981,18 @@ IL_008d_1:
 
 IL_00a6:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:92>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:91>
 		__this->____depthTextures = (Dictionary_2_tDEE638C3EE716884B2EBD7DD821E08C469FEC88B*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____depthTextures), (void*)(Dictionary_2_tDEE638C3EE716884B2EBD7DD821E08C469FEC88B*)NULL);
 	}
 
 IL_00ad:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:94>
 		return;
 	}
 }
-// Method Definition Index: 136123
+// Method Definition Index: 136032
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DepthProviderOpenXR_SetHandRemovalEnabled_mE781374DD16F3E2BF40B1A985A975328F61FEA69 (DepthProviderOpenXR_t4943E33E3F77D6E7CF199479585A84944DECDA81* __this, bool ___0_isEnabled, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2006,7 +2006,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DepthProviderOpenXR_SetHandRemovalEnable
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:99>
 		MetaOpenXROcclusionSubsystem_t4785F2E3F4B8AA770233D45F8A124661F7FDBF61* L_0 = __this->____occlusionSubsystem;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -2017,14 +2017,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DepthProviderOpenXR_SetHandRemovalEnable
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:101>
 		MetaOpenXROcclusionSubsystem_t4785F2E3F4B8AA770233D45F8A124661F7FDBF61* L_2 = __this->____occlusionSubsystem;
 		bool L_3 = ___0_isEnabled;
 		NullCheck(L_2);
 		int32_t L_4;
 		L_4 = MetaOpenXROcclusionSubsystem_TrySetHandRemovalEnabled_mBC4E98397A15EA59D44A7927F74FCCA86B37352D(L_2, L_3, NULL);
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:102>
 		int32_t L_5 = V_0;
 		if (!L_5)
 		{
@@ -2032,7 +2032,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DepthProviderOpenXR_SetHandRemovalEnable
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:104>
 		int32_t L_6 = V_0;
 		int32_t L_7 = L_6;
 		RuntimeObject* L_8 = Box(XrResult_tC6E780422C0CF27153FB9B0ED7D1F60015608195_il2cpp_TypeInfo_var, &L_7);
@@ -2045,18 +2045,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DepthProviderOpenXR_SetHandRemovalEnable
 
 IL_0034:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:109>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral1B5827B458F62F35622432B1187B3E22A85DDAF1, NULL);
 	}
 
 IL_003e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:111>
 		return;
 	}
 }
-// Method Definition Index: 136124
+// Method Definition Index: 136033
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DepthProviderOpenXR_Meta_XR_EnvironmentDepth_IDepthProvider_TryGetUpdatedDepthTexture_mC3440889342E398434A72D3ED82E17EC9CA465E7 (DepthProviderOpenXR_t4943E33E3F77D6E7CF199479585A84944DECDA81* __this, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27** ___0_depthTexture, DepthFrameDescU5BU5D_t4D8B3C737B8653EFCA44427FC2DF0EE8F8A100B8* ___1_frameDescriptors, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2121,11 +2121,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DepthProviderOpenXR_Meta_XR_EnvironmentD
 	memset((&V_19), 0, sizeof(V_19));
 	int32_t G_B24_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:115>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27** L_0 = ___0_depthTexture;
 		*((RuntimeObject**)L_0) = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_0, (void*)(RuntimeObject*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:116>
 		Dictionary_2_tDEE638C3EE716884B2EBD7DD821E08C469FEC88B* L_1 = __this->____depthTextures;
 		if (L_1)
 		{
@@ -2133,7 +2133,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DepthProviderOpenXR_Meta_XR_EnvironmentD
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:118>
 		MetaOpenXROcclusionSubsystem_t4785F2E3F4B8AA770233D45F8A124661F7FDBF61* L_2 = __this->____occlusionSubsystem;
 		NullCheck(L_2);
 		bool L_3;
@@ -2144,22 +2144,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DepthProviderOpenXR_Meta_XR_EnvironmentD
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:120>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralAB13B591939FB7E2125BD758B5D8572376EDDF07, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:121>
 		return (bool)0;
 	}
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:124>
 		int32_t L_4;
 		L_4 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_7))->___m_Length);
 		Dictionary_2_tDEE638C3EE716884B2EBD7DD821E08C469FEC88B* L_5 = (Dictionary_2_tDEE638C3EE716884B2EBD7DD821E08C469FEC88B*)il2cpp_codegen_object_new(Dictionary_2_tDEE638C3EE716884B2EBD7DD821E08C469FEC88B_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m236CAD5890F3CC664091AC65ABFA4B2FC426954B(L_5, L_4, Dictionary_2__ctor_m236CAD5890F3CC664091AC65ABFA4B2FC426954B_RuntimeMethod_var);
 		V_8 = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:125>
 		Enumerator_tE7A7A784B5A313F4B5C96ABB23568BE2B88BDAB2 L_6;
 		L_6 = NativeArray_1_GetEnumerator_mAFCEFF8514EEEFE0BC9EE18412AD3FF0E12891EA((&V_7), NativeArray_1_GetEnumerator_mAFCEFF8514EEEFE0BC9EE18412AD3FF0E12891EA_RuntimeMethod_var);
 		V_9 = L_6;
@@ -2182,15 +2182,15 @@ FINALLY_0098:
 
 IL_0042_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:126>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:125>
 				NativeArray_1_t6C2613A1D4A03EFEE59BBADBC529386D1205D01C L_7;
 				L_7 = Enumerator_get_Current_m9F425AD5F6303B9261C4CDAA68D0AA776B154476_inline((&V_9), Enumerator_get_Current_m9F425AD5F6303B9261C4CDAA68D0AA776B154476_RuntimeMethod_var);
 				V_10 = L_7;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:129>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:128>
 				XRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19 L_8;
 				L_8 = IL2CPP_NATIVEARRAY_GET_ITEM(XRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19, ((&V_10))->___m_Buffer, 0);
 				V_11 = L_8;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:131>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:130>
 				XRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19 L_9 = V_11;
 				UnityXRRenderTextureDesc_tA6CF93382D5D69117464D7D409B5C0177B367267 L_10;
 				L_10 = DepthProviderOpenXR_ToUnityXRRenderTextureDesc_mB39FE635036E318DF65614505BEBA6905F08F3C9(L_9, NULL);
@@ -2202,17 +2202,17 @@ IL_0042_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:133>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:132>
 				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 				Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral2451B29259385C9E9ABAEA967B614602807F4B8F, NULL);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:134>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:133>
 				V_13 = (bool)0;
 				goto IL_02de;
 			}
 
 IL_0077_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:136>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:135>
 				Dictionary_2_tDEE638C3EE716884B2EBD7DD821E08C469FEC88B* L_12 = V_8;
 				intptr_t L_13;
 				L_13 = XRTextureDescriptor_get_nativeTexture_m1E27C0E1DC11DDC6139178509EE91B8DF54DBAD4_inline((&V_11), NULL);
@@ -2226,7 +2226,7 @@ IL_0077_1:
 
 IL_008d_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:126>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:125>
 				bool L_16;
 				L_16 = Enumerator_MoveNext_m1F84B403C386B936A5734B8F3B6307EAEFA99A54_inline((&V_9), Enumerator_MoveNext_m1F84B403C386B936A5734B8F3B6307EAEFA99A54_RuntimeMethod_var);
 				if (L_16)
@@ -2246,7 +2246,7 @@ IL_008d_1:
 
 IL_00a6:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:138>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:137>
 		Dictionary_2_tDEE638C3EE716884B2EBD7DD821E08C469FEC88B* L_17 = V_8;
 		__this->____depthTextures = L_17;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____depthTextures), (void*)L_17);
@@ -2254,12 +2254,12 @@ IL_00a6:
 
 IL_00ae:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:141>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:142>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:143>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:144>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:145>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:146>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:140>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:145>
 		MetaOpenXROcclusionSubsystem_t4785F2E3F4B8AA770233D45F8A124661F7FDBF61* L_18 = __this->____occlusionSubsystem;
 		NullCheck(L_18);
 		bool L_19;
@@ -2316,26 +2316,26 @@ IL_00ae:
 
 IL_00f9:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:147>
 		return (bool)0;
 	}
 
 IL_00fb:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:150>
 		MetaOpenXROcclusionSubsystem_t4785F2E3F4B8AA770233D45F8A124661F7FDBF61* L_27 = __this->____occlusionSubsystem;
 		NullCheck(L_27);
 		NativeArray_1_t6C2613A1D4A03EFEE59BBADBC529386D1205D01C L_28;
 		L_28 = XROcclusionSubsystem_GetTextureDescriptors_mD667D3C1F1C019B70E7B1B37131DBCF5A3962FF3(L_27, 2, NULL);
 		V_4 = L_28;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:153>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:152>
 		XRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19 L_29;
 		L_29 = IL2CPP_NATIVEARRAY_GET_ITEM(XRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19, ((&V_4))->___m_Buffer, 0);
 		V_14 = L_29;
 		intptr_t L_30;
 		L_30 = XRTextureDescriptor_get_nativeTexture_m1E27C0E1DC11DDC6139178509EE91B8DF54DBAD4_inline((&V_14), NULL);
 		V_5 = L_30;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:154>
 		Nullable_1_t02905B3413B8A12DF3D51046F80F708B11A08455 L_31 = __this->____prevNativeTexture;
 		V_15 = L_31;
 		intptr_t L_32 = V_5;
@@ -2384,19 +2384,19 @@ IL_014e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:157>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:156>
 		return (bool)0;
 	}
 
 IL_0152:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:158>
 		intptr_t L_38 = V_5;
 		Nullable_1_t02905B3413B8A12DF3D51046F80F708B11A08455 L_39;
 		memset((&L_39), 0, sizeof(L_39));
 		Nullable_1__ctor_m343D2D34D5EC299A8A8BFE3BB11C60FDC27383B8((&L_39), L_38, Nullable_1__ctor_m343D2D34D5EC299A8A8BFE3BB11C60FDC27383B8_RuntimeMethod_var);
 		__this->____prevNativeTexture = L_39;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:160>
 		Dictionary_2_tDEE638C3EE716884B2EBD7DD821E08C469FEC88B* L_40 = __this->____depthTextures;
 		intptr_t L_41 = V_5;
 		NullCheck(L_40);
@@ -2408,7 +2408,7 @@ IL_0152:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:162>
 		intptr_t L_43 = V_5;
 		intptr_t L_44 = L_43;
 		RuntimeObject* L_45 = Box(il2cpp_defaults.int_class, &L_44);
@@ -2416,19 +2416,19 @@ IL_0152:
 		L_46 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral95B514F2443C6CF74930D12ECFCB5D59B90F64A5, L_45, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_46, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:164>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:163>
 		return (bool)0;
 	}
 
 IL_0188:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:166>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:165>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27** L_47 = ___0_depthTexture;
 		ValueTuple_2_t88A373151903A3902F5EB394D91252EEBC61876A L_48 = V_6;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_49 = L_48.___Item2;
 		*((RuntimeObject**)L_47) = (RuntimeObject*)L_49;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_47, (void*)(RuntimeObject*)L_49);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:166>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27** L_50 = ___0_depthTexture;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_51 = *((RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27**)L_50);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -2440,7 +2440,7 @@ IL_0188:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:169>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27** L_53 = ___0_depthTexture;
 		XRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1* L_54 = __this->____displaySubsystem;
 		ValueTuple_2_t88A373151903A3902F5EB394D91252EEBC61876A L_55 = V_6;
@@ -2450,7 +2450,7 @@ IL_0188:
 		L_57 = XRDisplaySubsystem_GetRenderTexture_mABB964AEAFF9B12DB279EDECAE85A52F6253E5CA(L_54, L_56, NULL);
 		*((RuntimeObject**)L_53) = (RuntimeObject*)L_57;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_53, (void*)(RuntimeObject*)L_57);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:170>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27** L_58 = ___0_depthTexture;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_59 = *((RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27**)L_58);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -2462,16 +2462,16 @@ IL_0188:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:174>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:173>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralB81629FCA07412DB91C9C6077E73ACE9F03FE42F, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:175>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:174>
 		return (bool)0;
 	}
 
 IL_01c5:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:177>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:176>
 		Dictionary_2_tDEE638C3EE716884B2EBD7DD821E08C469FEC88B* L_61 = __this->____depthTextures;
 		intptr_t L_62 = V_5;
 		ValueTuple_2_t88A373151903A3902F5EB394D91252EEBC61876A L_63 = V_6;
@@ -2487,24 +2487,24 @@ IL_01c5:
 
 IL_01e0:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:180>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:179>
 		V_17 = 0;
 		goto IL_02d2;
 	}
 
 IL_01e8:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:182>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:183>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:184>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:185>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:186>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:187>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:188>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:189>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:190>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:191>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:192>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:181>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:182>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:183>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:185>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:186>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:188>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:189>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:190>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:191>
 		DepthFrameDescU5BU5D_t4D8B3C737B8653EFCA44427FC2DF0EE8F8A100B8* L_68 = ___1_frameDescriptors;
 		int32_t L_69 = V_17;
 		il2cpp_codegen_initobj((&V_18), sizeof(DepthFrameDesc_t8E03631D7F12D148E09C208091FBCA5C692E2DB2));
@@ -2571,14 +2571,14 @@ IL_01e8:
 		DepthFrameDesc_t8E03631D7F12D148E09C208091FBCA5C692E2DB2 L_98 = V_18;
 		NullCheck(L_68);
 		(L_68)->SetAt(static_cast<il2cpp_array_size_t>(L_69), (DepthFrameDesc_t8E03631D7F12D148E09C208091FBCA5C692E2DB2)L_98);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:180>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:179>
 		int32_t L_99 = V_17;
 		V_17 = ((int32_t)il2cpp_codegen_add(L_99, 1));
 	}
 
 IL_02d2:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:180>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:179>
 		int32_t L_100 = V_17;
 		DepthFrameDescU5BU5D_t4D8B3C737B8653EFCA44427FC2DF0EE8F8A100B8* L_101 = ___1_frameDescriptors;
 		NullCheck(L_101);
@@ -2588,18 +2588,18 @@ IL_02d2:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:194>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:193>
 		return (bool)1;
 	}
 
 IL_02de:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:195>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:194>
 		bool L_102 = V_13;
 		return L_102;
 	}
 }
-// Method Definition Index: 136125
+// Method Definition Index: 136034
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityXRRenderTextureDesc_tA6CF93382D5D69117464D7D409B5C0177B367267 DepthProviderOpenXR_ToUnityXRRenderTextureDesc_mB39FE635036E318DF65614505BEBA6905F08F3C9 (XRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19 ___0_descriptor, const RuntimeMethod* method) 
 {
 	UnityXRRenderTextureDesc_tA6CF93382D5D69117464D7D409B5C0177B367267 V_0;
@@ -2607,18 +2607,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityXRRenderTextureDesc_tA6CF93382D5D6911746
 	UnityXRTextureData_t0B6BEAE3B6786B7D2F2ACA67AC0A9D686F737411 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:201>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:202>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:203>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:204>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:205>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:206>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:207>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:208>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:209>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:210>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:211>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:212>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:200>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:201>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:202>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:203>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:204>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:205>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:206>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:207>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:208>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:209>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:210>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:211>
 		il2cpp_codegen_initobj((&V_0), sizeof(UnityXRRenderTextureDesc_tA6CF93382D5D69117464D7D409B5C0177B367267));
 		(&V_0)->___shadingRateFormat = 0;
 		UnityXRTextureData_t0B6BEAE3B6786B7D2F2ACA67AC0A9D686F737411* L_0 = (UnityXRTextureData_t0B6BEAE3B6786B7D2F2ACA67AC0A9D686F737411*)(&(&V_0)->___shadingRate);
@@ -2649,7 +2649,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityXRRenderTextureDesc_tA6CF93382D5D6911746
 		return L_8;
 	}
 }
-// Method Definition Index: 136126
+// Method Definition Index: 136035
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DepthProviderOpenXR_ToUnityXRDepthTextureFormat_mC97C575E9D9A5DF76EE9B663DC1D16DF755F143B (int32_t ___0_textureFormat, const RuntimeMethod* method) 
 {
 	{
@@ -2674,20 +2674,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DepthProviderOpenXR_ToUnityXRDepthTex
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:221>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:220>
 		return (int32_t)(0);
 	}
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:224>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:223>
 		return (int32_t)(1);
 	}
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:226>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:227>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:225>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/DepthProviderOpenXR.cs:226>
 		int32_t L_3 = ___0_textureFormat;
 		int32_t L_4 = L_3;
 		RuntimeObject* L_5 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TextureFormat_t87A73E4A3850D3410DC211676FC14B94226C1C1D_il2cpp_TypeInfo_var)), &L_4);
@@ -2706,27 +2706,27 @@ IL_0013:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 136127
+// Method Definition Index: 136036
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tF38D1A45CF65189578ADAC12AED34802EB2B8930* EnvironmentDepthManager_get_MaskMeshFilters_m97869EE18D51E20EE954B89C73E7DAE9EAA6DA4B (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:118>
 		List_1_tF38D1A45CF65189578ADAC12AED34802EB2B8930* L_0 = __this->___U3CMaskMeshFiltersU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 136128
+// Method Definition Index: 136037
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_set_MaskMeshFilters_m30E69B49ABCFB2DE4F378B6319A06C64931CB3B4 (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, List_1_tF38D1A45CF65189578ADAC12AED34802EB2B8930* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:118>
 		List_1_tF38D1A45CF65189578ADAC12AED34802EB2B8930* L_0 = ___0_value;
 		__this->___U3CMaskMeshFiltersU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CMaskMeshFiltersU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 136129
+// Method Definition Index: 136038
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_add_onDepthTextureUpdate_mCC9582C4F55323241A1575565EC0617BCC6C679B (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, Action_1_t2CB563D9C7F370A8760E0F8B6316E01325F7651C* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2769,7 +2769,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 136130
+// Method Definition Index: 136039
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_remove_onDepthTextureUpdate_m8D6C3BC94892D884D472219031E7CD6295A150BC (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, Action_1_t2CB563D9C7F370A8760E0F8B6316E01325F7651C* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2812,7 +2812,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 136131
+// Method Definition Index: 136040
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EnvironmentDepthManager_get_provider_mF8336B93FC202C31D6EED68BF640F81D8BEA42D4 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2824,7 +2824,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EnvironmentDepthManager_get_pr
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:131>
 		il2cpp_codegen_runtime_class_init_inline(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var);
 		RuntimeObject* L_0 = ((EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_StaticFields*)il2cpp_codegen_static_fields_for(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var))->____provider;
 		RuntimeObject* L_1 = L_0;
@@ -2850,7 +2850,7 @@ IL_0014:
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 136132
+// Method Definition Index: 136041
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EnvironmentDepthManager_CreateProvider_m35224046022B072044C09BCE9A58DF60117F03B1 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2869,7 +2869,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EnvironmentDepthManager_Create
 	XRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1* V_0 = NULL;
 	OpenXRLoader_tA12FB18F0FC8F79E1D42A6786EEF18F6D8101408* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:137>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:137>
 		il2cpp_codegen_runtime_class_init_inline(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_il2cpp_TypeInfo_var);
 		XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* L_0;
 		L_0 = XRGeneralSettings_get_Instance_m9F222F982E62E066E119754858D8E73CFE42048C_inline(NULL);
@@ -2915,7 +2915,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EnvironmentDepthManager_Create
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:139>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:139>
 		il2cpp_codegen_runtime_class_init_inline(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_il2cpp_TypeInfo_var);
 		XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* L_9;
 		L_9 = XRGeneralSettings_get_Instance_m9F222F982E62E066E119754858D8E73CFE42048C_inline(NULL);
@@ -2925,13 +2925,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EnvironmentDepthManager_Create
 		NullCheck(L_10);
 		XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_11;
 		L_11 = XRManagerSettings_get_activeLoader_mFB3B679005792D3DF871EAA7120DD86DCA1D5DEA_inline(L_10, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:140>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:140>
 		XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* L_12 = L_11;
 		NullCheck(L_12);
 		XRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1* L_13;
 		L_13 = GenericVirtualFuncInvoker0< XRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1* >::Invoke(XRLoader_GetLoadedSubsystem_TisXRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1_m5F2479AD2426A9D07E2B13A031D1F489CDB1A960_RuntimeMethod_var, L_12);
 		V_0 = L_13;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:144>
 		V_1 = ((OpenXRLoader_tA12FB18F0FC8F79E1D42A6786EEF18F6D8101408*)IsInstClass((RuntimeObject*)L_12, OpenXRLoader_tA12FB18F0FC8F79E1D42A6786EEF18F6D8101408_il2cpp_TypeInfo_var));
 		OpenXRLoader_tA12FB18F0FC8F79E1D42A6786EEF18F6D8101408* L_14 = V_1;
 		if (!L_14)
@@ -2940,7 +2940,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EnvironmentDepthManager_Create
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:146>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:146>
 		XRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1* L_15 = V_0;
 		OpenXRLoader_tA12FB18F0FC8F79E1D42A6786EEF18F6D8101408* L_16 = V_1;
 		DepthProviderOpenXR_t4943E33E3F77D6E7CF199479585A84944DECDA81* L_17 = (DepthProviderOpenXR_t4943E33E3F77D6E7CF199479585A84944DECDA81*)il2cpp_codegen_object_new(DepthProviderOpenXR_t4943E33E3F77D6E7CF199479585A84944DECDA81_il2cpp_TypeInfo_var);
@@ -2950,16 +2950,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EnvironmentDepthManager_Create
 
 IL_005d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:160>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral1DB6F79BC26F74A2048E9C638ECC919589DBFA22, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:161>
 		DepthProviderNotSupported_t921A3A2D107552501A0108FA3CCAF5843CBE8E46* L_18 = (DepthProviderNotSupported_t921A3A2D107552501A0108FA3CCAF5843CBE8E46*)il2cpp_codegen_object_new(DepthProviderNotSupported_t921A3A2D107552501A0108FA3CCAF5843CBE8E46_il2cpp_TypeInfo_var);
 		DepthProviderNotSupported__ctor_m36C707656C1F484EA4DF05DDA2435CEA343A9B4A(L_18, NULL);
 		return L_18;
 	}
 }
-// Method Definition Index: 136133
+// Method Definition Index: 136042
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EnvironmentDepthManager_get_IsSupported_m7DA10536D673EAAB71E7A1B798270D959EF5D52B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2970,7 +2970,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EnvironmentDepthManager_get_IsSupported_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:167>
 		il2cpp_codegen_runtime_class_init_inline(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var);
 		RuntimeObject* L_0;
 		L_0 = EnvironmentDepthManager_get_provider_mF8336B93FC202C31D6EED68BF640F81D8BEA42D4(NULL);
@@ -2980,35 +2980,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EnvironmentDepthManager_get_IsSupported_
 		return L_1;
 	}
 }
-// Method Definition Index: 136134
+// Method Definition Index: 136043
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EnvironmentDepthManager_get_IsDepthAvailable_m46C6D9DCA227381A3840DBE6B41083EFB8FD132C (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:172>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:172>
 		bool L_0 = __this->___U3CIsDepthAvailableU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 136135
+// Method Definition Index: 136044
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_set_IsDepthAvailable_m77ABBDA4D0A9BFF1247642CE22A018F22ECDA762 (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:172>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:172>
 		bool L_0 = ___0_value;
 		__this->___U3CIsDepthAvailableU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 136136
+// Method Definition Index: 136045
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EnvironmentDepthManager_get_OcclusionShadersMode_mF0CA69250148479C4BC4EE85DFD948CBD9EE5D6C (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:180>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:180>
 		int32_t L_0 = __this->____occlusionShadersMode;
 		return L_0;
 	}
 }
-// Method Definition Index: 136137
+// Method Definition Index: 136046
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_set_OcclusionShadersMode_m457114F6E041C154E08A45E7AB442CFBC673C9D5 (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3018,7 +3018,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_set_OcclusionSha
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:183>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:183>
 		int32_t L_0 = __this->____occlusionShadersMode;
 		int32_t L_1 = ___0_value;
 		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
@@ -3027,16 +3027,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_set_OcclusionSha
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:184>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:185>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:185>
 		int32_t L_2 = ___0_value;
 		__this->____occlusionShadersMode = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:186>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:186>
 		bool L_3;
 		L_3 = EnvironmentDepthManager_get_IsDepthAvailable_m46C6D9DCA227381A3840DBE6B41083EFB8FD132C_inline(__this, NULL);
 		if (!L_3)
@@ -3045,7 +3045,7 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:187>
 		int32_t L_4 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var);
 		EnvironmentDepthManager_SetOcclusionShaderKeywords_m5E0A4D11D6250C621884346B7E1A9CE72B443DD0(L_4, NULL);
@@ -3053,20 +3053,20 @@ IL_000a:
 
 IL_001f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:188>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:188>
 		return;
 	}
 }
-// Method Definition Index: 136138
+// Method Definition Index: 136047
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EnvironmentDepthManager_get_RemoveHands_mB1BAB22E297B860E48BD05BD6BD238D05C47FAFE (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:199>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:199>
 		bool L_0 = __this->____removeHands;
 		return L_0;
 	}
 }
-// Method Definition Index: 136139
+// Method Definition Index: 136048
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_set_RemoveHands_mA9AB95B7CAE5D8DFBAD88EE83AAC3394E12B1595 (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3077,7 +3077,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_set_RemoveHands_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:202>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:202>
 		bool L_0 = __this->____removeHands;
 		bool L_1 = ___0_value;
 		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
@@ -3086,16 +3086,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_set_RemoveHands_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:203>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:203>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:204>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:204>
 		bool L_2 = ___0_value;
 		__this->____removeHands = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:205>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:205>
 		bool L_3;
 		L_3 = Behaviour_get_enabled_mAAC9F15E9EBF552217A5AE2681589CC0BFA300C1(__this, NULL);
 		if (!L_3)
@@ -3113,7 +3113,7 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:206>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:206>
 		il2cpp_codegen_runtime_class_init_inline(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var);
 		RuntimeObject* L_5;
 		L_5 = EnvironmentDepthManager_get_provider_mF8336B93FC202C31D6EED68BF640F81D8BEA42D4(NULL);
@@ -3124,20 +3124,20 @@ IL_000a:
 
 IL_002b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:207>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:207>
 		return;
 	}
 }
-// Method Definition Index: 136140
+// Method Definition Index: 136049
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float EnvironmentDepthManager_get_MaskBias_mF60AB3A0C3FF3C25F208876F20F1FF0583DC2327 (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:216>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:216>
 		float L_0 = __this->____maskBias;
 		return L_0;
 	}
 }
-// Method Definition Index: 136141
+// Method Definition Index: 136050
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_set_MaskBias_m347F69D429D46FEAFB95EE2E1961A1DB483C0F7C (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3147,10 +3147,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_set_MaskBias_m34
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:219>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:219>
 		float L_0 = ___0_value;
 		__this->____maskBias = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:220>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:220>
 		Mask_tF3A4D566E9EBBE2211850CFBE22B12E49C4C47EB* L_1 = __this->____mask;
 		if (!L_1)
 		{
@@ -3158,7 +3158,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_set_MaskBias_m34
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:222>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:222>
 		Mask_tF3A4D566E9EBBE2211850CFBE22B12E49C4C47EB* L_2 = __this->____mask;
 		NullCheck(L_2);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = L_2->____maskMaterial;
@@ -3171,11 +3171,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_set_MaskBias_m34
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:224>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:224>
 		return;
 	}
 }
-// Method Definition Index: 136142
+// Method Definition Index: 136051
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_Awake_m0ADA6BE3CBB9FDEAA038174B84A47F6ADB3E781C (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3188,7 +3188,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_Awake_m0ADA6BE3C
 	}
 	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:233>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:233>
 		il2cpp_codegen_runtime_class_init_inline(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = EnvironmentDepthManager_get_IsSupported_m7DA10536D673EAAB71E7A1B798270D959EF5D52B(NULL);
@@ -3198,27 +3198,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_Awake_m0ADA6BE3C
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:246>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:249>
 		return;
 	}
 
 IL_0008:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:250>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:253>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_1;
 		L_1 = Shader_Find_m183AA54F78320212DDEC811592F98456898A41C5(_stringLiteralC92F425FF6D1AA7661F3BC4F16E65014AB18038A, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:252>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:255>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_2 = V_0;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)il2cpp_codegen_object_new(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
 		Material__ctor_m7FDF47105D66D19591BE505A0C42B0F90D88C9BF(L_3, L_2, NULL);
 		__this->____preprocessMaterial = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____preprocessMaterial), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:253>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:256>
 		return;
 	}
 }
-// Method Definition Index: 136143
+// Method Definition Index: 136052
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_OnEnable_m3425FD09A569E30BAAE5B148C8C46B75CD12654B (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3235,12 +3235,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_OnEnable_m3425FD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:257>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:260>
 		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_0 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_0, __this, (intptr_t)((void*)EnvironmentDepthManager_OnBeforeRender_m00D18902AA35B53448B64DCCE48FAB161B2BF078_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_add_onBeforeRender_mEE8925294C807AD08FA0FF35D4C663E098510394(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:258>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:261>
 		il2cpp_codegen_runtime_class_init_inline(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = EnvironmentDepthManager_get_IsSupported_m7DA10536D673EAAB71E7A1B798270D959EF5D52B(NULL);
@@ -3250,23 +3250,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_OnEnable_m3425FD
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:260>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:261>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:263>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:264>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralF8FA5BF7E342AFFCFC1B494EC30F5BA20D6AA806, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:262>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:265>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:263>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:266>
 		return;
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:266>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:269>
 		bool L_2;
 		L_2 = Permission_HasUserAuthorizedPermission_mF4C90E13124E28F6F672200E489CC25A9B645B8B(_stringLiteral9FC59D8986B846D2BF95AF308D4A1BDF1803347C, NULL);
 		__this->____hasPermission = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:267>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:270>
 		bool L_3 = __this->____hasPermission;
 		if (!L_3)
 		{
@@ -3274,7 +3274,7 @@ IL_002a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:268>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:271>
 		il2cpp_codegen_runtime_class_init_inline(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var);
 		RuntimeObject* L_4;
 		L_4 = EnvironmentDepthManager_get_provider_mF8336B93FC202C31D6EED68BF640F81D8BEA42D4(NULL);
@@ -3285,11 +3285,11 @@ IL_002a:
 
 IL_0053:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:270>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:273>
 		return;
 	}
 }
-// Method Definition Index: 136144
+// Method Definition Index: 136053
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_ResetDepthTextureIfAvailable_m08C8274380CE0F0078AD7DBCA015C2E2807C1A32 (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3299,7 +3299,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_ResetDepthTextur
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:274>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:277>
 		bool L_0;
 		L_0 = EnvironmentDepthManager_get_IsDepthAvailable_m46C6D9DCA227381A3840DBE6B41083EFB8FD132C_inline(__this, NULL);
 		if (!L_0)
@@ -3308,13 +3308,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_ResetDepthTextur
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:276>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:279>
 		EnvironmentDepthManager_set_IsDepthAvailable_m77ABBDA4D0A9BFF1247642CE22A018F22ECDA762_inline(__this, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:277>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:280>
 		il2cpp_codegen_runtime_class_init_inline(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var);
 		int32_t L_1 = ((EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_StaticFields*)il2cpp_codegen_static_fields_for(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var))->___DepthTextureID;
 		Shader_SetGlobalTexture_m6DAEF0F184187427D0B7EE64827BD95A482CC09C(L_1, (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:278>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:281>
 		int32_t L_2 = __this->____occlusionShadersMode;
 		if (!L_2)
 		{
@@ -3322,18 +3322,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_ResetDepthTextur
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:279>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:282>
 		il2cpp_codegen_runtime_class_init_inline(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var);
 		EnvironmentDepthManager_SetOcclusionShaderKeywords_m5E0A4D11D6250C621884346B7E1A9CE72B443DD0(0, NULL);
 	}
 
 IL_0028:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:281>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:284>
 		return;
 	}
 }
-// Method Definition Index: 136145
+// Method Definition Index: 136054
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_OnDisable_mF0DE61B956A3C760549EF7AC61F828F6C2ACAFB5 (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3347,14 +3347,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_OnDisable_mF0DE6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:285>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:288>
 		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_0 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_0, __this, (intptr_t)((void*)EnvironmentDepthManager_OnBeforeRender_m00D18902AA35B53448B64DCCE48FAB161B2BF078_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_remove_onBeforeRender_m9F54448ED4059A26C9972E5C9ED2F6DCD58B4E24(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:286>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:289>
 		EnvironmentDepthManager_ResetDepthTextureIfAvailable_m08C8274380CE0F0078AD7DBCA015C2E2807C1A32(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:287>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:290>
 		il2cpp_codegen_runtime_class_init_inline(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = EnvironmentDepthManager_get_IsSupported_m7DA10536D673EAAB71E7A1B798270D959EF5D52B(NULL);
@@ -3371,7 +3371,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_OnDisable_mF0DE6
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:288>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:291>
 		il2cpp_codegen_runtime_class_init_inline(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var);
 		RuntimeObject* L_3;
 		L_3 = EnvironmentDepthManager_get_provider_mF8336B93FC202C31D6EED68BF640F81D8BEA42D4(NULL);
@@ -3381,11 +3381,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_OnDisable_mF0DE6
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:289>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:292>
 		return;
 	}
 }
-// Method Definition Index: 136146
+// Method Definition Index: 136055
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_OnDestroy_m676509BBC91DDF17F034F3867448E7E3F3D56E9C (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3397,7 +3397,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_OnDestroy_m67650
 	Mask_tF3A4D566E9EBBE2211850CFBE22B12E49C4C47EB* G_B6_0 = NULL;
 	Mask_tF3A4D566E9EBBE2211850CFBE22B12E49C4C47EB* G_B5_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:293>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:296>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->____preprocessMaterial;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3408,7 +3408,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_OnDestroy_m67650
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:294>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:297>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = __this->____preprocessMaterial;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_2, NULL);
@@ -3416,7 +3416,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_OnDestroy_m67650
 
 IL_0019:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:295>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:298>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_3 = __this->____preprocessTexture;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -3427,7 +3427,7 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:296>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:299>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_5 = __this->____preprocessTexture;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_5, NULL);
@@ -3435,7 +3435,7 @@ IL_0019:
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:297>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:300>
 		Mask_tF3A4D566E9EBBE2211850CFBE22B12E49C4C47EB* L_6 = __this->____mask;
 		Mask_tF3A4D566E9EBBE2211850CFBE22B12E49C4C47EB* L_7 = L_6;
 		if (L_7)
@@ -3453,11 +3453,11 @@ IL_003d:
 	{
 		NullCheck(G_B6_0);
 		Mask_Dispose_m81960258F0C281CD889E609332941E5351C85582(G_B6_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:298>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:301>
 		return;
 	}
 }
-// Method Definition Index: 136147
+// Method Definition Index: 136056
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_OnBeforeRender_m00D18902AA35B53448B64DCCE48FAB161B2BF078 (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3477,7 +3477,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_OnBeforeRender_m
 	memset((&V_2), 0, sizeof(V_2));
 	int32_t V_3 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:302>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:305>
 		bool L_0 = __this->____hasPermission;
 		if (L_0)
 		{
@@ -3485,7 +3485,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_OnBeforeRender_m
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:304>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:307>
 		bool L_1;
 		L_1 = Permission_HasUserAuthorizedPermission_mF4C90E13124E28F6F672200E489CC25A9B645B8B(_stringLiteral9FC59D8986B846D2BF95AF308D4A1BDF1803347C, NULL);
 		if (L_1)
@@ -3494,15 +3494,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_OnBeforeRender_m
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:305>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:308>
 		return;
 	}
 
 IL_0015:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:306>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:309>
 		__this->____hasPermission = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:307>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:310>
 		il2cpp_codegen_runtime_class_init_inline(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var);
 		RuntimeObject* L_2;
 		L_2 = EnvironmentDepthManager_get_provider_mF8336B93FC202C31D6EED68BF640F81D8BEA42D4(NULL);
@@ -3513,14 +3513,14 @@ IL_0015:
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:310>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:313>
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_4;
 		L_4 = EnvironmentDepthManager_GetTrackingSpaceWorldToLocalMatrix_m7AFFBAC9F85B67622E0718EE85CCBE7329C2419B(__this, NULL);
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:311>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:314>
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_5 = V_0;
 		EnvironmentDepthManager_TryFetchDepthTexture_m239D100D17BD2A00B9D16A9092CC1A13DE8820DA(__this, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:312>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:315>
 		bool L_6;
 		L_6 = EnvironmentDepthManager_get_IsDepthAvailable_m46C6D9DCA227381A3840DBE6B41083EFB8FD132C_inline(__this, NULL);
 		if (L_6)
@@ -3529,19 +3529,19 @@ IL_002d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:314>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:317>
 		return;
 	}
 
 IL_0044:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:319>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:322>
 		DepthFrameDescU5BU5D_t4D8B3C737B8653EFCA44427FC2DF0EE8F8A100B8* L_7 = __this->___frameDescriptors;
 		NullCheck(L_7);
 		int32_t L_8 = 0;
 		DepthFrameDesc_t8E03631D7F12D148E09C208091FBCA5C692E2DB2 L_9 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
 		V_1 = L_9;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:320>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:323>
 		DepthFrameDesc_t8E03631D7F12D148E09C208091FBCA5C692E2DB2 L_10 = V_1;
 		float L_11 = L_10.___nearZ;
 		DepthFrameDesc_t8E03631D7F12D148E09C208091FBCA5C692E2DB2 L_12 = V_1;
@@ -3550,19 +3550,19 @@ IL_0044:
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_14;
 		L_14 = EnvironmentDepthUtils_ComputeNdcToLinearDepthParameters_m4ED08BC1248832A75BCEE1B40D63F91EFA86F081(L_11, L_13, NULL);
 		V_2 = L_14;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:321>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:324>
 		il2cpp_codegen_runtime_class_init_inline(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var);
 		int32_t L_15 = ((EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_StaticFields*)il2cpp_codegen_static_fields_for(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var))->___ZBufferParamsID;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_16 = V_2;
 		Shader_SetGlobalVector_mDC5F45B008D44A2C8BF6D450CFE8B58B847C8190(L_15, L_16, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:323>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:326>
 		V_3 = 0;
 		goto IL_0099;
 	}
 
 IL_0072:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:325>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:328>
 		Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D* L_17 = __this->____reprojectionMatrices;
 		int32_t L_18 = V_3;
 		DepthFrameDescU5BU5D_t4D8B3C737B8653EFCA44427FC2DF0EE8F8A100B8* L_19 = __this->___frameDescriptors;
@@ -3578,14 +3578,14 @@ IL_0072:
 		L_25 = Matrix4x4_op_Multiply_m75E91775655DCA8DFC8EDE0AB787285BB3935162(L_23, L_24, NULL);
 		NullCheck(L_17);
 		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(L_18), (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6)L_25);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:323>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:326>
 		int32_t L_26 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_26, 1));
 	}
 
 IL_0099:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:323>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:326>
 		int32_t L_27 = V_3;
 		if ((((int32_t)L_27) < ((int32_t)2)))
 		{
@@ -3593,16 +3593,16 @@ IL_0099:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:327>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:330>
 		il2cpp_codegen_runtime_class_init_inline(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var);
 		int32_t L_28 = ((EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_StaticFields*)il2cpp_codegen_static_fields_for(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var))->___ReprojectionMatricesID;
 		Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D* L_29 = __this->____reprojectionMatrices;
 		Shader_SetGlobalMatrixArray_m0232FB4129D259C4C70254E2ED65A8F19CA5D2AB(L_28, L_29, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:328>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:331>
 		return;
 	}
 }
-// Method Definition Index: 136148
+// Method Definition Index: 136057
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_SetOcclusionShaderKeywords_m5E0A4D11D6250C621884346B7E1A9CE72B443DD0 (int32_t ___0_mode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3640,37 +3640,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_SetOcclusionShad
 
 IL_0014:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:335>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:338>
 		Shader_DisableKeyword_m20FCB3643CD53D86E46DA431DA971E59D49DAF88(_stringLiteralF811479F06651C8AFA71880841D3E3465A1FE575, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:336>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:339>
 		Shader_EnableKeyword_m2449D6D86962FA7F5D1ED2B165EF63B019CBCCF1(_stringLiteral1DBA9D771CF21BD0FF172F0B4156503587FD5B7F, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:337>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:340>
 		return;
 	}
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:339>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:342>
 		Shader_DisableKeyword_m20FCB3643CD53D86E46DA431DA971E59D49DAF88(_stringLiteral1DBA9D771CF21BD0FF172F0B4156503587FD5B7F, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:340>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:343>
 		Shader_EnableKeyword_m2449D6D86962FA7F5D1ED2B165EF63B019CBCCF1(_stringLiteralF811479F06651C8AFA71880841D3E3465A1FE575, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:341>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:344>
 		return;
 	}
 
 IL_003e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:343>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:346>
 		Shader_DisableKeyword_m20FCB3643CD53D86E46DA431DA971E59D49DAF88(_stringLiteral1DBA9D771CF21BD0FF172F0B4156503587FD5B7F, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:344>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:347>
 		Shader_DisableKeyword_m20FCB3643CD53D86E46DA431DA971E59D49DAF88(_stringLiteralF811479F06651C8AFA71880841D3E3465A1FE575, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:345>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:348>
 		return;
 	}
 
 IL_0053:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:347>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:350>
 		int32_t L_1 = ___0_mode;
 		int32_t L_2 = L_1;
 		RuntimeObject* L_3 = Box(OcclusionShadersMode_t5E05D042A31C02AED3DAE94D664CB5FB98B24A9C_il2cpp_TypeInfo_var, &L_2);
@@ -3678,11 +3678,11 @@ IL_0053:
 		L_4 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralA5E8D505AB96888EB0230DF995112A81F0791818, _stringLiteralF5C8165CA10C005224204E77DF9D14B920A64297, L_3, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:350>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:353>
 		return;
 	}
 }
-// Method Definition Index: 136149
+// Method Definition Index: 136058
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_TryFetchDepthTexture_m239D100D17BD2A00B9D16A9092CC1A13DE8820DA (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___0_trackingSpaceWorldToLocal, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3699,7 +3699,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_TryFetchDepthTex
 	Action_1_t2CB563D9C7F370A8760E0F8B6316E01325F7651C* G_B6_0 = NULL;
 	Action_1_t2CB563D9C7F370A8760E0F8B6316E01325F7651C* G_B5_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:354>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:357>
 		il2cpp_codegen_runtime_class_init_inline(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var);
 		RuntimeObject* L_0;
 		L_0 = EnvironmentDepthManager_get_provider_mF8336B93FC202C31D6EED68BF640F81D8BEA42D4(NULL);
@@ -3713,13 +3713,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_TryFetchDepthTex
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:356>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:359>
 		return;
 	}
 
 IL_0015:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:358>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:361>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_3 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -3730,15 +3730,15 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:360>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:363>
 		EnvironmentDepthManager_ResetDepthTextureIfAvailable_m08C8274380CE0F0078AD7DBCA015C2E2807C1A32(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:361>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:364>
 		return;
 	}
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:365>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:368>
 		Action_1_t2CB563D9C7F370A8760E0F8B6316E01325F7651C* L_5 = __this->___onDepthTextureUpdate;
 		Action_1_t2CB563D9C7F370A8760E0F8B6316E01325F7651C* L_6 = L_5;
 		if (L_6)
@@ -3761,7 +3761,7 @@ IL_0031:
 
 IL_0037:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:366>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:369>
 		List_1_tF38D1A45CF65189578ADAC12AED34802EB2B8930* L_8;
 		L_8 = EnvironmentDepthManager_get_MaskMeshFilters_m97869EE18D51E20EE954B89C73E7DAE9EAA6DA4B_inline(__this, NULL);
 		if (!L_8)
@@ -3781,7 +3781,7 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:368>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:371>
 		Mask_tF3A4D566E9EBBE2211850CFBE22B12E49C4C47EB* L_11 = __this->____mask;
 		if (L_11)
 		{
@@ -3806,7 +3806,7 @@ IL_0037:
 
 IL_0072:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:369>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:372>
 		Mask_tF3A4D566E9EBBE2211850CFBE22B12E49C4C47EB* L_18 = __this->____mask;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_19 = V_0;
 		List_1_tF38D1A45CF65189578ADAC12AED34802EB2B8930* L_20;
@@ -3821,12 +3821,12 @@ IL_0072:
 
 IL_008c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:371>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:374>
 		il2cpp_codegen_runtime_class_init_inline(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var);
 		int32_t L_24 = ((EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_StaticFields*)il2cpp_codegen_static_fields_for(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var))->___DepthTextureID;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_25 = V_0;
 		Shader_SetGlobalTexture_m6DAEF0F184187427D0B7EE64827BD95A482CC09C(L_24, L_25, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:372>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:375>
 		bool L_26;
 		L_26 = EnvironmentDepthManager_get_IsDepthAvailable_m46C6D9DCA227381A3840DBE6B41083EFB8FD132C_inline(__this, NULL);
 		if (L_26)
@@ -3835,9 +3835,9 @@ IL_008c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:374>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:377>
 		EnvironmentDepthManager_set_IsDepthAvailable_m77ABBDA4D0A9BFF1247642CE22A018F22ECDA762_inline(__this, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:375>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:378>
 		int32_t L_27 = __this->____occlusionShadersMode;
 		if (!L_27)
 		{
@@ -3845,7 +3845,7 @@ IL_008c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:376>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:379>
 		int32_t L_28 = __this->____occlusionShadersMode;
 		il2cpp_codegen_runtime_class_init_inline(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var);
 		EnvironmentDepthManager_SetOcclusionShaderKeywords_m5E0A4D11D6250C621884346B7E1A9CE72B443DD0(L_28, NULL);
@@ -3853,7 +3853,7 @@ IL_008c:
 
 IL_00b9:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:379>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:382>
 		int32_t L_29 = __this->____occlusionShadersMode;
 		if ((!(((uint32_t)L_29) == ((uint32_t)2))))
 		{
@@ -3861,18 +3861,18 @@ IL_00b9:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:380>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:383>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_30 = V_0;
 		EnvironmentDepthManager_PreprocessDepthTexture_m3446EA7F2AB6FEEE92A73344D2EC6DE9FBB02253(__this, L_30, NULL);
 	}
 
 IL_00c9:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:381>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:384>
 		return;
 	}
 }
-// Method Definition Index: 136150
+// Method Definition Index: 136059
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 EnvironmentDepthManager_GetTrackingSpaceWorldToLocalMatrix_m7AFFBAC9F85B67622E0718EE85CCBE7329C2419B (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3883,7 +3883,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2
 	}
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:385>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:388>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___CustomTrackingSpace;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3894,7 +3894,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:387>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:390>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___CustomTrackingSpace;
 		NullCheck(L_2);
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_3;
@@ -3904,11 +3904,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:389>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:392>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = OVRCameraRig_GetTrackingSpace_m306201D6ABDC64741160416C3472191DB25FE36F(NULL);
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:390>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:393>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -3933,7 +3933,7 @@ IL_002e:
 		return L_9;
 	}
 }
-// Method Definition Index: 136151
+// Method Definition Index: 136060
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_PreprocessDepthTexture_m3446EA7F2AB6FEEE92A73344D2EC6DE9FBB02253 (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_depthTexture, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3952,7 +3952,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_PreprocessDepthT
 	RenderTargetSetup_tD71CE5727C526D33A6784394E0F9D9E2AB8CA86F V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:473>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:476>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_0 = __this->____preprocessTexture;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3963,13 +3963,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_PreprocessDepthT
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:475>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:476>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:477>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:478>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:479>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:480>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:481>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:478>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:479>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:480>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:481>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:482>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:483>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:484>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_2 = ___0_depthTexture;
 		NullCheck(L_2);
 		int32_t L_3;
@@ -3994,28 +3994,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_PreprocessDepthT
 		RenderTexture_set_depth_m3D8EF7C98634724B2DB8279387A81C4E19B5DA53(L_10, 0, NULL);
 		__this->____preprocessTexture = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____preprocessTexture), (void*)L_10);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:482>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:485>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_11 = __this->____preprocessTexture;
 		NullCheck(L_11);
 		bool L_12;
 		L_12 = RenderTexture_Create_mA6E4D3CCC84AC3F68E85AA0D6609E1692C672AD2(L_11, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:483>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:486>
 		il2cpp_codegen_runtime_class_init_inline(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var);
 		int32_t L_13 = ((EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_StaticFields*)il2cpp_codegen_static_fields_for(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var))->___PreprocessedEnvironmentDepthTexture;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_14 = __this->____preprocessTexture;
 		Shader_SetGlobalTexture_m6DAEF0F184187427D0B7EE64827BD95A482CC09C(L_13, L_14, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:485>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:486>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:487>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:488>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:489>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:490>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:491>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:492>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:493>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:494>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:495>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:496>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:488>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:489>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:490>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:491>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:492>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:493>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:494>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:495>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:496>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:497>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:498>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:499>
 		il2cpp_codegen_initobj((&V_0), sizeof(RenderTargetSetup_tD71CE5727C526D33A6784394E0F9D9E2AB8CA86F));
 		RenderBufferU5BU5D_t243AD088CC8449166000DC2F429023524FD855F5* L_15 = (RenderBufferU5BU5D_t243AD088CC8449166000DC2F429023524FD855F5*)(RenderBufferU5BU5D_t243AD088CC8449166000DC2F429023524FD855F5*)SZArrayNew(RenderBufferU5BU5D_t243AD088CC8449166000DC2F429023524FD855F5_il2cpp_TypeInfo_var, (uint32_t)1);
 		RenderBufferU5BU5D_t243AD088CC8449166000DC2F429023524FD855F5* L_16 = L_15;
@@ -4059,22 +4059,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_PreprocessDepthT
 
 IL_00ed:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:499>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:502>
 		RenderTargetSetup_tD71CE5727C526D33A6784394E0F9D9E2AB8CA86F L_25 = __this->____preprocessRenderTargetSetup;
 		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
 		Graphics_SetRenderTarget_m473C88BAC10F05E85918C154CB0426D05A1933D4(L_25, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:500>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:503>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_26 = __this->____preprocessMaterial;
 		NullCheck(L_26);
 		bool L_27;
 		L_27 = Material_SetPass_mBB03542DFF4FAEADFCED332009F9D61B6DED75FE(L_26, 0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:501>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:504>
 		Graphics_DrawProceduralNow_m978B544E28AF7B83FD6FF4AC88C41C9BF66CDC62(0, 3, 2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:502>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:505>
 		return;
 	}
 }
-// Method Definition Index: 136152
+// Method Definition Index: 136061
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_Log_m1CB09C58585D4E275084C2E6DCB56920334BBE3E (int32_t ___0_type, String_t* ___1_msg, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4085,7 +4085,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_Log_m1CB09C58585
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:505>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:508>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		RuntimeObject* L_0;
 		L_0 = Debug_get_unityLogger_m4FDE4D41C187123244FE13124DA636BB50C9C1E1_inline(NULL);
@@ -4096,7 +4096,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager_Log_m1CB09C58585
 		return;
 	}
 }
-// Method Definition Index: 136153
+// Method Definition Index: 136062
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager__ctor_m21A2BC6430D9332470D4AA443155413563A20F52 (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4109,20 +4109,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager__ctor_m21A2BC643
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:108>
 		__this->____occlusionShadersMode = 2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:118>
 		List_1_tF38D1A45CF65189578ADAC12AED34802EB2B8930* L_0 = (List_1_tF38D1A45CF65189578ADAC12AED34802EB2B8930*)il2cpp_codegen_object_new(List_1_tF38D1A45CF65189578ADAC12AED34802EB2B8930_il2cpp_TypeInfo_var);
 		List_1__ctor_mE87D19792408B0284962521E4F189E704CEE1A8C(L_0, List_1__ctor_mE87D19792408B0284962521E4F189E704CEE1A8C_RuntimeMethod_var);
 		__this->___U3CMaskMeshFiltersU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CMaskMeshFiltersU3Ek__BackingField), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:126>
 		DepthFrameDescU5BU5D_t4D8B3C737B8653EFCA44427FC2DF0EE8F8A100B8* L_1 = (DepthFrameDescU5BU5D_t4D8B3C737B8653EFCA44427FC2DF0EE8F8A100B8*)(DepthFrameDescU5BU5D_t4D8B3C737B8653EFCA44427FC2DF0EE8F8A100B8*)SZArrayNew(DepthFrameDescU5BU5D_t4D8B3C737B8653EFCA44427FC2DF0EE8F8A100B8_il2cpp_TypeInfo_var, (uint32_t)2);
 		__this->___frameDescriptors = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___frameDescriptors), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:128>
 		__this->____maskBias = (0.100000001f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:227>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:227>
 		Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D* L_2 = (Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D*)(Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D*)SZArrayNew(Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D_il2cpp_TypeInfo_var, (uint32_t)2);
 		__this->____reprojectionMatrices = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____reprojectionMatrices), (void*)L_2);
@@ -4130,7 +4130,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager__ctor_m21A2BC643
 		return;
 	}
 }
-// Method Definition Index: 136154
+// Method Definition Index: 136063
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager__cctor_mB5AE399ADCD05E59E531AED3129B2926C4A3B153 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4147,31 +4147,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager__cctor_mB5AE399A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:99>
 		int32_t L_0;
 		L_0 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteralDE36140A6B900DD92158BBA056C0056D6031D25D, NULL);
 		((EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_StaticFields*)il2cpp_codegen_static_fields_for(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var))->___DepthTextureID = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:100>
 		int32_t L_1;
 		L_1 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral06E02AAD278C470CA00827078CCD2F85C887CBD0, NULL);
 		((EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_StaticFields*)il2cpp_codegen_static_fields_for(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var))->___ReprojectionMatricesID = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:101>
 		int32_t L_2;
 		L_2 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral5F224B2AEF4A637D33372AD5CB608CD3CE8013AF, NULL);
 		((EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_StaticFields*)il2cpp_codegen_static_fields_for(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var))->___ZBufferParamsID = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:102>
 		int32_t L_3;
 		L_3 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteralB29005781C891F9AA15F6FF036E1C296DF7D185D, NULL);
 		((EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_StaticFields*)il2cpp_codegen_static_fields_for(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var))->___PreprocessedEnvironmentDepthTexture = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:104>
 		int32_t L_4;
 		L_4 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral8E994D0100257BF66B5AC25A19EA6D5296A523A0, NULL);
 		((EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_StaticFields*)il2cpp_codegen_static_fields_for(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var))->___MvpMatricesID = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:105>
 		int32_t L_5;
 		L_5 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteralBB2ED7F20376FBEB6F53E15F9D67658D0E6B8478, NULL);
 		((EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_StaticFields*)il2cpp_codegen_static_fields_for(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var))->___MaskTextureID = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:106>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:106>
 		int32_t L_6;
 		L_6 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral1636A4BA9AE4E4042E374DBDD1627CE3A68CF0CE, NULL);
 		((EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_StaticFields*)il2cpp_codegen_static_fields_for(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var))->___MaskBiasID = L_6;
@@ -4186,7 +4186,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthManager__cctor_mB5AE399A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 136155
+// Method Definition Index: 136064
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mask__ctor_mA6803E08778A11BC080DA27E72FDB11DCB73418B (Mask_tF3A4D566E9EBBE2211850CFBE22B12E49C4C47EB* __this, int32_t ___0_width, int32_t ___1_height, float ___2_bias, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4202,20 +4202,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mask__ctor_mA6803E08778A11BC080DA27E72FD
 	}
 	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:399>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:402>
 		Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D* L_0 = (Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D*)(Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D*)SZArrayNew(Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D_il2cpp_TypeInfo_var, (uint32_t)2);
 		__this->____mvpMatrices = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____mvpMatrices), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:401>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:404>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:404>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:407>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_1;
 		L_1 = Shader_Find_m183AA54F78320212DDEC811592F98456898A41C5(_stringLiteral523BF4488708BE2234C4B9012CE7985904607C1C, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:406>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:407>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:408>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:409>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:409>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:410>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:411>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:412>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_2 = V_0;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)il2cpp_codegen_object_new(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
 		Material__ctor_m7FDF47105D66D19591BE505A0C42B0F90D88C9BF(L_3, L_2, NULL);
@@ -4224,18 +4224,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mask__ctor_mA6803E08778A11BC080DA27E72FD
 		Material_set_enableInstancing_m84BA72A28BCFE94B50535BDE410A539A7CD7AF80(L_4, (bool)1, NULL);
 		__this->____maskMaterial = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____maskMaterial), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:410>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:413>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = __this->____maskMaterial;
 		il2cpp_codegen_runtime_class_init_inline(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var);
 		int32_t L_6 = ((EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_StaticFields*)il2cpp_codegen_static_fields_for(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var))->___MaskBiasID;
 		float L_7 = ___2_bias;
 		NullCheck(L_5);
 		Material_SetFloat_m3ECFD92072347A8620254F014865984FA68211A8(L_5, L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:411>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:412>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:413>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:414>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:415>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:414>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:415>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:416>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:417>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:418>
 		int32_t L_8 = ___0_width;
 		int32_t L_9 = ___1_height;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_10 = (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27*)il2cpp_codegen_object_new(RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27_il2cpp_TypeInfo_var);
@@ -4248,12 +4248,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mask__ctor_mA6803E08778A11BC080DA27E72FD
 		RenderTexture_set_volumeDepth_mD9B1E6BA4BE6B1741427B34A23B9D48BA9493633(L_12, 2, NULL);
 		__this->____maskDepthRt = L_12;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____maskDepthRt), (void*)L_12);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:416>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:417>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:418>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:419>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:420>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:421>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:419>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:420>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:421>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:422>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:423>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:424>
 		int32_t L_13 = ___0_width;
 		int32_t L_14 = ___1_height;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_15 = (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27*)il2cpp_codegen_object_new(RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27_il2cpp_TypeInfo_var);
@@ -4269,16 +4269,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mask__ctor_mA6803E08778A11BC080DA27E72FD
 		RenderTexture_set_depth_m3D8EF7C98634724B2DB8279387A81C4E19B5DA53(L_18, 0, NULL);
 		__this->____maskedDepthTexture = L_18;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____maskedDepthTexture), (void*)L_18);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:422>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:425>
 		CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* L_19 = (CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7*)il2cpp_codegen_object_new(CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7_il2cpp_TypeInfo_var);
 		CommandBuffer__ctor_m9445F1606331B732FCA393591F3E230714FD5FF4(L_19, NULL);
 		__this->____maskCommandBuffer = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____maskCommandBuffer), (void*)L_19);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:423>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:426>
 		return;
 	}
 }
-// Method Definition Index: 136156
+// Method Definition Index: 136065
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* Mask_ApplyMask_m9AC3E2E085375EF8C7376B867999E583AC1C380E (Mask_tF3A4D566E9EBBE2211850CFBE22B12E49C4C47EB* __this, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_depthTexture, List_1_tF38D1A45CF65189578ADAC12AED34802EB2B8930* ___1_meshFilters, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___2_trackingSpaceWorldToLocal, DepthFrameDescU5BU5D_t4D8B3C737B8653EFCA44427FC2DF0EE8F8A100B8* ___3_frameDescriptors, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4308,23 +4308,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29F
 	memset((&V_4), 0, sizeof(V_4));
 	MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* V_5 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:428>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:431>
 		DepthFrameDescU5BU5D_t4D8B3C737B8653EFCA44427FC2DF0EE8F8A100B8* L_0 = ___3_frameDescriptors;
 		NullCheck(L_0);
 		int32_t L_1 = 0;
 		DepthFrameDesc_t8E03631D7F12D148E09C208091FBCA5C692E2DB2 L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
 		il2cpp_codegen_runtime_class_init_inline(EnvironmentDepthUtils_tF0B57ABF5A71BC39C607681F1611BD437291128A_il2cpp_TypeInfo_var);
 		EnvironmentDepthUtils_CalculateDepthCameraMatrices_mEAFC3CA26D1CB1BB8D595409083E1B6EB21E8F60(L_2, (&V_0), (&V_1), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:429>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:432>
 		DepthFrameDescU5BU5D_t4D8B3C737B8653EFCA44427FC2DF0EE8F8A100B8* L_3 = ___3_frameDescriptors;
 		NullCheck(L_3);
 		int32_t L_4 = 1;
 		DepthFrameDesc_t8E03631D7F12D148E09C208091FBCA5C692E2DB2 L_5 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		EnvironmentDepthUtils_CalculateDepthCameraMatrices_mEAFC3CA26D1CB1BB8D595409083E1B6EB21E8F60(L_5, (&V_2), (&V_3), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:432>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:433>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:434>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:435>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:435>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:436>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:437>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:438>
 		CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* L_6 = __this->____maskCommandBuffer;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_7 = __this->____maskDepthRt;
 		RenderTargetIdentifier_tA528663AC6EB3911D8E91AA40F7070FA5455442B L_8;
@@ -4332,13 +4332,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29F
 		RenderTargetIdentifier__ctor_m36F9914C200EE580EEDE97C4E8759D74879999D7((&L_8), L_7, 0, (-1), (-1), NULL);
 		NullCheck(L_6);
 		CommandBuffer_SetRenderTarget_m00472C42F4BAE11802652921705D554E158D926C(L_6, L_8, 2, 0, 2, 3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:436>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:439>
 		CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* L_9 = __this->____maskCommandBuffer;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_10;
 		L_10 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
 		NullCheck(L_9);
 		CommandBuffer_ClearRenderTarget_mABBE498A16DCEADCAA8F5DB50073012F74D03F14(L_9, (bool)1, (bool)1, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:437>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:440>
 		List_1_tF38D1A45CF65189578ADAC12AED34802EB2B8930* L_11 = ___1_meshFilters;
 		NullCheck(L_11);
 		Enumerator_tB4DC20E86A32140F83A82C593E2E78521CE29064 L_12;
@@ -4363,11 +4363,11 @@ FINALLY_012f:
 
 IL_005e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:437>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:440>
 				MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_13;
 				L_13 = Enumerator_get_Current_m0E9B975BD111000DA67E4735FCB6FE908FAB1FF9_inline((&V_4), Enumerator_get_Current_m0E9B975BD111000DA67E4735FCB6FE908FAB1FF9_RuntimeMethod_var);
 				V_5 = L_13;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:439>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:442>
 				MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_14 = V_5;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				bool L_15;
@@ -4393,16 +4393,16 @@ IL_005e_1:
 
 IL_0080_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:441>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:444>
 				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 				Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralFACA7D75FD5104282E5CBBE3280D22C37DA9575F, NULL);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:442>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:445>
 				goto IL_0121_1;
 			}
 
 IL_008f_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:444>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:447>
 				Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D* L_19 = __this->____mvpMatrices;
 				Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_20 = V_0;
 				Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_21;
@@ -4424,7 +4424,7 @@ IL_008f_1:
 				L_29 = Matrix4x4_op_Multiply_m75E91775655DCA8DFC8EDE0AB787285BB3935162(L_25, L_28, NULL);
 				NullCheck(L_19);
 				(L_19)->SetAt(static_cast<il2cpp_array_size_t>(0), (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6)L_29);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:445>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:448>
 				Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D* L_30 = __this->____mvpMatrices;
 				Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_31 = V_2;
 				Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_32;
@@ -4446,14 +4446,14 @@ IL_008f_1:
 				L_40 = Matrix4x4_op_Multiply_m75E91775655DCA8DFC8EDE0AB787285BB3935162(L_36, L_39, NULL);
 				NullCheck(L_30);
 				(L_30)->SetAt(static_cast<il2cpp_array_size_t>(1), (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6)L_40);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:446>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:449>
 				CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* L_41 = __this->____maskCommandBuffer;
 				il2cpp_codegen_runtime_class_init_inline(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var);
 				int32_t L_42 = ((EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_StaticFields*)il2cpp_codegen_static_fields_for(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var))->___MvpMatricesID;
 				Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D* L_43 = __this->____mvpMatrices;
 				NullCheck(L_41);
 				CommandBuffer_SetGlobalMatrixArray_m6CDB4B2AA044E16F3C8C23AC8B62282E84246E62(L_41, L_42, L_43, NULL);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:447>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:450>
 				CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* L_44 = __this->____maskCommandBuffer;
 				MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_45 = V_5;
 				NullCheck(L_45);
@@ -4466,7 +4466,7 @@ IL_008f_1:
 
 IL_0121_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:437>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:440>
 				bool L_48;
 				L_48 = Enumerator_MoveNext_mB3335A2F8C13E8560AD216C31C274039EAD6E5AF((&V_4), Enumerator_MoveNext_mB3335A2F8C13E8560AD216C31C274039EAD6E5AF_RuntimeMethod_var);
 				if (L_48)
@@ -4486,22 +4486,22 @@ IL_0121_1:
 
 IL_013d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:451>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:454>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_49 = __this->____maskMaterial;
 		il2cpp_codegen_runtime_class_init_inline(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var);
 		int32_t L_50 = ((EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_StaticFields*)il2cpp_codegen_static_fields_for(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var))->___DepthTextureID;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_51 = ___0_depthTexture;
 		NullCheck(L_49);
 		Material_SetTexture_mA9F8461850AAB88F992E9C6FA6F24C2E050B83FD(L_49, L_50, L_51, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:452>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:455>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_52 = __this->____maskMaterial;
 		int32_t L_53 = ((EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_StaticFields*)il2cpp_codegen_static_fields_for(EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631_il2cpp_TypeInfo_var))->___MaskTextureID;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_54 = __this->____maskDepthRt;
 		NullCheck(L_52);
 		Material_SetTexture_mA9F8461850AAB88F992E9C6FA6F24C2E050B83FD(L_52, L_53, L_54, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:453>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:454>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:455>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:456>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:457>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:458>
 		CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* L_55 = __this->____maskCommandBuffer;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_56 = __this->____maskedDepthTexture;
 		RenderTargetIdentifier_tA528663AC6EB3911D8E91AA40F7070FA5455442B L_57;
@@ -4509,27 +4509,27 @@ IL_013d:
 		RenderTargetIdentifier__ctor_m36F9914C200EE580EEDE97C4E8759D74879999D7((&L_57), L_56, 0, (-1), (-1), NULL);
 		NullCheck(L_55);
 		CommandBuffer_SetRenderTarget_m00472C42F4BAE11802652921705D554E158D926C(L_55, L_57, 2, 0, 2, 3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:456>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:459>
 		CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* L_58 = __this->____maskCommandBuffer;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_59;
 		L_59 = Matrix4x4_get_identity_m6568A73831F3E2D587420D20FF423959D7D8AB56_inline(NULL);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_60 = __this->____maskMaterial;
 		NullCheck(L_58);
 		CommandBuffer_DrawProcedural_m32B556B3F1B4989708C7D0DD6F9D4FD2659E84CA(L_58, L_59, L_60, 1, 0, 3, 2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:457>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:460>
 		CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* L_61 = __this->____maskCommandBuffer;
 		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
 		Graphics_ExecuteCommandBuffer_mE7D922583404AB08A25C1413A3EA9F6B0D2F16B9(L_61, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:458>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:461>
 		CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* L_62 = __this->____maskCommandBuffer;
 		NullCheck(L_62);
 		CommandBuffer_Clear_m4E1272BD1A0C162C9C26434E115279F42FA557C7(L_62, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:459>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:462>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_63 = __this->____maskedDepthTexture;
 		return L_63;
 	}
 }
-// Method Definition Index: 136157
+// Method Definition Index: 136066
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mask_Dispose_m81960258F0C281CD889E609332941E5351C85582 (Mask_tF3A4D566E9EBBE2211850CFBE22B12E49C4C47EB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4539,21 +4539,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mask_Dispose_m81960258F0C281CD889E609332
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:464>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:467>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->____maskMaterial;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:465>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:468>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_1 = __this->____maskDepthRt;
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:466>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:469>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_2 = __this->____maskedDepthTexture;
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:467>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:470>
 		CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* L_3 = __this->____maskCommandBuffer;
 		NullCheck(L_3);
 		CommandBuffer_Dispose_m9A5E7A3CA09B3E3F9D199FC7C9E7B27CD9CFADF3(L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:468>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:471>
 		return;
 	}
 }
@@ -4565,41 +4565,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mask_Dispose_m81960258F0C281CD889E609332
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 136162
+// Method Definition Index: 136071
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DepthProviderNotSupported_Meta_XR_EnvironmentDepth_IDepthProvider_get_IsSupported_m12003A1A521FB06E22A9F720CF0FA1E92288E062 (DepthProviderNotSupported_t921A3A2D107552501A0108FA3CCAF5843CBE8E46* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:518>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:521>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 136163
+// Method Definition Index: 136072
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DepthProviderNotSupported_Meta_XR_EnvironmentDepth_IDepthProvider_set_RemoveHands_mCE3BED7618A95AE088C5D88D49953D9991280A4A (DepthProviderNotSupported_t921A3A2D107552501A0108FA3CCAF5843CBE8E46* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:519>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:522>
 		return;
 	}
 }
-// Method Definition Index: 136164
+// Method Definition Index: 136073
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DepthProviderNotSupported_Meta_XR_EnvironmentDepth_IDepthProvider_SetDepthEnabled_m3508AC0259971D75C437B636B5A0B5CC31A7992B (DepthProviderNotSupported_t921A3A2D107552501A0108FA3CCAF5843CBE8E46* __this, bool ___0_isEnabled, bool ___1_removeHands, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:520>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:523>
 		return;
 	}
 }
-// Method Definition Index: 136165
+// Method Definition Index: 136074
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DepthProviderNotSupported_Meta_XR_EnvironmentDepth_IDepthProvider_TryGetUpdatedDepthTexture_m766AA0C5259E3A2B5FAD8861A782F285FFED6699 (DepthProviderNotSupported_t921A3A2D107552501A0108FA3CCAF5843CBE8E46* __this, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27** ___0_depthTexture, DepthFrameDescU5BU5D_t4D8B3C737B8653EFCA44427FC2DF0EE8F8A100B8* ___1_frameDescriptors, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:521>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:524>
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&DepthProviderNotSupported_Meta_XR_EnvironmentDepth_IDepthProvider_TryGetUpdatedDepthTexture_m766AA0C5259E3A2B5FAD8861A782F285FFED6699_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 136166
+// Method Definition Index: 136075
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DepthProviderNotSupported__ctor_m36C707656C1F484EA4DF05DDA2435CEA343A9B4A (DepthProviderNotSupported_t921A3A2D107552501A0108FA3CCAF5843CBE8E46* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4631,13 +4631,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DepthProviderNotSupported__ctor_m36C7076
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 136167
+// Method Definition Index: 136076
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 EnvironmentDepthUtils_ComputeNdcToLinearDepthParameters_m4ED08BC1248832A75BCEE1B40D63F91EFA86F081 (float ___0_near, float ___1_far, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:33>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:33>
 		float L_0 = ___1_far;
 		float L_1 = ___0_near;
 		if ((((float)L_0) < ((float)L_1)))
@@ -4657,23 +4657,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80E
 
 IL_000c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:36>
 		float L_4 = ___0_near;
 		V_0 = ((float)il2cpp_codegen_multiply((-2.0f), L_4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:37>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:37>
 		V_1 = (-1.0f);
 		goto IL_0033;
 	}
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:42>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:42>
 		float L_5 = ___1_far;
 		float L_6 = ___0_near;
 		float L_7 = ___1_far;
 		float L_8 = ___0_near;
 		V_0 = ((float)(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply((-2.0f), L_5)), L_6))/((float)il2cpp_codegen_subtract(L_7, L_8))));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:43>
 		float L_9 = ___1_far;
 		float L_10 = ___0_near;
 		float L_11 = ___1_far;
@@ -4683,7 +4683,7 @@ IL_001c:
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:46>
 		float L_13 = V_0;
 		float L_14 = V_1;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_15;
@@ -4692,7 +4692,7 @@ IL_0033:
 		return L_15;
 	}
 }
-// Method Definition Index: 136168
+// Method Definition Index: 136077
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 EnvironmentDepthUtils_CalculateReprojection_m5E3435EBDF139CCC6D1E006FF797311DF8ADF2E3 (DepthFrameDesc_t8E03631D7F12D148E09C208091FBCA5C692E2DB2 ___0_frameDesc, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4706,11 +4706,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2
 	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:51>
 		DepthFrameDesc_t8E03631D7F12D148E09C208091FBCA5C692E2DB2 L_0 = ___0_frameDesc;
 		il2cpp_codegen_runtime_class_init_inline(EnvironmentDepthUtils_tF0B57ABF5A71BC39C607681F1611BD437291128A_il2cpp_TypeInfo_var);
 		EnvironmentDepthUtils_CalculateDepthCameraMatrices_mEAFC3CA26D1CB1BB8D595409083E1B6EB21E8F60(L_0, (&V_0), (&V_1), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:52>
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_1 = V_0;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_2 = V_1;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_3;
@@ -4718,7 +4718,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2
 		return L_3;
 	}
 }
-// Method Definition Index: 136169
+// Method Definition Index: 136078
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthUtils_CalculateDepthCameraMatrices_mEAFC3CA26D1CB1BB8D595409083E1B6EB21E8F60 (DepthFrameDesc_t8E03631D7F12D148E09C208091FBCA5C692E2DB2 ___0_frameDesc, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___1_projMatrix, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___2_viewMatrix, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4743,51 +4743,51 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthUtils_CalculateDepthCame
 	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_13;
 	memset((&V_13), 0, sizeof(V_13));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:57>
 		DepthFrameDesc_t8E03631D7F12D148E09C208091FBCA5C692E2DB2 L_0 = ___0_frameDesc;
 		float L_1 = L_0.___fovLeftAngleTangent;
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:58>
 		DepthFrameDesc_t8E03631D7F12D148E09C208091FBCA5C692E2DB2 L_2 = ___0_frameDesc;
 		float L_3 = L_2.___fovRightAngleTangent;
 		V_1 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:59>
 		DepthFrameDesc_t8E03631D7F12D148E09C208091FBCA5C692E2DB2 L_4 = ___0_frameDesc;
 		float L_5 = L_4.___fovDownAngleTangent;
 		V_2 = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:60>
 		DepthFrameDesc_t8E03631D7F12D148E09C208091FBCA5C692E2DB2 L_6 = ___0_frameDesc;
 		float L_7 = L_6.___fovTopAngleTangent;
 		V_3 = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:61>
 		DepthFrameDesc_t8E03631D7F12D148E09C208091FBCA5C692E2DB2 L_8 = ___0_frameDesc;
 		float L_9 = L_8.___nearZ;
 		V_4 = L_9;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:62>
 		DepthFrameDesc_t8E03631D7F12D148E09C208091FBCA5C692E2DB2 L_10 = ___0_frameDesc;
 		float L_11 = L_10.___farZ;
 		V_5 = L_11;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:64>
 		float L_12 = V_1;
 		float L_13 = V_0;
 		V_6 = ((float)((2.0f)/((float)il2cpp_codegen_add(L_12, L_13))));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:65>
 		float L_14 = V_3;
 		float L_15 = V_2;
 		V_7 = ((float)((2.0f)/((float)il2cpp_codegen_add(L_14, L_15))));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:66>
 		float L_16 = V_1;
 		float L_17 = V_0;
 		float L_18 = V_1;
 		float L_19 = V_0;
 		V_8 = ((float)(((float)il2cpp_codegen_subtract(L_16, L_17))/((float)il2cpp_codegen_add(L_18, L_19))));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:67>
 		float L_20 = V_3;
 		float L_21 = V_2;
 		float L_22 = V_3;
 		float L_23 = V_2;
 		V_9 = ((float)(((float)il2cpp_codegen_subtract(L_20, L_21))/((float)il2cpp_codegen_add(L_22, L_23))));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:70>
 		float L_24 = V_5;
 		bool L_25;
 		L_25 = Single_IsInfinity_m8D101DE5C104130734F6DCA3E6E86345B064E4AD_inline(L_24, NULL);
@@ -4797,9 +4797,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthUtils_CalculateDepthCame
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:72>
 		V_10 = (-1.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:73>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:73>
 		float L_26 = V_4;
 		V_11 = ((float)il2cpp_codegen_multiply((-2.0f), L_26));
 		goto IL_0092;
@@ -4807,13 +4807,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthUtils_CalculateDepthCame
 
 IL_0070:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:77>
 		float L_27 = V_5;
 		float L_28 = V_4;
 		float L_29 = V_5;
 		float L_30 = V_4;
 		V_10 = ((float)(((-((float)il2cpp_codegen_add(L_27, L_28))))/((float)il2cpp_codegen_subtract(L_29, L_30))));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:78>
 		float L_31 = V_5;
 		float L_32 = V_4;
 		float L_33 = V_5;
@@ -4823,28 +4823,28 @@ IL_0070:
 
 IL_0092:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:80>
 		V_12 = (-1.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:81>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:82>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:83>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:84>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:85>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:86>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:87>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:88>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:89>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:90>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:91>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:92>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:93>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:94>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:95>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:96>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:97>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:98>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:99>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:89>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:92>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:100>
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_35 = ___1_projMatrix;
 		il2cpp_codegen_initobj((&V_13), sizeof(Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6));
 		float L_36 = V_6;
@@ -4872,7 +4872,7 @@ IL_0092:
 		(&V_13)->___m33 = (0.0f);
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_43 = V_13;
 		*(Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6*)L_35 = L_43;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:102>
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_44 = ___2_viewMatrix;
 		DepthFrameDesc_t8E03631D7F12D148E09C208091FBCA5C692E2DB2 L_45 = ___0_frameDesc;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46 = L_45.___createPoseLocation;
@@ -4886,11 +4886,11 @@ IL_0092:
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_51;
 		L_51 = Matrix4x4_get_inverse_m4F4A881CD789281EA90EB68CFD39F36C8A81E6BD((&V_13), NULL);
 		*(Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6*)L_44 = L_51;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:103>
 		return;
 	}
 }
-// Method Definition Index: 136170
+// Method Definition Index: 136079
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthUtils__cctor_m2DF5D2142435F391BB3D02EC4A0EFC82248879D5 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4900,7 +4900,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthUtils__cctor_m2DF5D21424
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:27>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs:27>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_0), (1.0f), (1.0f), (-1.0f), NULL);
@@ -4935,7 +4935,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnvironmentDepthUtils__cctor_m2DF5D21424
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 120209
+// Method Definition Index: 120172
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t XRTextureDescriptor_get_nativeTexture_m1E27C0E1DC11DDC6139178509EE91B8DF54DBAD4_inline (XRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4944,7 +4944,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t XRTextureDescriptor_get_
 		return L_0;
 	}
 }
-// Method Definition Index: 136098
+// Method Definition Index: 136007
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SubsystemWithProvider_get_running_m6BF31FC3BDA38C56C0F60FEA37767A4151B22C44_inline (SubsystemWithProvider_tC72E35EE2D413A4B0635B058154BABF265F31242* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4952,7 +4952,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SubsystemWithProvider_get_ru
 		return L_0;
 	}
 }
-// Method Definition Index: 3992
+// Method Definition Index: 3986
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) 
 {
 	{
@@ -4961,7 +4961,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_m7D9CDCDE
 		return (bool)((((intptr_t)L_0) == ((intptr_t)L_1))? 1 : 0);
 	}
 }
-// Method Definition Index: 119504
+// Method Definition Index: 119467
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRFov_get_angleLeft_m6EF3DAC78CDFF71371C272CA6AEC50E7EB4DF19E_inline (XRFov_t51E4BB7B76304E61CF064687586D096CE585817A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4970,7 +4970,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRFov_get_angleLeft_m6EF3DA
 		return L_0;
 	}
 }
-// Method Definition Index: 119505
+// Method Definition Index: 119468
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRFov_get_angleRight_mE8A73BCD62C379B88383A2154D33FF23EE8C0B98_inline (XRFov_t51E4BB7B76304E61CF064687586D096CE585817A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4979,7 +4979,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRFov_get_angleRight_mE8A73
 		return L_0;
 	}
 }
-// Method Definition Index: 119506
+// Method Definition Index: 119469
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRFov_get_angleUp_mF6FF335FBF53B71B106B4D495FAC7D7B485C469D_inline (XRFov_t51E4BB7B76304E61CF064687586D096CE585817A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4988,7 +4988,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRFov_get_angleUp_mF6FF335F
 		return L_0;
 	}
 }
-// Method Definition Index: 119507
+// Method Definition Index: 119470
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRFov_get_angleDown_mF4312F3C6FDDB0725692028411BA1EF6AD1063CF_inline (XRFov_t51E4BB7B76304E61CF064687586D096CE585817A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4997,7 +4997,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRFov_get_angleDown_mF4312F
 		return L_0;
 	}
 }
-// Method Definition Index: 119516
+// Method Definition Index: 119479
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRNearFarPlanes_get_nearZ_mA9DE009ADB54EB2EB0D6BFA8AF3A30406D798CE0_inline (XRNearFarPlanes_t9F1B1497CE2B68AC3D3E9053C7EC2A16F4854182* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5006,7 +5006,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRNearFarPlanes_get_nearZ_m
 		return L_0;
 	}
 }
-// Method Definition Index: 119517
+// Method Definition Index: 119480
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRNearFarPlanes_get_farZ_m829A194D831D319C6EE86381726EBE866BD6D244_inline (XRNearFarPlanes_t9F1B1497CE2B68AC3D3E9053C7EC2A16F4854182* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5015,7 +5015,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRNearFarPlanes_get_farZ_m8
 		return L_0;
 	}
 }
-// Method Definition Index: 120210
+// Method Definition Index: 120173
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRTextureDescriptor_get_width_m570472F03994BC63F21751414105A2E0C112DBF2_inline (XRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5024,7 +5024,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRTextureDescriptor_get_w
 		return L_0;
 	}
 }
-// Method Definition Index: 120211
+// Method Definition Index: 120174
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRTextureDescriptor_get_height_mC0B37241C24FA883E2594B9411080EDF654E3E01_inline (XRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5033,7 +5033,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRTextureDescriptor_get_h
 		return L_0;
 	}
 }
-// Method Definition Index: 120216
+// Method Definition Index: 120179
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRTextureDescriptor_get_depth_m5885EBF7D767C918B1483D63D1B11EE60D939E7D_inline (XRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5042,7 +5042,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRTextureDescriptor_get_d
 		return L_0;
 	}
 }
-// Method Definition Index: 120213
+// Method Definition Index: 120176
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRTextureDescriptor_get_format_mA745AA87046D4FE4846C11B8285B980FF6DDDD1A_inline (XRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5051,7 +5051,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRTextureDescriptor_get_f
 		return L_0;
 	}
 }
-// Method Definition Index: 136613
+// Method Definition Index: 136522
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* XRGeneralSettings_get_Instance_m9F222F982E62E066E119754858D8E73CFE42048C_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5067,7 +5067,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRGeneralSettings_t8F8D096944606B
 		return L_0;
 	}
 }
-// Method Definition Index: 136611
+// Method Definition Index: 136520
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* XRGeneralSettings_get_Manager_m112FEB4E6DFB7B5F5C4A2DEC4E975CF2EBD51B42_inline (XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5076,7 +5076,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRManagerSettings_t7923B66EB3FEE5
 		return L_0;
 	}
 }
-// Method Definition Index: 136654
+// Method Definition Index: 136563
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* XRManagerSettings_get_activeLoader_mFB3B679005792D3DF871EAA7120DD86DCA1D5DEA_inline (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5085,35 +5085,35 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRLoader_t80B1B1934C40561C5352ABC
 		return L_0;
 	}
 }
-// Method Definition Index: 136134
+// Method Definition Index: 136043
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool EnvironmentDepthManager_get_IsDepthAvailable_m46C6D9DCA227381A3840DBE6B41083EFB8FD132C_inline (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:172>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:172>
 		bool L_0 = __this->___U3CIsDepthAvailableU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 136135
+// Method Definition Index: 136044
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EnvironmentDepthManager_set_IsDepthAvailable_m77ABBDA4D0A9BFF1247642CE22A018F22ECDA762_inline (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:172>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:172>
 		bool L_0 = ___0_value;
 		__this->___U3CIsDepthAvailableU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 136127
+// Method Definition Index: 136036
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tF38D1A45CF65189578ADAC12AED34802EB2B8930* EnvironmentDepthManager_get_MaskMeshFilters_m97869EE18D51E20EE954B89C73E7DAE9EAA6DA4B_inline (EnvironmentDepthManager_t66B25129AB8791DEB056A5AFAB14151358AAA631* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@f8b4cfb2789f/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs:118>
 		List_1_tF38D1A45CF65189578ADAC12AED34802EB2B8930* L_0 = __this->___U3CMaskMeshFiltersU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 59028
+// Method Definition Index: 59010
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Matrix4x4_get_identity_m6568A73831F3E2D587420D20FF423959D7D8AB56_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5136,7 +5136,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 57173
+// Method Definition Index: 57153
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Debug_get_unityLogger_m4FDE4D41C187123244FE13124DA636BB50C9C1E1_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5151,7 +5151,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Debug_get_unityLog
 		return L_0;
 	}
 }
-// Method Definition Index: 58938
+// Method Definition Index: 58920
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline (const RuntimeMethod* method) 
 {
 	{
@@ -5161,7 +5161,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED02
 		return L_0;
 	}
 }
-// Method Definition Index: 2456
+// Method Definition Index: 2453
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsInfinity_m8D101DE5C104130734F6DCA3E6E86345B064E4AD_inline (float ___0_f, const RuntimeMethod* method) 
 {
 	{
@@ -5171,7 +5171,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsInfinity_m8D101DE5C
 		return (bool)((((int32_t)((int32_t)(L_1&((int32_t)2147483647LL)))) == ((int32_t)((int32_t)2139095040)))? 1 : 0);
 	}
 }
-// Method Definition Index: 59306
+// Method Definition Index: 59288
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
 {
 	{
@@ -5186,7 +5186,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B2
 		return;
 	}
 }
-// Method Definition Index: 59051
+// Method Definition Index: 59033
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -5199,7 +5199,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 		return;
 	}
 }
-// Method Definition Index: 11492
+// Method Definition Index: 11470
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_tF849107EA82C5AAFB9A828978371E9C9F513FE68 Enumerator_get_Current_mF6F2EA09260EBC38E37005E198D3D74DFC507ADB_gshared_inline (Enumerator_t5B2047ABD856545DBEFEBE51C30D8B7FD68CCD21* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5207,7 +5207,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_tF849107EA82C5AAFB
 		return L_0;
 	}
 }
-// Method Definition Index: 11578
+// Method Definition Index: 11556
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ValueTuple_2_t36A2FC9097F343327014910B334380B545CCAA57 KeyValuePair_2_get_Value_m0B6E75EBC2101D872D6E2866DFE9813A339A2775_gshared_inline (KeyValuePair_2_tF849107EA82C5AAFB9A828978371E9C9F513FE68* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5215,7 +5215,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ValueTuple_2_t36A2FC9097F34332701
 		return L_0;
 	}
 }
-// Method Definition Index: 56630
+// Method Definition Index: 56614
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t6C2613A1D4A03EFEE59BBADBC529386D1205D01C Enumerator_get_Current_m9F425AD5F6303B9261C4CDAA68D0AA776B154476_gshared_inline (Enumerator_tE7A7A784B5A313F4B5C96ABB23568BE2B88BDAB2* __this, const RuntimeMethod* method) 
 {
 	NativeArray_1_t6C2613A1D4A03EFEE59BBADBC529386D1205D01C V_0;
@@ -5232,7 +5232,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 56628
+// Method Definition Index: 56612
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m1F84B403C386B936A5734B8F3B6307EAEFA99A54_gshared_inline (Enumerator_tE7A7A784B5A313F4B5C96ABB23568BE2B88BDAB2* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -5275,7 +5275,7 @@ IL_0057:
 		return L_10;
 	}
 }
-// Method Definition Index: 2219
+// Method Definition Index: 2216
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mE2869A6464CFABCCBC9BA3B0BDC1DA9A54E1C57B_gshared_inline (Nullable_1_t02905B3413B8A12DF3D51046F80F708B11A08455* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5283,7 +5283,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mE28
 		return L_0;
 	}
 }
-// Method Definition Index: 2221
+// Method Definition Index: 2218
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t Nullable_1_GetValueOrDefault_mECC521D2F2B0E6614874E90EFCF1ADADB7B5C1C0_gshared_inline (Nullable_1_t02905B3413B8A12DF3D51046F80F708B11A08455* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5297,7 +5297,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 11586
+// Method Definition Index: 11564
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5305,7 +5305,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C
 		return L_0;
 	}
 }
-// Method Definition Index: 11650
+// Method Definition Index: 11628
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5313,7 +5313,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Cur
 		return L_0;
 	}
 }
-// Method Definition Index: 58904
+// Method Definition Index: 58886
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
 {
 	{
@@ -5336,7 +5336,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BitConverter_SingleToInt3
 		return L_0;
 	}
 }
-// Method Definition Index: 56728
+// Method Definition Index: 56712
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t6C2613A1D4A03EFEE59BBADBC529386D1205D01C UnsafeUtility_ReadArrayElement_TisNativeArray_1_t6C2613A1D4A03EFEE59BBADBC529386D1205D01C_mACEC5E0CE1F3A4F66D02C7DE706C04EF1AB15953_gshared_inline (void* ___0_source, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	{

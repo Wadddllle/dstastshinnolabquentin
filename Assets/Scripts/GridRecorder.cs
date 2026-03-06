@@ -149,11 +149,9 @@ public class GridRecorder : MonoBehaviour
         }
 
         // Save Events
-        var directory = new DirectoryInfo(_folderPath);
-        if (directory.GetDirectories().Length > 0)
+        if (SessionManager.Instance != null && !string.IsNullOrEmpty(SessionManager.Instance.lastSessionFolderPath))
         {
-            var recentRun = directory.GetDirectories()[directory.GetDirectories().Length - 1];
-            SaveEvents(recentRun.FullName);
+            SaveEvents(SessionManager.Instance.lastSessionFolderPath);
         }
 
         Debug.Log("[Recorder] Recording Stopped and File Streams Closed.");

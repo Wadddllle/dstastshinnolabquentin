@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.meta.xr.sdk.all": "83.0.4",
+    "com.meta.xr.sdk.all": "85.0.0",
     "com.unity.ai.navigation": "2.0.10",
     "com.unity.burst": "1.8.28",
     "com.unity.collab-proxy": "2.9.3",
@@ -38,7 +38,6 @@
     "com.unity.modules.terrain": "1.0.0",
     "com.unity.modules.terrainphysics": "1.0.0",
     "com.unity.modules.tilemap": "1.0.0",
-    "com.unity.modules.ui": "1.0.0",
     "com.unity.modules.uielements": "1.0.0",
     "com.unity.modules.umbra": "1.0.0",
     "com.unity.modules.unityanalytics": "1.0.0",
