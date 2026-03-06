@@ -9,7 +9,7 @@ public class AppManager : MonoBehaviour
 
     [Header("Data")]
     public SessionData currentSession = new SessionData();
-    public Dictionary<string,EnemyHitData> enemyHits = new Dictionary<string,EnemyHitData>();
+    
 
     [Header("Scene Roots (The Parents)")]
     public GameObject InstructorRoot;

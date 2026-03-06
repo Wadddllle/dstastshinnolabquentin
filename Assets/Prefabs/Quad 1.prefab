@@ -127,4 +127,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMarkerTool
   enemyPrefab: {fileID: 5140362250260108345, guid: 481f04c7903b4b14e83d17a9aabc6c5d, type: 3}
   enemyConfig: {fileID: 11400000, guid: eae5916870498eb4a9c1f1149b31a763, type: 2}
-  chance: 1
+  chance: 0.5

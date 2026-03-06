@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System.Linq;
 
 public class SessionManager : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class SessionManager : MonoBehaviour
     public List<GameObject> activeObstacles = new List<GameObject>();
     public List<GameObject> activeSpawnPoints = new List<GameObject>();
 
+    public Dictionary<GameObject, EnemyHitData> enemyHits = new Dictionary<GameObject, EnemyHitData>();
     // The Room Geometry
     public List<Vector3> zonePoints = new List<Vector3>(); // From ZoneTool
     public Vector3 breachPointPosition;                    // From CoordinateMarker
@@ -35,15 +37,17 @@ public class SessionManager : MonoBehaviour
         {
             activeEnemies.Add(enemy);
             EnemyHitData enemyHitData = new EnemyHitData();
-            AppManager.Instance.enemyHits.Add(enemy.name, enemyHitData);
+            enemyHits.Add(enemy, enemyHitData);
         }
+            
+        
     }
     public void UnregisterEnemy(GameObject enemy)
     {
         if (activeEnemies.Contains(enemy))
         { 
             activeEnemies.Remove(enemy);
-            AppManager.Instance.enemyHits.Remove(enemy.name);
+            enemyHits.Remove(enemy);
         }
     }
 

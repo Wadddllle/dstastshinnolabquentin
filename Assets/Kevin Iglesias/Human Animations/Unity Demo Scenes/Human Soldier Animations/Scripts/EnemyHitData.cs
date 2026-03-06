@@ -1,6 +1,7 @@
 using UnityEngine;
 
-public class EnemyHitData : MonoBehaviour
+[System.Serializable]
+public class EnemyHitData
 {
     public bool headShot = false;
     public bool bodyShot = false;

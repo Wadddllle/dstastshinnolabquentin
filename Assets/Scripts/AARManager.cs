@@ -3,10 +3,10 @@ using System.Collections.Generic;
 
 public class AARManager : MonoBehaviour
 {
-    private Dictionary<string, EnemyHitData> enemyHits;
-    private List<string> enemyKeys;
+    private Dictionary<GameObject, EnemyHitData> enemyHits;
+    private List<GameObject> enemyKeys;
     public EnemyAARCard aarCard;
-    private int index;
+    private int index = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -14,17 +14,17 @@ public class AARManager : MonoBehaviour
     }
     void LoadData()
     {
-        enemyHits = AppManager.Instance.enemyHits;
-        enemyKeys = new List<string>(enemyHits.Keys);
+        enemyHits = SessionManager.Instance.enemyHits;
+        enemyKeys = new List<GameObject>(enemyHits.Keys);
     }
 
     void ShowCurrentEnemy()
     {
         if (enemyHits.Count == 0)
             return;
-        string key = enemyKeys[index];
+        GameObject key = enemyKeys[index];
         EnemyHitData hitData = enemyHits[key];
-        aarCard.Setup(hitData);
+        aarCard.Setup(key,hitData);
     }
 
     public void NextEnemy()

@@ -10,7 +10,7 @@ public class EnemyAARCard : MonoBehaviour
     public TextMeshProUGUI hitsText;
     public TextMeshProUGUI enemyName;
    
-    public void Setup(EnemyHitData hitData)
+    public void Setup(GameObject enemy,EnemyHitData hitData)
     {
         if (hitData.headShot)
             headOverlay.color = Color.red;
@@ -18,7 +18,8 @@ public class EnemyAARCard : MonoBehaviour
             bodyOverlay.color = Color.red;
         if (hitData.legShot)
             legOverlay.color = Color.red;
+
         hitsText.text = hitData.hitCount.ToString() + " shots hit";
-        enemyName.text = hitData.ToString();
+        enemyName.text = enemy.name;
     }
 }
