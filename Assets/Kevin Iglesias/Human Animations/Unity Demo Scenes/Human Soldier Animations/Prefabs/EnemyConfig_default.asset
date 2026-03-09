@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49dcc409dfbecd343b4391d98fa3deca, type: 3}
   m_Name: EnemyConfig_default
   m_EditorClassIdentifier: Assembly-CSharp::EnemyConfig
-  detectionRange: 5
+  detectionRange: 0
   eyeRange: 4
   attackRange: 4
   shot_cooldown: 1.3

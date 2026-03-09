@@ -8,6 +8,7 @@ using UnityEngine.AI;
 public class EnemyAI : MonoBehaviour
 {
     public EnemyConfig config;
+    private EnemyConfig lastConfig;
 
     [Header("References")]
     private Transform player_target;
@@ -22,6 +23,7 @@ public class EnemyAI : MonoBehaviour
     public float detectionRange;
     public float eyeRange;
     public float attackRange;
+    public float peripheralAngle;
     private float distance;
 
     [Header("Bullet")]
@@ -42,7 +44,6 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private bool reacting;
     [SerializeField] private bool isAware = false; //is the enemy aware of the player's presence? (important for setting reaction time)
     [SerializeField] private bool gotShot = false;
-
     public enum State { Idle, Chase, Attack, Reposition, Dead }
     public State state = State.Idle;
     private float lastAttackTime;
@@ -59,7 +60,6 @@ public class EnemyAI : MonoBehaviour
         soldier = GetComponent<HumanSoldierController>();
         enemy_healthState = gameObject.GetComponent<Health>();
     }
-
     void UpdateState()
     {
         bool shouldBeActive = AppManager.Instance.IsTraineeState();
@@ -72,6 +72,7 @@ public class EnemyAI : MonoBehaviour
     void Update()
     {
         UpdateState();
+        PeripheralLOS();
         if (!isActive || state == State.Dead)
         {
             if (agent != null)
@@ -112,7 +113,7 @@ public class EnemyAI : MonoBehaviour
                 {
                     StartCoroutine(ReactionDelay(reactionTime_aware));
                 }
-                else if (LineOfSight())
+                else if (PeripheralLOS())
                 {
                     StartCoroutine(ReactionDelay(reactionTime_aware));
                 }
@@ -134,7 +135,7 @@ public class EnemyAI : MonoBehaviour
 
                 if (distance <= attackRange && LineOfSight())
                     state = State.Attack;
-                else if (distance > detectionRange)
+                else if (distance > 10f) //hardcoded!!!
                     state = State.Idle;
                 break;
 
@@ -226,12 +227,11 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
-    bool LineOfSightFrom(Vector3 pos)
+    bool LineOfSight()
     {
         Vector3 targetPoint = player_target.position;
-        Vector3 direction = (targetPoint - pos).normalized;
+        Vector3 direction = (targetPoint - eyePoint.position).normalized;
         bool los = false;
-
         if (Physics.Raycast(eyePoint.position, direction, out RaycastHit hit, eyeRange, losMask))
             los = hit.collider.CompareTag("Player");
 
@@ -240,9 +240,21 @@ public class EnemyAI : MonoBehaviour
         return los;
     }
 
-    bool LineOfSight()
+    bool PeripheralLOS()
     {
-        return LineOfSightFrom(eyePoint.position);
+        Vector3 targetPoint = player_target.position;
+        Vector3 direction = (targetPoint - eyePoint.position).normalized;
+        bool los = false;
+
+        if (Physics.Raycast(eyePoint.position, direction, out RaycastHit hit, eyeRange, losMask))
+        {
+            if (Vector3.Angle(direction, eyePoint.forward) <= peripheralAngle)
+                los = hit.collider.CompareTag("Player");
+            Debug.Log(hit.collider.name);
+        }
+        Debug.DrawRay(eyePoint.position, eyePoint.forward * eyeRange, los ? UnityEngine.Color.green : UnityEngine.Color.red);
+        
+        return los;
     }
 
     /*bool RepositionPoint(out Vector3 point)
@@ -310,6 +322,7 @@ public class EnemyAI : MonoBehaviour
         detectionRange = config.detectionRange;
         eyeRange = config.eyeRange;
         attackRange = config.attackRange;
+        peripheralAngle = config.peripheralAngle;
         shot_cooldown = config.shot_cooldown;
         reactionTime_offGuard = config.reactionTime_offGuard;
         reactionTime_aware = config.reactionTime_aware;

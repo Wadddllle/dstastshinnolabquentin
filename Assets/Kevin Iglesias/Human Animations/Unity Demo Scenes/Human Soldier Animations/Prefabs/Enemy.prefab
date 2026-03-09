@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 6365525446022474335}
   serializedVersion: 2
   m_LocalRotation: {x: -0.000000052154064, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.09493617, z: 0.11916699}
+  m_LocalPosition: {x: 0, y: 0.118, z: 0.21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6024,11 +6024,12 @@ MonoBehaviour:
   eyePoint: {fileID: 848695787607456471}
   losMask:
     serializedVersion: 2
-    m_Bits: 585
+    m_Bits: 4294967295
   mainRenderer: {fileID: 1287619268729686415}
   detectionRange: 10
   eyeRange: 10
   attackRange: 5
+  peripheralAngle: 0
   bulletSpawnPoint: {fileID: 939538976312789459}
   bulletPrefab: {fileID: 3633575255752120972, guid: c80e3800c6f113049873b285af45c40f, type: 3}
   bulletSpeed: 30
@@ -6042,6 +6043,7 @@ MonoBehaviour:
   reacting: 0
   isAware: 0
   gotShot: 0
+  phlos: 0
   state: 0
   isActive: 0
 --- !u!114 &5258785238198104315

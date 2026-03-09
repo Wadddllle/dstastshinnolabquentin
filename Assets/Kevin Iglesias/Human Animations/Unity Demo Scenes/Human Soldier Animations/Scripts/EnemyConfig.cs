@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "EnemyConfig", menuName = "Scriptable Objects/EnemyConfig")]
@@ -5,7 +6,7 @@ public class EnemyConfig : ScriptableObject
 {
     [Header("Ranges")]
 
-    [Range(3f,10f)]
+    [Range(0f,10f)]
     public float detectionRange = 5f;
 
     [Range(3f, 10f)]
@@ -13,6 +14,9 @@ public class EnemyConfig : ScriptableObject
 
     [Range(3f, 10f)]
     public float attackRange = 4f;
+
+    [Range(0f, 90f)]
+    public float peripheralAngle = 45f; //deg
 
     [Header("Bullet")]
 
@@ -34,4 +38,11 @@ public class EnemyConfig : ScriptableObject
 
     [Range(180f, 360f)]
     public float turningSpeed = 200f; //angular speed in deg/s
+
+    public event Action OnConfigChanged;
+
+    public void NotifyChange()
+    {
+        OnConfigChanged?.Invoke();
+    }
 }

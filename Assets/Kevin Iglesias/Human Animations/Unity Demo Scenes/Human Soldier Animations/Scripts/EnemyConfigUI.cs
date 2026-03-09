@@ -14,6 +14,8 @@ public class EnemyConfigUI : MonoBehaviour
     public TextMeshProUGUI eyeRangeValue;
     public Slider attackRangeSlider;
     public TextMeshProUGUI attackRangeValue;
+    public Slider peripheralAngleSlider;
+    public TextMeshProUGUI peripheralAngleValue;
 
     [Header("Bullet")]
     public Slider shot_cooldownSlider;
@@ -36,6 +38,7 @@ public class EnemyConfigUI : MonoBehaviour
         detectionRangeSlider.value = config.detectionRange;
         eyeRangeSlider.value = config.eyeRange;
         attackRangeSlider.value = config.attackRange;
+        peripheralAngleSlider.value = config.peripheralAngle;
 
         shot_cooldownSlider.value = config.shot_cooldown;
 
@@ -49,6 +52,7 @@ public class EnemyConfigUI : MonoBehaviour
         detectionRangeSlider.onValueChanged.AddListener(OnDetectionRangeChange);
         eyeRangeSlider.onValueChanged.AddListener(OnEyeRangeChange);
         attackRangeSlider.onValueChanged.AddListener(OnAttackRangeChange);
+        peripheralAngleSlider.onValueChanged.AddListener(OnPeripheralAngleChange);
 
         shot_cooldownSlider.onValueChanged.AddListener(OnShotCooldownChange);
 
@@ -78,6 +82,12 @@ public class EnemyConfigUI : MonoBehaviour
     {
         config.attackRange = value;
         attackRangeValue.text = value.ToString("F1");
+    }
+
+    void OnPeripheralAngleChange(float value)
+    {
+        config.peripheralAngle = value;
+        peripheralAngleValue.text = value.ToString("F1");
     }
 
     void OnShotCooldownChange(float value)
@@ -115,6 +125,7 @@ public class EnemyConfigUI : MonoBehaviour
         detectionValue.text = config.detectionRange.ToString("F1");
         eyeRangeValue.text = config.eyeRange.ToString("F1");
         attackRangeValue.text= config.attackRange.ToString("F1");
+        peripheralAngleValue.text = config.peripheralAngle.ToString("F1");
         shot_cooldownValue.text = config.shot_cooldown.ToString("F1");
         reactionOffguardValue.text = config.reactionTime_offGuard.ToString("F1");
         reactionAwareValue.text = config.reactionTime_aware.ToString("F1");

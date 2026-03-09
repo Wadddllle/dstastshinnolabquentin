@@ -2,14 +2,14 @@ using UnityEngine;
 
 public class EnemyMarker : MonoBehaviour
 {
-    new Collider collider;
+    Collider collider;
     private bool useAlr;
     public GameObject enemyPrefab;
     public EnemyConfig enemyConfig;
-    private float poll;
+    public MarkerConfig markerConfig;
+    private MarkerConfig lastMarkerConfig;
 
-    [Range(0f, 1f)]
-    public float chance = 0.5f;
+    public float chance;
     void Start()
     {
         collider = GetComponent<Collider>();
@@ -22,7 +22,6 @@ public class EnemyMarker : MonoBehaviour
             collider.enabled = true;
             if (useAlr == true)
                 useAlr = false;
-
         }  
         else if (AppManager.Instance.IsTraineeState())
         {
@@ -31,8 +30,7 @@ public class EnemyMarker : MonoBehaviour
             if (useAlr == false)
             {
                 useAlr = true;
-                poll = Random.value;
-                if (poll <= chance)
+                if (Random.value <= chance)
                 {
                     GameObject enemy = Instantiate(enemyPrefab, transform.position, Quaternion.identity);
 
@@ -54,5 +52,10 @@ public class EnemyMarker : MonoBehaviour
                 }
             }
         }  
+    }
+
+    public void ApplyMarkerConfig(MarkerConfig config)
+    {
+        chance = config.chance;
     }
 }

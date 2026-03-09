@@ -48,11 +48,13 @@ public class Bullet : MonoBehaviour
         {
             ContactPoint contact = collision.GetContact(0);
             GameObject bloodSplatter = Instantiate(bloodSplatterPrefab, contact.point, Quaternion.LookRotation(contact.normal));
+
             if (GridRecorder.Instance != null)
             {
                 GridRecorder.Instance.LogEvent("INJURY", $"Player got shot", transform.position); //by right location param is supposed to be where enemy got shot, but that is alr recorded in HIT in bullet script
             }
             Destroy(gameObject);
+            DamagedVignette.Instance.OnPlayerDamageTaken();
 
         }
 
@@ -69,15 +71,18 @@ public class Bullet : MonoBehaviour
 
                 if (collision.gameObject.CompareTag("Head"))
                 {
-                    target.TakeDmg(dmg*2); //headshot x2 dmg
+                    target.TakeDmg(dmg); //headshot guarantee full dmg
                     hitData.headShot = true;
                     if (GridRecorder.Instance != null)
                         GridRecorder.Instance.LogEvent("HIT", $"Headshot on: {target.gameObject.name}", contact.point);
                 }
                 else if (collision.gameObject.CompareTag("Body"))
                 {
-                    target.TakeDmg(dmg); //bodyshot normal dmg
-                    hitData.bodyShot = true;
+                    if (Random.value <= 0.7f) //bodyshot 30% chance of reduced dmg
+                        target.TakeDmg(dmg); //take 50dmg 70% of the time
+                    else
+                        target.TakeDmg(dmg*0.5f); //take 25dmg 30% of the time
+                    hitData.bodyShot = true; 
                     if (GridRecorder.Instance != null)
                         GridRecorder.Instance.LogEvent("HIT", $"Bodyshot on: {target.gameObject.name}", contact.point);
                 }

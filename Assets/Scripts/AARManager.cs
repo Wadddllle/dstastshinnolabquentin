@@ -17,7 +17,11 @@ public class AARManager : MonoBehaviour
         enemyHits = SessionManager.Instance.enemyHits;
         enemyKeys = new List<GameObject>(enemyHits.Keys);
     }
+    void Update()
+    {
+        //ShowCurrentEnemy();
 
+    }
     void ShowCurrentEnemy()
     {
         if (enemyHits.Count == 0)

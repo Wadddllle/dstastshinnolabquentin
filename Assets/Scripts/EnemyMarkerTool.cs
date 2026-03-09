@@ -7,6 +7,7 @@ public class EnemyMarkerTool : MonoBehaviour
     public GameObject markerPrefab;
     public LayerMask floorLayer;
     public OVRInput.Controller controllerType = OVRInput.Controller.RTouch;
+    public MarkerConfig config;
 
 
     void Update()
@@ -42,6 +43,9 @@ public class EnemyMarkerTool : MonoBehaviour
                 r.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
                 r.receiveShadows = false; // Optional
             }
+            EnemyMarker enemymarker = marker.GetComponent<EnemyMarker>();
+            if (enemymarker != null)
+                enemymarker.ApplyMarkerConfig(config);
         }  
     }
         
