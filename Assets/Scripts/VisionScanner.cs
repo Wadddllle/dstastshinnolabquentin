@@ -46,7 +46,7 @@ public class VisionScanner : MonoBehaviour
             if (Physics.Raycast(origin, dir, out hit, Range, ObstacleMask))
             {
                 distanceToPaint = hit.distance;
-                // Debug.DrawLine(origin, hit.point, Color.red, 0.05f); // Turn off for performance later
+                //Debug.DrawLine(origin, hit.point, Color.red, 0.05f); // Turn off for performance later
             }
 
             // 3. "Walk" along the ray and paint

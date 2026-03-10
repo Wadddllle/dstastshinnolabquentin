@@ -3,6 +3,8 @@ using UnityEngine.UI;
 using System.IO;
 using System.Collections.Generic;
 using System.Collections;
+using TMPro;
+using Unity.VisualScripting;
 
 public class AAR_Visualizer : MonoBehaviour
 {
@@ -40,7 +42,7 @@ public class AAR_Visualizer : MonoBehaviour
     private int _gridHeight;
     private float _cellSize;
 
-
+    public TextMeshProUGUI debugtext;
 
     struct LogFrame
     {
@@ -72,7 +74,9 @@ public class AAR_Visualizer : MonoBehaviour
     {
         yield return new WaitForSeconds(0.1f);
         LoadMapImage();
+        DebugLog("Map image loaded | ");
         LoadLogData();
+        DebugLog("Log data loaded | ");
         // --- NEW: CALCULATE & PUSH STATS ---
         if (_frames.Count > 0 && _context != null)
         {
@@ -88,10 +92,13 @@ public class AAR_Visualizer : MonoBehaviour
                 reportCardLink.InjectClearanceStat(clearedPercent);
             }
         }
+        else
+            DebugLog("frames: " + _frames.Count.ToString() + "or context null | ");
         // --- NEW: DIAGNOSTIC ---
         AnalyzeSessionData();
-
+        DebugLog("Session data analysed | ");
         UpdateVisualization();
+        DebugLog("visualisation updated | ");
     }
     public void HeatmapToggle()
     { 
@@ -148,53 +155,68 @@ public class AAR_Visualizer : MonoBehaviour
 
     private void LoadLogData()
     {
-        string path = logFileName;
-        if (!File.Exists(path)) return;
-
-        _frames.Clear();
-
-        using (FileStream fs = new FileStream(path, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
-        using (BinaryReader reader = new BinaryReader(fs))
+        try
         {
-            string magic = reader.ReadString();
-            _gridWidth = reader.ReadInt32();
-            _gridHeight = reader.ReadInt32();
-            _cellSize = reader.ReadSingle();
-            if (_cellSize <= 0.0001f) _cellSize = 0.1f;
-
-            // --- NEW: INITIALIZE CONTEXT HERE ---
-            // We have the dimensions now, so we can build the mask
-            _context = new SessionContext();
-            _context.Initialize(_currentSessionFolder, _gridWidth, _gridHeight, _cellSize);
-            // ------------------------------------
-
-            _dataTexture = new Texture2D(_gridWidth, _gridHeight, TextureFormat.RGBA32, false);
-            _dataTexture.filterMode = FilterMode.Point;
-            if (dataOverlayImage != null) dataOverlayImage.texture = _dataTexture;
-
-            _dataPixels = new Color32[_gridWidth * _gridHeight];
-            _heatmapAccumulator = new int[_gridWidth * _gridHeight];
-
-            // ... (Rest of your reading loop is the same) ...
-            while (reader.BaseStream.Position < reader.BaseStream.Length)
+            string path = logFileName;
+            if (!File.Exists(path))
             {
-                if (reader.BaseStream.Length - reader.BaseStream.Position < 4) break;
-                try
-                {
-                    LogFrame frame = new LogFrame();
-                    frame.time = reader.ReadSingle();
-                    frame.headPos = new Vector3(reader.ReadSingle(), reader.ReadSingle(), reader.ReadSingle());
-                    frame.headRot = new Quaternion(reader.ReadSingle(), reader.ReadSingle(), reader.ReadSingle(), reader.ReadSingle());
-                    frame.gunPos = new Vector3(reader.ReadSingle(), reader.ReadSingle(), reader.ReadSingle());
-                    frame.gunRot = new Quaternion(reader.ReadSingle(), reader.ReadSingle(), reader.ReadSingle(), reader.ReadSingle());
-                    int byteCount = reader.ReadInt32();
-                    frame.gridBytes = reader.ReadBytes(byteCount);
-
-                    _frames.Add(frame);
-                    AddToHeatmap(frame.gridBytes);
-                }
-                catch { break; }
+                DebugLog("filepath no exist | ");
+                return;
             }
+            _frames.Clear();
+
+            using (FileStream fs = new FileStream(path, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+            using (BinaryReader reader = new BinaryReader(fs))
+            {
+                string magic = reader.ReadString();
+                _gridWidth = reader.ReadInt32();
+                _gridHeight = reader.ReadInt32();
+                _cellSize = reader.ReadSingle();
+                if (_cellSize <= 0.0001f) _cellSize = 0.1f;
+
+                // --- NEW: INITIALIZE CONTEXT HERE ---
+                // We have the dimensions now, so we can build the mask
+                _context = new SessionContext();
+                _context.Initialize(_currentSessionFolder, _gridWidth, _gridHeight, _cellSize);
+                // ------------------------------------
+
+                _dataTexture = new Texture2D(_gridWidth, _gridHeight, TextureFormat.RGBA32, false);
+                _dataTexture.filterMode = FilterMode.Point;
+                if (dataOverlayImage != null) dataOverlayImage.texture = _dataTexture;
+
+                _dataPixels = new Color32[_gridWidth * _gridHeight];
+                _heatmapAccumulator = new int[_gridWidth * _gridHeight];
+
+                // ... (Rest of your reading loop is the same) ...
+                while (reader.BaseStream.Position < reader.BaseStream.Length)
+                {
+                    if (reader.BaseStream.Length - reader.BaseStream.Position < 4) break;
+                    try
+                    {
+                        LogFrame frame = new LogFrame();
+                        frame.time = reader.ReadSingle();
+                        frame.headPos = new Vector3(reader.ReadSingle(), reader.ReadSingle(), reader.ReadSingle());
+                        frame.headRot = new Quaternion(reader.ReadSingle(), reader.ReadSingle(), reader.ReadSingle(), reader.ReadSingle());
+                        frame.gunPos = new Vector3(reader.ReadSingle(), reader.ReadSingle(), reader.ReadSingle());
+                        frame.gunRot = new Quaternion(reader.ReadSingle(), reader.ReadSingle(), reader.ReadSingle(), reader.ReadSingle());
+                        int byteCount = reader.ReadInt32();
+                        frame.gridBytes = reader.ReadBytes(byteCount);
+
+                        _frames.Add(frame);
+                        AddToHeatmap(frame.gridBytes);
+                    }
+                    catch
+                    {
+                        DebugLog("frame read failed");
+                        break;
+                    }
+                }
+            }
+            DebugLog("log data loaded | ");
+        }
+        catch (System.Exception e)
+        {
+            DebugLog("LoadLogData failed " + e.Message);
         }
     }
 
@@ -331,6 +353,14 @@ public class AAR_Visualizer : MonoBehaviour
                 float t = (float)val / _maxHeat;
                 _dataPixels[i] = Color32.Lerp(new Color32(0, 0, 255, 150), new Color32(255, 0, 0, 255), t);
             }
+        }
+    }
+
+    public void DebugLog(string msg)
+    {
+        if (debugtext != null)
+        {
+            debugtext.text += msg;
         }
     }
 }

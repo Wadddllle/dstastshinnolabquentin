@@ -91,4 +91,10 @@ public class AAR_ReportCard : MonoBehaviour
         // (For now, just appending the status line here is fine or keep it in CalculateBasicStats)
     }
 
+    public void DebuggerInject(string message)
+    {
+        reportText.text = _baseReportText + message;
+        int kills = 0;
+    }
+
 }

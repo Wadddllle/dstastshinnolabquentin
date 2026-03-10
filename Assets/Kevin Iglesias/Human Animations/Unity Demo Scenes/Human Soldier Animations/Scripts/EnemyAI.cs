@@ -250,7 +250,6 @@ public class EnemyAI : MonoBehaviour
         {
             if (Vector3.Angle(direction, eyePoint.forward) <= peripheralAngle)
                 los = hit.collider.CompareTag("Player");
-            Debug.Log(hit.collider.name);
         }
         Debug.DrawRay(eyePoint.position, eyePoint.forward * eyeRange, los ? UnityEngine.Color.green : UnityEngine.Color.red);
         
