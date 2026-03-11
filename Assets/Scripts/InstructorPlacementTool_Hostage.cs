@@ -164,6 +164,7 @@ public class InstructorPlacementTool_Hostage : MonoBehaviour
                 {
                     ClearHover(); // Reset color before destroying!
                     Destroy(root);
+                    SessionManager.Instance.UnregisterHostage(root);
                 }
             }
             // CHECK: Is it the Floor?

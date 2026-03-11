@@ -146,6 +146,7 @@ public class ObstacleTool : MonoBehaviour
                     ClearHover();
                     HideFaceHighlighter();
                     Destroy(hitObj);
+                    SessionManager.Instance.UnregisterObstacle(hitObj);
                 }
 
                 DrawRay(rightHandAnchor.position, endPoint, Color.yellow);

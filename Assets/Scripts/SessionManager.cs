@@ -13,7 +13,7 @@ public class SessionManager : MonoBehaviour
     public List<GameObject> activeObstacles = new List<GameObject>();
     public List<GameObject> activeSpawnPoints = new List<GameObject>();
 
-    public Dictionary<GameObject, EnemyHitData> enemyHits = new Dictionary<GameObject, EnemyHitData>();
+    public Dictionary<string, EnemyHitData> enemyHits = new Dictionary<string, EnemyHitData>();
     // The Room Geometry
     public List<Vector3> zonePoints = new List<Vector3>(); // From ZoneTool
     public Vector3 breachPointPosition;                    // From CoordinateMarker
@@ -37,7 +37,8 @@ public class SessionManager : MonoBehaviour
         {
             activeEnemies.Add(enemy);
             EnemyHitData enemyHitData = new EnemyHitData();
-            enemyHits.Add(enemy, enemyHitData);
+            string enemyName = enemy.name;
+            enemyHits.Add(enemyName, enemyHitData);
         }
             
         
@@ -47,7 +48,7 @@ public class SessionManager : MonoBehaviour
         if (activeEnemies.Contains(enemy))
         { 
             activeEnemies.Remove(enemy);
-            enemyHits.Remove(enemy);
+            enemyHits.Remove(enemy.name);
         }
     }
 

@@ -24,6 +24,7 @@ public class AppManager : MonoBehaviour
     public GridRecorder gridRecorder;
     public AAR_Visualizer aarVisualizer;
     public AAR_ReportCard aarReportCard;
+    public AARManager aarManager;
 
     [Header("Exceptions")]
     // 1. Vision Scanner (Head)

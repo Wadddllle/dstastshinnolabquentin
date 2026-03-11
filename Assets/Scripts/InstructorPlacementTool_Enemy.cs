@@ -163,6 +163,7 @@ public class InstructorPlacementTool_Enemy : MonoBehaviour
                 {
                     ClearHover(); // Reset color before destroying!
                     Destroy(root);
+                    SessionManager.Instance.UnregisterEnemy(root);
                 }
             }
             // CHECK: Is it the Floor?

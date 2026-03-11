@@ -9,7 +9,7 @@ public class AARState : BaseState
 
         // 1. Swap Roots
         Manager.SetActiveRoot(Manager.AARRoot);
-
+        Manager.aarManager.Refresh();
         // 2. Get the Folder Path (The new way)
         string folderPath = SessionManager.Instance.lastSessionFolderPath;
 
@@ -38,6 +38,9 @@ public class AARState : BaseState
         // Restart logic
         if (OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.LTouch))
         {
+            SessionManager.Instance.activeEnemies.Clear();
+            SessionManager.Instance.activeHostages.Clear();
+            SessionManager.Instance.enemyHits.Clear();
             Manager.ChangeState(new InstructorState());
         }
     }

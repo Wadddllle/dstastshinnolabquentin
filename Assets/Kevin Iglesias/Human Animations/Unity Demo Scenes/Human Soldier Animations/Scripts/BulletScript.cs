@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem.HID;
 
 public class Bullet : MonoBehaviour
 {
@@ -62,17 +63,17 @@ public class Bullet : MonoBehaviour
         {
             ContactPoint contact = collision.GetContact(0);
             Health target = collision.gameObject.transform.GetComponentInParent<Health>();
-            GameObject enemyId = target.gameObject;
+            string enemyId = target.gameObject.name;
+            EnemyHitData hitData = SessionManager.Instance.enemyHits[enemyId];
 
-            if (target != null)
+            if (target != null && hitData != null)
             {
-                EnemyHitData hitData = SessionManager.Instance.enemyHits[enemyId];
                 hitData.hitCount++;
 
                 if (collision.gameObject.CompareTag("Head"))
                 {
                     target.TakeDmg(dmg); //headshot guarantee full dmg
-                    hitData.headShot = true;
+                    hitData.headShot++;
                     if (GridRecorder.Instance != null)
                         GridRecorder.Instance.LogEvent("HIT", $"Headshot on: {target.gameObject.name}", contact.point);
                 }
@@ -81,21 +82,28 @@ public class Bullet : MonoBehaviour
                     if (Random.value <= 0.7f) //bodyshot 30% chance of reduced dmg
                         target.TakeDmg(dmg); //take 50dmg 70% of the time
                     else
-                        target.TakeDmg(dmg*0.5f); //take 25dmg 30% of the time
-                    hitData.bodyShot = true; 
+                        target.TakeDmg(dmg * 0.5f); //take 25dmg 30% of the time
+                    hitData.bodyShot++;
                     if (GridRecorder.Instance != null)
                         GridRecorder.Instance.LogEvent("HIT", $"Bodyshot on: {target.gameObject.name}", contact.point);
                 }
                 else if (collision.gameObject.CompareTag("Leg"))
                 {
-                    target.TakeDmg(dmg*0.5f); //limbshot x0.5 dmg
-                    hitData.legShot = true;
+                    target.TakeDmg(dmg * 0.5f); //limbshot x0.5 dmg
+                    hitData.legShot++;
                     if (GridRecorder.Instance != null)
                         GridRecorder.Instance.LogEvent("HIT", $"Legshot on: {target.gameObject.name}", contact.point);
                 }
                 GameObject bloodSplatter = Instantiate(bloodSplatterPrefab, contact.point, Quaternion.LookRotation(contact.normal));
-                Destroy(gameObject);    
+                Destroy(gameObject);
             }
+            else
+                Debug.Log("no health component or no hitdata");
+            Debug.Log(enemyId);
+            Debug.Log("hit count = " + hitData.hitCount);
+            Debug.Log("headshots = " + hitData.headShot);
+            Debug.Log("bodyshots = " + hitData.bodyShot);
+            Debug.Log("legshots = " + hitData.legShot);
         }
 
         else if (collision.gameObject.layer == hostageLayerId && shooter.CompareTag("PlayerProjectiles")) //hostage, which can only be shot by the player
