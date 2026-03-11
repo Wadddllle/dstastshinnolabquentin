@@ -12,6 +12,8 @@ public class CanvasLogic : MonoBehaviour
     public Transform playerHead;
     public AppManager appManager;
     public EnemySpawnManager spawnManager;
+    public GameObject ReadyScreenCanvas;
+    public GameObject InstructorSetupCanvas;
 
     [Header("UI Components")]
     public TMP_Dropdown myDropdown;
@@ -31,6 +33,7 @@ public class CanvasLogic : MonoBehaviour
 
     // Internal State
     private bool _isCheckingPosition = false;
+    public bool readyScreen = false;
 
     void Start()
     {
@@ -43,6 +46,11 @@ public class CanvasLogic : MonoBehaviour
         {
             instructionText.gameObject.SetActive(false);
             instructionText.text = "Move to Breach Point...";
+        }
+
+        if (ReadyScreenCanvas != null)
+        {
+            ReadyScreenCanvas.SetActive(false);
         }
     }
 
@@ -168,14 +176,20 @@ public class CanvasLogic : MonoBehaviour
             {
                 mRUKAnchorManager.ToggleFloorVisibility(false);
             }
-
-            instructorState.FinishSetup();
-            
+            InstructorSetupCanvas.SetActive(false);
+            ReadyScreenCanvas.SetActive(true);
+            readyScreen = true;
         }
         else
         {
             Debug.LogError("Error: We are not in InstructorState, cannot Finish Setup!");
         }
+    }
+
+    public void OnGoButtonClick()
+    {
+        if (appManager._currentState is InstructorState instructorState)
+            instructorState.FinishSetup();
     }
 
     public void MeshToggle(bool isOn)

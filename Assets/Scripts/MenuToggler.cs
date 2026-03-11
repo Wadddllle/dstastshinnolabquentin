@@ -5,6 +5,7 @@ public class MenuToggler : MonoBehaviour
     [Header("Assign in Inspector")]
     public GameObject canvasRoot;   // The Canvas you want to show/hide
     public Transform headCamera;    // Your 'CenterEyeAnchor'
+    public CanvasLogic canvasLogic;
 
     [Header("Settings")]
     public float distance = 0.5f;   // How far away it spawns
@@ -19,7 +20,7 @@ public class MenuToggler : MonoBehaviour
     void Update()
     {
         // OVRInput.Button.One maps to 'A' on Right Controller (or 'X' on Left)
-        if (OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.RTouch))
+        if (OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.RTouch) && !canvasLogic.readyScreen)
         {
             ToggleMenu();
         }
