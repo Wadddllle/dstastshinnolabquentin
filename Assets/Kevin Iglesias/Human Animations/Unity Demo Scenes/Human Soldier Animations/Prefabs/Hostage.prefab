@@ -700,7 +700,7 @@ PrefabInstance:
     - target: {fileID: 5866666021909216657, guid: 2faa610713d3b3c439473daa55e8c60a, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 051182eb82bed9e4cb3be8bf1da69a0e, type: 2}
+      objectReference: {fileID: 9100000, guid: 93db59747a4d7a74db83f756688755fa, type: 2}
     - target: {fileID: 5866666021909216657, guid: 2faa610713d3b3c439473daa55e8c60a, type: 3}
       propertyPath: m_ApplyRootMotion
       value: 0
@@ -1046,7 +1046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1944922009303078137}
-  equippedWeapon: 1
+  equippedWeapon: 0
   position: 0
   action: 0
   movement: 0
@@ -1094,6 +1094,9 @@ MonoBehaviour:
   currentHealth: 0
   maxHealth: 100
   DestroyParticle: {fileID: 3187283609441800976, guid: 04c3686bd919d1741a712e39f3636291, type: 3}
+  envLayerName: Environment
+  enemyLayerName: Enemy
+  hostageLayerName: Hostage
 --- !u!195 &-1592600354374142537
 NavMeshAgent:
   m_ObjectHideFlags: 0

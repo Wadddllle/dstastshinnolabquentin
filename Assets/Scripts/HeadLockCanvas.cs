@@ -24,7 +24,7 @@ public class HeadLockCanvas : MonoBehaviour
     void Update()
     {
         Vector2 leftJoystick = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick,OVRInput.Controller.LTouch);
-        Vector2 rightJoystick = OVRInput.Get(OVRInput.Axis2D.SecondaryThumbstick, OVRInput.Controller.RTouch);
+        Vector2 rightJoystick = OVRInput.Get(OVRInput.Axis2D.SecondaryThumbstick);
         float horizontalInput = leftJoystick.x;
         float verticalInput = leftJoystick.y;
         float forwardInput = rightJoystick.y;
@@ -35,8 +35,8 @@ public class HeadLockCanvas : MonoBehaviour
         verticalOffset += verticalInput * scrollSpeed * Time.deltaTime;
         verticalOffset = Mathf.Clamp(verticalOffset, -maxOffset_V, maxOffset_V);
 
-        /*distanceFromCamera += forwardInput * scrollSpeed * Time.deltaTime;
-        distanceFromCamera = Mathf.Clamp(distanceFromCamera, distanceFromCamera_default-maxOffset_F, distanceFromCamera_default+maxOffset_F);*/
+        distanceFromCamera += forwardInput * scrollSpeed * Time.deltaTime;
+        distanceFromCamera = Mathf.Clamp(distanceFromCamera, distanceFromCamera_default-maxOffset_F, distanceFromCamera_default+maxOffset_F);
     }
     void LateUpdate()
     {

@@ -34,9 +34,11 @@ public class CanvasLogic : MonoBehaviour
     // Internal State
     private bool _isCheckingPosition = false;
     public bool readyScreen = false;
+    public static CanvasLogic Instance;
 
     void Start()
     {
+        Instance = this;
         if (myDropdown != null)
         {
             OnDropdownChange(myDropdown.value);

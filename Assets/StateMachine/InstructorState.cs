@@ -12,6 +12,9 @@ public class InstructorState : BaseState
         // 2. Data Cleanup
         Manager.tacticalGrid.ClearGrid();
 
+        CanvasLogic.Instance.readyScreen = false;
+        CanvasLogic.Instance.ReadyScreenCanvas.SetActive(false);
+
         var dropdowns = GameObject.FindObjectsByType<TMPro.TMP_Dropdown>(FindObjectsSortMode.None);
         foreach (var dropdown in dropdowns)
         {

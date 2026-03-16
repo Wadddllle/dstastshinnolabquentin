@@ -21388,6 +21388,7 @@ MonoBehaviour:
   maxOffset_V: 1
   maxOffset_F: 1
   scrollSpeed: 1
+  aarManager: {fileID: 930164343}
 --- !u!114 &930164343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38731,7 +38732,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1698915882
 RectTransform:
   m_ObjectHideFlags: 0
@@ -38795,6 +38796,7 @@ MonoBehaviour:
   maxOffset_V: 0
   maxOffset_F: 0
   scrollSpeed: 0
+  aarManager: {fileID: 0}
 --- !u!114 &1698915885
 MonoBehaviour:
   m_ObjectHideFlags: 0
