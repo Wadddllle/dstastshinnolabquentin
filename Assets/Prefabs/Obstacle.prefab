@@ -16,9 +16,10 @@ GameObject:
   - component: {fileID: 2283047484827559210}
   - component: {fileID: 1414347507818240254}
   - component: {fileID: 6445688298540594731}
+  - component: {fileID: 1358839341590580807}
   m_Layer: 8
   m_Name: Obstacle
-  m_TagString: Untagged
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -251,3 +252,18 @@ MonoBehaviour:
         Min: 1
         Max: 1
   _resetScaleResponsivenessOnConstraintOvershoot: 0
+--- !u!114 &1358839341590580807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7529445195672962984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a406d64c08828545ab20fec0c272877, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  currentHealth: 0
+  maxHealth: 100
+  DestroyParticle: {fileID: 3187283609441800976, guid: c361d858ac7f3c04a8b428faece279ff, type: 3}

@@ -21,6 +21,7 @@ public class ObstacleTool : MonoBehaviour
     [Header("Tuning")]
     public float rayDistance = 20f;
     public float extrudeSensitivity = 1.0f;
+    public float rotateSpeed = 100f;
 
     // --- State ---
     private GameObject _currentObject;
@@ -120,6 +121,7 @@ public class ObstacleTool : MonoBehaviour
             if (IsInLayerMask(hitObj.layer, obstacleLayer))
             {
                 HandleHover(hitObj);
+                HandleRotation(hitObj);
 
                 if (_ghost) _ghost.SetActive(false);
 
@@ -287,12 +289,7 @@ public class ObstacleTool : MonoBehaviour
         _faceHighlighter.transform.localScale = quadScale;
     }
 
-    //void PlaceNewObstacle(Vector3 point)
-    //{
-    //    Vector3 spawnPos = point + (Vector3.up * 0.5f);
-    //    GameObject obj = Instantiate(obstaclePrefab, spawnPos, Quaternion.identity);
-    //    SetupInteractionComponents(obj);
-    //}
+ 
     void PlaceNewObstacle(Vector3 point)
     {
         // 1. Calculate Spawn Position
@@ -402,6 +399,20 @@ public class ObstacleTool : MonoBehaviour
             r.material = gMat;
         }
         _ghost.SetActive(false);
+    }
+    void HandleRotation(GameObject obs)
+    {
+        if (obs == null) return;
+
+        Vector2 leftJoystick = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick);
+        float horizontalInput = leftJoystick.x;
+        float verticalInput = leftJoystick.y;
+
+        if (Mathf.Abs(horizontalInput) > 0.1f)
+            obs.transform.Rotate(Vector3.up, horizontalInput * rotateSpeed * Time.deltaTime);
+        
+        if (Mathf.Abs(verticalInput) > 0.1f)
+            obs.transform.Rotate(-Vector3.right, verticalInput * rotateSpeed * Time.deltaTime);
     }
     bool IsInLayerMask(int layer, LayerMask mask) => (mask == (mask | (1 << layer)));
 }

@@ -3,6 +3,7 @@ using UnityEngine;
 public class EnemyMarker : MonoBehaviour
 {
     Collider collider;
+    Renderer renderer;
     private bool useAlr;
     public GameObject enemyPrefab;
     public EnemyConfig enemyConfig;
@@ -13,6 +14,7 @@ public class EnemyMarker : MonoBehaviour
     void Start()
     {
         collider = GetComponent<Collider>();
+        renderer = GetComponent<Renderer>();
     }
     // Update is called once per frame
     void Update()
@@ -20,19 +22,23 @@ public class EnemyMarker : MonoBehaviour
         if (AppManager.Instance.IsInstructorState())
         {
             collider.enabled = true;
+            renderer.enabled = true;
+
             if (useAlr == true)
                 useAlr = false;
         }  
         else if (AppManager.Instance.IsTraineeState())
         {
             collider.enabled = false;
+            renderer.enabled = false;
 
             if (useAlr == false)
             {
                 useAlr = true;
                 if (Random.value <= chance)
                 {
-                    GameObject enemy = Instantiate(enemyPrefab, transform.position, Quaternion.identity);
+                    Quaternion randomRot = Quaternion.Euler(0, Random.Range(0f, 360f), 0);
+                    GameObject enemy = Instantiate(enemyPrefab, transform.position, randomRot);
 
                     // 3. Give it a Unique Name (Critical for JSON saving)
                     enemy.name = $"Target_{System.DateTime.Now.Ticks % 10000}"; // e.g., Target_4921

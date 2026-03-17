@@ -24243,7 +24243,7 @@ MonoBehaviour:
     m_Bits: 576
   obstacleLayer:
     serializedVersion: 2
-    m_Bits: 2304
+    m_Bits: 256
   highlightMaterial: {fileID: 2100000, guid: cb35f24cf32c9e044bddd60f360c7e41, type: 2}
   faceHighlightMaterial: {fileID: 2100000, guid: 6a8a207fc5734e541b537b969e763528, type: 2}
   rayDistance: 20
@@ -37886,7 +37886,7 @@ MonoBehaviour:
   verticalOffset: 0
   floorLayer:
     serializedVersion: 2
-    m_Bits: 3904
+    m_Bits: 576
   enemyLayer:
     serializedVersion: 2
     m_Bits: 128

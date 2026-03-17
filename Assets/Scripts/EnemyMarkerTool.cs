@@ -9,10 +9,18 @@ public class EnemyMarkerTool : MonoBehaviour
     public OVRInput.Controller controllerType = OVRInput.Controller.RTouch;
     public MarkerConfig config;
 
+    private GameObject _previewMarker;
+    private GameObject _confirmedMarker;
 
     void Update()
     {
-        // Trigger RELEASE: Lock it in
+        // 1. Trigger HOLD: Show the "Preview" marker
+        if (OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger, controllerType))
+        {
+            ShowPreview();
+        }
+
+        // 2. Trigger RELEASE: Lock it in
         if (OVRInput.GetUp(OVRInput.Button.PrimaryIndexTrigger, controllerType))
         {
             ConfirmLocation();
@@ -23,30 +31,66 @@ public class EnemyMarkerTool : MonoBehaviour
             DeleteMarkerLookedAt();
         }
     }
-
-    void ConfirmLocation()
+    void ShowPreview()
     {
         Ray ray = new Ray(controllerTransform.position, controllerTransform.forward);
         RaycastHit hit;
-        if (Physics.Raycast(ray, out hit, 100f, floorLayer) && Vector3.Dot(Vector3.up,hit.normal) >= 0.707f)
+
+        if (Physics.Raycast(ray, out hit, 100f, floorLayer) && Vector3.Angle(Vector3.up, hit.normal) <= 30f)
         {
+            // Create Preview if needed
+            if (_previewMarker == null)
+            {
+                
+                _previewMarker = Instantiate(markerPrefab);
+
+                Renderer r = _previewMarker.GetComponent<Renderer>();
+                if (r)
+                {
+                    r.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
+                    r.receiveShadows = false; // Optional
+                }
+            }
+
             Vector3 offsetPosition = hit.point + (hit.normal * 0.03f);
-            GameObject marker = Instantiate(markerPrefab, offsetPosition, Quaternion.LookRotation(-hit.normal));
-            marker.name = $"SpawnPoint_{System.DateTime.Now.Ticks % 10000}"; // e.g., Target_4921
+            _previewMarker.transform.position = offsetPosition;
+            _previewMarker.transform.rotation = Quaternion.LookRotation(-hit.normal);
 
-            if (SessionManager.Instance != null) 
-                SessionManager.Instance.RegisterSpawnPoint(marker);
+            _previewMarker.SetActive(true);
+        }
+        else
+        {
+            // Hide if aiming at sky
+            if (_previewMarker != null) _previewMarker.SetActive(false);
+        }
+    }
+    void ConfirmLocation()
+    {
+        if (_previewMarker != null && _previewMarker.activeSelf)
+        {
+            _confirmedMarker = _previewMarker;
+            _previewMarker = null;
+            _confirmedMarker.name = $"SpawnPoint_{System.DateTime.Now.Ticks % 10000}"; // e.g., Target_4921
 
-            Renderer r = marker.GetComponent<Renderer>();
+            if (SessionManager.Instance != null)
+                SessionManager.Instance.RegisterSpawnPoint(_confirmedMarker);
+
+            Renderer r = _confirmedMarker.GetComponent<Renderer>();
             if (r)
             {
                 r.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
                 r.receiveShadows = false; // Optional
             }
-            EnemyMarker enemymarker = marker.GetComponent<EnemyMarker>();
+            EnemyMarker enemymarker = _confirmedMarker.GetComponent<EnemyMarker>();
             if (enemymarker != null)
                 enemymarker.ApplyMarkerConfig(config);
-        }  
+        }
+        else if (_previewMarker != null)
+        {
+            // We let go of the trigger while looking at the sky -> Cancel
+            Destroy(_previewMarker);
+            _previewMarker = null;
+        }
     }
         
     void DeleteMarkerLookedAt()

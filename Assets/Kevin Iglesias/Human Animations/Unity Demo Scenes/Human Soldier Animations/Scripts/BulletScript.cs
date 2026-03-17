@@ -31,13 +31,13 @@ public class Bullet : MonoBehaviour
             return;
         hasHit = true;
         
-        if (collision.gameObject.CompareTag("Destructable")) //destructable terrain/objects
+        if (collision.gameObject.CompareTag("Destructable") && shooter.CompareTag("PlayerProjectiles")) //destructable terrain/objects
         {
             ContactPoint contact = collision.GetContact(0);
             Health target = collision.gameObject.transform.GetComponent<Health>();
             if (target != null)
             {
-                target.TakeDmg(dmg);
+                target.TakeDmg(dmg*0.4f); //20dmg oer shot
                 if (target.currentHealth <= 0)
                     Destroy(collision.gameObject);
                 GameObject explosion = Instantiate(explosionPrefab, contact.point, Quaternion.LookRotation(contact.normal));
@@ -97,13 +97,7 @@ public class Bullet : MonoBehaviour
                 GameObject bloodSplatter = Instantiate(bloodSplatterPrefab, contact.point, Quaternion.LookRotation(contact.normal));
                 Destroy(gameObject);
             }
-            else
-                Debug.Log("no health component or no hitdata");
-            Debug.Log(enemyId);
-            Debug.Log("hit count = " + hitData.hitCount);
-            Debug.Log("headshots = " + hitData.headShot);
-            Debug.Log("bodyshots = " + hitData.bodyShot);
-            Debug.Log("legshots = " + hitData.legShot);
+            
         }
 
         else if (collision.gameObject.layer == hostageLayerId && shooter.CompareTag("PlayerProjectiles")) //hostage, which can only be shot by the player

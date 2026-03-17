@@ -24138,7 +24138,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -876546973899608171, guid: d7288f66e4fb0634c9afef98c31b722a, type: 3}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24243,12 +24243,11 @@ MonoBehaviour:
     m_Bits: 576
   obstacleLayer:
     serializedVersion: 2
-    m_Bits: 2304
+    m_Bits: 256
   highlightMaterial: {fileID: 2100000, guid: cb35f24cf32c9e044bddd60f360c7e41, type: 2}
   faceHighlightMaterial: {fileID: 2100000, guid: 6a8a207fc5734e541b537b969e763528, type: 2}
   rayDistance: 20
   extrudeSensitivity: 1
-  rotateSpeed: 100
 --- !u!4 &1025977751
 Transform:
   m_ObjectHideFlags: 0
@@ -31537,7 +31536,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -876546973899608171, guid: d7288f66e4fb0634c9afef98c31b722a, type: 3}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -31647,7 +31646,6 @@ MonoBehaviour:
   highlightMaterial: {fileID: 2100000, guid: cb35f24cf32c9e044bddd60f360c7e41, type: 2}
   ghostColor: {r: 0, g: 1, b: 0, a: 0.5}
   hostageConfig: {fileID: 11400000, guid: eae5916870498eb4a9c1f1149b31a763, type: 2}
-  rotateSpeed: 100
 --- !u!1 &1366308675
 GameObject:
   m_ObjectHideFlags: 0
@@ -37784,7 +37782,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -876546973899608171, guid: d7288f66e4fb0634c9afef98c31b722a, type: 3}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -37886,16 +37884,14 @@ MonoBehaviour:
   verticalOffset: 0
   floorLayer:
     serializedVersion: 2
-    m_Bits: 3904
+    m_Bits: 576
   enemyLayer:
     serializedVersion: 2
     m_Bits: 128
   rayDistance: 20
   highlightMaterial: {fileID: 2100000, guid: cb35f24cf32c9e044bddd60f360c7e41, type: 2}
   ghostColor: {r: 0.20901564, g: 0.7264151, b: 0.20901564, a: 0.5}
-  reapplyConfigColor: {r: 0, g: 1, b: 0.93108916, a: 1}
   enemyConfig: {fileID: 11400000, guid: eae5916870498eb4a9c1f1149b31a763, type: 2}
-  rotateSpeed: 100
 --- !u!4 &1665242163
 Transform:
   m_ObjectHideFlags: 0
@@ -38997,7 +38993,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -876546973899608171, guid: d7288f66e4fb0634c9afef98c31b722a, type: 3}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -47951,7 +47947,7 @@ MonoBehaviour:
   distance: 5
   layers:
     serializedVersion: 2
-    m_Bits: 1073748928
+    m_Bits: 2624
   laserDot: {fileID: 1992854903}
 --- !u!120 &2023603818
 LineRenderer:
@@ -47979,7 +47975,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -876546973899608171, guid: d7288f66e4fb0634c9afef98c31b722a, type: 3}
+  - {fileID: 2100000, guid: f0d16396e840d534aa085e8f2c700786, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -48033,9 +48029,9 @@ LineRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.16862746, g: 0.5210339, b: 0.7254902, a: 0.88235295}
+      key0: {r: 0.16862746, g: 0.5210339, b: 0.7254902, a: 0.54901963}
       key1: {r: 1, g: 0, b: 0, a: 1}
-      key2: {r: 0, g: 0, b: 0, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
@@ -48051,7 +48047,7 @@ LineRenderer:
       ctime7: 0
       atime0: 0
       atime1: 65535
-      atime2: 65535
+      atime2: 0
       atime3: 0
       atime4: 0
       atime5: 0

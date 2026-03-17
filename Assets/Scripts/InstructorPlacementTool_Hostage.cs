@@ -23,6 +23,9 @@ public class InstructorPlacementTool_Hostage : MonoBehaviour
     [Header("Hostage Config")]
     public EnemyConfig hostageConfig;
 
+    [Header("Rotate Speed")]
+    public float rotateSpeed = 100f;
+
     // Internal State
     private GameObject _currentDraggedObject;
     private GameObject _hoveredObject;
@@ -153,6 +156,7 @@ public class InstructorPlacementTool_Hostage : MonoBehaviour
 
                 // Highlight Logic
                 HandleHostageHover(root);
+                HandleRotation(root);
 
                 // Inputs
                 if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, controller))
@@ -301,6 +305,18 @@ public class InstructorPlacementTool_Hostage : MonoBehaviour
 
             _hoveredObject = null;
             _originalMaterial = null;
+        }
+    }
+    void HandleRotation(GameObject enemy)
+    {
+        if (enemy == null) return;
+
+        Vector2 leftJoystick = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick);
+        float rotateInput = leftJoystick.x;
+
+        if (Mathf.Abs(rotateInput) > 0.01f)
+        {
+            enemy.transform.Rotate(Vector3.up, rotateInput * rotateSpeed * Time.deltaTime);
         }
     }
 

@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 [RequireComponent(typeof(LineRenderer))]
@@ -19,9 +20,13 @@ public class InstructorPlacementTool_Enemy : MonoBehaviour
     [Header("Visuals")]
     public Material highlightMaterial; // The Yellow transparent material
     public Color ghostColor = new Color(0, 1, 0, 0.5f); // Green transparent for ghost
+    public Color reapplyConfigColor; // For when config is reapplied
 
     [Header("Enemy Config")]
     public EnemyConfig enemyConfig;
+
+    [Header("Rotate Speed")]
+    public float rotateSpeed = 100f;
 
     // Internal State
     private GameObject _currentDraggedObject;
@@ -152,22 +157,32 @@ public class InstructorPlacementTool_Enemy : MonoBehaviour
 
                 // Highlight Logic
                 HandleEnemyHover(root);
+                HandleRotation(root);
 
                 // Inputs
                 if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, controller))
                 {
                     _currentDraggedObject = root;
                 }
-
+                if (OVRInput.GetDown(OVRInput.Button.Three))
+                {
+                    EnemyAI enemyAI = root.GetComponent<EnemyAI>();
+                    if (enemyAI != null && enemyConfig != null)
+                    {
+                        enemyAI.ApplyConfig(enemyConfig);
+                        FlashColor(reapplyConfigColor, 0.5f);
+                    }
+                }
                 if (OVRInput.GetDown(OVRInput.Button.Two, controller)) // B Button
                 {
                     ClearHover(); // Reset color before destroying!
                     Destroy(root);
                     SessionManager.Instance.UnregisterEnemy(root);
                 }
+ 
             }
             // CHECK: Is it the Floor?
-            else if (((1 << hit.collider.gameObject.layer) & floorLayer) != 0)
+            else if (((1 << hit.collider.gameObject.layer) & floorLayer) != 0 && Vector3.Angle(Vector3.up, hit.normal) <= 30f)
             {
                 // Ray Color (Green = Can Place)
                 _lineRenderer.startColor = Color.green;
@@ -186,14 +201,22 @@ public class InstructorPlacementTool_Enemy : MonoBehaviour
 
                 if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, controller))
                 {
-                    PlaceNewObject(hit.point);
+                    PlaceNewObject(_placementGhost.transform.position);
                 }
+            }
+            else
+            {
+                // Hit Invalid
+                if (_placementGhost)
+                    _placementGhost.SetActive(false);
+                ClearHover();
             }
         }
         else
         {
-            // Hit Nothing (Sky)
-            if (_placementGhost) _placementGhost.SetActive(false);
+            // Hit Nothing
+            if (_placementGhost) 
+                _placementGhost.SetActive(false);
             ClearHover();
         }
 
@@ -235,7 +258,6 @@ public class InstructorPlacementTool_Enemy : MonoBehaviour
         if (enemyAI != null && enemyConfig != null)
         {
             enemyAI.ApplyConfig(enemyConfig);
-
         }
 
     }
@@ -301,6 +323,41 @@ public class InstructorPlacementTool_Enemy : MonoBehaviour
             _hoveredObject = null;
             _originalMaterial = null;
         }
+    }
+    void HandleRotation(GameObject enemy)
+    {
+        if (enemy == null) return;
+
+        Vector2 leftJoystick = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick);
+        float rotateInput = leftJoystick.x;
+
+        if (Mathf.Abs(rotateInput) > 0.01f)
+        {
+            enemy.transform.Rotate(Vector3.up, rotateInput * rotateSpeed * Time.deltaTime);
+        }
+    }
+
+    void FlashColor(Color color, float duration)
+    {
+        StartCoroutine(FlashCoroutine(color, duration));
+    }
+
+    IEnumerator FlashCoroutine(Color color, float duration)
+    {
+        Renderer rend = null;
+        var targetScript = _hoveredObject.GetComponent<EnemyAI>();
+
+        if (targetScript != null && targetScript.mainRenderer != null)
+            rend = targetScript.mainRenderer;
+        else
+            // 2. Fallback: Check children if script is missing
+            rend = _hoveredObject.GetComponentInChildren<Renderer>();
+
+        rend.material.color = color;
+
+        yield return new WaitForSeconds(duration);
+
+        rend.material.color = _originalMaterial.color;
     }
 
     // Add this anywhere in the class
