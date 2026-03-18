@@ -197,12 +197,11 @@ public class InstructorPlacementTool_Enemy : MonoBehaviour
                     // Apply Height Offset to Ghost
                     _placementGhost.transform.position = hit.point + (Vector3.up * (verticalOffset + 0.02f));
                     _placementGhost.transform.rotation = Quaternion.identity;
-                }
-
-                if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, controller))
-                {
-                    PlaceNewObject(_placementGhost.transform.position);
-                }
+                    if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, controller))
+                    {
+                        PlaceNewObject(_placementGhost.transform.position);
+                    }
+                }  
             }
             else
             {
