@@ -21567,7 +21567,7 @@ GameObject:
   - component: {fileID: 934220236}
   - component: {fileID: 934220235}
   m_Layer: 0
-  m_Name: Shooty button thingy
+  m_Name: Player Shoot Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
