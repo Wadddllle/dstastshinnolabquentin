@@ -15,7 +15,7 @@ public class EnemyConfig : ScriptableObject
     [Range(3f, 10f)]
     public float attackRange = 4f;
 
-    [Range(0f, 90f)]
+    [Range(30f, 60f)]
     public float peripheralAngle = 45f; //deg
 
     [Header("Bullet")]
